@@ -4,12 +4,12 @@ using Xamarin.Forms;
 
 namespace NutritionApp.Views
 {
-    public partial class ItemDetailPage : ContentPage
+    public partial class ProfileDetailPage : ContentPage
     {
-        public ItemDetailPage()
+        public ProfileDetailPage()
         {
             InitializeComponent();
-            BindingContext = new ItemDetailViewModel();
+            BindingContext = new ProfileDetailViewModel();
         }
     }
 }

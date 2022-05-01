@@ -5,9 +5,9 @@ using Xamarin.Forms.Xaml;
 
 namespace NutritionApp.Views
 {
-    public partial class AboutPage : ContentPage
+    public partial class IndexPage : ContentPage
     {
-        public AboutPage()
+        public IndexPage()
         {
             InitializeComponent();
         }

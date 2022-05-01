@@ -1,0 +1,27 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<ContentPage xmlns="http://xamarin.com/schemas/2014/forms"
+             xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+             x:Class="NutritionApp.Views.IndexPage"
+             xmlns:vm="clr-namespace:NutritionApp.ViewModels"
+             Title="{Binding Title}">
+    
+    <!-- binds IndexViewModel to IndexPage -->
+    <ContentPage.BindingContext>
+        <vm:IndexViewModel />
+    </ContentPage.BindingContext>
+
+    <!-- resource dictionary for index page -->
+    <ContentPage.Resources>
+        <ResourceDictionary>
+            <Color x:Key="Accent">#96d1ff</Color>
+        </ResourceDictionary>
+    </ContentPage.Resources>
+
+    <!-- index page content -->
+    <Grid>
+        <ContentView Padding="0,0,0,0">
+            <Image Source="fruit.png" Aspect="AspectFill" HeightRequest="64" />
+        </ContentView>
+    </Grid>
+
+</ContentPage>
