@@ -11,8 +11,8 @@ namespace NutritionApp
         public AppShell()
         {
             InitializeComponent();
-            Routing.RegisterRoute(nameof(ItemDetailPage), typeof(ItemDetailPage));
-            Routing.RegisterRoute(nameof(NewItemPage), typeof(NewItemPage));
+            Routing.RegisterRoute(nameof(ProfileDetailPage), typeof(ProfileDetailPage));
+            Routing.RegisterRoute(nameof(NewProfilePage), typeof(NewProfilePage));
         }
 
     }

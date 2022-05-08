@@ -5,11 +5,11 @@ using Xamarin.Forms;
 
 namespace NutritionApp.ViewModels
 {
-    public class AboutViewModel : BaseViewModel
+    public class IndexViewModel : BaseViewModel
     {
-        public AboutViewModel()
+        public IndexViewModel()
         {
-            Title = "About";
+            Title = "Home";
             OpenWebCommand = new Command(async () => await Browser.OpenAsync("https://aka.ms/xamarin-quickstart"));
         }
 

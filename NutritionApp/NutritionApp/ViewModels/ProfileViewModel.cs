@@ -8,7 +8,7 @@ using Xamarin.Forms;
 
 namespace NutritionApp.ViewModels
 {
-    public class ItemsViewModel : BaseViewModel
+    public class ProfileViewModel : BaseViewModel
     {
         private Item _selectedItem;
 
@@ -17,7 +17,7 @@ namespace NutritionApp.ViewModels
         public Command AddItemCommand { get; }
         public Command<Item> ItemTapped { get; }
 
-        public ItemsViewModel()
+        public ProfileViewModel()
         {
             Title = "Browse";
             Items = new ObservableCollection<Item>();
@@ -69,7 +69,7 @@ namespace NutritionApp.ViewModels
 
         private async void OnAddItem(object obj)
         {
-            await Shell.Current.GoToAsync(nameof(NewItemPage));
+            await Shell.Current.GoToAsync(nameof(NewProfilePage));
         }
 
         async void OnItemSelected(Item item)
@@ -78,7 +78,7 @@ namespace NutritionApp.ViewModels
                 return;
 
             // This will push the ItemDetailPage onto the navigation stack
-            await Shell.Current.GoToAsync($"{nameof(ItemDetailPage)}?{nameof(ItemDetailViewModel.ItemId)}={item.Id}");
+            await Shell.Current.GoToAsync($"{nameof(ProfilePage)}?{nameof(ProfileDetailViewModel.ItemId)}={item.Id}");
         }
     }
 }

@@ -7,7 +7,7 @@ using Xamarin.Forms;
 namespace NutritionApp.ViewModels
 {
     [QueryProperty(nameof(ItemId), nameof(ItemId))]
-    public class ItemDetailViewModel : BaseViewModel
+    public class ProfileDetailViewModel : BaseViewModel
     {
         private string itemId;
         private string text;
