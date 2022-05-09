@@ -6,55 +6,56 @@ using System.Threading.Tasks;
 
 namespace NutritionApp.Services
 {
-    public class MockDataStore : IDataStore<Item>
+    public class MockDataStore : IDataStore<Profile>
     {
-        readonly List<Item> items;
+        readonly List<Profile> profiles;
 
         public MockDataStore()
         {
-            items = new List<Item>()
+            profiles = new List<Profile>()
             {
-                new Item { Id = Guid.NewGuid().ToString(), Text = "First item", Description="This is an item description." },
-                new Item { Id = Guid.NewGuid().ToString(), Text = "Second item", Description="This is an item description." },
-                new Item { Id = Guid.NewGuid().ToString(), Text = "Third item", Description="This is an item description." },
-                new Item { Id = Guid.NewGuid().ToString(), Text = "Fourth item", Description="This is an item description." },
-                new Item { Id = Guid.NewGuid().ToString(), Text = "Fifth item", Description="This is an item description." },
-                new Item { Id = Guid.NewGuid().ToString(), Text = "Sixth item", Description="This is an item description." }
+                new Profile { Id = Guid.NewGuid().ToString(), Name = "Dani JS", Gender="F"},
+                new Profile { Id = Guid.NewGuid().ToString(), Name = "Zach H", Gender="M"}
+
             };
         }
 
-        public async Task<bool> AddItemAsync(Item item)
+        // create profile
+        public async Task<bool> AddProfileAsync(Profile item)
         {
-            items.Add(item);
+            profiles.Add(item);
 
             return await Task.FromResult(true);
         }
 
-        public async Task<bool> UpdateItemAsync(Item item)
+        // update profile
+        public async Task<bool> UpdateProfileAsync(Profile item)
         {
-            var oldItem = items.Where((Item arg) => arg.Id == item.Id).FirstOrDefault();
-            items.Remove(oldItem);
-            items.Add(item);
+            var oldItem = profiles.Where((Profile arg) => arg.Id == item.Id).FirstOrDefault();
+            profiles.Remove(oldItem);
+            profiles.Add(item);
 
             return await Task.FromResult(true);
         }
 
-        public async Task<bool> DeleteItemAsync(string id)
+        // delete profile
+        public async Task<bool> DeleteProfileAsync(string id)
         {
-            var oldItem = items.Where((Item arg) => arg.Id == id).FirstOrDefault();
-            items.Remove(oldItem);
+            var oldItem = profiles.Where((Profile arg) => arg.Id == id).FirstOrDefault();
+            profiles.Remove(oldItem);
 
             return await Task.FromResult(true);
         }
 
-        public async Task<Item> GetItemAsync(string id)
+        public async Task<Profile> GetProfileAsync(string id)
         {
-            return await Task.FromResult(items.FirstOrDefault(s => s.Id == id));
+            return await Task.FromResult(profiles.FirstOrDefault(s => s.Id == id));
         }
 
-        public async Task<IEnumerable<Item>> GetItemsAsync(bool forceRefresh = false)
+        public async Task<IEnumerable<Profile>> GetProfilesAsync(bool forceRefresh = false)
         {
-            return await Task.FromResult(items);
+            return await Task.FromResult(profiles);
         }
+
     }
 }

@@ -29,6 +29,13 @@
         </ResourceDictionary>
     </Shell.Resources>
 
+    <!--
+    <FlyoutItem Title="Home"
+                Icon="icon_about.png">
+        <ShellContent ContentTemplate="{DataTemplate local:IndexPage}"/>
+    </FlyoutItem> 
+    -->
+
     <!-- added tab items to tabBar + renamed/added corresponding views to match -->
     <TabBar>
         <ShellContent Title="Home" Icon="icon_about.png" Route="IndexPage" ContentTemplate="{DataTemplate local:IndexPage}" />

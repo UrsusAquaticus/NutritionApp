@@ -49,14 +49,13 @@ namespace NutritionApp.ViewModels
 
         private async void OnSave()
         {
-            Item newItem = new Item()
+            Profile newProfile = new Profile()
             {
                 Id = Guid.NewGuid().ToString(),
-                Text = Text,
-                Description = Description
+                Name = Text
             };
 
-            await DataStore.AddItemAsync(newItem);
+            // await DataStore.AddProfileAsync(new);
 
             // This will pop the current page off the navigation stack
             await Shell.Current.GoToAsync("..");

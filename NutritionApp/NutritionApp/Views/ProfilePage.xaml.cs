@@ -21,12 +21,22 @@ namespace NutritionApp.Views
             InitializeComponent();
 
             BindingContext = _viewModel = new ProfileViewModel();
+            
         }
 
         protected override void OnAppearing()
         {
             base.OnAppearing();
             _viewModel.OnAppearing();
+        }
+
+        private async void New_Profile_Clicked(object sender, EventArgs e)
+        {
+            // register route
+            Routing.RegisterRoute("NewProfilePage", typeof(NewProfilePage));
+
+            await Shell.Current.GoToAsync("NewProfilePage");
+
         }
     }
 }

@@ -4,7 +4,7 @@
              x:Class="NutritionApp.Views.IndexPage"
              xmlns:vm="clr-namespace:NutritionApp.ViewModels"
              Title="{Binding Title}">
-    
+
     <!-- binds IndexViewModel to IndexPage -->
     <ContentPage.BindingContext>
         <vm:IndexViewModel />
@@ -18,10 +18,10 @@
     </ContentPage.Resources>
 
     <!-- index page content -->
-    <Grid>
-        <ContentView Padding="0,0,0,0">
-            <Image Source="fruit.png" Aspect="AspectFill" HeightRequest="64" />
-        </ContentView>
+    <Grid Background="fruit.png">
+        <Image Source="fruit.png"
+               Aspect="AspectFill"
+               />
     </Grid>
 
 </ContentPage>
