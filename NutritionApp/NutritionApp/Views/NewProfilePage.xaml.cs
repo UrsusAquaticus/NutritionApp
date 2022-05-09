@@ -10,7 +10,7 @@ namespace NutritionApp.Views
 {
     public partial class NewProfilePage : ContentPage
     {
-        public Item Item { get; set; }
+        public Profile Profile { get; set; }
 
         public NewProfilePage()
         {

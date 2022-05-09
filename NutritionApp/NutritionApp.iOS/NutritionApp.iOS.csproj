@@ -151,4 +151,10 @@
   <ItemGroup>
     <BundleResource Include="Resources\icon_settings.png" />
   </ItemGroup>
+  <ItemGroup>
+    <BundleResource Include="Resources\menu.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <BundleResource Include="Resources\plus.png" />
+  </ItemGroup>
 </Project>

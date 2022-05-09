@@ -6,47 +6,47 @@ using Xamarin.Forms;
 
 namespace NutritionApp.ViewModels
 {
-    [QueryProperty(nameof(ItemId), nameof(ItemId))]
+    [QueryProperty(nameof(ProfileId), nameof(ProfileId))]
     public class ProfileDetailViewModel : BaseViewModel
     {
-        private string itemId;
-        private string text;
-        private string description;
+        private string profileId;
+        private string name;
+        private string gender;
         public string Id { get; set; }
 
-        public string Text
+        public string Name
         {
-            get => text;
-            set => SetProperty(ref text, value);
+            get => name;
+            set => SetProperty(ref name, value);
         }
 
-        public string Description
+        public string Gender
         {
-            get => description;
-            set => SetProperty(ref description, value);
+            get => gender;
+            set => SetProperty(ref gender, value);
         }
 
-        public string ItemId
+        public string ProfileId
         {
             get
             {
-                return itemId;
+                return profileId;
             }
             set
             {
-                itemId = value;
+                profileId = value;
                 LoadItemId(value);
             }
         }
 
-        public async void LoadItemId(string itemId)
+        public async void LoadItemId(string profileId)
         {
             try
             {
-                var item = await DataStore.GetItemAsync(itemId);
+                var item = await DataStore.GetProfileAsync(profileId);
                 Id = item.Id;
-                Text = item.Text;
-                Description = item.Description;
+                Name = item.Name;
+                Gender = item.Gender;
             }
             catch (Exception)
             {

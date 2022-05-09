@@ -10,35 +10,35 @@ namespace NutritionApp.ViewModels
 {
     public class ProfileViewModel : BaseViewModel
     {
-        private Item _selectedItem;
+        private Profile _selectedProfile;
 
-        public ObservableCollection<Item> Items { get; }
-        public Command LoadItemsCommand { get; }
-        public Command AddItemCommand { get; }
-        public Command<Item> ItemTapped { get; }
+        public ObservableCollection<Profile> Profiles { get; }
+        public Command LoadProfilesCommand { get; }
+        public Command AddProfileCommand { get; }
+        public Command<Profile> ProfileTapped { get; }
 
         public ProfileViewModel()
         {
-            Title = "Browse";
-            Items = new ObservableCollection<Item>();
-            LoadItemsCommand = new Command(async () => await ExecuteLoadItemsCommand());
+            Title = "Profiles";
+            Profiles = new ObservableCollection<Profile>();
+            LoadProfilesCommand = new Command(async () => await ExecuteLoadProfilesCommand());
 
-            ItemTapped = new Command<Item>(OnItemSelected);
+            ProfileTapped = new Command<Profile>(OnProfileSelected);
 
-            AddItemCommand = new Command(OnAddItem);
+            AddProfileCommand = new Command(OnAddProfile);
         }
 
-        async Task ExecuteLoadItemsCommand()
+        async Task ExecuteLoadProfilesCommand()
         {
             IsBusy = true;
 
             try
             {
-                Items.Clear();
-                var items = await DataStore.GetItemsAsync(true);
-                foreach (var item in items)
+                Profiles.Clear();
+                var profiles = await DataStore.GetProfilesAsync(true);
+                foreach (var profile in profiles)
                 {
-                    Items.Add(item);
+                    Profiles.Add(profile);
                 }
             }
             catch (Exception ex)
@@ -57,28 +57,31 @@ namespace NutritionApp.ViewModels
             SelectedItem = null;
         }
 
-        public Item SelectedItem
+        public Profile SelectedItem
         {
-            get => _selectedItem;
+            get => _selectedProfile;
             set
             {
-                SetProperty(ref _selectedItem, value);
-                OnItemSelected(value);
+                SetProperty(ref _selectedProfile, value);
+                OnProfileSelected(value);
             }
         }
 
-        private async void OnAddItem(object obj)
+        // redirects to new profile page
+        private async void OnAddProfile(object obj)
         {
             await Shell.Current.GoToAsync(nameof(NewProfilePage));
         }
 
-        async void OnItemSelected(Item item)
+
+        // goes to the detailed view of the selected profile
+        async void OnProfileSelected(Profile item)
         {
             if (item == null)
                 return;
 
             // This will push the ItemDetailPage onto the navigation stack
-            await Shell.Current.GoToAsync($"{nameof(ProfilePage)}?{nameof(ProfileDetailViewModel.ItemId)}={item.Id}");
+            await Shell.Current.GoToAsync($"{nameof(ProfilePage)}?{nameof(ProfileDetailViewModel.ProfileId)}={item.Id}");
         }
     }
 }
