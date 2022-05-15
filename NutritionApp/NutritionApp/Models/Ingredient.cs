@@ -6,17 +6,13 @@ using System.Text;
 
 namespace NutritionApp.Models
 {
-    public class Meal
+    public class Ingredient
     {
         [PrimaryKey, AutoIncrement]
         public string Id { get; set; }
-
-        [OneToMany(CascadeOperations = CascadeOperation.All)]
-        public List<MealIngredient> MealIngredient { get; set; }
-
-        //
         public string Name { get; set; }
         public float ServingSizeGrams { get; set; }
+        public float kj { get; set; }//kj per serving size
     }
 
 }
