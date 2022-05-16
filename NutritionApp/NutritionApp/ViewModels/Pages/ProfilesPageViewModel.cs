@@ -51,7 +51,6 @@ namespace NutritionApp.ViewModels
         {
             if (_isDataLoaded)
                 return;
-            await _profileStore.AddAsync(new Profile {Id = 1, Name="Zach", Pregnant=true });
             _isDataLoaded = true;
             var profiles = await _profileStore.GetAsync();
             foreach (var profile in profiles)
@@ -61,7 +60,7 @@ namespace NutritionApp.ViewModels
         private async Task AddProfile()
         {
             //await _pageService.PushAsync(new ProfilesDetailPage(new ProfileViewModel()));
-            await new Task(() => { Console.WriteLine("Hasn't been implemented yet lol"); });
+            await _profileStore.AddAsync(new Profile { Id = 1, Name = "Zach", Pregnant = true }); //temp, have not implemented messaging to update list yet. Requires app reload to view changes
         }
 
         private async Task SelectProfile(ProfileViewModel profile)
