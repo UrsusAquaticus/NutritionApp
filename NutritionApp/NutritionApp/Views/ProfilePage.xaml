@@ -9,7 +9,7 @@
 
     <!-- has add new profile button on toolbar -->
     <ContentPage.ToolbarItems>
-        <ToolbarItem Text="+" Clicked="New_Profile_Clicked"/>
+        <ToolbarItem Text="+" Command="{Binding AddProfileCommand}"/>
     </ContentPage.ToolbarItems>
     <StackLayout>
          <SearchBar Placeholder="Search Profiles..."
@@ -18,7 +18,9 @@
 
     <!-- create list view of meals -->
     <ListView x:Name="profileList"
-                      ItemsSource="{Binding Profiles}">
+                        ItemsSource="{Binding Profiles}"
+                        SelectedItem="{Binding SelectedProfile, Mode=TwoWay}"
+                        ItemSelected="OnProfileSelected">
         <ListView.ItemTemplate>
             <DataTemplate>
                 <TextCell Text="{Binding Name}" TextColor="Black"/>
