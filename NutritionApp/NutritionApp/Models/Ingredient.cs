@@ -9,7 +9,7 @@ namespace NutritionApp.Models
     public class Ingredient
     {
         [PrimaryKey, AutoIncrement]
-        public string Id { get; set; }
+        public int Id { get; set; }
         public string Name { get; set; }
         public float ServingSizeGrams { get; set; }
         public float kj { get; set; }//kj per serving size

@@ -9,7 +9,7 @@ namespace NutritionApp.Models
     public class Meal
     {
         [PrimaryKey, AutoIncrement]
-        public string Id { get; set; }
+        public int Id { get; set; }
 
         [OneToMany(CascadeOperations = CascadeOperation.All)]
         public List<MealIngredient> MealIngredient { get; set; }
