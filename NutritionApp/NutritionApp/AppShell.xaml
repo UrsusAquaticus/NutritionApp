@@ -29,19 +29,29 @@
         </ResourceDictionary>
     </Shell.Resources>
 
-    <!--
-    <FlyoutItem Title="Home"
-                Icon="icon_about.png">
-        <ShellContent ContentTemplate="{DataTemplate local:IndexPage}"/>
-    </FlyoutItem> 
-    -->
-
-    <!-- added tab items to tabBar + renamed/added corresponding views to match -->
+    <!-- tabbar with nested tabs -->
     <TabBar>
-        <ShellContent Title="Home" Icon="icon_about.png" Route="IndexPage" ContentTemplate="{DataTemplate local:IndexPage}" />
-        <ShellContent Title="Profiles" Icon="icon_feed.png" ContentTemplate="{DataTemplate local:ProfilePage}" />
-        <ShellContent Title="Food" Icon="icon_food.png" ContentTemplate="{DataTemplate local:FoodPage}" />
-        <ShellContent Title="Settings" Icon="icon_settings.png" ContentTemplate="{DataTemplate local:SettingsPage}" />
+        <Tab Title="Home"
+             Icon="home.png">
+            <ShellContent Title="Home" Route="IndexPage" ContentTemplate="{DataTemplate local:IndexPage}" />
+
+        </Tab>
+        <Tab Title="Profiles"
+             Icon="profile.png">
+            <ShellContent Title="Profiles" ContentTemplate="{DataTemplate local:ProfilePage}" />
+
+        </Tab>
+        <Tab Title="Food"
+             Icon="food.png">
+            <ShellContent Title="Ingredients" ContentTemplate="{DataTemplate local:IngredientPage}"/>
+            <ShellContent Title="Meals" ContentTemplate="{DataTemplate local:MealPage}"/>
+
+        </Tab>
+        <Tab Title="Settings"
+             Icon="settings.png">
+            <ShellContent Title="Settings" ContentTemplate="{DataTemplate local:SettingsPage}" />
+
+        </Tab>
     </TabBar>
 
     <!--

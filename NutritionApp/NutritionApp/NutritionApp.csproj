@@ -11,8 +11,20 @@
   </ItemGroup>
 
   <ItemGroup>
+    <Compile Update="Views\IngredientPage.xaml.cs">
+      <DependentUpon>IngredientPage.xaml</DependentUpon>
+    </Compile>
+    <Compile Update="Views\MealPage.xaml.cs">
+      <DependentUpon>MealPage.xaml</DependentUpon>
+    </Compile>
     <Compile Update="Views\IndexPage.xaml.cs">
       <DependentUpon>IndexPage.xaml</DependentUpon>
+    </Compile>
+    <Compile Update="Views\NewMealPage.xaml.cs">
+      <DependentUpon>NewMealPage.xaml</DependentUpon>
+    </Compile>
+    <Compile Update="Views\NewIngredientPage.xaml.cs">
+      <DependentUpon>NewIngredientPage.xaml</DependentUpon>
     </Compile>
     <Compile Update="Views\NewProfilePage.xaml.cs">
       <DependentUpon>NewProfilePage.xaml</DependentUpon>
@@ -26,7 +38,7 @@
   </ItemGroup>
 
   <ItemGroup>
-    <EmbeddedResource Update="Views\FoodPage.xaml">
+    <EmbeddedResource Update="Views\MealPage.xaml">
       <Generator>MSBuild:UpdateDesignTimeXaml</Generator>
     </EmbeddedResource>
     <EmbeddedResource Update="Views\SettingsPage.xaml">

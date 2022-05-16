@@ -11,7 +11,6 @@ namespace NutritionApp.ViewModels
     public class ProfileViewModel : BaseViewModel
     {
         private Profile _selectedProfile;
-
         public ObservableCollection<Profile> Profiles { get; }
         public Command LoadProfilesCommand { get; }
         public Command AddProfileCommand { get; }

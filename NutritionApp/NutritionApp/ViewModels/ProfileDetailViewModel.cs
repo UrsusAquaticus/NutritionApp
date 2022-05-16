@@ -35,11 +35,11 @@ namespace NutritionApp.ViewModels
             set
             {
                 profileId = value;
-                LoadItemId(value);
+                LoadProfileId(value);
             }
         }
 
-        public async void LoadItemId(string profileId)
+        public async void LoadProfileId(string profileId)
         {
             try
             {

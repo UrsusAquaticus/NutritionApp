@@ -17,35 +17,36 @@
       https://docs.microsoft.com/xamarin/xamarin-forms/app-fundamentals/data-binding/compiled-bindings
     -->
     <RefreshView x:DataType="local:ProfileViewModel" Command="{Binding LoadProfilesCommand}" IsRefreshing="{Binding IsBusy, Mode=TwoWay}">
-        
-        <CollectionView x:Name="ProfilesListView"
-                    ItemsSource="{Binding Profiles}"
-                    SelectionMode="None">
+
+        <StackLayout>
+            <SearchBar Placeholder="Search Profiles..."
+                       HorizontalOptions="Fill"
+                       BackgroundColor="#f3f3f3"/>
+            <CollectionView x:Name="ProfilesListView"
+                        ItemsSource="{Binding Profiles}"
+                        SelectionMode="None">
             
-            <CollectionView.ItemTemplate>
-                <DataTemplate>
-                    <StackLayout Padding="10" x:DataType="model:Profile">
-                        <Label Text="{Binding Name}" 
-                            LineBreakMode="NoWrap" 
-                            Style="{DynamicResource ListItemTextStyle}" 
-                            FontSize="16" />
-                        <Label Text="{Binding Gender}" 
-                            LineBreakMode="NoWrap"
-                            Style="{DynamicResource ListItemDetailTextStyle}"
-                            FontSize="13" />
-                        <StackLayout.GestureRecognizers>
-                            <TapGestureRecognizer 
-                                NumberOfTapsRequired="1"
-                                Command="{Binding Source={RelativeSource AncestorType={x:Type local:ProfileViewModel}}, Path=ProfileTapped}"
-                                CommandParameter="{Binding .}"
-                                >
-                            </TapGestureRecognizer>
-                        </StackLayout.GestureRecognizers>
-                    </StackLayout>
-                </DataTemplate>
-            </CollectionView.ItemTemplate>
+                <CollectionView.ItemTemplate>
+                    <DataTemplate>
+                        <StackLayout Padding="30, 10, 10, 0" x:DataType="model:Profile">
+                            <Label Text="{Binding Name}" 
+                                LineBreakMode="NoWrap" 
+                                Style="{DynamicResource ListItemTextStyle}" 
+                                FontSize="20" />
+                            <StackLayout.GestureRecognizers>
+                                <TapGestureRecognizer 
+                                    NumberOfTapsRequired="1"
+                                    Command="{Binding Source={RelativeSource AncestorType={x:Type local:ProfileViewModel}}, Path=ProfileTapped}"
+                                    CommandParameter="{Binding .}"
+                                    >
+                                </TapGestureRecognizer>
+                            </StackLayout.GestureRecognizers>
+                        </StackLayout>
+                    </DataTemplate>
+                </CollectionView.ItemTemplate>
             
-        </CollectionView>
-        
+            </CollectionView>
+        </StackLayout>
+
     </RefreshView>
 </ContentPage>

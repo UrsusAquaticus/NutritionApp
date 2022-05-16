@@ -7,12 +7,12 @@ using Xamarin.Forms;
 
 namespace NutritionApp.ViewModels
 {
-    public class NewFoodViewModel : BaseViewModel
+    public class NewProfileViewModel : BaseViewModel
     {
         private string text;
         private string description;
 
-        public NewFoodViewModel()
+        public NewProfileViewModel()
         {
             SaveCommand = new Command(OnSave, ValidateSave);
             CancelCommand = new Command(OnCancel);

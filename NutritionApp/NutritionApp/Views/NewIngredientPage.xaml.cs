@@ -8,14 +8,14 @@ using Xamarin.Forms.Xaml;
 
 namespace NutritionApp.Views
 {
-    public partial class NewProfilePage : ContentPage
+    public partial class NewIngredientPage : ContentPage
     {
-        public Profile Profile { get; set; }
+        // public Ingredient Ingredient { get; set; }
 
-        public NewProfilePage()
+        public NewIngredientPage()
         {
             InitializeComponent();
-            BindingContext = new NewProfileViewModel();
+            // BindingContext = new NewFoodViewModel();
         }
     }
 }
