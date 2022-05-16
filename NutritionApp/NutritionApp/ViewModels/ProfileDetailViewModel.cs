@@ -9,10 +9,10 @@ namespace NutritionApp.ViewModels
     [QueryProperty(nameof(ProfileId), nameof(ProfileId))]
     public class ProfileDetailViewModel : BaseViewModel
     {
-        private string profileId;
+        private int profileId;
         private string name;
         private string gender;
-        public string Id { get; set; }
+        public int Id { get; set; }
 
         public string Name
         {
@@ -26,7 +26,7 @@ namespace NutritionApp.ViewModels
             set => SetProperty(ref gender, value);
         }
 
-        public string ProfileId
+        public int ProfileId
         {
             get
             {
@@ -39,7 +39,7 @@ namespace NutritionApp.ViewModels
             }
         }
 
-        public async void LoadProfileId(string profileId)
+        public async void LoadProfileId(int profileId)
         {
             try
             {

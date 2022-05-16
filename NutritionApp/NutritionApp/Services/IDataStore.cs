@@ -8,8 +8,8 @@ namespace NutritionApp.Services
     {
         Task<bool> AddProfileAsync(T profile);
         Task<bool> UpdateProfileAsync(T profile);
-        Task<bool> DeleteProfileAsync(string id);
-        Task<T> GetProfileAsync(string id);
+        Task<bool> DeleteProfileAsync(int id);
+        Task<T> GetProfileAsync(int id);
         Task<IEnumerable<T>> GetProfilesAsync(bool forceRefresh = false);
     }
 }

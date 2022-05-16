@@ -14,8 +14,8 @@ namespace NutritionApp.Services
         {
             profiles = new List<Profile>()
             {
-                new Profile { Id = Guid.NewGuid().ToString(), Name = "Dani JS", Gender="F"},
-                new Profile { Id = Guid.NewGuid().ToString(), Name = "Zach H", Gender="M"}
+                new Profile { Id = 1, Name = "Dani JS", Gender="F"},
+                new Profile { Id = 2, Name = "Zach H", Gender="M"}
 
             };
         }
@@ -39,7 +39,7 @@ namespace NutritionApp.Services
         }
 
         // delete profile
-        public async Task<bool> DeleteProfileAsync(string id)
+        public async Task<bool> DeleteProfileAsync(int id)
         {
             var oldItem = profiles.Where((Profile arg) => arg.Id == id).FirstOrDefault();
             profiles.Remove(oldItem);
@@ -47,7 +47,7 @@ namespace NutritionApp.Services
             return await Task.FromResult(true);
         }
 
-        public async Task<Profile> GetProfileAsync(string id)
+        public async Task<Profile> GetProfileAsync(int id)
         {
             return await Task.FromResult(profiles.FirstOrDefault(s => s.Id == id));
         }
@@ -57,5 +57,14 @@ namespace NutritionApp.Services
             return await Task.FromResult(profiles);
         }
 
+        public Task<bool> DeleteProfileAsync(string id)
+        {
+            throw new NotImplementedException();
+        }
+
+        public Task<Profile> GetProfileAsync(string id)
+        {
+            throw new NotImplementedException();
+        }
     }
 }

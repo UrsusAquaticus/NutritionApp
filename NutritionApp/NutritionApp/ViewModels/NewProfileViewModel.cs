@@ -51,7 +51,7 @@ namespace NutritionApp.ViewModels
         {
             Profile newProfile = new Profile()
             {
-                Id = Guid.NewGuid().ToString(),
+                Id = new Random().Next(0,10000000),
                 Name = Text
             };
 
