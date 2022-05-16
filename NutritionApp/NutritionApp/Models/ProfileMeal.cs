@@ -24,7 +24,7 @@ namespace NutritionApp.Models
         public Meal Meal { get; set; }
 
         //
-        public DateTime time { get; set; }
-        public float numberOfServings { get; set; }
+        public DateTime Time { get; set; }
+        public float NumberOfServings { get; set; }
     }
 }
