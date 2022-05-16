@@ -9,14 +9,25 @@
         <ToolbarItem Text="+" Clicked="New_Meal_Clicked"/>
     </ContentPage.ToolbarItems>
 
-    <ContentPage.Content>
-        <StackLayout>
-            <SearchBar Placeholder="Search Meals..."
+        <ContentPage.Content>
+            <StackLayout>
+                <SearchBar Placeholder="Search Meals..."
                        HorizontalOptions="Fill"
                        BackgroundColor="#f3f3f3"/>
-        </StackLayout>
-        
-        <!-- create list view of meals -->
-        
-    </ContentPage.Content>
+
+                <!-- create list view of meals -->
+                <ListView x:Name="mealList"
+                      ItemsSource="{Binding Meals}"
+                      SelectionMode="Single">
+                    <ListView.ItemTemplate>
+                        <DataTemplate>
+                            <TextCell Text="{Binding Name}" TextColor="Black"/>
+                        </DataTemplate>
+                    </ListView.ItemTemplate>
+
+                </ListView>
+            </StackLayout>
+
+
+        </ContentPage.Content>
 </ContentPage>

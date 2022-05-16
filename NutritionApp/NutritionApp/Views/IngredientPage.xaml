@@ -14,9 +14,20 @@
             <SearchBar Placeholder="Search Ingredients..."
                        HorizontalOptions="Fill"
                        BackgroundColor="#f3f3f3"/>
+
+            <!-- add list view of ingredients -->
+            <ListView x:Name="ingredientList"
+                  ItemsSource="{Binding Ingredients}">
+                <ListView.ItemTemplate>
+                    <DataTemplate>
+                        <TextCell Text="{Binding Name}" TextColor="Black" Detail="{Binding kj}"/>
+                        </DataTemplate>
+                </ListView.ItemTemplate>
+
+            </ListView>
+            
         </StackLayout>
-        
-        <!-- add list view of ingredients -->
-        
+
+
     </ContentPage.Content>
 </ContentPage>

@@ -11,17 +11,33 @@
     <ContentPage.ToolbarItems>
         <ToolbarItem Text="+" Clicked="New_Profile_Clicked"/>
     </ContentPage.ToolbarItems>
-    
+    <StackLayout>
+         <SearchBar Placeholder="Search Profiles..."
+                       HorizontalOptions="Fill"
+                       BackgroundColor="#f3f3f3"/>
+
+    <!-- create list view of meals -->
+    <ListView x:Name="profileList"
+                      ItemsSource="{Binding Profiles}">
+        <ListView.ItemTemplate>
+            <DataTemplate>
+                <TextCell Text="{Binding Name}" TextColor="Black"/>
+            </DataTemplate>
+        </ListView.ItemTemplate>
+
+    </ListView>
+        
+    </StackLayout>
+   
+
     <!--
       x:DataType enables compiled bindings for better performance and compile time validation of binding expressions.
       https://docs.microsoft.com/xamarin/xamarin-forms/app-fundamentals/data-binding/compiled-bindings
     -->
-    <RefreshView x:DataType="local:ProfileViewModel" Command="{Binding LoadProfilesCommand}" IsRefreshing="{Binding IsBusy, Mode=TwoWay}">
+    <!--<RefreshView x:DataType="local:ProfileViewModel" Command="{Binding LoadProfilesCommand}" IsRefreshing="{Binding IsBusy, Mode=TwoWay}">
 
         <StackLayout>
-            <SearchBar Placeholder="Search Profiles..."
-                       HorizontalOptions="Fill"
-                       BackgroundColor="#f3f3f3"/>
+          
             <CollectionView x:Name="ProfilesListView"
                         ItemsSource="{Binding Profiles}"
                         SelectionMode="None">
@@ -48,5 +64,5 @@
             </CollectionView>
         </StackLayout>
 
-    </RefreshView>
+    </RefreshView>-->
 </ContentPage>

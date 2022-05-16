@@ -9,6 +9,8 @@ using System.Text;
 using System.Threading.Tasks;
 using Xamarin.Forms;
 using Xamarin.Forms.Xaml;
+using System.Collections.ObjectModel;
+using NutritionApp.Models;
 
 namespace NutritionApp.Views
 {
@@ -21,7 +23,22 @@ namespace NutritionApp.Views
             InitializeComponent();
 
             BindingContext = _viewModel = new ProfileViewModel();
-            
+            CreateProfileList();
+        }
+
+        ObservableCollection<Profile> profiles = new ObservableCollection<Profile>();
+        public ObservableCollection<Profile> Profiles { get { return profiles; } }
+
+        private void CreateProfileList()
+        {
+            profileList.ItemsSource = profiles;
+
+            profiles.Add(new Profile { Name = "Dani JS" });
+            profiles.Add(new Profile { Name = "Zach" });
+            profiles.Add(new Profile { Name = "Sam" });
+            profiles.Add(new Profile { Name = "Jethro" });
+
+
         }
 
         protected override void OnAppearing()
