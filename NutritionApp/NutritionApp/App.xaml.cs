@@ -1,4 +1,4 @@
-﻿using NutritionApp.Services;
+﻿using NutritionApp.Persistence;
 using NutritionApp.Views;
 using System;
 using Xamarin.Forms;
@@ -11,9 +11,9 @@ namespace NutritionApp
 
         public App()
         {
-            InitializeComponent();
+            var database = DependencyService.Get<ISQLiteDb>();
 
-            DependencyService.Register<MockDataStore>();
+            InitializeComponent();
             MainPage = new AppShell();
         }
 

@@ -1,6 +1,8 @@
 ﻿using NutritionApp.Models;
+using NutritionApp.Persistence;
 using System;
 using System.Collections.Generic;
+using System.Collections.ObjectModel;
 using System.Linq;
 using System.Threading.Tasks;
 
@@ -21,7 +23,7 @@ namespace NutritionApp.Services
         }
 
         // create profile
-        public async Task<bool> AddProfileAsync(Profile item)
+        public async Task<bool> AddAsync(Profile item)
         {
             profiles.Add(item);
 
@@ -29,7 +31,7 @@ namespace NutritionApp.Services
         }
 
         // update profile
-        public async Task<bool> UpdateProfileAsync(Profile item)
+        public async Task<bool> UpdateAsync(Profile item)
         {
             var oldItem = profiles.Where((Profile arg) => arg.Id == item.Id).FirstOrDefault();
             profiles.Remove(oldItem);
@@ -39,7 +41,7 @@ namespace NutritionApp.Services
         }
 
         // delete profile
-        public async Task<bool> DeleteProfileAsync(int id)
+        public async Task<bool> DeleteAsync(int id)
         {
             var oldItem = profiles.Where((Profile arg) => arg.Id == id).FirstOrDefault();
             profiles.Remove(oldItem);
@@ -47,7 +49,7 @@ namespace NutritionApp.Services
             return await Task.FromResult(true);
         }
 
-        public async Task<Profile> GetProfileAsync(int id)
+        public async Task<Profile> GetAsync(int id)
         {
             return await Task.FromResult(profiles.FirstOrDefault(s => s.Id == id));
         }
@@ -63,6 +65,11 @@ namespace NutritionApp.Services
         }
 
         public Task<Profile> GetProfileAsync(string id)
+        {
+            throw new NotImplementedException();
+        }
+
+        public Task<ObservableCollection<Profile>> GetAsync()
         {
             throw new NotImplementedException();
         }

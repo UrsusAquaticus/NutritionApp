@@ -32,19 +32,16 @@ namespace NutritionApp.Views
         private void CreateProfileList()
         {
             profileList.ItemsSource = profiles;
-
             profiles.Add(new Profile { Name = "Dani JS" });
             profiles.Add(new Profile { Name = "Zach" });
             profiles.Add(new Profile { Name = "Sam" });
             profiles.Add(new Profile { Name = "Jethro" });
-
-
         }
 
         protected override void OnAppearing()
         {
             base.OnAppearing();
-            _viewModel.OnAppearing();
+            //_viewModel.OnAppearing();
         }
 
         private async void New_Profile_Clicked(object sender, EventArgs e)

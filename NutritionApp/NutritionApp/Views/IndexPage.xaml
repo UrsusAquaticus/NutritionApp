@@ -6,9 +6,9 @@
              Title="{Binding Title}">
 
     <!-- binds IndexViewModel to IndexPage -->
-    <ContentPage.BindingContext>
+    <!--<ContentPage.BindingContext>
         <vm:IndexViewModel />
-    </ContentPage.BindingContext>
+    </ContentPage.BindingContext>-->
 
     <!-- resource dictionary for index page -->
     <ContentPage.Resources>

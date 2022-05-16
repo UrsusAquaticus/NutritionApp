@@ -9,7 +9,6 @@ namespace NutritionApp.Views
         public ProfileDetailPage()
         {
             InitializeComponent();
-            BindingContext = new ProfileDetailViewModel();
         }
     }
 }
