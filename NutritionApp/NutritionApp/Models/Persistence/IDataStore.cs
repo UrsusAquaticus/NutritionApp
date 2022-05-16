@@ -7,10 +7,10 @@ namespace NutritionApp.Persistence
 {
     public interface IDataStore<T>
     {
-        Task<bool> AddAsync(T obj);
-        Task<bool> UpdateAsync(T obj);
-        Task<bool> DeleteAsync(int id);
+        Task<int> AddAsync(T obj);
+        Task<int> UpdateAsync(T obj);
+        Task<int> DeleteAsync(int id);
         Task<T> GetAsync(int id);
-        Task<ObservableCollection<T>> GetAsync();
+        Task<IEnumerable<T>> GetAsync();
     }
 }

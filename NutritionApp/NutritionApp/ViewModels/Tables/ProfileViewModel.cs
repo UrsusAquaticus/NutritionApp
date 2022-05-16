@@ -5,8 +5,7 @@ namespace NutritionApp.ViewModels
 {
     public class ProfileViewModel : BaseViewModel
     {
-        public int Id;
-
+        private int id;
         private string name;
         private DateTime dOB;
         private string gender;
@@ -21,7 +20,7 @@ namespace NutritionApp.ViewModels
 
         public ProfileViewModel(Profile profile)
         {
-            Id = profile.Id;
+            this.id = profile.Id;
             this.name = profile.Name;
             this.dOB = profile.DOB;
             this.gender = profile.Gender;
@@ -31,6 +30,7 @@ namespace NutritionApp.ViewModels
             this.pregnant = profile.Pregnant;
         }
 
+        public int Id { get => id; }
         public string Name { get => name; set => name = value; }
         public DateTime DOB { get => dOB; set => dOB = value; }
         public string Gender { get => gender; set => gender = value; }

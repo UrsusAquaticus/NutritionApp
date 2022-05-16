@@ -21,6 +21,6 @@ namespace NutritionApp.Models
         public Ingredient Ingredient { get; set; }
 
         //
-        public float numberOfServings { get; set; }
+        public float NumberOfServings { get; set; }
     }
 }

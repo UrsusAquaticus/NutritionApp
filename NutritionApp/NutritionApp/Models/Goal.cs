@@ -21,6 +21,5 @@ namespace NutritionApp.Models
         public DateTime StartTime { get; set; }
         public DateTime EndTime { get; set; }
         public float DailyKj { get; set; }
-
     }
 }

@@ -26,10 +26,10 @@ namespace NutritionApp.Views
         {
             ingredientList.ItemsSource = ingredients;
 
-            ingredients.Add(new Ingredient { Name = "Apple", kj = 30 });
-            ingredients.Add(new Ingredient { Name = "Banana", kj = 50 });
-            ingredients.Add(new Ingredient { Name = "Pear", kj = 30 });
-            ingredients.Add(new Ingredient { Name = "Orange", kj = 30});
+            ingredients.Add(new Ingredient { Name = "Apple", Kj = 30 });
+            ingredients.Add(new Ingredient { Name = "Banana", Kj = 50 });
+            ingredients.Add(new Ingredient { Name = "Pear", Kj = 30 });
+            ingredients.Add(new Ingredient { Name = "Orange", Kj = 30});
 
 
         }

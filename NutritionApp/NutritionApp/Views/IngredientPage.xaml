@@ -20,7 +20,7 @@
                   ItemsSource="{Binding Ingredients}">
                 <ListView.ItemTemplate>
                     <DataTemplate>
-                        <TextCell Text="{Binding Name}" TextColor="Black" Detail="{Binding kj}"/>
+                        <TextCell Text="{Binding Name}" TextColor="Black" Detail="{Binding Kj}"/>
                         </DataTemplate>
                 </ListView.ItemTemplate>
 

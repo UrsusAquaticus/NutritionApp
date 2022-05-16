@@ -12,7 +12,7 @@ namespace NutritionApp.Models
         public int Id { get; set; }
         public string Name { get; set; }
         public float ServingSizeGrams { get; set; }
-        public float kj { get; set; }//kj per serving size
+        public float Kj { get; set; }//kj per serving size
     }
 
 }
