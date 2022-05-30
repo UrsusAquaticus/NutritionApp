@@ -35,8 +35,8 @@
     <Compile Update="Views\ProfileDetailPage.xaml.cs">
       <DependentUpon>ProfileDetailPage.xaml</DependentUpon>
     </Compile>
-    <Compile Update="Views\ProfilePage.xaml.cs">
-      <DependentUpon>ProfilePage.xaml</DependentUpon>
+    <Compile Update="Views\ProfilesPage.xaml.cs">
+      <DependentUpon>ProfilesPage.xaml</DependentUpon>
     </Compile>
   </ItemGroup>
 
