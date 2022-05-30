@@ -21,9 +21,24 @@ namespace NutritionApp.ViewModels
         private IPageService _pageService;
 
         private bool _isDataLoaded;
+        private string _filterQuery;
 
-        public ObservableCollection<ProfileViewModel> Profiles { get; private set; }
-            = new ObservableCollection<ProfileViewModel>();
+        private ObservableCollection<ProfileViewModel> _profiles { get; set; } = new ObservableCollection<ProfileViewModel>();
+        public ObservableCollection<ProfileViewModel> Profiles
+        {
+            get
+            {
+                //return _profiles;
+                var newList = new ObservableCollection<ProfileViewModel>(_profiles.Where(p => p.Name.ToLowerInvariant().Contains(_filterQuery?.ToLower() ?? "")));
+                Console.WriteLine(newList);
+                return newList;
+            }
+            set
+            {
+                _profiles = value;
+                OnPropertyChanged();
+            }
+        }
 
         public ProfileViewModel SelectedProfile
         {
@@ -35,6 +50,7 @@ namespace NutritionApp.ViewModels
         public ICommand AddProfileCommand { get; private set; }
         public ICommand SelectProfileCommand { get; private set; }
         public ICommand DeleteProfileCommand { get; private set; }
+        public ICommand FilterProfileCommand { get; private set; }
 
         public ProfilesPageViewModel(IDataStore<Profile> profileStore, IPageService pageService)
         {
@@ -45,6 +61,7 @@ namespace NutritionApp.ViewModels
             AddProfileCommand = new Command(async () => await AddProfile());
             SelectProfileCommand = new Command<ProfileViewModel>(async c => await SelectProfile(c));
             DeleteProfileCommand = new Command<ProfileViewModel>(async c => await DeleteProfile(c));
+            FilterProfileCommand = new Command<string>(async c => await FilterProfile(c));
 
             MessagingCenter.Subscribe<ProfileDetailPageViewModel, Profile>(this, Events.ProfileAdded, OnProfileAdded);
             MessagingCenter.Subscribe<ProfileDetailPageViewModel, Profile>(this, Events.ProfileUpdated, OnProfileUpdated);
@@ -100,6 +117,19 @@ namespace NutritionApp.ViewModels
                 var profile = await _profileStore.GetAsync(profileViewModel.Id);
                 await _profileStore.DeleteAsync(profile.Id);
             }
+        }
+
+        // perform search using a viewmodel... https://docs.microsoft.com/en-us/xamarin/xamarin-forms/user-interface/searchbar#perform-a-search-using-a-viewmodel
+        public Task FilterProfile(string queryString)
+        {
+            // check if queryString is null, if not put to lower, if null return empty string
+            //var normalizedQuery = queryString?.ToLower() ?? "";
+            _filterQuery = queryString;
+            
+            // cast observable collection
+            //Profiles = new ObservableCollection<ProfileViewModel>(Profiles.Where(p => p.Name.ToLowerInvariant().Contains(normalizedQuery)));
+
+            return Task.CompletedTask;
         }
     }
 }
