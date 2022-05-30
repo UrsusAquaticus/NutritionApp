@@ -35,9 +35,7 @@ namespace NutritionApp.ViewModels
         public ICommand AddProfileCommand { get; private set; }
         public ICommand SelectProfileCommand { get; private set; }
         public ICommand DeleteProfileCommand { get; private set; }
-        public ICommand CallProfileCommand { get; private set; }
 
-        //public ProfilesPageViewModel(IDataStore<Profile> profileStore, IPageService pageService)
         public ProfilesPageViewModel(IDataStore<Profile> profileStore, IPageService pageService)
         {
             _profileStore = profileStore;
