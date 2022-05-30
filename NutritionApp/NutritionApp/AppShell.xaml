@@ -38,7 +38,7 @@
         </Tab>
         <Tab Title="Profiles"
              Icon="profile.png">
-            <ShellContent Title="Profiles" ContentTemplate="{DataTemplate local:ProfilePage}" />
+            <ShellContent Title="Profiles" ContentTemplate="{DataTemplate local:ProfilesPage}" />
 
         </Tab>
         <Tab Title="Food"

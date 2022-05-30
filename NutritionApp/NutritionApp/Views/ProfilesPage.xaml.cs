@@ -14,10 +14,10 @@ using NutritionApp.Persistence;
 
 namespace NutritionApp.Views
 {
-    public partial class ProfilePage : ContentPage
+    public partial class ProfilesPage : ContentPage
     {
 
-        public ProfilePage()
+        public ProfilesPage()
         {
             var profileStore = new SQLiteProfileStore(DependencyService.Get<ISQLiteDb>());
             var pageService = new PageService();
