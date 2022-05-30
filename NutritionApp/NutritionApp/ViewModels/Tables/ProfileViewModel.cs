@@ -31,12 +31,12 @@ namespace NutritionApp.ViewModels
         }
 
         public int Id { get => id; }
-        public string Name { get => name; set => name = value; }
-        public DateTime DOB { get => dOB; set => dOB = value; }
-        public string Gender { get => gender; set => gender = value; }
-        public float Weight { get => weight; set => weight = value; }
-        public float Height { get => height; set => height = value; }
-        public float Activity { get => activity; set => activity = value; }
-        public bool Pregnant { get => pregnant; set => pregnant = value; }
+        public string Name { get => name; set => SetValue(ref name, value); }
+        public DateTime DOB { get => dOB; set => SetValue(ref dOB, value); }
+        public string Gender { get => gender; set => SetValue(ref gender, value); }
+        public float Weight { get => weight; set => SetValue(ref weight, value); }
+        public float Height { get => height; set => SetValue(ref height, value); }
+        public float Activity { get => activity; set => SetValue(ref activity, value); }
+        public bool Pregnant { get => pregnant; set => SetValue(ref pregnant, value); }
     }
 }

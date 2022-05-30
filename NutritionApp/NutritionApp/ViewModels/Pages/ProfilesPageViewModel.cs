@@ -1,8 +1,10 @@
 ﻿using NutritionApp.Models;
 using NutritionApp.Persistence;
+using NutritionApp.Views;
 using System;
 using System.Collections.Generic;
 using System.Collections.ObjectModel;
+using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
 using System.Windows.Input;
@@ -16,7 +18,7 @@ namespace NutritionApp.ViewModels
         //Look here for how to implement the custom interface 'IPageService'
         private ProfileViewModel _selectedProfile;
         private IDataStore<Profile> _profileStore;
-        //private IPageService _pageService;
+        private IPageService _pageService;
 
         private bool _isDataLoaded;
 
@@ -36,15 +38,34 @@ namespace NutritionApp.ViewModels
         public ICommand CallProfileCommand { get; private set; }
 
         //public ProfilesPageViewModel(IDataStore<Profile> profileStore, IPageService pageService)
-        public ProfilesPageViewModel(IDataStore<Profile> profileStore)
+        public ProfilesPageViewModel(IDataStore<Profile> profileStore, IPageService pageService)
         {
             _profileStore = profileStore;
-            //_pageService = pageService;
+            _pageService = pageService;
 
             LoadDataCommand = new Command(async () => await LoadData());
             AddProfileCommand = new Command(async () => await AddProfile());
             SelectProfileCommand = new Command<ProfileViewModel>(async c => await SelectProfile(c));
             DeleteProfileCommand = new Command<ProfileViewModel>(async c => await DeleteProfile(c));
+
+            MessagingCenter.Subscribe<ProfileDetailPageViewModel, Profile>(this, Events.ProfileAdded, OnProfileAdded);
+            MessagingCenter.Subscribe<ProfileDetailPageViewModel, Profile>(this, Events.ProfileUpdated, OnProfileUpdated);
+        }
+
+        private void OnProfileAdded(ProfileDetailPageViewModel source, Profile profile)
+        {
+            Profiles.Add(new ProfileViewModel(profile));
+        }
+        private void OnProfileUpdated(ProfileDetailPageViewModel source, Profile profile)
+        {
+            var profileInList = Profiles.Single(c => c.Id == profile.Id);
+            profileInList.Name = profile.Name;
+            profileInList.DOB = profile.DOB;
+            profileInList.Gender = profile.Gender;
+            profileInList.Weight = profile.Weight;
+            profileInList.Height = profile.Height;
+            profileInList.Activity = profile.Activity;
+            profileInList.Pregnant = profile.Pregnant;
         }
 
         private async Task LoadData()
@@ -59,30 +80,28 @@ namespace NutritionApp.ViewModels
 
         private async Task AddProfile()
         {
-            //await _pageService.PushAsync(new ProfilesDetailPage(new ProfileViewModel()));
-            await _profileStore.AddAsync(new Profile { Id = 1, Name = "Zach", Pregnant = true }); //temp, have not implemented messaging to update list yet. Requires app reload to view changes
+            await _pageService.PushAsync(new ProfileDetailPage(new ProfileViewModel()));
+            //await _profileStore.AddAsync(new Profile { Id = 1, Name = "Zach", Pregnant = true }); //temp, have not implemented messaging to update list yet. Requires app reload to view changes
         }
 
         private async Task SelectProfile(ProfileViewModel profile)
         {
             if (profile == null)
                 return;
+            Console.WriteLine(profile.Name);
 
             SelectedProfile = null;
-            //await _pageService.PushAsync(new ProfilesDetailPage(profile));
-            await new Task(() => { Console.WriteLine("Hasn't been implemented yet lol"); });
+            await _pageService.PushAsync(new ProfileDetailPage(profile));
         }
 
         private async Task DeleteProfile(ProfileViewModel profileViewModel)
         {
-            //if (await _pageService.DisplayAlert("Warning", $"Are you sure you want to delete {profileViewModel.FullName}?", "Yes", "No"))
-            //{
-            //    Profiles.Remove(profileViewModel);
-
-            //    var profile = await _profileStore.GetProfile(profileViewModel.Id);
-            //    await _profileStore.DeleteProfile(profile);
-            //}
-            await new Task(() => { Console.WriteLine("Hasn't been implemented yet lol"); });
+            if (await _pageService.DisplayAlert("Warning", $"Are you sure you want to delete {profileViewModel.Name}?", "Yes", "No"))
+            {
+                Profiles.Remove(profileViewModel);
+                var profile = await _profileStore.GetAsync(profileViewModel.Id);
+                await _profileStore.DeleteAsync(profile.Id);
+            }
         }
     }
 }
