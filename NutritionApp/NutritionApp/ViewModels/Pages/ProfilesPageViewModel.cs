@@ -2,10 +2,8 @@
 using NutritionApp.Persistence;
 using NutritionApp.Views;
 using System;
-using System.Collections.Generic;
 using System.Collections.ObjectModel;
 using System.Linq;
-using System.Text;
 using System.Threading.Tasks;
 using System.Windows.Input;
 using Xamarin.Forms;
@@ -21,17 +19,13 @@ namespace NutritionApp.ViewModels
         private IPageService _pageService;
 
         private bool _isDataLoaded;
-        private string _filterQuery;
 
         private ObservableCollection<ProfileViewModel> _profiles { get; set; } = new ObservableCollection<ProfileViewModel>();
         public ObservableCollection<ProfileViewModel> Profiles
         {
             get
             {
-                //return _profiles;
-                var newList = new ObservableCollection<ProfileViewModel>(_profiles.Where(p => p.Name.ToLowerInvariant().Contains(_filterQuery?.ToLower() ?? "")));
-                Console.WriteLine(newList);
-                return newList;
+                return _profiles;
             }
             set
             {
@@ -103,8 +97,6 @@ namespace NutritionApp.ViewModels
         {
             if (profile == null)
                 return;
-            Console.WriteLine(profile.Name);
-
             SelectedProfile = null;
             await _pageService.PushAsync(new ProfileDetailPage(profile));
         }
@@ -120,16 +112,18 @@ namespace NutritionApp.ViewModels
         }
 
         // perform search using a viewmodel... https://docs.microsoft.com/en-us/xamarin/xamarin-forms/user-interface/searchbar#perform-a-search-using-a-viewmodel
-        public Task FilterProfile(string queryString)
+        public async Task FilterProfile(string queryString)
         {
             // check if queryString is null, if not put to lower, if null return empty string
-            //var normalizedQuery = queryString?.ToLower() ?? "";
-            _filterQuery = queryString;
-            
-            // cast observable collection
-            //Profiles = new ObservableCollection<ProfileViewModel>(Profiles.Where(p => p.Name.ToLowerInvariant().Contains(normalizedQuery)));
-
-            return Task.CompletedTask;
+            var normalizedQuery = queryString?.ToLower() ?? "";
+            var profiles = await _profileStore.GetAsync();
+            if (!string.IsNullOrEmpty(normalizedQuery))
+            {
+                profiles = profiles.Where(p => p.Name.ToLowerInvariant().Contains(normalizedQuery));
+            }
+            Profiles.Clear();
+            foreach (var profile in profiles)
+                Profiles.Add(new ProfileViewModel(profile));
         }
     }
 }
