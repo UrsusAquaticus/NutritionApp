@@ -1,6 +1,7 @@
 ﻿<?xml version="1.0" encoding="utf-8" ?>
 <ContentPage xmlns="http://xamarin.com/schemas/2014/forms"
              xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+             xmlns:behaviors="clr-namespace:Xamarin.Forms.BehaviorsPack;assembly=Xamarin.Forms.BehaviorsPack"
              x:Class="NutritionApp.Views.ProfilesPage"
              xmlns:local="clr-namespace:NutritionApp.ViewModels"  
              xmlns:model="clr-namespace:NutritionApp.Models"
@@ -11,11 +12,21 @@
         <ToolbarItem Text="+" Command="{Binding AddProfileCommand}"/>
     </ContentPage.ToolbarItems>
     <StackLayout>
-         <SearchBar Placeholder="Search Profiles..."
-                       HorizontalOptions="Fill"
-                       BackgroundColor="#f3f3f3"/>
+        <SearchBar Placeholder="Search Profiles..."
+                    x:Name="profileSearchBar"
+                    HorizontalOptions="Fill"
+                    BackgroundColor="#f3f3f3"
+                    SearchCommand="{Binding FilterProfileCommand}"
+                    SearchCommandParameter="{Binding Text, Source={x:Reference profileSearchBar}}">
+            <SearchBar.Behaviors>
+                <behaviors:EventToCommandBehavior
+                    EventName="TextChanged"
+                    Command="{Binding FilterProfileCommand}"
+                    CommandParameter="{Binding Text, Source={x:Reference profileSearchBar}}"/>
+            </SearchBar.Behaviors>
+        </SearchBar>
 
-    <!-- create list view of meals -->
+        <!-- create list view of meals -->
     <ListView x:Name="profileList"
                         ItemsSource="{Binding Profiles}"
                         SelectedItem="{Binding SelectedProfile, Mode=TwoWay}"
