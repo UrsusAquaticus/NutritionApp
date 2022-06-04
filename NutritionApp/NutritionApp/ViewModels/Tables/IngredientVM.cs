@@ -1,10 +1,9 @@
-﻿using System;
-using System.Collections.Generic;
-using System.Text;
+﻿using NutritionApp.Models;
+using System;
 
 namespace NutritionApp.ViewModels
 {
-    class IngredientVM : BaseViewModel
+    public class IngredientVM : BaseViewModel
     {
         private int id;
         private string name;
@@ -15,12 +14,12 @@ namespace NutritionApp.ViewModels
         {
         }
 
-        public IngredientVM(int id, string name, float servingSizeGrams, float kj)
+        public IngredientVM(Ingredient ingredient)
         {
-            this.id = id;
-            this.name = name;
-            this.servingSizeGrams = servingSizeGrams;
-            this.kj = kj;
+            this.id = ingredient.Id;
+            this.name = ingredient.Name;
+            this.servingSizeGrams = ingredient.ServingSizeGrams;
+            this.kj = ingredient.Kj;
         }
 
         public int Id { get => id; }

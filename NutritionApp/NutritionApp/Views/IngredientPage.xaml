@@ -1,33 +1,38 @@
 ﻿<?xml version="1.0" encoding="utf-8" ?>
 <ContentPage xmlns="http://xamarin.com/schemas/2014/forms"
              xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+             xmlns:behaviors="clr-namespace:Xamarin.Forms.BehaviorsPack;assembly=Xamarin.Forms.BehaviorsPack"
              x:Class="NutritionApp.Views.IngredientPage"
-             Title="Ingredients">
+             xmlns:local="clr-namespace:NutritionApp.ViewModels"  
+             xmlns:model="clr-namespace:NutritionApp.Models"
+             Title="{Binding Title}">
     
     <!-- has add new profile button on toolbar -->
     <ContentPage.ToolbarItems>
-        <ToolbarItem Text="+" Clicked="New_Ingredient_Clicked"/>
+        <ToolbarItem Text="+" Command="{Binding AddIngredientCommand}"/>
     </ContentPage.ToolbarItems>
 
-    <ContentPage.Content>
-        <StackLayout>
-            <SearchBar Placeholder="Search Ingredients..."
-                       HorizontalOptions="Fill"
-                       BackgroundColor="#f3f3f3"/>
+    <StackLayout>
+        <SearchBar Placeholder="Search Ingredients..."
+                   x:Name="ingredientSearchBar"
+                   HorizontalOptions="Fill"
+                   BackgroundColor="#f3f3f3"
+                   SearchCommand="{Binding FilterIngredientCommand}"
+                   SearchCommandParameter="{Binding Text, Source={x:Reference ingredientSearchBar}}">
+        </SearchBar>
 
-            <!-- add list view of ingredients -->
-            <ListView x:Name="ingredientList"
-                  ItemsSource="{Binding Ingredients}">
-                <ListView.ItemTemplate>
-                    <DataTemplate>
-                        <TextCell Text="{Binding Name}" TextColor="Black" Detail="{Binding Kj}"/>
-                        </DataTemplate>
-                </ListView.ItemTemplate>
+        <!-- add list view of ingredients -->
+        <ListView x:Name="ingredientList"
+                ItemsSource="{Binding Ingredients}">
+            <ListView.ItemTemplate>
+                <DataTemplate>
+                    <TextCell Text="{Binding Name}" TextColor="Black" Detail="{Binding Kj}"/>
+                </DataTemplate>
+            </ListView.ItemTemplate>
 
-            </ListView>
-            
-        </StackLayout>
+        </ListView>
+
+    </StackLayout>
 
 
-    </ContentPage.Content>
 </ContentPage>
