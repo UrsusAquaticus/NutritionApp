@@ -1,11 +1,12 @@
-﻿using System;
+﻿using NutritionApp.Models;
+using System;
 using System.Collections.Generic;
 using System.Collections.ObjectModel;
 using System.Text;
 
 namespace NutritionApp.ViewModels.Tables
 {
-    class MealVM : BaseViewModel
+    public class MealVM : BaseViewModel
     {
         private int id;
         private string name;
@@ -16,12 +17,16 @@ namespace NutritionApp.ViewModels.Tables
         {
         }
 
-        public MealVM(int id, string name, float servingSizeGrams, ObservableCollection<MealIngredientVM> mealIngredients)
+        public MealVM(Meal meal)
         {
-            this.Id = id;
-            this.Name = name;
-            this.ServingSizeGrams = servingSizeGrams;
-            this.MealIngredients = mealIngredients;
+            this.Id = meal.Id;
+            this.Name = meal.Name;
+            this.ServingSizeGrams = meal.ServingSizeGrams;
+
+            ObservableCollection<MealIngredientVM> _tempMealIngredient = new ObservableCollection<MealIngredientVM>();
+            foreach (var mealIngredient in meal.MealIngredient)
+                _tempMealIngredient.Add(new MealIngredientVM(mealIngredient));
+            this.MealIngredients = _tempMealIngredient;
         }
 
         public int Id { get => id; set => id = value; }

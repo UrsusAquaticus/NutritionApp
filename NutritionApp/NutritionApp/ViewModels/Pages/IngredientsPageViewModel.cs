@@ -87,7 +87,6 @@ namespace NutritionApp.ViewModels
         private async Task AddIngredient()
         {
             await _pageService.PushAsync(new IngredientDetailPage(new IngredientVM()));
-            //await _profileStore.AddAsync(new Profile { Id = 1, Name = "Zach", Pregnant = true }); //temp, have not implemented messaging to update list yet. Requires app reload to view changes
         }
 
         private async Task SelectIngredient(IngredientVM ingredient)

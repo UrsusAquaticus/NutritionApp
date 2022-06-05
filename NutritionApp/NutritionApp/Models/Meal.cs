@@ -14,7 +14,6 @@ namespace NutritionApp.Models
         [OneToMany(CascadeOperations = CascadeOperation.All)]
         public List<MealIngredient> MealIngredient { get; set; }
 
-        //
         public string Name { get; set; }
         public float ServingSizeGrams { get; set; }
     }

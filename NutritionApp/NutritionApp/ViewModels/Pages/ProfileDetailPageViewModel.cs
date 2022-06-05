@@ -13,7 +13,7 @@ namespace NutritionApp.ViewModels
         private readonly IPageService _pageService;
         public Profile Profile { get; private set; }
         public ICommand SaveCommand { get; private set; }
-        public ProfileDetailPageViewModel(ProfileViewModel viewModel, IDataStore<Profile> profileStore, IPageService pageService)
+        public ProfileDetailPageViewModel(ProfileVM viewModel, IDataStore<Profile> profileStore, IPageService pageService)
         {
             _profileStore = profileStore;
             _pageService = pageService;

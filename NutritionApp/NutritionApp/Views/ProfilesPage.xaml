@@ -11,13 +11,14 @@
     <ContentPage.ToolbarItems>
         <ToolbarItem Text="+" Command="{Binding AddProfileCommand}"/>
     </ContentPage.ToolbarItems>
+    
     <StackLayout>
         <SearchBar Placeholder="Search Profiles..."
-                    x:Name="profileSearchBar"
-                    HorizontalOptions="Fill"
-                    BackgroundColor="#f3f3f3"
-                    SearchCommand="{Binding FilterProfileCommand}"
-                    SearchCommandParameter="{Binding Text, Source={x:Reference profileSearchBar}}">
+                   x:Name="profileSearchBar"
+                   HorizontalOptions="Fill"
+                   BackgroundColor="#f3f3f3"
+                   SearchCommand="{Binding FilterProfileCommand}"
+                   SearchCommandParameter="{Binding Text, Source={x:Reference profileSearchBar}}">
             <SearchBar.Behaviors>
                 <behaviors:EventToCommandBehavior
                     EventName="TextChanged"
@@ -26,11 +27,11 @@
             </SearchBar.Behaviors>
         </SearchBar>
 
-        <!-- create list view of meals -->
+        <!-- list view of profiles -->
     <ListView x:Name="profileList"
-                        ItemsSource="{Binding Profiles}"
-                        SelectedItem="{Binding SelectedProfile, Mode=TwoWay}"
-                        ItemSelected="OnProfileSelected">
+              ItemsSource="{Binding Profiles}"
+              SelectedItem="{Binding SelectedProfile, Mode=TwoWay}"
+              ItemSelected="OnProfileSelected">
         <ListView.ItemTemplate>
             <DataTemplate>
                 <TextCell Text="{Binding Name}" TextColor="Black"/>

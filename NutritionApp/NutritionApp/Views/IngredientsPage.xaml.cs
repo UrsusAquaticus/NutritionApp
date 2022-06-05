@@ -13,15 +13,14 @@ using NutritionApp.Persistence;
 namespace NutritionApp.Views
 {
     [XamlCompilation(XamlCompilationOptions.Compile)]
-    public partial class IngredientPage : ContentPage
+    public partial class IngredientsPage : ContentPage
     {
-        public IngredientPage()
+        public IngredientsPage()
         {
             var ingredientStore = new SQLiteIngredientStore(DependencyService.Get<ISQLiteDb>());
             var pageService = new PageService();
             ViewModel = new IngredientsPageViewModel(ingredientStore, pageService);
-            InitializeComponent();
-            
+            InitializeComponent();     
         }
 
         protected override void OnAppearing()
@@ -35,6 +34,7 @@ namespace NutritionApp.Views
             ViewModel.SelectIngredientCommand.Execute(e.SelectedItem);
         }
 
+        // set ViewModel
         public IngredientsPageViewModel ViewModel
         {
             get { return BindingContext as IngredientsPageViewModel; }

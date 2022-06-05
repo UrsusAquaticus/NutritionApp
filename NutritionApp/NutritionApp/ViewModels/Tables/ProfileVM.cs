@@ -3,7 +3,7 @@ using System;
 
 namespace NutritionApp.ViewModels
 {
-    public class ProfileViewModel : BaseViewModel
+    public class ProfileVM : BaseViewModel
     {
         private int id;
         private string name;
@@ -14,11 +14,11 @@ namespace NutritionApp.ViewModels
         private float activity;
         private bool pregnant;
 
-        public ProfileViewModel()
+        public ProfileVM()
         {
         }
 
-        public ProfileViewModel(Profile profile)
+        public ProfileVM(Profile profile)
         {
             this.id = profile.Id;
             this.name = profile.Name;
