@@ -5,7 +5,7 @@
              x:Class="NutritionApp.Views.IngredientPage"
              xmlns:local="clr-namespace:NutritionApp.ViewModels"  
              xmlns:model="clr-namespace:NutritionApp.Models"
-             Title="{Binding Title}">
+             Title="Ingredients">
     
     <!-- has add new profile button on toolbar -->
     <ContentPage.ToolbarItems>
@@ -19,6 +19,12 @@
                    BackgroundColor="#f3f3f3"
                    SearchCommand="{Binding FilterIngredientCommand}"
                    SearchCommandParameter="{Binding Text, Source={x:Reference ingredientSearchBar}}">
+            <SearchBar.Behaviors>
+                <behaviors:EventToCommandBehavior
+                    EventName="TextChanged"
+                    Command="{Binding FilterIngredientCommand}"
+                    CommandParameter="{Binding Text, Source={x:Reference ingredientSearchBar}}"/>
+            </SearchBar.Behaviors>
         </SearchBar>
 
         <!-- add list view of ingredients -->
