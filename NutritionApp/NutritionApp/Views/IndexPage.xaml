@@ -3,7 +3,7 @@
              xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
              x:Class="NutritionApp.Views.IndexPage"
              xmlns:vm="clr-namespace:NutritionApp.ViewModels"
-             Title="{Binding Title}">
+             Title="Home">
 
     <!-- binds IndexViewModel to IndexPage -->
     <!--<ContentPage.BindingContext>

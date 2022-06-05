@@ -5,7 +5,7 @@
              x:Class="NutritionApp.Views.ProfilesPage"
              xmlns:local="clr-namespace:NutritionApp.ViewModels"  
              xmlns:model="clr-namespace:NutritionApp.Models"
-             Title="{Binding Title}">
+             Title="Profiles">
 
     <!-- has add new profile button on toolbar -->
     <ContentPage.ToolbarItems>

@@ -5,14 +5,17 @@
              Shell.PresentationMode="ModalAnimated"
              Title="New Ingredient"
              xmlns:ios="clr-namespace:Xamarin.Forms.PlatformConfiguration.iOSSpecific;assembly=Xamarin.Forms.Core"
-             ios:Page.UseSafeArea="true">
+             ios:Page.UseSafeArea="true"
+             >
     <ContentPage.Content>
         <!-- change properties to match profiles table -->
         <StackLayout Spacing="3" Padding="15">
             <Label Text="Name" FontSize="Medium" />
             <Entry Text="" FontSize="Medium" />
+            
             <Label Text="Serving Size" FontSize="Medium" />
             <Editor Text="" AutoSize="TextChanges" FontSize="Medium" Margin="0" />
+            
             <Label Text="kJ per Serve" FontSize="Medium" />
             <Editor Text="" AutoSize="TextChanges" FontSize="Medium" Margin="0" />
             <StackLayout Orientation="Horizontal">

@@ -33,6 +33,9 @@
     <Compile Update="Views\NewProfilePage.xaml.cs">
       <DependentUpon>NewProfilePage.xaml</DependentUpon>
     </Compile>
+    <Compile Update="Views\IngredientDetailPage.xaml.cs">
+      <DependentUpon>IngredientDetailPage.xaml</DependentUpon>
+    </Compile>
     <Compile Update="Views\ProfileDetailPage.xaml.cs">
       <DependentUpon>ProfileDetailPage.xaml</DependentUpon>
     </Compile>
