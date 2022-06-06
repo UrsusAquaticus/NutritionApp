@@ -12,11 +12,16 @@ namespace NutritionApp.Views
         public MealDetailPage(MealVM viewModel)
         {
             InitializeComponent();
-
-            var mealStore = new SQLiteMealStore(DependencyService.Get<ISQLiteDb>());
             var pageService = new PageService();
             Title = (viewModel.Id == 0) ? "New Meal" : "Edit Meal";
-            BindingContext = new MealDetailPageViewModel(viewModel ?? new MealVM(), mealStore, pageService);
+            BindingContext = new MealDetailPageViewModel(viewModel ?? new MealVM(), pageService);
+        }
+
+        // set ViewModel
+        public MealDetailPageViewModel ViewModel
+        {
+            get { return BindingContext as MealDetailPageViewModel; }
+            set { BindingContext = value; }
         }
     }
 }

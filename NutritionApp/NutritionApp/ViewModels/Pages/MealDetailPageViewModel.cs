@@ -2,6 +2,8 @@
 using NutritionApp.Persistence;
 using NutritionApp.ViewModels.Tables;
 using System;
+using System.Collections.Generic;
+using System.Collections.ObjectModel;
 using System.Threading.Tasks;
 using System.Windows.Input;
 using Xamarin.Forms;
@@ -10,23 +12,34 @@ namespace NutritionApp.ViewModels
 {
     public class MealDetailPageViewModel : BaseViewModel
     {
-        private readonly IDataStore<Meal> _mealStore;
         private readonly IPageService _pageService;
-        public Meal Meal { get; private set; }
+        public MealVM Meal { get; private set; }
         public ICommand SaveCommand { get; private set; }
-        public MealDetailPageViewModel(MealVM viewModel, IDataStore<Meal> mealStore, IPageService pageService)
+        public MealDetailPageViewModel(MealVM viewModel, IPageService pageService)
         {
-            _mealStore = mealStore;
             _pageService = pageService;
 
-            SaveCommand = new Command(async () => await Save());
+            Meal = viewModel;
+            new Command(async () => { await GetIngredients(); }).Execute(null);
 
-            Meal = new Meal
+            SaveCommand = new Command(async () => await Save());
+        }
+
+        private async Task GetIngredients()
+        {
+            var mealIngredientsVM = new ObservableCollection<MealIngredientVM>();
+            int i = 0;
+            foreach (var ingredient in await IngredientVM.DataStore.GetAsync())
             {
-                Id = viewModel.Id,
-                Name = viewModel.Name,
-                ServingSizeGrams = viewModel.ServingSizeGrams
-            };
+                mealIngredientsVM.Add(new MealIngredientVM
+                {
+                    Id = 0,
+                    NumberOfServings = i++,
+                    Ingredient = new IngredientVM(ingredient)
+                });
+            }
+
+            Meal.MealIngredients = mealIngredientsVM;
         }
 
         private async Task Save()
@@ -38,12 +51,12 @@ namespace NutritionApp.ViewModels
             }
             if (Meal.Id == 0)
             {
-                await _mealStore.AddAsync(Meal);
+                await Meal.AddAsync();
                 MessagingCenter.Send(this, Events.MealAdded, Meal);
             }
             else
             {
-                await _mealStore.UpdateAsync(Meal);
+                await Meal.UpdateAsync();
                 MessagingCenter.Send(this, Events.MealUpdated, Meal);
             }
             await _pageService.PopAsync();

@@ -12,5 +12,6 @@ namespace NutritionApp.Persistence
         Task<int> DeleteAsync(int id);
         Task<T> GetAsync(int id);
         Task<IEnumerable<T>> GetAsync();
+        Task AddWithChildrenAsync(T obj);
     }
 }

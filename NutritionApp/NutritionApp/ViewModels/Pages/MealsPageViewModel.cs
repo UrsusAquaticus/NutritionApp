@@ -60,7 +60,6 @@ namespace NutritionApp.ViewModels
 
             MessagingCenter.Subscribe<MealDetailPageViewModel, Meal>(this, Events.MealAdded, OnMealAdded);
             MessagingCenter.Subscribe<MealDetailPageViewModel, Meal>(this, Events.MealUpdated, OnMealUpdated);
-
         }
 
         private async Task LoadData()

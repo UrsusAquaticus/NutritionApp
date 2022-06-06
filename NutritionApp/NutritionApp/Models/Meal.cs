@@ -12,7 +12,7 @@ namespace NutritionApp.Models
         public int Id { get; set; }
 
         [OneToMany(CascadeOperations = CascadeOperation.All)]
-        public List<MealIngredient> MealIngredient { get; set; }
+        public List<MealIngredient> MealIngredients { get; set; }
 
         public string Name { get; set; }
         public float ServingSizeGrams { get; set; }
