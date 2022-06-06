@@ -18,12 +18,12 @@ namespace NutritionApp.ViewModels.Tables
 
         public MealVM()
         {
-            dataStore = dataStore ?? new SQLiteMealStore(DependencyService.Get<ISQLiteDb>());
+            dataStore = dataStore ?? SQLiteMealStore.GetInstance();
         }
 
         public MealVM(Meal meal)
         {
-            dataStore = dataStore ?? new SQLiteMealStore(DependencyService.Get<ISQLiteDb>());
+            dataStore = dataStore ?? SQLiteMealStore.GetInstance();
 
             this.Id = meal.Id;
             this.Name = meal.Name;
@@ -70,7 +70,7 @@ namespace NutritionApp.ViewModels.Tables
 
             await dataStore.AddWithChildrenAsync(meal);
         }
-        public async Task UpdateAsync()
+        public Task UpdateAsync()
         {
             throw new NotImplementedException();
         }

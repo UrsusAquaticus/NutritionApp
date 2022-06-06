@@ -1,12 +1,33 @@
 ﻿using NutritionApp.Models;
+using System;
 using System.Threading.Tasks;
 
 namespace NutritionApp.Persistence
 {
-    class SQLiteMealStore : SQLiteDataStoreBase<Meal>
+    public class SQLiteMealStore : SQLiteDataStoreBase<Meal>
     {
-        public SQLiteMealStore(ISQLiteDb db) : base(db)
+        private static SQLiteMealStore Instance = null;
+
+        private SQLiteMealStore(ISQLiteDb db) : base(db)
         {
+        }
+
+        public static SQLiteMealStore Instantiate(ISQLiteDb db)
+        {
+            if (Instance == null)
+            {
+                Instance = new SQLiteMealStore(db);
+            }
+            return Instance;
+        }
+
+        public static SQLiteMealStore GetInstance()
+        {
+            if (Instance == null)
+            {
+                throw new InvalidOperationException("SQLiteMealStore has not been Instantiated");
+            }
+            return Instance;
         }
     }
 }

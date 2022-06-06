@@ -11,14 +11,19 @@ namespace NutritionApp
 
         public App()
         {
-            var database = DependencyService.Get<ISQLiteDb>();
-
             InitializeComponent();
             MainPage = new AppShell();
         }
 
         protected override void OnStart()
         {
+            var db = DependencyService.Get<ISQLiteDb>();
+            SQLiteIngredientStore.Instantiate(db);
+            SQLiteMealIngredientStore.Instantiate(db);
+            SQLiteMealStore.Instantiate(db);
+            SQLiteProfileMealStore.Instantiate(db);
+            SQLiteProfileStore.Instantiate(db);
+            SQLiteGoalStore.Instantiate(db);
         }
 
         protected override void OnSleep()

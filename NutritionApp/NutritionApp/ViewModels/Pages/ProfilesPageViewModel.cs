@@ -46,9 +46,9 @@ namespace NutritionApp.ViewModels
         public ICommand DeleteProfileCommand { get; private set; }
         public ICommand FilterProfileCommand { get; private set; }
 
-        public ProfilesPageViewModel(IDataStore<Profile> profileStore, IPageService pageService)
+        public ProfilesPageViewModel(IPageService pageService)
         {
-            _profileStore = profileStore;
+            _profileStore = SQLiteProfileStore.GetInstance();
             _pageService = pageService;
 
             LoadDataCommand = new Command(async () => await LoadData());

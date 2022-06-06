@@ -17,7 +17,7 @@ namespace NutritionApp.Views
     {
         public IngredientsPage()
         {
-            var ingredientStore = new SQLiteIngredientStore(DependencyService.Get<ISQLiteDb>());
+            var ingredientStore = SQLiteIngredientStore.GetInstance();
             var pageService = new PageService();
             ViewModel = new IngredientsPageViewModel(ingredientStore, pageService);
             InitializeComponent();     

@@ -13,9 +13,9 @@ namespace NutritionApp.ViewModels
         private readonly IPageService _pageService;
         public Profile Profile { get; private set; }
         public ICommand SaveCommand { get; private set; }
-        public ProfileDetailPageViewModel(ProfileVM viewModel, IDataStore<Profile> profileStore, IPageService pageService)
+        public ProfileDetailPageViewModel(ProfileVM viewModel, IPageService pageService)
         {
-            _profileStore = profileStore;
+            _profileStore = SQLiteProfileStore.GetInstance();
             _pageService = pageService;
 
             SaveCommand = new Command(async () => await Save());

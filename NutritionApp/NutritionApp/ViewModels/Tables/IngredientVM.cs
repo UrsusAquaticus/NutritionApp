@@ -20,7 +20,7 @@ namespace NutritionApp.ViewModels
 
         public IngredientVM(Ingredient ingredient)
         {
-            DataStore = DataStore ?? new SQLiteIngredientStore(DependencyService.Get<ISQLiteDb>());
+            DataStore = DataStore ?? SQLiteIngredientStore.GetInstance();
 
             this.id = ingredient.Id;
             this.name = ingredient.Name;
@@ -28,7 +28,7 @@ namespace NutritionApp.ViewModels
             this.kj = ingredient.Kj;
         }
 
-        public static IDataStore<Ingredient> DataStore { get => dataStore ?? new SQLiteIngredientStore(DependencyService.Get<ISQLiteDb>()); set => dataStore = value; }
+        public static IDataStore<Ingredient> DataStore { get => dataStore ?? SQLiteIngredientStore.GetInstance(); set => dataStore = value; }
         public int Id { get => id; }
         public string Name { get => name; set => SetValue(ref name, value); }
         public float ServingSizeGrams { get => servingSizeGrams; set => SetValue(ref servingSizeGrams, value); }
