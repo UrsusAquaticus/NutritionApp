@@ -19,12 +19,13 @@ namespace NutritionApp.ViewModels
         public ICommand SaveCommand { get; private set; }
         public MealDetailPageViewModel(Meal meal, IPageService pageService)
         {
+            Meal = meal;
+            this.pageService = pageService;
+
             mealStore = App.Database.MealStore;
             ingredientStore = App.Database.IngredientStore;
             //mealIngredientStore = App.Database.MealIngredientStore;
-            this.pageService = pageService;
 
-            Meal = meal;
             new Command(async () => { await GetIngredients(); }).Execute(null);
 
             SaveCommand = new Command(async () => await Save());

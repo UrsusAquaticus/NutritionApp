@@ -14,13 +14,13 @@ namespace NutritionApp.ViewModels
     {
         //https://medium.com/swlh/xamarin-forms-mvvm-how-to-work-with-sqlite-db-c-xaml-26fcae303edd
         //Look here for how to implement the custom interface 'IPageService'
-        private Ingredient selectedIngredient;
         private readonly IDataStore<Ingredient> ingredientStore;
         private readonly IPageService pageService;
-
         private bool _isDataLoaded;
 
-        private ObservableCollection<Ingredient> ingredients { get; set; } = new ObservableCollection<Ingredient>();
+        private ObservableCollection<Ingredient> ingredients = new ObservableCollection<Ingredient>();
+        private Ingredient selectedIngredient;
+
         public ObservableCollection<Ingredient> Ingredients
         {
             get
@@ -29,11 +29,9 @@ namespace NutritionApp.ViewModels
             }
             set
             {
-                ingredients = value;
-                OnPropertyChanged();
+                SetValue(ref ingredients, value);
             }
         }
-
         public Ingredient SelectedIngredient
         {
             get { return selectedIngredient; }
@@ -48,8 +46,9 @@ namespace NutritionApp.ViewModels
 
         public IngredientsPageViewModel(IPageService pageService)
         {
-            ingredientStore = App.Database.IngredientStore;
             this.pageService = pageService;
+
+            ingredientStore = App.Database.IngredientStore;
 
             LoadDataCommand = new Command(async () => await LoadData());
             AddIngredientCommand = new Command(async () => await AddIngredient());
@@ -68,9 +67,7 @@ namespace NutritionApp.ViewModels
         private void OnIngredientUpdated(IngredientDetailPageViewModel source, Ingredient ingredient)
         {
             var ingredientInList = Ingredients.Single(c => c.Id == ingredient.Id);
-            ingredientInList.Name = ingredient.Name;
-            ingredientInList.ServingSizeGrams = ingredient.ServingSizeGrams;
-            ingredientInList.Kj = ingredient.Kj;
+            ingredientInList = ingredient;
 
         }
 

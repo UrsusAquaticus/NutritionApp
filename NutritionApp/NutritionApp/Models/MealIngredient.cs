@@ -1,4 +1,5 @@
-﻿using SQLite;
+﻿using NutritionApp.ViewModels;
+using SQLite;
 using SQLiteNetExtensions.Attributes;
 using System;
 using System.Collections.Generic;
@@ -6,8 +7,9 @@ using System.Text;
 
 namespace NutritionApp.Models
 {
-    public class MealIngredient
+    public class MealIngredient : BaseViewModel
     {
+        //IDs
         [PrimaryKey, AutoIncrement]
         public int Id { get; set; }
 
@@ -17,10 +19,13 @@ namespace NutritionApp.Models
         [ForeignKey(typeof(Ingredient))]
         public int IngredientId { get; set; }
 
-        [ManyToOne(CascadeOperations = CascadeOperation.All)]
-        public Ingredient Ingredient { get; set; }
+        //Private
+        private Ingredient ingredient;
+        private float numberOfServings;
 
-        //
-        public float NumberOfServings { get; set; }
+        //Public
+        [ManyToOne(CascadeOperations = CascadeOperation.All)]
+        public Ingredient Ingredient { get => ingredient; set => SetValue(ref ingredient, value); }
+        public float NumberOfServings { get => numberOfServings; set => SetValue(ref numberOfServings, value); }
     }
 }

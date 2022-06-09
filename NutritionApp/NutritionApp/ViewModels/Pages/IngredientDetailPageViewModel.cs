@@ -15,12 +15,12 @@ namespace NutritionApp.ViewModels
         public ICommand SaveCommand { get; private set; }
         public IngredientDetailPageViewModel(Ingredient ingredient, IPageService pageService)
         {
-            ingredientStore = App.Database.IngredientStore;
+            Ingredient = ingredient;
             this.pageService = pageService;
 
-            SaveCommand = new Command(async () => await Save());
+            ingredientStore = App.Database.IngredientStore;
 
-            Ingredient = ingredient;
+            SaveCommand = new Command(async () => await Save());
         }
 
         private async Task Save()

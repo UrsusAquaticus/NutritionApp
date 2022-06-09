@@ -16,7 +16,7 @@ namespace NutritionApp.ViewModels
         //Look here for how to implement the custom interface 'IPageService'
         private Meal selectedMeal;
         private readonly IDataStore<Meal> mealStore;
-        private readonly IDataStore<MealIngredient> mealIngredientStore;
+        //private readonly IDataStore<MealIngredient> mealIngredientStore;
         private readonly IPageService pageService;
 
         private bool _isDataLoaded;
@@ -49,9 +49,10 @@ namespace NutritionApp.ViewModels
 
         public MealsPageViewModel(IPageService pageService)
         {
-            mealStore = App.Database.MealStore;
-            mealIngredientStore = App.Database.MealIngredientStore;
             this.pageService = pageService;
+
+            mealStore = App.Database.MealStore;
+            //mealIngredientStore = App.Database.MealIngredientStore;
 
             LoadDataCommand = new Command(async () => await LoadData());
             AddMealCommand = new Command(async () => await AddMeal());
@@ -79,8 +80,7 @@ namespace NutritionApp.ViewModels
         private void OnMealUpdated(MealDetailPageViewModel source, Meal meal)
         {
             var mealInList = Meals.Single(c => c.Id == meal.Id);
-            mealInList.Name = meal.Name;
-            mealInList.ServingSizeGrams = meal.ServingSizeGrams;
+            mealInList = meal;
         }
 
         private async Task AddMeal()

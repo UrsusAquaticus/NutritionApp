@@ -15,22 +15,12 @@ namespace NutritionApp.ViewModels
         public ICommand SaveCommand { get; private set; }
         public ProfileDetailPageViewModel(Profile profile, IPageService pageService)
         {
-            profileStore = App.Database.ProfileStore;
+            Profile = profile;
             this.pageService = pageService;
 
-            SaveCommand = new Command(async () => await Save());
+            profileStore = App.Database.ProfileStore;
 
-            Profile = new Profile
-            {
-                Id = profile.Id,
-                Name = profile.Name,
-                DOB = profile.DOB,
-                Gender = profile.Gender,
-                Weight = profile.Weight,
-                Height = profile.Height,
-                Activity = profile.Activity,
-                Pregnant = profile.Pregnant
-            };
+            SaveCommand = new Command(async () => await Save());
         }
 
         private async Task Save()

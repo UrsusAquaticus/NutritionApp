@@ -48,8 +48,9 @@ namespace NutritionApp.ViewModels
 
         public ProfilesPageViewModel(IPageService _pageService)
         {
-            profileStore = App.Database.ProfileStore;
             pageService = _pageService;
+
+            profileStore = App.Database.ProfileStore;
 
             LoadDataCommand = new Command(async () => await LoadData());
             AddProfileCommand = new Command(async () => await AddProfile());
@@ -68,13 +69,7 @@ namespace NutritionApp.ViewModels
         private void OnProfileUpdated(ProfileDetailPageViewModel source, Profile profile)
         {
             var profileInList = Profiles.Single(c => c.Id == profile.Id);
-            profileInList.Name = profile.Name;
-            profileInList.DOB = profile.DOB;
-            profileInList.Gender = profile.Gender;
-            profileInList.Weight = profile.Weight;
-            profileInList.Height = profile.Height;
-            profileInList.Activity = profile.Activity;
-            profileInList.Pregnant = profile.Pregnant;
+            profileInList = profile;
         }
 
         private async Task LoadData()
