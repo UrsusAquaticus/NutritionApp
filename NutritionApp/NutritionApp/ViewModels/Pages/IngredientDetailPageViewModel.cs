@@ -9,44 +9,38 @@ namespace NutritionApp.ViewModels
 {
     public class IngredientDetailPageViewModel : BaseViewModel
     {
-        private readonly IDataStore<Ingredient> _ingredientStore;
-        private readonly IPageService _pageService;
+        private readonly IDataStore<Ingredient> ingredientStore;
+        private readonly IPageService pageService;
         public Ingredient Ingredient { get; private set; }
         public ICommand SaveCommand { get; private set; }
-        public IngredientDetailPageViewModel(IngredientVM viewModel, IDataStore<Ingredient> ingredientStore, IPageService pageService)
+        public IngredientDetailPageViewModel(Ingredient ingredient, IPageService pageService)
         {
-            _ingredientStore = ingredientStore;
-            _pageService = pageService;
+            ingredientStore = App.Database.IngredientStore;
+            this.pageService = pageService;
 
             SaveCommand = new Command(async () => await Save());
 
-            Ingredient = new Ingredient
-            {
-                Id = viewModel.Id,
-                Name = viewModel.Name,
-                ServingSizeGrams = viewModel.ServingSizeGrams,
-                Kj = viewModel.Kj
-            };
+            Ingredient = ingredient;
         }
 
         private async Task Save()
         {
             if (String.IsNullOrWhiteSpace(Ingredient.Name))
             {
-                await _pageService.DisplayAlert("Error", "Please enter ingredient name.", "OK");
+                await pageService.DisplayAlert("Error", "Please enter ingredient name.", "OK");
                 return;
             }
             if (Ingredient.Id == 0)
             {
-                await _ingredientStore.AddAsync(Ingredient);
+                await ingredientStore.AddAsync(Ingredient);
                 MessagingCenter.Send(this, Events.IngredientAdded, Ingredient);
             }
             else
             {
-                await _ingredientStore.UpdateAsync(Ingredient);
+                await ingredientStore.UpdateAsync(Ingredient);
                 MessagingCenter.Send(this, Events.IngredientUpdated, Ingredient);
             }
-            await _pageService.PopAsync();
+            await pageService.PopAsync();
         }
     }
 }

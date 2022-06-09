@@ -8,14 +8,13 @@ namespace NutritionApp.Views
 {
     public partial class IngredientDetailPage : ContentPage
     {
-        public IngredientDetailPage(IngredientVM viewModel)
+        public IngredientDetailPage(Ingredient ingredient)
         {
             InitializeComponent();
 
-            var ingredientStore = SQLiteIngredientStore.GetInstance();
             var pageService = new PageService();
-            Title = (viewModel.Id == 0) ? "New Ingredient" : "Edit Ingredient";
-            BindingContext = new IngredientDetailPageViewModel(viewModel ?? new IngredientVM(), ingredientStore, pageService);
+            Title = (ingredient.Id == 0) ? "New Ingredient" : "Edit Ingredient";
+            BindingContext = new IngredientDetailPageViewModel(ingredient ?? new Ingredient(), pageService);
         }
     }
 }

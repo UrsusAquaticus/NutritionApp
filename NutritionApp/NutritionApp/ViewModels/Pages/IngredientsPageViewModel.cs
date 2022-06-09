@@ -14,30 +14,30 @@ namespace NutritionApp.ViewModels
     {
         //https://medium.com/swlh/xamarin-forms-mvvm-how-to-work-with-sqlite-db-c-xaml-26fcae303edd
         //Look here for how to implement the custom interface 'IPageService'
-        private IngredientVM _selectedIngredient;
-        private IDataStore<Ingredient> _ingredientStore;
-        private IPageService _pageService;
+        private Ingredient selectedIngredient;
+        private readonly IDataStore<Ingredient> ingredientStore;
+        private readonly IPageService pageService;
 
         private bool _isDataLoaded;
 
-        private ObservableCollection<IngredientVM> _ingredients { get; set; } = new ObservableCollection<IngredientVM>();
-        public ObservableCollection<IngredientVM> Ingredients
+        private ObservableCollection<Ingredient> ingredients { get; set; } = new ObservableCollection<Ingredient>();
+        public ObservableCollection<Ingredient> Ingredients
         {
             get
             {
-                return _ingredients;
+                return ingredients;
             }
             set
             {
-                _ingredients = value;
+                ingredients = value;
                 OnPropertyChanged();
             }
         }
 
-        public IngredientVM SelectedIngredient
+        public Ingredient SelectedIngredient
         {
-            get { return _selectedIngredient; }
-            set { SetValue(ref _selectedIngredient, value); }
+            get { return selectedIngredient; }
+            set { SetValue(ref selectedIngredient, value); }
         }
 
         public ICommand LoadDataCommand { get; private set; }
@@ -46,15 +46,15 @@ namespace NutritionApp.ViewModels
         public ICommand DeleteIngredientCommand { get; private set; }
         public ICommand FilterIngredientCommand { get; private set; }
 
-        public IngredientsPageViewModel(IDataStore<Ingredient> ingredientStore, IPageService pageService)
+        public IngredientsPageViewModel(IPageService pageService)
         {
-            _ingredientStore = ingredientStore;
-            _pageService = pageService;
+            ingredientStore = App.Database.IngredientStore;
+            this.pageService = pageService;
 
             LoadDataCommand = new Command(async () => await LoadData());
             AddIngredientCommand = new Command(async () => await AddIngredient());
-            SelectIngredientCommand = new Command<IngredientVM>(async c => await SelectIngredient(c));
-            DeleteIngredientCommand = new Command<IngredientVM>(async c => await DeleteIngredient(c));
+            SelectIngredientCommand = new Command<Ingredient>(async c => await SelectIngredient(c));
+            DeleteIngredientCommand = new Command<Ingredient>(async c => await DeleteIngredient(c));
             FilterIngredientCommand = new Command<string>(async c => await FilterIngredient(c));
 
             MessagingCenter.Subscribe<IngredientDetailPageViewModel, Ingredient>(this, Events.IngredientAdded, OnIngredientAdded);
@@ -63,7 +63,7 @@ namespace NutritionApp.ViewModels
 
         private void OnIngredientAdded(IngredientDetailPageViewModel source, Ingredient ingredient)
         {
-            Ingredients.Add(new IngredientVM(ingredient));
+            Ingredients.Add(ingredient);
         }
         private void OnIngredientUpdated(IngredientDetailPageViewModel source, Ingredient ingredient)
         {
@@ -79,31 +79,30 @@ namespace NutritionApp.ViewModels
             if (_isDataLoaded)
                 return;
             _isDataLoaded = true;
-            var ingredients = await _ingredientStore.GetAsync();
+            var ingredients = await ingredientStore.GetAsync();
             foreach (var ingredient in ingredients)
-                Ingredients.Add(new IngredientVM(ingredient));
+                Ingredients.Add(ingredient);
         }
 
         private async Task AddIngredient()
         {
-            await _pageService.PushAsync(new IngredientDetailPage(new IngredientVM()));
+            await pageService.PushAsync(new IngredientDetailPage(new Ingredient()));
         }
 
-        private async Task SelectIngredient(IngredientVM ingredient)
+        private async Task SelectIngredient(Ingredient ingredient)
         {
             if (ingredient == null)
                 return;
             SelectedIngredient = null;
-            await _pageService.PushAsync(new IngredientDetailPage(ingredient));
+            await pageService.PushAsync(new IngredientDetailPage(ingredient));
         }
 
-        private async Task DeleteIngredient(IngredientVM ingredientVM)
+        private async Task DeleteIngredient(Ingredient ingredient)
         {
-            if (await _pageService.DisplayAlert("Warning", $"Are you sure you want to delete {ingredientVM.Name}?", "Yes", "No"))
+            if (await pageService.DisplayAlert("Warning", $"Are you sure you want to delete {ingredient.Name}?", "Yes", "No"))
             {
-                Ingredients.Remove(ingredientVM);
-                var ingredient = await _ingredientStore.GetAsync(ingredientVM.Id);
-                await _ingredientStore.DeleteAsync(ingredient.Id);
+                Ingredients.Remove(ingredient);
+                await ingredientStore.DeleteAsync(ingredient.Id);
             }
         }
 
@@ -112,14 +111,14 @@ namespace NutritionApp.ViewModels
         {
             // check if queryString is null, if not put to lower, if null return empty string
             var normalizedQuery = queryString?.ToLower() ?? "";
-            var ingredients = await _ingredientStore.GetAsync();
+            var ingredients = await ingredientStore.GetAsync();
             if (!string.IsNullOrEmpty(normalizedQuery))
             {
                 ingredients = ingredients.Where(p => p.Name.ToLowerInvariant().Contains(normalizedQuery));
             }
             Ingredients.Clear();
             foreach (var ingredient in ingredients)
-                Ingredients.Add(new IngredientVM(ingredient));
+                Ingredients.Add(ingredient);
         }
     }
 }

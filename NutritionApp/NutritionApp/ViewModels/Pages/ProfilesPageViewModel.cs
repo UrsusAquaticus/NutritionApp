@@ -14,30 +14,30 @@ namespace NutritionApp.ViewModels
     {
         //https://medium.com/swlh/xamarin-forms-mvvm-how-to-work-with-sqlite-db-c-xaml-26fcae303edd
         //Look here for how to implement the custom interface 'IPageService'
-        private ProfileVM _selectedProfile;
-        private IDataStore<Profile> _profileStore;
-        private IPageService _pageService;
+        private Profile selectedProfile;
+        private readonly IDataStore<Profile> profileStore;
+        private readonly IPageService pageService;
 
-        private bool _isDataLoaded;
+        private bool isDataLoaded;
 
-        private ObservableCollection<ProfileVM> _profiles { get; set; } = new ObservableCollection<ProfileVM>();
-        public ObservableCollection<ProfileVM> Profiles
+        private ObservableCollection<Profile> profiles { get; set; } = new ObservableCollection<Profile>();
+        public ObservableCollection<Profile> Profiles
         {
             get
             {
-                return _profiles;
+                return profiles;
             }
             set
             {
-                _profiles = value;
+                profiles = value;
                 OnPropertyChanged();
             }
         }
 
-        public ProfileVM SelectedProfile
+        public Profile SelectedProfile
         {
-            get { return _selectedProfile; }
-            set { SetValue(ref _selectedProfile, value); }
+            get { return selectedProfile; }
+            set { SetValue(ref selectedProfile, value); }
         }
 
         public ICommand LoadDataCommand { get; private set; }
@@ -46,15 +46,15 @@ namespace NutritionApp.ViewModels
         public ICommand DeleteProfileCommand { get; private set; }
         public ICommand FilterProfileCommand { get; private set; }
 
-        public ProfilesPageViewModel(IPageService pageService)
+        public ProfilesPageViewModel(IPageService _pageService)
         {
-            _profileStore = SQLiteProfileStore.GetInstance();
-            _pageService = pageService;
+            profileStore = App.Database.ProfileStore;
+            pageService = _pageService;
 
             LoadDataCommand = new Command(async () => await LoadData());
             AddProfileCommand = new Command(async () => await AddProfile());
-            SelectProfileCommand = new Command<ProfileVM>(async c => await SelectProfile(c));
-            DeleteProfileCommand = new Command<ProfileVM>(async c => await DeleteProfile(c));
+            SelectProfileCommand = new Command<Profile>(async c => await SelectProfile(c));
+            DeleteProfileCommand = new Command<Profile>(async c => await DeleteProfile(c));
             FilterProfileCommand = new Command<string>(async c => await FilterProfile(c));
 
             MessagingCenter.Subscribe<ProfileDetailPageViewModel, Profile>(this, Events.ProfileAdded, OnProfileAdded);
@@ -63,7 +63,7 @@ namespace NutritionApp.ViewModels
 
         private void OnProfileAdded(ProfileDetailPageViewModel source, Profile profile)
         {
-            Profiles.Add(new ProfileVM(profile));
+            Profiles.Add(profile);
         }
         private void OnProfileUpdated(ProfileDetailPageViewModel source, Profile profile)
         {
@@ -79,35 +79,35 @@ namespace NutritionApp.ViewModels
 
         private async Task LoadData()
         {
-            if (_isDataLoaded)
+            if (isDataLoaded)
                 return;
-            _isDataLoaded = true;
-            var profiles = await _profileStore.GetAsync();
+            isDataLoaded = true;
+            var profiles = await profileStore.GetAsync();
             foreach (var profile in profiles)
-                Profiles.Add(new ProfileVM(profile));
+                Profiles.Add(profile);
         }
 
         private async Task AddProfile()
         {
-            await _pageService.PushAsync(new ProfileDetailPage(new ProfileVM()));
+            await pageService.PushAsync(new ProfileDetailPage(new Profile()));
             //await _profileStore.AddAsync(new Profile { Id = 1, Name = "Zach", Pregnant = true }); //temp, have not implemented messaging to update list yet. Requires app reload to view changes
         }
 
-        private async Task SelectProfile(ProfileVM profile)
+        private async Task SelectProfile(Profile profile)
         {
             if (profile == null)
                 return;
             SelectedProfile = null;
-            await _pageService.PushAsync(new ProfileDetailPage(profile));
+            await pageService.PushAsync(new ProfileDetailPage(profile));
         }
 
-        private async Task DeleteProfile(ProfileVM profileViewModel)
+        private async Task DeleteProfile(Profile profileViewModel)
         {
-            if (await _pageService.DisplayAlert("Warning", $"Are you sure you want to delete {profileViewModel.Name}?", "Yes", "No"))
+            if (await pageService.DisplayAlert("Warning", $"Are you sure you want to delete {profileViewModel.Name}?", "Yes", "No"))
             {
                 Profiles.Remove(profileViewModel);
-                var profile = await _profileStore.GetAsync(profileViewModel.Id);
-                await _profileStore.DeleteAsync(profile.Id);
+                var profile = await profileStore.GetAsync(profileViewModel.Id);
+                await profileStore.DeleteAsync(profile.Id);
             }
         }
 
@@ -116,14 +116,14 @@ namespace NutritionApp.ViewModels
         {
             // check if queryString is null, if not put to lower, if null return empty string
             var normalizedQuery = queryString?.ToLower() ?? "";
-            var profiles = await _profileStore.GetAsync();
+            var profiles = await profileStore.GetAsync();
             if (!string.IsNullOrEmpty(normalizedQuery))
             {
                 profiles = profiles.Where(p => p.Name.ToLowerInvariant().Contains(normalizedQuery));
             }
             Profiles.Clear();
             foreach (var profile in profiles)
-                Profiles.Add(new ProfileVM(profile));
+                Profiles.Add(profile);
         }
     }
 }

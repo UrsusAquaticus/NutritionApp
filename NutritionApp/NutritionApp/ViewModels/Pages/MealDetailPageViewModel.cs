@@ -1,6 +1,5 @@
 ﻿using NutritionApp.Models;
 using NutritionApp.Persistence;
-using NutritionApp.ViewModels.Tables;
 using System;
 using System.Collections.Generic;
 using System.Collections.ObjectModel;
@@ -12,14 +11,20 @@ namespace NutritionApp.ViewModels
 {
     public class MealDetailPageViewModel : BaseViewModel
     {
-        private readonly IPageService _pageService;
-        public MealVM Meal { get; private set; }
+        private readonly IDataStore<Meal> mealStore;
+        private readonly IDataStore<Ingredient> ingredientStore;
+        //private readonly IDataStore<MealIngredient> mealIngredientStore;
+        private readonly IPageService pageService;
+        public Meal Meal { get; private set; }
         public ICommand SaveCommand { get; private set; }
-        public MealDetailPageViewModel(MealVM viewModel, IPageService pageService)
+        public MealDetailPageViewModel(Meal meal, IPageService pageService)
         {
-            _pageService = pageService;
+            mealStore = App.Database.MealStore;
+            ingredientStore = App.Database.IngredientStore;
+            //mealIngredientStore = App.Database.MealIngredientStore;
+            this.pageService = pageService;
 
-            Meal = viewModel;
+            Meal = meal;
             new Command(async () => { await GetIngredients(); }).Execute(null);
 
             SaveCommand = new Command(async () => await Save());
@@ -27,39 +32,39 @@ namespace NutritionApp.ViewModels
 
         private async Task GetIngredients()
         {
-            var mealIngredientsVM = new ObservableCollection<MealIngredientVM>();
+            var mealIngredients = new List<MealIngredient>();
             int i = 0;
-            foreach (var ingredient in await IngredientVM.DataStore.GetAsync())
+            foreach (var ingredient in await ingredientStore.GetAsync())
             {
-                mealIngredientsVM.Add(new MealIngredientVM
+                mealIngredients.Add(new MealIngredient
                 {
                     Id = 0,
                     NumberOfServings = i++,
-                    Ingredient = new IngredientVM(ingredient)
+                    Ingredient = ingredient
                 });
             }
 
-            Meal.MealIngredients = mealIngredientsVM;
+            Meal.MealIngredients = mealIngredients;
         }
 
         private async Task Save()
         {
             if (String.IsNullOrWhiteSpace(Meal.Name))
             {
-                await _pageService.DisplayAlert("Error", "Please enter meal name.", "OK");
+                await pageService.DisplayAlert("Error", "Please enter meal name.", "OK");
                 return;
             }
             if (Meal.Id == 0)
             {
-                await Meal.AddAsync();
+                await mealStore.AddWithChildrenAsync(Meal);
                 MessagingCenter.Send(this, Events.MealAdded, Meal);
             }
             else
             {
-                await Meal.UpdateAsync();
+                await mealStore.UpdateAsync(Meal);
                 MessagingCenter.Send(this, Events.MealUpdated, Meal);
             }
-            await _pageService.PopAsync();
+            await pageService.PopAsync();
         }
     }
 }

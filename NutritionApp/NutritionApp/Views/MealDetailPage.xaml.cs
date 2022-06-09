@@ -1,7 +1,6 @@
 ﻿using NutritionApp.Models;
 using NutritionApp.Persistence;
 using NutritionApp.ViewModels;
-using NutritionApp.ViewModels.Tables;
 using System.ComponentModel;
 using Xamarin.Forms;
 
@@ -9,12 +8,12 @@ namespace NutritionApp.Views
 {
     public partial class MealDetailPage : ContentPage
     {
-        public MealDetailPage(MealVM viewModel)
+        public MealDetailPage(Meal meal)
         {
             InitializeComponent();
             var pageService = new PageService();
-            Title = (viewModel.Id == 0) ? "New Meal" : "Edit Meal";
-            BindingContext = new MealDetailPageViewModel(viewModel ?? new MealVM(), pageService);
+            Title = (meal.Id == 0) ? "New Meal" : "Edit Meal";
+            BindingContext = new MealDetailPageViewModel(meal ?? new Meal(), pageService);
         }
 
         // set ViewModel

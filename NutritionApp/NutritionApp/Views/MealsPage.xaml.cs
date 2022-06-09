@@ -17,9 +17,8 @@ namespace NutritionApp.Views
     {
         public MealsPage()
         {
-            var mealStore = SQLiteMealStore.GetInstance();
             var pageService = new PageService();
-            ViewModel = new MealsPageViewModel(mealStore, pageService);
+            ViewModel = new MealsPageViewModel(pageService);
             InitializeComponent();
             
         }

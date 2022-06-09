@@ -9,27 +9,27 @@ namespace NutritionApp.ViewModels
 {
     public class ProfileDetailPageViewModel : BaseViewModel
     {
-        private readonly IDataStore<Profile> _profileStore;
-        private readonly IPageService _pageService;
+        private readonly IDataStore<Profile> profileStore;
+        private readonly IPageService pageService;
         public Profile Profile { get; private set; }
         public ICommand SaveCommand { get; private set; }
-        public ProfileDetailPageViewModel(ProfileVM viewModel, IPageService pageService)
+        public ProfileDetailPageViewModel(Profile profile, IPageService pageService)
         {
-            _profileStore = SQLiteProfileStore.GetInstance();
-            _pageService = pageService;
+            profileStore = App.Database.ProfileStore;
+            this.pageService = pageService;
 
             SaveCommand = new Command(async () => await Save());
 
             Profile = new Profile
             {
-                Id = viewModel.Id,
-                Name = viewModel.Name,
-                DOB = viewModel.DOB,
-                Gender = viewModel.Gender,
-                Weight = viewModel.Weight,
-                Height = viewModel.Height,
-                Activity = viewModel.Activity,
-                Pregnant = viewModel.Pregnant
+                Id = profile.Id,
+                Name = profile.Name,
+                DOB = profile.DOB,
+                Gender = profile.Gender,
+                Weight = profile.Weight,
+                Height = profile.Height,
+                Activity = profile.Activity,
+                Pregnant = profile.Pregnant
             };
         }
 
@@ -37,20 +37,20 @@ namespace NutritionApp.ViewModels
         {
             if (String.IsNullOrWhiteSpace(Profile.Name))
             {
-                await _pageService.DisplayAlert("Error", "Please enter the name.", "OK");
+                await pageService.DisplayAlert("Error", "Please enter the name.", "OK");
                 return;
             }
             if (Profile.Id == 0)
             {
-                await _profileStore.AddAsync(Profile);
+                await profileStore.AddAsync(Profile);
                 MessagingCenter.Send(this, Events.ProfileAdded, Profile);
             }
             else
             {
-                await _profileStore.UpdateAsync(Profile);
+                await profileStore.UpdateAsync(Profile);
                 MessagingCenter.Send(this, Events.ProfileUpdated, Profile);
             }
-            await _pageService.PopAsync();
+            await pageService.PopAsync();
         }
     }
 }

@@ -11,20 +11,11 @@ namespace NutritionApp.Persistence
         {
         }
 
-        public static SQLiteIngredientStore Instantiate(ISQLiteDb db)
+        public static SQLiteIngredientStore GetInstance(ISQLiteDb db)
         {
             if (Instance == null)
             {
                 Instance = new SQLiteIngredientStore(db);
-            }
-            return Instance;
-        }
-
-        public static SQLiteIngredientStore GetInstance()
-        {
-            if (Instance == null)
-            {
-                throw new InvalidOperationException("SQLiteIngredientStore has not been Instantiated");
             }
             return Instance;
         }
