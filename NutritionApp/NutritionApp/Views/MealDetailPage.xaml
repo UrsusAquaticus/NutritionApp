@@ -31,6 +31,9 @@
             </TableSection>
             <TableSection>
                 <ViewCell>
+                    <Button Text="Add Random Ingredient" Command="{Binding RandomIngredientCommand}" />
+                </ViewCell>
+                <ViewCell>
                     <Button Text="Save" Command="{Binding SaveCommand}" />
                 </ViewCell>
             </TableSection>

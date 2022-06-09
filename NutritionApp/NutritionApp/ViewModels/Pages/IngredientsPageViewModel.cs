@@ -108,13 +108,13 @@ namespace NutritionApp.ViewModels
         {
             // check if queryString is null, if not put to lower, if null return empty string
             var normalizedQuery = queryString?.ToLower() ?? "";
-            var ingredients = await ingredientStore.GetAsync();
+            var _ingredients = await ingredientStore.GetAsync();
             if (!string.IsNullOrEmpty(normalizedQuery))
             {
-                ingredients = ingredients.Where(p => p.Name.ToLowerInvariant().Contains(normalizedQuery));
+                _ingredients = _ingredients.Where(p => p.Name.ToLowerInvariant().Contains(normalizedQuery));
             }
             Ingredients.Clear();
-            foreach (var ingredient in ingredients)
+            foreach (var ingredient in _ingredients)
                 Ingredients.Add(ingredient);
         }
     }

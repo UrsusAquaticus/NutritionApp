@@ -2,8 +2,7 @@
 using SQLite;
 using SQLiteNetExtensions.Attributes;
 using System;
-using System.Collections.Generic;
-using System.Text;
+using System.Collections.ObjectModel;
 
 namespace NutritionApp.Models
 {
@@ -14,16 +13,37 @@ namespace NutritionApp.Models
         public int Id { get; set; }
 
         //Private
-        private List<MealIngredient> mealIngredients;
+        private ObservableCollection<MealIngredient> mealIngredients;
         private string name;
         private float servingSizeGrams;
 
         //Public
         [OneToMany(CascadeOperations = CascadeOperation.All)]
-        public List<MealIngredient> MealIngredients { get => mealIngredients; set => SetValue(ref mealIngredients, value); }
+        public ObservableCollection<MealIngredient> MealIngredients
+        {
+            get
+            {
+                if (mealIngredients == null)
+                {
+                    mealIngredients = new ObservableCollection<MealIngredient>();
+                }
+                return mealIngredients;
+            }
+            set => SetValue(ref mealIngredients, value);
+        }
         public string Name { get => name; set => SetValue(ref name, value); }
         public float ServingSizeGrams { get => servingSizeGrams; set => SetValue(ref servingSizeGrams, value); }
 
+        public Meal AddIngredient(Tuple<Ingredient, float> ingredient)
+        {
+            MealIngredient mealIngredient = new MealIngredient
+            {
+                Ingredient = ingredient.Item1,
+                NumberOfServings = ingredient.Item2
+            };
+            MealIngredients.Add(mealIngredient);
+            return this;
+        }
     }
 
 }

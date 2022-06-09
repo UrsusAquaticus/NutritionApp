@@ -2,6 +2,7 @@
 using NutritionApp.Persistence;
 using NutritionApp.Views;
 using System;
+using System.Collections.Generic;
 using System.Collections.ObjectModel;
 using System.Linq;
 using System.Threading.Tasks;
@@ -20,7 +21,7 @@ namespace NutritionApp.ViewModels
 
         private bool isDataLoaded;
 
-        private ObservableCollection<Profile> profiles { get; set; } = new ObservableCollection<Profile>();
+        private ObservableCollection<Profile> profiles = new ObservableCollection<Profile>();
         public ObservableCollection<Profile> Profiles
         {
             get
@@ -30,7 +31,7 @@ namespace NutritionApp.ViewModels
             set
             {
                 profiles = value;
-                OnPropertyChanged();
+                SetValue(ref profiles, value);
             }
         }
 
@@ -111,13 +112,13 @@ namespace NutritionApp.ViewModels
         {
             // check if queryString is null, if not put to lower, if null return empty string
             var normalizedQuery = queryString?.ToLower() ?? "";
-            var profiles = await profileStore.GetAsync();
+            var _profiles = await profileStore.GetAsync();
             if (!string.IsNullOrEmpty(normalizedQuery))
             {
-                profiles = profiles.Where(p => p.Name.ToLowerInvariant().Contains(normalizedQuery));
+                _profiles = _profiles.Where(p => p.Name.ToLowerInvariant().Contains(normalizedQuery));
             }
             Profiles.Clear();
-            foreach (var profile in profiles)
+            foreach (var profile in _profiles)
                 Profiles.Add(profile);
         }
     }

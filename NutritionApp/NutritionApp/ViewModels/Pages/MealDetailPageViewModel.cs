@@ -17,6 +17,7 @@ namespace NutritionApp.ViewModels
         private readonly IPageService pageService;
         public Meal Meal { get; private set; }
         public ICommand SaveCommand { get; private set; }
+        public ICommand RandomIngredientCommand { get; private set; }
         public MealDetailPageViewModel(Meal meal, IPageService pageService)
         {
             Meal = meal;
@@ -26,26 +27,16 @@ namespace NutritionApp.ViewModels
             ingredientStore = App.Database.IngredientStore;
             //mealIngredientStore = App.Database.MealIngredientStore;
 
-            new Command(async () => { await GetIngredients(); }).Execute(null);
-
             SaveCommand = new Command(async () => await Save());
+            RandomIngredientCommand = new Command(async () => await RandomIngredient());
         }
 
-        private async Task GetIngredients()
+        private async Task RandomIngredient()
         {
-            var mealIngredients = new List<MealIngredient>();
-            int i = 0;
-            foreach (var ingredient in await ingredientStore.GetAsync())
-            {
-                mealIngredients.Add(new MealIngredient
-                {
-                    Id = 0,
-                    NumberOfServings = i++,
-                    Ingredient = ingredient
-                });
-            }
-
-            Meal.MealIngredients = mealIngredients;
+            var ingredients = (List<Ingredient>)await ingredientStore.GetAsync();
+            var rndNumber = new Random().Next(0, ingredients.Count);
+            var ingredient = ingredients[rndNumber];
+            Console.WriteLine(Meal.AddIngredient(new Tuple<Ingredient, float>(ingredient, (float)rndNumber)).MealIngredients.Count);
         }
 
         private async Task Save()
@@ -55,6 +46,11 @@ namespace NutritionApp.ViewModels
                 await pageService.DisplayAlert("Error", "Please enter meal name.", "OK");
                 return;
             }
+            if (Meal.MealIngredients.Count < 1)
+            {
+                await pageService.DisplayAlert("Error", "Please add ingredients", "OK");
+                return;
+            }
             if (Meal.Id == 0)
             {
                 await mealStore.AddWithChildrenAsync(Meal);
@@ -62,7 +58,7 @@ namespace NutritionApp.ViewModels
             }
             else
             {
-                await mealStore.UpdateAsync(Meal);
+                await mealStore.UpdateWithChildrenAsync(Meal);
                 MessagingCenter.Send(this, Events.MealUpdated, Meal);
             }
             await pageService.PopAsync();

@@ -1,7 +1,6 @@
 ﻿using NutritionApp.Models;
 using NutritionApp.Persistence;
 using NutritionApp.Views;
-using System;
 using System.Collections.ObjectModel;
 using System.Linq;
 using System.Threading.Tasks;
@@ -21,7 +20,7 @@ namespace NutritionApp.ViewModels
 
         private bool _isDataLoaded;
 
-        private ObservableCollection<Meal> meals { get; set; } = new ObservableCollection<Meal>();
+        private ObservableCollection<Meal> meals = new ObservableCollection<Meal>();
         public ObservableCollection<Meal> Meals
         {
             get
@@ -30,8 +29,7 @@ namespace NutritionApp.ViewModels
             }
             set
             {
-                meals = value;
-                OnPropertyChanged();
+                SetValue(ref meals, value);
             }
         }
 
@@ -93,16 +91,15 @@ namespace NutritionApp.ViewModels
             if (meal == null)
                 return;
             SelectedMeal = null;
-            await pageService.PushAsync(new MealDetailPage(meal));
-
+            var expandedMeal = await mealStore.GetWithChildrenAsync(meal.Id);
+            await pageService.PushAsync(new MealDetailPage(expandedMeal));
         }
 
-        private async Task DeleteMeal(Meal mealVM)
+        private async Task DeleteMeal(Meal meal)
         {
-            if (await pageService.DisplayAlert("Warning", $"Are you sure you want to delete {mealVM.Name}?", "Yes", "No"))
+            if (await pageService.DisplayAlert("Warning", $"Are you sure you want to delete {meal.Name}?", "Yes", "No"))
             {
-                Meals.Remove(mealVM);
-                var meal = await mealStore.GetAsync(mealVM.Id);
+                Meals.Remove(meal);
                 await mealStore.DeleteAsync(meal.Id);
             }
         }
@@ -112,13 +109,13 @@ namespace NutritionApp.ViewModels
         {
             // check if queryString is null, if not put to lower, if null return empty string
             var normalizedQuery = queryString?.ToLower() ?? "";
-            var meals = await mealStore.GetAsync();
+            var _meals = await mealStore.GetAsync();
             if (!string.IsNullOrEmpty(normalizedQuery))
             {
-                meals = meals.Where(p => p.Name.ToLowerInvariant().Contains(normalizedQuery));
+                _meals = _meals.Where(p => p.Name.ToLowerInvariant().Contains(normalizedQuery));
             }
             Meals.Clear();
-            foreach (var meal in meals)
+            foreach (var meal in _meals)
                 Meals.Add(meal);
         }
 
