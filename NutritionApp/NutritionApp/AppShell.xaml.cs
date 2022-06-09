@@ -12,7 +12,7 @@ namespace NutritionApp
         {
             InitializeComponent();
             Routing.RegisterRoute(nameof(ProfileDetailPage), typeof(ProfileDetailPage));
-            Routing.RegisterRoute(nameof(NewProfilePage), typeof(NewProfilePage));
+            Routing.RegisterRoute(nameof(MealDetailPage), typeof(MealDetailPage));
         }
 
     }

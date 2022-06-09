@@ -2,7 +2,7 @@
 <ContentPage xmlns="http://xamarin.com/schemas/2014/forms"
              xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
              xmlns:behaviors="clr-namespace:Xamarin.Forms.BehaviorsPack;assembly=Xamarin.Forms.BehaviorsPack"
-             x:Class="NutritionApp.Views.IngredientPage"
+             x:Class="NutritionApp.Views.IngredientsPage"
              xmlns:local="clr-namespace:NutritionApp.ViewModels"  
              xmlns:model="clr-namespace:NutritionApp.Models"
              Title="Ingredients">
@@ -27,12 +27,15 @@
             </SearchBar.Behaviors>
         </SearchBar>
 
-        <!-- add list view of ingredients -->
+        <!-- list view of ingredients -->
         <ListView x:Name="ingredientList"
-                ItemsSource="{Binding Ingredients}">
+                  ItemsSource="{Binding Ingredients}"
+                  SelectedItem="{Binding SelectedIngredient, Mode=TwoWay}"
+                  ItemSelected="OnIngredientSelected">
+            
             <ListView.ItemTemplate>
                 <DataTemplate>
-                    <TextCell Text="{Binding Name}" TextColor="Black" Detail="{Binding Kj}"/>
+                    <TextCell Text="{Binding Name}" TextColor="Black" />
                 </DataTemplate>
             </ListView.ItemTemplate>
 

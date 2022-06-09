@@ -1,0 +1,48 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<ContentPage xmlns="http://xamarin.com/schemas/2014/forms"
+             xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+             xmlns:behaviors="clr-namespace:Xamarin.Forms.BehaviorsPack;assembly=Xamarin.Forms.BehaviorsPack"
+             x:Class="NutritionApp.Views.MealsPage"
+             xmlns:local="clr-namespace:NutritionApp.ViewModels"  
+             xmlns:model="clr-namespace:NutritionApp.Models"
+             Title="Meals">
+
+    <!-- has add new profile button on toolbar -->
+    <ContentPage.ToolbarItems>
+        <ToolbarItem Text="+" Command="{Binding AddMealCommand}"/>
+    </ContentPage.ToolbarItems>
+
+    <ContentPage.Content>
+        
+        <StackLayout>
+            <SearchBar Placeholder="Search Meals..."
+                   x:Name="mealSearchBar"
+                   HorizontalOptions="Fill"
+                   BackgroundColor="#f3f3f3"
+                   SearchCommand="{Binding FilterMealCommand}"
+                   SearchCommandParameter="{Binding Text, Source={x:Reference mealSearchBar}}">
+                <SearchBar.Behaviors>
+                    <behaviors:EventToCommandBehavior
+                    EventName="TextChanged"
+                    Command="{Binding FilterMealCommand}"
+                    CommandParameter="{Binding Text, Source={x:Reference mealSearchBar}}"/>
+                </SearchBar.Behaviors>
+            </SearchBar>
+
+            <!-- list view of meals -->
+            <ListView x:Name="mealList"
+                      ItemsSource="{Binding Meals}"
+                      SelectedItem="{Binding SelectedMeal, Mode=TwoWay}"
+                      ItemSelected="OnMealSelected">
+                
+                <ListView.ItemTemplate>
+                    <DataTemplate>
+                        <TextCell Text="{Binding Name}" TextColor="Black" />
+                    </DataTemplate>
+                </ListView.ItemTemplate>
+
+            </ListView>
+        </StackLayout>
+
+    </ContentPage.Content>
+</ContentPage>

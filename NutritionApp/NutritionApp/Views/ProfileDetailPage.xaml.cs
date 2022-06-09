@@ -8,14 +8,12 @@ namespace NutritionApp.Views
 {
     public partial class ProfileDetailPage : ContentPage
     {
-        public ProfileDetailPage(ProfileViewModel viewModel)
+        public ProfileDetailPage(Profile profile)
         {
             InitializeComponent();
-
-            var profileStore = new SQLiteProfileStore(DependencyService.Get<ISQLiteDb>());
             var pageService = new PageService();
-            Title = (viewModel.Id == 0) ? "New Profile" : "Edit Profile";
-            BindingContext = new ProfileDetailPageViewModel(viewModel ?? new ProfileViewModel(), profileStore, pageService);
+            Title = (profile.Id == 0) ? "New Profile" : "Edit Profile";
+            BindingContext = new ProfileDetailPageViewModel(profile ?? new Profile(), pageService);
         }
     }
 }

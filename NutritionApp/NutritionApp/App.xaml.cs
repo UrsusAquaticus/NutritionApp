@@ -8,11 +8,10 @@ namespace NutritionApp
 {
     public partial class App : Application
     {
-
+        public static SQLiteDatabase Database = null;
         public App()
         {
-            var database = DependencyService.Get<ISQLiteDb>();
-
+            Database = SQLiteDatabase.Instance;
             InitializeComponent();
             MainPage = new AppShell();
         }
