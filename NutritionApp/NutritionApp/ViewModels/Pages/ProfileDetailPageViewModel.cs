@@ -9,48 +9,38 @@ namespace NutritionApp.ViewModels
 {
     public class ProfileDetailPageViewModel : BaseViewModel
     {
-        private readonly IDataStore<Profile> _profileStore;
-        private readonly IPageService _pageService;
+        private readonly IDataStore<Profile> profileStore;
+        private readonly IPageService pageService;
         public Profile Profile { get; private set; }
         public ICommand SaveCommand { get; private set; }
-        public ProfileDetailPageViewModel(ProfileVM viewModel, IDataStore<Profile> profileStore, IPageService pageService)
+        public ProfileDetailPageViewModel(Profile profile, IPageService pageService)
         {
-            _profileStore = profileStore;
-            _pageService = pageService;
+            Profile = profile;
+            this.pageService = pageService;
+
+            profileStore = App.Database.ProfileStore;
 
             SaveCommand = new Command(async () => await Save());
-
-            Profile = new Profile
-            {
-                Id = viewModel.Id,
-                Name = viewModel.Name,
-                DOB = viewModel.DOB,
-                Gender = viewModel.Gender,
-                Weight = viewModel.Weight,
-                Height = viewModel.Height,
-                Activity = viewModel.Activity,
-                Pregnant = viewModel.Pregnant
-            };
         }
 
         private async Task Save()
         {
             if (String.IsNullOrWhiteSpace(Profile.Name))
             {
-                await _pageService.DisplayAlert("Error", "Please enter the name.", "OK");
+                await pageService.DisplayAlert("Error", "Please enter the name.", "OK");
                 return;
             }
             if (Profile.Id == 0)
             {
-                await _profileStore.AddAsync(Profile);
+                await profileStore.AddAsync(Profile);
                 MessagingCenter.Send(this, Events.ProfileAdded, Profile);
             }
             else
             {
-                await _profileStore.UpdateAsync(Profile);
+                await profileStore.UpdateAsync(Profile);
                 MessagingCenter.Send(this, Events.ProfileUpdated, Profile);
             }
-            await _pageService.PopAsync();
+            await pageService.PopAsync();
         }
     }
 }

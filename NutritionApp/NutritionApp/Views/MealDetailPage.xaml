@@ -3,22 +3,42 @@
              xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
              x:Class="NutritionApp.Views.MealDetailPage"
              Title="Meal Details">
+    <StackLayout>
+        <ListView x:Name="ingredientList"
+                  ItemsSource="{Binding Path=Meal.MealIngredients}">
 
-    <TableView Intent="Form" Margin="16,0">
+            <ListView.ItemTemplate>
+                <DataTemplate>
+                    <ViewCell>
+                        <Grid>
+                            <Label Grid.Column="1" Text="{Binding Path=Ingredient.Name}"/>
+                            <Label Grid.Column="2" Text="{Binding Path=NumberOfServings}"/>
+                        </Grid>
+                    </ViewCell>
+                </DataTemplate>
+            </ListView.ItemTemplate>
+
+        </ListView>
+        <TableView Intent="Form" Margin="16,0">
         <TableRoot>
             <TableSection Title="Meal">
                 <EntryCell Label="Name" Text="{Binding Path=Meal.Name}" />
                 <EntryCell Label="Serving Size (g)" Text="{Binding Path=Meal.ServingSizeGrams}" />
                 
                 <!-- meal ingredients -->
+                
 
             </TableSection>
             <TableSection>
+                <ViewCell>
+                    <Button Text="Add Random Ingredient" Command="{Binding RandomIngredientCommand}" />
+                </ViewCell>
                 <ViewCell>
                     <Button Text="Save" Command="{Binding SaveCommand}" />
                 </ViewCell>
             </TableSection>
         </TableRoot>
     </TableView>
+    </StackLayout>
 
 </ContentPage>

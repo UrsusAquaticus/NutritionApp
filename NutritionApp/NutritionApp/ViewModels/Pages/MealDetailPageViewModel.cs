@@ -1,7 +1,8 @@
 ﻿using NutritionApp.Models;
 using NutritionApp.Persistence;
-using NutritionApp.ViewModels.Tables;
 using System;
+using System.Collections.Generic;
+using System.Collections.ObjectModel;
 using System.Threading.Tasks;
 using System.Windows.Input;
 using Xamarin.Forms;
@@ -10,43 +11,57 @@ namespace NutritionApp.ViewModels
 {
     public class MealDetailPageViewModel : BaseViewModel
     {
-        private readonly IDataStore<Meal> _mealStore;
-        private readonly IPageService _pageService;
+        private readonly IDataStore<Meal> mealStore;
+        private readonly IDataStore<Ingredient> ingredientStore;
+        //private readonly IDataStore<MealIngredient> mealIngredientStore;
+        private readonly IPageService pageService;
         public Meal Meal { get; private set; }
         public ICommand SaveCommand { get; private set; }
-        public MealDetailPageViewModel(MealVM viewModel, IDataStore<Meal> mealStore, IPageService pageService)
+        public ICommand RandomIngredientCommand { get; private set; }
+        public MealDetailPageViewModel(Meal meal, IPageService pageService)
         {
-            _mealStore = mealStore;
-            _pageService = pageService;
+            Meal = meal;
+            this.pageService = pageService;
+
+            mealStore = App.Database.MealStore;
+            ingredientStore = App.Database.IngredientStore;
+            //mealIngredientStore = App.Database.MealIngredientStore;
 
             SaveCommand = new Command(async () => await Save());
+            RandomIngredientCommand = new Command(async () => await RandomIngredient());
+        }
 
-            Meal = new Meal
-            {
-                Id = viewModel.Id,
-                Name = viewModel.Name,
-                ServingSizeGrams = viewModel.ServingSizeGrams
-            };
+        private async Task RandomIngredient()
+        {
+            var ingredients = (List<Ingredient>)await ingredientStore.GetAsync();
+            var rndNumber = new Random().Next(0, ingredients.Count);
+            var ingredient = ingredients[rndNumber];
+            Console.WriteLine(Meal.AddIngredient(new Tuple<Ingredient, float>(ingredient, (float)rndNumber)).MealIngredients.Count);
         }
 
         private async Task Save()
         {
             if (String.IsNullOrWhiteSpace(Meal.Name))
             {
-                await _pageService.DisplayAlert("Error", "Please enter meal name.", "OK");
+                await pageService.DisplayAlert("Error", "Please enter meal name.", "OK");
+                return;
+            }
+            if (Meal.MealIngredients.Count < 1)
+            {
+                await pageService.DisplayAlert("Error", "Please add ingredients", "OK");
                 return;
             }
             if (Meal.Id == 0)
             {
-                await _mealStore.AddAsync(Meal);
+                await mealStore.AddWithChildrenAsync(Meal);
                 MessagingCenter.Send(this, Events.MealAdded, Meal);
             }
             else
             {
-                await _mealStore.UpdateAsync(Meal);
+                await mealStore.UpdateWithChildrenAsync(Meal);
                 MessagingCenter.Send(this, Events.MealUpdated, Meal);
             }
-            await _pageService.PopAsync();
+            await pageService.PopAsync();
         }
     }
 }

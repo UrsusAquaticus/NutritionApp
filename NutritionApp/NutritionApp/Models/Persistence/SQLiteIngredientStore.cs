@@ -1,11 +1,23 @@
 ﻿using NutritionApp.Models;
+using System;
 
 namespace NutritionApp.Persistence
 {
-    class SQLiteIngredientStore : SQLiteDataStoreBase<Ingredient>
+    public class SQLiteIngredientStore : SQLiteDataStoreBase<Ingredient>
     {
-        public SQLiteIngredientStore(ISQLiteDb db) : base(db)
+        private static SQLiteIngredientStore Instance = null;
+
+        private SQLiteIngredientStore(ISQLiteDb db) : base(db)
         {
+        }
+
+        public static SQLiteIngredientStore GetInstance(ISQLiteDb db)
+        {
+            if (Instance == null)
+            {
+                Instance = new SQLiteIngredientStore(db);
+            }
+            return Instance;
         }
     }
 }

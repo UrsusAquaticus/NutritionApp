@@ -19,9 +19,8 @@ namespace NutritionApp.Views
 
         public ProfilesPage()
         {
-            var profileStore = new SQLiteProfileStore(DependencyService.Get<ISQLiteDb>());
             var pageService = new PageService();
-            ViewModel = new ProfilesPageViewModel(profileStore, pageService);
+            ViewModel = new ProfilesPageViewModel(pageService);
             InitializeComponent();
         }
         protected override void OnAppearing()
