@@ -94,7 +94,9 @@ namespace NutritionApp.ViewModels
             if (profile == null)
                 return;
             SelectedProfile = null;
-            await pageService.PushAsync(new ProfileDetailPage(profile));
+            //await pageService.PushAsync(new ProfileDetailPage(profile));
+            var expandedProfile = await profileStore.GetWithChildrenAsync(profile.Id);
+            await pageService.PushAsync(new SittingsPage(expandedProfile));
         }
 
         private async Task DeleteProfile(Profile profileViewModel)

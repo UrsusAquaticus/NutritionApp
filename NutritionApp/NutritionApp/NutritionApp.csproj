@@ -15,6 +15,9 @@
   </ItemGroup>
 
   <ItemGroup>
+    <Compile Update="Views\SittingDetailPage.xaml.cs">
+      <DependentUpon>SittingDetailPage.xaml</DependentUpon>
+    </Compile>
     <Compile Update="Views\MealDetailPage.xaml.cs">
       <DependentUpon>MealDetailPage.xaml</DependentUpon>
     </Compile>
@@ -29,6 +32,9 @@
     </Compile>
     <Compile Update="Views\IngredientDetailPage.xaml.cs">
       <DependentUpon>IngredientDetailPage.xaml</DependentUpon>
+    </Compile>
+    <Compile Update="Views\SittingsPage.xaml.cs">
+      <DependentUpon>SittingsPage.xaml</DependentUpon>
     </Compile>
     <Compile Update="Views\ProfileDetailPage.xaml.cs">
       <DependentUpon>ProfileDetailPage.xaml</DependentUpon>

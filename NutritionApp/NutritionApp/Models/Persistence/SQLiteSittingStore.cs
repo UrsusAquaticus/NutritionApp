@@ -6,19 +6,19 @@ using System.Threading.Tasks;
 
 namespace NutritionApp.Persistence
 {
-    public class SQLiteMealStore : SQLiteDataStoreBase<Meal>
+    public class SQLiteSittingStore : SQLiteDataStoreBase<Sitting>
     {
-        private static SQLiteMealStore Instance = null;
+        private static SQLiteSittingStore Instance = null;
 
-        private SQLiteMealStore(ISQLiteDb db) : base(db)
+        private SQLiteSittingStore(ISQLiteDb db) : base(db)
         {
         }
 
-        public static SQLiteMealStore GetInstance(ISQLiteDb db)
+        public static SQLiteSittingStore GetInstance(ISQLiteDb db)
         {
             if (Instance == null)
             {
-                Instance = new SQLiteMealStore(db);
+                Instance = new SQLiteSittingStore(db);
             }
             return Instance;
         }

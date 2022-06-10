@@ -12,5 +12,7 @@ namespace NutritionApp.ViewModels
         public static string IngredientUpdated = "UpdateIngredient";
         public static string MealAdded = "AddMeal";
         public static string MealUpdated = "UpdateMeal";
+        public static string SittingAdded = "AddSitting";
+        public static string SittingUpdated = "UpdateSitting";
     }
 }

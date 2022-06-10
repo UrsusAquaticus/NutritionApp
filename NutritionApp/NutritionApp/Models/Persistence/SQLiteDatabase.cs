@@ -17,7 +17,8 @@ namespace NutritionApp.Persistence
         private readonly SQLiteIngredientStore ingredientStore;
         private readonly SQLiteMealIngredientStore mealIngredientStore;
         private readonly SQLiteMealStore mealStore;
-        private readonly SQLiteProfileMealStore profileMealStore;
+        private readonly SQLiteSittingMealStore sittingMealStore;
+        private readonly SQLiteSittingStore sittingStore;
         private readonly SQLiteProfileStore profileStore;
         private readonly SQLiteGoalStore goalStore;
 
@@ -27,7 +28,8 @@ namespace NutritionApp.Persistence
             ingredientStore = SQLiteIngredientStore.GetInstance(db);
             mealIngredientStore = SQLiteMealIngredientStore.GetInstance(db);
             mealStore = SQLiteMealStore.GetInstance(db);
-            profileMealStore = SQLiteProfileMealStore.GetInstance(db);
+            sittingMealStore = SQLiteSittingMealStore.GetInstance(db);
+            sittingStore = SQLiteSittingStore.GetInstance(db);
             profileStore = SQLiteProfileStore.GetInstance(db);
             goalStore = SQLiteGoalStore.GetInstance(db);
         }
@@ -47,7 +49,8 @@ namespace NutritionApp.Persistence
         public SQLiteIngredientStore IngredientStore { get => ingredientStore; }
         public SQLiteMealIngredientStore MealIngredientStore { get => mealIngredientStore; }
         public SQLiteMealStore MealStore { get => mealStore; }
-        public SQLiteProfileMealStore ProfileMealStore { get => profileMealStore; }
+        public SQLiteSittingMealStore SittingMealStore { get => sittingMealStore; }
+        public SQLiteSittingStore SittingStore { get => sittingStore; }
         public SQLiteProfileStore ProfileStore { get => profileStore; }
         public SQLiteGoalStore GoalStore { get => goalStore; }
     }
