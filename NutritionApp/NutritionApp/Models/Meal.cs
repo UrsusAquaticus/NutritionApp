@@ -34,7 +34,7 @@ namespace NutritionApp.Models
         public string Name { get => name; set => SetValue(ref name, value); }
         public float ServingSizeGrams { get => servingSizeGrams; set => SetValue(ref servingSizeGrams, value); }
 
-        public Meal AddIngredient(Tuple<Ingredient, float> ingredient)
+        public void AddIngredient(Tuple<Ingredient, float> ingredient)
         {
             MealIngredient mealIngredient = new MealIngredient
             {
@@ -42,7 +42,6 @@ namespace NutritionApp.Models
                 NumberOfServings = ingredient.Item2
             };
             MealIngredients.Add(mealIngredient);
-            return this;
         }
     }
 

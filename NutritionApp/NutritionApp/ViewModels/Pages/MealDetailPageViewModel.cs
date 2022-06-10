@@ -13,7 +13,7 @@ namespace NutritionApp.ViewModels
     {
         private readonly IDataStore<Meal> mealStore;
         private readonly IDataStore<Ingredient> ingredientStore;
-        //private readonly IDataStore<MealIngredient> mealIngredientStore;
+
         private readonly IPageService pageService;
         public Meal Meal { get; private set; }
         public ICommand SaveCommand { get; private set; }
@@ -25,7 +25,6 @@ namespace NutritionApp.ViewModels
 
             mealStore = App.Database.MealStore;
             ingredientStore = App.Database.IngredientStore;
-            //mealIngredientStore = App.Database.MealIngredientStore;
 
             SaveCommand = new Command(async () => await Save());
             RandomIngredientCommand = new Command(async () => await RandomIngredient());
@@ -36,7 +35,7 @@ namespace NutritionApp.ViewModels
             var ingredients = (List<Ingredient>)await ingredientStore.GetAsync();
             var rndNumber = new Random().Next(0, ingredients.Count);
             var ingredient = ingredients[rndNumber];
-            Console.WriteLine(Meal.AddIngredient(new Tuple<Ingredient, float>(ingredient, (float)rndNumber)).MealIngredients.Count);
+            Meal.AddIngredient(new Tuple<Ingredient, float>(ingredient, (float)rndNumber));
         }
 
         private async Task Save()
@@ -48,7 +47,7 @@ namespace NutritionApp.ViewModels
             }
             if (Meal.MealIngredients.Count < 1)
             {
-                await pageService.DisplayAlert("Error", "Please add ingredients", "OK");
+                await pageService.DisplayAlert("Error", "Please add an ingredient", "OK");
                 return;
             }
             if (Meal.Id == 0)
