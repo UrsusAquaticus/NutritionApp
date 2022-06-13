@@ -9,7 +9,7 @@
 
     <!-- has add new profile button on toolbar -->
     <ContentPage.ToolbarItems>
-        <ToolbarItem Text="+" Command="{Binding AddProfileCommand}"/>
+        <ToolbarItem Text="+" Icon="add.png" Priority="0" Order="Primary" Command="{Binding AddProfileCommand}"/>
     </ContentPage.ToolbarItems>
     
     <StackLayout>
@@ -34,7 +34,31 @@
               ItemSelected="OnProfileSelected">
         <ListView.ItemTemplate>
             <DataTemplate>
-                <TextCell Text="{Binding Name}" TextColor="Black"/>
+                <ViewCell>
+                    <Grid Padding="10">
+                        <Label Text="{Binding Name}" TextColor="Black"/>
+
+                        <StackLayout Orientation="Horizontal" HorizontalOptions="EndAndExpand">
+                            <ImageButton
+                            Source="edit.png"
+                            HorizontalOptions="End"
+                            VerticalOptions="EndAndExpand"
+                            BackgroundColor="White"
+                            Command="{Binding EditProfileCommand}"
+                            />
+                            <!--Clicked="OnEditProfile"-->
+                            <ImageButton
+                            Source="delete.png"
+                            HorizontalOptions="End"
+                            VerticalOptions="EndAndExpand"
+                            BackgroundColor="white"
+                            Command="{Binding DeleteProfileCommand}"
+                            />
+                            <!--Clicked="OnDeleteProfile"-->
+                        </StackLayout>
+
+                    </Grid>
+                </ViewCell>
             </DataTemplate>
         </ListView.ItemTemplate>
 

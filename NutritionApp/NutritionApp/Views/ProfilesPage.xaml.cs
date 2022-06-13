@@ -32,6 +32,19 @@ namespace NutritionApp.Views
         {
             ViewModel.SelectProfileCommand.Execute(e.SelectedItem);
         }
+
+        // error says method with correct signature not found
+        //void OnEditProfile(object sender, SelectedItemChangedEventArgs e)
+        //{
+        //    ViewModel.EditProfileCommand.Execute(e.SelectedItem);
+        //}
+
+        // error says method with correct signature not found
+        //void OnDeleteProfile(object sender, SelectedItemChangedEventArgs e)
+        //{
+        //    ViewModel.DeleteProfileCommand.Execute(e.SelectedItem);
+        //}
+
         public ProfilesPageViewModel ViewModel
         {
             get { return BindingContext as ProfilesPageViewModel; }

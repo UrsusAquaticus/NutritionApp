@@ -7,7 +7,7 @@
 
     <!-- has add new sitting button on toolbar -->
         <ContentPage.ToolbarItems>
-            <ToolbarItem Text="+" Command="{Binding AddSittingCommand}"/>
+            <ToolbarItem Icon="addf.png" Command="{Binding AddSittingCommand}"/>
         </ContentPage.ToolbarItems>
 
     <StackLayout>
@@ -20,9 +20,21 @@
             <ListView.ItemTemplate>
                 <DataTemplate>
                     <ViewCell>
-                        <Grid>
-                            <Label Grid.Column="1" Text="{Binding Path=Date}"/>
-                            <Label Grid.Column="2" Text="{Binding Path=Time}"/>
+                        <Grid Padding="10">
+                            
+                            <Label Grid.Column="1" Text="{Binding Path=Date, StringFormat='{0:MMMM dd, yyyy}'}"/>
+                            <Label Grid.Column="2" Text="{Binding Path=Time, StringFormat='{}{0:mm\\:ss}'}"/>
+
+                            <StackLayout Orientation="Horizontal">
+                                <ImageButton
+                                Source="delete.png"
+                                HorizontalOptions="End"
+                                VerticalOptions="EndAndExpand"
+                                BackgroundColor="white"
+                                Command="{Binding DeleteSittingCommand}"
+                                />
+                                <!--Clicked="OnDeleteSitting"-->
+                            </StackLayout>
                         </Grid>
                     </ViewCell>
                 </DataTemplate>

@@ -4,41 +4,59 @@
              x:Class="NutritionApp.Views.SittingDetailPage"
              Title="Sitting Details">
     <StackLayout>
-        <ListView x:Name="mealList"
-                  ItemsSource="{Binding Path=Sitting.SittingMeals}">
 
-            <ListView.ItemTemplate>
-                <DataTemplate>
-                    <ViewCell>
-                        <Grid>
-                            <Label Grid.Column="1" Text="{Binding Path=Meal.Name}"/>
-                            <Label Grid.Column="2" Text="{Binding Path=NumberOfServings}"/>
-                        </Grid>
-                    </ViewCell>
-                </DataTemplate>
-            </ListView.ItemTemplate>
-
-        </ListView>
         <TableView Intent="Form" Margin="16,0">
-        <TableRoot>
-            <TableSection Title="Sitting">
-                <ViewCell>
-                    <DatePicker Date="{Binding Path=Sitting.Date}" />
-                </ViewCell>
-                <ViewCell>
-                    <TimePicker Time="{Binding Path=Sitting.Time}" />
-                </ViewCell>
-            </TableSection>
-            <TableSection>
-                <ViewCell>
-                    <Button Text="Add Random Meal" Command="{Binding RandomMealCommand}" />
-                </ViewCell>
-                <ViewCell>
-                    <Button Text="Save" Command="{Binding SaveCommand}" />
-                </ViewCell>
-            </TableSection>
-        </TableRoot>
-    </TableView>
-    </StackLayout>
+            <TableRoot>
 
+                <TableSection Title="Sitting" TextColor="Black">
+                    <ViewCell>
+                        <DatePicker Date="{Binding Path=Sitting.Date}" />
+                    </ViewCell>
+                    <ViewCell>
+                        <TimePicker Time="{Binding Path=Sitting.Time}" />
+                    </ViewCell>
+                </TableSection>
+
+                <TableSection>
+                    <ViewCell>
+                        <Button Text="Add Random Meal" Command="{Binding RandomMealCommand}" />
+                    </ViewCell>
+                    <ViewCell>
+                        <Button Text="Save" Command="{Binding SaveCommand}" />
+                    </ViewCell>
+                </TableSection>
+
+                <TableSection>
+                    <ViewCell>
+                        <ListView x:Name="mealList"
+                            ItemsSource="{Binding Path=Sitting.SittingMeals}">
+
+                            <ListView.ItemTemplate>
+                                <DataTemplate>
+                                    <ViewCell>
+                                        <Grid>
+                                            <Label Grid.Column="1" Text="{Binding Path=Name}"/>
+                                            <Label Grid.Column="2" Text="{Binding Path=NumberOfServings}"/>
+                                            <StackLayout>
+                                                <ImageButton
+                                                    Source="delete.png"
+                                                    HorizontalOptions="End"
+                                                    VerticalOptions="EndAndExpand"
+                                                    BackgroundColor="white"
+                                                    Command="{Binding DeleteSittingMeal}"
+                                                    />      
+                                            </StackLayout>
+                                        </Grid>
+                                    </ViewCell>
+                                </DataTemplate>
+                            </ListView.ItemTemplate>
+
+                        </ListView>
+                    </ViewCell>
+                </TableSection>
+
+            </TableRoot>
+        </TableView>
+
+    </StackLayout>
 </ContentPage>

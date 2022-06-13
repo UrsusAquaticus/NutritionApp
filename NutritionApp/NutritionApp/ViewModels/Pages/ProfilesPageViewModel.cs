@@ -44,6 +44,7 @@ namespace NutritionApp.ViewModels
         public ICommand LoadDataCommand { get; private set; }
         public ICommand AddProfileCommand { get; private set; }
         public ICommand SelectProfileCommand { get; private set; }
+        public ICommand EditProfileCommand { get; private set; }
         public ICommand DeleteProfileCommand { get; private set; }
         public ICommand FilterProfileCommand { get; private set; }
 
@@ -56,6 +57,7 @@ namespace NutritionApp.ViewModels
             LoadDataCommand = new Command(async () => await LoadData());
             AddProfileCommand = new Command(async () => await AddProfile());
             SelectProfileCommand = new Command<Profile>(async c => await SelectProfile(c));
+            EditProfileCommand = new Command<Profile>(async c => await EditProfile(c));
             DeleteProfileCommand = new Command<Profile>(async c => await DeleteProfile(c));
             FilterProfileCommand = new Command<string>(async c => await FilterProfile(c));
 
@@ -97,6 +99,15 @@ namespace NutritionApp.ViewModels
             //await pageService.PushAsync(new ProfileDetailPage(profile));
             var expandedProfile = await profileStore.GetWithChildrenAsync(profile.Id);
             await pageService.PushAsync(new SittingsPage(expandedProfile));
+        }
+
+        private async Task EditProfile(Profile profile)
+        {
+            if (profile == null)
+                return;
+            SelectedProfile = null;
+            await pageService.PushAsync(new ProfileDetailPage(profile));
+
         }
 
         private async Task DeleteProfile(Profile profileViewModel)

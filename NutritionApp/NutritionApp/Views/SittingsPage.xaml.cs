@@ -21,6 +21,12 @@ namespace NutritionApp.Views
             ViewModel.SelectSittingCommand.Execute(e.SelectedItem);
         }
 
+        // error says method with correct signature not found
+        //void OnSittingDeleted(object sender, SelectedItemChangedEventArgs e)
+        //{
+        //    ViewModel.DeleteSittingCommand.Execute(e.SelectedItem);
+        //}
+
         public SittingsPageViewModel ViewModel
         {
             get { return BindingContext as SittingsPageViewModel; }
