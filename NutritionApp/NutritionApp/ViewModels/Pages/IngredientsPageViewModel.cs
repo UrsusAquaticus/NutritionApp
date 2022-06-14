@@ -99,7 +99,7 @@ namespace NutritionApp.ViewModels
             if (await pageService.DisplayAlert("Warning", $"Are you sure you want to delete {ingredient.Name}?", "Yes", "No"))
             {
                 Ingredients.Remove(ingredient);
-                await ingredientStore.DeleteAsync(ingredient.Id);
+                await ingredientStore.DeleteAsync(ingredient);
             }
         }
 

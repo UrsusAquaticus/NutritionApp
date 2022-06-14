@@ -110,13 +110,12 @@ namespace NutritionApp.ViewModels
 
         }
 
-        private async Task DeleteProfile(Profile profileViewModel)
+        private async Task DeleteProfile(Profile profile)
         {
-            if (await pageService.DisplayAlert("Warning", $"Are you sure you want to delete {profileViewModel.Name}?", "Yes", "No"))
+            if (await pageService.DisplayAlert("Warning", $"Are you sure you want to delete {profile.Name}?", "Yes", "No"))
             {
-                Profiles.Remove(profileViewModel);
-                var profile = await profileStore.GetAsync(profileViewModel.Id);
-                await profileStore.DeleteAsync(profile.Id);
+                Profiles.Remove(profile);
+                await profileStore.DeleteAsync(profile);
             }
         }
 

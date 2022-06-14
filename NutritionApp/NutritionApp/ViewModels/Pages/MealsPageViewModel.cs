@@ -100,7 +100,7 @@ namespace NutritionApp.ViewModels
             if (await pageService.DisplayAlert("Warning", $"Are you sure you want to delete {meal.Name}?", "Yes", "No"))
             {
                 Meals.Remove(meal);
-                await mealStore.DeleteAsync(meal.Id);
+                await mealStore.DeleteAsync(meal);
             }
         }
 

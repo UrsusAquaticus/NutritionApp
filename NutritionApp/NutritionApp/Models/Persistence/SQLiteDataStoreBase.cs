@@ -59,9 +59,9 @@ namespace NutritionApp.Persistence
         }
 
         //Delete
-        public virtual async Task<int> DeleteAsync(int id)
+        public virtual async Task<int> DeleteAsync(T obj)
         {
-            return await connection.DeleteAsync(id);
+            return await connection.DeleteAsync(obj);
         }
     }
 }
