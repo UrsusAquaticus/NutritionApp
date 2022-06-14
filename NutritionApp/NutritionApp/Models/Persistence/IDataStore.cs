@@ -19,7 +19,7 @@ namespace NutritionApp.Persistence
         Task<int> UpdateAsync(T obj);
         Task UpdateWithChildrenAsync(T obj);
         //Delete
-        Task<int> DeleteAsync(int id);
+        Task<int> DeleteAsync(T id);
 
     }
 }

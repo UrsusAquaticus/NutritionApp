@@ -39,16 +39,23 @@
                         
 
                         <StackLayout Orientation="Horizontal" HorizontalOptions="EndAndExpand">
-                            <Image Source="profile.png"/>
-                            <Label Text="{Binding Name}" TextColor="Black"/>
+                            <ImageButton
+                                Source="edit.png"
+                                HorizontalOptions="End"
+                                VerticalOptions="EndAndExpand"
+                                BackgroundColor="White"
+                                Command="{Binding Source={RelativeSource AncestorType={x:Type local:ProfilesPageViewModel}}, Path=EditProfileCommand}"
+                                CommandParameter="{Binding}"
+                            />
+                                
                             <ImageButton
                                 Source="delete.png"
                                 HorizontalOptions="End"
                                 VerticalOptions="EndAndExpand"
                                 BackgroundColor="white"
-                                Command="{Binding DeleteProfileCommand}"
-                                />
-                                <!--Clicked="OnDeleteProfile"-->
+                                Command="{Binding Source={RelativeSource AncestorType={x:Type local:ProfilesPageViewModel}}, Path=DeleteProfileCommand}"
+                                CommandParameter="{Binding}"
+                            />
                         </StackLayout>
 
                     </Grid>
