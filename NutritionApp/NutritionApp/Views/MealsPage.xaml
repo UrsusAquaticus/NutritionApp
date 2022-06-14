@@ -9,7 +9,7 @@
 
     <!-- has add new profile button on toolbar -->
     <ContentPage.ToolbarItems>
-        <ToolbarItem Icon="addf.png" Command="{Binding AddMealCommand}"/>
+        <ToolbarItem Icon="add.png" Command="{Binding AddMealCommand}"/>
     </ContentPage.ToolbarItems>
 
     <ContentPage.Content>

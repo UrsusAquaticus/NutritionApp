@@ -150,16 +150,7 @@
     <BundleResource Include="Resources\fruit.jpg" />
   </ItemGroup>
   <ItemGroup>
-    <BundleResource Include="Resources\home.png" />
-  </ItemGroup>
-  <ItemGroup>
-    <BundleResource Include="Resources\profile.png" />
-  </ItemGroup>
-  <ItemGroup>
     <BundleResource Include="Resources\settings.png" />
-  </ItemGroup>
-  <ItemGroup>
-    <BundleResource Include="Resources\food.png" />
   </ItemGroup>
   <ItemGroup>
     <BundleResource Include="Resources\add.png" />
@@ -171,6 +162,15 @@
     <BundleResource Include="Resources\edit.png" />
   </ItemGroup>
   <ItemGroup>
-    <BundleResource Include="Resources\addf.png" />
+    <BundleResource Include="Resources\home.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <BundleResource Include="Resources\food.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <BundleResource Include="Resources\profiles.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <BundleResource Include="Resources\profile.png" />
   </ItemGroup>
 </Project>

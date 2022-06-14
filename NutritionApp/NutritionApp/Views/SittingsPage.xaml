@@ -6,9 +6,10 @@
              Title="{Binding Title}">
 
     <!-- has add new sitting button on toolbar -->
-        <ContentPage.ToolbarItems>
-            <ToolbarItem Icon="addf.png" Command="{Binding AddSittingCommand}"/>
-        </ContentPage.ToolbarItems>
+    <ContentPage.ToolbarItems>
+        <ToolbarItem Icon="edit.png" Command="{Binding EditProfileCommand}"/>
+        <ToolbarItem Icon="add.png" Command="{Binding AddSittingCommand}"/>
+    </ContentPage.ToolbarItems>
 
     <StackLayout>
 
@@ -21,11 +22,11 @@
                 <DataTemplate>
                     <ViewCell>
                         <Grid Padding="10">
-                            
-                            <Label Grid.Column="1" Text="{Binding Path=Date, StringFormat='{0:MMMM dd, yyyy}'}"/>
-                            <Label Grid.Column="2" Text="{Binding Path=Time, StringFormat='{}{0:mm\\:ss}'}"/>
 
-                            <StackLayout Orientation="Horizontal">
+                            <StackLayout Orientation="Horizontal" HorizontalOptions="StartAndExpand">
+                                <Label Grid.Column="1" Text="{Binding Path=Date, StringFormat='{0:MMMM dd, yyyy}'}"/>
+                                <Label Grid.Column="2" Text="{Binding Path=Time, StringFormat='{}{0:mm\\:ss}'}"/>
+
                                 <ImageButton
                                 Source="delete.png"
                                 HorizontalOptions="End"
@@ -39,7 +40,6 @@
                     </ViewCell>
                 </DataTemplate>
             </ListView.ItemTemplate>
-
         </ListView>
 
     </StackLayout>

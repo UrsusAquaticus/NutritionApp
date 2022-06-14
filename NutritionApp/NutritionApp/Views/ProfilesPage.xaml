@@ -36,25 +36,19 @@
             <DataTemplate>
                 <ViewCell>
                     <Grid Padding="10">
-                        <Label Text="{Binding Name}" TextColor="Black"/>
+                        
 
                         <StackLayout Orientation="Horizontal" HorizontalOptions="EndAndExpand">
+                            <Image Source="profile.png"/>
+                            <Label Text="{Binding Name}" TextColor="Black"/>
                             <ImageButton
-                            Source="edit.png"
-                            HorizontalOptions="End"
-                            VerticalOptions="EndAndExpand"
-                            BackgroundColor="White"
-                            Command="{Binding EditProfileCommand}"
-                            />
-                            <!--Clicked="OnEditProfile"-->
-                            <ImageButton
-                            Source="delete.png"
-                            HorizontalOptions="End"
-                            VerticalOptions="EndAndExpand"
-                            BackgroundColor="white"
-                            Command="{Binding DeleteProfileCommand}"
-                            />
-                            <!--Clicked="OnDeleteProfile"-->
+                                Source="delete.png"
+                                HorizontalOptions="End"
+                                VerticalOptions="EndAndExpand"
+                                BackgroundColor="white"
+                                Command="{Binding DeleteProfileCommand}"
+                                />
+                                <!--Clicked="OnDeleteProfile"-->
                         </StackLayout>
 
                     </Grid>

@@ -36,7 +36,7 @@
                             SelectedItem="onMealIngredientSelected"
                             />
                     </ViewCell>
-                    <EntryCell Label="Number of Servings" Text="{Binding Path=Meal.NumberofServings}"></EntryCell>
+                    <EntryCell Label="Serving Size (g)" Text="{Binding Path=Meal.ServingSizeGrams}"></EntryCell>
                     <ViewCell>
                         <Button Text="Add Random Ingredient" Command="{Binding RandomIngredientCommand}" />
                     </ViewCell>
