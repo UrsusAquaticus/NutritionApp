@@ -4,70 +4,55 @@
              x:Class="NutritionApp.Views.MealDetailPage"
              Title="Meal Details">
     <StackLayout>
-        <!--<ListView x:Name="ingredientList"
-                  ItemsSource="{Binding Path=Meal.MealIngredients}">
+        
+        <TableView Intent="Form" Margin="16,0">
+            
+            <TableSection>
+                <EntryCell Label="Name" Text="{Binding Path=Meal.Name}" />
+            </TableSection>
+
+            <TableSection>
+                <ViewCell>
+                    <StackLayout Orientation="Horizontal">
+                        <Label Text="Ingredient: " Padding="15,10,10,0" />
+                        <Picker 
+                        x:Name="mealIngredientPicker"
+                        Title="Select Ingredients..."
+                        ItemsSource="{Binding Path=Ingredient}"
+                        ItemDisplayBinding="{Binding Path=Meal.Ingredient}"
+                        SelectedItem="onMealIngredientSelected"
+                        />
+                    </StackLayout>
+                    
+                </ViewCell>
+                <EntryCell Label="Serving Size (g)" Text="{Binding Path=Meal.ServingSizeGrams}"></EntryCell>
+                <ViewCell>
+                    <Button Text="Add Random Ingredient" Command="{Binding RandomIngredientCommand}" />
+                </ViewCell>
+            </TableSection>
+
+            <TableSection>
+                <ViewCell>
+                    <Button Text="Save" Command="{Binding SaveCommand}" />
+                </ViewCell>
+            </TableSection>
+
+        </TableView>
+
+        <ListView
+            x:Name="addMealIngredientList"
+            ItemsSource="{Binding Path=Meal.MealIngredients}"
+            HeightRequest="350">
 
             <ListView.ItemTemplate>
                 <DataTemplate>
                     <ViewCell>
-                        <Grid>
-                            <Label Grid.Column="1" Text="{Binding Path=Ingredient.Name}"/>
-                            <Label Grid.Column="2" Text="{Binding Path=NumberOfServings}"/>
-                        </Grid>
+                        <Label Padding="15,10,10,0" Text="{Binding Path=Ingredient.Name}" TextColor="Black"></Label>
                     </ViewCell>
                 </DataTemplate>
             </ListView.ItemTemplate>
 
-        </ListView>-->
-        <TableView Intent="Form" Margin="16,0">
-            <TableRoot>
-                <TableSection Title="Meal" TextColor="Black">
-                    <EntryCell Label="Name" Text="{Binding Path=Meal.Name}" />
+        </ListView>
 
-                </TableSection>
-
-                <TableSection>
-                    <ViewCell>
-                        <Picker 
-                            x:Name="mealIngredientPicker"
-                            Title="Select Ingredients..."
-                            ItemsSource="{Binding Path=Ingredient}"
-                            ItemDisplayBinding="{Binding Path=Ingredient.Name}"
-                            SelectedItem="onMealIngredientSelected"
-                            />
-                    </ViewCell>
-                    <EntryCell Label="Serving Size (g)" Text="{Binding Path=Meal.ServingSizeGrams}"></EntryCell>
-                    <ViewCell>
-                        <Button Text="Add Random Ingredient" Command="{Binding RandomIngredientCommand}" />
-                    </ViewCell>
-                </TableSection>
-
-                <TableSection>
-                    <ViewCell>
-                        <Button Text="Save" Command="{Binding SaveCommand}" />
-                    </ViewCell>
-                </TableSection>
-
-                <TableSection>
-                    <ViewCell>
-                        <ListView
-                            x:Name="addMealIngredientList"
-                            ItemsSource="{Binding Path=Meal.MealIngredients}">
-                            
-                            <ListView.ItemTemplate>
-                                <DataTemplate>
-                                    <ViewCell>
-                                        <Label Text="{Binding Path=Ingredient.Name}" TextColor="Black"></Label>
-                                    </ViewCell>
-                                </DataTemplate>
-                            </ListView.ItemTemplate>
-                            
-                        </ListView>
-                    </ViewCell>
-                </TableSection>
-
-            </TableRoot>
-        </TableView>
     </StackLayout>
-
 </ContentPage>

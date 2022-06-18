@@ -4,10 +4,7 @@
              xmlns:behaviors="clr-namespace:Xamarin.Forms.BehaviorsPack;assembly=Xamarin.Forms.BehaviorsPack"
              x:Class="NutritionApp.Views.ProfilesPage"
              xmlns:local="clr-namespace:NutritionApp.ViewModels"  
-             xmlns:model="clr-namespace:NutritionApp.Models"
-             xmlns:ff="clr-namespace:FFImageLoading.Forms;assembly=FFImageLoading.Forms"
-             xmlns:ffSvg="clr-namespace:FFImageLoading.Svg.Forms;assembly=FFImageLoading.Svg.Forms"
-             xmlns:ffTransformations="clr-namespace:FFImageLoading.Transformations;assembly=FFImageLoading.Transformations"
+             xmlns:model="clr-namespace:NutritionApp.Models"         
              Title="Profiles">
 
     <ContentPage.ToolbarItems>
@@ -39,8 +36,7 @@
                 <ViewCell>
                         <Grid Padding="10">
                             <StackLayout Orientation="Horizontal">
-                                <ffSvg:SvgCachedImage Source="profile.svg"></ffSvg:SvgCachedImage>
-                                <!--<Image Source="profile.svg" />-->
+                                <Image Source="profile.png" StyleClass="iconTint" />
                                 <Label Padding="0,2.5,0,0" Text="{Binding Name}"/>
                                 
                             </StackLayout>

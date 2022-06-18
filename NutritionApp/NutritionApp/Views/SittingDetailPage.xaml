@@ -6,57 +6,45 @@
     <StackLayout>
 
         <TableView Intent="Form" Margin="16,0">
-            <TableRoot>
 
-                <TableSection Title="Sitting" TextColor="Black">
-                    <ViewCell>
-                        <DatePicker Date="{Binding Path=Sitting.Date}" />
-                    </ViewCell>
-                    <ViewCell>
-                        <TimePicker Time="{Binding Path=Sitting.Time}" />
-                    </ViewCell>
-                </TableSection>
+            <TableSection>
+                <ViewCell>
+                    <DatePicker Date="{Binding Path=Sitting.Date}" />
+                </ViewCell>
+                <ViewCell>
+                    <TimePicker Time="{Binding Path=Sitting.Time}" />
+                </ViewCell>
+            </TableSection>
 
-                <TableSection>
-                    <ViewCell>
-                        <Button Text="Add Random Meal" Command="{Binding RandomMealCommand}" />
-                    </ViewCell>
-                    <ViewCell>
-                        <Button Text="Save" Command="{Binding SaveCommand}" />
-                    </ViewCell>
-                </TableSection>
+            <TableSection>
+                <ViewCell>
+                    <Button Text="Add Random Meal" Command="{Binding RandomMealCommand}" />
+                </ViewCell>
+                <ViewCell>
+                    <Button Text="Save" Command="{Binding SaveCommand}" />
+                </ViewCell>
+            </TableSection>
 
-                <TableSection>
-                    <ViewCell>
-                        <ListView x:Name="mealList"
-                            ItemsSource="{Binding Path=Sitting.SittingMeals}">
-
-                            <ListView.ItemTemplate>
-                                <DataTemplate>
-                                    <ViewCell>
-                                        <Grid>
-                                            <Label Grid.Column="1" Text="{Binding Path=Name}"/>
-                                            <Label Grid.Column="2" Text="{Binding Path=NumberOfServings}"/>
-                                            <StackLayout>
-                                                <ImageButton
-                                                    Source="delete.png"
-                                                    HorizontalOptions="End"
-                                                    VerticalOptions="EndAndExpand"
-                                                    BackgroundColor="white"
-                                                    Command="{Binding DeleteSittingMeal}"
-                                                    />      
-                                            </StackLayout>
-                                        </Grid>
-                                    </ViewCell>
-                                </DataTemplate>
-                            </ListView.ItemTemplate>
-
-                        </ListView>
-                    </ViewCell>
-                </TableSection>
-
-            </TableRoot>
         </TableView>
+        
+        <ListView x:Name="mealList"
+                  ItemsSource="{Binding Path=Sitting.SittingMeals}"
+                  HeightRequest="800">
 
+            <ListView.ItemTemplate>
+                <DataTemplate>
+                    <ViewCell>
+                        <Grid>
+                            <StackLayout Orientation="Horizontal" Padding="15,10,10,0">
+                                <Label Grid.Column="1" Text="{Binding Path=Name}"/>
+                                <Label Grid.Column="2" Text="{Binding Path=NumberOfServings}"/>
+                            </StackLayout>
+                        </Grid>
+                    </ViewCell>
+                </DataTemplate>
+            </ListView.ItemTemplate>
+
+        </ListView>
+        
     </StackLayout>
 </ContentPage>

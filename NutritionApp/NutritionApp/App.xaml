@@ -1,17 +1,16 @@
 ﻿<?xml version="1.0" encoding="utf-8" ?>
 <Application xmlns="http://xamarin.com/schemas/2014/forms"
              xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
-             xmlns:ff="clr-namespace:FFImageLoading.Forms;assembly=FFImageLoading.Forms"
-             xmlns:ffSvg="clr-namespace:FFImageLoading.Svg.Forms;assembly=FFImageLoading.Svg.Forms"
-             xmlns:ffTransformations="clr-namespace:FFImageLoading.Transformations;assembly=FFImageLoading.Transformations"
              x:Class="NutritionApp.App">
-    <!--
-        Define global resources and styles here, that apply to all pages in your app.
-    -->
+
+
     <Application.Resources>
+        <StyleSheet Source="styles.css" />
+
         <ResourceDictionary>
             <Color x:Key="Primary">#6200ee</Color>
             
+            <!-- Button Styling -->
             <Style TargetType="Button">
                 <Setter Property="TextColor" Value="White"></Setter>
                 <Setter Property="VisualStateManager.VisualStateGroups">
@@ -32,19 +31,24 @@
                 </Setter>
             </Style>
 
+            <!-- Label Styling -->
             <Style TargetType="Label">
                 <Setter Property="TextColor" Value="SlateGray"/>
 
             </Style>
-
+            
+            <!-- Entry Styling -->
             <Style TargetType="Entry">
                 <Setter Property="FontSize" Value="14"/>
                 <Setter Property="TextColor" Value="SlateGray"/>
-                <Setter Property="MaxLength" Value="100" />
             </Style>
 
+            <Style TargetType="EntryCell">
+                <Setter Property="LabelColor" Value="SlateGray"/>
+            </Style>
+
+            <!-- Datepicker Styling -->
             <Style TargetType="DatePicker">
-                <Setter Property="FontSize" Value="16" />
             </Style>
 
         </ResourceDictionary>        
