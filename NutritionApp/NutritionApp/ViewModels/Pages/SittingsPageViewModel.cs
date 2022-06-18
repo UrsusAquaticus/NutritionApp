@@ -12,9 +12,12 @@ namespace NutritionApp.ViewModels
     {
         private Sitting selectedSitting;
         public Profile Profile { get; private set; }
+
+
         private readonly IPageService pageService;
         public ICommand AddSittingCommand { get; private set; }
         public ICommand SelectSittingCommand { get; private set; }
+        public ICommand EditProfileCommand { get; private set; }
 
         public Sitting SelectedSitting
         {
@@ -29,6 +32,7 @@ namespace NutritionApp.ViewModels
 
             AddSittingCommand = new Command(async () => await AddSitting());
             SelectSittingCommand = new Command<Sitting>(async c => await SelectSitting(c));
+            EditProfileCommand = new Command<Profile>(async c => await EditProfile(c));
 
             MessagingCenter.Subscribe<SittingDetailPageViewModel, Sitting>(this, Events.SittingAdded, OnSittingAdded);
             MessagingCenter.Subscribe<SittingDetailPageViewModel, Sitting>(this, Events.SittingUpdated, OnSittingUpdated);
@@ -61,6 +65,15 @@ namespace NutritionApp.ViewModels
                 return;
             SelectedSitting = null;
             await pageService.PushAsync(new SittingDetailPage(sitting));
+        }
+
+        // null profile
+        private async Task EditProfile(Profile profile)
+        {
+            //if (profile == null)
+            //    return;
+
+            await pageService.PushAsync(new ProfileDetailPage(profile));
         }
     }
 }

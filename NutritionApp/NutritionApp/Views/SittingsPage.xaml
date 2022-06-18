@@ -23,10 +23,14 @@
                     <ViewCell>
                         <Grid Padding="10">
 
-                            <StackLayout Orientation="Horizontal" HorizontalOptions="StartAndExpand">
-                                <Label Grid.Column="1" Text="{Binding Path=Date, StringFormat='{0:MMMM dd, yyyy}'}"/>
-                                <Label Grid.Column="2" Text="{Binding Path=Time, StringFormat='{}{0:mm\\:ss}'}"/>
+                            <StackLayout Orientation="Horizontal">
+                                <Image Source="calendar.png"  />
+                                <Label Padding="0,2.5,0,0" Grid.Column="1" Text="{Binding Path=Date, StringFormat='{0:MMMM dd, yyyy}'}"/>
+                                <Label Padding="0,2.5,0,0" Grid.Column="2" Text="{Binding Path=Time, StringFormat='{}{0:mm\\:ss}'}"/>
+                            </StackLayout>
 
+                            <StackLayout Orientation="Horizontal" HorizontalOptions="EndAndExpand">
+                                
                                 <ImageButton
                                 Source="delete.png"
                                 HorizontalOptions="End"

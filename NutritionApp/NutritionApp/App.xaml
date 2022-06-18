@@ -8,6 +8,7 @@
     <Application.Resources>
         <ResourceDictionary>
             <Color x:Key="Primary">#6200ee</Color>
+            
             <Style TargetType="Button">
                 <Setter Property="TextColor" Value="White"></Setter>
                 <Setter Property="VisualStateManager.VisualStateGroups">
@@ -27,6 +28,22 @@
                     </VisualStateGroupList>
                 </Setter>
             </Style>
+
+            <Style TargetType="Label">
+                <Setter Property="TextColor" Value="SlateGray"/>
+
+            </Style>
+
+            <Style TargetType="Entry">
+                <Setter Property="FontSize" Value="14"/>
+                <Setter Property="TextColor" Value="SlateGray"/>
+                <Setter Property="MaxLength" Value="100" />
+            </Style>
+
+            <Style TargetType="DatePicker">
+                <Setter Property="FontSize" Value="16" />
+            </Style>
+
         </ResourceDictionary>        
     </Application.Resources>
 </Application>

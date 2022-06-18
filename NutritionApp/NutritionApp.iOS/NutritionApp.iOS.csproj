@@ -173,4 +173,13 @@
   <ItemGroup>
     <BundleResource Include="Resources\profile.png" />
   </ItemGroup>
+  <ItemGroup>
+    <BundleResource Include="Resources\meal.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <BundleResource Include="Resources\ingredient.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <BundleResource Include="Resources\calendar.png" />
+  </ItemGroup>
 </Project>

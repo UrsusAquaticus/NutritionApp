@@ -7,7 +7,6 @@
              xmlns:model="clr-namespace:NutritionApp.Models"
              Title="Profiles">
 
-    <!-- has add new profile button on toolbar -->
     <ContentPage.ToolbarItems>
         <ToolbarItem Text="+" Icon="add.png" Priority="0" Order="Primary" Command="{Binding AddProfileCommand}"/>
     </ContentPage.ToolbarItems>
@@ -35,30 +34,32 @@
         <ListView.ItemTemplate>
             <DataTemplate>
                 <ViewCell>
-                    <Grid Padding="10">
-                        
-
-                        <StackLayout Orientation="Horizontal" HorizontalOptions="EndAndExpand">
-                            <ImageButton
-                                Source="edit.png"
-                                HorizontalOptions="End"
-                                VerticalOptions="EndAndExpand"
-                                BackgroundColor="White"
-                                Command="{Binding Source={RelativeSource AncestorType={x:Type local:ProfilesPageViewModel}}, Path=EditProfileCommand}"
-                                CommandParameter="{Binding}"
-                            />
+                        <Grid Padding="10">
+                            <StackLayout Orientation="Horizontal">
+                                <Image Source="profile.png"/>
+                                <Label Padding="0,2.5,0,0" Text="{Binding Name}"/>
                                 
-                            <ImageButton
-                                Source="delete.png"
-                                HorizontalOptions="End"
-                                VerticalOptions="EndAndExpand"
-                                BackgroundColor="white"
-                                Command="{Binding Source={RelativeSource AncestorType={x:Type local:ProfilesPageViewModel}}, Path=DeleteProfileCommand}"
-                                CommandParameter="{Binding}"
-                            />
-                        </StackLayout>
+                            </StackLayout>
+                            <StackLayout Orientation="Horizontal" HorizontalOptions="EndAndExpand">
+                                <!--<ImageButton
+                                    Source="edit.png"
+                                    HorizontalOptions="End"
+                                    VerticalOptions="EndAndExpand"
+                                    BackgroundColor="White"
+                                    Command="{Binding Source={RelativeSource AncestorType={x:Type local:ProfilesPageViewModel}}, Path=EditProfileCommand}"
+                                    CommandParameter="{Binding}"
+                                />-->
 
-                    </Grid>
+                                <ImageButton
+                                    Source="delete.png"
+                                    HorizontalOptions="End"
+                                    VerticalOptions="EndAndExpand"
+                                    BackgroundColor="white"
+                                    Command="{Binding Source={RelativeSource AncestorType={x:Type local:ProfilesPageViewModel}}, Path=DeleteProfileCommand}"
+                                    CommandParameter="{Binding}"
+                                />
+                            </StackLayout>
+                        </Grid>
                 </ViewCell>
             </DataTemplate>
         </ListView.ItemTemplate>

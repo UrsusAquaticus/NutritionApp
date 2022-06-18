@@ -37,7 +37,23 @@
                 
                 <ListView.ItemTemplate>
                     <DataTemplate>
-                        <TextCell Text="{Binding Name}" TextColor="Black" />
+                        <ViewCell>
+                            <Grid Padding="10">
+                                <StackLayout Orientation="Horizontal">
+                                    <Label Text="{Binding Name}"/>
+                                </StackLayout>
+                                <StackLayout Orientation="Horizontal" HorizontalOptions="EndAndExpand">
+                                    <ImageButton
+                                        Source="delete.png"
+                                        HorizontalOptions="End"
+                                        VerticalOptions="EndAndExpand"
+                                        BackgroundColor="white"
+                                        Command="{Binding Source={RelativeSource AncestorType={x:Type local:MealsPageViewModel}}, Path=DeleteMealCommand}"
+                                        CommandParameter="{Binding}"
+                                    />
+                                </StackLayout>
+                            </Grid>
+                        </ViewCell>
                     </DataTemplate>
                 </ListView.ItemTemplate>
 

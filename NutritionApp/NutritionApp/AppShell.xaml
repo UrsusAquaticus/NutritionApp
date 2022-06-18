@@ -43,8 +43,8 @@
         </Tab>
         <Tab Title="Food"
              Icon="food.png">
-            <ShellContent Title="Ingredients" ContentTemplate="{DataTemplate local:IngredientsPage}"/>
-            <ShellContent Title="Meals" ContentTemplate="{DataTemplate local:MealsPage}"/>
+            <ShellContent Title="Ingredients" Icon="ingredient.png" ContentTemplate="{DataTemplate local:IngredientsPage}"/>
+            <ShellContent Title="Meals" Icon="meal.png" ContentTemplate="{DataTemplate local:MealsPage}"/>
 
         </Tab>
         <Tab Title="Settings"

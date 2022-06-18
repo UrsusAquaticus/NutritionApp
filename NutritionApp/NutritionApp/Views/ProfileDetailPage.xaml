@@ -4,23 +4,30 @@
              x:Class="NutritionApp.Views.ProfileDetailPage"
              Title="{Binding Title}">
 
-    <TableView Intent="Form" Margin="16,0">
-        <TableRoot>
-            <TableSection Title="Profile">
-                <EntryCell Label="Name" Text="{Binding Path=Profile.Name}" />
-                <EntryCell Label="Date of Birth" Text="{Binding Path=Profile.DOB}" />
-                <EntryCell Label="Gender" Text="{Binding Path=Profile.Gender}" />
-                <EntryCell Label="Weight" Text="{Binding Path=Profile.Weight}" />
+    <StackLayout>
+        <TableView>
+            <TableSection>
+                <EntryCell Label="Name: " Text="{Binding Path=Profile.Name}" />
+                <ViewCell >
+                    <StackLayout Orientation="Horizontal">
+                        <Label Text="DOB: " Padding="15,10,10,0"/>
+                        <DatePicker Date="{Binding Path=Profile.DOB}"/>
+                    </StackLayout>
+                </ViewCell>
+                <EntryCell Label="Gender: " Text="{Binding Path=Profile.Gender}" />
+                <EntryCell Label="Weight: " Text="{Binding Path=Profile.Weight}" />
                 <EntryCell Label="Height" Text="{Binding Path=Profile.Height}" />
-                <EntryCell Label="Activity" Text="{Binding Path=Profile.Activity}" />
-                <SwitchCell Text="Is Pregnant" On="{Binding Path=Profile.Pregnant}" />
+                <EntryCell Label="Activity: " Text="{Binding Path=Profile.Activity}" />
+                <SwitchCell Text="Is Pregnant: " On="{Binding Path=Profile.Pregnant}" />
             </TableSection>
             <TableSection>
                 <ViewCell>
                     <Button Text="Save" Command="{Binding SaveCommand}" />
                 </ViewCell>
             </TableSection>
-        </TableRoot>
-    </TableView>
+
+        </TableView>
+
+    </StackLayout>
 
 </ContentPage>
