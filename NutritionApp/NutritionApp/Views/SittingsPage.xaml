@@ -2,6 +2,7 @@
 <ContentPage xmlns="http://xamarin.com/schemas/2014/forms"
              xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
              xmlns:behaviors="clr-namespace:Xamarin.Forms.BehaviorsPack;assembly=Xamarin.Forms.BehaviorsPack"
+             xmlns:xct="http://xamarin.com/schemas/2020/toolkit"
              x:Class="NutritionApp.Views.SittingsPage"
              Title="{Binding Title}">
 
@@ -22,15 +23,12 @@
                 <DataTemplate>
                     <ViewCell>
                         <Grid Padding="10">
-
                             <StackLayout Orientation="Horizontal">
-                                <Image Source="calendar.png"  />
+                                <Image Source="calendar.svg" />
                                 <Label Padding="0,2.5,0,0" Grid.Column="1" Text="{Binding Path=Date, StringFormat='{0:MMMM dd, yyyy}'}"/>
-                                <Label Padding="0,2.5,0,0" Grid.Column="2" Text="{Binding Path=Time, StringFormat='{}{0:mm\\:ss}'}"/>
                             </StackLayout>
 
                             <StackLayout Orientation="Horizontal" HorizontalOptions="EndAndExpand">
-                                
                                 <ImageButton
                                 Source="delete.png"
                                 HorizontalOptions="End"
@@ -38,7 +36,6 @@
                                 BackgroundColor="white"
                                 Command="{Binding DeleteSittingCommand}"
                                 />
-                                <!--Clicked="OnDeleteSitting"-->
                             </StackLayout>
                         </Grid>
                     </ViewCell>
