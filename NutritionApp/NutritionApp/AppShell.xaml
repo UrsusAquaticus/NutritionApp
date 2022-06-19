@@ -34,23 +34,22 @@
         <Tab Title="Home"
              Icon="home.png">
             <ShellContent Title="Home" Route="IndexPage" ContentTemplate="{DataTemplate local:IndexPage}" />
-
         </Tab>
+        
         <Tab Title="Profiles"
              Icon="profiles.png">
             <ShellContent Title="Profiles" ContentTemplate="{DataTemplate local:ProfilesPage}" />
-
         </Tab>
+        
         <Tab Title="Food"
              Icon="food.png">
             <ShellContent Title="Ingredients" Icon="ingredient.png" ContentTemplate="{DataTemplate local:IngredientsPage}"/>
             <ShellContent Title="Meals" Icon="meal.png" ContentTemplate="{DataTemplate local:MealsPage}"/>
-
         </Tab>
+
         <Tab Title="Settings"
              Icon="settings.png">
             <ShellContent Title="Settings" ContentTemplate="{DataTemplate local:SettingsPage}" />
-
         </Tab>
     </TabBar>
 

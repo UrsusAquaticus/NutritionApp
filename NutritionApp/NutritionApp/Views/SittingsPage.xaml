@@ -3,7 +3,11 @@
              xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
              xmlns:behaviors="clr-namespace:Xamarin.Forms.BehaviorsPack;assembly=Xamarin.Forms.BehaviorsPack"
              xmlns:xct="http://xamarin.com/schemas/2020/toolkit"
-             x:Class="NutritionApp.Views.SittingsPage"
+             xmlns:expander="clr-namespace:Syncfusion.XForms.Expander;assembly=Syncfusion.Expander.XForms"
+             xmlns:listview="clr-namespace:Syncfusion.ListView.XForms;assembly=Syncfusion.SfListView.XForms"
+             xmlns:local="clr-namespace:NutritionApp.ViewModels"  
+             xmlns:model="clr-namespace:NutritionApp.Models"  
+             x:Class="NutritionApp.Views.SittingsPage"  
              Title="{Binding Title}">
 
     <!-- has add new sitting button on toolbar -->
@@ -12,9 +16,79 @@
         <ToolbarItem Icon="add.png" Command="{Binding AddSittingCommand}"/>
     </ContentPage.ToolbarItems>
 
-    <StackLayout>
 
-        <!-- list view of sittings -->
+    <StackLayout x:Name="container">
+
+        <StackLayout Orientation="Horizontal" HeightRequest="50" BindableLayout.ItemsSource="{Binding Path=Goal}">
+            <Image Source="targetKjs.png" Margin="10,5,-10,0" />
+
+            <TableView>
+                <TableSection>
+                    <EntryCell Label="Daily Target Kjs:" Text="{Binding Path=Goal.DailyKj}" Height="30" />
+                </TableSection>
+            </TableView>
+
+        </StackLayout>
+
+        <!-- expander docs https://help.syncfusion.com/xamarin/expander/getting-started -->
+        <!-- listview docs https://help.syncfusion.com/xamarin/listview/getting-started -->
+        <listview:SfListView x:Name="expanderListView"
+                             ItemsSource="{Binding Path=Profile.Sittings}"
+                             Padding="15,10,0,0"
+                             AutoFitMode="DynamicHeight"
+                             >
+            <listview:SfListView.ItemTemplate>
+                <DataTemplate>
+
+                    <expander:SfExpander x:Name="mainExpander"
+                                         DynamicSizeMode="Content"
+                                         HeaderBackgroundColor="white"
+                                         IsExpanded="False"
+                                         >
+                        <expander:SfExpander.Header>
+                            <Grid>
+                                <Label Text="{Binding Path=Date, StringFormat='{0:MMMM dd, yyyy}'}" Padding="10"/>
+                            </Grid>
+                        </expander:SfExpander.Header>
+
+                        <expander:SfExpander.Content>
+
+                            <Grid>
+                                <listview:SfListView x:Name="subExpander"
+                                                 ItemsSource="{Binding Path=Sitting.SittingMeals}"
+                                                 Padding="10"
+                                                 AutoFitMode="DynamicHeight">
+                                    <listview:SfListView.ItemTemplate>
+
+                                        <DataTemplate>
+                                            <Grid>
+                                                <Label Text="{Binding Path=Meal}" IsVisible="true"/>
+
+                                            </Grid>
+                                        </DataTemplate>
+                                                                              
+                                    
+                                    </listview:SfListView.ItemTemplate>
+                                </listview:SfListView>
+                            </Grid>
+                            
+                        </expander:SfExpander.Content>
+
+                    </expander:SfExpander>
+                    
+                    
+                </DataTemplate>
+                
+            </listview:SfListView.ItemTemplate>
+            
+        </listview:SfListView>
+        
+
+    </StackLayout>
+
+    <!--<StackLayout>
+
+        --><!-- list view of sittings --><!--
         <ListView x:Name="sittingsList"
               ItemsSource="{Binding Path=Profile.Sittings}"
               SelectedItem="{Binding SelectedSitting, Mode=TwoWay}"
@@ -43,6 +117,10 @@
             </ListView.ItemTemplate>
         </ListView>
 
-    </StackLayout>
+        <pv:PancakeView>
+            
+        </pv:PancakeView>
+
+    </StackLayout>-->
 
 </ContentPage>

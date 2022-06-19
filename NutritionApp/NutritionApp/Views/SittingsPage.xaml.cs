@@ -26,5 +26,10 @@ namespace NutritionApp.Views
             get { return BindingContext as SittingsPageViewModel; }
             set { BindingContext = value; }
         }
+
+        private void ExpanderTapped(object sender, System.EventArgs e)
+        {
+
+        }
     }
 }

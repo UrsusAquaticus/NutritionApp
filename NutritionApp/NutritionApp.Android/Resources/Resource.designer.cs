@@ -25,6 +25,43 @@ namespace NutritionApp.Droid
 		
 		public static void UpdateIdValues()
 		{
+			global::Syncfusion.XForms.Android.Core.Resource.Drawable.Avatar1 = global::NutritionApp.Droid.Resource.Drawable.Avatar1;
+			global::Syncfusion.XForms.Android.Core.Resource.Drawable.Avatar10 = global::NutritionApp.Droid.Resource.Drawable.Avatar10;
+			global::Syncfusion.XForms.Android.Core.Resource.Drawable.Avatar11 = global::NutritionApp.Droid.Resource.Drawable.Avatar11;
+			global::Syncfusion.XForms.Android.Core.Resource.Drawable.Avatar12 = global::NutritionApp.Droid.Resource.Drawable.Avatar12;
+			global::Syncfusion.XForms.Android.Core.Resource.Drawable.Avatar13 = global::NutritionApp.Droid.Resource.Drawable.Avatar13;
+			global::Syncfusion.XForms.Android.Core.Resource.Drawable.Avatar14 = global::NutritionApp.Droid.Resource.Drawable.Avatar14;
+			global::Syncfusion.XForms.Android.Core.Resource.Drawable.Avatar15 = global::NutritionApp.Droid.Resource.Drawable.Avatar15;
+			global::Syncfusion.XForms.Android.Core.Resource.Drawable.Avatar16 = global::NutritionApp.Droid.Resource.Drawable.Avatar16;
+			global::Syncfusion.XForms.Android.Core.Resource.Drawable.Avatar17 = global::NutritionApp.Droid.Resource.Drawable.Avatar17;
+			global::Syncfusion.XForms.Android.Core.Resource.Drawable.Avatar18 = global::NutritionApp.Droid.Resource.Drawable.Avatar18;
+			global::Syncfusion.XForms.Android.Core.Resource.Drawable.Avatar19 = global::NutritionApp.Droid.Resource.Drawable.Avatar19;
+			global::Syncfusion.XForms.Android.Core.Resource.Drawable.Avatar2 = global::NutritionApp.Droid.Resource.Drawable.Avatar2;
+			global::Syncfusion.XForms.Android.Core.Resource.Drawable.Avatar20 = global::NutritionApp.Droid.Resource.Drawable.Avatar20;
+			global::Syncfusion.XForms.Android.Core.Resource.Drawable.Avatar21 = global::NutritionApp.Droid.Resource.Drawable.Avatar21;
+			global::Syncfusion.XForms.Android.Core.Resource.Drawable.Avatar22 = global::NutritionApp.Droid.Resource.Drawable.Avatar22;
+			global::Syncfusion.XForms.Android.Core.Resource.Drawable.Avatar23 = global::NutritionApp.Droid.Resource.Drawable.Avatar23;
+			global::Syncfusion.XForms.Android.Core.Resource.Drawable.Avatar24 = global::NutritionApp.Droid.Resource.Drawable.Avatar24;
+			global::Syncfusion.XForms.Android.Core.Resource.Drawable.Avatar25 = global::NutritionApp.Droid.Resource.Drawable.Avatar25;
+			global::Syncfusion.XForms.Android.Core.Resource.Drawable.Avatar26 = global::NutritionApp.Droid.Resource.Drawable.Avatar26;
+			global::Syncfusion.XForms.Android.Core.Resource.Drawable.Avatar27 = global::NutritionApp.Droid.Resource.Drawable.Avatar27;
+			global::Syncfusion.XForms.Android.Core.Resource.Drawable.Avatar28 = global::NutritionApp.Droid.Resource.Drawable.Avatar28;
+			global::Syncfusion.XForms.Android.Core.Resource.Drawable.Avatar29 = global::NutritionApp.Droid.Resource.Drawable.Avatar29;
+			global::Syncfusion.XForms.Android.Core.Resource.Drawable.Avatar3 = global::NutritionApp.Droid.Resource.Drawable.Avatar3;
+			global::Syncfusion.XForms.Android.Core.Resource.Drawable.Avatar30 = global::NutritionApp.Droid.Resource.Drawable.Avatar30;
+			global::Syncfusion.XForms.Android.Core.Resource.Drawable.Avatar4 = global::NutritionApp.Droid.Resource.Drawable.Avatar4;
+			global::Syncfusion.XForms.Android.Core.Resource.Drawable.Avatar5 = global::NutritionApp.Droid.Resource.Drawable.Avatar5;
+			global::Syncfusion.XForms.Android.Core.Resource.Drawable.Avatar6 = global::NutritionApp.Droid.Resource.Drawable.Avatar6;
+			global::Syncfusion.XForms.Android.Core.Resource.Drawable.Avatar7 = global::NutritionApp.Droid.Resource.Drawable.Avatar7;
+			global::Syncfusion.XForms.Android.Core.Resource.Drawable.Avatar8 = global::NutritionApp.Droid.Resource.Drawable.Avatar8;
+			global::Syncfusion.XForms.Android.Core.Resource.Drawable.Avatar9 = global::NutritionApp.Droid.Resource.Drawable.Avatar9;
+			global::Syncfusion.XForms.Android.Core.Resource.Drawable.input_layout_drop_down_icon = global::NutritionApp.Droid.Resource.Drawable.input_layout_drop_down_icon;
+			global::Syncfusion.XForms.Android.Core.Resource.Drawable.inputlayout_togglecollapseicon = global::NutritionApp.Droid.Resource.Drawable.inputlayout_togglecollapseicon;
+			global::Syncfusion.XForms.Android.Core.Resource.Drawable.inputlayout_togglevisibleicon = global::NutritionApp.Droid.Resource.Drawable.inputlayout_togglevisibleicon;
+			global::Syncfusion.XForms.Android.Core.Resource.Drawable.clear_button_icon = global::NutritionApp.Droid.Resource.Drawable.clear_button_icon;
+			global::Syncfusion.ListView.XForms.Android.Resource.String.ApplicationName = global::NutritionApp.Droid.Resource.String.ApplicationName;
+			global::Syncfusion.ListView.XForms.Android.Resource.String.Hello = global::NutritionApp.Droid.Resource.String.Hello;
+			global::Syncfusion.ListView.XForms.Android.Resource.String.Load_More = global::NutritionApp.Droid.Resource.String.Load_More;
 			global::Xamarin.CommunityToolkit.Resource.Animation.abc_fade_in = global::NutritionApp.Droid.Resource.Animation.abc_fade_in;
 			global::Xamarin.CommunityToolkit.Resource.Animation.abc_fade_out = global::NutritionApp.Droid.Resource.Animation.abc_fade_out;
 			global::Xamarin.CommunityToolkit.Resource.Animation.abc_grow_fade_in_from_bottom = global::NutritionApp.Droid.Resource.Animation.abc_grow_fade_in_from_bottom;
@@ -5787,2640 +5824,6 @@ namespace NutritionApp.Droid
 			global::Xamarin.Essentials.Resource.Styleable.GradientColor_android_type = global::NutritionApp.Droid.Resource.Styleable.GradientColor_android_type;
 			global::Xamarin.Essentials.Resource.Xml.image_share_filepaths = global::NutritionApp.Droid.Resource.Xml.image_share_filepaths;
 			global::Xamarin.Essentials.Resource.Xml.xamarin_essentials_fileprovider_file_paths = global::NutritionApp.Droid.Resource.Xml.xamarin_essentials_fileprovider_file_paths;
-			global::Xamarin.Forms.PancakeView.Resource.Animation.abc_fade_in = global::NutritionApp.Droid.Resource.Animation.abc_fade_in;
-			global::Xamarin.Forms.PancakeView.Resource.Animation.abc_fade_out = global::NutritionApp.Droid.Resource.Animation.abc_fade_out;
-			global::Xamarin.Forms.PancakeView.Resource.Animation.abc_grow_fade_in_from_bottom = global::NutritionApp.Droid.Resource.Animation.abc_grow_fade_in_from_bottom;
-			global::Xamarin.Forms.PancakeView.Resource.Animation.abc_popup_enter = global::NutritionApp.Droid.Resource.Animation.abc_popup_enter;
-			global::Xamarin.Forms.PancakeView.Resource.Animation.abc_popup_exit = global::NutritionApp.Droid.Resource.Animation.abc_popup_exit;
-			global::Xamarin.Forms.PancakeView.Resource.Animation.abc_shrink_fade_out_from_bottom = global::NutritionApp.Droid.Resource.Animation.abc_shrink_fade_out_from_bottom;
-			global::Xamarin.Forms.PancakeView.Resource.Animation.abc_slide_in_bottom = global::NutritionApp.Droid.Resource.Animation.abc_slide_in_bottom;
-			global::Xamarin.Forms.PancakeView.Resource.Animation.abc_slide_in_top = global::NutritionApp.Droid.Resource.Animation.abc_slide_in_top;
-			global::Xamarin.Forms.PancakeView.Resource.Animation.abc_slide_out_bottom = global::NutritionApp.Droid.Resource.Animation.abc_slide_out_bottom;
-			global::Xamarin.Forms.PancakeView.Resource.Animation.abc_slide_out_top = global::NutritionApp.Droid.Resource.Animation.abc_slide_out_top;
-			global::Xamarin.Forms.PancakeView.Resource.Animation.abc_tooltip_enter = global::NutritionApp.Droid.Resource.Animation.abc_tooltip_enter;
-			global::Xamarin.Forms.PancakeView.Resource.Animation.abc_tooltip_exit = global::NutritionApp.Droid.Resource.Animation.abc_tooltip_exit;
-			global::Xamarin.Forms.PancakeView.Resource.Animation.btn_checkbox_to_checked_box_inner_merged_animation = global::NutritionApp.Droid.Resource.Animation.btn_checkbox_to_checked_box_inner_merged_animation;
-			global::Xamarin.Forms.PancakeView.Resource.Animation.btn_checkbox_to_checked_box_outer_merged_animation = global::NutritionApp.Droid.Resource.Animation.btn_checkbox_to_checked_box_outer_merged_animation;
-			global::Xamarin.Forms.PancakeView.Resource.Animation.btn_checkbox_to_checked_icon_null_animation = global::NutritionApp.Droid.Resource.Animation.btn_checkbox_to_checked_icon_null_animation;
-			global::Xamarin.Forms.PancakeView.Resource.Animation.btn_checkbox_to_unchecked_box_inner_merged_animation = global::NutritionApp.Droid.Resource.Animation.btn_checkbox_to_unchecked_box_inner_merged_animation;
-			global::Xamarin.Forms.PancakeView.Resource.Animation.btn_checkbox_to_unchecked_check_path_merged_animation = global::NutritionApp.Droid.Resource.Animation.btn_checkbox_to_unchecked_check_path_merged_animation;
-			global::Xamarin.Forms.PancakeView.Resource.Animation.btn_checkbox_to_unchecked_icon_null_animation = global::NutritionApp.Droid.Resource.Animation.btn_checkbox_to_unchecked_icon_null_animation;
-			global::Xamarin.Forms.PancakeView.Resource.Animation.btn_radio_to_off_mtrl_dot_group_animation = global::NutritionApp.Droid.Resource.Animation.btn_radio_to_off_mtrl_dot_group_animation;
-			global::Xamarin.Forms.PancakeView.Resource.Animation.btn_radio_to_off_mtrl_ring_outer_animation = global::NutritionApp.Droid.Resource.Animation.btn_radio_to_off_mtrl_ring_outer_animation;
-			global::Xamarin.Forms.PancakeView.Resource.Animation.btn_radio_to_off_mtrl_ring_outer_path_animation = global::NutritionApp.Droid.Resource.Animation.btn_radio_to_off_mtrl_ring_outer_path_animation;
-			global::Xamarin.Forms.PancakeView.Resource.Animation.btn_radio_to_on_mtrl_dot_group_animation = global::NutritionApp.Droid.Resource.Animation.btn_radio_to_on_mtrl_dot_group_animation;
-			global::Xamarin.Forms.PancakeView.Resource.Animation.btn_radio_to_on_mtrl_ring_outer_animation = global::NutritionApp.Droid.Resource.Animation.btn_radio_to_on_mtrl_ring_outer_animation;
-			global::Xamarin.Forms.PancakeView.Resource.Animation.btn_radio_to_on_mtrl_ring_outer_path_animation = global::NutritionApp.Droid.Resource.Animation.btn_radio_to_on_mtrl_ring_outer_path_animation;
-			global::Xamarin.Forms.PancakeView.Resource.Animation.design_bottom_sheet_slide_in = global::NutritionApp.Droid.Resource.Animation.design_bottom_sheet_slide_in;
-			global::Xamarin.Forms.PancakeView.Resource.Animation.design_bottom_sheet_slide_out = global::NutritionApp.Droid.Resource.Animation.design_bottom_sheet_slide_out;
-			global::Xamarin.Forms.PancakeView.Resource.Animation.design_snackbar_in = global::NutritionApp.Droid.Resource.Animation.design_snackbar_in;
-			global::Xamarin.Forms.PancakeView.Resource.Animation.design_snackbar_out = global::NutritionApp.Droid.Resource.Animation.design_snackbar_out;
-			global::Xamarin.Forms.PancakeView.Resource.Animation.EnterFromLeft = global::NutritionApp.Droid.Resource.Animation.EnterFromLeft;
-			global::Xamarin.Forms.PancakeView.Resource.Animation.EnterFromRight = global::NutritionApp.Droid.Resource.Animation.EnterFromRight;
-			global::Xamarin.Forms.PancakeView.Resource.Animation.ExitToLeft = global::NutritionApp.Droid.Resource.Animation.ExitToLeft;
-			global::Xamarin.Forms.PancakeView.Resource.Animation.ExitToRight = global::NutritionApp.Droid.Resource.Animation.ExitToRight;
-			global::Xamarin.Forms.PancakeView.Resource.Animation.fragment_fast_out_extra_slow_in = global::NutritionApp.Droid.Resource.Animation.fragment_fast_out_extra_slow_in;
-			global::Xamarin.Forms.PancakeView.Resource.Animator.design_appbar_state_list_animator = global::NutritionApp.Droid.Resource.Animator.design_appbar_state_list_animator;
-			global::Xamarin.Forms.PancakeView.Resource.Animator.design_fab_hide_motion_spec = global::NutritionApp.Droid.Resource.Animator.design_fab_hide_motion_spec;
-			global::Xamarin.Forms.PancakeView.Resource.Animator.design_fab_show_motion_spec = global::NutritionApp.Droid.Resource.Animator.design_fab_show_motion_spec;
-			global::Xamarin.Forms.PancakeView.Resource.Animator.mtrl_btn_state_list_anim = global::NutritionApp.Droid.Resource.Animator.mtrl_btn_state_list_anim;
-			global::Xamarin.Forms.PancakeView.Resource.Animator.mtrl_btn_unelevated_state_list_anim = global::NutritionApp.Droid.Resource.Animator.mtrl_btn_unelevated_state_list_anim;
-			global::Xamarin.Forms.PancakeView.Resource.Animator.mtrl_chip_state_list_anim = global::NutritionApp.Droid.Resource.Animator.mtrl_chip_state_list_anim;
-			global::Xamarin.Forms.PancakeView.Resource.Animator.mtrl_fab_hide_motion_spec = global::NutritionApp.Droid.Resource.Animator.mtrl_fab_hide_motion_spec;
-			global::Xamarin.Forms.PancakeView.Resource.Animator.mtrl_fab_show_motion_spec = global::NutritionApp.Droid.Resource.Animator.mtrl_fab_show_motion_spec;
-			global::Xamarin.Forms.PancakeView.Resource.Animator.mtrl_fab_transformation_sheet_collapse_spec = global::NutritionApp.Droid.Resource.Animator.mtrl_fab_transformation_sheet_collapse_spec;
-			global::Xamarin.Forms.PancakeView.Resource.Animator.mtrl_fab_transformation_sheet_expand_spec = global::NutritionApp.Droid.Resource.Animator.mtrl_fab_transformation_sheet_expand_spec;
-			global::Xamarin.Forms.PancakeView.Resource.Attribute.actionBarDivider = global::NutritionApp.Droid.Resource.Attribute.actionBarDivider;
-			global::Xamarin.Forms.PancakeView.Resource.Attribute.actionBarItemBackground = global::NutritionApp.Droid.Resource.Attribute.actionBarItemBackground;
-			global::Xamarin.Forms.PancakeView.Resource.Attribute.actionBarPopupTheme = global::NutritionApp.Droid.Resource.Attribute.actionBarPopupTheme;
-			global::Xamarin.Forms.PancakeView.Resource.Attribute.actionBarSize = global::NutritionApp.Droid.Resource.Attribute.actionBarSize;
-			global::Xamarin.Forms.PancakeView.Resource.Attribute.actionBarSplitStyle = global::NutritionApp.Droid.Resource.Attribute.actionBarSplitStyle;
-			global::Xamarin.Forms.PancakeView.Resource.Attribute.actionBarStyle = global::NutritionApp.Droid.Resource.Attribute.actionBarStyle;
-			global::Xamarin.Forms.PancakeView.Resource.Attribute.actionBarTabBarStyle = global::NutritionApp.Droid.Resource.Attribute.actionBarTabBarStyle;
-			global::Xamarin.Forms.PancakeView.Resource.Attribute.actionBarTabStyle = global::NutritionApp.Droid.Resource.Attribute.actionBarTabStyle;
-			global::Xamarin.Forms.PancakeView.Resource.Attribute.actionBarTabTextStyle = global::NutritionApp.Droid.Resource.Attribute.actionBarTabTextStyle;
-			global::Xamarin.Forms.PancakeView.Resource.Attribute.actionBarTheme = global::NutritionApp.Droid.Resource.Attribute.actionBarTheme;
-			global::Xamarin.Forms.PancakeView.Resource.Attribute.actionBarWidgetTheme = global::NutritionApp.Droid.Resource.Attribute.actionBarWidgetTheme;
-			global::Xamarin.Forms.PancakeView.Resource.Attribute.actionButtonStyle = global::NutritionApp.Droid.Resource.Attribute.actionButtonStyle;
-			global::Xamarin.Forms.PancakeView.Resource.Attribute.actionDropDownStyle = global::NutritionApp.Droid.Resource.Attribute.actionDropDownStyle;
-			global::Xamarin.Forms.PancakeView.Resource.Attribute.actionLayout = global::NutritionApp.Droid.Resource.Attribute.actionLayout;
-			global::Xamarin.Forms.PancakeView.Resource.Attribute.actionMenuTextAppearance = global::NutritionApp.Droid.Resource.Attribute.actionMenuTextAppearance;
-			global::Xamarin.Forms.PancakeView.Resource.Attribute.actionMenuTextColor = global::NutritionApp.Droid.Resource.Attribute.actionMenuTextColor;
-			global::Xamarin.Forms.PancakeView.Resource.Attribute.actionModeBackground = global::NutritionApp.Droid.Resource.Attribute.actionModeBackground;
-			global::Xamarin.Forms.PancakeView.Resource.Attribute.actionModeCloseButtonStyle = global::NutritionApp.Droid.Resource.Attribute.actionModeCloseButtonStyle;
-			global::Xamarin.Forms.PancakeView.Resource.Attribute.actionModeCloseDrawable = global::NutritionApp.Droid.Resource.Attribute.actionModeCloseDrawable;
-			global::Xamarin.Forms.PancakeView.Resource.Attribute.actionModeCopyDrawable = global::NutritionApp.Droid.Resource.Attribute.actionModeCopyDrawable;
-			global::Xamarin.Forms.PancakeView.Resource.Attribute.actionModeCutDrawable = global::NutritionApp.Droid.Resource.Attribute.actionModeCutDrawable;
-			global::Xamarin.Forms.PancakeView.Resource.Attribute.actionModeFindDrawable = global::NutritionApp.Droid.Resource.Attribute.actionModeFindDrawable;
-			global::Xamarin.Forms.PancakeView.Resource.Attribute.actionModePasteDrawable = global::NutritionApp.Droid.Resource.Attribute.actionModePasteDrawable;
-			global::Xamarin.Forms.PancakeView.Resource.Attribute.actionModePopupWindowStyle = global::NutritionApp.Droid.Resource.Attribute.actionModePopupWindowStyle;
-			global::Xamarin.Forms.PancakeView.Resource.Attribute.actionModeSelectAllDrawable = global::NutritionApp.Droid.Resource.Attribute.actionModeSelectAllDrawable;
-			global::Xamarin.Forms.PancakeView.Resource.Attribute.actionModeShareDrawable = global::NutritionApp.Droid.Resource.Attribute.actionModeShareDrawable;
-			global::Xamarin.Forms.PancakeView.Resource.Attribute.actionModeSplitBackground = global::NutritionApp.Droid.Resource.Attribute.actionModeSplitBackground;
-			global::Xamarin.Forms.PancakeView.Resource.Attribute.actionModeStyle = global::NutritionApp.Droid.Resource.Attribute.actionModeStyle;
-			global::Xamarin.Forms.PancakeView.Resource.Attribute.actionModeWebSearchDrawable = global::NutritionApp.Droid.Resource.Attribute.actionModeWebSearchDrawable;
-			global::Xamarin.Forms.PancakeView.Resource.Attribute.actionOverflowButtonStyle = global::NutritionApp.Droid.Resource.Attribute.actionOverflowButtonStyle;
-			global::Xamarin.Forms.PancakeView.Resource.Attribute.actionOverflowMenuStyle = global::NutritionApp.Droid.Resource.Attribute.actionOverflowMenuStyle;
-			global::Xamarin.Forms.PancakeView.Resource.Attribute.actionProviderClass = global::NutritionApp.Droid.Resource.Attribute.actionProviderClass;
-			global::Xamarin.Forms.PancakeView.Resource.Attribute.actionViewClass = global::NutritionApp.Droid.Resource.Attribute.actionViewClass;
-			global::Xamarin.Forms.PancakeView.Resource.Attribute.activityChooserViewStyle = global::NutritionApp.Droid.Resource.Attribute.activityChooserViewStyle;
-			global::Xamarin.Forms.PancakeView.Resource.Attribute.alertDialogButtonGroupStyle = global::NutritionApp.Droid.Resource.Attribute.alertDialogButtonGroupStyle;
-			global::Xamarin.Forms.PancakeView.Resource.Attribute.alertDialogCenterButtons = global::NutritionApp.Droid.Resource.Attribute.alertDialogCenterButtons;
-			global::Xamarin.Forms.PancakeView.Resource.Attribute.alertDialogStyle = global::NutritionApp.Droid.Resource.Attribute.alertDialogStyle;
-			global::Xamarin.Forms.PancakeView.Resource.Attribute.alertDialogTheme = global::NutritionApp.Droid.Resource.Attribute.alertDialogTheme;
-			global::Xamarin.Forms.PancakeView.Resource.Attribute.allowStacking = global::NutritionApp.Droid.Resource.Attribute.allowStacking;
-			global::Xamarin.Forms.PancakeView.Resource.Attribute.alpha = global::NutritionApp.Droid.Resource.Attribute.alpha;
-			global::Xamarin.Forms.PancakeView.Resource.Attribute.alphabeticModifiers = global::NutritionApp.Droid.Resource.Attribute.alphabeticModifiers;
-			global::Xamarin.Forms.PancakeView.Resource.Attribute.arrowHeadLength = global::NutritionApp.Droid.Resource.Attribute.arrowHeadLength;
-			global::Xamarin.Forms.PancakeView.Resource.Attribute.arrowShaftLength = global::NutritionApp.Droid.Resource.Attribute.arrowShaftLength;
-			global::Xamarin.Forms.PancakeView.Resource.Attribute.autoCompleteTextViewStyle = global::NutritionApp.Droid.Resource.Attribute.autoCompleteTextViewStyle;
-			global::Xamarin.Forms.PancakeView.Resource.Attribute.autoSizeMaxTextSize = global::NutritionApp.Droid.Resource.Attribute.autoSizeMaxTextSize;
-			global::Xamarin.Forms.PancakeView.Resource.Attribute.autoSizeMinTextSize = global::NutritionApp.Droid.Resource.Attribute.autoSizeMinTextSize;
-			global::Xamarin.Forms.PancakeView.Resource.Attribute.autoSizePresetSizes = global::NutritionApp.Droid.Resource.Attribute.autoSizePresetSizes;
-			global::Xamarin.Forms.PancakeView.Resource.Attribute.autoSizeStepGranularity = global::NutritionApp.Droid.Resource.Attribute.autoSizeStepGranularity;
-			global::Xamarin.Forms.PancakeView.Resource.Attribute.autoSizeTextType = global::NutritionApp.Droid.Resource.Attribute.autoSizeTextType;
-			global::Xamarin.Forms.PancakeView.Resource.Attribute.background = global::NutritionApp.Droid.Resource.Attribute.background;
-			global::Xamarin.Forms.PancakeView.Resource.Attribute.backgroundSplit = global::NutritionApp.Droid.Resource.Attribute.backgroundSplit;
-			global::Xamarin.Forms.PancakeView.Resource.Attribute.backgroundStacked = global::NutritionApp.Droid.Resource.Attribute.backgroundStacked;
-			global::Xamarin.Forms.PancakeView.Resource.Attribute.backgroundTint = global::NutritionApp.Droid.Resource.Attribute.backgroundTint;
-			global::Xamarin.Forms.PancakeView.Resource.Attribute.backgroundTintMode = global::NutritionApp.Droid.Resource.Attribute.backgroundTintMode;
-			global::Xamarin.Forms.PancakeView.Resource.Attribute.barLength = global::NutritionApp.Droid.Resource.Attribute.barLength;
-			global::Xamarin.Forms.PancakeView.Resource.Attribute.behavior_autoHide = global::NutritionApp.Droid.Resource.Attribute.behavior_autoHide;
-			global::Xamarin.Forms.PancakeView.Resource.Attribute.behavior_fitToContents = global::NutritionApp.Droid.Resource.Attribute.behavior_fitToContents;
-			global::Xamarin.Forms.PancakeView.Resource.Attribute.behavior_hideable = global::NutritionApp.Droid.Resource.Attribute.behavior_hideable;
-			global::Xamarin.Forms.PancakeView.Resource.Attribute.behavior_overlapTop = global::NutritionApp.Droid.Resource.Attribute.behavior_overlapTop;
-			global::Xamarin.Forms.PancakeView.Resource.Attribute.behavior_peekHeight = global::NutritionApp.Droid.Resource.Attribute.behavior_peekHeight;
-			global::Xamarin.Forms.PancakeView.Resource.Attribute.behavior_skipCollapsed = global::NutritionApp.Droid.Resource.Attribute.behavior_skipCollapsed;
-			global::Xamarin.Forms.PancakeView.Resource.Attribute.borderlessButtonStyle = global::NutritionApp.Droid.Resource.Attribute.borderlessButtonStyle;
-			global::Xamarin.Forms.PancakeView.Resource.Attribute.borderWidth = global::NutritionApp.Droid.Resource.Attribute.borderWidth;
-			global::Xamarin.Forms.PancakeView.Resource.Attribute.bottomAppBarStyle = global::NutritionApp.Droid.Resource.Attribute.bottomAppBarStyle;
-			global::Xamarin.Forms.PancakeView.Resource.Attribute.bottomNavigationStyle = global::NutritionApp.Droid.Resource.Attribute.bottomNavigationStyle;
-			global::Xamarin.Forms.PancakeView.Resource.Attribute.bottomSheetDialogTheme = global::NutritionApp.Droid.Resource.Attribute.bottomSheetDialogTheme;
-			global::Xamarin.Forms.PancakeView.Resource.Attribute.bottomSheetStyle = global::NutritionApp.Droid.Resource.Attribute.bottomSheetStyle;
-			global::Xamarin.Forms.PancakeView.Resource.Attribute.boxBackgroundColor = global::NutritionApp.Droid.Resource.Attribute.boxBackgroundColor;
-			global::Xamarin.Forms.PancakeView.Resource.Attribute.boxBackgroundMode = global::NutritionApp.Droid.Resource.Attribute.boxBackgroundMode;
-			global::Xamarin.Forms.PancakeView.Resource.Attribute.boxCollapsedPaddingTop = global::NutritionApp.Droid.Resource.Attribute.boxCollapsedPaddingTop;
-			global::Xamarin.Forms.PancakeView.Resource.Attribute.boxCornerRadiusBottomEnd = global::NutritionApp.Droid.Resource.Attribute.boxCornerRadiusBottomEnd;
-			global::Xamarin.Forms.PancakeView.Resource.Attribute.boxCornerRadiusBottomStart = global::NutritionApp.Droid.Resource.Attribute.boxCornerRadiusBottomStart;
-			global::Xamarin.Forms.PancakeView.Resource.Attribute.boxCornerRadiusTopEnd = global::NutritionApp.Droid.Resource.Attribute.boxCornerRadiusTopEnd;
-			global::Xamarin.Forms.PancakeView.Resource.Attribute.boxCornerRadiusTopStart = global::NutritionApp.Droid.Resource.Attribute.boxCornerRadiusTopStart;
-			global::Xamarin.Forms.PancakeView.Resource.Attribute.boxStrokeColor = global::NutritionApp.Droid.Resource.Attribute.boxStrokeColor;
-			global::Xamarin.Forms.PancakeView.Resource.Attribute.boxStrokeWidth = global::NutritionApp.Droid.Resource.Attribute.boxStrokeWidth;
-			global::Xamarin.Forms.PancakeView.Resource.Attribute.buttonBarButtonStyle = global::NutritionApp.Droid.Resource.Attribute.buttonBarButtonStyle;
-			global::Xamarin.Forms.PancakeView.Resource.Attribute.buttonBarNegativeButtonStyle = global::NutritionApp.Droid.Resource.Attribute.buttonBarNegativeButtonStyle;
-			global::Xamarin.Forms.PancakeView.Resource.Attribute.buttonBarNeutralButtonStyle = global::NutritionApp.Droid.Resource.Attribute.buttonBarNeutralButtonStyle;
-			global::Xamarin.Forms.PancakeView.Resource.Attribute.buttonBarPositiveButtonStyle = global::NutritionApp.Droid.Resource.Attribute.buttonBarPositiveButtonStyle;
-			global::Xamarin.Forms.PancakeView.Resource.Attribute.buttonBarStyle = global::NutritionApp.Droid.Resource.Attribute.buttonBarStyle;
-			global::Xamarin.Forms.PancakeView.Resource.Attribute.buttonCompat = global::NutritionApp.Droid.Resource.Attribute.buttonCompat;
-			global::Xamarin.Forms.PancakeView.Resource.Attribute.buttonGravity = global::NutritionApp.Droid.Resource.Attribute.buttonGravity;
-			global::Xamarin.Forms.PancakeView.Resource.Attribute.buttonIconDimen = global::NutritionApp.Droid.Resource.Attribute.buttonIconDimen;
-			global::Xamarin.Forms.PancakeView.Resource.Attribute.buttonPanelSideLayout = global::NutritionApp.Droid.Resource.Attribute.buttonPanelSideLayout;
-			global::Xamarin.Forms.PancakeView.Resource.Attribute.buttonStyle = global::NutritionApp.Droid.Resource.Attribute.buttonStyle;
-			global::Xamarin.Forms.PancakeView.Resource.Attribute.buttonStyleSmall = global::NutritionApp.Droid.Resource.Attribute.buttonStyleSmall;
-			global::Xamarin.Forms.PancakeView.Resource.Attribute.buttonTint = global::NutritionApp.Droid.Resource.Attribute.buttonTint;
-			global::Xamarin.Forms.PancakeView.Resource.Attribute.buttonTintMode = global::NutritionApp.Droid.Resource.Attribute.buttonTintMode;
-			global::Xamarin.Forms.PancakeView.Resource.Attribute.cardBackgroundColor = global::NutritionApp.Droid.Resource.Attribute.cardBackgroundColor;
-			global::Xamarin.Forms.PancakeView.Resource.Attribute.cardCornerRadius = global::NutritionApp.Droid.Resource.Attribute.cardCornerRadius;
-			global::Xamarin.Forms.PancakeView.Resource.Attribute.cardElevation = global::NutritionApp.Droid.Resource.Attribute.cardElevation;
-			global::Xamarin.Forms.PancakeView.Resource.Attribute.cardMaxElevation = global::NutritionApp.Droid.Resource.Attribute.cardMaxElevation;
-			global::Xamarin.Forms.PancakeView.Resource.Attribute.cardPreventCornerOverlap = global::NutritionApp.Droid.Resource.Attribute.cardPreventCornerOverlap;
-			global::Xamarin.Forms.PancakeView.Resource.Attribute.cardUseCompatPadding = global::NutritionApp.Droid.Resource.Attribute.cardUseCompatPadding;
-			global::Xamarin.Forms.PancakeView.Resource.Attribute.cardViewStyle = global::NutritionApp.Droid.Resource.Attribute.cardViewStyle;
-			global::Xamarin.Forms.PancakeView.Resource.Attribute.checkboxStyle = global::NutritionApp.Droid.Resource.Attribute.checkboxStyle;
-			global::Xamarin.Forms.PancakeView.Resource.Attribute.checkedChip = global::NutritionApp.Droid.Resource.Attribute.checkedChip;
-			global::Xamarin.Forms.PancakeView.Resource.Attribute.checkedIcon = global::NutritionApp.Droid.Resource.Attribute.checkedIcon;
-			global::Xamarin.Forms.PancakeView.Resource.Attribute.checkedIconEnabled = global::NutritionApp.Droid.Resource.Attribute.checkedIconEnabled;
-			global::Xamarin.Forms.PancakeView.Resource.Attribute.checkedIconVisible = global::NutritionApp.Droid.Resource.Attribute.checkedIconVisible;
-			global::Xamarin.Forms.PancakeView.Resource.Attribute.checkedTextViewStyle = global::NutritionApp.Droid.Resource.Attribute.checkedTextViewStyle;
-			global::Xamarin.Forms.PancakeView.Resource.Attribute.chipBackgroundColor = global::NutritionApp.Droid.Resource.Attribute.chipBackgroundColor;
-			global::Xamarin.Forms.PancakeView.Resource.Attribute.chipCornerRadius = global::NutritionApp.Droid.Resource.Attribute.chipCornerRadius;
-			global::Xamarin.Forms.PancakeView.Resource.Attribute.chipEndPadding = global::NutritionApp.Droid.Resource.Attribute.chipEndPadding;
-			global::Xamarin.Forms.PancakeView.Resource.Attribute.chipGroupStyle = global::NutritionApp.Droid.Resource.Attribute.chipGroupStyle;
-			global::Xamarin.Forms.PancakeView.Resource.Attribute.chipIcon = global::NutritionApp.Droid.Resource.Attribute.chipIcon;
-			global::Xamarin.Forms.PancakeView.Resource.Attribute.chipIconEnabled = global::NutritionApp.Droid.Resource.Attribute.chipIconEnabled;
-			global::Xamarin.Forms.PancakeView.Resource.Attribute.chipIconSize = global::NutritionApp.Droid.Resource.Attribute.chipIconSize;
-			global::Xamarin.Forms.PancakeView.Resource.Attribute.chipIconTint = global::NutritionApp.Droid.Resource.Attribute.chipIconTint;
-			global::Xamarin.Forms.PancakeView.Resource.Attribute.chipIconVisible = global::NutritionApp.Droid.Resource.Attribute.chipIconVisible;
-			global::Xamarin.Forms.PancakeView.Resource.Attribute.chipMinHeight = global::NutritionApp.Droid.Resource.Attribute.chipMinHeight;
-			global::Xamarin.Forms.PancakeView.Resource.Attribute.chipSpacing = global::NutritionApp.Droid.Resource.Attribute.chipSpacing;
-			global::Xamarin.Forms.PancakeView.Resource.Attribute.chipSpacingHorizontal = global::NutritionApp.Droid.Resource.Attribute.chipSpacingHorizontal;
-			global::Xamarin.Forms.PancakeView.Resource.Attribute.chipSpacingVertical = global::NutritionApp.Droid.Resource.Attribute.chipSpacingVertical;
-			global::Xamarin.Forms.PancakeView.Resource.Attribute.chipStandaloneStyle = global::NutritionApp.Droid.Resource.Attribute.chipStandaloneStyle;
-			global::Xamarin.Forms.PancakeView.Resource.Attribute.chipStartPadding = global::NutritionApp.Droid.Resource.Attribute.chipStartPadding;
-			global::Xamarin.Forms.PancakeView.Resource.Attribute.chipStrokeColor = global::NutritionApp.Droid.Resource.Attribute.chipStrokeColor;
-			global::Xamarin.Forms.PancakeView.Resource.Attribute.chipStrokeWidth = global::NutritionApp.Droid.Resource.Attribute.chipStrokeWidth;
-			global::Xamarin.Forms.PancakeView.Resource.Attribute.chipStyle = global::NutritionApp.Droid.Resource.Attribute.chipStyle;
-			global::Xamarin.Forms.PancakeView.Resource.Attribute.closeIcon = global::NutritionApp.Droid.Resource.Attribute.closeIcon;
-			global::Xamarin.Forms.PancakeView.Resource.Attribute.closeIconEnabled = global::NutritionApp.Droid.Resource.Attribute.closeIconEnabled;
-			global::Xamarin.Forms.PancakeView.Resource.Attribute.closeIconEndPadding = global::NutritionApp.Droid.Resource.Attribute.closeIconEndPadding;
-			global::Xamarin.Forms.PancakeView.Resource.Attribute.closeIconSize = global::NutritionApp.Droid.Resource.Attribute.closeIconSize;
-			global::Xamarin.Forms.PancakeView.Resource.Attribute.closeIconStartPadding = global::NutritionApp.Droid.Resource.Attribute.closeIconStartPadding;
-			global::Xamarin.Forms.PancakeView.Resource.Attribute.closeIconTint = global::NutritionApp.Droid.Resource.Attribute.closeIconTint;
-			global::Xamarin.Forms.PancakeView.Resource.Attribute.closeIconVisible = global::NutritionApp.Droid.Resource.Attribute.closeIconVisible;
-			global::Xamarin.Forms.PancakeView.Resource.Attribute.closeItemLayout = global::NutritionApp.Droid.Resource.Attribute.closeItemLayout;
-			global::Xamarin.Forms.PancakeView.Resource.Attribute.collapseContentDescription = global::NutritionApp.Droid.Resource.Attribute.collapseContentDescription;
-			global::Xamarin.Forms.PancakeView.Resource.Attribute.collapsedTitleGravity = global::NutritionApp.Droid.Resource.Attribute.collapsedTitleGravity;
-			global::Xamarin.Forms.PancakeView.Resource.Attribute.collapsedTitleTextAppearance = global::NutritionApp.Droid.Resource.Attribute.collapsedTitleTextAppearance;
-			global::Xamarin.Forms.PancakeView.Resource.Attribute.collapseIcon = global::NutritionApp.Droid.Resource.Attribute.collapseIcon;
-			global::Xamarin.Forms.PancakeView.Resource.Attribute.collectionViewStyle = global::NutritionApp.Droid.Resource.Attribute.collectionViewStyle;
-			global::Xamarin.Forms.PancakeView.Resource.Attribute.color = global::NutritionApp.Droid.Resource.Attribute.color;
-			global::Xamarin.Forms.PancakeView.Resource.Attribute.colorAccent = global::NutritionApp.Droid.Resource.Attribute.colorAccent;
-			global::Xamarin.Forms.PancakeView.Resource.Attribute.colorBackgroundFloating = global::NutritionApp.Droid.Resource.Attribute.colorBackgroundFloating;
-			global::Xamarin.Forms.PancakeView.Resource.Attribute.colorButtonNormal = global::NutritionApp.Droid.Resource.Attribute.colorButtonNormal;
-			global::Xamarin.Forms.PancakeView.Resource.Attribute.colorControlActivated = global::NutritionApp.Droid.Resource.Attribute.colorControlActivated;
-			global::Xamarin.Forms.PancakeView.Resource.Attribute.colorControlHighlight = global::NutritionApp.Droid.Resource.Attribute.colorControlHighlight;
-			global::Xamarin.Forms.PancakeView.Resource.Attribute.colorControlNormal = global::NutritionApp.Droid.Resource.Attribute.colorControlNormal;
-			global::Xamarin.Forms.PancakeView.Resource.Attribute.colorError = global::NutritionApp.Droid.Resource.Attribute.colorError;
-			global::Xamarin.Forms.PancakeView.Resource.Attribute.colorPrimary = global::NutritionApp.Droid.Resource.Attribute.colorPrimary;
-			global::Xamarin.Forms.PancakeView.Resource.Attribute.colorPrimaryDark = global::NutritionApp.Droid.Resource.Attribute.colorPrimaryDark;
-			global::Xamarin.Forms.PancakeView.Resource.Attribute.colorSecondary = global::NutritionApp.Droid.Resource.Attribute.colorSecondary;
-			global::Xamarin.Forms.PancakeView.Resource.Attribute.colorSwitchThumbNormal = global::NutritionApp.Droid.Resource.Attribute.colorSwitchThumbNormal;
-			global::Xamarin.Forms.PancakeView.Resource.Attribute.commitIcon = global::NutritionApp.Droid.Resource.Attribute.commitIcon;
-			global::Xamarin.Forms.PancakeView.Resource.Attribute.contentDescription = global::NutritionApp.Droid.Resource.Attribute.contentDescription;
-			global::Xamarin.Forms.PancakeView.Resource.Attribute.contentInsetEnd = global::NutritionApp.Droid.Resource.Attribute.contentInsetEnd;
-			global::Xamarin.Forms.PancakeView.Resource.Attribute.contentInsetEndWithActions = global::NutritionApp.Droid.Resource.Attribute.contentInsetEndWithActions;
-			global::Xamarin.Forms.PancakeView.Resource.Attribute.contentInsetLeft = global::NutritionApp.Droid.Resource.Attribute.contentInsetLeft;
-			global::Xamarin.Forms.PancakeView.Resource.Attribute.contentInsetRight = global::NutritionApp.Droid.Resource.Attribute.contentInsetRight;
-			global::Xamarin.Forms.PancakeView.Resource.Attribute.contentInsetStart = global::NutritionApp.Droid.Resource.Attribute.contentInsetStart;
-			global::Xamarin.Forms.PancakeView.Resource.Attribute.contentInsetStartWithNavigation = global::NutritionApp.Droid.Resource.Attribute.contentInsetStartWithNavigation;
-			global::Xamarin.Forms.PancakeView.Resource.Attribute.contentPadding = global::NutritionApp.Droid.Resource.Attribute.contentPadding;
-			global::Xamarin.Forms.PancakeView.Resource.Attribute.contentPaddingBottom = global::NutritionApp.Droid.Resource.Attribute.contentPaddingBottom;
-			global::Xamarin.Forms.PancakeView.Resource.Attribute.contentPaddingLeft = global::NutritionApp.Droid.Resource.Attribute.contentPaddingLeft;
-			global::Xamarin.Forms.PancakeView.Resource.Attribute.contentPaddingRight = global::NutritionApp.Droid.Resource.Attribute.contentPaddingRight;
-			global::Xamarin.Forms.PancakeView.Resource.Attribute.contentPaddingTop = global::NutritionApp.Droid.Resource.Attribute.contentPaddingTop;
-			global::Xamarin.Forms.PancakeView.Resource.Attribute.contentScrim = global::NutritionApp.Droid.Resource.Attribute.contentScrim;
-			global::Xamarin.Forms.PancakeView.Resource.Attribute.controlBackground = global::NutritionApp.Droid.Resource.Attribute.controlBackground;
-			global::Xamarin.Forms.PancakeView.Resource.Attribute.coordinatorLayoutStyle = global::NutritionApp.Droid.Resource.Attribute.coordinatorLayoutStyle;
-			global::Xamarin.Forms.PancakeView.Resource.Attribute.cornerRadius = global::NutritionApp.Droid.Resource.Attribute.cornerRadius;
-			global::Xamarin.Forms.PancakeView.Resource.Attribute.counterEnabled = global::NutritionApp.Droid.Resource.Attribute.counterEnabled;
-			global::Xamarin.Forms.PancakeView.Resource.Attribute.counterMaxLength = global::NutritionApp.Droid.Resource.Attribute.counterMaxLength;
-			global::Xamarin.Forms.PancakeView.Resource.Attribute.counterOverflowTextAppearance = global::NutritionApp.Droid.Resource.Attribute.counterOverflowTextAppearance;
-			global::Xamarin.Forms.PancakeView.Resource.Attribute.counterTextAppearance = global::NutritionApp.Droid.Resource.Attribute.counterTextAppearance;
-			global::Xamarin.Forms.PancakeView.Resource.Attribute.customNavigationLayout = global::NutritionApp.Droid.Resource.Attribute.customNavigationLayout;
-			global::Xamarin.Forms.PancakeView.Resource.Attribute.defaultQueryHint = global::NutritionApp.Droid.Resource.Attribute.defaultQueryHint;
-			global::Xamarin.Forms.PancakeView.Resource.Attribute.dialogCornerRadius = global::NutritionApp.Droid.Resource.Attribute.dialogCornerRadius;
-			global::Xamarin.Forms.PancakeView.Resource.Attribute.dialogPreferredPadding = global::NutritionApp.Droid.Resource.Attribute.dialogPreferredPadding;
-			global::Xamarin.Forms.PancakeView.Resource.Attribute.dialogTheme = global::NutritionApp.Droid.Resource.Attribute.dialogTheme;
-			global::Xamarin.Forms.PancakeView.Resource.Attribute.displayOptions = global::NutritionApp.Droid.Resource.Attribute.displayOptions;
-			global::Xamarin.Forms.PancakeView.Resource.Attribute.divider = global::NutritionApp.Droid.Resource.Attribute.divider;
-			global::Xamarin.Forms.PancakeView.Resource.Attribute.dividerHorizontal = global::NutritionApp.Droid.Resource.Attribute.dividerHorizontal;
-			global::Xamarin.Forms.PancakeView.Resource.Attribute.dividerPadding = global::NutritionApp.Droid.Resource.Attribute.dividerPadding;
-			global::Xamarin.Forms.PancakeView.Resource.Attribute.dividerVertical = global::NutritionApp.Droid.Resource.Attribute.dividerVertical;
-			global::Xamarin.Forms.PancakeView.Resource.Attribute.drawableBottomCompat = global::NutritionApp.Droid.Resource.Attribute.drawableBottomCompat;
-			global::Xamarin.Forms.PancakeView.Resource.Attribute.drawableEndCompat = global::NutritionApp.Droid.Resource.Attribute.drawableEndCompat;
-			global::Xamarin.Forms.PancakeView.Resource.Attribute.drawableLeftCompat = global::NutritionApp.Droid.Resource.Attribute.drawableLeftCompat;
-			global::Xamarin.Forms.PancakeView.Resource.Attribute.drawableRightCompat = global::NutritionApp.Droid.Resource.Attribute.drawableRightCompat;
-			global::Xamarin.Forms.PancakeView.Resource.Attribute.drawableSize = global::NutritionApp.Droid.Resource.Attribute.drawableSize;
-			global::Xamarin.Forms.PancakeView.Resource.Attribute.drawableStartCompat = global::NutritionApp.Droid.Resource.Attribute.drawableStartCompat;
-			global::Xamarin.Forms.PancakeView.Resource.Attribute.drawableTint = global::NutritionApp.Droid.Resource.Attribute.drawableTint;
-			global::Xamarin.Forms.PancakeView.Resource.Attribute.drawableTintMode = global::NutritionApp.Droid.Resource.Attribute.drawableTintMode;
-			global::Xamarin.Forms.PancakeView.Resource.Attribute.drawableTopCompat = global::NutritionApp.Droid.Resource.Attribute.drawableTopCompat;
-			global::Xamarin.Forms.PancakeView.Resource.Attribute.drawerArrowStyle = global::NutritionApp.Droid.Resource.Attribute.drawerArrowStyle;
-			global::Xamarin.Forms.PancakeView.Resource.Attribute.dropdownListPreferredItemHeight = global::NutritionApp.Droid.Resource.Attribute.dropdownListPreferredItemHeight;
-			global::Xamarin.Forms.PancakeView.Resource.Attribute.dropDownListViewStyle = global::NutritionApp.Droid.Resource.Attribute.dropDownListViewStyle;
-			global::Xamarin.Forms.PancakeView.Resource.Attribute.editTextBackground = global::NutritionApp.Droid.Resource.Attribute.editTextBackground;
-			global::Xamarin.Forms.PancakeView.Resource.Attribute.editTextColor = global::NutritionApp.Droid.Resource.Attribute.editTextColor;
-			global::Xamarin.Forms.PancakeView.Resource.Attribute.editTextStyle = global::NutritionApp.Droid.Resource.Attribute.editTextStyle;
-			global::Xamarin.Forms.PancakeView.Resource.Attribute.elevation = global::NutritionApp.Droid.Resource.Attribute.elevation;
-			global::Xamarin.Forms.PancakeView.Resource.Attribute.enforceMaterialTheme = global::NutritionApp.Droid.Resource.Attribute.enforceMaterialTheme;
-			global::Xamarin.Forms.PancakeView.Resource.Attribute.enforceTextAppearance = global::NutritionApp.Droid.Resource.Attribute.enforceTextAppearance;
-			global::Xamarin.Forms.PancakeView.Resource.Attribute.errorEnabled = global::NutritionApp.Droid.Resource.Attribute.errorEnabled;
-			global::Xamarin.Forms.PancakeView.Resource.Attribute.errorTextAppearance = global::NutritionApp.Droid.Resource.Attribute.errorTextAppearance;
-			global::Xamarin.Forms.PancakeView.Resource.Attribute.expandActivityOverflowButtonDrawable = global::NutritionApp.Droid.Resource.Attribute.expandActivityOverflowButtonDrawable;
-			global::Xamarin.Forms.PancakeView.Resource.Attribute.expanded = global::NutritionApp.Droid.Resource.Attribute.expanded;
-			global::Xamarin.Forms.PancakeView.Resource.Attribute.expandedTitleGravity = global::NutritionApp.Droid.Resource.Attribute.expandedTitleGravity;
-			global::Xamarin.Forms.PancakeView.Resource.Attribute.expandedTitleMargin = global::NutritionApp.Droid.Resource.Attribute.expandedTitleMargin;
-			global::Xamarin.Forms.PancakeView.Resource.Attribute.expandedTitleMarginBottom = global::NutritionApp.Droid.Resource.Attribute.expandedTitleMarginBottom;
-			global::Xamarin.Forms.PancakeView.Resource.Attribute.expandedTitleMarginEnd = global::NutritionApp.Droid.Resource.Attribute.expandedTitleMarginEnd;
-			global::Xamarin.Forms.PancakeView.Resource.Attribute.expandedTitleMarginStart = global::NutritionApp.Droid.Resource.Attribute.expandedTitleMarginStart;
-			global::Xamarin.Forms.PancakeView.Resource.Attribute.expandedTitleMarginTop = global::NutritionApp.Droid.Resource.Attribute.expandedTitleMarginTop;
-			global::Xamarin.Forms.PancakeView.Resource.Attribute.expandedTitleTextAppearance = global::NutritionApp.Droid.Resource.Attribute.expandedTitleTextAppearance;
-			global::Xamarin.Forms.PancakeView.Resource.Attribute.fabAlignmentMode = global::NutritionApp.Droid.Resource.Attribute.fabAlignmentMode;
-			global::Xamarin.Forms.PancakeView.Resource.Attribute.fabCradleMargin = global::NutritionApp.Droid.Resource.Attribute.fabCradleMargin;
-			global::Xamarin.Forms.PancakeView.Resource.Attribute.fabCradleRoundedCornerRadius = global::NutritionApp.Droid.Resource.Attribute.fabCradleRoundedCornerRadius;
-			global::Xamarin.Forms.PancakeView.Resource.Attribute.fabCradleVerticalOffset = global::NutritionApp.Droid.Resource.Attribute.fabCradleVerticalOffset;
-			global::Xamarin.Forms.PancakeView.Resource.Attribute.fabCustomSize = global::NutritionApp.Droid.Resource.Attribute.fabCustomSize;
-			global::Xamarin.Forms.PancakeView.Resource.Attribute.fabSize = global::NutritionApp.Droid.Resource.Attribute.fabSize;
-			global::Xamarin.Forms.PancakeView.Resource.Attribute.fastScrollEnabled = global::NutritionApp.Droid.Resource.Attribute.fastScrollEnabled;
-			global::Xamarin.Forms.PancakeView.Resource.Attribute.fastScrollHorizontalThumbDrawable = global::NutritionApp.Droid.Resource.Attribute.fastScrollHorizontalThumbDrawable;
-			global::Xamarin.Forms.PancakeView.Resource.Attribute.fastScrollHorizontalTrackDrawable = global::NutritionApp.Droid.Resource.Attribute.fastScrollHorizontalTrackDrawable;
-			global::Xamarin.Forms.PancakeView.Resource.Attribute.fastScrollVerticalThumbDrawable = global::NutritionApp.Droid.Resource.Attribute.fastScrollVerticalThumbDrawable;
-			global::Xamarin.Forms.PancakeView.Resource.Attribute.fastScrollVerticalTrackDrawable = global::NutritionApp.Droid.Resource.Attribute.fastScrollVerticalTrackDrawable;
-			global::Xamarin.Forms.PancakeView.Resource.Attribute.firstBaselineToTopHeight = global::NutritionApp.Droid.Resource.Attribute.firstBaselineToTopHeight;
-			global::Xamarin.Forms.PancakeView.Resource.Attribute.floatingActionButtonStyle = global::NutritionApp.Droid.Resource.Attribute.floatingActionButtonStyle;
-			global::Xamarin.Forms.PancakeView.Resource.Attribute.font = global::NutritionApp.Droid.Resource.Attribute.font;
-			global::Xamarin.Forms.PancakeView.Resource.Attribute.fontFamily = global::NutritionApp.Droid.Resource.Attribute.fontFamily;
-			global::Xamarin.Forms.PancakeView.Resource.Attribute.fontProviderAuthority = global::NutritionApp.Droid.Resource.Attribute.fontProviderAuthority;
-			global::Xamarin.Forms.PancakeView.Resource.Attribute.fontProviderCerts = global::NutritionApp.Droid.Resource.Attribute.fontProviderCerts;
-			global::Xamarin.Forms.PancakeView.Resource.Attribute.fontProviderFetchStrategy = global::NutritionApp.Droid.Resource.Attribute.fontProviderFetchStrategy;
-			global::Xamarin.Forms.PancakeView.Resource.Attribute.fontProviderFetchTimeout = global::NutritionApp.Droid.Resource.Attribute.fontProviderFetchTimeout;
-			global::Xamarin.Forms.PancakeView.Resource.Attribute.fontProviderPackage = global::NutritionApp.Droid.Resource.Attribute.fontProviderPackage;
-			global::Xamarin.Forms.PancakeView.Resource.Attribute.fontProviderQuery = global::NutritionApp.Droid.Resource.Attribute.fontProviderQuery;
-			global::Xamarin.Forms.PancakeView.Resource.Attribute.fontStyle = global::NutritionApp.Droid.Resource.Attribute.fontStyle;
-			global::Xamarin.Forms.PancakeView.Resource.Attribute.fontVariationSettings = global::NutritionApp.Droid.Resource.Attribute.fontVariationSettings;
-			global::Xamarin.Forms.PancakeView.Resource.Attribute.fontWeight = global::NutritionApp.Droid.Resource.Attribute.fontWeight;
-			global::Xamarin.Forms.PancakeView.Resource.Attribute.foregroundInsidePadding = global::NutritionApp.Droid.Resource.Attribute.foregroundInsidePadding;
-			global::Xamarin.Forms.PancakeView.Resource.Attribute.gapBetweenBars = global::NutritionApp.Droid.Resource.Attribute.gapBetweenBars;
-			global::Xamarin.Forms.PancakeView.Resource.Attribute.goIcon = global::NutritionApp.Droid.Resource.Attribute.goIcon;
-			global::Xamarin.Forms.PancakeView.Resource.Attribute.headerLayout = global::NutritionApp.Droid.Resource.Attribute.headerLayout;
-			global::Xamarin.Forms.PancakeView.Resource.Attribute.height = global::NutritionApp.Droid.Resource.Attribute.height;
-			global::Xamarin.Forms.PancakeView.Resource.Attribute.helperText = global::NutritionApp.Droid.Resource.Attribute.helperText;
-			global::Xamarin.Forms.PancakeView.Resource.Attribute.helperTextEnabled = global::NutritionApp.Droid.Resource.Attribute.helperTextEnabled;
-			global::Xamarin.Forms.PancakeView.Resource.Attribute.helperTextTextAppearance = global::NutritionApp.Droid.Resource.Attribute.helperTextTextAppearance;
-			global::Xamarin.Forms.PancakeView.Resource.Attribute.hideMotionSpec = global::NutritionApp.Droid.Resource.Attribute.hideMotionSpec;
-			global::Xamarin.Forms.PancakeView.Resource.Attribute.hideOnContentScroll = global::NutritionApp.Droid.Resource.Attribute.hideOnContentScroll;
-			global::Xamarin.Forms.PancakeView.Resource.Attribute.hideOnScroll = global::NutritionApp.Droid.Resource.Attribute.hideOnScroll;
-			global::Xamarin.Forms.PancakeView.Resource.Attribute.hintAnimationEnabled = global::NutritionApp.Droid.Resource.Attribute.hintAnimationEnabled;
-			global::Xamarin.Forms.PancakeView.Resource.Attribute.hintEnabled = global::NutritionApp.Droid.Resource.Attribute.hintEnabled;
-			global::Xamarin.Forms.PancakeView.Resource.Attribute.hintTextAppearance = global::NutritionApp.Droid.Resource.Attribute.hintTextAppearance;
-			global::Xamarin.Forms.PancakeView.Resource.Attribute.homeAsUpIndicator = global::NutritionApp.Droid.Resource.Attribute.homeAsUpIndicator;
-			global::Xamarin.Forms.PancakeView.Resource.Attribute.homeLayout = global::NutritionApp.Droid.Resource.Attribute.homeLayout;
-			global::Xamarin.Forms.PancakeView.Resource.Attribute.hoveredFocusedTranslationZ = global::NutritionApp.Droid.Resource.Attribute.hoveredFocusedTranslationZ;
-			global::Xamarin.Forms.PancakeView.Resource.Attribute.icon = global::NutritionApp.Droid.Resource.Attribute.icon;
-			global::Xamarin.Forms.PancakeView.Resource.Attribute.iconEndPadding = global::NutritionApp.Droid.Resource.Attribute.iconEndPadding;
-			global::Xamarin.Forms.PancakeView.Resource.Attribute.iconGravity = global::NutritionApp.Droid.Resource.Attribute.iconGravity;
-			global::Xamarin.Forms.PancakeView.Resource.Attribute.iconifiedByDefault = global::NutritionApp.Droid.Resource.Attribute.iconifiedByDefault;
-			global::Xamarin.Forms.PancakeView.Resource.Attribute.iconPadding = global::NutritionApp.Droid.Resource.Attribute.iconPadding;
-			global::Xamarin.Forms.PancakeView.Resource.Attribute.iconSize = global::NutritionApp.Droid.Resource.Attribute.iconSize;
-			global::Xamarin.Forms.PancakeView.Resource.Attribute.iconStartPadding = global::NutritionApp.Droid.Resource.Attribute.iconStartPadding;
-			global::Xamarin.Forms.PancakeView.Resource.Attribute.iconTint = global::NutritionApp.Droid.Resource.Attribute.iconTint;
-			global::Xamarin.Forms.PancakeView.Resource.Attribute.iconTintMode = global::NutritionApp.Droid.Resource.Attribute.iconTintMode;
-			global::Xamarin.Forms.PancakeView.Resource.Attribute.imageButtonStyle = global::NutritionApp.Droid.Resource.Attribute.imageButtonStyle;
-			global::Xamarin.Forms.PancakeView.Resource.Attribute.indeterminateProgressStyle = global::NutritionApp.Droid.Resource.Attribute.indeterminateProgressStyle;
-			global::Xamarin.Forms.PancakeView.Resource.Attribute.initialActivityCount = global::NutritionApp.Droid.Resource.Attribute.initialActivityCount;
-			global::Xamarin.Forms.PancakeView.Resource.Attribute.insetForeground = global::NutritionApp.Droid.Resource.Attribute.insetForeground;
-			global::Xamarin.Forms.PancakeView.Resource.Attribute.isLightTheme = global::NutritionApp.Droid.Resource.Attribute.isLightTheme;
-			global::Xamarin.Forms.PancakeView.Resource.Attribute.itemBackground = global::NutritionApp.Droid.Resource.Attribute.itemBackground;
-			global::Xamarin.Forms.PancakeView.Resource.Attribute.itemHorizontalPadding = global::NutritionApp.Droid.Resource.Attribute.itemHorizontalPadding;
-			global::Xamarin.Forms.PancakeView.Resource.Attribute.itemHorizontalTranslationEnabled = global::NutritionApp.Droid.Resource.Attribute.itemHorizontalTranslationEnabled;
-			global::Xamarin.Forms.PancakeView.Resource.Attribute.itemIconPadding = global::NutritionApp.Droid.Resource.Attribute.itemIconPadding;
-			global::Xamarin.Forms.PancakeView.Resource.Attribute.itemIconSize = global::NutritionApp.Droid.Resource.Attribute.itemIconSize;
-			global::Xamarin.Forms.PancakeView.Resource.Attribute.itemIconTint = global::NutritionApp.Droid.Resource.Attribute.itemIconTint;
-			global::Xamarin.Forms.PancakeView.Resource.Attribute.itemPadding = global::NutritionApp.Droid.Resource.Attribute.itemPadding;
-			global::Xamarin.Forms.PancakeView.Resource.Attribute.itemSpacing = global::NutritionApp.Droid.Resource.Attribute.itemSpacing;
-			global::Xamarin.Forms.PancakeView.Resource.Attribute.itemTextAppearance = global::NutritionApp.Droid.Resource.Attribute.itemTextAppearance;
-			global::Xamarin.Forms.PancakeView.Resource.Attribute.itemTextAppearanceActive = global::NutritionApp.Droid.Resource.Attribute.itemTextAppearanceActive;
-			global::Xamarin.Forms.PancakeView.Resource.Attribute.itemTextAppearanceInactive = global::NutritionApp.Droid.Resource.Attribute.itemTextAppearanceInactive;
-			global::Xamarin.Forms.PancakeView.Resource.Attribute.itemTextColor = global::NutritionApp.Droid.Resource.Attribute.itemTextColor;
-			global::Xamarin.Forms.PancakeView.Resource.Attribute.keylines = global::NutritionApp.Droid.Resource.Attribute.keylines;
-			global::Xamarin.Forms.PancakeView.Resource.Attribute.labelVisibilityMode = global::NutritionApp.Droid.Resource.Attribute.labelVisibilityMode;
-			global::Xamarin.Forms.PancakeView.Resource.Attribute.lastBaselineToBottomHeight = global::NutritionApp.Droid.Resource.Attribute.lastBaselineToBottomHeight;
-			global::Xamarin.Forms.PancakeView.Resource.Attribute.layout = global::NutritionApp.Droid.Resource.Attribute.layout;
-			global::Xamarin.Forms.PancakeView.Resource.Attribute.layoutManager = global::NutritionApp.Droid.Resource.Attribute.layoutManager;
-			global::Xamarin.Forms.PancakeView.Resource.Attribute.layout_anchor = global::NutritionApp.Droid.Resource.Attribute.layout_anchor;
-			global::Xamarin.Forms.PancakeView.Resource.Attribute.layout_anchorGravity = global::NutritionApp.Droid.Resource.Attribute.layout_anchorGravity;
-			global::Xamarin.Forms.PancakeView.Resource.Attribute.layout_behavior = global::NutritionApp.Droid.Resource.Attribute.layout_behavior;
-			global::Xamarin.Forms.PancakeView.Resource.Attribute.layout_collapseMode = global::NutritionApp.Droid.Resource.Attribute.layout_collapseMode;
-			global::Xamarin.Forms.PancakeView.Resource.Attribute.layout_collapseParallaxMultiplier = global::NutritionApp.Droid.Resource.Attribute.layout_collapseParallaxMultiplier;
-			global::Xamarin.Forms.PancakeView.Resource.Attribute.layout_dodgeInsetEdges = global::NutritionApp.Droid.Resource.Attribute.layout_dodgeInsetEdges;
-			global::Xamarin.Forms.PancakeView.Resource.Attribute.layout_insetEdge = global::NutritionApp.Droid.Resource.Attribute.layout_insetEdge;
-			global::Xamarin.Forms.PancakeView.Resource.Attribute.layout_keyline = global::NutritionApp.Droid.Resource.Attribute.layout_keyline;
-			global::Xamarin.Forms.PancakeView.Resource.Attribute.layout_scrollFlags = global::NutritionApp.Droid.Resource.Attribute.layout_scrollFlags;
-			global::Xamarin.Forms.PancakeView.Resource.Attribute.layout_scrollInterpolator = global::NutritionApp.Droid.Resource.Attribute.layout_scrollInterpolator;
-			global::Xamarin.Forms.PancakeView.Resource.Attribute.liftOnScroll = global::NutritionApp.Droid.Resource.Attribute.liftOnScroll;
-			global::Xamarin.Forms.PancakeView.Resource.Attribute.lineHeight = global::NutritionApp.Droid.Resource.Attribute.lineHeight;
-			global::Xamarin.Forms.PancakeView.Resource.Attribute.lineSpacing = global::NutritionApp.Droid.Resource.Attribute.lineSpacing;
-			global::Xamarin.Forms.PancakeView.Resource.Attribute.listChoiceBackgroundIndicator = global::NutritionApp.Droid.Resource.Attribute.listChoiceBackgroundIndicator;
-			global::Xamarin.Forms.PancakeView.Resource.Attribute.listChoiceIndicatorMultipleAnimated = global::NutritionApp.Droid.Resource.Attribute.listChoiceIndicatorMultipleAnimated;
-			global::Xamarin.Forms.PancakeView.Resource.Attribute.listChoiceIndicatorSingleAnimated = global::NutritionApp.Droid.Resource.Attribute.listChoiceIndicatorSingleAnimated;
-			global::Xamarin.Forms.PancakeView.Resource.Attribute.listDividerAlertDialog = global::NutritionApp.Droid.Resource.Attribute.listDividerAlertDialog;
-			global::Xamarin.Forms.PancakeView.Resource.Attribute.listItemLayout = global::NutritionApp.Droid.Resource.Attribute.listItemLayout;
-			global::Xamarin.Forms.PancakeView.Resource.Attribute.listLayout = global::NutritionApp.Droid.Resource.Attribute.listLayout;
-			global::Xamarin.Forms.PancakeView.Resource.Attribute.listMenuViewStyle = global::NutritionApp.Droid.Resource.Attribute.listMenuViewStyle;
-			global::Xamarin.Forms.PancakeView.Resource.Attribute.listPopupWindowStyle = global::NutritionApp.Droid.Resource.Attribute.listPopupWindowStyle;
-			global::Xamarin.Forms.PancakeView.Resource.Attribute.listPreferredItemHeight = global::NutritionApp.Droid.Resource.Attribute.listPreferredItemHeight;
-			global::Xamarin.Forms.PancakeView.Resource.Attribute.listPreferredItemHeightLarge = global::NutritionApp.Droid.Resource.Attribute.listPreferredItemHeightLarge;
-			global::Xamarin.Forms.PancakeView.Resource.Attribute.listPreferredItemHeightSmall = global::NutritionApp.Droid.Resource.Attribute.listPreferredItemHeightSmall;
-			global::Xamarin.Forms.PancakeView.Resource.Attribute.listPreferredItemPaddingEnd = global::NutritionApp.Droid.Resource.Attribute.listPreferredItemPaddingEnd;
-			global::Xamarin.Forms.PancakeView.Resource.Attribute.listPreferredItemPaddingLeft = global::NutritionApp.Droid.Resource.Attribute.listPreferredItemPaddingLeft;
-			global::Xamarin.Forms.PancakeView.Resource.Attribute.listPreferredItemPaddingRight = global::NutritionApp.Droid.Resource.Attribute.listPreferredItemPaddingRight;
-			global::Xamarin.Forms.PancakeView.Resource.Attribute.listPreferredItemPaddingStart = global::NutritionApp.Droid.Resource.Attribute.listPreferredItemPaddingStart;
-			global::Xamarin.Forms.PancakeView.Resource.Attribute.logo = global::NutritionApp.Droid.Resource.Attribute.logo;
-			global::Xamarin.Forms.PancakeView.Resource.Attribute.logoDescription = global::NutritionApp.Droid.Resource.Attribute.logoDescription;
-			global::Xamarin.Forms.PancakeView.Resource.Attribute.materialButtonStyle = global::NutritionApp.Droid.Resource.Attribute.materialButtonStyle;
-			global::Xamarin.Forms.PancakeView.Resource.Attribute.materialCardViewStyle = global::NutritionApp.Droid.Resource.Attribute.materialCardViewStyle;
-			global::Xamarin.Forms.PancakeView.Resource.Attribute.maxActionInlineWidth = global::NutritionApp.Droid.Resource.Attribute.maxActionInlineWidth;
-			global::Xamarin.Forms.PancakeView.Resource.Attribute.maxButtonHeight = global::NutritionApp.Droid.Resource.Attribute.maxButtonHeight;
-			global::Xamarin.Forms.PancakeView.Resource.Attribute.maxImageSize = global::NutritionApp.Droid.Resource.Attribute.maxImageSize;
-			global::Xamarin.Forms.PancakeView.Resource.Attribute.measureWithLargestChild = global::NutritionApp.Droid.Resource.Attribute.measureWithLargestChild;
-			global::Xamarin.Forms.PancakeView.Resource.Attribute.menu = global::NutritionApp.Droid.Resource.Attribute.menu;
-			global::Xamarin.Forms.PancakeView.Resource.Attribute.multiChoiceItemLayout = global::NutritionApp.Droid.Resource.Attribute.multiChoiceItemLayout;
-			global::Xamarin.Forms.PancakeView.Resource.Attribute.navigationContentDescription = global::NutritionApp.Droid.Resource.Attribute.navigationContentDescription;
-			global::Xamarin.Forms.PancakeView.Resource.Attribute.navigationIcon = global::NutritionApp.Droid.Resource.Attribute.navigationIcon;
-			global::Xamarin.Forms.PancakeView.Resource.Attribute.navigationMode = global::NutritionApp.Droid.Resource.Attribute.navigationMode;
-			global::Xamarin.Forms.PancakeView.Resource.Attribute.navigationViewStyle = global::NutritionApp.Droid.Resource.Attribute.navigationViewStyle;
-			global::Xamarin.Forms.PancakeView.Resource.Attribute.numericModifiers = global::NutritionApp.Droid.Resource.Attribute.numericModifiers;
-			global::Xamarin.Forms.PancakeView.Resource.Attribute.overlapAnchor = global::NutritionApp.Droid.Resource.Attribute.overlapAnchor;
-			global::Xamarin.Forms.PancakeView.Resource.Attribute.paddingBottomNoButtons = global::NutritionApp.Droid.Resource.Attribute.paddingBottomNoButtons;
-			global::Xamarin.Forms.PancakeView.Resource.Attribute.paddingEnd = global::NutritionApp.Droid.Resource.Attribute.paddingEnd;
-			global::Xamarin.Forms.PancakeView.Resource.Attribute.paddingStart = global::NutritionApp.Droid.Resource.Attribute.paddingStart;
-			global::Xamarin.Forms.PancakeView.Resource.Attribute.paddingTopNoTitle = global::NutritionApp.Droid.Resource.Attribute.paddingTopNoTitle;
-			global::Xamarin.Forms.PancakeView.Resource.Attribute.panelBackground = global::NutritionApp.Droid.Resource.Attribute.panelBackground;
-			global::Xamarin.Forms.PancakeView.Resource.Attribute.panelMenuListTheme = global::NutritionApp.Droid.Resource.Attribute.panelMenuListTheme;
-			global::Xamarin.Forms.PancakeView.Resource.Attribute.panelMenuListWidth = global::NutritionApp.Droid.Resource.Attribute.panelMenuListWidth;
-			global::Xamarin.Forms.PancakeView.Resource.Attribute.passwordToggleContentDescription = global::NutritionApp.Droid.Resource.Attribute.passwordToggleContentDescription;
-			global::Xamarin.Forms.PancakeView.Resource.Attribute.passwordToggleDrawable = global::NutritionApp.Droid.Resource.Attribute.passwordToggleDrawable;
-			global::Xamarin.Forms.PancakeView.Resource.Attribute.passwordToggleEnabled = global::NutritionApp.Droid.Resource.Attribute.passwordToggleEnabled;
-			global::Xamarin.Forms.PancakeView.Resource.Attribute.passwordToggleTint = global::NutritionApp.Droid.Resource.Attribute.passwordToggleTint;
-			global::Xamarin.Forms.PancakeView.Resource.Attribute.passwordToggleTintMode = global::NutritionApp.Droid.Resource.Attribute.passwordToggleTintMode;
-			global::Xamarin.Forms.PancakeView.Resource.Attribute.popupMenuStyle = global::NutritionApp.Droid.Resource.Attribute.popupMenuStyle;
-			global::Xamarin.Forms.PancakeView.Resource.Attribute.popupTheme = global::NutritionApp.Droid.Resource.Attribute.popupTheme;
-			global::Xamarin.Forms.PancakeView.Resource.Attribute.popupWindowStyle = global::NutritionApp.Droid.Resource.Attribute.popupWindowStyle;
-			global::Xamarin.Forms.PancakeView.Resource.Attribute.preserveIconSpacing = global::NutritionApp.Droid.Resource.Attribute.preserveIconSpacing;
-			global::Xamarin.Forms.PancakeView.Resource.Attribute.pressedTranslationZ = global::NutritionApp.Droid.Resource.Attribute.pressedTranslationZ;
-			global::Xamarin.Forms.PancakeView.Resource.Attribute.progressBarPadding = global::NutritionApp.Droid.Resource.Attribute.progressBarPadding;
-			global::Xamarin.Forms.PancakeView.Resource.Attribute.progressBarStyle = global::NutritionApp.Droid.Resource.Attribute.progressBarStyle;
-			global::Xamarin.Forms.PancakeView.Resource.Attribute.queryBackground = global::NutritionApp.Droid.Resource.Attribute.queryBackground;
-			global::Xamarin.Forms.PancakeView.Resource.Attribute.queryHint = global::NutritionApp.Droid.Resource.Attribute.queryHint;
-			global::Xamarin.Forms.PancakeView.Resource.Attribute.radioButtonStyle = global::NutritionApp.Droid.Resource.Attribute.radioButtonStyle;
-			global::Xamarin.Forms.PancakeView.Resource.Attribute.ratingBarStyle = global::NutritionApp.Droid.Resource.Attribute.ratingBarStyle;
-			global::Xamarin.Forms.PancakeView.Resource.Attribute.ratingBarStyleIndicator = global::NutritionApp.Droid.Resource.Attribute.ratingBarStyleIndicator;
-			global::Xamarin.Forms.PancakeView.Resource.Attribute.ratingBarStyleSmall = global::NutritionApp.Droid.Resource.Attribute.ratingBarStyleSmall;
-			global::Xamarin.Forms.PancakeView.Resource.Attribute.recyclerViewStyle = global::NutritionApp.Droid.Resource.Attribute.recyclerViewStyle;
-			global::Xamarin.Forms.PancakeView.Resource.Attribute.reverseLayout = global::NutritionApp.Droid.Resource.Attribute.reverseLayout;
-			global::Xamarin.Forms.PancakeView.Resource.Attribute.rippleColor = global::NutritionApp.Droid.Resource.Attribute.rippleColor;
-			global::Xamarin.Forms.PancakeView.Resource.Attribute.scrimAnimationDuration = global::NutritionApp.Droid.Resource.Attribute.scrimAnimationDuration;
-			global::Xamarin.Forms.PancakeView.Resource.Attribute.scrimBackground = global::NutritionApp.Droid.Resource.Attribute.scrimBackground;
-			global::Xamarin.Forms.PancakeView.Resource.Attribute.scrimVisibleHeightTrigger = global::NutritionApp.Droid.Resource.Attribute.scrimVisibleHeightTrigger;
-			global::Xamarin.Forms.PancakeView.Resource.Attribute.scrollViewStyle = global::NutritionApp.Droid.Resource.Attribute.scrollViewStyle;
-			global::Xamarin.Forms.PancakeView.Resource.Attribute.searchHintIcon = global::NutritionApp.Droid.Resource.Attribute.searchHintIcon;
-			global::Xamarin.Forms.PancakeView.Resource.Attribute.searchIcon = global::NutritionApp.Droid.Resource.Attribute.searchIcon;
-			global::Xamarin.Forms.PancakeView.Resource.Attribute.searchViewStyle = global::NutritionApp.Droid.Resource.Attribute.searchViewStyle;
-			global::Xamarin.Forms.PancakeView.Resource.Attribute.seekBarStyle = global::NutritionApp.Droid.Resource.Attribute.seekBarStyle;
-			global::Xamarin.Forms.PancakeView.Resource.Attribute.selectableItemBackground = global::NutritionApp.Droid.Resource.Attribute.selectableItemBackground;
-			global::Xamarin.Forms.PancakeView.Resource.Attribute.selectableItemBackgroundBorderless = global::NutritionApp.Droid.Resource.Attribute.selectableItemBackgroundBorderless;
-			global::Xamarin.Forms.PancakeView.Resource.Attribute.showAsAction = global::NutritionApp.Droid.Resource.Attribute.showAsAction;
-			global::Xamarin.Forms.PancakeView.Resource.Attribute.showDividers = global::NutritionApp.Droid.Resource.Attribute.showDividers;
-			global::Xamarin.Forms.PancakeView.Resource.Attribute.showMotionSpec = global::NutritionApp.Droid.Resource.Attribute.showMotionSpec;
-			global::Xamarin.Forms.PancakeView.Resource.Attribute.showText = global::NutritionApp.Droid.Resource.Attribute.showText;
-			global::Xamarin.Forms.PancakeView.Resource.Attribute.showTitle = global::NutritionApp.Droid.Resource.Attribute.showTitle;
-			global::Xamarin.Forms.PancakeView.Resource.Attribute.singleChoiceItemLayout = global::NutritionApp.Droid.Resource.Attribute.singleChoiceItemLayout;
-			global::Xamarin.Forms.PancakeView.Resource.Attribute.singleLine = global::NutritionApp.Droid.Resource.Attribute.singleLine;
-			global::Xamarin.Forms.PancakeView.Resource.Attribute.singleSelection = global::NutritionApp.Droid.Resource.Attribute.singleSelection;
-			global::Xamarin.Forms.PancakeView.Resource.Attribute.snackbarButtonStyle = global::NutritionApp.Droid.Resource.Attribute.snackbarButtonStyle;
-			global::Xamarin.Forms.PancakeView.Resource.Attribute.snackbarStyle = global::NutritionApp.Droid.Resource.Attribute.snackbarStyle;
-			global::Xamarin.Forms.PancakeView.Resource.Attribute.spanCount = global::NutritionApp.Droid.Resource.Attribute.spanCount;
-			global::Xamarin.Forms.PancakeView.Resource.Attribute.spinBars = global::NutritionApp.Droid.Resource.Attribute.spinBars;
-			global::Xamarin.Forms.PancakeView.Resource.Attribute.spinnerDropDownItemStyle = global::NutritionApp.Droid.Resource.Attribute.spinnerDropDownItemStyle;
-			global::Xamarin.Forms.PancakeView.Resource.Attribute.spinnerStyle = global::NutritionApp.Droid.Resource.Attribute.spinnerStyle;
-			global::Xamarin.Forms.PancakeView.Resource.Attribute.splitTrack = global::NutritionApp.Droid.Resource.Attribute.splitTrack;
-			global::Xamarin.Forms.PancakeView.Resource.Attribute.srcCompat = global::NutritionApp.Droid.Resource.Attribute.srcCompat;
-			global::Xamarin.Forms.PancakeView.Resource.Attribute.stackFromEnd = global::NutritionApp.Droid.Resource.Attribute.stackFromEnd;
-			global::Xamarin.Forms.PancakeView.Resource.Attribute.state_above_anchor = global::NutritionApp.Droid.Resource.Attribute.state_above_anchor;
-			global::Xamarin.Forms.PancakeView.Resource.Attribute.state_collapsed = global::NutritionApp.Droid.Resource.Attribute.state_collapsed;
-			global::Xamarin.Forms.PancakeView.Resource.Attribute.state_collapsible = global::NutritionApp.Droid.Resource.Attribute.state_collapsible;
-			global::Xamarin.Forms.PancakeView.Resource.Attribute.state_liftable = global::NutritionApp.Droid.Resource.Attribute.state_liftable;
-			global::Xamarin.Forms.PancakeView.Resource.Attribute.state_lifted = global::NutritionApp.Droid.Resource.Attribute.state_lifted;
-			global::Xamarin.Forms.PancakeView.Resource.Attribute.statusBarBackground = global::NutritionApp.Droid.Resource.Attribute.statusBarBackground;
-			global::Xamarin.Forms.PancakeView.Resource.Attribute.statusBarScrim = global::NutritionApp.Droid.Resource.Attribute.statusBarScrim;
-			global::Xamarin.Forms.PancakeView.Resource.Attribute.strokeColor = global::NutritionApp.Droid.Resource.Attribute.strokeColor;
-			global::Xamarin.Forms.PancakeView.Resource.Attribute.strokeWidth = global::NutritionApp.Droid.Resource.Attribute.strokeWidth;
-			global::Xamarin.Forms.PancakeView.Resource.Attribute.subMenuArrow = global::NutritionApp.Droid.Resource.Attribute.subMenuArrow;
-			global::Xamarin.Forms.PancakeView.Resource.Attribute.submitBackground = global::NutritionApp.Droid.Resource.Attribute.submitBackground;
-			global::Xamarin.Forms.PancakeView.Resource.Attribute.subtitle = global::NutritionApp.Droid.Resource.Attribute.subtitle;
-			global::Xamarin.Forms.PancakeView.Resource.Attribute.subtitleTextAppearance = global::NutritionApp.Droid.Resource.Attribute.subtitleTextAppearance;
-			global::Xamarin.Forms.PancakeView.Resource.Attribute.subtitleTextColor = global::NutritionApp.Droid.Resource.Attribute.subtitleTextColor;
-			global::Xamarin.Forms.PancakeView.Resource.Attribute.subtitleTextStyle = global::NutritionApp.Droid.Resource.Attribute.subtitleTextStyle;
-			global::Xamarin.Forms.PancakeView.Resource.Attribute.suggestionRowLayout = global::NutritionApp.Droid.Resource.Attribute.suggestionRowLayout;
-			global::Xamarin.Forms.PancakeView.Resource.Attribute.switchMinWidth = global::NutritionApp.Droid.Resource.Attribute.switchMinWidth;
-			global::Xamarin.Forms.PancakeView.Resource.Attribute.switchPadding = global::NutritionApp.Droid.Resource.Attribute.switchPadding;
-			global::Xamarin.Forms.PancakeView.Resource.Attribute.switchStyle = global::NutritionApp.Droid.Resource.Attribute.switchStyle;
-			global::Xamarin.Forms.PancakeView.Resource.Attribute.switchTextAppearance = global::NutritionApp.Droid.Resource.Attribute.switchTextAppearance;
-			global::Xamarin.Forms.PancakeView.Resource.Attribute.tabBackground = global::NutritionApp.Droid.Resource.Attribute.tabBackground;
-			global::Xamarin.Forms.PancakeView.Resource.Attribute.tabContentStart = global::NutritionApp.Droid.Resource.Attribute.tabContentStart;
-			global::Xamarin.Forms.PancakeView.Resource.Attribute.tabGravity = global::NutritionApp.Droid.Resource.Attribute.tabGravity;
-			global::Xamarin.Forms.PancakeView.Resource.Attribute.tabIconTint = global::NutritionApp.Droid.Resource.Attribute.tabIconTint;
-			global::Xamarin.Forms.PancakeView.Resource.Attribute.tabIconTintMode = global::NutritionApp.Droid.Resource.Attribute.tabIconTintMode;
-			global::Xamarin.Forms.PancakeView.Resource.Attribute.tabIndicator = global::NutritionApp.Droid.Resource.Attribute.tabIndicator;
-			global::Xamarin.Forms.PancakeView.Resource.Attribute.tabIndicatorAnimationDuration = global::NutritionApp.Droid.Resource.Attribute.tabIndicatorAnimationDuration;
-			global::Xamarin.Forms.PancakeView.Resource.Attribute.tabIndicatorColor = global::NutritionApp.Droid.Resource.Attribute.tabIndicatorColor;
-			global::Xamarin.Forms.PancakeView.Resource.Attribute.tabIndicatorFullWidth = global::NutritionApp.Droid.Resource.Attribute.tabIndicatorFullWidth;
-			global::Xamarin.Forms.PancakeView.Resource.Attribute.tabIndicatorGravity = global::NutritionApp.Droid.Resource.Attribute.tabIndicatorGravity;
-			global::Xamarin.Forms.PancakeView.Resource.Attribute.tabIndicatorHeight = global::NutritionApp.Droid.Resource.Attribute.tabIndicatorHeight;
-			global::Xamarin.Forms.PancakeView.Resource.Attribute.tabInlineLabel = global::NutritionApp.Droid.Resource.Attribute.tabInlineLabel;
-			global::Xamarin.Forms.PancakeView.Resource.Attribute.tabMaxWidth = global::NutritionApp.Droid.Resource.Attribute.tabMaxWidth;
-			global::Xamarin.Forms.PancakeView.Resource.Attribute.tabMinWidth = global::NutritionApp.Droid.Resource.Attribute.tabMinWidth;
-			global::Xamarin.Forms.PancakeView.Resource.Attribute.tabMode = global::NutritionApp.Droid.Resource.Attribute.tabMode;
-			global::Xamarin.Forms.PancakeView.Resource.Attribute.tabPadding = global::NutritionApp.Droid.Resource.Attribute.tabPadding;
-			global::Xamarin.Forms.PancakeView.Resource.Attribute.tabPaddingBottom = global::NutritionApp.Droid.Resource.Attribute.tabPaddingBottom;
-			global::Xamarin.Forms.PancakeView.Resource.Attribute.tabPaddingEnd = global::NutritionApp.Droid.Resource.Attribute.tabPaddingEnd;
-			global::Xamarin.Forms.PancakeView.Resource.Attribute.tabPaddingStart = global::NutritionApp.Droid.Resource.Attribute.tabPaddingStart;
-			global::Xamarin.Forms.PancakeView.Resource.Attribute.tabPaddingTop = global::NutritionApp.Droid.Resource.Attribute.tabPaddingTop;
-			global::Xamarin.Forms.PancakeView.Resource.Attribute.tabRippleColor = global::NutritionApp.Droid.Resource.Attribute.tabRippleColor;
-			global::Xamarin.Forms.PancakeView.Resource.Attribute.tabSelectedTextColor = global::NutritionApp.Droid.Resource.Attribute.tabSelectedTextColor;
-			global::Xamarin.Forms.PancakeView.Resource.Attribute.tabStyle = global::NutritionApp.Droid.Resource.Attribute.tabStyle;
-			global::Xamarin.Forms.PancakeView.Resource.Attribute.tabTextAppearance = global::NutritionApp.Droid.Resource.Attribute.tabTextAppearance;
-			global::Xamarin.Forms.PancakeView.Resource.Attribute.tabTextColor = global::NutritionApp.Droid.Resource.Attribute.tabTextColor;
-			global::Xamarin.Forms.PancakeView.Resource.Attribute.tabUnboundedRipple = global::NutritionApp.Droid.Resource.Attribute.tabUnboundedRipple;
-			global::Xamarin.Forms.PancakeView.Resource.Attribute.textAllCaps = global::NutritionApp.Droid.Resource.Attribute.textAllCaps;
-			global::Xamarin.Forms.PancakeView.Resource.Attribute.textAppearanceBody1 = global::NutritionApp.Droid.Resource.Attribute.textAppearanceBody1;
-			global::Xamarin.Forms.PancakeView.Resource.Attribute.textAppearanceBody2 = global::NutritionApp.Droid.Resource.Attribute.textAppearanceBody2;
-			global::Xamarin.Forms.PancakeView.Resource.Attribute.textAppearanceButton = global::NutritionApp.Droid.Resource.Attribute.textAppearanceButton;
-			global::Xamarin.Forms.PancakeView.Resource.Attribute.textAppearanceCaption = global::NutritionApp.Droid.Resource.Attribute.textAppearanceCaption;
-			global::Xamarin.Forms.PancakeView.Resource.Attribute.textAppearanceHeadline1 = global::NutritionApp.Droid.Resource.Attribute.textAppearanceHeadline1;
-			global::Xamarin.Forms.PancakeView.Resource.Attribute.textAppearanceHeadline2 = global::NutritionApp.Droid.Resource.Attribute.textAppearanceHeadline2;
-			global::Xamarin.Forms.PancakeView.Resource.Attribute.textAppearanceHeadline3 = global::NutritionApp.Droid.Resource.Attribute.textAppearanceHeadline3;
-			global::Xamarin.Forms.PancakeView.Resource.Attribute.textAppearanceHeadline4 = global::NutritionApp.Droid.Resource.Attribute.textAppearanceHeadline4;
-			global::Xamarin.Forms.PancakeView.Resource.Attribute.textAppearanceHeadline5 = global::NutritionApp.Droid.Resource.Attribute.textAppearanceHeadline5;
-			global::Xamarin.Forms.PancakeView.Resource.Attribute.textAppearanceHeadline6 = global::NutritionApp.Droid.Resource.Attribute.textAppearanceHeadline6;
-			global::Xamarin.Forms.PancakeView.Resource.Attribute.textAppearanceLargePopupMenu = global::NutritionApp.Droid.Resource.Attribute.textAppearanceLargePopupMenu;
-			global::Xamarin.Forms.PancakeView.Resource.Attribute.textAppearanceListItem = global::NutritionApp.Droid.Resource.Attribute.textAppearanceListItem;
-			global::Xamarin.Forms.PancakeView.Resource.Attribute.textAppearanceListItemSecondary = global::NutritionApp.Droid.Resource.Attribute.textAppearanceListItemSecondary;
-			global::Xamarin.Forms.PancakeView.Resource.Attribute.textAppearanceListItemSmall = global::NutritionApp.Droid.Resource.Attribute.textAppearanceListItemSmall;
-			global::Xamarin.Forms.PancakeView.Resource.Attribute.textAppearanceOverline = global::NutritionApp.Droid.Resource.Attribute.textAppearanceOverline;
-			global::Xamarin.Forms.PancakeView.Resource.Attribute.textAppearancePopupMenuHeader = global::NutritionApp.Droid.Resource.Attribute.textAppearancePopupMenuHeader;
-			global::Xamarin.Forms.PancakeView.Resource.Attribute.textAppearanceSearchResultSubtitle = global::NutritionApp.Droid.Resource.Attribute.textAppearanceSearchResultSubtitle;
-			global::Xamarin.Forms.PancakeView.Resource.Attribute.textAppearanceSearchResultTitle = global::NutritionApp.Droid.Resource.Attribute.textAppearanceSearchResultTitle;
-			global::Xamarin.Forms.PancakeView.Resource.Attribute.textAppearanceSmallPopupMenu = global::NutritionApp.Droid.Resource.Attribute.textAppearanceSmallPopupMenu;
-			global::Xamarin.Forms.PancakeView.Resource.Attribute.textAppearanceSubtitle1 = global::NutritionApp.Droid.Resource.Attribute.textAppearanceSubtitle1;
-			global::Xamarin.Forms.PancakeView.Resource.Attribute.textAppearanceSubtitle2 = global::NutritionApp.Droid.Resource.Attribute.textAppearanceSubtitle2;
-			global::Xamarin.Forms.PancakeView.Resource.Attribute.textColorAlertDialogListItem = global::NutritionApp.Droid.Resource.Attribute.textColorAlertDialogListItem;
-			global::Xamarin.Forms.PancakeView.Resource.Attribute.textColorSearchUrl = global::NutritionApp.Droid.Resource.Attribute.textColorSearchUrl;
-			global::Xamarin.Forms.PancakeView.Resource.Attribute.textEndPadding = global::NutritionApp.Droid.Resource.Attribute.textEndPadding;
-			global::Xamarin.Forms.PancakeView.Resource.Attribute.textInputStyle = global::NutritionApp.Droid.Resource.Attribute.textInputStyle;
-			global::Xamarin.Forms.PancakeView.Resource.Attribute.textLocale = global::NutritionApp.Droid.Resource.Attribute.textLocale;
-			global::Xamarin.Forms.PancakeView.Resource.Attribute.textStartPadding = global::NutritionApp.Droid.Resource.Attribute.textStartPadding;
-			global::Xamarin.Forms.PancakeView.Resource.Attribute.theme = global::NutritionApp.Droid.Resource.Attribute.theme;
-			global::Xamarin.Forms.PancakeView.Resource.Attribute.thickness = global::NutritionApp.Droid.Resource.Attribute.thickness;
-			global::Xamarin.Forms.PancakeView.Resource.Attribute.thumbTextPadding = global::NutritionApp.Droid.Resource.Attribute.thumbTextPadding;
-			global::Xamarin.Forms.PancakeView.Resource.Attribute.thumbTint = global::NutritionApp.Droid.Resource.Attribute.thumbTint;
-			global::Xamarin.Forms.PancakeView.Resource.Attribute.thumbTintMode = global::NutritionApp.Droid.Resource.Attribute.thumbTintMode;
-			global::Xamarin.Forms.PancakeView.Resource.Attribute.tickMark = global::NutritionApp.Droid.Resource.Attribute.tickMark;
-			global::Xamarin.Forms.PancakeView.Resource.Attribute.tickMarkTint = global::NutritionApp.Droid.Resource.Attribute.tickMarkTint;
-			global::Xamarin.Forms.PancakeView.Resource.Attribute.tickMarkTintMode = global::NutritionApp.Droid.Resource.Attribute.tickMarkTintMode;
-			global::Xamarin.Forms.PancakeView.Resource.Attribute.tint = global::NutritionApp.Droid.Resource.Attribute.tint;
-			global::Xamarin.Forms.PancakeView.Resource.Attribute.tintMode = global::NutritionApp.Droid.Resource.Attribute.tintMode;
-			global::Xamarin.Forms.PancakeView.Resource.Attribute.title = global::NutritionApp.Droid.Resource.Attribute.title;
-			global::Xamarin.Forms.PancakeView.Resource.Attribute.titleEnabled = global::NutritionApp.Droid.Resource.Attribute.titleEnabled;
-			global::Xamarin.Forms.PancakeView.Resource.Attribute.titleMargin = global::NutritionApp.Droid.Resource.Attribute.titleMargin;
-			global::Xamarin.Forms.PancakeView.Resource.Attribute.titleMarginBottom = global::NutritionApp.Droid.Resource.Attribute.titleMarginBottom;
-			global::Xamarin.Forms.PancakeView.Resource.Attribute.titleMarginEnd = global::NutritionApp.Droid.Resource.Attribute.titleMarginEnd;
-			global::Xamarin.Forms.PancakeView.Resource.Attribute.titleMargins = global::NutritionApp.Droid.Resource.Attribute.titleMargins;
-			global::Xamarin.Forms.PancakeView.Resource.Attribute.titleMarginStart = global::NutritionApp.Droid.Resource.Attribute.titleMarginStart;
-			global::Xamarin.Forms.PancakeView.Resource.Attribute.titleMarginTop = global::NutritionApp.Droid.Resource.Attribute.titleMarginTop;
-			global::Xamarin.Forms.PancakeView.Resource.Attribute.titleTextAppearance = global::NutritionApp.Droid.Resource.Attribute.titleTextAppearance;
-			global::Xamarin.Forms.PancakeView.Resource.Attribute.titleTextColor = global::NutritionApp.Droid.Resource.Attribute.titleTextColor;
-			global::Xamarin.Forms.PancakeView.Resource.Attribute.titleTextStyle = global::NutritionApp.Droid.Resource.Attribute.titleTextStyle;
-			global::Xamarin.Forms.PancakeView.Resource.Attribute.toolbarId = global::NutritionApp.Droid.Resource.Attribute.toolbarId;
-			global::Xamarin.Forms.PancakeView.Resource.Attribute.toolbarNavigationButtonStyle = global::NutritionApp.Droid.Resource.Attribute.toolbarNavigationButtonStyle;
-			global::Xamarin.Forms.PancakeView.Resource.Attribute.toolbarStyle = global::NutritionApp.Droid.Resource.Attribute.toolbarStyle;
-			global::Xamarin.Forms.PancakeView.Resource.Attribute.tooltipForegroundColor = global::NutritionApp.Droid.Resource.Attribute.tooltipForegroundColor;
-			global::Xamarin.Forms.PancakeView.Resource.Attribute.tooltipFrameBackground = global::NutritionApp.Droid.Resource.Attribute.tooltipFrameBackground;
-			global::Xamarin.Forms.PancakeView.Resource.Attribute.tooltipText = global::NutritionApp.Droid.Resource.Attribute.tooltipText;
-			global::Xamarin.Forms.PancakeView.Resource.Attribute.track = global::NutritionApp.Droid.Resource.Attribute.track;
-			global::Xamarin.Forms.PancakeView.Resource.Attribute.trackTint = global::NutritionApp.Droid.Resource.Attribute.trackTint;
-			global::Xamarin.Forms.PancakeView.Resource.Attribute.trackTintMode = global::NutritionApp.Droid.Resource.Attribute.trackTintMode;
-			global::Xamarin.Forms.PancakeView.Resource.Attribute.ttcIndex = global::NutritionApp.Droid.Resource.Attribute.ttcIndex;
-			global::Xamarin.Forms.PancakeView.Resource.Attribute.useCompatPadding = global::NutritionApp.Droid.Resource.Attribute.useCompatPadding;
-			global::Xamarin.Forms.PancakeView.Resource.Attribute.viewInflaterClass = global::NutritionApp.Droid.Resource.Attribute.viewInflaterClass;
-			global::Xamarin.Forms.PancakeView.Resource.Attribute.voiceIcon = global::NutritionApp.Droid.Resource.Attribute.voiceIcon;
-			global::Xamarin.Forms.PancakeView.Resource.Attribute.windowActionBar = global::NutritionApp.Droid.Resource.Attribute.windowActionBar;
-			global::Xamarin.Forms.PancakeView.Resource.Attribute.windowActionBarOverlay = global::NutritionApp.Droid.Resource.Attribute.windowActionBarOverlay;
-			global::Xamarin.Forms.PancakeView.Resource.Attribute.windowActionModeOverlay = global::NutritionApp.Droid.Resource.Attribute.windowActionModeOverlay;
-			global::Xamarin.Forms.PancakeView.Resource.Attribute.windowFixedHeightMajor = global::NutritionApp.Droid.Resource.Attribute.windowFixedHeightMajor;
-			global::Xamarin.Forms.PancakeView.Resource.Attribute.windowFixedHeightMinor = global::NutritionApp.Droid.Resource.Attribute.windowFixedHeightMinor;
-			global::Xamarin.Forms.PancakeView.Resource.Attribute.windowFixedWidthMajor = global::NutritionApp.Droid.Resource.Attribute.windowFixedWidthMajor;
-			global::Xamarin.Forms.PancakeView.Resource.Attribute.windowFixedWidthMinor = global::NutritionApp.Droid.Resource.Attribute.windowFixedWidthMinor;
-			global::Xamarin.Forms.PancakeView.Resource.Attribute.windowMinWidthMajor = global::NutritionApp.Droid.Resource.Attribute.windowMinWidthMajor;
-			global::Xamarin.Forms.PancakeView.Resource.Attribute.windowMinWidthMinor = global::NutritionApp.Droid.Resource.Attribute.windowMinWidthMinor;
-			global::Xamarin.Forms.PancakeView.Resource.Attribute.windowNoTitle = global::NutritionApp.Droid.Resource.Attribute.windowNoTitle;
-			global::Xamarin.Forms.PancakeView.Resource.Boolean.abc_action_bar_embed_tabs = global::NutritionApp.Droid.Resource.Boolean.abc_action_bar_embed_tabs;
-			global::Xamarin.Forms.PancakeView.Resource.Boolean.abc_config_actionMenuItemAllCaps = global::NutritionApp.Droid.Resource.Boolean.abc_config_actionMenuItemAllCaps;
-			global::Xamarin.Forms.PancakeView.Resource.Boolean.mtrl_btn_textappearance_all_caps = global::NutritionApp.Droid.Resource.Boolean.mtrl_btn_textappearance_all_caps;
-			global::Xamarin.Forms.PancakeView.Resource.Color.abc_background_cache_hint_selector_material_dark = global::NutritionApp.Droid.Resource.Color.abc_background_cache_hint_selector_material_dark;
-			global::Xamarin.Forms.PancakeView.Resource.Color.abc_background_cache_hint_selector_material_light = global::NutritionApp.Droid.Resource.Color.abc_background_cache_hint_selector_material_light;
-			global::Xamarin.Forms.PancakeView.Resource.Color.abc_btn_colored_borderless_text_material = global::NutritionApp.Droid.Resource.Color.abc_btn_colored_borderless_text_material;
-			global::Xamarin.Forms.PancakeView.Resource.Color.abc_btn_colored_text_material = global::NutritionApp.Droid.Resource.Color.abc_btn_colored_text_material;
-			global::Xamarin.Forms.PancakeView.Resource.Color.abc_color_highlight_material = global::NutritionApp.Droid.Resource.Color.abc_color_highlight_material;
-			global::Xamarin.Forms.PancakeView.Resource.Color.abc_decor_view_status_guard = global::NutritionApp.Droid.Resource.Color.abc_decor_view_status_guard;
-			global::Xamarin.Forms.PancakeView.Resource.Color.abc_decor_view_status_guard_light = global::NutritionApp.Droid.Resource.Color.abc_decor_view_status_guard_light;
-			global::Xamarin.Forms.PancakeView.Resource.Color.abc_hint_foreground_material_dark = global::NutritionApp.Droid.Resource.Color.abc_hint_foreground_material_dark;
-			global::Xamarin.Forms.PancakeView.Resource.Color.abc_hint_foreground_material_light = global::NutritionApp.Droid.Resource.Color.abc_hint_foreground_material_light;
-			global::Xamarin.Forms.PancakeView.Resource.Color.abc_primary_text_disable_only_material_dark = global::NutritionApp.Droid.Resource.Color.abc_primary_text_disable_only_material_dark;
-			global::Xamarin.Forms.PancakeView.Resource.Color.abc_primary_text_disable_only_material_light = global::NutritionApp.Droid.Resource.Color.abc_primary_text_disable_only_material_light;
-			global::Xamarin.Forms.PancakeView.Resource.Color.abc_primary_text_material_dark = global::NutritionApp.Droid.Resource.Color.abc_primary_text_material_dark;
-			global::Xamarin.Forms.PancakeView.Resource.Color.abc_primary_text_material_light = global::NutritionApp.Droid.Resource.Color.abc_primary_text_material_light;
-			global::Xamarin.Forms.PancakeView.Resource.Color.abc_search_url_text = global::NutritionApp.Droid.Resource.Color.abc_search_url_text;
-			global::Xamarin.Forms.PancakeView.Resource.Color.abc_search_url_text_normal = global::NutritionApp.Droid.Resource.Color.abc_search_url_text_normal;
-			global::Xamarin.Forms.PancakeView.Resource.Color.abc_search_url_text_pressed = global::NutritionApp.Droid.Resource.Color.abc_search_url_text_pressed;
-			global::Xamarin.Forms.PancakeView.Resource.Color.abc_search_url_text_selected = global::NutritionApp.Droid.Resource.Color.abc_search_url_text_selected;
-			global::Xamarin.Forms.PancakeView.Resource.Color.abc_secondary_text_material_dark = global::NutritionApp.Droid.Resource.Color.abc_secondary_text_material_dark;
-			global::Xamarin.Forms.PancakeView.Resource.Color.abc_secondary_text_material_light = global::NutritionApp.Droid.Resource.Color.abc_secondary_text_material_light;
-			global::Xamarin.Forms.PancakeView.Resource.Color.abc_tint_btn_checkable = global::NutritionApp.Droid.Resource.Color.abc_tint_btn_checkable;
-			global::Xamarin.Forms.PancakeView.Resource.Color.abc_tint_default = global::NutritionApp.Droid.Resource.Color.abc_tint_default;
-			global::Xamarin.Forms.PancakeView.Resource.Color.abc_tint_edittext = global::NutritionApp.Droid.Resource.Color.abc_tint_edittext;
-			global::Xamarin.Forms.PancakeView.Resource.Color.abc_tint_seek_thumb = global::NutritionApp.Droid.Resource.Color.abc_tint_seek_thumb;
-			global::Xamarin.Forms.PancakeView.Resource.Color.abc_tint_spinner = global::NutritionApp.Droid.Resource.Color.abc_tint_spinner;
-			global::Xamarin.Forms.PancakeView.Resource.Color.abc_tint_switch_track = global::NutritionApp.Droid.Resource.Color.abc_tint_switch_track;
-			global::Xamarin.Forms.PancakeView.Resource.Color.accent_material_dark = global::NutritionApp.Droid.Resource.Color.accent_material_dark;
-			global::Xamarin.Forms.PancakeView.Resource.Color.accent_material_light = global::NutritionApp.Droid.Resource.Color.accent_material_light;
-			global::Xamarin.Forms.PancakeView.Resource.Color.androidx_core_ripple_material_light = global::NutritionApp.Droid.Resource.Color.androidx_core_ripple_material_light;
-			global::Xamarin.Forms.PancakeView.Resource.Color.androidx_core_secondary_text_default_material_light = global::NutritionApp.Droid.Resource.Color.androidx_core_secondary_text_default_material_light;
-			global::Xamarin.Forms.PancakeView.Resource.Color.background_floating_material_dark = global::NutritionApp.Droid.Resource.Color.background_floating_material_dark;
-			global::Xamarin.Forms.PancakeView.Resource.Color.background_floating_material_light = global::NutritionApp.Droid.Resource.Color.background_floating_material_light;
-			global::Xamarin.Forms.PancakeView.Resource.Color.background_material_dark = global::NutritionApp.Droid.Resource.Color.background_material_dark;
-			global::Xamarin.Forms.PancakeView.Resource.Color.background_material_light = global::NutritionApp.Droid.Resource.Color.background_material_light;
-			global::Xamarin.Forms.PancakeView.Resource.Color.bright_foreground_disabled_material_dark = global::NutritionApp.Droid.Resource.Color.bright_foreground_disabled_material_dark;
-			global::Xamarin.Forms.PancakeView.Resource.Color.bright_foreground_disabled_material_light = global::NutritionApp.Droid.Resource.Color.bright_foreground_disabled_material_light;
-			global::Xamarin.Forms.PancakeView.Resource.Color.bright_foreground_inverse_material_dark = global::NutritionApp.Droid.Resource.Color.bright_foreground_inverse_material_dark;
-			global::Xamarin.Forms.PancakeView.Resource.Color.bright_foreground_inverse_material_light = global::NutritionApp.Droid.Resource.Color.bright_foreground_inverse_material_light;
-			global::Xamarin.Forms.PancakeView.Resource.Color.bright_foreground_material_dark = global::NutritionApp.Droid.Resource.Color.bright_foreground_material_dark;
-			global::Xamarin.Forms.PancakeView.Resource.Color.bright_foreground_material_light = global::NutritionApp.Droid.Resource.Color.bright_foreground_material_light;
-			global::Xamarin.Forms.PancakeView.Resource.Color.browser_actions_bg_grey = global::NutritionApp.Droid.Resource.Color.browser_actions_bg_grey;
-			global::Xamarin.Forms.PancakeView.Resource.Color.browser_actions_divider_color = global::NutritionApp.Droid.Resource.Color.browser_actions_divider_color;
-			global::Xamarin.Forms.PancakeView.Resource.Color.browser_actions_text_color = global::NutritionApp.Droid.Resource.Color.browser_actions_text_color;
-			global::Xamarin.Forms.PancakeView.Resource.Color.browser_actions_title_color = global::NutritionApp.Droid.Resource.Color.browser_actions_title_color;
-			global::Xamarin.Forms.PancakeView.Resource.Color.button_material_dark = global::NutritionApp.Droid.Resource.Color.button_material_dark;
-			global::Xamarin.Forms.PancakeView.Resource.Color.button_material_light = global::NutritionApp.Droid.Resource.Color.button_material_light;
-			global::Xamarin.Forms.PancakeView.Resource.Color.cardview_dark_background = global::NutritionApp.Droid.Resource.Color.cardview_dark_background;
-			global::Xamarin.Forms.PancakeView.Resource.Color.cardview_light_background = global::NutritionApp.Droid.Resource.Color.cardview_light_background;
-			global::Xamarin.Forms.PancakeView.Resource.Color.cardview_shadow_end_color = global::NutritionApp.Droid.Resource.Color.cardview_shadow_end_color;
-			global::Xamarin.Forms.PancakeView.Resource.Color.cardview_shadow_start_color = global::NutritionApp.Droid.Resource.Color.cardview_shadow_start_color;
-			global::Xamarin.Forms.PancakeView.Resource.Color.design_bottom_navigation_shadow_color = global::NutritionApp.Droid.Resource.Color.design_bottom_navigation_shadow_color;
-			global::Xamarin.Forms.PancakeView.Resource.Color.design_default_color_primary = global::NutritionApp.Droid.Resource.Color.design_default_color_primary;
-			global::Xamarin.Forms.PancakeView.Resource.Color.design_default_color_primary_dark = global::NutritionApp.Droid.Resource.Color.design_default_color_primary_dark;
-			global::Xamarin.Forms.PancakeView.Resource.Color.design_error = global::NutritionApp.Droid.Resource.Color.design_error;
-			global::Xamarin.Forms.PancakeView.Resource.Color.design_fab_shadow_end_color = global::NutritionApp.Droid.Resource.Color.design_fab_shadow_end_color;
-			global::Xamarin.Forms.PancakeView.Resource.Color.design_fab_shadow_mid_color = global::NutritionApp.Droid.Resource.Color.design_fab_shadow_mid_color;
-			global::Xamarin.Forms.PancakeView.Resource.Color.design_fab_shadow_start_color = global::NutritionApp.Droid.Resource.Color.design_fab_shadow_start_color;
-			global::Xamarin.Forms.PancakeView.Resource.Color.design_fab_stroke_end_inner_color = global::NutritionApp.Droid.Resource.Color.design_fab_stroke_end_inner_color;
-			global::Xamarin.Forms.PancakeView.Resource.Color.design_fab_stroke_end_outer_color = global::NutritionApp.Droid.Resource.Color.design_fab_stroke_end_outer_color;
-			global::Xamarin.Forms.PancakeView.Resource.Color.design_fab_stroke_top_inner_color = global::NutritionApp.Droid.Resource.Color.design_fab_stroke_top_inner_color;
-			global::Xamarin.Forms.PancakeView.Resource.Color.design_fab_stroke_top_outer_color = global::NutritionApp.Droid.Resource.Color.design_fab_stroke_top_outer_color;
-			global::Xamarin.Forms.PancakeView.Resource.Color.design_snackbar_background_color = global::NutritionApp.Droid.Resource.Color.design_snackbar_background_color;
-			global::Xamarin.Forms.PancakeView.Resource.Color.dim_foreground_disabled_material_dark = global::NutritionApp.Droid.Resource.Color.dim_foreground_disabled_material_dark;
-			global::Xamarin.Forms.PancakeView.Resource.Color.dim_foreground_disabled_material_light = global::NutritionApp.Droid.Resource.Color.dim_foreground_disabled_material_light;
-			global::Xamarin.Forms.PancakeView.Resource.Color.dim_foreground_material_dark = global::NutritionApp.Droid.Resource.Color.dim_foreground_material_dark;
-			global::Xamarin.Forms.PancakeView.Resource.Color.dim_foreground_material_light = global::NutritionApp.Droid.Resource.Color.dim_foreground_material_light;
-			global::Xamarin.Forms.PancakeView.Resource.Color.error_color_material_dark = global::NutritionApp.Droid.Resource.Color.error_color_material_dark;
-			global::Xamarin.Forms.PancakeView.Resource.Color.error_color_material_light = global::NutritionApp.Droid.Resource.Color.error_color_material_light;
-			global::Xamarin.Forms.PancakeView.Resource.Color.foreground_material_dark = global::NutritionApp.Droid.Resource.Color.foreground_material_dark;
-			global::Xamarin.Forms.PancakeView.Resource.Color.foreground_material_light = global::NutritionApp.Droid.Resource.Color.foreground_material_light;
-			global::Xamarin.Forms.PancakeView.Resource.Color.highlighted_text_material_dark = global::NutritionApp.Droid.Resource.Color.highlighted_text_material_dark;
-			global::Xamarin.Forms.PancakeView.Resource.Color.highlighted_text_material_light = global::NutritionApp.Droid.Resource.Color.highlighted_text_material_light;
-			global::Xamarin.Forms.PancakeView.Resource.Color.material_blue_grey_800 = global::NutritionApp.Droid.Resource.Color.material_blue_grey_800;
-			global::Xamarin.Forms.PancakeView.Resource.Color.material_blue_grey_900 = global::NutritionApp.Droid.Resource.Color.material_blue_grey_900;
-			global::Xamarin.Forms.PancakeView.Resource.Color.material_blue_grey_950 = global::NutritionApp.Droid.Resource.Color.material_blue_grey_950;
-			global::Xamarin.Forms.PancakeView.Resource.Color.material_deep_teal_200 = global::NutritionApp.Droid.Resource.Color.material_deep_teal_200;
-			global::Xamarin.Forms.PancakeView.Resource.Color.material_deep_teal_500 = global::NutritionApp.Droid.Resource.Color.material_deep_teal_500;
-			global::Xamarin.Forms.PancakeView.Resource.Color.material_grey_100 = global::NutritionApp.Droid.Resource.Color.material_grey_100;
-			global::Xamarin.Forms.PancakeView.Resource.Color.material_grey_300 = global::NutritionApp.Droid.Resource.Color.material_grey_300;
-			global::Xamarin.Forms.PancakeView.Resource.Color.material_grey_50 = global::NutritionApp.Droid.Resource.Color.material_grey_50;
-			global::Xamarin.Forms.PancakeView.Resource.Color.material_grey_600 = global::NutritionApp.Droid.Resource.Color.material_grey_600;
-			global::Xamarin.Forms.PancakeView.Resource.Color.material_grey_800 = global::NutritionApp.Droid.Resource.Color.material_grey_800;
-			global::Xamarin.Forms.PancakeView.Resource.Color.material_grey_850 = global::NutritionApp.Droid.Resource.Color.material_grey_850;
-			global::Xamarin.Forms.PancakeView.Resource.Color.material_grey_900 = global::NutritionApp.Droid.Resource.Color.material_grey_900;
-			global::Xamarin.Forms.PancakeView.Resource.Color.mtrl_btn_bg_color_selector = global::NutritionApp.Droid.Resource.Color.mtrl_btn_bg_color_selector;
-			global::Xamarin.Forms.PancakeView.Resource.Color.mtrl_btn_ripple_color = global::NutritionApp.Droid.Resource.Color.mtrl_btn_ripple_color;
-			global::Xamarin.Forms.PancakeView.Resource.Color.mtrl_btn_stroke_color_selector = global::NutritionApp.Droid.Resource.Color.mtrl_btn_stroke_color_selector;
-			global::Xamarin.Forms.PancakeView.Resource.Color.mtrl_btn_text_btn_ripple_color = global::NutritionApp.Droid.Resource.Color.mtrl_btn_text_btn_ripple_color;
-			global::Xamarin.Forms.PancakeView.Resource.Color.mtrl_btn_text_color_disabled = global::NutritionApp.Droid.Resource.Color.mtrl_btn_text_color_disabled;
-			global::Xamarin.Forms.PancakeView.Resource.Color.mtrl_btn_text_color_selector = global::NutritionApp.Droid.Resource.Color.mtrl_btn_text_color_selector;
-			global::Xamarin.Forms.PancakeView.Resource.Color.mtrl_btn_transparent_bg_color = global::NutritionApp.Droid.Resource.Color.mtrl_btn_transparent_bg_color;
-			global::Xamarin.Forms.PancakeView.Resource.Color.mtrl_chip_background_color = global::NutritionApp.Droid.Resource.Color.mtrl_chip_background_color;
-			global::Xamarin.Forms.PancakeView.Resource.Color.mtrl_chip_close_icon_tint = global::NutritionApp.Droid.Resource.Color.mtrl_chip_close_icon_tint;
-			global::Xamarin.Forms.PancakeView.Resource.Color.mtrl_chip_text_color = global::NutritionApp.Droid.Resource.Color.mtrl_chip_text_color;
-			global::Xamarin.Forms.PancakeView.Resource.Color.mtrl_fab_ripple_color = global::NutritionApp.Droid.Resource.Color.mtrl_fab_ripple_color;
-			global::Xamarin.Forms.PancakeView.Resource.Color.mtrl_scrim_color = global::NutritionApp.Droid.Resource.Color.mtrl_scrim_color;
-			global::Xamarin.Forms.PancakeView.Resource.Color.mtrl_tabs_colored_ripple_color = global::NutritionApp.Droid.Resource.Color.mtrl_tabs_colored_ripple_color;
-			global::Xamarin.Forms.PancakeView.Resource.Color.mtrl_tabs_icon_color_selector = global::NutritionApp.Droid.Resource.Color.mtrl_tabs_icon_color_selector;
-			global::Xamarin.Forms.PancakeView.Resource.Color.mtrl_tabs_icon_color_selector_colored = global::NutritionApp.Droid.Resource.Color.mtrl_tabs_icon_color_selector_colored;
-			global::Xamarin.Forms.PancakeView.Resource.Color.mtrl_tabs_legacy_text_color_selector = global::NutritionApp.Droid.Resource.Color.mtrl_tabs_legacy_text_color_selector;
-			global::Xamarin.Forms.PancakeView.Resource.Color.mtrl_tabs_ripple_color = global::NutritionApp.Droid.Resource.Color.mtrl_tabs_ripple_color;
-			global::Xamarin.Forms.PancakeView.Resource.Color.mtrl_textinput_default_box_stroke_color = global::NutritionApp.Droid.Resource.Color.mtrl_textinput_default_box_stroke_color;
-			global::Xamarin.Forms.PancakeView.Resource.Color.mtrl_textinput_disabled_color = global::NutritionApp.Droid.Resource.Color.mtrl_textinput_disabled_color;
-			global::Xamarin.Forms.PancakeView.Resource.Color.mtrl_textinput_filled_box_default_background_color = global::NutritionApp.Droid.Resource.Color.mtrl_textinput_filled_box_default_background_color;
-			global::Xamarin.Forms.PancakeView.Resource.Color.mtrl_textinput_hovered_box_stroke_color = global::NutritionApp.Droid.Resource.Color.mtrl_textinput_hovered_box_stroke_color;
-			global::Xamarin.Forms.PancakeView.Resource.Color.mtrl_text_btn_text_color_selector = global::NutritionApp.Droid.Resource.Color.mtrl_text_btn_text_color_selector;
-			global::Xamarin.Forms.PancakeView.Resource.Color.notification_action_color_filter = global::NutritionApp.Droid.Resource.Color.notification_action_color_filter;
-			global::Xamarin.Forms.PancakeView.Resource.Color.notification_icon_bg_color = global::NutritionApp.Droid.Resource.Color.notification_icon_bg_color;
-			global::Xamarin.Forms.PancakeView.Resource.Color.notification_material_background_media_default_color = global::NutritionApp.Droid.Resource.Color.notification_material_background_media_default_color;
-			global::Xamarin.Forms.PancakeView.Resource.Color.primary_dark_material_dark = global::NutritionApp.Droid.Resource.Color.primary_dark_material_dark;
-			global::Xamarin.Forms.PancakeView.Resource.Color.primary_dark_material_light = global::NutritionApp.Droid.Resource.Color.primary_dark_material_light;
-			global::Xamarin.Forms.PancakeView.Resource.Color.primary_material_dark = global::NutritionApp.Droid.Resource.Color.primary_material_dark;
-			global::Xamarin.Forms.PancakeView.Resource.Color.primary_material_light = global::NutritionApp.Droid.Resource.Color.primary_material_light;
-			global::Xamarin.Forms.PancakeView.Resource.Color.primary_text_default_material_dark = global::NutritionApp.Droid.Resource.Color.primary_text_default_material_dark;
-			global::Xamarin.Forms.PancakeView.Resource.Color.primary_text_default_material_light = global::NutritionApp.Droid.Resource.Color.primary_text_default_material_light;
-			global::Xamarin.Forms.PancakeView.Resource.Color.primary_text_disabled_material_dark = global::NutritionApp.Droid.Resource.Color.primary_text_disabled_material_dark;
-			global::Xamarin.Forms.PancakeView.Resource.Color.primary_text_disabled_material_light = global::NutritionApp.Droid.Resource.Color.primary_text_disabled_material_light;
-			global::Xamarin.Forms.PancakeView.Resource.Color.ripple_material_dark = global::NutritionApp.Droid.Resource.Color.ripple_material_dark;
-			global::Xamarin.Forms.PancakeView.Resource.Color.ripple_material_light = global::NutritionApp.Droid.Resource.Color.ripple_material_light;
-			global::Xamarin.Forms.PancakeView.Resource.Color.secondary_text_default_material_dark = global::NutritionApp.Droid.Resource.Color.secondary_text_default_material_dark;
-			global::Xamarin.Forms.PancakeView.Resource.Color.secondary_text_default_material_light = global::NutritionApp.Droid.Resource.Color.secondary_text_default_material_light;
-			global::Xamarin.Forms.PancakeView.Resource.Color.secondary_text_disabled_material_dark = global::NutritionApp.Droid.Resource.Color.secondary_text_disabled_material_dark;
-			global::Xamarin.Forms.PancakeView.Resource.Color.secondary_text_disabled_material_light = global::NutritionApp.Droid.Resource.Color.secondary_text_disabled_material_light;
-			global::Xamarin.Forms.PancakeView.Resource.Color.switch_thumb_disabled_material_dark = global::NutritionApp.Droid.Resource.Color.switch_thumb_disabled_material_dark;
-			global::Xamarin.Forms.PancakeView.Resource.Color.switch_thumb_disabled_material_light = global::NutritionApp.Droid.Resource.Color.switch_thumb_disabled_material_light;
-			global::Xamarin.Forms.PancakeView.Resource.Color.switch_thumb_material_dark = global::NutritionApp.Droid.Resource.Color.switch_thumb_material_dark;
-			global::Xamarin.Forms.PancakeView.Resource.Color.switch_thumb_material_light = global::NutritionApp.Droid.Resource.Color.switch_thumb_material_light;
-			global::Xamarin.Forms.PancakeView.Resource.Color.switch_thumb_normal_material_dark = global::NutritionApp.Droid.Resource.Color.switch_thumb_normal_material_dark;
-			global::Xamarin.Forms.PancakeView.Resource.Color.switch_thumb_normal_material_light = global::NutritionApp.Droid.Resource.Color.switch_thumb_normal_material_light;
-			global::Xamarin.Forms.PancakeView.Resource.Color.tooltip_background_dark = global::NutritionApp.Droid.Resource.Color.tooltip_background_dark;
-			global::Xamarin.Forms.PancakeView.Resource.Color.tooltip_background_light = global::NutritionApp.Droid.Resource.Color.tooltip_background_light;
-			global::Xamarin.Forms.PancakeView.Resource.Dimension.abc_action_bar_content_inset_material = global::NutritionApp.Droid.Resource.Dimension.abc_action_bar_content_inset_material;
-			global::Xamarin.Forms.PancakeView.Resource.Dimension.abc_action_bar_content_inset_with_nav = global::NutritionApp.Droid.Resource.Dimension.abc_action_bar_content_inset_with_nav;
-			global::Xamarin.Forms.PancakeView.Resource.Dimension.abc_action_bar_default_height_material = global::NutritionApp.Droid.Resource.Dimension.abc_action_bar_default_height_material;
-			global::Xamarin.Forms.PancakeView.Resource.Dimension.abc_action_bar_default_padding_end_material = global::NutritionApp.Droid.Resource.Dimension.abc_action_bar_default_padding_end_material;
-			global::Xamarin.Forms.PancakeView.Resource.Dimension.abc_action_bar_default_padding_start_material = global::NutritionApp.Droid.Resource.Dimension.abc_action_bar_default_padding_start_material;
-			global::Xamarin.Forms.PancakeView.Resource.Dimension.abc_action_bar_elevation_material = global::NutritionApp.Droid.Resource.Dimension.abc_action_bar_elevation_material;
-			global::Xamarin.Forms.PancakeView.Resource.Dimension.abc_action_bar_icon_vertical_padding_material = global::NutritionApp.Droid.Resource.Dimension.abc_action_bar_icon_vertical_padding_material;
-			global::Xamarin.Forms.PancakeView.Resource.Dimension.abc_action_bar_overflow_padding_end_material = global::NutritionApp.Droid.Resource.Dimension.abc_action_bar_overflow_padding_end_material;
-			global::Xamarin.Forms.PancakeView.Resource.Dimension.abc_action_bar_overflow_padding_start_material = global::NutritionApp.Droid.Resource.Dimension.abc_action_bar_overflow_padding_start_material;
-			global::Xamarin.Forms.PancakeView.Resource.Dimension.abc_action_bar_stacked_max_height = global::NutritionApp.Droid.Resource.Dimension.abc_action_bar_stacked_max_height;
-			global::Xamarin.Forms.PancakeView.Resource.Dimension.abc_action_bar_stacked_tab_max_width = global::NutritionApp.Droid.Resource.Dimension.abc_action_bar_stacked_tab_max_width;
-			global::Xamarin.Forms.PancakeView.Resource.Dimension.abc_action_bar_subtitle_bottom_margin_material = global::NutritionApp.Droid.Resource.Dimension.abc_action_bar_subtitle_bottom_margin_material;
-			global::Xamarin.Forms.PancakeView.Resource.Dimension.abc_action_bar_subtitle_top_margin_material = global::NutritionApp.Droid.Resource.Dimension.abc_action_bar_subtitle_top_margin_material;
-			global::Xamarin.Forms.PancakeView.Resource.Dimension.abc_action_button_min_height_material = global::NutritionApp.Droid.Resource.Dimension.abc_action_button_min_height_material;
-			global::Xamarin.Forms.PancakeView.Resource.Dimension.abc_action_button_min_width_material = global::NutritionApp.Droid.Resource.Dimension.abc_action_button_min_width_material;
-			global::Xamarin.Forms.PancakeView.Resource.Dimension.abc_action_button_min_width_overflow_material = global::NutritionApp.Droid.Resource.Dimension.abc_action_button_min_width_overflow_material;
-			global::Xamarin.Forms.PancakeView.Resource.Dimension.abc_alert_dialog_button_bar_height = global::NutritionApp.Droid.Resource.Dimension.abc_alert_dialog_button_bar_height;
-			global::Xamarin.Forms.PancakeView.Resource.Dimension.abc_alert_dialog_button_dimen = global::NutritionApp.Droid.Resource.Dimension.abc_alert_dialog_button_dimen;
-			global::Xamarin.Forms.PancakeView.Resource.Dimension.abc_button_inset_horizontal_material = global::NutritionApp.Droid.Resource.Dimension.abc_button_inset_horizontal_material;
-			global::Xamarin.Forms.PancakeView.Resource.Dimension.abc_button_inset_vertical_material = global::NutritionApp.Droid.Resource.Dimension.abc_button_inset_vertical_material;
-			global::Xamarin.Forms.PancakeView.Resource.Dimension.abc_button_padding_horizontal_material = global::NutritionApp.Droid.Resource.Dimension.abc_button_padding_horizontal_material;
-			global::Xamarin.Forms.PancakeView.Resource.Dimension.abc_button_padding_vertical_material = global::NutritionApp.Droid.Resource.Dimension.abc_button_padding_vertical_material;
-			global::Xamarin.Forms.PancakeView.Resource.Dimension.abc_cascading_menus_min_smallest_width = global::NutritionApp.Droid.Resource.Dimension.abc_cascading_menus_min_smallest_width;
-			global::Xamarin.Forms.PancakeView.Resource.Dimension.abc_config_prefDialogWidth = global::NutritionApp.Droid.Resource.Dimension.abc_config_prefDialogWidth;
-			global::Xamarin.Forms.PancakeView.Resource.Dimension.abc_control_corner_material = global::NutritionApp.Droid.Resource.Dimension.abc_control_corner_material;
-			global::Xamarin.Forms.PancakeView.Resource.Dimension.abc_control_inset_material = global::NutritionApp.Droid.Resource.Dimension.abc_control_inset_material;
-			global::Xamarin.Forms.PancakeView.Resource.Dimension.abc_control_padding_material = global::NutritionApp.Droid.Resource.Dimension.abc_control_padding_material;
-			global::Xamarin.Forms.PancakeView.Resource.Dimension.abc_dialog_corner_radius_material = global::NutritionApp.Droid.Resource.Dimension.abc_dialog_corner_radius_material;
-			global::Xamarin.Forms.PancakeView.Resource.Dimension.abc_dialog_fixed_height_major = global::NutritionApp.Droid.Resource.Dimension.abc_dialog_fixed_height_major;
-			global::Xamarin.Forms.PancakeView.Resource.Dimension.abc_dialog_fixed_height_minor = global::NutritionApp.Droid.Resource.Dimension.abc_dialog_fixed_height_minor;
-			global::Xamarin.Forms.PancakeView.Resource.Dimension.abc_dialog_fixed_width_major = global::NutritionApp.Droid.Resource.Dimension.abc_dialog_fixed_width_major;
-			global::Xamarin.Forms.PancakeView.Resource.Dimension.abc_dialog_fixed_width_minor = global::NutritionApp.Droid.Resource.Dimension.abc_dialog_fixed_width_minor;
-			global::Xamarin.Forms.PancakeView.Resource.Dimension.abc_dialog_list_padding_bottom_no_buttons = global::NutritionApp.Droid.Resource.Dimension.abc_dialog_list_padding_bottom_no_buttons;
-			global::Xamarin.Forms.PancakeView.Resource.Dimension.abc_dialog_list_padding_top_no_title = global::NutritionApp.Droid.Resource.Dimension.abc_dialog_list_padding_top_no_title;
-			global::Xamarin.Forms.PancakeView.Resource.Dimension.abc_dialog_min_width_major = global::NutritionApp.Droid.Resource.Dimension.abc_dialog_min_width_major;
-			global::Xamarin.Forms.PancakeView.Resource.Dimension.abc_dialog_min_width_minor = global::NutritionApp.Droid.Resource.Dimension.abc_dialog_min_width_minor;
-			global::Xamarin.Forms.PancakeView.Resource.Dimension.abc_dialog_padding_material = global::NutritionApp.Droid.Resource.Dimension.abc_dialog_padding_material;
-			global::Xamarin.Forms.PancakeView.Resource.Dimension.abc_dialog_padding_top_material = global::NutritionApp.Droid.Resource.Dimension.abc_dialog_padding_top_material;
-			global::Xamarin.Forms.PancakeView.Resource.Dimension.abc_dialog_title_divider_material = global::NutritionApp.Droid.Resource.Dimension.abc_dialog_title_divider_material;
-			global::Xamarin.Forms.PancakeView.Resource.Dimension.abc_disabled_alpha_material_dark = global::NutritionApp.Droid.Resource.Dimension.abc_disabled_alpha_material_dark;
-			global::Xamarin.Forms.PancakeView.Resource.Dimension.abc_disabled_alpha_material_light = global::NutritionApp.Droid.Resource.Dimension.abc_disabled_alpha_material_light;
-			global::Xamarin.Forms.PancakeView.Resource.Dimension.abc_dropdownitem_icon_width = global::NutritionApp.Droid.Resource.Dimension.abc_dropdownitem_icon_width;
-			global::Xamarin.Forms.PancakeView.Resource.Dimension.abc_dropdownitem_text_padding_left = global::NutritionApp.Droid.Resource.Dimension.abc_dropdownitem_text_padding_left;
-			global::Xamarin.Forms.PancakeView.Resource.Dimension.abc_dropdownitem_text_padding_right = global::NutritionApp.Droid.Resource.Dimension.abc_dropdownitem_text_padding_right;
-			global::Xamarin.Forms.PancakeView.Resource.Dimension.abc_edit_text_inset_bottom_material = global::NutritionApp.Droid.Resource.Dimension.abc_edit_text_inset_bottom_material;
-			global::Xamarin.Forms.PancakeView.Resource.Dimension.abc_edit_text_inset_horizontal_material = global::NutritionApp.Droid.Resource.Dimension.abc_edit_text_inset_horizontal_material;
-			global::Xamarin.Forms.PancakeView.Resource.Dimension.abc_edit_text_inset_top_material = global::NutritionApp.Droid.Resource.Dimension.abc_edit_text_inset_top_material;
-			global::Xamarin.Forms.PancakeView.Resource.Dimension.abc_floating_window_z = global::NutritionApp.Droid.Resource.Dimension.abc_floating_window_z;
-			global::Xamarin.Forms.PancakeView.Resource.Dimension.abc_list_item_height_large_material = global::NutritionApp.Droid.Resource.Dimension.abc_list_item_height_large_material;
-			global::Xamarin.Forms.PancakeView.Resource.Dimension.abc_list_item_height_material = global::NutritionApp.Droid.Resource.Dimension.abc_list_item_height_material;
-			global::Xamarin.Forms.PancakeView.Resource.Dimension.abc_list_item_height_small_material = global::NutritionApp.Droid.Resource.Dimension.abc_list_item_height_small_material;
-			global::Xamarin.Forms.PancakeView.Resource.Dimension.abc_list_item_padding_horizontal_material = global::NutritionApp.Droid.Resource.Dimension.abc_list_item_padding_horizontal_material;
-			global::Xamarin.Forms.PancakeView.Resource.Dimension.abc_panel_menu_list_width = global::NutritionApp.Droid.Resource.Dimension.abc_panel_menu_list_width;
-			global::Xamarin.Forms.PancakeView.Resource.Dimension.abc_progress_bar_height_material = global::NutritionApp.Droid.Resource.Dimension.abc_progress_bar_height_material;
-			global::Xamarin.Forms.PancakeView.Resource.Dimension.abc_search_view_preferred_height = global::NutritionApp.Droid.Resource.Dimension.abc_search_view_preferred_height;
-			global::Xamarin.Forms.PancakeView.Resource.Dimension.abc_search_view_preferred_width = global::NutritionApp.Droid.Resource.Dimension.abc_search_view_preferred_width;
-			global::Xamarin.Forms.PancakeView.Resource.Dimension.abc_seekbar_track_background_height_material = global::NutritionApp.Droid.Resource.Dimension.abc_seekbar_track_background_height_material;
-			global::Xamarin.Forms.PancakeView.Resource.Dimension.abc_seekbar_track_progress_height_material = global::NutritionApp.Droid.Resource.Dimension.abc_seekbar_track_progress_height_material;
-			global::Xamarin.Forms.PancakeView.Resource.Dimension.abc_select_dialog_padding_start_material = global::NutritionApp.Droid.Resource.Dimension.abc_select_dialog_padding_start_material;
-			global::Xamarin.Forms.PancakeView.Resource.Dimension.abc_switch_padding = global::NutritionApp.Droid.Resource.Dimension.abc_switch_padding;
-			global::Xamarin.Forms.PancakeView.Resource.Dimension.abc_text_size_body_1_material = global::NutritionApp.Droid.Resource.Dimension.abc_text_size_body_1_material;
-			global::Xamarin.Forms.PancakeView.Resource.Dimension.abc_text_size_body_2_material = global::NutritionApp.Droid.Resource.Dimension.abc_text_size_body_2_material;
-			global::Xamarin.Forms.PancakeView.Resource.Dimension.abc_text_size_button_material = global::NutritionApp.Droid.Resource.Dimension.abc_text_size_button_material;
-			global::Xamarin.Forms.PancakeView.Resource.Dimension.abc_text_size_caption_material = global::NutritionApp.Droid.Resource.Dimension.abc_text_size_caption_material;
-			global::Xamarin.Forms.PancakeView.Resource.Dimension.abc_text_size_display_1_material = global::NutritionApp.Droid.Resource.Dimension.abc_text_size_display_1_material;
-			global::Xamarin.Forms.PancakeView.Resource.Dimension.abc_text_size_display_2_material = global::NutritionApp.Droid.Resource.Dimension.abc_text_size_display_2_material;
-			global::Xamarin.Forms.PancakeView.Resource.Dimension.abc_text_size_display_3_material = global::NutritionApp.Droid.Resource.Dimension.abc_text_size_display_3_material;
-			global::Xamarin.Forms.PancakeView.Resource.Dimension.abc_text_size_display_4_material = global::NutritionApp.Droid.Resource.Dimension.abc_text_size_display_4_material;
-			global::Xamarin.Forms.PancakeView.Resource.Dimension.abc_text_size_headline_material = global::NutritionApp.Droid.Resource.Dimension.abc_text_size_headline_material;
-			global::Xamarin.Forms.PancakeView.Resource.Dimension.abc_text_size_large_material = global::NutritionApp.Droid.Resource.Dimension.abc_text_size_large_material;
-			global::Xamarin.Forms.PancakeView.Resource.Dimension.abc_text_size_medium_material = global::NutritionApp.Droid.Resource.Dimension.abc_text_size_medium_material;
-			global::Xamarin.Forms.PancakeView.Resource.Dimension.abc_text_size_menu_header_material = global::NutritionApp.Droid.Resource.Dimension.abc_text_size_menu_header_material;
-			global::Xamarin.Forms.PancakeView.Resource.Dimension.abc_text_size_menu_material = global::NutritionApp.Droid.Resource.Dimension.abc_text_size_menu_material;
-			global::Xamarin.Forms.PancakeView.Resource.Dimension.abc_text_size_small_material = global::NutritionApp.Droid.Resource.Dimension.abc_text_size_small_material;
-			global::Xamarin.Forms.PancakeView.Resource.Dimension.abc_text_size_subhead_material = global::NutritionApp.Droid.Resource.Dimension.abc_text_size_subhead_material;
-			global::Xamarin.Forms.PancakeView.Resource.Dimension.abc_text_size_subtitle_material_toolbar = global::NutritionApp.Droid.Resource.Dimension.abc_text_size_subtitle_material_toolbar;
-			global::Xamarin.Forms.PancakeView.Resource.Dimension.abc_text_size_title_material = global::NutritionApp.Droid.Resource.Dimension.abc_text_size_title_material;
-			global::Xamarin.Forms.PancakeView.Resource.Dimension.abc_text_size_title_material_toolbar = global::NutritionApp.Droid.Resource.Dimension.abc_text_size_title_material_toolbar;
-			global::Xamarin.Forms.PancakeView.Resource.Dimension.browser_actions_context_menu_max_width = global::NutritionApp.Droid.Resource.Dimension.browser_actions_context_menu_max_width;
-			global::Xamarin.Forms.PancakeView.Resource.Dimension.browser_actions_context_menu_min_padding = global::NutritionApp.Droid.Resource.Dimension.browser_actions_context_menu_min_padding;
-			global::Xamarin.Forms.PancakeView.Resource.Dimension.cardview_compat_inset_shadow = global::NutritionApp.Droid.Resource.Dimension.cardview_compat_inset_shadow;
-			global::Xamarin.Forms.PancakeView.Resource.Dimension.cardview_default_elevation = global::NutritionApp.Droid.Resource.Dimension.cardview_default_elevation;
-			global::Xamarin.Forms.PancakeView.Resource.Dimension.cardview_default_radius = global::NutritionApp.Droid.Resource.Dimension.cardview_default_radius;
-			global::Xamarin.Forms.PancakeView.Resource.Dimension.compat_button_inset_horizontal_material = global::NutritionApp.Droid.Resource.Dimension.compat_button_inset_horizontal_material;
-			global::Xamarin.Forms.PancakeView.Resource.Dimension.compat_button_inset_vertical_material = global::NutritionApp.Droid.Resource.Dimension.compat_button_inset_vertical_material;
-			global::Xamarin.Forms.PancakeView.Resource.Dimension.compat_button_padding_horizontal_material = global::NutritionApp.Droid.Resource.Dimension.compat_button_padding_horizontal_material;
-			global::Xamarin.Forms.PancakeView.Resource.Dimension.compat_button_padding_vertical_material = global::NutritionApp.Droid.Resource.Dimension.compat_button_padding_vertical_material;
-			global::Xamarin.Forms.PancakeView.Resource.Dimension.compat_control_corner_material = global::NutritionApp.Droid.Resource.Dimension.compat_control_corner_material;
-			global::Xamarin.Forms.PancakeView.Resource.Dimension.compat_notification_large_icon_max_height = global::NutritionApp.Droid.Resource.Dimension.compat_notification_large_icon_max_height;
-			global::Xamarin.Forms.PancakeView.Resource.Dimension.compat_notification_large_icon_max_width = global::NutritionApp.Droid.Resource.Dimension.compat_notification_large_icon_max_width;
-			global::Xamarin.Forms.PancakeView.Resource.Dimension.design_appbar_elevation = global::NutritionApp.Droid.Resource.Dimension.design_appbar_elevation;
-			global::Xamarin.Forms.PancakeView.Resource.Dimension.design_bottom_navigation_active_item_max_width = global::NutritionApp.Droid.Resource.Dimension.design_bottom_navigation_active_item_max_width;
-			global::Xamarin.Forms.PancakeView.Resource.Dimension.design_bottom_navigation_active_item_min_width = global::NutritionApp.Droid.Resource.Dimension.design_bottom_navigation_active_item_min_width;
-			global::Xamarin.Forms.PancakeView.Resource.Dimension.design_bottom_navigation_active_text_size = global::NutritionApp.Droid.Resource.Dimension.design_bottom_navigation_active_text_size;
-			global::Xamarin.Forms.PancakeView.Resource.Dimension.design_bottom_navigation_elevation = global::NutritionApp.Droid.Resource.Dimension.design_bottom_navigation_elevation;
-			global::Xamarin.Forms.PancakeView.Resource.Dimension.design_bottom_navigation_height = global::NutritionApp.Droid.Resource.Dimension.design_bottom_navigation_height;
-			global::Xamarin.Forms.PancakeView.Resource.Dimension.design_bottom_navigation_icon_size = global::NutritionApp.Droid.Resource.Dimension.design_bottom_navigation_icon_size;
-			global::Xamarin.Forms.PancakeView.Resource.Dimension.design_bottom_navigation_item_max_width = global::NutritionApp.Droid.Resource.Dimension.design_bottom_navigation_item_max_width;
-			global::Xamarin.Forms.PancakeView.Resource.Dimension.design_bottom_navigation_item_min_width = global::NutritionApp.Droid.Resource.Dimension.design_bottom_navigation_item_min_width;
-			global::Xamarin.Forms.PancakeView.Resource.Dimension.design_bottom_navigation_margin = global::NutritionApp.Droid.Resource.Dimension.design_bottom_navigation_margin;
-			global::Xamarin.Forms.PancakeView.Resource.Dimension.design_bottom_navigation_shadow_height = global::NutritionApp.Droid.Resource.Dimension.design_bottom_navigation_shadow_height;
-			global::Xamarin.Forms.PancakeView.Resource.Dimension.design_bottom_navigation_text_size = global::NutritionApp.Droid.Resource.Dimension.design_bottom_navigation_text_size;
-			global::Xamarin.Forms.PancakeView.Resource.Dimension.design_bottom_sheet_modal_elevation = global::NutritionApp.Droid.Resource.Dimension.design_bottom_sheet_modal_elevation;
-			global::Xamarin.Forms.PancakeView.Resource.Dimension.design_bottom_sheet_peek_height_min = global::NutritionApp.Droid.Resource.Dimension.design_bottom_sheet_peek_height_min;
-			global::Xamarin.Forms.PancakeView.Resource.Dimension.design_fab_border_width = global::NutritionApp.Droid.Resource.Dimension.design_fab_border_width;
-			global::Xamarin.Forms.PancakeView.Resource.Dimension.design_fab_elevation = global::NutritionApp.Droid.Resource.Dimension.design_fab_elevation;
-			global::Xamarin.Forms.PancakeView.Resource.Dimension.design_fab_image_size = global::NutritionApp.Droid.Resource.Dimension.design_fab_image_size;
-			global::Xamarin.Forms.PancakeView.Resource.Dimension.design_fab_size_mini = global::NutritionApp.Droid.Resource.Dimension.design_fab_size_mini;
-			global::Xamarin.Forms.PancakeView.Resource.Dimension.design_fab_size_normal = global::NutritionApp.Droid.Resource.Dimension.design_fab_size_normal;
-			global::Xamarin.Forms.PancakeView.Resource.Dimension.design_fab_translation_z_hovered_focused = global::NutritionApp.Droid.Resource.Dimension.design_fab_translation_z_hovered_focused;
-			global::Xamarin.Forms.PancakeView.Resource.Dimension.design_fab_translation_z_pressed = global::NutritionApp.Droid.Resource.Dimension.design_fab_translation_z_pressed;
-			global::Xamarin.Forms.PancakeView.Resource.Dimension.design_navigation_elevation = global::NutritionApp.Droid.Resource.Dimension.design_navigation_elevation;
-			global::Xamarin.Forms.PancakeView.Resource.Dimension.design_navigation_icon_padding = global::NutritionApp.Droid.Resource.Dimension.design_navigation_icon_padding;
-			global::Xamarin.Forms.PancakeView.Resource.Dimension.design_navigation_icon_size = global::NutritionApp.Droid.Resource.Dimension.design_navigation_icon_size;
-			global::Xamarin.Forms.PancakeView.Resource.Dimension.design_navigation_item_horizontal_padding = global::NutritionApp.Droid.Resource.Dimension.design_navigation_item_horizontal_padding;
-			global::Xamarin.Forms.PancakeView.Resource.Dimension.design_navigation_item_icon_padding = global::NutritionApp.Droid.Resource.Dimension.design_navigation_item_icon_padding;
-			global::Xamarin.Forms.PancakeView.Resource.Dimension.design_navigation_max_width = global::NutritionApp.Droid.Resource.Dimension.design_navigation_max_width;
-			global::Xamarin.Forms.PancakeView.Resource.Dimension.design_navigation_padding_bottom = global::NutritionApp.Droid.Resource.Dimension.design_navigation_padding_bottom;
-			global::Xamarin.Forms.PancakeView.Resource.Dimension.design_navigation_separator_vertical_padding = global::NutritionApp.Droid.Resource.Dimension.design_navigation_separator_vertical_padding;
-			global::Xamarin.Forms.PancakeView.Resource.Dimension.design_snackbar_action_inline_max_width = global::NutritionApp.Droid.Resource.Dimension.design_snackbar_action_inline_max_width;
-			global::Xamarin.Forms.PancakeView.Resource.Dimension.design_snackbar_background_corner_radius = global::NutritionApp.Droid.Resource.Dimension.design_snackbar_background_corner_radius;
-			global::Xamarin.Forms.PancakeView.Resource.Dimension.design_snackbar_elevation = global::NutritionApp.Droid.Resource.Dimension.design_snackbar_elevation;
-			global::Xamarin.Forms.PancakeView.Resource.Dimension.design_snackbar_extra_spacing_horizontal = global::NutritionApp.Droid.Resource.Dimension.design_snackbar_extra_spacing_horizontal;
-			global::Xamarin.Forms.PancakeView.Resource.Dimension.design_snackbar_max_width = global::NutritionApp.Droid.Resource.Dimension.design_snackbar_max_width;
-			global::Xamarin.Forms.PancakeView.Resource.Dimension.design_snackbar_min_width = global::NutritionApp.Droid.Resource.Dimension.design_snackbar_min_width;
-			global::Xamarin.Forms.PancakeView.Resource.Dimension.design_snackbar_padding_horizontal = global::NutritionApp.Droid.Resource.Dimension.design_snackbar_padding_horizontal;
-			global::Xamarin.Forms.PancakeView.Resource.Dimension.design_snackbar_padding_vertical = global::NutritionApp.Droid.Resource.Dimension.design_snackbar_padding_vertical;
-			global::Xamarin.Forms.PancakeView.Resource.Dimension.design_snackbar_padding_vertical_2lines = global::NutritionApp.Droid.Resource.Dimension.design_snackbar_padding_vertical_2lines;
-			global::Xamarin.Forms.PancakeView.Resource.Dimension.design_snackbar_text_size = global::NutritionApp.Droid.Resource.Dimension.design_snackbar_text_size;
-			global::Xamarin.Forms.PancakeView.Resource.Dimension.design_tab_max_width = global::NutritionApp.Droid.Resource.Dimension.design_tab_max_width;
-			global::Xamarin.Forms.PancakeView.Resource.Dimension.design_tab_scrollable_min_width = global::NutritionApp.Droid.Resource.Dimension.design_tab_scrollable_min_width;
-			global::Xamarin.Forms.PancakeView.Resource.Dimension.design_tab_text_size = global::NutritionApp.Droid.Resource.Dimension.design_tab_text_size;
-			global::Xamarin.Forms.PancakeView.Resource.Dimension.design_tab_text_size_2line = global::NutritionApp.Droid.Resource.Dimension.design_tab_text_size_2line;
-			global::Xamarin.Forms.PancakeView.Resource.Dimension.design_textinput_caption_translate_y = global::NutritionApp.Droid.Resource.Dimension.design_textinput_caption_translate_y;
-			global::Xamarin.Forms.PancakeView.Resource.Dimension.disabled_alpha_material_dark = global::NutritionApp.Droid.Resource.Dimension.disabled_alpha_material_dark;
-			global::Xamarin.Forms.PancakeView.Resource.Dimension.disabled_alpha_material_light = global::NutritionApp.Droid.Resource.Dimension.disabled_alpha_material_light;
-			global::Xamarin.Forms.PancakeView.Resource.Dimension.fastscroll_default_thickness = global::NutritionApp.Droid.Resource.Dimension.fastscroll_default_thickness;
-			global::Xamarin.Forms.PancakeView.Resource.Dimension.fastscroll_margin = global::NutritionApp.Droid.Resource.Dimension.fastscroll_margin;
-			global::Xamarin.Forms.PancakeView.Resource.Dimension.fastscroll_minimum_range = global::NutritionApp.Droid.Resource.Dimension.fastscroll_minimum_range;
-			global::Xamarin.Forms.PancakeView.Resource.Dimension.highlight_alpha_material_colored = global::NutritionApp.Droid.Resource.Dimension.highlight_alpha_material_colored;
-			global::Xamarin.Forms.PancakeView.Resource.Dimension.highlight_alpha_material_dark = global::NutritionApp.Droid.Resource.Dimension.highlight_alpha_material_dark;
-			global::Xamarin.Forms.PancakeView.Resource.Dimension.highlight_alpha_material_light = global::NutritionApp.Droid.Resource.Dimension.highlight_alpha_material_light;
-			global::Xamarin.Forms.PancakeView.Resource.Dimension.hint_alpha_material_dark = global::NutritionApp.Droid.Resource.Dimension.hint_alpha_material_dark;
-			global::Xamarin.Forms.PancakeView.Resource.Dimension.hint_alpha_material_light = global::NutritionApp.Droid.Resource.Dimension.hint_alpha_material_light;
-			global::Xamarin.Forms.PancakeView.Resource.Dimension.hint_pressed_alpha_material_dark = global::NutritionApp.Droid.Resource.Dimension.hint_pressed_alpha_material_dark;
-			global::Xamarin.Forms.PancakeView.Resource.Dimension.hint_pressed_alpha_material_light = global::NutritionApp.Droid.Resource.Dimension.hint_pressed_alpha_material_light;
-			global::Xamarin.Forms.PancakeView.Resource.Dimension.item_touch_helper_max_drag_scroll_per_frame = global::NutritionApp.Droid.Resource.Dimension.item_touch_helper_max_drag_scroll_per_frame;
-			global::Xamarin.Forms.PancakeView.Resource.Dimension.item_touch_helper_swipe_escape_max_velocity = global::NutritionApp.Droid.Resource.Dimension.item_touch_helper_swipe_escape_max_velocity;
-			global::Xamarin.Forms.PancakeView.Resource.Dimension.item_touch_helper_swipe_escape_velocity = global::NutritionApp.Droid.Resource.Dimension.item_touch_helper_swipe_escape_velocity;
-			global::Xamarin.Forms.PancakeView.Resource.Dimension.mtrl_bottomappbar_fabOffsetEndMode = global::NutritionApp.Droid.Resource.Dimension.mtrl_bottomappbar_fabOffsetEndMode;
-			global::Xamarin.Forms.PancakeView.Resource.Dimension.mtrl_bottomappbar_fab_cradle_margin = global::NutritionApp.Droid.Resource.Dimension.mtrl_bottomappbar_fab_cradle_margin;
-			global::Xamarin.Forms.PancakeView.Resource.Dimension.mtrl_bottomappbar_fab_cradle_rounded_corner_radius = global::NutritionApp.Droid.Resource.Dimension.mtrl_bottomappbar_fab_cradle_rounded_corner_radius;
-			global::Xamarin.Forms.PancakeView.Resource.Dimension.mtrl_bottomappbar_fab_cradle_vertical_offset = global::NutritionApp.Droid.Resource.Dimension.mtrl_bottomappbar_fab_cradle_vertical_offset;
-			global::Xamarin.Forms.PancakeView.Resource.Dimension.mtrl_bottomappbar_height = global::NutritionApp.Droid.Resource.Dimension.mtrl_bottomappbar_height;
-			global::Xamarin.Forms.PancakeView.Resource.Dimension.mtrl_btn_corner_radius = global::NutritionApp.Droid.Resource.Dimension.mtrl_btn_corner_radius;
-			global::Xamarin.Forms.PancakeView.Resource.Dimension.mtrl_btn_dialog_btn_min_width = global::NutritionApp.Droid.Resource.Dimension.mtrl_btn_dialog_btn_min_width;
-			global::Xamarin.Forms.PancakeView.Resource.Dimension.mtrl_btn_disabled_elevation = global::NutritionApp.Droid.Resource.Dimension.mtrl_btn_disabled_elevation;
-			global::Xamarin.Forms.PancakeView.Resource.Dimension.mtrl_btn_disabled_z = global::NutritionApp.Droid.Resource.Dimension.mtrl_btn_disabled_z;
-			global::Xamarin.Forms.PancakeView.Resource.Dimension.mtrl_btn_elevation = global::NutritionApp.Droid.Resource.Dimension.mtrl_btn_elevation;
-			global::Xamarin.Forms.PancakeView.Resource.Dimension.mtrl_btn_focused_z = global::NutritionApp.Droid.Resource.Dimension.mtrl_btn_focused_z;
-			global::Xamarin.Forms.PancakeView.Resource.Dimension.mtrl_btn_hovered_z = global::NutritionApp.Droid.Resource.Dimension.mtrl_btn_hovered_z;
-			global::Xamarin.Forms.PancakeView.Resource.Dimension.mtrl_btn_icon_btn_padding_left = global::NutritionApp.Droid.Resource.Dimension.mtrl_btn_icon_btn_padding_left;
-			global::Xamarin.Forms.PancakeView.Resource.Dimension.mtrl_btn_icon_padding = global::NutritionApp.Droid.Resource.Dimension.mtrl_btn_icon_padding;
-			global::Xamarin.Forms.PancakeView.Resource.Dimension.mtrl_btn_inset = global::NutritionApp.Droid.Resource.Dimension.mtrl_btn_inset;
-			global::Xamarin.Forms.PancakeView.Resource.Dimension.mtrl_btn_letter_spacing = global::NutritionApp.Droid.Resource.Dimension.mtrl_btn_letter_spacing;
-			global::Xamarin.Forms.PancakeView.Resource.Dimension.mtrl_btn_padding_bottom = global::NutritionApp.Droid.Resource.Dimension.mtrl_btn_padding_bottom;
-			global::Xamarin.Forms.PancakeView.Resource.Dimension.mtrl_btn_padding_left = global::NutritionApp.Droid.Resource.Dimension.mtrl_btn_padding_left;
-			global::Xamarin.Forms.PancakeView.Resource.Dimension.mtrl_btn_padding_right = global::NutritionApp.Droid.Resource.Dimension.mtrl_btn_padding_right;
-			global::Xamarin.Forms.PancakeView.Resource.Dimension.mtrl_btn_padding_top = global::NutritionApp.Droid.Resource.Dimension.mtrl_btn_padding_top;
-			global::Xamarin.Forms.PancakeView.Resource.Dimension.mtrl_btn_pressed_z = global::NutritionApp.Droid.Resource.Dimension.mtrl_btn_pressed_z;
-			global::Xamarin.Forms.PancakeView.Resource.Dimension.mtrl_btn_stroke_size = global::NutritionApp.Droid.Resource.Dimension.mtrl_btn_stroke_size;
-			global::Xamarin.Forms.PancakeView.Resource.Dimension.mtrl_btn_text_btn_icon_padding = global::NutritionApp.Droid.Resource.Dimension.mtrl_btn_text_btn_icon_padding;
-			global::Xamarin.Forms.PancakeView.Resource.Dimension.mtrl_btn_text_btn_padding_left = global::NutritionApp.Droid.Resource.Dimension.mtrl_btn_text_btn_padding_left;
-			global::Xamarin.Forms.PancakeView.Resource.Dimension.mtrl_btn_text_btn_padding_right = global::NutritionApp.Droid.Resource.Dimension.mtrl_btn_text_btn_padding_right;
-			global::Xamarin.Forms.PancakeView.Resource.Dimension.mtrl_btn_text_size = global::NutritionApp.Droid.Resource.Dimension.mtrl_btn_text_size;
-			global::Xamarin.Forms.PancakeView.Resource.Dimension.mtrl_btn_z = global::NutritionApp.Droid.Resource.Dimension.mtrl_btn_z;
-			global::Xamarin.Forms.PancakeView.Resource.Dimension.mtrl_card_elevation = global::NutritionApp.Droid.Resource.Dimension.mtrl_card_elevation;
-			global::Xamarin.Forms.PancakeView.Resource.Dimension.mtrl_card_spacing = global::NutritionApp.Droid.Resource.Dimension.mtrl_card_spacing;
-			global::Xamarin.Forms.PancakeView.Resource.Dimension.mtrl_chip_pressed_translation_z = global::NutritionApp.Droid.Resource.Dimension.mtrl_chip_pressed_translation_z;
-			global::Xamarin.Forms.PancakeView.Resource.Dimension.mtrl_chip_text_size = global::NutritionApp.Droid.Resource.Dimension.mtrl_chip_text_size;
-			global::Xamarin.Forms.PancakeView.Resource.Dimension.mtrl_fab_elevation = global::NutritionApp.Droid.Resource.Dimension.mtrl_fab_elevation;
-			global::Xamarin.Forms.PancakeView.Resource.Dimension.mtrl_fab_translation_z_hovered_focused = global::NutritionApp.Droid.Resource.Dimension.mtrl_fab_translation_z_hovered_focused;
-			global::Xamarin.Forms.PancakeView.Resource.Dimension.mtrl_fab_translation_z_pressed = global::NutritionApp.Droid.Resource.Dimension.mtrl_fab_translation_z_pressed;
-			global::Xamarin.Forms.PancakeView.Resource.Dimension.mtrl_navigation_elevation = global::NutritionApp.Droid.Resource.Dimension.mtrl_navigation_elevation;
-			global::Xamarin.Forms.PancakeView.Resource.Dimension.mtrl_navigation_item_horizontal_padding = global::NutritionApp.Droid.Resource.Dimension.mtrl_navigation_item_horizontal_padding;
-			global::Xamarin.Forms.PancakeView.Resource.Dimension.mtrl_navigation_item_icon_padding = global::NutritionApp.Droid.Resource.Dimension.mtrl_navigation_item_icon_padding;
-			global::Xamarin.Forms.PancakeView.Resource.Dimension.mtrl_snackbar_background_corner_radius = global::NutritionApp.Droid.Resource.Dimension.mtrl_snackbar_background_corner_radius;
-			global::Xamarin.Forms.PancakeView.Resource.Dimension.mtrl_snackbar_margin = global::NutritionApp.Droid.Resource.Dimension.mtrl_snackbar_margin;
-			global::Xamarin.Forms.PancakeView.Resource.Dimension.mtrl_textinput_box_corner_radius_medium = global::NutritionApp.Droid.Resource.Dimension.mtrl_textinput_box_corner_radius_medium;
-			global::Xamarin.Forms.PancakeView.Resource.Dimension.mtrl_textinput_box_corner_radius_small = global::NutritionApp.Droid.Resource.Dimension.mtrl_textinput_box_corner_radius_small;
-			global::Xamarin.Forms.PancakeView.Resource.Dimension.mtrl_textinput_box_label_cutout_padding = global::NutritionApp.Droid.Resource.Dimension.mtrl_textinput_box_label_cutout_padding;
-			global::Xamarin.Forms.PancakeView.Resource.Dimension.mtrl_textinput_box_stroke_width_default = global::NutritionApp.Droid.Resource.Dimension.mtrl_textinput_box_stroke_width_default;
-			global::Xamarin.Forms.PancakeView.Resource.Dimension.mtrl_textinput_box_stroke_width_focused = global::NutritionApp.Droid.Resource.Dimension.mtrl_textinput_box_stroke_width_focused;
-			global::Xamarin.Forms.PancakeView.Resource.Dimension.mtrl_textinput_outline_box_expanded_padding = global::NutritionApp.Droid.Resource.Dimension.mtrl_textinput_outline_box_expanded_padding;
-			global::Xamarin.Forms.PancakeView.Resource.Dimension.mtrl_toolbar_default_height = global::NutritionApp.Droid.Resource.Dimension.mtrl_toolbar_default_height;
-			global::Xamarin.Forms.PancakeView.Resource.Dimension.notification_action_icon_size = global::NutritionApp.Droid.Resource.Dimension.notification_action_icon_size;
-			global::Xamarin.Forms.PancakeView.Resource.Dimension.notification_action_text_size = global::NutritionApp.Droid.Resource.Dimension.notification_action_text_size;
-			global::Xamarin.Forms.PancakeView.Resource.Dimension.notification_big_circle_margin = global::NutritionApp.Droid.Resource.Dimension.notification_big_circle_margin;
-			global::Xamarin.Forms.PancakeView.Resource.Dimension.notification_content_margin_start = global::NutritionApp.Droid.Resource.Dimension.notification_content_margin_start;
-			global::Xamarin.Forms.PancakeView.Resource.Dimension.notification_large_icon_height = global::NutritionApp.Droid.Resource.Dimension.notification_large_icon_height;
-			global::Xamarin.Forms.PancakeView.Resource.Dimension.notification_large_icon_width = global::NutritionApp.Droid.Resource.Dimension.notification_large_icon_width;
-			global::Xamarin.Forms.PancakeView.Resource.Dimension.notification_main_column_padding_top = global::NutritionApp.Droid.Resource.Dimension.notification_main_column_padding_top;
-			global::Xamarin.Forms.PancakeView.Resource.Dimension.notification_media_narrow_margin = global::NutritionApp.Droid.Resource.Dimension.notification_media_narrow_margin;
-			global::Xamarin.Forms.PancakeView.Resource.Dimension.notification_right_icon_size = global::NutritionApp.Droid.Resource.Dimension.notification_right_icon_size;
-			global::Xamarin.Forms.PancakeView.Resource.Dimension.notification_right_side_padding_top = global::NutritionApp.Droid.Resource.Dimension.notification_right_side_padding_top;
-			global::Xamarin.Forms.PancakeView.Resource.Dimension.notification_small_icon_background_padding = global::NutritionApp.Droid.Resource.Dimension.notification_small_icon_background_padding;
-			global::Xamarin.Forms.PancakeView.Resource.Dimension.notification_small_icon_size_as_large = global::NutritionApp.Droid.Resource.Dimension.notification_small_icon_size_as_large;
-			global::Xamarin.Forms.PancakeView.Resource.Dimension.notification_subtext_size = global::NutritionApp.Droid.Resource.Dimension.notification_subtext_size;
-			global::Xamarin.Forms.PancakeView.Resource.Dimension.notification_top_pad = global::NutritionApp.Droid.Resource.Dimension.notification_top_pad;
-			global::Xamarin.Forms.PancakeView.Resource.Dimension.notification_top_pad_large_text = global::NutritionApp.Droid.Resource.Dimension.notification_top_pad_large_text;
-			global::Xamarin.Forms.PancakeView.Resource.Dimension.tooltip_corner_radius = global::NutritionApp.Droid.Resource.Dimension.tooltip_corner_radius;
-			global::Xamarin.Forms.PancakeView.Resource.Dimension.tooltip_horizontal_padding = global::NutritionApp.Droid.Resource.Dimension.tooltip_horizontal_padding;
-			global::Xamarin.Forms.PancakeView.Resource.Dimension.tooltip_margin = global::NutritionApp.Droid.Resource.Dimension.tooltip_margin;
-			global::Xamarin.Forms.PancakeView.Resource.Dimension.tooltip_precise_anchor_extra_offset = global::NutritionApp.Droid.Resource.Dimension.tooltip_precise_anchor_extra_offset;
-			global::Xamarin.Forms.PancakeView.Resource.Dimension.tooltip_precise_anchor_threshold = global::NutritionApp.Droid.Resource.Dimension.tooltip_precise_anchor_threshold;
-			global::Xamarin.Forms.PancakeView.Resource.Dimension.tooltip_vertical_padding = global::NutritionApp.Droid.Resource.Dimension.tooltip_vertical_padding;
-			global::Xamarin.Forms.PancakeView.Resource.Dimension.tooltip_y_offset_non_touch = global::NutritionApp.Droid.Resource.Dimension.tooltip_y_offset_non_touch;
-			global::Xamarin.Forms.PancakeView.Resource.Dimension.tooltip_y_offset_touch = global::NutritionApp.Droid.Resource.Dimension.tooltip_y_offset_touch;
-			global::Xamarin.Forms.PancakeView.Resource.Drawable.abc_ab_share_pack_mtrl_alpha = global::NutritionApp.Droid.Resource.Drawable.abc_ab_share_pack_mtrl_alpha;
-			global::Xamarin.Forms.PancakeView.Resource.Drawable.abc_action_bar_item_background_material = global::NutritionApp.Droid.Resource.Drawable.abc_action_bar_item_background_material;
-			global::Xamarin.Forms.PancakeView.Resource.Drawable.abc_btn_borderless_material = global::NutritionApp.Droid.Resource.Drawable.abc_btn_borderless_material;
-			global::Xamarin.Forms.PancakeView.Resource.Drawable.abc_btn_check_material = global::NutritionApp.Droid.Resource.Drawable.abc_btn_check_material;
-			global::Xamarin.Forms.PancakeView.Resource.Drawable.abc_btn_check_material_anim = global::NutritionApp.Droid.Resource.Drawable.abc_btn_check_material_anim;
-			global::Xamarin.Forms.PancakeView.Resource.Drawable.abc_btn_check_to_on_mtrl_000 = global::NutritionApp.Droid.Resource.Drawable.abc_btn_check_to_on_mtrl_000;
-			global::Xamarin.Forms.PancakeView.Resource.Drawable.abc_btn_check_to_on_mtrl_015 = global::NutritionApp.Droid.Resource.Drawable.abc_btn_check_to_on_mtrl_015;
-			global::Xamarin.Forms.PancakeView.Resource.Drawable.abc_btn_colored_material = global::NutritionApp.Droid.Resource.Drawable.abc_btn_colored_material;
-			global::Xamarin.Forms.PancakeView.Resource.Drawable.abc_btn_default_mtrl_shape = global::NutritionApp.Droid.Resource.Drawable.abc_btn_default_mtrl_shape;
-			global::Xamarin.Forms.PancakeView.Resource.Drawable.abc_btn_radio_material = global::NutritionApp.Droid.Resource.Drawable.abc_btn_radio_material;
-			global::Xamarin.Forms.PancakeView.Resource.Drawable.abc_btn_radio_material_anim = global::NutritionApp.Droid.Resource.Drawable.abc_btn_radio_material_anim;
-			global::Xamarin.Forms.PancakeView.Resource.Drawable.abc_btn_radio_to_on_mtrl_000 = global::NutritionApp.Droid.Resource.Drawable.abc_btn_radio_to_on_mtrl_000;
-			global::Xamarin.Forms.PancakeView.Resource.Drawable.abc_btn_radio_to_on_mtrl_015 = global::NutritionApp.Droid.Resource.Drawable.abc_btn_radio_to_on_mtrl_015;
-			global::Xamarin.Forms.PancakeView.Resource.Drawable.abc_btn_switch_to_on_mtrl_00001 = global::NutritionApp.Droid.Resource.Drawable.abc_btn_switch_to_on_mtrl_00001;
-			global::Xamarin.Forms.PancakeView.Resource.Drawable.abc_btn_switch_to_on_mtrl_00012 = global::NutritionApp.Droid.Resource.Drawable.abc_btn_switch_to_on_mtrl_00012;
-			global::Xamarin.Forms.PancakeView.Resource.Drawable.abc_cab_background_internal_bg = global::NutritionApp.Droid.Resource.Drawable.abc_cab_background_internal_bg;
-			global::Xamarin.Forms.PancakeView.Resource.Drawable.abc_cab_background_top_material = global::NutritionApp.Droid.Resource.Drawable.abc_cab_background_top_material;
-			global::Xamarin.Forms.PancakeView.Resource.Drawable.abc_cab_background_top_mtrl_alpha = global::NutritionApp.Droid.Resource.Drawable.abc_cab_background_top_mtrl_alpha;
-			global::Xamarin.Forms.PancakeView.Resource.Drawable.abc_control_background_material = global::NutritionApp.Droid.Resource.Drawable.abc_control_background_material;
-			global::Xamarin.Forms.PancakeView.Resource.Drawable.abc_dialog_material_background = global::NutritionApp.Droid.Resource.Drawable.abc_dialog_material_background;
-			global::Xamarin.Forms.PancakeView.Resource.Drawable.abc_edit_text_material = global::NutritionApp.Droid.Resource.Drawable.abc_edit_text_material;
-			global::Xamarin.Forms.PancakeView.Resource.Drawable.abc_ic_ab_back_material = global::NutritionApp.Droid.Resource.Drawable.abc_ic_ab_back_material;
-			global::Xamarin.Forms.PancakeView.Resource.Drawable.abc_ic_arrow_drop_right_black_24dp = global::NutritionApp.Droid.Resource.Drawable.abc_ic_arrow_drop_right_black_24dp;
-			global::Xamarin.Forms.PancakeView.Resource.Drawable.abc_ic_clear_material = global::NutritionApp.Droid.Resource.Drawable.abc_ic_clear_material;
-			global::Xamarin.Forms.PancakeView.Resource.Drawable.abc_ic_commit_search_api_mtrl_alpha = global::NutritionApp.Droid.Resource.Drawable.abc_ic_commit_search_api_mtrl_alpha;
-			global::Xamarin.Forms.PancakeView.Resource.Drawable.abc_ic_go_search_api_material = global::NutritionApp.Droid.Resource.Drawable.abc_ic_go_search_api_material;
-			global::Xamarin.Forms.PancakeView.Resource.Drawable.abc_ic_menu_copy_mtrl_am_alpha = global::NutritionApp.Droid.Resource.Drawable.abc_ic_menu_copy_mtrl_am_alpha;
-			global::Xamarin.Forms.PancakeView.Resource.Drawable.abc_ic_menu_cut_mtrl_alpha = global::NutritionApp.Droid.Resource.Drawable.abc_ic_menu_cut_mtrl_alpha;
-			global::Xamarin.Forms.PancakeView.Resource.Drawable.abc_ic_menu_overflow_material = global::NutritionApp.Droid.Resource.Drawable.abc_ic_menu_overflow_material;
-			global::Xamarin.Forms.PancakeView.Resource.Drawable.abc_ic_menu_paste_mtrl_am_alpha = global::NutritionApp.Droid.Resource.Drawable.abc_ic_menu_paste_mtrl_am_alpha;
-			global::Xamarin.Forms.PancakeView.Resource.Drawable.abc_ic_menu_selectall_mtrl_alpha = global::NutritionApp.Droid.Resource.Drawable.abc_ic_menu_selectall_mtrl_alpha;
-			global::Xamarin.Forms.PancakeView.Resource.Drawable.abc_ic_menu_share_mtrl_alpha = global::NutritionApp.Droid.Resource.Drawable.abc_ic_menu_share_mtrl_alpha;
-			global::Xamarin.Forms.PancakeView.Resource.Drawable.abc_ic_search_api_material = global::NutritionApp.Droid.Resource.Drawable.abc_ic_search_api_material;
-			global::Xamarin.Forms.PancakeView.Resource.Drawable.abc_ic_voice_search_api_material = global::NutritionApp.Droid.Resource.Drawable.abc_ic_voice_search_api_material;
-			global::Xamarin.Forms.PancakeView.Resource.Drawable.abc_item_background_holo_dark = global::NutritionApp.Droid.Resource.Drawable.abc_item_background_holo_dark;
-			global::Xamarin.Forms.PancakeView.Resource.Drawable.abc_item_background_holo_light = global::NutritionApp.Droid.Resource.Drawable.abc_item_background_holo_light;
-			global::Xamarin.Forms.PancakeView.Resource.Drawable.abc_list_divider_material = global::NutritionApp.Droid.Resource.Drawable.abc_list_divider_material;
-			global::Xamarin.Forms.PancakeView.Resource.Drawable.abc_list_divider_mtrl_alpha = global::NutritionApp.Droid.Resource.Drawable.abc_list_divider_mtrl_alpha;
-			global::Xamarin.Forms.PancakeView.Resource.Drawable.abc_list_focused_holo = global::NutritionApp.Droid.Resource.Drawable.abc_list_focused_holo;
-			global::Xamarin.Forms.PancakeView.Resource.Drawable.abc_list_longpressed_holo = global::NutritionApp.Droid.Resource.Drawable.abc_list_longpressed_holo;
-			global::Xamarin.Forms.PancakeView.Resource.Drawable.abc_list_pressed_holo_dark = global::NutritionApp.Droid.Resource.Drawable.abc_list_pressed_holo_dark;
-			global::Xamarin.Forms.PancakeView.Resource.Drawable.abc_list_pressed_holo_light = global::NutritionApp.Droid.Resource.Drawable.abc_list_pressed_holo_light;
-			global::Xamarin.Forms.PancakeView.Resource.Drawable.abc_list_selector_background_transition_holo_dark = global::NutritionApp.Droid.Resource.Drawable.abc_list_selector_background_transition_holo_dark;
-			global::Xamarin.Forms.PancakeView.Resource.Drawable.abc_list_selector_background_transition_holo_light = global::NutritionApp.Droid.Resource.Drawable.abc_list_selector_background_transition_holo_light;
-			global::Xamarin.Forms.PancakeView.Resource.Drawable.abc_list_selector_disabled_holo_dark = global::NutritionApp.Droid.Resource.Drawable.abc_list_selector_disabled_holo_dark;
-			global::Xamarin.Forms.PancakeView.Resource.Drawable.abc_list_selector_disabled_holo_light = global::NutritionApp.Droid.Resource.Drawable.abc_list_selector_disabled_holo_light;
-			global::Xamarin.Forms.PancakeView.Resource.Drawable.abc_list_selector_holo_dark = global::NutritionApp.Droid.Resource.Drawable.abc_list_selector_holo_dark;
-			global::Xamarin.Forms.PancakeView.Resource.Drawable.abc_list_selector_holo_light = global::NutritionApp.Droid.Resource.Drawable.abc_list_selector_holo_light;
-			global::Xamarin.Forms.PancakeView.Resource.Drawable.abc_menu_hardkey_panel_mtrl_mult = global::NutritionApp.Droid.Resource.Drawable.abc_menu_hardkey_panel_mtrl_mult;
-			global::Xamarin.Forms.PancakeView.Resource.Drawable.abc_popup_background_mtrl_mult = global::NutritionApp.Droid.Resource.Drawable.abc_popup_background_mtrl_mult;
-			global::Xamarin.Forms.PancakeView.Resource.Drawable.abc_ratingbar_indicator_material = global::NutritionApp.Droid.Resource.Drawable.abc_ratingbar_indicator_material;
-			global::Xamarin.Forms.PancakeView.Resource.Drawable.abc_ratingbar_material = global::NutritionApp.Droid.Resource.Drawable.abc_ratingbar_material;
-			global::Xamarin.Forms.PancakeView.Resource.Drawable.abc_ratingbar_small_material = global::NutritionApp.Droid.Resource.Drawable.abc_ratingbar_small_material;
-			global::Xamarin.Forms.PancakeView.Resource.Drawable.abc_scrubber_control_off_mtrl_alpha = global::NutritionApp.Droid.Resource.Drawable.abc_scrubber_control_off_mtrl_alpha;
-			global::Xamarin.Forms.PancakeView.Resource.Drawable.abc_scrubber_control_to_pressed_mtrl_000 = global::NutritionApp.Droid.Resource.Drawable.abc_scrubber_control_to_pressed_mtrl_000;
-			global::Xamarin.Forms.PancakeView.Resource.Drawable.abc_scrubber_control_to_pressed_mtrl_005 = global::NutritionApp.Droid.Resource.Drawable.abc_scrubber_control_to_pressed_mtrl_005;
-			global::Xamarin.Forms.PancakeView.Resource.Drawable.abc_scrubber_primary_mtrl_alpha = global::NutritionApp.Droid.Resource.Drawable.abc_scrubber_primary_mtrl_alpha;
-			global::Xamarin.Forms.PancakeView.Resource.Drawable.abc_scrubber_track_mtrl_alpha = global::NutritionApp.Droid.Resource.Drawable.abc_scrubber_track_mtrl_alpha;
-			global::Xamarin.Forms.PancakeView.Resource.Drawable.abc_seekbar_thumb_material = global::NutritionApp.Droid.Resource.Drawable.abc_seekbar_thumb_material;
-			global::Xamarin.Forms.PancakeView.Resource.Drawable.abc_seekbar_tick_mark_material = global::NutritionApp.Droid.Resource.Drawable.abc_seekbar_tick_mark_material;
-			global::Xamarin.Forms.PancakeView.Resource.Drawable.abc_seekbar_track_material = global::NutritionApp.Droid.Resource.Drawable.abc_seekbar_track_material;
-			global::Xamarin.Forms.PancakeView.Resource.Drawable.abc_spinner_mtrl_am_alpha = global::NutritionApp.Droid.Resource.Drawable.abc_spinner_mtrl_am_alpha;
-			global::Xamarin.Forms.PancakeView.Resource.Drawable.abc_spinner_textfield_background_material = global::NutritionApp.Droid.Resource.Drawable.abc_spinner_textfield_background_material;
-			global::Xamarin.Forms.PancakeView.Resource.Drawable.abc_switch_thumb_material = global::NutritionApp.Droid.Resource.Drawable.abc_switch_thumb_material;
-			global::Xamarin.Forms.PancakeView.Resource.Drawable.abc_switch_track_mtrl_alpha = global::NutritionApp.Droid.Resource.Drawable.abc_switch_track_mtrl_alpha;
-			global::Xamarin.Forms.PancakeView.Resource.Drawable.abc_tab_indicator_material = global::NutritionApp.Droid.Resource.Drawable.abc_tab_indicator_material;
-			global::Xamarin.Forms.PancakeView.Resource.Drawable.abc_tab_indicator_mtrl_alpha = global::NutritionApp.Droid.Resource.Drawable.abc_tab_indicator_mtrl_alpha;
-			global::Xamarin.Forms.PancakeView.Resource.Drawable.abc_textfield_activated_mtrl_alpha = global::NutritionApp.Droid.Resource.Drawable.abc_textfield_activated_mtrl_alpha;
-			global::Xamarin.Forms.PancakeView.Resource.Drawable.abc_textfield_default_mtrl_alpha = global::NutritionApp.Droid.Resource.Drawable.abc_textfield_default_mtrl_alpha;
-			global::Xamarin.Forms.PancakeView.Resource.Drawable.abc_textfield_search_activated_mtrl_alpha = global::NutritionApp.Droid.Resource.Drawable.abc_textfield_search_activated_mtrl_alpha;
-			global::Xamarin.Forms.PancakeView.Resource.Drawable.abc_textfield_search_default_mtrl_alpha = global::NutritionApp.Droid.Resource.Drawable.abc_textfield_search_default_mtrl_alpha;
-			global::Xamarin.Forms.PancakeView.Resource.Drawable.abc_textfield_search_material = global::NutritionApp.Droid.Resource.Drawable.abc_textfield_search_material;
-			global::Xamarin.Forms.PancakeView.Resource.Drawable.abc_text_cursor_material = global::NutritionApp.Droid.Resource.Drawable.abc_text_cursor_material;
-			global::Xamarin.Forms.PancakeView.Resource.Drawable.abc_vector_test = global::NutritionApp.Droid.Resource.Drawable.abc_vector_test;
-			global::Xamarin.Forms.PancakeView.Resource.Drawable.avd_hide_password = global::NutritionApp.Droid.Resource.Drawable.avd_hide_password;
-			global::Xamarin.Forms.PancakeView.Resource.Drawable.avd_show_password = global::NutritionApp.Droid.Resource.Drawable.avd_show_password;
-			global::Xamarin.Forms.PancakeView.Resource.Drawable.btn_checkbox_checked_mtrl = global::NutritionApp.Droid.Resource.Drawable.btn_checkbox_checked_mtrl;
-			global::Xamarin.Forms.PancakeView.Resource.Drawable.btn_checkbox_checked_to_unchecked_mtrl_animation = global::NutritionApp.Droid.Resource.Drawable.btn_checkbox_checked_to_unchecked_mtrl_animation;
-			global::Xamarin.Forms.PancakeView.Resource.Drawable.btn_checkbox_unchecked_mtrl = global::NutritionApp.Droid.Resource.Drawable.btn_checkbox_unchecked_mtrl;
-			global::Xamarin.Forms.PancakeView.Resource.Drawable.btn_checkbox_unchecked_to_checked_mtrl_animation = global::NutritionApp.Droid.Resource.Drawable.btn_checkbox_unchecked_to_checked_mtrl_animation;
-			global::Xamarin.Forms.PancakeView.Resource.Drawable.btn_radio_off_mtrl = global::NutritionApp.Droid.Resource.Drawable.btn_radio_off_mtrl;
-			global::Xamarin.Forms.PancakeView.Resource.Drawable.btn_radio_off_to_on_mtrl_animation = global::NutritionApp.Droid.Resource.Drawable.btn_radio_off_to_on_mtrl_animation;
-			global::Xamarin.Forms.PancakeView.Resource.Drawable.btn_radio_on_mtrl = global::NutritionApp.Droid.Resource.Drawable.btn_radio_on_mtrl;
-			global::Xamarin.Forms.PancakeView.Resource.Drawable.btn_radio_on_to_off_mtrl_animation = global::NutritionApp.Droid.Resource.Drawable.btn_radio_on_to_off_mtrl_animation;
-			global::Xamarin.Forms.PancakeView.Resource.Drawable.design_fab_background = global::NutritionApp.Droid.Resource.Drawable.design_fab_background;
-			global::Xamarin.Forms.PancakeView.Resource.Drawable.design_ic_visibility = global::NutritionApp.Droid.Resource.Drawable.design_ic_visibility;
-			global::Xamarin.Forms.PancakeView.Resource.Drawable.design_ic_visibility_off = global::NutritionApp.Droid.Resource.Drawable.design_ic_visibility_off;
-			global::Xamarin.Forms.PancakeView.Resource.Drawable.design_password_eye = global::NutritionApp.Droid.Resource.Drawable.design_password_eye;
-			global::Xamarin.Forms.PancakeView.Resource.Drawable.design_snackbar_background = global::NutritionApp.Droid.Resource.Drawable.design_snackbar_background;
-			global::Xamarin.Forms.PancakeView.Resource.Drawable.ic_mtrl_chip_checked_black = global::NutritionApp.Droid.Resource.Drawable.ic_mtrl_chip_checked_black;
-			global::Xamarin.Forms.PancakeView.Resource.Drawable.ic_mtrl_chip_checked_circle = global::NutritionApp.Droid.Resource.Drawable.ic_mtrl_chip_checked_circle;
-			global::Xamarin.Forms.PancakeView.Resource.Drawable.ic_mtrl_chip_close_circle = global::NutritionApp.Droid.Resource.Drawable.ic_mtrl_chip_close_circle;
-			global::Xamarin.Forms.PancakeView.Resource.Drawable.mtrl_tabs_default_indicator = global::NutritionApp.Droid.Resource.Drawable.mtrl_tabs_default_indicator;
-			global::Xamarin.Forms.PancakeView.Resource.Drawable.navigation_empty_icon = global::NutritionApp.Droid.Resource.Drawable.navigation_empty_icon;
-			global::Xamarin.Forms.PancakeView.Resource.Drawable.notification_action_background = global::NutritionApp.Droid.Resource.Drawable.notification_action_background;
-			global::Xamarin.Forms.PancakeView.Resource.Drawable.notification_bg = global::NutritionApp.Droid.Resource.Drawable.notification_bg;
-			global::Xamarin.Forms.PancakeView.Resource.Drawable.notification_bg_low = global::NutritionApp.Droid.Resource.Drawable.notification_bg_low;
-			global::Xamarin.Forms.PancakeView.Resource.Drawable.notification_bg_low_normal = global::NutritionApp.Droid.Resource.Drawable.notification_bg_low_normal;
-			global::Xamarin.Forms.PancakeView.Resource.Drawable.notification_bg_low_pressed = global::NutritionApp.Droid.Resource.Drawable.notification_bg_low_pressed;
-			global::Xamarin.Forms.PancakeView.Resource.Drawable.notification_bg_normal = global::NutritionApp.Droid.Resource.Drawable.notification_bg_normal;
-			global::Xamarin.Forms.PancakeView.Resource.Drawable.notification_bg_normal_pressed = global::NutritionApp.Droid.Resource.Drawable.notification_bg_normal_pressed;
-			global::Xamarin.Forms.PancakeView.Resource.Drawable.notification_icon_background = global::NutritionApp.Droid.Resource.Drawable.notification_icon_background;
-			global::Xamarin.Forms.PancakeView.Resource.Drawable.notification_template_icon_bg = global::NutritionApp.Droid.Resource.Drawable.notification_template_icon_bg;
-			global::Xamarin.Forms.PancakeView.Resource.Drawable.notification_template_icon_low_bg = global::NutritionApp.Droid.Resource.Drawable.notification_template_icon_low_bg;
-			global::Xamarin.Forms.PancakeView.Resource.Drawable.notification_tile_bg = global::NutritionApp.Droid.Resource.Drawable.notification_tile_bg;
-			global::Xamarin.Forms.PancakeView.Resource.Drawable.notify_panel_notification_icon_bg = global::NutritionApp.Droid.Resource.Drawable.notify_panel_notification_icon_bg;
-			global::Xamarin.Forms.PancakeView.Resource.Drawable.tooltip_frame_dark = global::NutritionApp.Droid.Resource.Drawable.tooltip_frame_dark;
-			global::Xamarin.Forms.PancakeView.Resource.Drawable.tooltip_frame_light = global::NutritionApp.Droid.Resource.Drawable.tooltip_frame_light;
-			global::Xamarin.Forms.PancakeView.Resource.Id.accessibility_action_clickable_span = global::NutritionApp.Droid.Resource.Id.accessibility_action_clickable_span;
-			global::Xamarin.Forms.PancakeView.Resource.Id.accessibility_custom_action_0 = global::NutritionApp.Droid.Resource.Id.accessibility_custom_action_0;
-			global::Xamarin.Forms.PancakeView.Resource.Id.accessibility_custom_action_1 = global::NutritionApp.Droid.Resource.Id.accessibility_custom_action_1;
-			global::Xamarin.Forms.PancakeView.Resource.Id.accessibility_custom_action_10 = global::NutritionApp.Droid.Resource.Id.accessibility_custom_action_10;
-			global::Xamarin.Forms.PancakeView.Resource.Id.accessibility_custom_action_11 = global::NutritionApp.Droid.Resource.Id.accessibility_custom_action_11;
-			global::Xamarin.Forms.PancakeView.Resource.Id.accessibility_custom_action_12 = global::NutritionApp.Droid.Resource.Id.accessibility_custom_action_12;
-			global::Xamarin.Forms.PancakeView.Resource.Id.accessibility_custom_action_13 = global::NutritionApp.Droid.Resource.Id.accessibility_custom_action_13;
-			global::Xamarin.Forms.PancakeView.Resource.Id.accessibility_custom_action_14 = global::NutritionApp.Droid.Resource.Id.accessibility_custom_action_14;
-			global::Xamarin.Forms.PancakeView.Resource.Id.accessibility_custom_action_15 = global::NutritionApp.Droid.Resource.Id.accessibility_custom_action_15;
-			global::Xamarin.Forms.PancakeView.Resource.Id.accessibility_custom_action_16 = global::NutritionApp.Droid.Resource.Id.accessibility_custom_action_16;
-			global::Xamarin.Forms.PancakeView.Resource.Id.accessibility_custom_action_17 = global::NutritionApp.Droid.Resource.Id.accessibility_custom_action_17;
-			global::Xamarin.Forms.PancakeView.Resource.Id.accessibility_custom_action_18 = global::NutritionApp.Droid.Resource.Id.accessibility_custom_action_18;
-			global::Xamarin.Forms.PancakeView.Resource.Id.accessibility_custom_action_19 = global::NutritionApp.Droid.Resource.Id.accessibility_custom_action_19;
-			global::Xamarin.Forms.PancakeView.Resource.Id.accessibility_custom_action_2 = global::NutritionApp.Droid.Resource.Id.accessibility_custom_action_2;
-			global::Xamarin.Forms.PancakeView.Resource.Id.accessibility_custom_action_20 = global::NutritionApp.Droid.Resource.Id.accessibility_custom_action_20;
-			global::Xamarin.Forms.PancakeView.Resource.Id.accessibility_custom_action_21 = global::NutritionApp.Droid.Resource.Id.accessibility_custom_action_21;
-			global::Xamarin.Forms.PancakeView.Resource.Id.accessibility_custom_action_22 = global::NutritionApp.Droid.Resource.Id.accessibility_custom_action_22;
-			global::Xamarin.Forms.PancakeView.Resource.Id.accessibility_custom_action_23 = global::NutritionApp.Droid.Resource.Id.accessibility_custom_action_23;
-			global::Xamarin.Forms.PancakeView.Resource.Id.accessibility_custom_action_24 = global::NutritionApp.Droid.Resource.Id.accessibility_custom_action_24;
-			global::Xamarin.Forms.PancakeView.Resource.Id.accessibility_custom_action_25 = global::NutritionApp.Droid.Resource.Id.accessibility_custom_action_25;
-			global::Xamarin.Forms.PancakeView.Resource.Id.accessibility_custom_action_26 = global::NutritionApp.Droid.Resource.Id.accessibility_custom_action_26;
-			global::Xamarin.Forms.PancakeView.Resource.Id.accessibility_custom_action_27 = global::NutritionApp.Droid.Resource.Id.accessibility_custom_action_27;
-			global::Xamarin.Forms.PancakeView.Resource.Id.accessibility_custom_action_28 = global::NutritionApp.Droid.Resource.Id.accessibility_custom_action_28;
-			global::Xamarin.Forms.PancakeView.Resource.Id.accessibility_custom_action_29 = global::NutritionApp.Droid.Resource.Id.accessibility_custom_action_29;
-			global::Xamarin.Forms.PancakeView.Resource.Id.accessibility_custom_action_3 = global::NutritionApp.Droid.Resource.Id.accessibility_custom_action_3;
-			global::Xamarin.Forms.PancakeView.Resource.Id.accessibility_custom_action_30 = global::NutritionApp.Droid.Resource.Id.accessibility_custom_action_30;
-			global::Xamarin.Forms.PancakeView.Resource.Id.accessibility_custom_action_31 = global::NutritionApp.Droid.Resource.Id.accessibility_custom_action_31;
-			global::Xamarin.Forms.PancakeView.Resource.Id.accessibility_custom_action_4 = global::NutritionApp.Droid.Resource.Id.accessibility_custom_action_4;
-			global::Xamarin.Forms.PancakeView.Resource.Id.accessibility_custom_action_5 = global::NutritionApp.Droid.Resource.Id.accessibility_custom_action_5;
-			global::Xamarin.Forms.PancakeView.Resource.Id.accessibility_custom_action_6 = global::NutritionApp.Droid.Resource.Id.accessibility_custom_action_6;
-			global::Xamarin.Forms.PancakeView.Resource.Id.accessibility_custom_action_7 = global::NutritionApp.Droid.Resource.Id.accessibility_custom_action_7;
-			global::Xamarin.Forms.PancakeView.Resource.Id.accessibility_custom_action_8 = global::NutritionApp.Droid.Resource.Id.accessibility_custom_action_8;
-			global::Xamarin.Forms.PancakeView.Resource.Id.accessibility_custom_action_9 = global::NutritionApp.Droid.Resource.Id.accessibility_custom_action_9;
-			global::Xamarin.Forms.PancakeView.Resource.Id.action0 = global::NutritionApp.Droid.Resource.Id.action0;
-			global::Xamarin.Forms.PancakeView.Resource.Id.actions = global::NutritionApp.Droid.Resource.Id.actions;
-			global::Xamarin.Forms.PancakeView.Resource.Id.action_bar = global::NutritionApp.Droid.Resource.Id.action_bar;
-			global::Xamarin.Forms.PancakeView.Resource.Id.action_bar_activity_content = global::NutritionApp.Droid.Resource.Id.action_bar_activity_content;
-			global::Xamarin.Forms.PancakeView.Resource.Id.action_bar_container = global::NutritionApp.Droid.Resource.Id.action_bar_container;
-			global::Xamarin.Forms.PancakeView.Resource.Id.action_bar_root = global::NutritionApp.Droid.Resource.Id.action_bar_root;
-			global::Xamarin.Forms.PancakeView.Resource.Id.action_bar_spinner = global::NutritionApp.Droid.Resource.Id.action_bar_spinner;
-			global::Xamarin.Forms.PancakeView.Resource.Id.action_bar_subtitle = global::NutritionApp.Droid.Resource.Id.action_bar_subtitle;
-			global::Xamarin.Forms.PancakeView.Resource.Id.action_bar_title = global::NutritionApp.Droid.Resource.Id.action_bar_title;
-			global::Xamarin.Forms.PancakeView.Resource.Id.action_container = global::NutritionApp.Droid.Resource.Id.action_container;
-			global::Xamarin.Forms.PancakeView.Resource.Id.action_context_bar = global::NutritionApp.Droid.Resource.Id.action_context_bar;
-			global::Xamarin.Forms.PancakeView.Resource.Id.action_divider = global::NutritionApp.Droid.Resource.Id.action_divider;
-			global::Xamarin.Forms.PancakeView.Resource.Id.action_image = global::NutritionApp.Droid.Resource.Id.action_image;
-			global::Xamarin.Forms.PancakeView.Resource.Id.action_menu_divider = global::NutritionApp.Droid.Resource.Id.action_menu_divider;
-			global::Xamarin.Forms.PancakeView.Resource.Id.action_menu_presenter = global::NutritionApp.Droid.Resource.Id.action_menu_presenter;
-			global::Xamarin.Forms.PancakeView.Resource.Id.action_mode_bar = global::NutritionApp.Droid.Resource.Id.action_mode_bar;
-			global::Xamarin.Forms.PancakeView.Resource.Id.action_mode_bar_stub = global::NutritionApp.Droid.Resource.Id.action_mode_bar_stub;
-			global::Xamarin.Forms.PancakeView.Resource.Id.action_mode_close_button = global::NutritionApp.Droid.Resource.Id.action_mode_close_button;
-			global::Xamarin.Forms.PancakeView.Resource.Id.action_text = global::NutritionApp.Droid.Resource.Id.action_text;
-			global::Xamarin.Forms.PancakeView.Resource.Id.activity_chooser_view_content = global::NutritionApp.Droid.Resource.Id.activity_chooser_view_content;
-			global::Xamarin.Forms.PancakeView.Resource.Id.add = global::NutritionApp.Droid.Resource.Id.add;
-			global::Xamarin.Forms.PancakeView.Resource.Id.alertTitle = global::NutritionApp.Droid.Resource.Id.alertTitle;
-			global::Xamarin.Forms.PancakeView.Resource.Id.all = global::NutritionApp.Droid.Resource.Id.all;
-			global::Xamarin.Forms.PancakeView.Resource.Id.ALT = global::NutritionApp.Droid.Resource.Id.ALT;
-			global::Xamarin.Forms.PancakeView.Resource.Id.always = global::NutritionApp.Droid.Resource.Id.always;
-			global::Xamarin.Forms.PancakeView.Resource.Id.async = global::NutritionApp.Droid.Resource.Id.async;
-			global::Xamarin.Forms.PancakeView.Resource.Id.auto = global::NutritionApp.Droid.Resource.Id.auto;
-			global::Xamarin.Forms.PancakeView.Resource.Id.beginning = global::NutritionApp.Droid.Resource.Id.beginning;
-			global::Xamarin.Forms.PancakeView.Resource.Id.blocking = global::NutritionApp.Droid.Resource.Id.blocking;
-			global::Xamarin.Forms.PancakeView.Resource.Id.bottom = global::NutritionApp.Droid.Resource.Id.bottom;
-			global::Xamarin.Forms.PancakeView.Resource.Id.bottomtab_navarea = global::NutritionApp.Droid.Resource.Id.bottomtab_navarea;
-			global::Xamarin.Forms.PancakeView.Resource.Id.bottomtab_tabbar = global::NutritionApp.Droid.Resource.Id.bottomtab_tabbar;
-			global::Xamarin.Forms.PancakeView.Resource.Id.browser_actions_header_text = global::NutritionApp.Droid.Resource.Id.browser_actions_header_text;
-			global::Xamarin.Forms.PancakeView.Resource.Id.browser_actions_menu_items = global::NutritionApp.Droid.Resource.Id.browser_actions_menu_items;
-			global::Xamarin.Forms.PancakeView.Resource.Id.browser_actions_menu_item_icon = global::NutritionApp.Droid.Resource.Id.browser_actions_menu_item_icon;
-			global::Xamarin.Forms.PancakeView.Resource.Id.browser_actions_menu_item_text = global::NutritionApp.Droid.Resource.Id.browser_actions_menu_item_text;
-			global::Xamarin.Forms.PancakeView.Resource.Id.browser_actions_menu_view = global::NutritionApp.Droid.Resource.Id.browser_actions_menu_view;
-			global::Xamarin.Forms.PancakeView.Resource.Id.buttonPanel = global::NutritionApp.Droid.Resource.Id.buttonPanel;
-			global::Xamarin.Forms.PancakeView.Resource.Id.cancel_action = global::NutritionApp.Droid.Resource.Id.cancel_action;
-			global::Xamarin.Forms.PancakeView.Resource.Id.center = global::NutritionApp.Droid.Resource.Id.center;
-			global::Xamarin.Forms.PancakeView.Resource.Id.center_horizontal = global::NutritionApp.Droid.Resource.Id.center_horizontal;
-			global::Xamarin.Forms.PancakeView.Resource.Id.center_vertical = global::NutritionApp.Droid.Resource.Id.center_vertical;
-			global::Xamarin.Forms.PancakeView.Resource.Id.checkbox = global::NutritionApp.Droid.Resource.Id.checkbox;
-			global::Xamarin.Forms.PancakeView.Resource.Id.@checked = global::NutritionApp.Droid.Resource.Id.@checked;
-			global::Xamarin.Forms.PancakeView.Resource.Id.chronometer = global::NutritionApp.Droid.Resource.Id.chronometer;
-			global::Xamarin.Forms.PancakeView.Resource.Id.clip_horizontal = global::NutritionApp.Droid.Resource.Id.clip_horizontal;
-			global::Xamarin.Forms.PancakeView.Resource.Id.clip_vertical = global::NutritionApp.Droid.Resource.Id.clip_vertical;
-			global::Xamarin.Forms.PancakeView.Resource.Id.collapseActionView = global::NutritionApp.Droid.Resource.Id.collapseActionView;
-			global::Xamarin.Forms.PancakeView.Resource.Id.container = global::NutritionApp.Droid.Resource.Id.container;
-			global::Xamarin.Forms.PancakeView.Resource.Id.content = global::NutritionApp.Droid.Resource.Id.content;
-			global::Xamarin.Forms.PancakeView.Resource.Id.contentPanel = global::NutritionApp.Droid.Resource.Id.contentPanel;
-			global::Xamarin.Forms.PancakeView.Resource.Id.coordinator = global::NutritionApp.Droid.Resource.Id.coordinator;
-			global::Xamarin.Forms.PancakeView.Resource.Id.CTRL = global::NutritionApp.Droid.Resource.Id.CTRL;
-			global::Xamarin.Forms.PancakeView.Resource.Id.custom = global::NutritionApp.Droid.Resource.Id.custom;
-			global::Xamarin.Forms.PancakeView.Resource.Id.customPanel = global::NutritionApp.Droid.Resource.Id.customPanel;
-			global::Xamarin.Forms.PancakeView.Resource.Id.decor_content_parent = global::NutritionApp.Droid.Resource.Id.decor_content_parent;
-			global::Xamarin.Forms.PancakeView.Resource.Id.default_activity_button = global::NutritionApp.Droid.Resource.Id.default_activity_button;
-			global::Xamarin.Forms.PancakeView.Resource.Id.design_bottom_sheet = global::NutritionApp.Droid.Resource.Id.design_bottom_sheet;
-			global::Xamarin.Forms.PancakeView.Resource.Id.design_menu_item_action_area = global::NutritionApp.Droid.Resource.Id.design_menu_item_action_area;
-			global::Xamarin.Forms.PancakeView.Resource.Id.design_menu_item_action_area_stub = global::NutritionApp.Droid.Resource.Id.design_menu_item_action_area_stub;
-			global::Xamarin.Forms.PancakeView.Resource.Id.design_menu_item_text = global::NutritionApp.Droid.Resource.Id.design_menu_item_text;
-			global::Xamarin.Forms.PancakeView.Resource.Id.design_navigation_view = global::NutritionApp.Droid.Resource.Id.design_navigation_view;
-			global::Xamarin.Forms.PancakeView.Resource.Id.dialog_button = global::NutritionApp.Droid.Resource.Id.dialog_button;
-			global::Xamarin.Forms.PancakeView.Resource.Id.disableHome = global::NutritionApp.Droid.Resource.Id.disableHome;
-			global::Xamarin.Forms.PancakeView.Resource.Id.edit_query = global::NutritionApp.Droid.Resource.Id.edit_query;
-			global::Xamarin.Forms.PancakeView.Resource.Id.end = global::NutritionApp.Droid.Resource.Id.end;
-			global::Xamarin.Forms.PancakeView.Resource.Id.end_padder = global::NutritionApp.Droid.Resource.Id.end_padder;
-			global::Xamarin.Forms.PancakeView.Resource.Id.enterAlways = global::NutritionApp.Droid.Resource.Id.enterAlways;
-			global::Xamarin.Forms.PancakeView.Resource.Id.enterAlwaysCollapsed = global::NutritionApp.Droid.Resource.Id.enterAlwaysCollapsed;
-			global::Xamarin.Forms.PancakeView.Resource.Id.exitUntilCollapsed = global::NutritionApp.Droid.Resource.Id.exitUntilCollapsed;
-			global::Xamarin.Forms.PancakeView.Resource.Id.expanded_menu = global::NutritionApp.Droid.Resource.Id.expanded_menu;
-			global::Xamarin.Forms.PancakeView.Resource.Id.expand_activities_button = global::NutritionApp.Droid.Resource.Id.expand_activities_button;
-			global::Xamarin.Forms.PancakeView.Resource.Id.fill = global::NutritionApp.Droid.Resource.Id.fill;
-			global::Xamarin.Forms.PancakeView.Resource.Id.filled = global::NutritionApp.Droid.Resource.Id.filled;
-			global::Xamarin.Forms.PancakeView.Resource.Id.fill_horizontal = global::NutritionApp.Droid.Resource.Id.fill_horizontal;
-			global::Xamarin.Forms.PancakeView.Resource.Id.fill_vertical = global::NutritionApp.Droid.Resource.Id.fill_vertical;
-			global::Xamarin.Forms.PancakeView.Resource.Id.@fixed = global::NutritionApp.Droid.Resource.Id.@fixed;
-			global::Xamarin.Forms.PancakeView.Resource.Id.flyoutcontent_appbar = global::NutritionApp.Droid.Resource.Id.flyoutcontent_appbar;
-			global::Xamarin.Forms.PancakeView.Resource.Id.forever = global::NutritionApp.Droid.Resource.Id.forever;
-			global::Xamarin.Forms.PancakeView.Resource.Id.fragment_container_view_tag = global::NutritionApp.Droid.Resource.Id.fragment_container_view_tag;
-			global::Xamarin.Forms.PancakeView.Resource.Id.FUNCTION = global::NutritionApp.Droid.Resource.Id.FUNCTION;
-			global::Xamarin.Forms.PancakeView.Resource.Id.ghost_view = global::NutritionApp.Droid.Resource.Id.ghost_view;
-			global::Xamarin.Forms.PancakeView.Resource.Id.ghost_view_holder = global::NutritionApp.Droid.Resource.Id.ghost_view_holder;
-			global::Xamarin.Forms.PancakeView.Resource.Id.group_divider = global::NutritionApp.Droid.Resource.Id.group_divider;
-			global::Xamarin.Forms.PancakeView.Resource.Id.home = global::NutritionApp.Droid.Resource.Id.home;
-			global::Xamarin.Forms.PancakeView.Resource.Id.homeAsUp = global::NutritionApp.Droid.Resource.Id.homeAsUp;
-			global::Xamarin.Forms.PancakeView.Resource.Id.icon = global::NutritionApp.Droid.Resource.Id.icon;
-			global::Xamarin.Forms.PancakeView.Resource.Id.icon_group = global::NutritionApp.Droid.Resource.Id.icon_group;
-			global::Xamarin.Forms.PancakeView.Resource.Id.ifRoom = global::NutritionApp.Droid.Resource.Id.ifRoom;
-			global::Xamarin.Forms.PancakeView.Resource.Id.image = global::NutritionApp.Droid.Resource.Id.image;
-			global::Xamarin.Forms.PancakeView.Resource.Id.info = global::NutritionApp.Droid.Resource.Id.info;
-			global::Xamarin.Forms.PancakeView.Resource.Id.italic = global::NutritionApp.Droid.Resource.Id.italic;
-			global::Xamarin.Forms.PancakeView.Resource.Id.item_touch_helper_previous_elevation = global::NutritionApp.Droid.Resource.Id.item_touch_helper_previous_elevation;
-			global::Xamarin.Forms.PancakeView.Resource.Id.labeled = global::NutritionApp.Droid.Resource.Id.labeled;
-			global::Xamarin.Forms.PancakeView.Resource.Id.left = global::NutritionApp.Droid.Resource.Id.left;
-			global::Xamarin.Forms.PancakeView.Resource.Id.line1 = global::NutritionApp.Droid.Resource.Id.line1;
-			global::Xamarin.Forms.PancakeView.Resource.Id.line3 = global::NutritionApp.Droid.Resource.Id.line3;
-			global::Xamarin.Forms.PancakeView.Resource.Id.listMode = global::NutritionApp.Droid.Resource.Id.listMode;
-			global::Xamarin.Forms.PancakeView.Resource.Id.list_item = global::NutritionApp.Droid.Resource.Id.list_item;
-			global::Xamarin.Forms.PancakeView.Resource.Id.main_appbar = global::NutritionApp.Droid.Resource.Id.main_appbar;
-			global::Xamarin.Forms.PancakeView.Resource.Id.main_tablayout = global::NutritionApp.Droid.Resource.Id.main_tablayout;
-			global::Xamarin.Forms.PancakeView.Resource.Id.main_toolbar = global::NutritionApp.Droid.Resource.Id.main_toolbar;
-			global::Xamarin.Forms.PancakeView.Resource.Id.main_viewpager = global::NutritionApp.Droid.Resource.Id.main_viewpager;
-			global::Xamarin.Forms.PancakeView.Resource.Id.masked = global::NutritionApp.Droid.Resource.Id.masked;
-			global::Xamarin.Forms.PancakeView.Resource.Id.media_actions = global::NutritionApp.Droid.Resource.Id.media_actions;
-			global::Xamarin.Forms.PancakeView.Resource.Id.message = global::NutritionApp.Droid.Resource.Id.message;
-			global::Xamarin.Forms.PancakeView.Resource.Id.META = global::NutritionApp.Droid.Resource.Id.META;
-			global::Xamarin.Forms.PancakeView.Resource.Id.middle = global::NutritionApp.Droid.Resource.Id.middle;
-			global::Xamarin.Forms.PancakeView.Resource.Id.mini = global::NutritionApp.Droid.Resource.Id.mini;
-			global::Xamarin.Forms.PancakeView.Resource.Id.mtrl_child_content_container = global::NutritionApp.Droid.Resource.Id.mtrl_child_content_container;
-			global::Xamarin.Forms.PancakeView.Resource.Id.mtrl_internal_children_alpha_tag = global::NutritionApp.Droid.Resource.Id.mtrl_internal_children_alpha_tag;
-			global::Xamarin.Forms.PancakeView.Resource.Id.multiply = global::NutritionApp.Droid.Resource.Id.multiply;
-			global::Xamarin.Forms.PancakeView.Resource.Id.navigation_header_container = global::NutritionApp.Droid.Resource.Id.navigation_header_container;
-			global::Xamarin.Forms.PancakeView.Resource.Id.never = global::NutritionApp.Droid.Resource.Id.never;
-			global::Xamarin.Forms.PancakeView.Resource.Id.none = global::NutritionApp.Droid.Resource.Id.none;
-			global::Xamarin.Forms.PancakeView.Resource.Id.normal = global::NutritionApp.Droid.Resource.Id.normal;
-			global::Xamarin.Forms.PancakeView.Resource.Id.notification_background = global::NutritionApp.Droid.Resource.Id.notification_background;
-			global::Xamarin.Forms.PancakeView.Resource.Id.notification_main_column = global::NutritionApp.Droid.Resource.Id.notification_main_column;
-			global::Xamarin.Forms.PancakeView.Resource.Id.notification_main_column_container = global::NutritionApp.Droid.Resource.Id.notification_main_column_container;
-			global::Xamarin.Forms.PancakeView.Resource.Id.off = global::NutritionApp.Droid.Resource.Id.off;
-			global::Xamarin.Forms.PancakeView.Resource.Id.on = global::NutritionApp.Droid.Resource.Id.on;
-			global::Xamarin.Forms.PancakeView.Resource.Id.outline = global::NutritionApp.Droid.Resource.Id.outline;
-			global::Xamarin.Forms.PancakeView.Resource.Id.parallax = global::NutritionApp.Droid.Resource.Id.parallax;
-			global::Xamarin.Forms.PancakeView.Resource.Id.parentPanel = global::NutritionApp.Droid.Resource.Id.parentPanel;
-			global::Xamarin.Forms.PancakeView.Resource.Id.parent_matrix = global::NutritionApp.Droid.Resource.Id.parent_matrix;
-			global::Xamarin.Forms.PancakeView.Resource.Id.pin = global::NutritionApp.Droid.Resource.Id.pin;
-			global::Xamarin.Forms.PancakeView.Resource.Id.progress_circular = global::NutritionApp.Droid.Resource.Id.progress_circular;
-			global::Xamarin.Forms.PancakeView.Resource.Id.progress_horizontal = global::NutritionApp.Droid.Resource.Id.progress_horizontal;
-			global::Xamarin.Forms.PancakeView.Resource.Id.radio = global::NutritionApp.Droid.Resource.Id.radio;
-			global::Xamarin.Forms.PancakeView.Resource.Id.right = global::NutritionApp.Droid.Resource.Id.right;
-			global::Xamarin.Forms.PancakeView.Resource.Id.right_icon = global::NutritionApp.Droid.Resource.Id.right_icon;
-			global::Xamarin.Forms.PancakeView.Resource.Id.right_side = global::NutritionApp.Droid.Resource.Id.right_side;
-			global::Xamarin.Forms.PancakeView.Resource.Id.save_non_transition_alpha = global::NutritionApp.Droid.Resource.Id.save_non_transition_alpha;
-			global::Xamarin.Forms.PancakeView.Resource.Id.save_overlay_view = global::NutritionApp.Droid.Resource.Id.save_overlay_view;
-			global::Xamarin.Forms.PancakeView.Resource.Id.screen = global::NutritionApp.Droid.Resource.Id.screen;
-			global::Xamarin.Forms.PancakeView.Resource.Id.scroll = global::NutritionApp.Droid.Resource.Id.scroll;
-			global::Xamarin.Forms.PancakeView.Resource.Id.scrollable = global::NutritionApp.Droid.Resource.Id.scrollable;
-			global::Xamarin.Forms.PancakeView.Resource.Id.scrollIndicatorDown = global::NutritionApp.Droid.Resource.Id.scrollIndicatorDown;
-			global::Xamarin.Forms.PancakeView.Resource.Id.scrollIndicatorUp = global::NutritionApp.Droid.Resource.Id.scrollIndicatorUp;
-			global::Xamarin.Forms.PancakeView.Resource.Id.scrollView = global::NutritionApp.Droid.Resource.Id.scrollView;
-			global::Xamarin.Forms.PancakeView.Resource.Id.search_badge = global::NutritionApp.Droid.Resource.Id.search_badge;
-			global::Xamarin.Forms.PancakeView.Resource.Id.search_bar = global::NutritionApp.Droid.Resource.Id.search_bar;
-			global::Xamarin.Forms.PancakeView.Resource.Id.search_button = global::NutritionApp.Droid.Resource.Id.search_button;
-			global::Xamarin.Forms.PancakeView.Resource.Id.search_close_btn = global::NutritionApp.Droid.Resource.Id.search_close_btn;
-			global::Xamarin.Forms.PancakeView.Resource.Id.search_edit_frame = global::NutritionApp.Droid.Resource.Id.search_edit_frame;
-			global::Xamarin.Forms.PancakeView.Resource.Id.search_go_btn = global::NutritionApp.Droid.Resource.Id.search_go_btn;
-			global::Xamarin.Forms.PancakeView.Resource.Id.search_mag_icon = global::NutritionApp.Droid.Resource.Id.search_mag_icon;
-			global::Xamarin.Forms.PancakeView.Resource.Id.search_plate = global::NutritionApp.Droid.Resource.Id.search_plate;
-			global::Xamarin.Forms.PancakeView.Resource.Id.search_src_text = global::NutritionApp.Droid.Resource.Id.search_src_text;
-			global::Xamarin.Forms.PancakeView.Resource.Id.search_voice_btn = global::NutritionApp.Droid.Resource.Id.search_voice_btn;
-			global::Xamarin.Forms.PancakeView.Resource.Id.selected = global::NutritionApp.Droid.Resource.Id.selected;
-			global::Xamarin.Forms.PancakeView.Resource.Id.select_dialog_listview = global::NutritionApp.Droid.Resource.Id.select_dialog_listview;
-			global::Xamarin.Forms.PancakeView.Resource.Id.shellcontent_appbar = global::NutritionApp.Droid.Resource.Id.shellcontent_appbar;
-			global::Xamarin.Forms.PancakeView.Resource.Id.shellcontent_toolbar = global::NutritionApp.Droid.Resource.Id.shellcontent_toolbar;
-			global::Xamarin.Forms.PancakeView.Resource.Id.SHIFT = global::NutritionApp.Droid.Resource.Id.SHIFT;
-			global::Xamarin.Forms.PancakeView.Resource.Id.shortcut = global::NutritionApp.Droid.Resource.Id.shortcut;
-			global::Xamarin.Forms.PancakeView.Resource.Id.showCustom = global::NutritionApp.Droid.Resource.Id.showCustom;
-			global::Xamarin.Forms.PancakeView.Resource.Id.showHome = global::NutritionApp.Droid.Resource.Id.showHome;
-			global::Xamarin.Forms.PancakeView.Resource.Id.showTitle = global::NutritionApp.Droid.Resource.Id.showTitle;
-			global::Xamarin.Forms.PancakeView.Resource.Id.sliding_tabs = global::NutritionApp.Droid.Resource.Id.sliding_tabs;
-			global::Xamarin.Forms.PancakeView.Resource.Id.snackbar_action = global::NutritionApp.Droid.Resource.Id.snackbar_action;
-			global::Xamarin.Forms.PancakeView.Resource.Id.snackbar_text = global::NutritionApp.Droid.Resource.Id.snackbar_text;
-			global::Xamarin.Forms.PancakeView.Resource.Id.snap = global::NutritionApp.Droid.Resource.Id.snap;
-			global::Xamarin.Forms.PancakeView.Resource.Id.snapMargins = global::NutritionApp.Droid.Resource.Id.snapMargins;
-			global::Xamarin.Forms.PancakeView.Resource.Id.spacer = global::NutritionApp.Droid.Resource.Id.spacer;
-			global::Xamarin.Forms.PancakeView.Resource.Id.split_action_bar = global::NutritionApp.Droid.Resource.Id.split_action_bar;
-			global::Xamarin.Forms.PancakeView.Resource.Id.src_atop = global::NutritionApp.Droid.Resource.Id.src_atop;
-			global::Xamarin.Forms.PancakeView.Resource.Id.src_in = global::NutritionApp.Droid.Resource.Id.src_in;
-			global::Xamarin.Forms.PancakeView.Resource.Id.src_over = global::NutritionApp.Droid.Resource.Id.src_over;
-			global::Xamarin.Forms.PancakeView.Resource.Id.start = global::NutritionApp.Droid.Resource.Id.start;
-			global::Xamarin.Forms.PancakeView.Resource.Id.status_bar_latest_event_content = global::NutritionApp.Droid.Resource.Id.status_bar_latest_event_content;
-			global::Xamarin.Forms.PancakeView.Resource.Id.stretch = global::NutritionApp.Droid.Resource.Id.stretch;
-			global::Xamarin.Forms.PancakeView.Resource.Id.submenuarrow = global::NutritionApp.Droid.Resource.Id.submenuarrow;
-			global::Xamarin.Forms.PancakeView.Resource.Id.submit_area = global::NutritionApp.Droid.Resource.Id.submit_area;
-			global::Xamarin.Forms.PancakeView.Resource.Id.SYM = global::NutritionApp.Droid.Resource.Id.SYM;
-			global::Xamarin.Forms.PancakeView.Resource.Id.tabMode = global::NutritionApp.Droid.Resource.Id.tabMode;
-			global::Xamarin.Forms.PancakeView.Resource.Id.tag_accessibility_actions = global::NutritionApp.Droid.Resource.Id.tag_accessibility_actions;
-			global::Xamarin.Forms.PancakeView.Resource.Id.tag_accessibility_clickable_spans = global::NutritionApp.Droid.Resource.Id.tag_accessibility_clickable_spans;
-			global::Xamarin.Forms.PancakeView.Resource.Id.tag_accessibility_heading = global::NutritionApp.Droid.Resource.Id.tag_accessibility_heading;
-			global::Xamarin.Forms.PancakeView.Resource.Id.tag_accessibility_pane_title = global::NutritionApp.Droid.Resource.Id.tag_accessibility_pane_title;
-			global::Xamarin.Forms.PancakeView.Resource.Id.tag_screen_reader_focusable = global::NutritionApp.Droid.Resource.Id.tag_screen_reader_focusable;
-			global::Xamarin.Forms.PancakeView.Resource.Id.tag_transition_group = global::NutritionApp.Droid.Resource.Id.tag_transition_group;
-			global::Xamarin.Forms.PancakeView.Resource.Id.tag_unhandled_key_event_manager = global::NutritionApp.Droid.Resource.Id.tag_unhandled_key_event_manager;
-			global::Xamarin.Forms.PancakeView.Resource.Id.tag_unhandled_key_listeners = global::NutritionApp.Droid.Resource.Id.tag_unhandled_key_listeners;
-			global::Xamarin.Forms.PancakeView.Resource.Id.text = global::NutritionApp.Droid.Resource.Id.text;
-			global::Xamarin.Forms.PancakeView.Resource.Id.text2 = global::NutritionApp.Droid.Resource.Id.text2;
-			global::Xamarin.Forms.PancakeView.Resource.Id.textinput_counter = global::NutritionApp.Droid.Resource.Id.textinput_counter;
-			global::Xamarin.Forms.PancakeView.Resource.Id.textinput_error = global::NutritionApp.Droid.Resource.Id.textinput_error;
-			global::Xamarin.Forms.PancakeView.Resource.Id.textinput_helper_text = global::NutritionApp.Droid.Resource.Id.textinput_helper_text;
-			global::Xamarin.Forms.PancakeView.Resource.Id.textSpacerNoButtons = global::NutritionApp.Droid.Resource.Id.textSpacerNoButtons;
-			global::Xamarin.Forms.PancakeView.Resource.Id.textSpacerNoTitle = global::NutritionApp.Droid.Resource.Id.textSpacerNoTitle;
-			global::Xamarin.Forms.PancakeView.Resource.Id.textStart = global::NutritionApp.Droid.Resource.Id.textStart;
-			global::Xamarin.Forms.PancakeView.Resource.Id.time = global::NutritionApp.Droid.Resource.Id.time;
-			global::Xamarin.Forms.PancakeView.Resource.Id.title = global::NutritionApp.Droid.Resource.Id.title;
-			global::Xamarin.Forms.PancakeView.Resource.Id.titleDividerNoCustom = global::NutritionApp.Droid.Resource.Id.titleDividerNoCustom;
-			global::Xamarin.Forms.PancakeView.Resource.Id.title_template = global::NutritionApp.Droid.Resource.Id.title_template;
-			global::Xamarin.Forms.PancakeView.Resource.Id.toolbar = global::NutritionApp.Droid.Resource.Id.toolbar;
-			global::Xamarin.Forms.PancakeView.Resource.Id.top = global::NutritionApp.Droid.Resource.Id.top;
-			global::Xamarin.Forms.PancakeView.Resource.Id.topPanel = global::NutritionApp.Droid.Resource.Id.topPanel;
-			global::Xamarin.Forms.PancakeView.Resource.Id.touch_outside = global::NutritionApp.Droid.Resource.Id.touch_outside;
-			global::Xamarin.Forms.PancakeView.Resource.Id.transition_current_scene = global::NutritionApp.Droid.Resource.Id.transition_current_scene;
-			global::Xamarin.Forms.PancakeView.Resource.Id.transition_layout_save = global::NutritionApp.Droid.Resource.Id.transition_layout_save;
-			global::Xamarin.Forms.PancakeView.Resource.Id.transition_position = global::NutritionApp.Droid.Resource.Id.transition_position;
-			global::Xamarin.Forms.PancakeView.Resource.Id.transition_scene_layoutid_cache = global::NutritionApp.Droid.Resource.Id.transition_scene_layoutid_cache;
-			global::Xamarin.Forms.PancakeView.Resource.Id.transition_transform = global::NutritionApp.Droid.Resource.Id.transition_transform;
-			global::Xamarin.Forms.PancakeView.Resource.Id.@unchecked = global::NutritionApp.Droid.Resource.Id.@unchecked;
-			global::Xamarin.Forms.PancakeView.Resource.Id.uniform = global::NutritionApp.Droid.Resource.Id.uniform;
-			global::Xamarin.Forms.PancakeView.Resource.Id.unlabeled = global::NutritionApp.Droid.Resource.Id.unlabeled;
-			global::Xamarin.Forms.PancakeView.Resource.Id.up = global::NutritionApp.Droid.Resource.Id.up;
-			global::Xamarin.Forms.PancakeView.Resource.Id.useLogo = global::NutritionApp.Droid.Resource.Id.useLogo;
-			global::Xamarin.Forms.PancakeView.Resource.Id.view_offset_helper = global::NutritionApp.Droid.Resource.Id.view_offset_helper;
-			global::Xamarin.Forms.PancakeView.Resource.Id.view_tree_saved_state_registry_owner = global::NutritionApp.Droid.Resource.Id.view_tree_saved_state_registry_owner;
-			global::Xamarin.Forms.PancakeView.Resource.Id.visible = global::NutritionApp.Droid.Resource.Id.visible;
-			global::Xamarin.Forms.PancakeView.Resource.Id.visible_removing_fragment_view_tag = global::NutritionApp.Droid.Resource.Id.visible_removing_fragment_view_tag;
-			global::Xamarin.Forms.PancakeView.Resource.Id.withText = global::NutritionApp.Droid.Resource.Id.withText;
-			global::Xamarin.Forms.PancakeView.Resource.Id.wrap_content = global::NutritionApp.Droid.Resource.Id.wrap_content;
-			global::Xamarin.Forms.PancakeView.Resource.Integer.abc_config_activityDefaultDur = global::NutritionApp.Droid.Resource.Integer.abc_config_activityDefaultDur;
-			global::Xamarin.Forms.PancakeView.Resource.Integer.abc_config_activityShortDur = global::NutritionApp.Droid.Resource.Integer.abc_config_activityShortDur;
-			global::Xamarin.Forms.PancakeView.Resource.Integer.app_bar_elevation_anim_duration = global::NutritionApp.Droid.Resource.Integer.app_bar_elevation_anim_duration;
-			global::Xamarin.Forms.PancakeView.Resource.Integer.bottom_sheet_slide_duration = global::NutritionApp.Droid.Resource.Integer.bottom_sheet_slide_duration;
-			global::Xamarin.Forms.PancakeView.Resource.Integer.cancel_button_image_alpha = global::NutritionApp.Droid.Resource.Integer.cancel_button_image_alpha;
-			global::Xamarin.Forms.PancakeView.Resource.Integer.config_tooltipAnimTime = global::NutritionApp.Droid.Resource.Integer.config_tooltipAnimTime;
-			global::Xamarin.Forms.PancakeView.Resource.Integer.design_snackbar_text_max_lines = global::NutritionApp.Droid.Resource.Integer.design_snackbar_text_max_lines;
-			global::Xamarin.Forms.PancakeView.Resource.Integer.design_tab_indicator_anim_duration_ms = global::NutritionApp.Droid.Resource.Integer.design_tab_indicator_anim_duration_ms;
-			global::Xamarin.Forms.PancakeView.Resource.Integer.hide_password_duration = global::NutritionApp.Droid.Resource.Integer.hide_password_duration;
-			global::Xamarin.Forms.PancakeView.Resource.Integer.mtrl_btn_anim_delay_ms = global::NutritionApp.Droid.Resource.Integer.mtrl_btn_anim_delay_ms;
-			global::Xamarin.Forms.PancakeView.Resource.Integer.mtrl_btn_anim_duration_ms = global::NutritionApp.Droid.Resource.Integer.mtrl_btn_anim_duration_ms;
-			global::Xamarin.Forms.PancakeView.Resource.Integer.mtrl_chip_anim_duration = global::NutritionApp.Droid.Resource.Integer.mtrl_chip_anim_duration;
-			global::Xamarin.Forms.PancakeView.Resource.Integer.mtrl_tab_indicator_anim_duration_ms = global::NutritionApp.Droid.Resource.Integer.mtrl_tab_indicator_anim_duration_ms;
-			global::Xamarin.Forms.PancakeView.Resource.Integer.show_password_duration = global::NutritionApp.Droid.Resource.Integer.show_password_duration;
-			global::Xamarin.Forms.PancakeView.Resource.Integer.status_bar_notification_info_maxnum = global::NutritionApp.Droid.Resource.Integer.status_bar_notification_info_maxnum;
-			global::Xamarin.Forms.PancakeView.Resource.Interpolator.btn_checkbox_checked_mtrl_animation_interpolator_0 = global::NutritionApp.Droid.Resource.Interpolator.btn_checkbox_checked_mtrl_animation_interpolator_0;
-			global::Xamarin.Forms.PancakeView.Resource.Interpolator.btn_checkbox_checked_mtrl_animation_interpolator_1 = global::NutritionApp.Droid.Resource.Interpolator.btn_checkbox_checked_mtrl_animation_interpolator_1;
-			global::Xamarin.Forms.PancakeView.Resource.Interpolator.btn_checkbox_unchecked_mtrl_animation_interpolator_0 = global::NutritionApp.Droid.Resource.Interpolator.btn_checkbox_unchecked_mtrl_animation_interpolator_0;
-			global::Xamarin.Forms.PancakeView.Resource.Interpolator.btn_checkbox_unchecked_mtrl_animation_interpolator_1 = global::NutritionApp.Droid.Resource.Interpolator.btn_checkbox_unchecked_mtrl_animation_interpolator_1;
-			global::Xamarin.Forms.PancakeView.Resource.Interpolator.btn_radio_to_off_mtrl_animation_interpolator_0 = global::NutritionApp.Droid.Resource.Interpolator.btn_radio_to_off_mtrl_animation_interpolator_0;
-			global::Xamarin.Forms.PancakeView.Resource.Interpolator.btn_radio_to_on_mtrl_animation_interpolator_0 = global::NutritionApp.Droid.Resource.Interpolator.btn_radio_to_on_mtrl_animation_interpolator_0;
-			global::Xamarin.Forms.PancakeView.Resource.Interpolator.fast_out_slow_in = global::NutritionApp.Droid.Resource.Interpolator.fast_out_slow_in;
-			global::Xamarin.Forms.PancakeView.Resource.Interpolator.mtrl_fast_out_linear_in = global::NutritionApp.Droid.Resource.Interpolator.mtrl_fast_out_linear_in;
-			global::Xamarin.Forms.PancakeView.Resource.Interpolator.mtrl_fast_out_slow_in = global::NutritionApp.Droid.Resource.Interpolator.mtrl_fast_out_slow_in;
-			global::Xamarin.Forms.PancakeView.Resource.Interpolator.mtrl_linear = global::NutritionApp.Droid.Resource.Interpolator.mtrl_linear;
-			global::Xamarin.Forms.PancakeView.Resource.Interpolator.mtrl_linear_out_slow_in = global::NutritionApp.Droid.Resource.Interpolator.mtrl_linear_out_slow_in;
-			global::Xamarin.Forms.PancakeView.Resource.Layout.abc_action_bar_title_item = global::NutritionApp.Droid.Resource.Layout.abc_action_bar_title_item;
-			global::Xamarin.Forms.PancakeView.Resource.Layout.abc_action_bar_up_container = global::NutritionApp.Droid.Resource.Layout.abc_action_bar_up_container;
-			global::Xamarin.Forms.PancakeView.Resource.Layout.abc_action_menu_item_layout = global::NutritionApp.Droid.Resource.Layout.abc_action_menu_item_layout;
-			global::Xamarin.Forms.PancakeView.Resource.Layout.abc_action_menu_layout = global::NutritionApp.Droid.Resource.Layout.abc_action_menu_layout;
-			global::Xamarin.Forms.PancakeView.Resource.Layout.abc_action_mode_bar = global::NutritionApp.Droid.Resource.Layout.abc_action_mode_bar;
-			global::Xamarin.Forms.PancakeView.Resource.Layout.abc_action_mode_close_item_material = global::NutritionApp.Droid.Resource.Layout.abc_action_mode_close_item_material;
-			global::Xamarin.Forms.PancakeView.Resource.Layout.abc_activity_chooser_view = global::NutritionApp.Droid.Resource.Layout.abc_activity_chooser_view;
-			global::Xamarin.Forms.PancakeView.Resource.Layout.abc_activity_chooser_view_list_item = global::NutritionApp.Droid.Resource.Layout.abc_activity_chooser_view_list_item;
-			global::Xamarin.Forms.PancakeView.Resource.Layout.abc_alert_dialog_button_bar_material = global::NutritionApp.Droid.Resource.Layout.abc_alert_dialog_button_bar_material;
-			global::Xamarin.Forms.PancakeView.Resource.Layout.abc_alert_dialog_material = global::NutritionApp.Droid.Resource.Layout.abc_alert_dialog_material;
-			global::Xamarin.Forms.PancakeView.Resource.Layout.abc_alert_dialog_title_material = global::NutritionApp.Droid.Resource.Layout.abc_alert_dialog_title_material;
-			global::Xamarin.Forms.PancakeView.Resource.Layout.abc_cascading_menu_item_layout = global::NutritionApp.Droid.Resource.Layout.abc_cascading_menu_item_layout;
-			global::Xamarin.Forms.PancakeView.Resource.Layout.abc_dialog_title_material = global::NutritionApp.Droid.Resource.Layout.abc_dialog_title_material;
-			global::Xamarin.Forms.PancakeView.Resource.Layout.abc_expanded_menu_layout = global::NutritionApp.Droid.Resource.Layout.abc_expanded_menu_layout;
-			global::Xamarin.Forms.PancakeView.Resource.Layout.abc_list_menu_item_checkbox = global::NutritionApp.Droid.Resource.Layout.abc_list_menu_item_checkbox;
-			global::Xamarin.Forms.PancakeView.Resource.Layout.abc_list_menu_item_icon = global::NutritionApp.Droid.Resource.Layout.abc_list_menu_item_icon;
-			global::Xamarin.Forms.PancakeView.Resource.Layout.abc_list_menu_item_layout = global::NutritionApp.Droid.Resource.Layout.abc_list_menu_item_layout;
-			global::Xamarin.Forms.PancakeView.Resource.Layout.abc_list_menu_item_radio = global::NutritionApp.Droid.Resource.Layout.abc_list_menu_item_radio;
-			global::Xamarin.Forms.PancakeView.Resource.Layout.abc_popup_menu_header_item_layout = global::NutritionApp.Droid.Resource.Layout.abc_popup_menu_header_item_layout;
-			global::Xamarin.Forms.PancakeView.Resource.Layout.abc_popup_menu_item_layout = global::NutritionApp.Droid.Resource.Layout.abc_popup_menu_item_layout;
-			global::Xamarin.Forms.PancakeView.Resource.Layout.abc_screen_content_include = global::NutritionApp.Droid.Resource.Layout.abc_screen_content_include;
-			global::Xamarin.Forms.PancakeView.Resource.Layout.abc_screen_simple = global::NutritionApp.Droid.Resource.Layout.abc_screen_simple;
-			global::Xamarin.Forms.PancakeView.Resource.Layout.abc_screen_simple_overlay_action_mode = global::NutritionApp.Droid.Resource.Layout.abc_screen_simple_overlay_action_mode;
-			global::Xamarin.Forms.PancakeView.Resource.Layout.abc_screen_toolbar = global::NutritionApp.Droid.Resource.Layout.abc_screen_toolbar;
-			global::Xamarin.Forms.PancakeView.Resource.Layout.abc_search_dropdown_item_icons_2line = global::NutritionApp.Droid.Resource.Layout.abc_search_dropdown_item_icons_2line;
-			global::Xamarin.Forms.PancakeView.Resource.Layout.abc_search_view = global::NutritionApp.Droid.Resource.Layout.abc_search_view;
-			global::Xamarin.Forms.PancakeView.Resource.Layout.abc_select_dialog_material = global::NutritionApp.Droid.Resource.Layout.abc_select_dialog_material;
-			global::Xamarin.Forms.PancakeView.Resource.Layout.abc_tooltip = global::NutritionApp.Droid.Resource.Layout.abc_tooltip;
-			global::Xamarin.Forms.PancakeView.Resource.Layout.BottomTabLayout = global::NutritionApp.Droid.Resource.Layout.BottomTabLayout;
-			global::Xamarin.Forms.PancakeView.Resource.Layout.browser_actions_context_menu_page = global::NutritionApp.Droid.Resource.Layout.browser_actions_context_menu_page;
-			global::Xamarin.Forms.PancakeView.Resource.Layout.browser_actions_context_menu_row = global::NutritionApp.Droid.Resource.Layout.browser_actions_context_menu_row;
-			global::Xamarin.Forms.PancakeView.Resource.Layout.custom_dialog = global::NutritionApp.Droid.Resource.Layout.custom_dialog;
-			global::Xamarin.Forms.PancakeView.Resource.Layout.design_bottom_navigation_item = global::NutritionApp.Droid.Resource.Layout.design_bottom_navigation_item;
-			global::Xamarin.Forms.PancakeView.Resource.Layout.design_bottom_sheet_dialog = global::NutritionApp.Droid.Resource.Layout.design_bottom_sheet_dialog;
-			global::Xamarin.Forms.PancakeView.Resource.Layout.design_layout_snackbar = global::NutritionApp.Droid.Resource.Layout.design_layout_snackbar;
-			global::Xamarin.Forms.PancakeView.Resource.Layout.design_layout_snackbar_include = global::NutritionApp.Droid.Resource.Layout.design_layout_snackbar_include;
-			global::Xamarin.Forms.PancakeView.Resource.Layout.design_layout_tab_icon = global::NutritionApp.Droid.Resource.Layout.design_layout_tab_icon;
-			global::Xamarin.Forms.PancakeView.Resource.Layout.design_layout_tab_text = global::NutritionApp.Droid.Resource.Layout.design_layout_tab_text;
-			global::Xamarin.Forms.PancakeView.Resource.Layout.design_menu_item_action_area = global::NutritionApp.Droid.Resource.Layout.design_menu_item_action_area;
-			global::Xamarin.Forms.PancakeView.Resource.Layout.design_navigation_item = global::NutritionApp.Droid.Resource.Layout.design_navigation_item;
-			global::Xamarin.Forms.PancakeView.Resource.Layout.design_navigation_item_header = global::NutritionApp.Droid.Resource.Layout.design_navigation_item_header;
-			global::Xamarin.Forms.PancakeView.Resource.Layout.design_navigation_item_separator = global::NutritionApp.Droid.Resource.Layout.design_navigation_item_separator;
-			global::Xamarin.Forms.PancakeView.Resource.Layout.design_navigation_item_subheader = global::NutritionApp.Droid.Resource.Layout.design_navigation_item_subheader;
-			global::Xamarin.Forms.PancakeView.Resource.Layout.design_navigation_menu = global::NutritionApp.Droid.Resource.Layout.design_navigation_menu;
-			global::Xamarin.Forms.PancakeView.Resource.Layout.design_navigation_menu_item = global::NutritionApp.Droid.Resource.Layout.design_navigation_menu_item;
-			global::Xamarin.Forms.PancakeView.Resource.Layout.FallbackTabbarDoNotUse = global::NutritionApp.Droid.Resource.Layout.FallbackTabbarDoNotUse;
-			global::Xamarin.Forms.PancakeView.Resource.Layout.FallbackToolbarDoNotUse = global::NutritionApp.Droid.Resource.Layout.FallbackToolbarDoNotUse;
-			global::Xamarin.Forms.PancakeView.Resource.Layout.FlyoutContent = global::NutritionApp.Droid.Resource.Layout.FlyoutContent;
-			global::Xamarin.Forms.PancakeView.Resource.Layout.mtrl_layout_snackbar = global::NutritionApp.Droid.Resource.Layout.mtrl_layout_snackbar;
-			global::Xamarin.Forms.PancakeView.Resource.Layout.mtrl_layout_snackbar_include = global::NutritionApp.Droid.Resource.Layout.mtrl_layout_snackbar_include;
-			global::Xamarin.Forms.PancakeView.Resource.Layout.notification_action = global::NutritionApp.Droid.Resource.Layout.notification_action;
-			global::Xamarin.Forms.PancakeView.Resource.Layout.notification_action_tombstone = global::NutritionApp.Droid.Resource.Layout.notification_action_tombstone;
-			global::Xamarin.Forms.PancakeView.Resource.Layout.notification_media_action = global::NutritionApp.Droid.Resource.Layout.notification_media_action;
-			global::Xamarin.Forms.PancakeView.Resource.Layout.notification_media_cancel_action = global::NutritionApp.Droid.Resource.Layout.notification_media_cancel_action;
-			global::Xamarin.Forms.PancakeView.Resource.Layout.notification_template_big_media = global::NutritionApp.Droid.Resource.Layout.notification_template_big_media;
-			global::Xamarin.Forms.PancakeView.Resource.Layout.notification_template_big_media_custom = global::NutritionApp.Droid.Resource.Layout.notification_template_big_media_custom;
-			global::Xamarin.Forms.PancakeView.Resource.Layout.notification_template_big_media_narrow = global::NutritionApp.Droid.Resource.Layout.notification_template_big_media_narrow;
-			global::Xamarin.Forms.PancakeView.Resource.Layout.notification_template_big_media_narrow_custom = global::NutritionApp.Droid.Resource.Layout.notification_template_big_media_narrow_custom;
-			global::Xamarin.Forms.PancakeView.Resource.Layout.notification_template_custom_big = global::NutritionApp.Droid.Resource.Layout.notification_template_custom_big;
-			global::Xamarin.Forms.PancakeView.Resource.Layout.notification_template_icon_group = global::NutritionApp.Droid.Resource.Layout.notification_template_icon_group;
-			global::Xamarin.Forms.PancakeView.Resource.Layout.notification_template_lines_media = global::NutritionApp.Droid.Resource.Layout.notification_template_lines_media;
-			global::Xamarin.Forms.PancakeView.Resource.Layout.notification_template_media = global::NutritionApp.Droid.Resource.Layout.notification_template_media;
-			global::Xamarin.Forms.PancakeView.Resource.Layout.notification_template_media_custom = global::NutritionApp.Droid.Resource.Layout.notification_template_media_custom;
-			global::Xamarin.Forms.PancakeView.Resource.Layout.notification_template_part_chronometer = global::NutritionApp.Droid.Resource.Layout.notification_template_part_chronometer;
-			global::Xamarin.Forms.PancakeView.Resource.Layout.notification_template_part_time = global::NutritionApp.Droid.Resource.Layout.notification_template_part_time;
-			global::Xamarin.Forms.PancakeView.Resource.Layout.RootLayout = global::NutritionApp.Droid.Resource.Layout.RootLayout;
-			global::Xamarin.Forms.PancakeView.Resource.Layout.select_dialog_item_material = global::NutritionApp.Droid.Resource.Layout.select_dialog_item_material;
-			global::Xamarin.Forms.PancakeView.Resource.Layout.select_dialog_multichoice_material = global::NutritionApp.Droid.Resource.Layout.select_dialog_multichoice_material;
-			global::Xamarin.Forms.PancakeView.Resource.Layout.select_dialog_singlechoice_material = global::NutritionApp.Droid.Resource.Layout.select_dialog_singlechoice_material;
-			global::Xamarin.Forms.PancakeView.Resource.Layout.ShellContent = global::NutritionApp.Droid.Resource.Layout.ShellContent;
-			global::Xamarin.Forms.PancakeView.Resource.Layout.support_simple_spinner_dropdown_item = global::NutritionApp.Droid.Resource.Layout.support_simple_spinner_dropdown_item;
-			global::Xamarin.Forms.PancakeView.Resource.Layout.Tabbar = global::NutritionApp.Droid.Resource.Layout.Tabbar;
-			global::Xamarin.Forms.PancakeView.Resource.Layout.Toolbar = global::NutritionApp.Droid.Resource.Layout.Toolbar;
-			global::Xamarin.Forms.PancakeView.Resource.String.abc_action_bar_home_description = global::NutritionApp.Droid.Resource.String.abc_action_bar_home_description;
-			global::Xamarin.Forms.PancakeView.Resource.String.abc_action_bar_up_description = global::NutritionApp.Droid.Resource.String.abc_action_bar_up_description;
-			global::Xamarin.Forms.PancakeView.Resource.String.abc_action_menu_overflow_description = global::NutritionApp.Droid.Resource.String.abc_action_menu_overflow_description;
-			global::Xamarin.Forms.PancakeView.Resource.String.abc_action_mode_done = global::NutritionApp.Droid.Resource.String.abc_action_mode_done;
-			global::Xamarin.Forms.PancakeView.Resource.String.abc_activitychooserview_choose_application = global::NutritionApp.Droid.Resource.String.abc_activitychooserview_choose_application;
-			global::Xamarin.Forms.PancakeView.Resource.String.abc_activity_chooser_view_see_all = global::NutritionApp.Droid.Resource.String.abc_activity_chooser_view_see_all;
-			global::Xamarin.Forms.PancakeView.Resource.String.abc_capital_off = global::NutritionApp.Droid.Resource.String.abc_capital_off;
-			global::Xamarin.Forms.PancakeView.Resource.String.abc_capital_on = global::NutritionApp.Droid.Resource.String.abc_capital_on;
-			global::Xamarin.Forms.PancakeView.Resource.String.abc_menu_alt_shortcut_label = global::NutritionApp.Droid.Resource.String.abc_menu_alt_shortcut_label;
-			global::Xamarin.Forms.PancakeView.Resource.String.abc_menu_ctrl_shortcut_label = global::NutritionApp.Droid.Resource.String.abc_menu_ctrl_shortcut_label;
-			global::Xamarin.Forms.PancakeView.Resource.String.abc_menu_delete_shortcut_label = global::NutritionApp.Droid.Resource.String.abc_menu_delete_shortcut_label;
-			global::Xamarin.Forms.PancakeView.Resource.String.abc_menu_enter_shortcut_label = global::NutritionApp.Droid.Resource.String.abc_menu_enter_shortcut_label;
-			global::Xamarin.Forms.PancakeView.Resource.String.abc_menu_function_shortcut_label = global::NutritionApp.Droid.Resource.String.abc_menu_function_shortcut_label;
-			global::Xamarin.Forms.PancakeView.Resource.String.abc_menu_meta_shortcut_label = global::NutritionApp.Droid.Resource.String.abc_menu_meta_shortcut_label;
-			global::Xamarin.Forms.PancakeView.Resource.String.abc_menu_shift_shortcut_label = global::NutritionApp.Droid.Resource.String.abc_menu_shift_shortcut_label;
-			global::Xamarin.Forms.PancakeView.Resource.String.abc_menu_space_shortcut_label = global::NutritionApp.Droid.Resource.String.abc_menu_space_shortcut_label;
-			global::Xamarin.Forms.PancakeView.Resource.String.abc_menu_sym_shortcut_label = global::NutritionApp.Droid.Resource.String.abc_menu_sym_shortcut_label;
-			global::Xamarin.Forms.PancakeView.Resource.String.abc_prepend_shortcut_label = global::NutritionApp.Droid.Resource.String.abc_prepend_shortcut_label;
-			global::Xamarin.Forms.PancakeView.Resource.String.abc_searchview_description_clear = global::NutritionApp.Droid.Resource.String.abc_searchview_description_clear;
-			global::Xamarin.Forms.PancakeView.Resource.String.abc_searchview_description_query = global::NutritionApp.Droid.Resource.String.abc_searchview_description_query;
-			global::Xamarin.Forms.PancakeView.Resource.String.abc_searchview_description_search = global::NutritionApp.Droid.Resource.String.abc_searchview_description_search;
-			global::Xamarin.Forms.PancakeView.Resource.String.abc_searchview_description_submit = global::NutritionApp.Droid.Resource.String.abc_searchview_description_submit;
-			global::Xamarin.Forms.PancakeView.Resource.String.abc_searchview_description_voice = global::NutritionApp.Droid.Resource.String.abc_searchview_description_voice;
-			global::Xamarin.Forms.PancakeView.Resource.String.abc_search_hint = global::NutritionApp.Droid.Resource.String.abc_search_hint;
-			global::Xamarin.Forms.PancakeView.Resource.String.abc_shareactionprovider_share_with = global::NutritionApp.Droid.Resource.String.abc_shareactionprovider_share_with;
-			global::Xamarin.Forms.PancakeView.Resource.String.abc_shareactionprovider_share_with_application = global::NutritionApp.Droid.Resource.String.abc_shareactionprovider_share_with_application;
-			global::Xamarin.Forms.PancakeView.Resource.String.abc_toolbar_collapse_description = global::NutritionApp.Droid.Resource.String.abc_toolbar_collapse_description;
-			global::Xamarin.Forms.PancakeView.Resource.String.appbar_scrolling_view_behavior = global::NutritionApp.Droid.Resource.String.appbar_scrolling_view_behavior;
-			global::Xamarin.Forms.PancakeView.Resource.String.bottom_sheet_behavior = global::NutritionApp.Droid.Resource.String.bottom_sheet_behavior;
-			global::Xamarin.Forms.PancakeView.Resource.String.character_counter_content_description = global::NutritionApp.Droid.Resource.String.character_counter_content_description;
-			global::Xamarin.Forms.PancakeView.Resource.String.character_counter_pattern = global::NutritionApp.Droid.Resource.String.character_counter_pattern;
-			global::Xamarin.Forms.PancakeView.Resource.String.fab_transformation_scrim_behavior = global::NutritionApp.Droid.Resource.String.fab_transformation_scrim_behavior;
-			global::Xamarin.Forms.PancakeView.Resource.String.fab_transformation_sheet_behavior = global::NutritionApp.Droid.Resource.String.fab_transformation_sheet_behavior;
-			global::Xamarin.Forms.PancakeView.Resource.String.hide_bottom_view_on_scroll_behavior = global::NutritionApp.Droid.Resource.String.hide_bottom_view_on_scroll_behavior;
-			global::Xamarin.Forms.PancakeView.Resource.String.mtrl_chip_close_icon_content_description = global::NutritionApp.Droid.Resource.String.mtrl_chip_close_icon_content_description;
-			global::Xamarin.Forms.PancakeView.Resource.String.overflow_tab_title = global::NutritionApp.Droid.Resource.String.overflow_tab_title;
-			global::Xamarin.Forms.PancakeView.Resource.String.password_toggle_content_description = global::NutritionApp.Droid.Resource.String.password_toggle_content_description;
-			global::Xamarin.Forms.PancakeView.Resource.String.path_password_eye = global::NutritionApp.Droid.Resource.String.path_password_eye;
-			global::Xamarin.Forms.PancakeView.Resource.String.path_password_eye_mask_strike_through = global::NutritionApp.Droid.Resource.String.path_password_eye_mask_strike_through;
-			global::Xamarin.Forms.PancakeView.Resource.String.path_password_eye_mask_visible = global::NutritionApp.Droid.Resource.String.path_password_eye_mask_visible;
-			global::Xamarin.Forms.PancakeView.Resource.String.path_password_strike_through = global::NutritionApp.Droid.Resource.String.path_password_strike_through;
-			global::Xamarin.Forms.PancakeView.Resource.String.search_menu_title = global::NutritionApp.Droid.Resource.String.search_menu_title;
-			global::Xamarin.Forms.PancakeView.Resource.String.status_bar_notification_info_overflow = global::NutritionApp.Droid.Resource.String.status_bar_notification_info_overflow;
-			global::Xamarin.Forms.PancakeView.Resource.Style.AlertDialog_AppCompat = global::NutritionApp.Droid.Resource.Style.AlertDialog_AppCompat;
-			global::Xamarin.Forms.PancakeView.Resource.Style.AlertDialog_AppCompat_Light = global::NutritionApp.Droid.Resource.Style.AlertDialog_AppCompat_Light;
-			global::Xamarin.Forms.PancakeView.Resource.Style.Animation_AppCompat_Dialog = global::NutritionApp.Droid.Resource.Style.Animation_AppCompat_Dialog;
-			global::Xamarin.Forms.PancakeView.Resource.Style.Animation_AppCompat_DropDownUp = global::NutritionApp.Droid.Resource.Style.Animation_AppCompat_DropDownUp;
-			global::Xamarin.Forms.PancakeView.Resource.Style.Animation_AppCompat_Tooltip = global::NutritionApp.Droid.Resource.Style.Animation_AppCompat_Tooltip;
-			global::Xamarin.Forms.PancakeView.Resource.Style.Animation_Design_BottomSheetDialog = global::NutritionApp.Droid.Resource.Style.Animation_Design_BottomSheetDialog;
-			global::Xamarin.Forms.PancakeView.Resource.Style.AppCompatDialogStyle = global::NutritionApp.Droid.Resource.Style.AppCompatDialogStyle;
-			global::Xamarin.Forms.PancakeView.Resource.Style.Base_AlertDialog_AppCompat = global::NutritionApp.Droid.Resource.Style.Base_AlertDialog_AppCompat;
-			global::Xamarin.Forms.PancakeView.Resource.Style.Base_AlertDialog_AppCompat_Light = global::NutritionApp.Droid.Resource.Style.Base_AlertDialog_AppCompat_Light;
-			global::Xamarin.Forms.PancakeView.Resource.Style.Base_Animation_AppCompat_Dialog = global::NutritionApp.Droid.Resource.Style.Base_Animation_AppCompat_Dialog;
-			global::Xamarin.Forms.PancakeView.Resource.Style.Base_Animation_AppCompat_DropDownUp = global::NutritionApp.Droid.Resource.Style.Base_Animation_AppCompat_DropDownUp;
-			global::Xamarin.Forms.PancakeView.Resource.Style.Base_Animation_AppCompat_Tooltip = global::NutritionApp.Droid.Resource.Style.Base_Animation_AppCompat_Tooltip;
-			global::Xamarin.Forms.PancakeView.Resource.Style.Base_CardView = global::NutritionApp.Droid.Resource.Style.Base_CardView;
-			global::Xamarin.Forms.PancakeView.Resource.Style.Base_DialogWindowTitleBackground_AppCompat = global::NutritionApp.Droid.Resource.Style.Base_DialogWindowTitleBackground_AppCompat;
-			global::Xamarin.Forms.PancakeView.Resource.Style.Base_DialogWindowTitle_AppCompat = global::NutritionApp.Droid.Resource.Style.Base_DialogWindowTitle_AppCompat;
-			global::Xamarin.Forms.PancakeView.Resource.Style.Base_TextAppearance_AppCompat = global::NutritionApp.Droid.Resource.Style.Base_TextAppearance_AppCompat;
-			global::Xamarin.Forms.PancakeView.Resource.Style.Base_TextAppearance_AppCompat_Body1 = global::NutritionApp.Droid.Resource.Style.Base_TextAppearance_AppCompat_Body1;
-			global::Xamarin.Forms.PancakeView.Resource.Style.Base_TextAppearance_AppCompat_Body2 = global::NutritionApp.Droid.Resource.Style.Base_TextAppearance_AppCompat_Body2;
-			global::Xamarin.Forms.PancakeView.Resource.Style.Base_TextAppearance_AppCompat_Button = global::NutritionApp.Droid.Resource.Style.Base_TextAppearance_AppCompat_Button;
-			global::Xamarin.Forms.PancakeView.Resource.Style.Base_TextAppearance_AppCompat_Caption = global::NutritionApp.Droid.Resource.Style.Base_TextAppearance_AppCompat_Caption;
-			global::Xamarin.Forms.PancakeView.Resource.Style.Base_TextAppearance_AppCompat_Display1 = global::NutritionApp.Droid.Resource.Style.Base_TextAppearance_AppCompat_Display1;
-			global::Xamarin.Forms.PancakeView.Resource.Style.Base_TextAppearance_AppCompat_Display2 = global::NutritionApp.Droid.Resource.Style.Base_TextAppearance_AppCompat_Display2;
-			global::Xamarin.Forms.PancakeView.Resource.Style.Base_TextAppearance_AppCompat_Display3 = global::NutritionApp.Droid.Resource.Style.Base_TextAppearance_AppCompat_Display3;
-			global::Xamarin.Forms.PancakeView.Resource.Style.Base_TextAppearance_AppCompat_Display4 = global::NutritionApp.Droid.Resource.Style.Base_TextAppearance_AppCompat_Display4;
-			global::Xamarin.Forms.PancakeView.Resource.Style.Base_TextAppearance_AppCompat_Headline = global::NutritionApp.Droid.Resource.Style.Base_TextAppearance_AppCompat_Headline;
-			global::Xamarin.Forms.PancakeView.Resource.Style.Base_TextAppearance_AppCompat_Inverse = global::NutritionApp.Droid.Resource.Style.Base_TextAppearance_AppCompat_Inverse;
-			global::Xamarin.Forms.PancakeView.Resource.Style.Base_TextAppearance_AppCompat_Large = global::NutritionApp.Droid.Resource.Style.Base_TextAppearance_AppCompat_Large;
-			global::Xamarin.Forms.PancakeView.Resource.Style.Base_TextAppearance_AppCompat_Large_Inverse = global::NutritionApp.Droid.Resource.Style.Base_TextAppearance_AppCompat_Large_Inverse;
-			global::Xamarin.Forms.PancakeView.Resource.Style.Base_TextAppearance_AppCompat_Light_Widget_PopupMenu_Large = global::NutritionApp.Droid.Resource.Style.Base_TextAppearance_AppCompat_Light_Widget_PopupMenu_Large;
-			global::Xamarin.Forms.PancakeView.Resource.Style.Base_TextAppearance_AppCompat_Light_Widget_PopupMenu_Small = global::NutritionApp.Droid.Resource.Style.Base_TextAppearance_AppCompat_Light_Widget_PopupMenu_Small;
-			global::Xamarin.Forms.PancakeView.Resource.Style.Base_TextAppearance_AppCompat_Medium = global::NutritionApp.Droid.Resource.Style.Base_TextAppearance_AppCompat_Medium;
-			global::Xamarin.Forms.PancakeView.Resource.Style.Base_TextAppearance_AppCompat_Medium_Inverse = global::NutritionApp.Droid.Resource.Style.Base_TextAppearance_AppCompat_Medium_Inverse;
-			global::Xamarin.Forms.PancakeView.Resource.Style.Base_TextAppearance_AppCompat_Menu = global::NutritionApp.Droid.Resource.Style.Base_TextAppearance_AppCompat_Menu;
-			global::Xamarin.Forms.PancakeView.Resource.Style.Base_TextAppearance_AppCompat_SearchResult = global::NutritionApp.Droid.Resource.Style.Base_TextAppearance_AppCompat_SearchResult;
-			global::Xamarin.Forms.PancakeView.Resource.Style.Base_TextAppearance_AppCompat_SearchResult_Subtitle = global::NutritionApp.Droid.Resource.Style.Base_TextAppearance_AppCompat_SearchResult_Subtitle;
-			global::Xamarin.Forms.PancakeView.Resource.Style.Base_TextAppearance_AppCompat_SearchResult_Title = global::NutritionApp.Droid.Resource.Style.Base_TextAppearance_AppCompat_SearchResult_Title;
-			global::Xamarin.Forms.PancakeView.Resource.Style.Base_TextAppearance_AppCompat_Small = global::NutritionApp.Droid.Resource.Style.Base_TextAppearance_AppCompat_Small;
-			global::Xamarin.Forms.PancakeView.Resource.Style.Base_TextAppearance_AppCompat_Small_Inverse = global::NutritionApp.Droid.Resource.Style.Base_TextAppearance_AppCompat_Small_Inverse;
-			global::Xamarin.Forms.PancakeView.Resource.Style.Base_TextAppearance_AppCompat_Subhead = global::NutritionApp.Droid.Resource.Style.Base_TextAppearance_AppCompat_Subhead;
-			global::Xamarin.Forms.PancakeView.Resource.Style.Base_TextAppearance_AppCompat_Subhead_Inverse = global::NutritionApp.Droid.Resource.Style.Base_TextAppearance_AppCompat_Subhead_Inverse;
-			global::Xamarin.Forms.PancakeView.Resource.Style.Base_TextAppearance_AppCompat_Title = global::NutritionApp.Droid.Resource.Style.Base_TextAppearance_AppCompat_Title;
-			global::Xamarin.Forms.PancakeView.Resource.Style.Base_TextAppearance_AppCompat_Title_Inverse = global::NutritionApp.Droid.Resource.Style.Base_TextAppearance_AppCompat_Title_Inverse;
-			global::Xamarin.Forms.PancakeView.Resource.Style.Base_TextAppearance_AppCompat_Tooltip = global::NutritionApp.Droid.Resource.Style.Base_TextAppearance_AppCompat_Tooltip;
-			global::Xamarin.Forms.PancakeView.Resource.Style.Base_TextAppearance_AppCompat_Widget_ActionBar_Menu = global::NutritionApp.Droid.Resource.Style.Base_TextAppearance_AppCompat_Widget_ActionBar_Menu;
-			global::Xamarin.Forms.PancakeView.Resource.Style.Base_TextAppearance_AppCompat_Widget_ActionBar_Subtitle = global::NutritionApp.Droid.Resource.Style.Base_TextAppearance_AppCompat_Widget_ActionBar_Subtitle;
-			global::Xamarin.Forms.PancakeView.Resource.Style.Base_TextAppearance_AppCompat_Widget_ActionBar_Subtitle_Inverse = global::NutritionApp.Droid.Resource.Style.Base_TextAppearance_AppCompat_Widget_ActionBar_Subtitle_Inverse;
-			global::Xamarin.Forms.PancakeView.Resource.Style.Base_TextAppearance_AppCompat_Widget_ActionBar_Title = global::NutritionApp.Droid.Resource.Style.Base_TextAppearance_AppCompat_Widget_ActionBar_Title;
-			global::Xamarin.Forms.PancakeView.Resource.Style.Base_TextAppearance_AppCompat_Widget_ActionBar_Title_Inverse = global::NutritionApp.Droid.Resource.Style.Base_TextAppearance_AppCompat_Widget_ActionBar_Title_Inverse;
-			global::Xamarin.Forms.PancakeView.Resource.Style.Base_TextAppearance_AppCompat_Widget_ActionMode_Subtitle = global::NutritionApp.Droid.Resource.Style.Base_TextAppearance_AppCompat_Widget_ActionMode_Subtitle;
-			global::Xamarin.Forms.PancakeView.Resource.Style.Base_TextAppearance_AppCompat_Widget_ActionMode_Title = global::NutritionApp.Droid.Resource.Style.Base_TextAppearance_AppCompat_Widget_ActionMode_Title;
-			global::Xamarin.Forms.PancakeView.Resource.Style.Base_TextAppearance_AppCompat_Widget_Button = global::NutritionApp.Droid.Resource.Style.Base_TextAppearance_AppCompat_Widget_Button;
-			global::Xamarin.Forms.PancakeView.Resource.Style.Base_TextAppearance_AppCompat_Widget_Button_Borderless_Colored = global::NutritionApp.Droid.Resource.Style.Base_TextAppearance_AppCompat_Widget_Button_Borderless_Colored;
-			global::Xamarin.Forms.PancakeView.Resource.Style.Base_TextAppearance_AppCompat_Widget_Button_Colored = global::NutritionApp.Droid.Resource.Style.Base_TextAppearance_AppCompat_Widget_Button_Colored;
-			global::Xamarin.Forms.PancakeView.Resource.Style.Base_TextAppearance_AppCompat_Widget_Button_Inverse = global::NutritionApp.Droid.Resource.Style.Base_TextAppearance_AppCompat_Widget_Button_Inverse;
-			global::Xamarin.Forms.PancakeView.Resource.Style.Base_TextAppearance_AppCompat_Widget_DropDownItem = global::NutritionApp.Droid.Resource.Style.Base_TextAppearance_AppCompat_Widget_DropDownItem;
-			global::Xamarin.Forms.PancakeView.Resource.Style.Base_TextAppearance_AppCompat_Widget_PopupMenu_Header = global::NutritionApp.Droid.Resource.Style.Base_TextAppearance_AppCompat_Widget_PopupMenu_Header;
-			global::Xamarin.Forms.PancakeView.Resource.Style.Base_TextAppearance_AppCompat_Widget_PopupMenu_Large = global::NutritionApp.Droid.Resource.Style.Base_TextAppearance_AppCompat_Widget_PopupMenu_Large;
-			global::Xamarin.Forms.PancakeView.Resource.Style.Base_TextAppearance_AppCompat_Widget_PopupMenu_Small = global::NutritionApp.Droid.Resource.Style.Base_TextAppearance_AppCompat_Widget_PopupMenu_Small;
-			global::Xamarin.Forms.PancakeView.Resource.Style.Base_TextAppearance_AppCompat_Widget_Switch = global::NutritionApp.Droid.Resource.Style.Base_TextAppearance_AppCompat_Widget_Switch;
-			global::Xamarin.Forms.PancakeView.Resource.Style.Base_TextAppearance_AppCompat_Widget_TextView_SpinnerItem = global::NutritionApp.Droid.Resource.Style.Base_TextAppearance_AppCompat_Widget_TextView_SpinnerItem;
-			global::Xamarin.Forms.PancakeView.Resource.Style.Base_TextAppearance_Widget_AppCompat_ExpandedMenu_Item = global::NutritionApp.Droid.Resource.Style.Base_TextAppearance_Widget_AppCompat_ExpandedMenu_Item;
-			global::Xamarin.Forms.PancakeView.Resource.Style.Base_TextAppearance_Widget_AppCompat_Toolbar_Subtitle = global::NutritionApp.Droid.Resource.Style.Base_TextAppearance_Widget_AppCompat_Toolbar_Subtitle;
-			global::Xamarin.Forms.PancakeView.Resource.Style.Base_TextAppearance_Widget_AppCompat_Toolbar_Title = global::NutritionApp.Droid.Resource.Style.Base_TextAppearance_Widget_AppCompat_Toolbar_Title;
-			global::Xamarin.Forms.PancakeView.Resource.Style.Base_ThemeOverlay_AppCompat = global::NutritionApp.Droid.Resource.Style.Base_ThemeOverlay_AppCompat;
-			global::Xamarin.Forms.PancakeView.Resource.Style.Base_ThemeOverlay_AppCompat_ActionBar = global::NutritionApp.Droid.Resource.Style.Base_ThemeOverlay_AppCompat_ActionBar;
-			global::Xamarin.Forms.PancakeView.Resource.Style.Base_ThemeOverlay_AppCompat_Dark = global::NutritionApp.Droid.Resource.Style.Base_ThemeOverlay_AppCompat_Dark;
-			global::Xamarin.Forms.PancakeView.Resource.Style.Base_ThemeOverlay_AppCompat_Dark_ActionBar = global::NutritionApp.Droid.Resource.Style.Base_ThemeOverlay_AppCompat_Dark_ActionBar;
-			global::Xamarin.Forms.PancakeView.Resource.Style.Base_ThemeOverlay_AppCompat_Dialog = global::NutritionApp.Droid.Resource.Style.Base_ThemeOverlay_AppCompat_Dialog;
-			global::Xamarin.Forms.PancakeView.Resource.Style.Base_ThemeOverlay_AppCompat_Dialog_Alert = global::NutritionApp.Droid.Resource.Style.Base_ThemeOverlay_AppCompat_Dialog_Alert;
-			global::Xamarin.Forms.PancakeView.Resource.Style.Base_ThemeOverlay_AppCompat_Light = global::NutritionApp.Droid.Resource.Style.Base_ThemeOverlay_AppCompat_Light;
-			global::Xamarin.Forms.PancakeView.Resource.Style.Base_ThemeOverlay_MaterialComponents_Dialog = global::NutritionApp.Droid.Resource.Style.Base_ThemeOverlay_MaterialComponents_Dialog;
-			global::Xamarin.Forms.PancakeView.Resource.Style.Base_ThemeOverlay_MaterialComponents_Dialog_Alert = global::NutritionApp.Droid.Resource.Style.Base_ThemeOverlay_MaterialComponents_Dialog_Alert;
-			global::Xamarin.Forms.PancakeView.Resource.Style.Base_Theme_AppCompat = global::NutritionApp.Droid.Resource.Style.Base_Theme_AppCompat;
-			global::Xamarin.Forms.PancakeView.Resource.Style.Base_Theme_AppCompat_CompactMenu = global::NutritionApp.Droid.Resource.Style.Base_Theme_AppCompat_CompactMenu;
-			global::Xamarin.Forms.PancakeView.Resource.Style.Base_Theme_AppCompat_Dialog = global::NutritionApp.Droid.Resource.Style.Base_Theme_AppCompat_Dialog;
-			global::Xamarin.Forms.PancakeView.Resource.Style.Base_Theme_AppCompat_DialogWhenLarge = global::NutritionApp.Droid.Resource.Style.Base_Theme_AppCompat_DialogWhenLarge;
-			global::Xamarin.Forms.PancakeView.Resource.Style.Base_Theme_AppCompat_Dialog_Alert = global::NutritionApp.Droid.Resource.Style.Base_Theme_AppCompat_Dialog_Alert;
-			global::Xamarin.Forms.PancakeView.Resource.Style.Base_Theme_AppCompat_Dialog_FixedSize = global::NutritionApp.Droid.Resource.Style.Base_Theme_AppCompat_Dialog_FixedSize;
-			global::Xamarin.Forms.PancakeView.Resource.Style.Base_Theme_AppCompat_Dialog_MinWidth = global::NutritionApp.Droid.Resource.Style.Base_Theme_AppCompat_Dialog_MinWidth;
-			global::Xamarin.Forms.PancakeView.Resource.Style.Base_Theme_AppCompat_Light = global::NutritionApp.Droid.Resource.Style.Base_Theme_AppCompat_Light;
-			global::Xamarin.Forms.PancakeView.Resource.Style.Base_Theme_AppCompat_Light_DarkActionBar = global::NutritionApp.Droid.Resource.Style.Base_Theme_AppCompat_Light_DarkActionBar;
-			global::Xamarin.Forms.PancakeView.Resource.Style.Base_Theme_AppCompat_Light_Dialog = global::NutritionApp.Droid.Resource.Style.Base_Theme_AppCompat_Light_Dialog;
-			global::Xamarin.Forms.PancakeView.Resource.Style.Base_Theme_AppCompat_Light_DialogWhenLarge = global::NutritionApp.Droid.Resource.Style.Base_Theme_AppCompat_Light_DialogWhenLarge;
-			global::Xamarin.Forms.PancakeView.Resource.Style.Base_Theme_AppCompat_Light_Dialog_Alert = global::NutritionApp.Droid.Resource.Style.Base_Theme_AppCompat_Light_Dialog_Alert;
-			global::Xamarin.Forms.PancakeView.Resource.Style.Base_Theme_AppCompat_Light_Dialog_FixedSize = global::NutritionApp.Droid.Resource.Style.Base_Theme_AppCompat_Light_Dialog_FixedSize;
-			global::Xamarin.Forms.PancakeView.Resource.Style.Base_Theme_AppCompat_Light_Dialog_MinWidth = global::NutritionApp.Droid.Resource.Style.Base_Theme_AppCompat_Light_Dialog_MinWidth;
-			global::Xamarin.Forms.PancakeView.Resource.Style.Base_Theme_MaterialComponents = global::NutritionApp.Droid.Resource.Style.Base_Theme_MaterialComponents;
-			global::Xamarin.Forms.PancakeView.Resource.Style.Base_Theme_MaterialComponents_Bridge = global::NutritionApp.Droid.Resource.Style.Base_Theme_MaterialComponents_Bridge;
-			global::Xamarin.Forms.PancakeView.Resource.Style.Base_Theme_MaterialComponents_CompactMenu = global::NutritionApp.Droid.Resource.Style.Base_Theme_MaterialComponents_CompactMenu;
-			global::Xamarin.Forms.PancakeView.Resource.Style.Base_Theme_MaterialComponents_Dialog = global::NutritionApp.Droid.Resource.Style.Base_Theme_MaterialComponents_Dialog;
-			global::Xamarin.Forms.PancakeView.Resource.Style.Base_Theme_MaterialComponents_DialogWhenLarge = global::NutritionApp.Droid.Resource.Style.Base_Theme_MaterialComponents_DialogWhenLarge;
-			global::Xamarin.Forms.PancakeView.Resource.Style.Base_Theme_MaterialComponents_Dialog_Alert = global::NutritionApp.Droid.Resource.Style.Base_Theme_MaterialComponents_Dialog_Alert;
-			global::Xamarin.Forms.PancakeView.Resource.Style.Base_Theme_MaterialComponents_Dialog_FixedSize = global::NutritionApp.Droid.Resource.Style.Base_Theme_MaterialComponents_Dialog_FixedSize;
-			global::Xamarin.Forms.PancakeView.Resource.Style.Base_Theme_MaterialComponents_Dialog_MinWidth = global::NutritionApp.Droid.Resource.Style.Base_Theme_MaterialComponents_Dialog_MinWidth;
-			global::Xamarin.Forms.PancakeView.Resource.Style.Base_Theme_MaterialComponents_Light = global::NutritionApp.Droid.Resource.Style.Base_Theme_MaterialComponents_Light;
-			global::Xamarin.Forms.PancakeView.Resource.Style.Base_Theme_MaterialComponents_Light_Bridge = global::NutritionApp.Droid.Resource.Style.Base_Theme_MaterialComponents_Light_Bridge;
-			global::Xamarin.Forms.PancakeView.Resource.Style.Base_Theme_MaterialComponents_Light_DarkActionBar = global::NutritionApp.Droid.Resource.Style.Base_Theme_MaterialComponents_Light_DarkActionBar;
-			global::Xamarin.Forms.PancakeView.Resource.Style.Base_Theme_MaterialComponents_Light_DarkActionBar_Bridge = global::NutritionApp.Droid.Resource.Style.Base_Theme_MaterialComponents_Light_DarkActionBar_Bridge;
-			global::Xamarin.Forms.PancakeView.Resource.Style.Base_Theme_MaterialComponents_Light_Dialog = global::NutritionApp.Droid.Resource.Style.Base_Theme_MaterialComponents_Light_Dialog;
-			global::Xamarin.Forms.PancakeView.Resource.Style.Base_Theme_MaterialComponents_Light_DialogWhenLarge = global::NutritionApp.Droid.Resource.Style.Base_Theme_MaterialComponents_Light_DialogWhenLarge;
-			global::Xamarin.Forms.PancakeView.Resource.Style.Base_Theme_MaterialComponents_Light_Dialog_Alert = global::NutritionApp.Droid.Resource.Style.Base_Theme_MaterialComponents_Light_Dialog_Alert;
-			global::Xamarin.Forms.PancakeView.Resource.Style.Base_Theme_MaterialComponents_Light_Dialog_FixedSize = global::NutritionApp.Droid.Resource.Style.Base_Theme_MaterialComponents_Light_Dialog_FixedSize;
-			global::Xamarin.Forms.PancakeView.Resource.Style.Base_Theme_MaterialComponents_Light_Dialog_MinWidth = global::NutritionApp.Droid.Resource.Style.Base_Theme_MaterialComponents_Light_Dialog_MinWidth;
-			global::Xamarin.Forms.PancakeView.Resource.Style.Base_V14_ThemeOverlay_MaterialComponents_Dialog = global::NutritionApp.Droid.Resource.Style.Base_V14_ThemeOverlay_MaterialComponents_Dialog;
-			global::Xamarin.Forms.PancakeView.Resource.Style.Base_V14_ThemeOverlay_MaterialComponents_Dialog_Alert = global::NutritionApp.Droid.Resource.Style.Base_V14_ThemeOverlay_MaterialComponents_Dialog_Alert;
-			global::Xamarin.Forms.PancakeView.Resource.Style.Base_V14_Theme_MaterialComponents = global::NutritionApp.Droid.Resource.Style.Base_V14_Theme_MaterialComponents;
-			global::Xamarin.Forms.PancakeView.Resource.Style.Base_V14_Theme_MaterialComponents_Bridge = global::NutritionApp.Droid.Resource.Style.Base_V14_Theme_MaterialComponents_Bridge;
-			global::Xamarin.Forms.PancakeView.Resource.Style.Base_V14_Theme_MaterialComponents_Dialog = global::NutritionApp.Droid.Resource.Style.Base_V14_Theme_MaterialComponents_Dialog;
-			global::Xamarin.Forms.PancakeView.Resource.Style.Base_V14_Theme_MaterialComponents_Light = global::NutritionApp.Droid.Resource.Style.Base_V14_Theme_MaterialComponents_Light;
-			global::Xamarin.Forms.PancakeView.Resource.Style.Base_V14_Theme_MaterialComponents_Light_Bridge = global::NutritionApp.Droid.Resource.Style.Base_V14_Theme_MaterialComponents_Light_Bridge;
-			global::Xamarin.Forms.PancakeView.Resource.Style.Base_V14_Theme_MaterialComponents_Light_DarkActionBar_Bridge = global::NutritionApp.Droid.Resource.Style.Base_V14_Theme_MaterialComponents_Light_DarkActionBar_Bridge;
-			global::Xamarin.Forms.PancakeView.Resource.Style.Base_V14_Theme_MaterialComponents_Light_Dialog = global::NutritionApp.Droid.Resource.Style.Base_V14_Theme_MaterialComponents_Light_Dialog;
-			global::Xamarin.Forms.PancakeView.Resource.Style.Base_V21_ThemeOverlay_AppCompat_Dialog = global::NutritionApp.Droid.Resource.Style.Base_V21_ThemeOverlay_AppCompat_Dialog;
-			global::Xamarin.Forms.PancakeView.Resource.Style.Base_V21_Theme_AppCompat = global::NutritionApp.Droid.Resource.Style.Base_V21_Theme_AppCompat;
-			global::Xamarin.Forms.PancakeView.Resource.Style.Base_V21_Theme_AppCompat_Dialog = global::NutritionApp.Droid.Resource.Style.Base_V21_Theme_AppCompat_Dialog;
-			global::Xamarin.Forms.PancakeView.Resource.Style.Base_V21_Theme_AppCompat_Light = global::NutritionApp.Droid.Resource.Style.Base_V21_Theme_AppCompat_Light;
-			global::Xamarin.Forms.PancakeView.Resource.Style.Base_V21_Theme_AppCompat_Light_Dialog = global::NutritionApp.Droid.Resource.Style.Base_V21_Theme_AppCompat_Light_Dialog;
-			global::Xamarin.Forms.PancakeView.Resource.Style.Base_V22_Theme_AppCompat = global::NutritionApp.Droid.Resource.Style.Base_V22_Theme_AppCompat;
-			global::Xamarin.Forms.PancakeView.Resource.Style.Base_V22_Theme_AppCompat_Light = global::NutritionApp.Droid.Resource.Style.Base_V22_Theme_AppCompat_Light;
-			global::Xamarin.Forms.PancakeView.Resource.Style.Base_V23_Theme_AppCompat = global::NutritionApp.Droid.Resource.Style.Base_V23_Theme_AppCompat;
-			global::Xamarin.Forms.PancakeView.Resource.Style.Base_V23_Theme_AppCompat_Light = global::NutritionApp.Droid.Resource.Style.Base_V23_Theme_AppCompat_Light;
-			global::Xamarin.Forms.PancakeView.Resource.Style.Base_V26_Theme_AppCompat = global::NutritionApp.Droid.Resource.Style.Base_V26_Theme_AppCompat;
-			global::Xamarin.Forms.PancakeView.Resource.Style.Base_V26_Theme_AppCompat_Light = global::NutritionApp.Droid.Resource.Style.Base_V26_Theme_AppCompat_Light;
-			global::Xamarin.Forms.PancakeView.Resource.Style.Base_V26_Widget_AppCompat_Toolbar = global::NutritionApp.Droid.Resource.Style.Base_V26_Widget_AppCompat_Toolbar;
-			global::Xamarin.Forms.PancakeView.Resource.Style.Base_V28_Theme_AppCompat = global::NutritionApp.Droid.Resource.Style.Base_V28_Theme_AppCompat;
-			global::Xamarin.Forms.PancakeView.Resource.Style.Base_V28_Theme_AppCompat_Light = global::NutritionApp.Droid.Resource.Style.Base_V28_Theme_AppCompat_Light;
-			global::Xamarin.Forms.PancakeView.Resource.Style.Base_V7_ThemeOverlay_AppCompat_Dialog = global::NutritionApp.Droid.Resource.Style.Base_V7_ThemeOverlay_AppCompat_Dialog;
-			global::Xamarin.Forms.PancakeView.Resource.Style.Base_V7_Theme_AppCompat = global::NutritionApp.Droid.Resource.Style.Base_V7_Theme_AppCompat;
-			global::Xamarin.Forms.PancakeView.Resource.Style.Base_V7_Theme_AppCompat_Dialog = global::NutritionApp.Droid.Resource.Style.Base_V7_Theme_AppCompat_Dialog;
-			global::Xamarin.Forms.PancakeView.Resource.Style.Base_V7_Theme_AppCompat_Light = global::NutritionApp.Droid.Resource.Style.Base_V7_Theme_AppCompat_Light;
-			global::Xamarin.Forms.PancakeView.Resource.Style.Base_V7_Theme_AppCompat_Light_Dialog = global::NutritionApp.Droid.Resource.Style.Base_V7_Theme_AppCompat_Light_Dialog;
-			global::Xamarin.Forms.PancakeView.Resource.Style.Base_V7_Widget_AppCompat_AutoCompleteTextView = global::NutritionApp.Droid.Resource.Style.Base_V7_Widget_AppCompat_AutoCompleteTextView;
-			global::Xamarin.Forms.PancakeView.Resource.Style.Base_V7_Widget_AppCompat_EditText = global::NutritionApp.Droid.Resource.Style.Base_V7_Widget_AppCompat_EditText;
-			global::Xamarin.Forms.PancakeView.Resource.Style.Base_V7_Widget_AppCompat_Toolbar = global::NutritionApp.Droid.Resource.Style.Base_V7_Widget_AppCompat_Toolbar;
-			global::Xamarin.Forms.PancakeView.Resource.Style.Base_Widget_AppCompat_ActionBar = global::NutritionApp.Droid.Resource.Style.Base_Widget_AppCompat_ActionBar;
-			global::Xamarin.Forms.PancakeView.Resource.Style.Base_Widget_AppCompat_ActionBar_Solid = global::NutritionApp.Droid.Resource.Style.Base_Widget_AppCompat_ActionBar_Solid;
-			global::Xamarin.Forms.PancakeView.Resource.Style.Base_Widget_AppCompat_ActionBar_TabBar = global::NutritionApp.Droid.Resource.Style.Base_Widget_AppCompat_ActionBar_TabBar;
-			global::Xamarin.Forms.PancakeView.Resource.Style.Base_Widget_AppCompat_ActionBar_TabText = global::NutritionApp.Droid.Resource.Style.Base_Widget_AppCompat_ActionBar_TabText;
-			global::Xamarin.Forms.PancakeView.Resource.Style.Base_Widget_AppCompat_ActionBar_TabView = global::NutritionApp.Droid.Resource.Style.Base_Widget_AppCompat_ActionBar_TabView;
-			global::Xamarin.Forms.PancakeView.Resource.Style.Base_Widget_AppCompat_ActionButton = global::NutritionApp.Droid.Resource.Style.Base_Widget_AppCompat_ActionButton;
-			global::Xamarin.Forms.PancakeView.Resource.Style.Base_Widget_AppCompat_ActionButton_CloseMode = global::NutritionApp.Droid.Resource.Style.Base_Widget_AppCompat_ActionButton_CloseMode;
-			global::Xamarin.Forms.PancakeView.Resource.Style.Base_Widget_AppCompat_ActionButton_Overflow = global::NutritionApp.Droid.Resource.Style.Base_Widget_AppCompat_ActionButton_Overflow;
-			global::Xamarin.Forms.PancakeView.Resource.Style.Base_Widget_AppCompat_ActionMode = global::NutritionApp.Droid.Resource.Style.Base_Widget_AppCompat_ActionMode;
-			global::Xamarin.Forms.PancakeView.Resource.Style.Base_Widget_AppCompat_ActivityChooserView = global::NutritionApp.Droid.Resource.Style.Base_Widget_AppCompat_ActivityChooserView;
-			global::Xamarin.Forms.PancakeView.Resource.Style.Base_Widget_AppCompat_AutoCompleteTextView = global::NutritionApp.Droid.Resource.Style.Base_Widget_AppCompat_AutoCompleteTextView;
-			global::Xamarin.Forms.PancakeView.Resource.Style.Base_Widget_AppCompat_Button = global::NutritionApp.Droid.Resource.Style.Base_Widget_AppCompat_Button;
-			global::Xamarin.Forms.PancakeView.Resource.Style.Base_Widget_AppCompat_ButtonBar = global::NutritionApp.Droid.Resource.Style.Base_Widget_AppCompat_ButtonBar;
-			global::Xamarin.Forms.PancakeView.Resource.Style.Base_Widget_AppCompat_ButtonBar_AlertDialog = global::NutritionApp.Droid.Resource.Style.Base_Widget_AppCompat_ButtonBar_AlertDialog;
-			global::Xamarin.Forms.PancakeView.Resource.Style.Base_Widget_AppCompat_Button_Borderless = global::NutritionApp.Droid.Resource.Style.Base_Widget_AppCompat_Button_Borderless;
-			global::Xamarin.Forms.PancakeView.Resource.Style.Base_Widget_AppCompat_Button_Borderless_Colored = global::NutritionApp.Droid.Resource.Style.Base_Widget_AppCompat_Button_Borderless_Colored;
-			global::Xamarin.Forms.PancakeView.Resource.Style.Base_Widget_AppCompat_Button_ButtonBar_AlertDialog = global::NutritionApp.Droid.Resource.Style.Base_Widget_AppCompat_Button_ButtonBar_AlertDialog;
-			global::Xamarin.Forms.PancakeView.Resource.Style.Base_Widget_AppCompat_Button_Colored = global::NutritionApp.Droid.Resource.Style.Base_Widget_AppCompat_Button_Colored;
-			global::Xamarin.Forms.PancakeView.Resource.Style.Base_Widget_AppCompat_Button_Small = global::NutritionApp.Droid.Resource.Style.Base_Widget_AppCompat_Button_Small;
-			global::Xamarin.Forms.PancakeView.Resource.Style.Base_Widget_AppCompat_CompoundButton_CheckBox = global::NutritionApp.Droid.Resource.Style.Base_Widget_AppCompat_CompoundButton_CheckBox;
-			global::Xamarin.Forms.PancakeView.Resource.Style.Base_Widget_AppCompat_CompoundButton_RadioButton = global::NutritionApp.Droid.Resource.Style.Base_Widget_AppCompat_CompoundButton_RadioButton;
-			global::Xamarin.Forms.PancakeView.Resource.Style.Base_Widget_AppCompat_CompoundButton_Switch = global::NutritionApp.Droid.Resource.Style.Base_Widget_AppCompat_CompoundButton_Switch;
-			global::Xamarin.Forms.PancakeView.Resource.Style.Base_Widget_AppCompat_DrawerArrowToggle = global::NutritionApp.Droid.Resource.Style.Base_Widget_AppCompat_DrawerArrowToggle;
-			global::Xamarin.Forms.PancakeView.Resource.Style.Base_Widget_AppCompat_DrawerArrowToggle_Common = global::NutritionApp.Droid.Resource.Style.Base_Widget_AppCompat_DrawerArrowToggle_Common;
-			global::Xamarin.Forms.PancakeView.Resource.Style.Base_Widget_AppCompat_DropDownItem_Spinner = global::NutritionApp.Droid.Resource.Style.Base_Widget_AppCompat_DropDownItem_Spinner;
-			global::Xamarin.Forms.PancakeView.Resource.Style.Base_Widget_AppCompat_EditText = global::NutritionApp.Droid.Resource.Style.Base_Widget_AppCompat_EditText;
-			global::Xamarin.Forms.PancakeView.Resource.Style.Base_Widget_AppCompat_ImageButton = global::NutritionApp.Droid.Resource.Style.Base_Widget_AppCompat_ImageButton;
-			global::Xamarin.Forms.PancakeView.Resource.Style.Base_Widget_AppCompat_Light_ActionBar = global::NutritionApp.Droid.Resource.Style.Base_Widget_AppCompat_Light_ActionBar;
-			global::Xamarin.Forms.PancakeView.Resource.Style.Base_Widget_AppCompat_Light_ActionBar_Solid = global::NutritionApp.Droid.Resource.Style.Base_Widget_AppCompat_Light_ActionBar_Solid;
-			global::Xamarin.Forms.PancakeView.Resource.Style.Base_Widget_AppCompat_Light_ActionBar_TabBar = global::NutritionApp.Droid.Resource.Style.Base_Widget_AppCompat_Light_ActionBar_TabBar;
-			global::Xamarin.Forms.PancakeView.Resource.Style.Base_Widget_AppCompat_Light_ActionBar_TabText = global::NutritionApp.Droid.Resource.Style.Base_Widget_AppCompat_Light_ActionBar_TabText;
-			global::Xamarin.Forms.PancakeView.Resource.Style.Base_Widget_AppCompat_Light_ActionBar_TabText_Inverse = global::NutritionApp.Droid.Resource.Style.Base_Widget_AppCompat_Light_ActionBar_TabText_Inverse;
-			global::Xamarin.Forms.PancakeView.Resource.Style.Base_Widget_AppCompat_Light_ActionBar_TabView = global::NutritionApp.Droid.Resource.Style.Base_Widget_AppCompat_Light_ActionBar_TabView;
-			global::Xamarin.Forms.PancakeView.Resource.Style.Base_Widget_AppCompat_Light_PopupMenu = global::NutritionApp.Droid.Resource.Style.Base_Widget_AppCompat_Light_PopupMenu;
-			global::Xamarin.Forms.PancakeView.Resource.Style.Base_Widget_AppCompat_Light_PopupMenu_Overflow = global::NutritionApp.Droid.Resource.Style.Base_Widget_AppCompat_Light_PopupMenu_Overflow;
-			global::Xamarin.Forms.PancakeView.Resource.Style.Base_Widget_AppCompat_ListMenuView = global::NutritionApp.Droid.Resource.Style.Base_Widget_AppCompat_ListMenuView;
-			global::Xamarin.Forms.PancakeView.Resource.Style.Base_Widget_AppCompat_ListPopupWindow = global::NutritionApp.Droid.Resource.Style.Base_Widget_AppCompat_ListPopupWindow;
-			global::Xamarin.Forms.PancakeView.Resource.Style.Base_Widget_AppCompat_ListView = global::NutritionApp.Droid.Resource.Style.Base_Widget_AppCompat_ListView;
-			global::Xamarin.Forms.PancakeView.Resource.Style.Base_Widget_AppCompat_ListView_DropDown = global::NutritionApp.Droid.Resource.Style.Base_Widget_AppCompat_ListView_DropDown;
-			global::Xamarin.Forms.PancakeView.Resource.Style.Base_Widget_AppCompat_ListView_Menu = global::NutritionApp.Droid.Resource.Style.Base_Widget_AppCompat_ListView_Menu;
-			global::Xamarin.Forms.PancakeView.Resource.Style.Base_Widget_AppCompat_PopupMenu = global::NutritionApp.Droid.Resource.Style.Base_Widget_AppCompat_PopupMenu;
-			global::Xamarin.Forms.PancakeView.Resource.Style.Base_Widget_AppCompat_PopupMenu_Overflow = global::NutritionApp.Droid.Resource.Style.Base_Widget_AppCompat_PopupMenu_Overflow;
-			global::Xamarin.Forms.PancakeView.Resource.Style.Base_Widget_AppCompat_PopupWindow = global::NutritionApp.Droid.Resource.Style.Base_Widget_AppCompat_PopupWindow;
-			global::Xamarin.Forms.PancakeView.Resource.Style.Base_Widget_AppCompat_ProgressBar = global::NutritionApp.Droid.Resource.Style.Base_Widget_AppCompat_ProgressBar;
-			global::Xamarin.Forms.PancakeView.Resource.Style.Base_Widget_AppCompat_ProgressBar_Horizontal = global::NutritionApp.Droid.Resource.Style.Base_Widget_AppCompat_ProgressBar_Horizontal;
-			global::Xamarin.Forms.PancakeView.Resource.Style.Base_Widget_AppCompat_RatingBar = global::NutritionApp.Droid.Resource.Style.Base_Widget_AppCompat_RatingBar;
-			global::Xamarin.Forms.PancakeView.Resource.Style.Base_Widget_AppCompat_RatingBar_Indicator = global::NutritionApp.Droid.Resource.Style.Base_Widget_AppCompat_RatingBar_Indicator;
-			global::Xamarin.Forms.PancakeView.Resource.Style.Base_Widget_AppCompat_RatingBar_Small = global::NutritionApp.Droid.Resource.Style.Base_Widget_AppCompat_RatingBar_Small;
-			global::Xamarin.Forms.PancakeView.Resource.Style.Base_Widget_AppCompat_SearchView = global::NutritionApp.Droid.Resource.Style.Base_Widget_AppCompat_SearchView;
-			global::Xamarin.Forms.PancakeView.Resource.Style.Base_Widget_AppCompat_SearchView_ActionBar = global::NutritionApp.Droid.Resource.Style.Base_Widget_AppCompat_SearchView_ActionBar;
-			global::Xamarin.Forms.PancakeView.Resource.Style.Base_Widget_AppCompat_SeekBar = global::NutritionApp.Droid.Resource.Style.Base_Widget_AppCompat_SeekBar;
-			global::Xamarin.Forms.PancakeView.Resource.Style.Base_Widget_AppCompat_SeekBar_Discrete = global::NutritionApp.Droid.Resource.Style.Base_Widget_AppCompat_SeekBar_Discrete;
-			global::Xamarin.Forms.PancakeView.Resource.Style.Base_Widget_AppCompat_Spinner = global::NutritionApp.Droid.Resource.Style.Base_Widget_AppCompat_Spinner;
-			global::Xamarin.Forms.PancakeView.Resource.Style.Base_Widget_AppCompat_Spinner_Underlined = global::NutritionApp.Droid.Resource.Style.Base_Widget_AppCompat_Spinner_Underlined;
-			global::Xamarin.Forms.PancakeView.Resource.Style.Base_Widget_AppCompat_TextView = global::NutritionApp.Droid.Resource.Style.Base_Widget_AppCompat_TextView;
-			global::Xamarin.Forms.PancakeView.Resource.Style.Base_Widget_AppCompat_TextView_SpinnerItem = global::NutritionApp.Droid.Resource.Style.Base_Widget_AppCompat_TextView_SpinnerItem;
-			global::Xamarin.Forms.PancakeView.Resource.Style.Base_Widget_AppCompat_Toolbar = global::NutritionApp.Droid.Resource.Style.Base_Widget_AppCompat_Toolbar;
-			global::Xamarin.Forms.PancakeView.Resource.Style.Base_Widget_AppCompat_Toolbar_Button_Navigation = global::NutritionApp.Droid.Resource.Style.Base_Widget_AppCompat_Toolbar_Button_Navigation;
-			global::Xamarin.Forms.PancakeView.Resource.Style.Base_Widget_Design_TabLayout = global::NutritionApp.Droid.Resource.Style.Base_Widget_Design_TabLayout;
-			global::Xamarin.Forms.PancakeView.Resource.Style.Base_Widget_MaterialComponents_Chip = global::NutritionApp.Droid.Resource.Style.Base_Widget_MaterialComponents_Chip;
-			global::Xamarin.Forms.PancakeView.Resource.Style.Base_Widget_MaterialComponents_TextInputEditText = global::NutritionApp.Droid.Resource.Style.Base_Widget_MaterialComponents_TextInputEditText;
-			global::Xamarin.Forms.PancakeView.Resource.Style.Base_Widget_MaterialComponents_TextInputLayout = global::NutritionApp.Droid.Resource.Style.Base_Widget_MaterialComponents_TextInputLayout;
-			global::Xamarin.Forms.PancakeView.Resource.Style.CardView = global::NutritionApp.Droid.Resource.Style.CardView;
-			global::Xamarin.Forms.PancakeView.Resource.Style.CardView_Dark = global::NutritionApp.Droid.Resource.Style.CardView_Dark;
-			global::Xamarin.Forms.PancakeView.Resource.Style.CardView_Light = global::NutritionApp.Droid.Resource.Style.CardView_Light;
-			global::Xamarin.Forms.PancakeView.Resource.Style.collectionViewTheme = global::NutritionApp.Droid.Resource.Style.collectionViewTheme;
-			global::Xamarin.Forms.PancakeView.Resource.Style.MainTheme = global::NutritionApp.Droid.Resource.Style.MainTheme;
-			global::Xamarin.Forms.PancakeView.Resource.Style.MainTheme_Base = global::NutritionApp.Droid.Resource.Style.MainTheme_Base;
-			global::Xamarin.Forms.PancakeView.Resource.Style.Platform_AppCompat = global::NutritionApp.Droid.Resource.Style.Platform_AppCompat;
-			global::Xamarin.Forms.PancakeView.Resource.Style.Platform_AppCompat_Light = global::NutritionApp.Droid.Resource.Style.Platform_AppCompat_Light;
-			global::Xamarin.Forms.PancakeView.Resource.Style.Platform_MaterialComponents = global::NutritionApp.Droid.Resource.Style.Platform_MaterialComponents;
-			global::Xamarin.Forms.PancakeView.Resource.Style.Platform_MaterialComponents_Dialog = global::NutritionApp.Droid.Resource.Style.Platform_MaterialComponents_Dialog;
-			global::Xamarin.Forms.PancakeView.Resource.Style.Platform_MaterialComponents_Light = global::NutritionApp.Droid.Resource.Style.Platform_MaterialComponents_Light;
-			global::Xamarin.Forms.PancakeView.Resource.Style.Platform_MaterialComponents_Light_Dialog = global::NutritionApp.Droid.Resource.Style.Platform_MaterialComponents_Light_Dialog;
-			global::Xamarin.Forms.PancakeView.Resource.Style.Platform_ThemeOverlay_AppCompat = global::NutritionApp.Droid.Resource.Style.Platform_ThemeOverlay_AppCompat;
-			global::Xamarin.Forms.PancakeView.Resource.Style.Platform_ThemeOverlay_AppCompat_Dark = global::NutritionApp.Droid.Resource.Style.Platform_ThemeOverlay_AppCompat_Dark;
-			global::Xamarin.Forms.PancakeView.Resource.Style.Platform_ThemeOverlay_AppCompat_Light = global::NutritionApp.Droid.Resource.Style.Platform_ThemeOverlay_AppCompat_Light;
-			global::Xamarin.Forms.PancakeView.Resource.Style.Platform_V21_AppCompat = global::NutritionApp.Droid.Resource.Style.Platform_V21_AppCompat;
-			global::Xamarin.Forms.PancakeView.Resource.Style.Platform_V21_AppCompat_Light = global::NutritionApp.Droid.Resource.Style.Platform_V21_AppCompat_Light;
-			global::Xamarin.Forms.PancakeView.Resource.Style.Platform_V25_AppCompat = global::NutritionApp.Droid.Resource.Style.Platform_V25_AppCompat;
-			global::Xamarin.Forms.PancakeView.Resource.Style.Platform_V25_AppCompat_Light = global::NutritionApp.Droid.Resource.Style.Platform_V25_AppCompat_Light;
-			global::Xamarin.Forms.PancakeView.Resource.Style.Platform_Widget_AppCompat_Spinner = global::NutritionApp.Droid.Resource.Style.Platform_Widget_AppCompat_Spinner;
-			global::Xamarin.Forms.PancakeView.Resource.Style.RtlOverlay_DialogWindowTitle_AppCompat = global::NutritionApp.Droid.Resource.Style.RtlOverlay_DialogWindowTitle_AppCompat;
-			global::Xamarin.Forms.PancakeView.Resource.Style.RtlOverlay_Widget_AppCompat_ActionBar_TitleItem = global::NutritionApp.Droid.Resource.Style.RtlOverlay_Widget_AppCompat_ActionBar_TitleItem;
-			global::Xamarin.Forms.PancakeView.Resource.Style.RtlOverlay_Widget_AppCompat_DialogTitle_Icon = global::NutritionApp.Droid.Resource.Style.RtlOverlay_Widget_AppCompat_DialogTitle_Icon;
-			global::Xamarin.Forms.PancakeView.Resource.Style.RtlOverlay_Widget_AppCompat_PopupMenuItem = global::NutritionApp.Droid.Resource.Style.RtlOverlay_Widget_AppCompat_PopupMenuItem;
-			global::Xamarin.Forms.PancakeView.Resource.Style.RtlOverlay_Widget_AppCompat_PopupMenuItem_InternalGroup = global::NutritionApp.Droid.Resource.Style.RtlOverlay_Widget_AppCompat_PopupMenuItem_InternalGroup;
-			global::Xamarin.Forms.PancakeView.Resource.Style.RtlOverlay_Widget_AppCompat_PopupMenuItem_Shortcut = global::NutritionApp.Droid.Resource.Style.RtlOverlay_Widget_AppCompat_PopupMenuItem_Shortcut;
-			global::Xamarin.Forms.PancakeView.Resource.Style.RtlOverlay_Widget_AppCompat_PopupMenuItem_SubmenuArrow = global::NutritionApp.Droid.Resource.Style.RtlOverlay_Widget_AppCompat_PopupMenuItem_SubmenuArrow;
-			global::Xamarin.Forms.PancakeView.Resource.Style.RtlOverlay_Widget_AppCompat_PopupMenuItem_Text = global::NutritionApp.Droid.Resource.Style.RtlOverlay_Widget_AppCompat_PopupMenuItem_Text;
-			global::Xamarin.Forms.PancakeView.Resource.Style.RtlOverlay_Widget_AppCompat_PopupMenuItem_Title = global::NutritionApp.Droid.Resource.Style.RtlOverlay_Widget_AppCompat_PopupMenuItem_Title;
-			global::Xamarin.Forms.PancakeView.Resource.Style.RtlOverlay_Widget_AppCompat_SearchView_MagIcon = global::NutritionApp.Droid.Resource.Style.RtlOverlay_Widget_AppCompat_SearchView_MagIcon;
-			global::Xamarin.Forms.PancakeView.Resource.Style.RtlOverlay_Widget_AppCompat_Search_DropDown = global::NutritionApp.Droid.Resource.Style.RtlOverlay_Widget_AppCompat_Search_DropDown;
-			global::Xamarin.Forms.PancakeView.Resource.Style.RtlOverlay_Widget_AppCompat_Search_DropDown_Icon1 = global::NutritionApp.Droid.Resource.Style.RtlOverlay_Widget_AppCompat_Search_DropDown_Icon1;
-			global::Xamarin.Forms.PancakeView.Resource.Style.RtlOverlay_Widget_AppCompat_Search_DropDown_Icon2 = global::NutritionApp.Droid.Resource.Style.RtlOverlay_Widget_AppCompat_Search_DropDown_Icon2;
-			global::Xamarin.Forms.PancakeView.Resource.Style.RtlOverlay_Widget_AppCompat_Search_DropDown_Query = global::NutritionApp.Droid.Resource.Style.RtlOverlay_Widget_AppCompat_Search_DropDown_Query;
-			global::Xamarin.Forms.PancakeView.Resource.Style.RtlOverlay_Widget_AppCompat_Search_DropDown_Text = global::NutritionApp.Droid.Resource.Style.RtlOverlay_Widget_AppCompat_Search_DropDown_Text;
-			global::Xamarin.Forms.PancakeView.Resource.Style.RtlUnderlay_Widget_AppCompat_ActionButton = global::NutritionApp.Droid.Resource.Style.RtlUnderlay_Widget_AppCompat_ActionButton;
-			global::Xamarin.Forms.PancakeView.Resource.Style.RtlUnderlay_Widget_AppCompat_ActionButton_Overflow = global::NutritionApp.Droid.Resource.Style.RtlUnderlay_Widget_AppCompat_ActionButton_Overflow;
-			global::Xamarin.Forms.PancakeView.Resource.Style.scrollViewScrollBars = global::NutritionApp.Droid.Resource.Style.scrollViewScrollBars;
-			global::Xamarin.Forms.PancakeView.Resource.Style.scrollViewTheme = global::NutritionApp.Droid.Resource.Style.scrollViewTheme;
-			global::Xamarin.Forms.PancakeView.Resource.Style.TextAppearance_AppCompat = global::NutritionApp.Droid.Resource.Style.TextAppearance_AppCompat;
-			global::Xamarin.Forms.PancakeView.Resource.Style.TextAppearance_AppCompat_Body1 = global::NutritionApp.Droid.Resource.Style.TextAppearance_AppCompat_Body1;
-			global::Xamarin.Forms.PancakeView.Resource.Style.TextAppearance_AppCompat_Body2 = global::NutritionApp.Droid.Resource.Style.TextAppearance_AppCompat_Body2;
-			global::Xamarin.Forms.PancakeView.Resource.Style.TextAppearance_AppCompat_Button = global::NutritionApp.Droid.Resource.Style.TextAppearance_AppCompat_Button;
-			global::Xamarin.Forms.PancakeView.Resource.Style.TextAppearance_AppCompat_Caption = global::NutritionApp.Droid.Resource.Style.TextAppearance_AppCompat_Caption;
-			global::Xamarin.Forms.PancakeView.Resource.Style.TextAppearance_AppCompat_Display1 = global::NutritionApp.Droid.Resource.Style.TextAppearance_AppCompat_Display1;
-			global::Xamarin.Forms.PancakeView.Resource.Style.TextAppearance_AppCompat_Display2 = global::NutritionApp.Droid.Resource.Style.TextAppearance_AppCompat_Display2;
-			global::Xamarin.Forms.PancakeView.Resource.Style.TextAppearance_AppCompat_Display3 = global::NutritionApp.Droid.Resource.Style.TextAppearance_AppCompat_Display3;
-			global::Xamarin.Forms.PancakeView.Resource.Style.TextAppearance_AppCompat_Display4 = global::NutritionApp.Droid.Resource.Style.TextAppearance_AppCompat_Display4;
-			global::Xamarin.Forms.PancakeView.Resource.Style.TextAppearance_AppCompat_Headline = global::NutritionApp.Droid.Resource.Style.TextAppearance_AppCompat_Headline;
-			global::Xamarin.Forms.PancakeView.Resource.Style.TextAppearance_AppCompat_Inverse = global::NutritionApp.Droid.Resource.Style.TextAppearance_AppCompat_Inverse;
-			global::Xamarin.Forms.PancakeView.Resource.Style.TextAppearance_AppCompat_Large = global::NutritionApp.Droid.Resource.Style.TextAppearance_AppCompat_Large;
-			global::Xamarin.Forms.PancakeView.Resource.Style.TextAppearance_AppCompat_Large_Inverse = global::NutritionApp.Droid.Resource.Style.TextAppearance_AppCompat_Large_Inverse;
-			global::Xamarin.Forms.PancakeView.Resource.Style.TextAppearance_AppCompat_Light_SearchResult_Subtitle = global::NutritionApp.Droid.Resource.Style.TextAppearance_AppCompat_Light_SearchResult_Subtitle;
-			global::Xamarin.Forms.PancakeView.Resource.Style.TextAppearance_AppCompat_Light_SearchResult_Title = global::NutritionApp.Droid.Resource.Style.TextAppearance_AppCompat_Light_SearchResult_Title;
-			global::Xamarin.Forms.PancakeView.Resource.Style.TextAppearance_AppCompat_Light_Widget_PopupMenu_Large = global::NutritionApp.Droid.Resource.Style.TextAppearance_AppCompat_Light_Widget_PopupMenu_Large;
-			global::Xamarin.Forms.PancakeView.Resource.Style.TextAppearance_AppCompat_Light_Widget_PopupMenu_Small = global::NutritionApp.Droid.Resource.Style.TextAppearance_AppCompat_Light_Widget_PopupMenu_Small;
-			global::Xamarin.Forms.PancakeView.Resource.Style.TextAppearance_AppCompat_Medium = global::NutritionApp.Droid.Resource.Style.TextAppearance_AppCompat_Medium;
-			global::Xamarin.Forms.PancakeView.Resource.Style.TextAppearance_AppCompat_Medium_Inverse = global::NutritionApp.Droid.Resource.Style.TextAppearance_AppCompat_Medium_Inverse;
-			global::Xamarin.Forms.PancakeView.Resource.Style.TextAppearance_AppCompat_Menu = global::NutritionApp.Droid.Resource.Style.TextAppearance_AppCompat_Menu;
-			global::Xamarin.Forms.PancakeView.Resource.Style.TextAppearance_AppCompat_SearchResult_Subtitle = global::NutritionApp.Droid.Resource.Style.TextAppearance_AppCompat_SearchResult_Subtitle;
-			global::Xamarin.Forms.PancakeView.Resource.Style.TextAppearance_AppCompat_SearchResult_Title = global::NutritionApp.Droid.Resource.Style.TextAppearance_AppCompat_SearchResult_Title;
-			global::Xamarin.Forms.PancakeView.Resource.Style.TextAppearance_AppCompat_Small = global::NutritionApp.Droid.Resource.Style.TextAppearance_AppCompat_Small;
-			global::Xamarin.Forms.PancakeView.Resource.Style.TextAppearance_AppCompat_Small_Inverse = global::NutritionApp.Droid.Resource.Style.TextAppearance_AppCompat_Small_Inverse;
-			global::Xamarin.Forms.PancakeView.Resource.Style.TextAppearance_AppCompat_Subhead = global::NutritionApp.Droid.Resource.Style.TextAppearance_AppCompat_Subhead;
-			global::Xamarin.Forms.PancakeView.Resource.Style.TextAppearance_AppCompat_Subhead_Inverse = global::NutritionApp.Droid.Resource.Style.TextAppearance_AppCompat_Subhead_Inverse;
-			global::Xamarin.Forms.PancakeView.Resource.Style.TextAppearance_AppCompat_Title = global::NutritionApp.Droid.Resource.Style.TextAppearance_AppCompat_Title;
-			global::Xamarin.Forms.PancakeView.Resource.Style.TextAppearance_AppCompat_Title_Inverse = global::NutritionApp.Droid.Resource.Style.TextAppearance_AppCompat_Title_Inverse;
-			global::Xamarin.Forms.PancakeView.Resource.Style.TextAppearance_AppCompat_Tooltip = global::NutritionApp.Droid.Resource.Style.TextAppearance_AppCompat_Tooltip;
-			global::Xamarin.Forms.PancakeView.Resource.Style.TextAppearance_AppCompat_Widget_ActionBar_Menu = global::NutritionApp.Droid.Resource.Style.TextAppearance_AppCompat_Widget_ActionBar_Menu;
-			global::Xamarin.Forms.PancakeView.Resource.Style.TextAppearance_AppCompat_Widget_ActionBar_Subtitle = global::NutritionApp.Droid.Resource.Style.TextAppearance_AppCompat_Widget_ActionBar_Subtitle;
-			global::Xamarin.Forms.PancakeView.Resource.Style.TextAppearance_AppCompat_Widget_ActionBar_Subtitle_Inverse = global::NutritionApp.Droid.Resource.Style.TextAppearance_AppCompat_Widget_ActionBar_Subtitle_Inverse;
-			global::Xamarin.Forms.PancakeView.Resource.Style.TextAppearance_AppCompat_Widget_ActionBar_Title = global::NutritionApp.Droid.Resource.Style.TextAppearance_AppCompat_Widget_ActionBar_Title;
-			global::Xamarin.Forms.PancakeView.Resource.Style.TextAppearance_AppCompat_Widget_ActionBar_Title_Inverse = global::NutritionApp.Droid.Resource.Style.TextAppearance_AppCompat_Widget_ActionBar_Title_Inverse;
-			global::Xamarin.Forms.PancakeView.Resource.Style.TextAppearance_AppCompat_Widget_ActionMode_Subtitle = global::NutritionApp.Droid.Resource.Style.TextAppearance_AppCompat_Widget_ActionMode_Subtitle;
-			global::Xamarin.Forms.PancakeView.Resource.Style.TextAppearance_AppCompat_Widget_ActionMode_Subtitle_Inverse = global::NutritionApp.Droid.Resource.Style.TextAppearance_AppCompat_Widget_ActionMode_Subtitle_Inverse;
-			global::Xamarin.Forms.PancakeView.Resource.Style.TextAppearance_AppCompat_Widget_ActionMode_Title = global::NutritionApp.Droid.Resource.Style.TextAppearance_AppCompat_Widget_ActionMode_Title;
-			global::Xamarin.Forms.PancakeView.Resource.Style.TextAppearance_AppCompat_Widget_ActionMode_Title_Inverse = global::NutritionApp.Droid.Resource.Style.TextAppearance_AppCompat_Widget_ActionMode_Title_Inverse;
-			global::Xamarin.Forms.PancakeView.Resource.Style.TextAppearance_AppCompat_Widget_Button = global::NutritionApp.Droid.Resource.Style.TextAppearance_AppCompat_Widget_Button;
-			global::Xamarin.Forms.PancakeView.Resource.Style.TextAppearance_AppCompat_Widget_Button_Borderless_Colored = global::NutritionApp.Droid.Resource.Style.TextAppearance_AppCompat_Widget_Button_Borderless_Colored;
-			global::Xamarin.Forms.PancakeView.Resource.Style.TextAppearance_AppCompat_Widget_Button_Colored = global::NutritionApp.Droid.Resource.Style.TextAppearance_AppCompat_Widget_Button_Colored;
-			global::Xamarin.Forms.PancakeView.Resource.Style.TextAppearance_AppCompat_Widget_Button_Inverse = global::NutritionApp.Droid.Resource.Style.TextAppearance_AppCompat_Widget_Button_Inverse;
-			global::Xamarin.Forms.PancakeView.Resource.Style.TextAppearance_AppCompat_Widget_DropDownItem = global::NutritionApp.Droid.Resource.Style.TextAppearance_AppCompat_Widget_DropDownItem;
-			global::Xamarin.Forms.PancakeView.Resource.Style.TextAppearance_AppCompat_Widget_PopupMenu_Header = global::NutritionApp.Droid.Resource.Style.TextAppearance_AppCompat_Widget_PopupMenu_Header;
-			global::Xamarin.Forms.PancakeView.Resource.Style.TextAppearance_AppCompat_Widget_PopupMenu_Large = global::NutritionApp.Droid.Resource.Style.TextAppearance_AppCompat_Widget_PopupMenu_Large;
-			global::Xamarin.Forms.PancakeView.Resource.Style.TextAppearance_AppCompat_Widget_PopupMenu_Small = global::NutritionApp.Droid.Resource.Style.TextAppearance_AppCompat_Widget_PopupMenu_Small;
-			global::Xamarin.Forms.PancakeView.Resource.Style.TextAppearance_AppCompat_Widget_Switch = global::NutritionApp.Droid.Resource.Style.TextAppearance_AppCompat_Widget_Switch;
-			global::Xamarin.Forms.PancakeView.Resource.Style.TextAppearance_AppCompat_Widget_TextView_SpinnerItem = global::NutritionApp.Droid.Resource.Style.TextAppearance_AppCompat_Widget_TextView_SpinnerItem;
-			global::Xamarin.Forms.PancakeView.Resource.Style.TextAppearance_Compat_Notification = global::NutritionApp.Droid.Resource.Style.TextAppearance_Compat_Notification;
-			global::Xamarin.Forms.PancakeView.Resource.Style.TextAppearance_Compat_Notification_Info = global::NutritionApp.Droid.Resource.Style.TextAppearance_Compat_Notification_Info;
-			global::Xamarin.Forms.PancakeView.Resource.Style.TextAppearance_Compat_Notification_Info_Media = global::NutritionApp.Droid.Resource.Style.TextAppearance_Compat_Notification_Info_Media;
-			global::Xamarin.Forms.PancakeView.Resource.Style.TextAppearance_Compat_Notification_Line2 = global::NutritionApp.Droid.Resource.Style.TextAppearance_Compat_Notification_Line2;
-			global::Xamarin.Forms.PancakeView.Resource.Style.TextAppearance_Compat_Notification_Line2_Media = global::NutritionApp.Droid.Resource.Style.TextAppearance_Compat_Notification_Line2_Media;
-			global::Xamarin.Forms.PancakeView.Resource.Style.TextAppearance_Compat_Notification_Media = global::NutritionApp.Droid.Resource.Style.TextAppearance_Compat_Notification_Media;
-			global::Xamarin.Forms.PancakeView.Resource.Style.TextAppearance_Compat_Notification_Time = global::NutritionApp.Droid.Resource.Style.TextAppearance_Compat_Notification_Time;
-			global::Xamarin.Forms.PancakeView.Resource.Style.TextAppearance_Compat_Notification_Time_Media = global::NutritionApp.Droid.Resource.Style.TextAppearance_Compat_Notification_Time_Media;
-			global::Xamarin.Forms.PancakeView.Resource.Style.TextAppearance_Compat_Notification_Title = global::NutritionApp.Droid.Resource.Style.TextAppearance_Compat_Notification_Title;
-			global::Xamarin.Forms.PancakeView.Resource.Style.TextAppearance_Compat_Notification_Title_Media = global::NutritionApp.Droid.Resource.Style.TextAppearance_Compat_Notification_Title_Media;
-			global::Xamarin.Forms.PancakeView.Resource.Style.TextAppearance_Design_CollapsingToolbar_Expanded = global::NutritionApp.Droid.Resource.Style.TextAppearance_Design_CollapsingToolbar_Expanded;
-			global::Xamarin.Forms.PancakeView.Resource.Style.TextAppearance_Design_Counter = global::NutritionApp.Droid.Resource.Style.TextAppearance_Design_Counter;
-			global::Xamarin.Forms.PancakeView.Resource.Style.TextAppearance_Design_Counter_Overflow = global::NutritionApp.Droid.Resource.Style.TextAppearance_Design_Counter_Overflow;
-			global::Xamarin.Forms.PancakeView.Resource.Style.TextAppearance_Design_Error = global::NutritionApp.Droid.Resource.Style.TextAppearance_Design_Error;
-			global::Xamarin.Forms.PancakeView.Resource.Style.TextAppearance_Design_HelperText = global::NutritionApp.Droid.Resource.Style.TextAppearance_Design_HelperText;
-			global::Xamarin.Forms.PancakeView.Resource.Style.TextAppearance_Design_Hint = global::NutritionApp.Droid.Resource.Style.TextAppearance_Design_Hint;
-			global::Xamarin.Forms.PancakeView.Resource.Style.TextAppearance_Design_Snackbar_Message = global::NutritionApp.Droid.Resource.Style.TextAppearance_Design_Snackbar_Message;
-			global::Xamarin.Forms.PancakeView.Resource.Style.TextAppearance_Design_Tab = global::NutritionApp.Droid.Resource.Style.TextAppearance_Design_Tab;
-			global::Xamarin.Forms.PancakeView.Resource.Style.TextAppearance_MaterialComponents_Body1 = global::NutritionApp.Droid.Resource.Style.TextAppearance_MaterialComponents_Body1;
-			global::Xamarin.Forms.PancakeView.Resource.Style.TextAppearance_MaterialComponents_Body2 = global::NutritionApp.Droid.Resource.Style.TextAppearance_MaterialComponents_Body2;
-			global::Xamarin.Forms.PancakeView.Resource.Style.TextAppearance_MaterialComponents_Button = global::NutritionApp.Droid.Resource.Style.TextAppearance_MaterialComponents_Button;
-			global::Xamarin.Forms.PancakeView.Resource.Style.TextAppearance_MaterialComponents_Caption = global::NutritionApp.Droid.Resource.Style.TextAppearance_MaterialComponents_Caption;
-			global::Xamarin.Forms.PancakeView.Resource.Style.TextAppearance_MaterialComponents_Chip = global::NutritionApp.Droid.Resource.Style.TextAppearance_MaterialComponents_Chip;
-			global::Xamarin.Forms.PancakeView.Resource.Style.TextAppearance_MaterialComponents_Headline1 = global::NutritionApp.Droid.Resource.Style.TextAppearance_MaterialComponents_Headline1;
-			global::Xamarin.Forms.PancakeView.Resource.Style.TextAppearance_MaterialComponents_Headline2 = global::NutritionApp.Droid.Resource.Style.TextAppearance_MaterialComponents_Headline2;
-			global::Xamarin.Forms.PancakeView.Resource.Style.TextAppearance_MaterialComponents_Headline3 = global::NutritionApp.Droid.Resource.Style.TextAppearance_MaterialComponents_Headline3;
-			global::Xamarin.Forms.PancakeView.Resource.Style.TextAppearance_MaterialComponents_Headline4 = global::NutritionApp.Droid.Resource.Style.TextAppearance_MaterialComponents_Headline4;
-			global::Xamarin.Forms.PancakeView.Resource.Style.TextAppearance_MaterialComponents_Headline5 = global::NutritionApp.Droid.Resource.Style.TextAppearance_MaterialComponents_Headline5;
-			global::Xamarin.Forms.PancakeView.Resource.Style.TextAppearance_MaterialComponents_Headline6 = global::NutritionApp.Droid.Resource.Style.TextAppearance_MaterialComponents_Headline6;
-			global::Xamarin.Forms.PancakeView.Resource.Style.TextAppearance_MaterialComponents_Overline = global::NutritionApp.Droid.Resource.Style.TextAppearance_MaterialComponents_Overline;
-			global::Xamarin.Forms.PancakeView.Resource.Style.TextAppearance_MaterialComponents_Subtitle1 = global::NutritionApp.Droid.Resource.Style.TextAppearance_MaterialComponents_Subtitle1;
-			global::Xamarin.Forms.PancakeView.Resource.Style.TextAppearance_MaterialComponents_Subtitle2 = global::NutritionApp.Droid.Resource.Style.TextAppearance_MaterialComponents_Subtitle2;
-			global::Xamarin.Forms.PancakeView.Resource.Style.TextAppearance_Widget_AppCompat_ExpandedMenu_Item = global::NutritionApp.Droid.Resource.Style.TextAppearance_Widget_AppCompat_ExpandedMenu_Item;
-			global::Xamarin.Forms.PancakeView.Resource.Style.TextAppearance_Widget_AppCompat_Toolbar_Subtitle = global::NutritionApp.Droid.Resource.Style.TextAppearance_Widget_AppCompat_Toolbar_Subtitle;
-			global::Xamarin.Forms.PancakeView.Resource.Style.TextAppearance_Widget_AppCompat_Toolbar_Title = global::NutritionApp.Droid.Resource.Style.TextAppearance_Widget_AppCompat_Toolbar_Title;
-			global::Xamarin.Forms.PancakeView.Resource.Style.ThemeOverlay_AppCompat = global::NutritionApp.Droid.Resource.Style.ThemeOverlay_AppCompat;
-			global::Xamarin.Forms.PancakeView.Resource.Style.ThemeOverlay_AppCompat_ActionBar = global::NutritionApp.Droid.Resource.Style.ThemeOverlay_AppCompat_ActionBar;
-			global::Xamarin.Forms.PancakeView.Resource.Style.ThemeOverlay_AppCompat_Dark = global::NutritionApp.Droid.Resource.Style.ThemeOverlay_AppCompat_Dark;
-			global::Xamarin.Forms.PancakeView.Resource.Style.ThemeOverlay_AppCompat_Dark_ActionBar = global::NutritionApp.Droid.Resource.Style.ThemeOverlay_AppCompat_Dark_ActionBar;
-			global::Xamarin.Forms.PancakeView.Resource.Style.ThemeOverlay_AppCompat_DayNight = global::NutritionApp.Droid.Resource.Style.ThemeOverlay_AppCompat_DayNight;
-			global::Xamarin.Forms.PancakeView.Resource.Style.ThemeOverlay_AppCompat_DayNight_ActionBar = global::NutritionApp.Droid.Resource.Style.ThemeOverlay_AppCompat_DayNight_ActionBar;
-			global::Xamarin.Forms.PancakeView.Resource.Style.ThemeOverlay_AppCompat_Dialog = global::NutritionApp.Droid.Resource.Style.ThemeOverlay_AppCompat_Dialog;
-			global::Xamarin.Forms.PancakeView.Resource.Style.ThemeOverlay_AppCompat_Dialog_Alert = global::NutritionApp.Droid.Resource.Style.ThemeOverlay_AppCompat_Dialog_Alert;
-			global::Xamarin.Forms.PancakeView.Resource.Style.ThemeOverlay_AppCompat_Light = global::NutritionApp.Droid.Resource.Style.ThemeOverlay_AppCompat_Light;
-			global::Xamarin.Forms.PancakeView.Resource.Style.ThemeOverlay_MaterialComponents = global::NutritionApp.Droid.Resource.Style.ThemeOverlay_MaterialComponents;
-			global::Xamarin.Forms.PancakeView.Resource.Style.ThemeOverlay_MaterialComponents_ActionBar = global::NutritionApp.Droid.Resource.Style.ThemeOverlay_MaterialComponents_ActionBar;
-			global::Xamarin.Forms.PancakeView.Resource.Style.ThemeOverlay_MaterialComponents_Dark = global::NutritionApp.Droid.Resource.Style.ThemeOverlay_MaterialComponents_Dark;
-			global::Xamarin.Forms.PancakeView.Resource.Style.ThemeOverlay_MaterialComponents_Dark_ActionBar = global::NutritionApp.Droid.Resource.Style.ThemeOverlay_MaterialComponents_Dark_ActionBar;
-			global::Xamarin.Forms.PancakeView.Resource.Style.ThemeOverlay_MaterialComponents_Dialog = global::NutritionApp.Droid.Resource.Style.ThemeOverlay_MaterialComponents_Dialog;
-			global::Xamarin.Forms.PancakeView.Resource.Style.ThemeOverlay_MaterialComponents_Dialog_Alert = global::NutritionApp.Droid.Resource.Style.ThemeOverlay_MaterialComponents_Dialog_Alert;
-			global::Xamarin.Forms.PancakeView.Resource.Style.ThemeOverlay_MaterialComponents_Light = global::NutritionApp.Droid.Resource.Style.ThemeOverlay_MaterialComponents_Light;
-			global::Xamarin.Forms.PancakeView.Resource.Style.ThemeOverlay_MaterialComponents_TextInputEditText = global::NutritionApp.Droid.Resource.Style.ThemeOverlay_MaterialComponents_TextInputEditText;
-			global::Xamarin.Forms.PancakeView.Resource.Style.ThemeOverlay_MaterialComponents_TextInputEditText_FilledBox = global::NutritionApp.Droid.Resource.Style.ThemeOverlay_MaterialComponents_TextInputEditText_FilledBox;
-			global::Xamarin.Forms.PancakeView.Resource.Style.ThemeOverlay_MaterialComponents_TextInputEditText_FilledBox_Dense = global::NutritionApp.Droid.Resource.Style.ThemeOverlay_MaterialComponents_TextInputEditText_FilledBox_Dense;
-			global::Xamarin.Forms.PancakeView.Resource.Style.ThemeOverlay_MaterialComponents_TextInputEditText_OutlinedBox = global::NutritionApp.Droid.Resource.Style.ThemeOverlay_MaterialComponents_TextInputEditText_OutlinedBox;
-			global::Xamarin.Forms.PancakeView.Resource.Style.ThemeOverlay_MaterialComponents_TextInputEditText_OutlinedBox_Dense = global::NutritionApp.Droid.Resource.Style.ThemeOverlay_MaterialComponents_TextInputEditText_OutlinedBox_Dense;
-			global::Xamarin.Forms.PancakeView.Resource.Style.Theme_AppCompat = global::NutritionApp.Droid.Resource.Style.Theme_AppCompat;
-			global::Xamarin.Forms.PancakeView.Resource.Style.Theme_AppCompat_CompactMenu = global::NutritionApp.Droid.Resource.Style.Theme_AppCompat_CompactMenu;
-			global::Xamarin.Forms.PancakeView.Resource.Style.Theme_AppCompat_DayNight = global::NutritionApp.Droid.Resource.Style.Theme_AppCompat_DayNight;
-			global::Xamarin.Forms.PancakeView.Resource.Style.Theme_AppCompat_DayNight_DarkActionBar = global::NutritionApp.Droid.Resource.Style.Theme_AppCompat_DayNight_DarkActionBar;
-			global::Xamarin.Forms.PancakeView.Resource.Style.Theme_AppCompat_DayNight_Dialog = global::NutritionApp.Droid.Resource.Style.Theme_AppCompat_DayNight_Dialog;
-			global::Xamarin.Forms.PancakeView.Resource.Style.Theme_AppCompat_DayNight_DialogWhenLarge = global::NutritionApp.Droid.Resource.Style.Theme_AppCompat_DayNight_DialogWhenLarge;
-			global::Xamarin.Forms.PancakeView.Resource.Style.Theme_AppCompat_DayNight_Dialog_Alert = global::NutritionApp.Droid.Resource.Style.Theme_AppCompat_DayNight_Dialog_Alert;
-			global::Xamarin.Forms.PancakeView.Resource.Style.Theme_AppCompat_DayNight_Dialog_MinWidth = global::NutritionApp.Droid.Resource.Style.Theme_AppCompat_DayNight_Dialog_MinWidth;
-			global::Xamarin.Forms.PancakeView.Resource.Style.Theme_AppCompat_DayNight_NoActionBar = global::NutritionApp.Droid.Resource.Style.Theme_AppCompat_DayNight_NoActionBar;
-			global::Xamarin.Forms.PancakeView.Resource.Style.Theme_AppCompat_Dialog = global::NutritionApp.Droid.Resource.Style.Theme_AppCompat_Dialog;
-			global::Xamarin.Forms.PancakeView.Resource.Style.Theme_AppCompat_DialogWhenLarge = global::NutritionApp.Droid.Resource.Style.Theme_AppCompat_DialogWhenLarge;
-			global::Xamarin.Forms.PancakeView.Resource.Style.Theme_AppCompat_Dialog_Alert = global::NutritionApp.Droid.Resource.Style.Theme_AppCompat_Dialog_Alert;
-			global::Xamarin.Forms.PancakeView.Resource.Style.Theme_AppCompat_Dialog_MinWidth = global::NutritionApp.Droid.Resource.Style.Theme_AppCompat_Dialog_MinWidth;
-			global::Xamarin.Forms.PancakeView.Resource.Style.Theme_AppCompat_Empty = global::NutritionApp.Droid.Resource.Style.Theme_AppCompat_Empty;
-			global::Xamarin.Forms.PancakeView.Resource.Style.Theme_AppCompat_Light = global::NutritionApp.Droid.Resource.Style.Theme_AppCompat_Light;
-			global::Xamarin.Forms.PancakeView.Resource.Style.Theme_AppCompat_Light_DarkActionBar = global::NutritionApp.Droid.Resource.Style.Theme_AppCompat_Light_DarkActionBar;
-			global::Xamarin.Forms.PancakeView.Resource.Style.Theme_AppCompat_Light_Dialog = global::NutritionApp.Droid.Resource.Style.Theme_AppCompat_Light_Dialog;
-			global::Xamarin.Forms.PancakeView.Resource.Style.Theme_AppCompat_Light_DialogWhenLarge = global::NutritionApp.Droid.Resource.Style.Theme_AppCompat_Light_DialogWhenLarge;
-			global::Xamarin.Forms.PancakeView.Resource.Style.Theme_AppCompat_Light_Dialog_Alert = global::NutritionApp.Droid.Resource.Style.Theme_AppCompat_Light_Dialog_Alert;
-			global::Xamarin.Forms.PancakeView.Resource.Style.Theme_AppCompat_Light_Dialog_MinWidth = global::NutritionApp.Droid.Resource.Style.Theme_AppCompat_Light_Dialog_MinWidth;
-			global::Xamarin.Forms.PancakeView.Resource.Style.Theme_AppCompat_Light_NoActionBar = global::NutritionApp.Droid.Resource.Style.Theme_AppCompat_Light_NoActionBar;
-			global::Xamarin.Forms.PancakeView.Resource.Style.Theme_AppCompat_NoActionBar = global::NutritionApp.Droid.Resource.Style.Theme_AppCompat_NoActionBar;
-			global::Xamarin.Forms.PancakeView.Resource.Style.Theme_Design = global::NutritionApp.Droid.Resource.Style.Theme_Design;
-			global::Xamarin.Forms.PancakeView.Resource.Style.Theme_Design_BottomSheetDialog = global::NutritionApp.Droid.Resource.Style.Theme_Design_BottomSheetDialog;
-			global::Xamarin.Forms.PancakeView.Resource.Style.Theme_Design_Light = global::NutritionApp.Droid.Resource.Style.Theme_Design_Light;
-			global::Xamarin.Forms.PancakeView.Resource.Style.Theme_Design_Light_BottomSheetDialog = global::NutritionApp.Droid.Resource.Style.Theme_Design_Light_BottomSheetDialog;
-			global::Xamarin.Forms.PancakeView.Resource.Style.Theme_Design_Light_NoActionBar = global::NutritionApp.Droid.Resource.Style.Theme_Design_Light_NoActionBar;
-			global::Xamarin.Forms.PancakeView.Resource.Style.Theme_Design_NoActionBar = global::NutritionApp.Droid.Resource.Style.Theme_Design_NoActionBar;
-			global::Xamarin.Forms.PancakeView.Resource.Style.Theme_MaterialComponents = global::NutritionApp.Droid.Resource.Style.Theme_MaterialComponents;
-			global::Xamarin.Forms.PancakeView.Resource.Style.Theme_MaterialComponents_BottomSheetDialog = global::NutritionApp.Droid.Resource.Style.Theme_MaterialComponents_BottomSheetDialog;
-			global::Xamarin.Forms.PancakeView.Resource.Style.Theme_MaterialComponents_Bridge = global::NutritionApp.Droid.Resource.Style.Theme_MaterialComponents_Bridge;
-			global::Xamarin.Forms.PancakeView.Resource.Style.Theme_MaterialComponents_CompactMenu = global::NutritionApp.Droid.Resource.Style.Theme_MaterialComponents_CompactMenu;
-			global::Xamarin.Forms.PancakeView.Resource.Style.Theme_MaterialComponents_Dialog = global::NutritionApp.Droid.Resource.Style.Theme_MaterialComponents_Dialog;
-			global::Xamarin.Forms.PancakeView.Resource.Style.Theme_MaterialComponents_DialogWhenLarge = global::NutritionApp.Droid.Resource.Style.Theme_MaterialComponents_DialogWhenLarge;
-			global::Xamarin.Forms.PancakeView.Resource.Style.Theme_MaterialComponents_Dialog_Alert = global::NutritionApp.Droid.Resource.Style.Theme_MaterialComponents_Dialog_Alert;
-			global::Xamarin.Forms.PancakeView.Resource.Style.Theme_MaterialComponents_Dialog_MinWidth = global::NutritionApp.Droid.Resource.Style.Theme_MaterialComponents_Dialog_MinWidth;
-			global::Xamarin.Forms.PancakeView.Resource.Style.Theme_MaterialComponents_Light = global::NutritionApp.Droid.Resource.Style.Theme_MaterialComponents_Light;
-			global::Xamarin.Forms.PancakeView.Resource.Style.Theme_MaterialComponents_Light_BottomSheetDialog = global::NutritionApp.Droid.Resource.Style.Theme_MaterialComponents_Light_BottomSheetDialog;
-			global::Xamarin.Forms.PancakeView.Resource.Style.Theme_MaterialComponents_Light_Bridge = global::NutritionApp.Droid.Resource.Style.Theme_MaterialComponents_Light_Bridge;
-			global::Xamarin.Forms.PancakeView.Resource.Style.Theme_MaterialComponents_Light_DarkActionBar = global::NutritionApp.Droid.Resource.Style.Theme_MaterialComponents_Light_DarkActionBar;
-			global::Xamarin.Forms.PancakeView.Resource.Style.Theme_MaterialComponents_Light_DarkActionBar_Bridge = global::NutritionApp.Droid.Resource.Style.Theme_MaterialComponents_Light_DarkActionBar_Bridge;
-			global::Xamarin.Forms.PancakeView.Resource.Style.Theme_MaterialComponents_Light_Dialog = global::NutritionApp.Droid.Resource.Style.Theme_MaterialComponents_Light_Dialog;
-			global::Xamarin.Forms.PancakeView.Resource.Style.Theme_MaterialComponents_Light_DialogWhenLarge = global::NutritionApp.Droid.Resource.Style.Theme_MaterialComponents_Light_DialogWhenLarge;
-			global::Xamarin.Forms.PancakeView.Resource.Style.Theme_MaterialComponents_Light_Dialog_Alert = global::NutritionApp.Droid.Resource.Style.Theme_MaterialComponents_Light_Dialog_Alert;
-			global::Xamarin.Forms.PancakeView.Resource.Style.Theme_MaterialComponents_Light_Dialog_MinWidth = global::NutritionApp.Droid.Resource.Style.Theme_MaterialComponents_Light_Dialog_MinWidth;
-			global::Xamarin.Forms.PancakeView.Resource.Style.Theme_MaterialComponents_Light_NoActionBar = global::NutritionApp.Droid.Resource.Style.Theme_MaterialComponents_Light_NoActionBar;
-			global::Xamarin.Forms.PancakeView.Resource.Style.Theme_MaterialComponents_Light_NoActionBar_Bridge = global::NutritionApp.Droid.Resource.Style.Theme_MaterialComponents_Light_NoActionBar_Bridge;
-			global::Xamarin.Forms.PancakeView.Resource.Style.Theme_MaterialComponents_NoActionBar = global::NutritionApp.Droid.Resource.Style.Theme_MaterialComponents_NoActionBar;
-			global::Xamarin.Forms.PancakeView.Resource.Style.Theme_MaterialComponents_NoActionBar_Bridge = global::NutritionApp.Droid.Resource.Style.Theme_MaterialComponents_NoActionBar_Bridge;
-			global::Xamarin.Forms.PancakeView.Resource.Style.Widget_AppCompat_ActionBar = global::NutritionApp.Droid.Resource.Style.Widget_AppCompat_ActionBar;
-			global::Xamarin.Forms.PancakeView.Resource.Style.Widget_AppCompat_ActionBar_Solid = global::NutritionApp.Droid.Resource.Style.Widget_AppCompat_ActionBar_Solid;
-			global::Xamarin.Forms.PancakeView.Resource.Style.Widget_AppCompat_ActionBar_TabBar = global::NutritionApp.Droid.Resource.Style.Widget_AppCompat_ActionBar_TabBar;
-			global::Xamarin.Forms.PancakeView.Resource.Style.Widget_AppCompat_ActionBar_TabText = global::NutritionApp.Droid.Resource.Style.Widget_AppCompat_ActionBar_TabText;
-			global::Xamarin.Forms.PancakeView.Resource.Style.Widget_AppCompat_ActionBar_TabView = global::NutritionApp.Droid.Resource.Style.Widget_AppCompat_ActionBar_TabView;
-			global::Xamarin.Forms.PancakeView.Resource.Style.Widget_AppCompat_ActionButton = global::NutritionApp.Droid.Resource.Style.Widget_AppCompat_ActionButton;
-			global::Xamarin.Forms.PancakeView.Resource.Style.Widget_AppCompat_ActionButton_CloseMode = global::NutritionApp.Droid.Resource.Style.Widget_AppCompat_ActionButton_CloseMode;
-			global::Xamarin.Forms.PancakeView.Resource.Style.Widget_AppCompat_ActionButton_Overflow = global::NutritionApp.Droid.Resource.Style.Widget_AppCompat_ActionButton_Overflow;
-			global::Xamarin.Forms.PancakeView.Resource.Style.Widget_AppCompat_ActionMode = global::NutritionApp.Droid.Resource.Style.Widget_AppCompat_ActionMode;
-			global::Xamarin.Forms.PancakeView.Resource.Style.Widget_AppCompat_ActivityChooserView = global::NutritionApp.Droid.Resource.Style.Widget_AppCompat_ActivityChooserView;
-			global::Xamarin.Forms.PancakeView.Resource.Style.Widget_AppCompat_AutoCompleteTextView = global::NutritionApp.Droid.Resource.Style.Widget_AppCompat_AutoCompleteTextView;
-			global::Xamarin.Forms.PancakeView.Resource.Style.Widget_AppCompat_Button = global::NutritionApp.Droid.Resource.Style.Widget_AppCompat_Button;
-			global::Xamarin.Forms.PancakeView.Resource.Style.Widget_AppCompat_ButtonBar = global::NutritionApp.Droid.Resource.Style.Widget_AppCompat_ButtonBar;
-			global::Xamarin.Forms.PancakeView.Resource.Style.Widget_AppCompat_ButtonBar_AlertDialog = global::NutritionApp.Droid.Resource.Style.Widget_AppCompat_ButtonBar_AlertDialog;
-			global::Xamarin.Forms.PancakeView.Resource.Style.Widget_AppCompat_Button_Borderless = global::NutritionApp.Droid.Resource.Style.Widget_AppCompat_Button_Borderless;
-			global::Xamarin.Forms.PancakeView.Resource.Style.Widget_AppCompat_Button_Borderless_Colored = global::NutritionApp.Droid.Resource.Style.Widget_AppCompat_Button_Borderless_Colored;
-			global::Xamarin.Forms.PancakeView.Resource.Style.Widget_AppCompat_Button_ButtonBar_AlertDialog = global::NutritionApp.Droid.Resource.Style.Widget_AppCompat_Button_ButtonBar_AlertDialog;
-			global::Xamarin.Forms.PancakeView.Resource.Style.Widget_AppCompat_Button_Colored = global::NutritionApp.Droid.Resource.Style.Widget_AppCompat_Button_Colored;
-			global::Xamarin.Forms.PancakeView.Resource.Style.Widget_AppCompat_Button_Small = global::NutritionApp.Droid.Resource.Style.Widget_AppCompat_Button_Small;
-			global::Xamarin.Forms.PancakeView.Resource.Style.Widget_AppCompat_CompoundButton_CheckBox = global::NutritionApp.Droid.Resource.Style.Widget_AppCompat_CompoundButton_CheckBox;
-			global::Xamarin.Forms.PancakeView.Resource.Style.Widget_AppCompat_CompoundButton_RadioButton = global::NutritionApp.Droid.Resource.Style.Widget_AppCompat_CompoundButton_RadioButton;
-			global::Xamarin.Forms.PancakeView.Resource.Style.Widget_AppCompat_CompoundButton_Switch = global::NutritionApp.Droid.Resource.Style.Widget_AppCompat_CompoundButton_Switch;
-			global::Xamarin.Forms.PancakeView.Resource.Style.Widget_AppCompat_DrawerArrowToggle = global::NutritionApp.Droid.Resource.Style.Widget_AppCompat_DrawerArrowToggle;
-			global::Xamarin.Forms.PancakeView.Resource.Style.Widget_AppCompat_DropDownItem_Spinner = global::NutritionApp.Droid.Resource.Style.Widget_AppCompat_DropDownItem_Spinner;
-			global::Xamarin.Forms.PancakeView.Resource.Style.Widget_AppCompat_EditText = global::NutritionApp.Droid.Resource.Style.Widget_AppCompat_EditText;
-			global::Xamarin.Forms.PancakeView.Resource.Style.Widget_AppCompat_ImageButton = global::NutritionApp.Droid.Resource.Style.Widget_AppCompat_ImageButton;
-			global::Xamarin.Forms.PancakeView.Resource.Style.Widget_AppCompat_Light_ActionBar = global::NutritionApp.Droid.Resource.Style.Widget_AppCompat_Light_ActionBar;
-			global::Xamarin.Forms.PancakeView.Resource.Style.Widget_AppCompat_Light_ActionBar_Solid = global::NutritionApp.Droid.Resource.Style.Widget_AppCompat_Light_ActionBar_Solid;
-			global::Xamarin.Forms.PancakeView.Resource.Style.Widget_AppCompat_Light_ActionBar_Solid_Inverse = global::NutritionApp.Droid.Resource.Style.Widget_AppCompat_Light_ActionBar_Solid_Inverse;
-			global::Xamarin.Forms.PancakeView.Resource.Style.Widget_AppCompat_Light_ActionBar_TabBar = global::NutritionApp.Droid.Resource.Style.Widget_AppCompat_Light_ActionBar_TabBar;
-			global::Xamarin.Forms.PancakeView.Resource.Style.Widget_AppCompat_Light_ActionBar_TabBar_Inverse = global::NutritionApp.Droid.Resource.Style.Widget_AppCompat_Light_ActionBar_TabBar_Inverse;
-			global::Xamarin.Forms.PancakeView.Resource.Style.Widget_AppCompat_Light_ActionBar_TabText = global::NutritionApp.Droid.Resource.Style.Widget_AppCompat_Light_ActionBar_TabText;
-			global::Xamarin.Forms.PancakeView.Resource.Style.Widget_AppCompat_Light_ActionBar_TabText_Inverse = global::NutritionApp.Droid.Resource.Style.Widget_AppCompat_Light_ActionBar_TabText_Inverse;
-			global::Xamarin.Forms.PancakeView.Resource.Style.Widget_AppCompat_Light_ActionBar_TabView = global::NutritionApp.Droid.Resource.Style.Widget_AppCompat_Light_ActionBar_TabView;
-			global::Xamarin.Forms.PancakeView.Resource.Style.Widget_AppCompat_Light_ActionBar_TabView_Inverse = global::NutritionApp.Droid.Resource.Style.Widget_AppCompat_Light_ActionBar_TabView_Inverse;
-			global::Xamarin.Forms.PancakeView.Resource.Style.Widget_AppCompat_Light_ActionButton = global::NutritionApp.Droid.Resource.Style.Widget_AppCompat_Light_ActionButton;
-			global::Xamarin.Forms.PancakeView.Resource.Style.Widget_AppCompat_Light_ActionButton_CloseMode = global::NutritionApp.Droid.Resource.Style.Widget_AppCompat_Light_ActionButton_CloseMode;
-			global::Xamarin.Forms.PancakeView.Resource.Style.Widget_AppCompat_Light_ActionButton_Overflow = global::NutritionApp.Droid.Resource.Style.Widget_AppCompat_Light_ActionButton_Overflow;
-			global::Xamarin.Forms.PancakeView.Resource.Style.Widget_AppCompat_Light_ActionMode_Inverse = global::NutritionApp.Droid.Resource.Style.Widget_AppCompat_Light_ActionMode_Inverse;
-			global::Xamarin.Forms.PancakeView.Resource.Style.Widget_AppCompat_Light_ActivityChooserView = global::NutritionApp.Droid.Resource.Style.Widget_AppCompat_Light_ActivityChooserView;
-			global::Xamarin.Forms.PancakeView.Resource.Style.Widget_AppCompat_Light_AutoCompleteTextView = global::NutritionApp.Droid.Resource.Style.Widget_AppCompat_Light_AutoCompleteTextView;
-			global::Xamarin.Forms.PancakeView.Resource.Style.Widget_AppCompat_Light_DropDownItem_Spinner = global::NutritionApp.Droid.Resource.Style.Widget_AppCompat_Light_DropDownItem_Spinner;
-			global::Xamarin.Forms.PancakeView.Resource.Style.Widget_AppCompat_Light_ListPopupWindow = global::NutritionApp.Droid.Resource.Style.Widget_AppCompat_Light_ListPopupWindow;
-			global::Xamarin.Forms.PancakeView.Resource.Style.Widget_AppCompat_Light_ListView_DropDown = global::NutritionApp.Droid.Resource.Style.Widget_AppCompat_Light_ListView_DropDown;
-			global::Xamarin.Forms.PancakeView.Resource.Style.Widget_AppCompat_Light_PopupMenu = global::NutritionApp.Droid.Resource.Style.Widget_AppCompat_Light_PopupMenu;
-			global::Xamarin.Forms.PancakeView.Resource.Style.Widget_AppCompat_Light_PopupMenu_Overflow = global::NutritionApp.Droid.Resource.Style.Widget_AppCompat_Light_PopupMenu_Overflow;
-			global::Xamarin.Forms.PancakeView.Resource.Style.Widget_AppCompat_Light_SearchView = global::NutritionApp.Droid.Resource.Style.Widget_AppCompat_Light_SearchView;
-			global::Xamarin.Forms.PancakeView.Resource.Style.Widget_AppCompat_Light_Spinner_DropDown_ActionBar = global::NutritionApp.Droid.Resource.Style.Widget_AppCompat_Light_Spinner_DropDown_ActionBar;
-			global::Xamarin.Forms.PancakeView.Resource.Style.Widget_AppCompat_ListMenuView = global::NutritionApp.Droid.Resource.Style.Widget_AppCompat_ListMenuView;
-			global::Xamarin.Forms.PancakeView.Resource.Style.Widget_AppCompat_ListPopupWindow = global::NutritionApp.Droid.Resource.Style.Widget_AppCompat_ListPopupWindow;
-			global::Xamarin.Forms.PancakeView.Resource.Style.Widget_AppCompat_ListView = global::NutritionApp.Droid.Resource.Style.Widget_AppCompat_ListView;
-			global::Xamarin.Forms.PancakeView.Resource.Style.Widget_AppCompat_ListView_DropDown = global::NutritionApp.Droid.Resource.Style.Widget_AppCompat_ListView_DropDown;
-			global::Xamarin.Forms.PancakeView.Resource.Style.Widget_AppCompat_ListView_Menu = global::NutritionApp.Droid.Resource.Style.Widget_AppCompat_ListView_Menu;
-			global::Xamarin.Forms.PancakeView.Resource.Style.Widget_AppCompat_PopupMenu = global::NutritionApp.Droid.Resource.Style.Widget_AppCompat_PopupMenu;
-			global::Xamarin.Forms.PancakeView.Resource.Style.Widget_AppCompat_PopupMenu_Overflow = global::NutritionApp.Droid.Resource.Style.Widget_AppCompat_PopupMenu_Overflow;
-			global::Xamarin.Forms.PancakeView.Resource.Style.Widget_AppCompat_PopupWindow = global::NutritionApp.Droid.Resource.Style.Widget_AppCompat_PopupWindow;
-			global::Xamarin.Forms.PancakeView.Resource.Style.Widget_AppCompat_ProgressBar = global::NutritionApp.Droid.Resource.Style.Widget_AppCompat_ProgressBar;
-			global::Xamarin.Forms.PancakeView.Resource.Style.Widget_AppCompat_ProgressBar_Horizontal = global::NutritionApp.Droid.Resource.Style.Widget_AppCompat_ProgressBar_Horizontal;
-			global::Xamarin.Forms.PancakeView.Resource.Style.Widget_AppCompat_RatingBar = global::NutritionApp.Droid.Resource.Style.Widget_AppCompat_RatingBar;
-			global::Xamarin.Forms.PancakeView.Resource.Style.Widget_AppCompat_RatingBar_Indicator = global::NutritionApp.Droid.Resource.Style.Widget_AppCompat_RatingBar_Indicator;
-			global::Xamarin.Forms.PancakeView.Resource.Style.Widget_AppCompat_RatingBar_Small = global::NutritionApp.Droid.Resource.Style.Widget_AppCompat_RatingBar_Small;
-			global::Xamarin.Forms.PancakeView.Resource.Style.Widget_AppCompat_SearchView = global::NutritionApp.Droid.Resource.Style.Widget_AppCompat_SearchView;
-			global::Xamarin.Forms.PancakeView.Resource.Style.Widget_AppCompat_SearchView_ActionBar = global::NutritionApp.Droid.Resource.Style.Widget_AppCompat_SearchView_ActionBar;
-			global::Xamarin.Forms.PancakeView.Resource.Style.Widget_AppCompat_SeekBar = global::NutritionApp.Droid.Resource.Style.Widget_AppCompat_SeekBar;
-			global::Xamarin.Forms.PancakeView.Resource.Style.Widget_AppCompat_SeekBar_Discrete = global::NutritionApp.Droid.Resource.Style.Widget_AppCompat_SeekBar_Discrete;
-			global::Xamarin.Forms.PancakeView.Resource.Style.Widget_AppCompat_Spinner = global::NutritionApp.Droid.Resource.Style.Widget_AppCompat_Spinner;
-			global::Xamarin.Forms.PancakeView.Resource.Style.Widget_AppCompat_Spinner_DropDown = global::NutritionApp.Droid.Resource.Style.Widget_AppCompat_Spinner_DropDown;
-			global::Xamarin.Forms.PancakeView.Resource.Style.Widget_AppCompat_Spinner_DropDown_ActionBar = global::NutritionApp.Droid.Resource.Style.Widget_AppCompat_Spinner_DropDown_ActionBar;
-			global::Xamarin.Forms.PancakeView.Resource.Style.Widget_AppCompat_Spinner_Underlined = global::NutritionApp.Droid.Resource.Style.Widget_AppCompat_Spinner_Underlined;
-			global::Xamarin.Forms.PancakeView.Resource.Style.Widget_AppCompat_TextView = global::NutritionApp.Droid.Resource.Style.Widget_AppCompat_TextView;
-			global::Xamarin.Forms.PancakeView.Resource.Style.Widget_AppCompat_TextView_SpinnerItem = global::NutritionApp.Droid.Resource.Style.Widget_AppCompat_TextView_SpinnerItem;
-			global::Xamarin.Forms.PancakeView.Resource.Style.Widget_AppCompat_Toolbar = global::NutritionApp.Droid.Resource.Style.Widget_AppCompat_Toolbar;
-			global::Xamarin.Forms.PancakeView.Resource.Style.Widget_AppCompat_Toolbar_Button_Navigation = global::NutritionApp.Droid.Resource.Style.Widget_AppCompat_Toolbar_Button_Navigation;
-			global::Xamarin.Forms.PancakeView.Resource.Style.Widget_Compat_NotificationActionContainer = global::NutritionApp.Droid.Resource.Style.Widget_Compat_NotificationActionContainer;
-			global::Xamarin.Forms.PancakeView.Resource.Style.Widget_Compat_NotificationActionText = global::NutritionApp.Droid.Resource.Style.Widget_Compat_NotificationActionText;
-			global::Xamarin.Forms.PancakeView.Resource.Style.Widget_Design_AppBarLayout = global::NutritionApp.Droid.Resource.Style.Widget_Design_AppBarLayout;
-			global::Xamarin.Forms.PancakeView.Resource.Style.Widget_Design_BottomNavigationView = global::NutritionApp.Droid.Resource.Style.Widget_Design_BottomNavigationView;
-			global::Xamarin.Forms.PancakeView.Resource.Style.Widget_Design_BottomSheet_Modal = global::NutritionApp.Droid.Resource.Style.Widget_Design_BottomSheet_Modal;
-			global::Xamarin.Forms.PancakeView.Resource.Style.Widget_Design_CollapsingToolbar = global::NutritionApp.Droid.Resource.Style.Widget_Design_CollapsingToolbar;
-			global::Xamarin.Forms.PancakeView.Resource.Style.Widget_Design_FloatingActionButton = global::NutritionApp.Droid.Resource.Style.Widget_Design_FloatingActionButton;
-			global::Xamarin.Forms.PancakeView.Resource.Style.Widget_Design_NavigationView = global::NutritionApp.Droid.Resource.Style.Widget_Design_NavigationView;
-			global::Xamarin.Forms.PancakeView.Resource.Style.Widget_Design_ScrimInsetsFrameLayout = global::NutritionApp.Droid.Resource.Style.Widget_Design_ScrimInsetsFrameLayout;
-			global::Xamarin.Forms.PancakeView.Resource.Style.Widget_Design_Snackbar = global::NutritionApp.Droid.Resource.Style.Widget_Design_Snackbar;
-			global::Xamarin.Forms.PancakeView.Resource.Style.Widget_Design_TabLayout = global::NutritionApp.Droid.Resource.Style.Widget_Design_TabLayout;
-			global::Xamarin.Forms.PancakeView.Resource.Style.Widget_Design_TextInputLayout = global::NutritionApp.Droid.Resource.Style.Widget_Design_TextInputLayout;
-			global::Xamarin.Forms.PancakeView.Resource.Style.Widget_MaterialComponents_BottomAppBar = global::NutritionApp.Droid.Resource.Style.Widget_MaterialComponents_BottomAppBar;
-			global::Xamarin.Forms.PancakeView.Resource.Style.Widget_MaterialComponents_BottomAppBar_Colored = global::NutritionApp.Droid.Resource.Style.Widget_MaterialComponents_BottomAppBar_Colored;
-			global::Xamarin.Forms.PancakeView.Resource.Style.Widget_MaterialComponents_BottomNavigationView = global::NutritionApp.Droid.Resource.Style.Widget_MaterialComponents_BottomNavigationView;
-			global::Xamarin.Forms.PancakeView.Resource.Style.Widget_MaterialComponents_BottomNavigationView_Colored = global::NutritionApp.Droid.Resource.Style.Widget_MaterialComponents_BottomNavigationView_Colored;
-			global::Xamarin.Forms.PancakeView.Resource.Style.Widget_MaterialComponents_BottomSheet_Modal = global::NutritionApp.Droid.Resource.Style.Widget_MaterialComponents_BottomSheet_Modal;
-			global::Xamarin.Forms.PancakeView.Resource.Style.Widget_MaterialComponents_Button = global::NutritionApp.Droid.Resource.Style.Widget_MaterialComponents_Button;
-			global::Xamarin.Forms.PancakeView.Resource.Style.Widget_MaterialComponents_Button_Icon = global::NutritionApp.Droid.Resource.Style.Widget_MaterialComponents_Button_Icon;
-			global::Xamarin.Forms.PancakeView.Resource.Style.Widget_MaterialComponents_Button_OutlinedButton = global::NutritionApp.Droid.Resource.Style.Widget_MaterialComponents_Button_OutlinedButton;
-			global::Xamarin.Forms.PancakeView.Resource.Style.Widget_MaterialComponents_Button_OutlinedButton_Icon = global::NutritionApp.Droid.Resource.Style.Widget_MaterialComponents_Button_OutlinedButton_Icon;
-			global::Xamarin.Forms.PancakeView.Resource.Style.Widget_MaterialComponents_Button_TextButton = global::NutritionApp.Droid.Resource.Style.Widget_MaterialComponents_Button_TextButton;
-			global::Xamarin.Forms.PancakeView.Resource.Style.Widget_MaterialComponents_Button_TextButton_Dialog = global::NutritionApp.Droid.Resource.Style.Widget_MaterialComponents_Button_TextButton_Dialog;
-			global::Xamarin.Forms.PancakeView.Resource.Style.Widget_MaterialComponents_Button_TextButton_Dialog_Icon = global::NutritionApp.Droid.Resource.Style.Widget_MaterialComponents_Button_TextButton_Dialog_Icon;
-			global::Xamarin.Forms.PancakeView.Resource.Style.Widget_MaterialComponents_Button_TextButton_Icon = global::NutritionApp.Droid.Resource.Style.Widget_MaterialComponents_Button_TextButton_Icon;
-			global::Xamarin.Forms.PancakeView.Resource.Style.Widget_MaterialComponents_Button_UnelevatedButton = global::NutritionApp.Droid.Resource.Style.Widget_MaterialComponents_Button_UnelevatedButton;
-			global::Xamarin.Forms.PancakeView.Resource.Style.Widget_MaterialComponents_Button_UnelevatedButton_Icon = global::NutritionApp.Droid.Resource.Style.Widget_MaterialComponents_Button_UnelevatedButton_Icon;
-			global::Xamarin.Forms.PancakeView.Resource.Style.Widget_MaterialComponents_CardView = global::NutritionApp.Droid.Resource.Style.Widget_MaterialComponents_CardView;
-			global::Xamarin.Forms.PancakeView.Resource.Style.Widget_MaterialComponents_ChipGroup = global::NutritionApp.Droid.Resource.Style.Widget_MaterialComponents_ChipGroup;
-			global::Xamarin.Forms.PancakeView.Resource.Style.Widget_MaterialComponents_Chip_Action = global::NutritionApp.Droid.Resource.Style.Widget_MaterialComponents_Chip_Action;
-			global::Xamarin.Forms.PancakeView.Resource.Style.Widget_MaterialComponents_Chip_Choice = global::NutritionApp.Droid.Resource.Style.Widget_MaterialComponents_Chip_Choice;
-			global::Xamarin.Forms.PancakeView.Resource.Style.Widget_MaterialComponents_Chip_Entry = global::NutritionApp.Droid.Resource.Style.Widget_MaterialComponents_Chip_Entry;
-			global::Xamarin.Forms.PancakeView.Resource.Style.Widget_MaterialComponents_Chip_Filter = global::NutritionApp.Droid.Resource.Style.Widget_MaterialComponents_Chip_Filter;
-			global::Xamarin.Forms.PancakeView.Resource.Style.Widget_MaterialComponents_FloatingActionButton = global::NutritionApp.Droid.Resource.Style.Widget_MaterialComponents_FloatingActionButton;
-			global::Xamarin.Forms.PancakeView.Resource.Style.Widget_MaterialComponents_NavigationView = global::NutritionApp.Droid.Resource.Style.Widget_MaterialComponents_NavigationView;
-			global::Xamarin.Forms.PancakeView.Resource.Style.Widget_MaterialComponents_Snackbar = global::NutritionApp.Droid.Resource.Style.Widget_MaterialComponents_Snackbar;
-			global::Xamarin.Forms.PancakeView.Resource.Style.Widget_MaterialComponents_Snackbar_FullWidth = global::NutritionApp.Droid.Resource.Style.Widget_MaterialComponents_Snackbar_FullWidth;
-			global::Xamarin.Forms.PancakeView.Resource.Style.Widget_MaterialComponents_TabLayout = global::NutritionApp.Droid.Resource.Style.Widget_MaterialComponents_TabLayout;
-			global::Xamarin.Forms.PancakeView.Resource.Style.Widget_MaterialComponents_TabLayout_Colored = global::NutritionApp.Droid.Resource.Style.Widget_MaterialComponents_TabLayout_Colored;
-			global::Xamarin.Forms.PancakeView.Resource.Style.Widget_MaterialComponents_TextInputEditText_FilledBox = global::NutritionApp.Droid.Resource.Style.Widget_MaterialComponents_TextInputEditText_FilledBox;
-			global::Xamarin.Forms.PancakeView.Resource.Style.Widget_MaterialComponents_TextInputEditText_FilledBox_Dense = global::NutritionApp.Droid.Resource.Style.Widget_MaterialComponents_TextInputEditText_FilledBox_Dense;
-			global::Xamarin.Forms.PancakeView.Resource.Style.Widget_MaterialComponents_TextInputEditText_OutlinedBox = global::NutritionApp.Droid.Resource.Style.Widget_MaterialComponents_TextInputEditText_OutlinedBox;
-			global::Xamarin.Forms.PancakeView.Resource.Style.Widget_MaterialComponents_TextInputEditText_OutlinedBox_Dense = global::NutritionApp.Droid.Resource.Style.Widget_MaterialComponents_TextInputEditText_OutlinedBox_Dense;
-			global::Xamarin.Forms.PancakeView.Resource.Style.Widget_MaterialComponents_TextInputLayout_FilledBox = global::NutritionApp.Droid.Resource.Style.Widget_MaterialComponents_TextInputLayout_FilledBox;
-			global::Xamarin.Forms.PancakeView.Resource.Style.Widget_MaterialComponents_TextInputLayout_FilledBox_Dense = global::NutritionApp.Droid.Resource.Style.Widget_MaterialComponents_TextInputLayout_FilledBox_Dense;
-			global::Xamarin.Forms.PancakeView.Resource.Style.Widget_MaterialComponents_TextInputLayout_OutlinedBox = global::NutritionApp.Droid.Resource.Style.Widget_MaterialComponents_TextInputLayout_OutlinedBox;
-			global::Xamarin.Forms.PancakeView.Resource.Style.Widget_MaterialComponents_TextInputLayout_OutlinedBox_Dense = global::NutritionApp.Droid.Resource.Style.Widget_MaterialComponents_TextInputLayout_OutlinedBox_Dense;
-			global::Xamarin.Forms.PancakeView.Resource.Style.Widget_MaterialComponents_Toolbar = global::NutritionApp.Droid.Resource.Style.Widget_MaterialComponents_Toolbar;
-			global::Xamarin.Forms.PancakeView.Resource.Style.Widget_Support_CoordinatorLayout = global::NutritionApp.Droid.Resource.Style.Widget_Support_CoordinatorLayout;
-			global::Xamarin.Forms.PancakeView.Resource.Styleable.ActionBar = global::NutritionApp.Droid.Resource.Styleable.ActionBar;
-			global::Xamarin.Forms.PancakeView.Resource.Styleable.ActionBarLayout = global::NutritionApp.Droid.Resource.Styleable.ActionBarLayout;
-			global::Xamarin.Forms.PancakeView.Resource.Styleable.ActionBarLayout_android_layout_gravity = global::NutritionApp.Droid.Resource.Styleable.ActionBarLayout_android_layout_gravity;
-			global::Xamarin.Forms.PancakeView.Resource.Styleable.ActionBar_background = global::NutritionApp.Droid.Resource.Styleable.ActionBar_background;
-			global::Xamarin.Forms.PancakeView.Resource.Styleable.ActionBar_backgroundSplit = global::NutritionApp.Droid.Resource.Styleable.ActionBar_backgroundSplit;
-			global::Xamarin.Forms.PancakeView.Resource.Styleable.ActionBar_backgroundStacked = global::NutritionApp.Droid.Resource.Styleable.ActionBar_backgroundStacked;
-			global::Xamarin.Forms.PancakeView.Resource.Styleable.ActionBar_contentInsetEnd = global::NutritionApp.Droid.Resource.Styleable.ActionBar_contentInsetEnd;
-			global::Xamarin.Forms.PancakeView.Resource.Styleable.ActionBar_contentInsetEndWithActions = global::NutritionApp.Droid.Resource.Styleable.ActionBar_contentInsetEndWithActions;
-			global::Xamarin.Forms.PancakeView.Resource.Styleable.ActionBar_contentInsetLeft = global::NutritionApp.Droid.Resource.Styleable.ActionBar_contentInsetLeft;
-			global::Xamarin.Forms.PancakeView.Resource.Styleable.ActionBar_contentInsetRight = global::NutritionApp.Droid.Resource.Styleable.ActionBar_contentInsetRight;
-			global::Xamarin.Forms.PancakeView.Resource.Styleable.ActionBar_contentInsetStart = global::NutritionApp.Droid.Resource.Styleable.ActionBar_contentInsetStart;
-			global::Xamarin.Forms.PancakeView.Resource.Styleable.ActionBar_contentInsetStartWithNavigation = global::NutritionApp.Droid.Resource.Styleable.ActionBar_contentInsetStartWithNavigation;
-			global::Xamarin.Forms.PancakeView.Resource.Styleable.ActionBar_customNavigationLayout = global::NutritionApp.Droid.Resource.Styleable.ActionBar_customNavigationLayout;
-			global::Xamarin.Forms.PancakeView.Resource.Styleable.ActionBar_displayOptions = global::NutritionApp.Droid.Resource.Styleable.ActionBar_displayOptions;
-			global::Xamarin.Forms.PancakeView.Resource.Styleable.ActionBar_divider = global::NutritionApp.Droid.Resource.Styleable.ActionBar_divider;
-			global::Xamarin.Forms.PancakeView.Resource.Styleable.ActionBar_elevation = global::NutritionApp.Droid.Resource.Styleable.ActionBar_elevation;
-			global::Xamarin.Forms.PancakeView.Resource.Styleable.ActionBar_height = global::NutritionApp.Droid.Resource.Styleable.ActionBar_height;
-			global::Xamarin.Forms.PancakeView.Resource.Styleable.ActionBar_hideOnContentScroll = global::NutritionApp.Droid.Resource.Styleable.ActionBar_hideOnContentScroll;
-			global::Xamarin.Forms.PancakeView.Resource.Styleable.ActionBar_homeAsUpIndicator = global::NutritionApp.Droid.Resource.Styleable.ActionBar_homeAsUpIndicator;
-			global::Xamarin.Forms.PancakeView.Resource.Styleable.ActionBar_homeLayout = global::NutritionApp.Droid.Resource.Styleable.ActionBar_homeLayout;
-			global::Xamarin.Forms.PancakeView.Resource.Styleable.ActionBar_icon = global::NutritionApp.Droid.Resource.Styleable.ActionBar_icon;
-			global::Xamarin.Forms.PancakeView.Resource.Styleable.ActionBar_indeterminateProgressStyle = global::NutritionApp.Droid.Resource.Styleable.ActionBar_indeterminateProgressStyle;
-			global::Xamarin.Forms.PancakeView.Resource.Styleable.ActionBar_itemPadding = global::NutritionApp.Droid.Resource.Styleable.ActionBar_itemPadding;
-			global::Xamarin.Forms.PancakeView.Resource.Styleable.ActionBar_logo = global::NutritionApp.Droid.Resource.Styleable.ActionBar_logo;
-			global::Xamarin.Forms.PancakeView.Resource.Styleable.ActionBar_navigationMode = global::NutritionApp.Droid.Resource.Styleable.ActionBar_navigationMode;
-			global::Xamarin.Forms.PancakeView.Resource.Styleable.ActionBar_popupTheme = global::NutritionApp.Droid.Resource.Styleable.ActionBar_popupTheme;
-			global::Xamarin.Forms.PancakeView.Resource.Styleable.ActionBar_progressBarPadding = global::NutritionApp.Droid.Resource.Styleable.ActionBar_progressBarPadding;
-			global::Xamarin.Forms.PancakeView.Resource.Styleable.ActionBar_progressBarStyle = global::NutritionApp.Droid.Resource.Styleable.ActionBar_progressBarStyle;
-			global::Xamarin.Forms.PancakeView.Resource.Styleable.ActionBar_subtitle = global::NutritionApp.Droid.Resource.Styleable.ActionBar_subtitle;
-			global::Xamarin.Forms.PancakeView.Resource.Styleable.ActionBar_subtitleTextStyle = global::NutritionApp.Droid.Resource.Styleable.ActionBar_subtitleTextStyle;
-			global::Xamarin.Forms.PancakeView.Resource.Styleable.ActionBar_title = global::NutritionApp.Droid.Resource.Styleable.ActionBar_title;
-			global::Xamarin.Forms.PancakeView.Resource.Styleable.ActionBar_titleTextStyle = global::NutritionApp.Droid.Resource.Styleable.ActionBar_titleTextStyle;
-			global::Xamarin.Forms.PancakeView.Resource.Styleable.ActionMenuItemView = global::NutritionApp.Droid.Resource.Styleable.ActionMenuItemView;
-			global::Xamarin.Forms.PancakeView.Resource.Styleable.ActionMenuItemView_android_minWidth = global::NutritionApp.Droid.Resource.Styleable.ActionMenuItemView_android_minWidth;
-			global::Xamarin.Forms.PancakeView.Resource.Styleable.ActionMenuView = global::NutritionApp.Droid.Resource.Styleable.ActionMenuView;
-			global::Xamarin.Forms.PancakeView.Resource.Styleable.ActionMode = global::NutritionApp.Droid.Resource.Styleable.ActionMode;
-			global::Xamarin.Forms.PancakeView.Resource.Styleable.ActionMode_background = global::NutritionApp.Droid.Resource.Styleable.ActionMode_background;
-			global::Xamarin.Forms.PancakeView.Resource.Styleable.ActionMode_backgroundSplit = global::NutritionApp.Droid.Resource.Styleable.ActionMode_backgroundSplit;
-			global::Xamarin.Forms.PancakeView.Resource.Styleable.ActionMode_closeItemLayout = global::NutritionApp.Droid.Resource.Styleable.ActionMode_closeItemLayout;
-			global::Xamarin.Forms.PancakeView.Resource.Styleable.ActionMode_height = global::NutritionApp.Droid.Resource.Styleable.ActionMode_height;
-			global::Xamarin.Forms.PancakeView.Resource.Styleable.ActionMode_subtitleTextStyle = global::NutritionApp.Droid.Resource.Styleable.ActionMode_subtitleTextStyle;
-			global::Xamarin.Forms.PancakeView.Resource.Styleable.ActionMode_titleTextStyle = global::NutritionApp.Droid.Resource.Styleable.ActionMode_titleTextStyle;
-			global::Xamarin.Forms.PancakeView.Resource.Styleable.ActivityChooserView = global::NutritionApp.Droid.Resource.Styleable.ActivityChooserView;
-			global::Xamarin.Forms.PancakeView.Resource.Styleable.ActivityChooserView_expandActivityOverflowButtonDrawable = global::NutritionApp.Droid.Resource.Styleable.ActivityChooserView_expandActivityOverflowButtonDrawable;
-			global::Xamarin.Forms.PancakeView.Resource.Styleable.ActivityChooserView_initialActivityCount = global::NutritionApp.Droid.Resource.Styleable.ActivityChooserView_initialActivityCount;
-			global::Xamarin.Forms.PancakeView.Resource.Styleable.AlertDialog = global::NutritionApp.Droid.Resource.Styleable.AlertDialog;
-			global::Xamarin.Forms.PancakeView.Resource.Styleable.AlertDialog_android_layout = global::NutritionApp.Droid.Resource.Styleable.AlertDialog_android_layout;
-			global::Xamarin.Forms.PancakeView.Resource.Styleable.AlertDialog_buttonIconDimen = global::NutritionApp.Droid.Resource.Styleable.AlertDialog_buttonIconDimen;
-			global::Xamarin.Forms.PancakeView.Resource.Styleable.AlertDialog_buttonPanelSideLayout = global::NutritionApp.Droid.Resource.Styleable.AlertDialog_buttonPanelSideLayout;
-			global::Xamarin.Forms.PancakeView.Resource.Styleable.AlertDialog_listItemLayout = global::NutritionApp.Droid.Resource.Styleable.AlertDialog_listItemLayout;
-			global::Xamarin.Forms.PancakeView.Resource.Styleable.AlertDialog_listLayout = global::NutritionApp.Droid.Resource.Styleable.AlertDialog_listLayout;
-			global::Xamarin.Forms.PancakeView.Resource.Styleable.AlertDialog_multiChoiceItemLayout = global::NutritionApp.Droid.Resource.Styleable.AlertDialog_multiChoiceItemLayout;
-			global::Xamarin.Forms.PancakeView.Resource.Styleable.AlertDialog_showTitle = global::NutritionApp.Droid.Resource.Styleable.AlertDialog_showTitle;
-			global::Xamarin.Forms.PancakeView.Resource.Styleable.AlertDialog_singleChoiceItemLayout = global::NutritionApp.Droid.Resource.Styleable.AlertDialog_singleChoiceItemLayout;
-			global::Xamarin.Forms.PancakeView.Resource.Styleable.AnimatedStateListDrawableCompat = global::NutritionApp.Droid.Resource.Styleable.AnimatedStateListDrawableCompat;
-			global::Xamarin.Forms.PancakeView.Resource.Styleable.AnimatedStateListDrawableCompat_android_constantSize = global::NutritionApp.Droid.Resource.Styleable.AnimatedStateListDrawableCompat_android_constantSize;
-			global::Xamarin.Forms.PancakeView.Resource.Styleable.AnimatedStateListDrawableCompat_android_dither = global::NutritionApp.Droid.Resource.Styleable.AnimatedStateListDrawableCompat_android_dither;
-			global::Xamarin.Forms.PancakeView.Resource.Styleable.AnimatedStateListDrawableCompat_android_enterFadeDuration = global::NutritionApp.Droid.Resource.Styleable.AnimatedStateListDrawableCompat_android_enterFadeDuration;
-			global::Xamarin.Forms.PancakeView.Resource.Styleable.AnimatedStateListDrawableCompat_android_exitFadeDuration = global::NutritionApp.Droid.Resource.Styleable.AnimatedStateListDrawableCompat_android_exitFadeDuration;
-			global::Xamarin.Forms.PancakeView.Resource.Styleable.AnimatedStateListDrawableCompat_android_variablePadding = global::NutritionApp.Droid.Resource.Styleable.AnimatedStateListDrawableCompat_android_variablePadding;
-			global::Xamarin.Forms.PancakeView.Resource.Styleable.AnimatedStateListDrawableCompat_android_visible = global::NutritionApp.Droid.Resource.Styleable.AnimatedStateListDrawableCompat_android_visible;
-			global::Xamarin.Forms.PancakeView.Resource.Styleable.AnimatedStateListDrawableItem = global::NutritionApp.Droid.Resource.Styleable.AnimatedStateListDrawableItem;
-			global::Xamarin.Forms.PancakeView.Resource.Styleable.AnimatedStateListDrawableItem_android_drawable = global::NutritionApp.Droid.Resource.Styleable.AnimatedStateListDrawableItem_android_drawable;
-			global::Xamarin.Forms.PancakeView.Resource.Styleable.AnimatedStateListDrawableItem_android_id = global::NutritionApp.Droid.Resource.Styleable.AnimatedStateListDrawableItem_android_id;
-			global::Xamarin.Forms.PancakeView.Resource.Styleable.AnimatedStateListDrawableTransition = global::NutritionApp.Droid.Resource.Styleable.AnimatedStateListDrawableTransition;
-			global::Xamarin.Forms.PancakeView.Resource.Styleable.AnimatedStateListDrawableTransition_android_drawable = global::NutritionApp.Droid.Resource.Styleable.AnimatedStateListDrawableTransition_android_drawable;
-			global::Xamarin.Forms.PancakeView.Resource.Styleable.AnimatedStateListDrawableTransition_android_fromId = global::NutritionApp.Droid.Resource.Styleable.AnimatedStateListDrawableTransition_android_fromId;
-			global::Xamarin.Forms.PancakeView.Resource.Styleable.AnimatedStateListDrawableTransition_android_reversible = global::NutritionApp.Droid.Resource.Styleable.AnimatedStateListDrawableTransition_android_reversible;
-			global::Xamarin.Forms.PancakeView.Resource.Styleable.AnimatedStateListDrawableTransition_android_toId = global::NutritionApp.Droid.Resource.Styleable.AnimatedStateListDrawableTransition_android_toId;
-			global::Xamarin.Forms.PancakeView.Resource.Styleable.AppBarLayout = global::NutritionApp.Droid.Resource.Styleable.AppBarLayout;
-			global::Xamarin.Forms.PancakeView.Resource.Styleable.AppBarLayoutStates = global::NutritionApp.Droid.Resource.Styleable.AppBarLayoutStates;
-			global::Xamarin.Forms.PancakeView.Resource.Styleable.AppBarLayoutStates_state_collapsed = global::NutritionApp.Droid.Resource.Styleable.AppBarLayoutStates_state_collapsed;
-			global::Xamarin.Forms.PancakeView.Resource.Styleable.AppBarLayoutStates_state_collapsible = global::NutritionApp.Droid.Resource.Styleable.AppBarLayoutStates_state_collapsible;
-			global::Xamarin.Forms.PancakeView.Resource.Styleable.AppBarLayoutStates_state_liftable = global::NutritionApp.Droid.Resource.Styleable.AppBarLayoutStates_state_liftable;
-			global::Xamarin.Forms.PancakeView.Resource.Styleable.AppBarLayoutStates_state_lifted = global::NutritionApp.Droid.Resource.Styleable.AppBarLayoutStates_state_lifted;
-			global::Xamarin.Forms.PancakeView.Resource.Styleable.AppBarLayout_android_background = global::NutritionApp.Droid.Resource.Styleable.AppBarLayout_android_background;
-			global::Xamarin.Forms.PancakeView.Resource.Styleable.AppBarLayout_android_keyboardNavigationCluster = global::NutritionApp.Droid.Resource.Styleable.AppBarLayout_android_keyboardNavigationCluster;
-			global::Xamarin.Forms.PancakeView.Resource.Styleable.AppBarLayout_android_touchscreenBlocksFocus = global::NutritionApp.Droid.Resource.Styleable.AppBarLayout_android_touchscreenBlocksFocus;
-			global::Xamarin.Forms.PancakeView.Resource.Styleable.AppBarLayout_elevation = global::NutritionApp.Droid.Resource.Styleable.AppBarLayout_elevation;
-			global::Xamarin.Forms.PancakeView.Resource.Styleable.AppBarLayout_expanded = global::NutritionApp.Droid.Resource.Styleable.AppBarLayout_expanded;
-			global::Xamarin.Forms.PancakeView.Resource.Styleable.AppBarLayout_Layout = global::NutritionApp.Droid.Resource.Styleable.AppBarLayout_Layout;
-			global::Xamarin.Forms.PancakeView.Resource.Styleable.AppBarLayout_Layout_layout_scrollFlags = global::NutritionApp.Droid.Resource.Styleable.AppBarLayout_Layout_layout_scrollFlags;
-			global::Xamarin.Forms.PancakeView.Resource.Styleable.AppBarLayout_Layout_layout_scrollInterpolator = global::NutritionApp.Droid.Resource.Styleable.AppBarLayout_Layout_layout_scrollInterpolator;
-			global::Xamarin.Forms.PancakeView.Resource.Styleable.AppBarLayout_liftOnScroll = global::NutritionApp.Droid.Resource.Styleable.AppBarLayout_liftOnScroll;
-			global::Xamarin.Forms.PancakeView.Resource.Styleable.AppCompatImageView = global::NutritionApp.Droid.Resource.Styleable.AppCompatImageView;
-			global::Xamarin.Forms.PancakeView.Resource.Styleable.AppCompatImageView_android_src = global::NutritionApp.Droid.Resource.Styleable.AppCompatImageView_android_src;
-			global::Xamarin.Forms.PancakeView.Resource.Styleable.AppCompatImageView_srcCompat = global::NutritionApp.Droid.Resource.Styleable.AppCompatImageView_srcCompat;
-			global::Xamarin.Forms.PancakeView.Resource.Styleable.AppCompatImageView_tint = global::NutritionApp.Droid.Resource.Styleable.AppCompatImageView_tint;
-			global::Xamarin.Forms.PancakeView.Resource.Styleable.AppCompatImageView_tintMode = global::NutritionApp.Droid.Resource.Styleable.AppCompatImageView_tintMode;
-			global::Xamarin.Forms.PancakeView.Resource.Styleable.AppCompatSeekBar = global::NutritionApp.Droid.Resource.Styleable.AppCompatSeekBar;
-			global::Xamarin.Forms.PancakeView.Resource.Styleable.AppCompatSeekBar_android_thumb = global::NutritionApp.Droid.Resource.Styleable.AppCompatSeekBar_android_thumb;
-			global::Xamarin.Forms.PancakeView.Resource.Styleable.AppCompatSeekBar_tickMark = global::NutritionApp.Droid.Resource.Styleable.AppCompatSeekBar_tickMark;
-			global::Xamarin.Forms.PancakeView.Resource.Styleable.AppCompatSeekBar_tickMarkTint = global::NutritionApp.Droid.Resource.Styleable.AppCompatSeekBar_tickMarkTint;
-			global::Xamarin.Forms.PancakeView.Resource.Styleable.AppCompatSeekBar_tickMarkTintMode = global::NutritionApp.Droid.Resource.Styleable.AppCompatSeekBar_tickMarkTintMode;
-			global::Xamarin.Forms.PancakeView.Resource.Styleable.AppCompatTextHelper = global::NutritionApp.Droid.Resource.Styleable.AppCompatTextHelper;
-			global::Xamarin.Forms.PancakeView.Resource.Styleable.AppCompatTextHelper_android_drawableBottom = global::NutritionApp.Droid.Resource.Styleable.AppCompatTextHelper_android_drawableBottom;
-			global::Xamarin.Forms.PancakeView.Resource.Styleable.AppCompatTextHelper_android_drawableEnd = global::NutritionApp.Droid.Resource.Styleable.AppCompatTextHelper_android_drawableEnd;
-			global::Xamarin.Forms.PancakeView.Resource.Styleable.AppCompatTextHelper_android_drawableLeft = global::NutritionApp.Droid.Resource.Styleable.AppCompatTextHelper_android_drawableLeft;
-			global::Xamarin.Forms.PancakeView.Resource.Styleable.AppCompatTextHelper_android_drawableRight = global::NutritionApp.Droid.Resource.Styleable.AppCompatTextHelper_android_drawableRight;
-			global::Xamarin.Forms.PancakeView.Resource.Styleable.AppCompatTextHelper_android_drawableStart = global::NutritionApp.Droid.Resource.Styleable.AppCompatTextHelper_android_drawableStart;
-			global::Xamarin.Forms.PancakeView.Resource.Styleable.AppCompatTextHelper_android_drawableTop = global::NutritionApp.Droid.Resource.Styleable.AppCompatTextHelper_android_drawableTop;
-			global::Xamarin.Forms.PancakeView.Resource.Styleable.AppCompatTextHelper_android_textAppearance = global::NutritionApp.Droid.Resource.Styleable.AppCompatTextHelper_android_textAppearance;
-			global::Xamarin.Forms.PancakeView.Resource.Styleable.AppCompatTextView = global::NutritionApp.Droid.Resource.Styleable.AppCompatTextView;
-			global::Xamarin.Forms.PancakeView.Resource.Styleable.AppCompatTextView_android_textAppearance = global::NutritionApp.Droid.Resource.Styleable.AppCompatTextView_android_textAppearance;
-			global::Xamarin.Forms.PancakeView.Resource.Styleable.AppCompatTextView_autoSizeMaxTextSize = global::NutritionApp.Droid.Resource.Styleable.AppCompatTextView_autoSizeMaxTextSize;
-			global::Xamarin.Forms.PancakeView.Resource.Styleable.AppCompatTextView_autoSizeMinTextSize = global::NutritionApp.Droid.Resource.Styleable.AppCompatTextView_autoSizeMinTextSize;
-			global::Xamarin.Forms.PancakeView.Resource.Styleable.AppCompatTextView_autoSizePresetSizes = global::NutritionApp.Droid.Resource.Styleable.AppCompatTextView_autoSizePresetSizes;
-			global::Xamarin.Forms.PancakeView.Resource.Styleable.AppCompatTextView_autoSizeStepGranularity = global::NutritionApp.Droid.Resource.Styleable.AppCompatTextView_autoSizeStepGranularity;
-			global::Xamarin.Forms.PancakeView.Resource.Styleable.AppCompatTextView_autoSizeTextType = global::NutritionApp.Droid.Resource.Styleable.AppCompatTextView_autoSizeTextType;
-			global::Xamarin.Forms.PancakeView.Resource.Styleable.AppCompatTextView_drawableBottomCompat = global::NutritionApp.Droid.Resource.Styleable.AppCompatTextView_drawableBottomCompat;
-			global::Xamarin.Forms.PancakeView.Resource.Styleable.AppCompatTextView_drawableEndCompat = global::NutritionApp.Droid.Resource.Styleable.AppCompatTextView_drawableEndCompat;
-			global::Xamarin.Forms.PancakeView.Resource.Styleable.AppCompatTextView_drawableLeftCompat = global::NutritionApp.Droid.Resource.Styleable.AppCompatTextView_drawableLeftCompat;
-			global::Xamarin.Forms.PancakeView.Resource.Styleable.AppCompatTextView_drawableRightCompat = global::NutritionApp.Droid.Resource.Styleable.AppCompatTextView_drawableRightCompat;
-			global::Xamarin.Forms.PancakeView.Resource.Styleable.AppCompatTextView_drawableStartCompat = global::NutritionApp.Droid.Resource.Styleable.AppCompatTextView_drawableStartCompat;
-			global::Xamarin.Forms.PancakeView.Resource.Styleable.AppCompatTextView_drawableTint = global::NutritionApp.Droid.Resource.Styleable.AppCompatTextView_drawableTint;
-			global::Xamarin.Forms.PancakeView.Resource.Styleable.AppCompatTextView_drawableTintMode = global::NutritionApp.Droid.Resource.Styleable.AppCompatTextView_drawableTintMode;
-			global::Xamarin.Forms.PancakeView.Resource.Styleable.AppCompatTextView_drawableTopCompat = global::NutritionApp.Droid.Resource.Styleable.AppCompatTextView_drawableTopCompat;
-			global::Xamarin.Forms.PancakeView.Resource.Styleable.AppCompatTextView_firstBaselineToTopHeight = global::NutritionApp.Droid.Resource.Styleable.AppCompatTextView_firstBaselineToTopHeight;
-			global::Xamarin.Forms.PancakeView.Resource.Styleable.AppCompatTextView_fontFamily = global::NutritionApp.Droid.Resource.Styleable.AppCompatTextView_fontFamily;
-			global::Xamarin.Forms.PancakeView.Resource.Styleable.AppCompatTextView_fontVariationSettings = global::NutritionApp.Droid.Resource.Styleable.AppCompatTextView_fontVariationSettings;
-			global::Xamarin.Forms.PancakeView.Resource.Styleable.AppCompatTextView_lastBaselineToBottomHeight = global::NutritionApp.Droid.Resource.Styleable.AppCompatTextView_lastBaselineToBottomHeight;
-			global::Xamarin.Forms.PancakeView.Resource.Styleable.AppCompatTextView_lineHeight = global::NutritionApp.Droid.Resource.Styleable.AppCompatTextView_lineHeight;
-			global::Xamarin.Forms.PancakeView.Resource.Styleable.AppCompatTextView_textAllCaps = global::NutritionApp.Droid.Resource.Styleable.AppCompatTextView_textAllCaps;
-			global::Xamarin.Forms.PancakeView.Resource.Styleable.AppCompatTextView_textLocale = global::NutritionApp.Droid.Resource.Styleable.AppCompatTextView_textLocale;
-			global::Xamarin.Forms.PancakeView.Resource.Styleable.AppCompatTheme = global::NutritionApp.Droid.Resource.Styleable.AppCompatTheme;
-			global::Xamarin.Forms.PancakeView.Resource.Styleable.AppCompatTheme_actionBarDivider = global::NutritionApp.Droid.Resource.Styleable.AppCompatTheme_actionBarDivider;
-			global::Xamarin.Forms.PancakeView.Resource.Styleable.AppCompatTheme_actionBarItemBackground = global::NutritionApp.Droid.Resource.Styleable.AppCompatTheme_actionBarItemBackground;
-			global::Xamarin.Forms.PancakeView.Resource.Styleable.AppCompatTheme_actionBarPopupTheme = global::NutritionApp.Droid.Resource.Styleable.AppCompatTheme_actionBarPopupTheme;
-			global::Xamarin.Forms.PancakeView.Resource.Styleable.AppCompatTheme_actionBarSize = global::NutritionApp.Droid.Resource.Styleable.AppCompatTheme_actionBarSize;
-			global::Xamarin.Forms.PancakeView.Resource.Styleable.AppCompatTheme_actionBarSplitStyle = global::NutritionApp.Droid.Resource.Styleable.AppCompatTheme_actionBarSplitStyle;
-			global::Xamarin.Forms.PancakeView.Resource.Styleable.AppCompatTheme_actionBarStyle = global::NutritionApp.Droid.Resource.Styleable.AppCompatTheme_actionBarStyle;
-			global::Xamarin.Forms.PancakeView.Resource.Styleable.AppCompatTheme_actionBarTabBarStyle = global::NutritionApp.Droid.Resource.Styleable.AppCompatTheme_actionBarTabBarStyle;
-			global::Xamarin.Forms.PancakeView.Resource.Styleable.AppCompatTheme_actionBarTabStyle = global::NutritionApp.Droid.Resource.Styleable.AppCompatTheme_actionBarTabStyle;
-			global::Xamarin.Forms.PancakeView.Resource.Styleable.AppCompatTheme_actionBarTabTextStyle = global::NutritionApp.Droid.Resource.Styleable.AppCompatTheme_actionBarTabTextStyle;
-			global::Xamarin.Forms.PancakeView.Resource.Styleable.AppCompatTheme_actionBarTheme = global::NutritionApp.Droid.Resource.Styleable.AppCompatTheme_actionBarTheme;
-			global::Xamarin.Forms.PancakeView.Resource.Styleable.AppCompatTheme_actionBarWidgetTheme = global::NutritionApp.Droid.Resource.Styleable.AppCompatTheme_actionBarWidgetTheme;
-			global::Xamarin.Forms.PancakeView.Resource.Styleable.AppCompatTheme_actionButtonStyle = global::NutritionApp.Droid.Resource.Styleable.AppCompatTheme_actionButtonStyle;
-			global::Xamarin.Forms.PancakeView.Resource.Styleable.AppCompatTheme_actionDropDownStyle = global::NutritionApp.Droid.Resource.Styleable.AppCompatTheme_actionDropDownStyle;
-			global::Xamarin.Forms.PancakeView.Resource.Styleable.AppCompatTheme_actionMenuTextAppearance = global::NutritionApp.Droid.Resource.Styleable.AppCompatTheme_actionMenuTextAppearance;
-			global::Xamarin.Forms.PancakeView.Resource.Styleable.AppCompatTheme_actionMenuTextColor = global::NutritionApp.Droid.Resource.Styleable.AppCompatTheme_actionMenuTextColor;
-			global::Xamarin.Forms.PancakeView.Resource.Styleable.AppCompatTheme_actionModeBackground = global::NutritionApp.Droid.Resource.Styleable.AppCompatTheme_actionModeBackground;
-			global::Xamarin.Forms.PancakeView.Resource.Styleable.AppCompatTheme_actionModeCloseButtonStyle = global::NutritionApp.Droid.Resource.Styleable.AppCompatTheme_actionModeCloseButtonStyle;
-			global::Xamarin.Forms.PancakeView.Resource.Styleable.AppCompatTheme_actionModeCloseDrawable = global::NutritionApp.Droid.Resource.Styleable.AppCompatTheme_actionModeCloseDrawable;
-			global::Xamarin.Forms.PancakeView.Resource.Styleable.AppCompatTheme_actionModeCopyDrawable = global::NutritionApp.Droid.Resource.Styleable.AppCompatTheme_actionModeCopyDrawable;
-			global::Xamarin.Forms.PancakeView.Resource.Styleable.AppCompatTheme_actionModeCutDrawable = global::NutritionApp.Droid.Resource.Styleable.AppCompatTheme_actionModeCutDrawable;
-			global::Xamarin.Forms.PancakeView.Resource.Styleable.AppCompatTheme_actionModeFindDrawable = global::NutritionApp.Droid.Resource.Styleable.AppCompatTheme_actionModeFindDrawable;
-			global::Xamarin.Forms.PancakeView.Resource.Styleable.AppCompatTheme_actionModePasteDrawable = global::NutritionApp.Droid.Resource.Styleable.AppCompatTheme_actionModePasteDrawable;
-			global::Xamarin.Forms.PancakeView.Resource.Styleable.AppCompatTheme_actionModePopupWindowStyle = global::NutritionApp.Droid.Resource.Styleable.AppCompatTheme_actionModePopupWindowStyle;
-			global::Xamarin.Forms.PancakeView.Resource.Styleable.AppCompatTheme_actionModeSelectAllDrawable = global::NutritionApp.Droid.Resource.Styleable.AppCompatTheme_actionModeSelectAllDrawable;
-			global::Xamarin.Forms.PancakeView.Resource.Styleable.AppCompatTheme_actionModeShareDrawable = global::NutritionApp.Droid.Resource.Styleable.AppCompatTheme_actionModeShareDrawable;
-			global::Xamarin.Forms.PancakeView.Resource.Styleable.AppCompatTheme_actionModeSplitBackground = global::NutritionApp.Droid.Resource.Styleable.AppCompatTheme_actionModeSplitBackground;
-			global::Xamarin.Forms.PancakeView.Resource.Styleable.AppCompatTheme_actionModeStyle = global::NutritionApp.Droid.Resource.Styleable.AppCompatTheme_actionModeStyle;
-			global::Xamarin.Forms.PancakeView.Resource.Styleable.AppCompatTheme_actionModeWebSearchDrawable = global::NutritionApp.Droid.Resource.Styleable.AppCompatTheme_actionModeWebSearchDrawable;
-			global::Xamarin.Forms.PancakeView.Resource.Styleable.AppCompatTheme_actionOverflowButtonStyle = global::NutritionApp.Droid.Resource.Styleable.AppCompatTheme_actionOverflowButtonStyle;
-			global::Xamarin.Forms.PancakeView.Resource.Styleable.AppCompatTheme_actionOverflowMenuStyle = global::NutritionApp.Droid.Resource.Styleable.AppCompatTheme_actionOverflowMenuStyle;
-			global::Xamarin.Forms.PancakeView.Resource.Styleable.AppCompatTheme_activityChooserViewStyle = global::NutritionApp.Droid.Resource.Styleable.AppCompatTheme_activityChooserViewStyle;
-			global::Xamarin.Forms.PancakeView.Resource.Styleable.AppCompatTheme_alertDialogButtonGroupStyle = global::NutritionApp.Droid.Resource.Styleable.AppCompatTheme_alertDialogButtonGroupStyle;
-			global::Xamarin.Forms.PancakeView.Resource.Styleable.AppCompatTheme_alertDialogCenterButtons = global::NutritionApp.Droid.Resource.Styleable.AppCompatTheme_alertDialogCenterButtons;
-			global::Xamarin.Forms.PancakeView.Resource.Styleable.AppCompatTheme_alertDialogStyle = global::NutritionApp.Droid.Resource.Styleable.AppCompatTheme_alertDialogStyle;
-			global::Xamarin.Forms.PancakeView.Resource.Styleable.AppCompatTheme_alertDialogTheme = global::NutritionApp.Droid.Resource.Styleable.AppCompatTheme_alertDialogTheme;
-			global::Xamarin.Forms.PancakeView.Resource.Styleable.AppCompatTheme_android_windowAnimationStyle = global::NutritionApp.Droid.Resource.Styleable.AppCompatTheme_android_windowAnimationStyle;
-			global::Xamarin.Forms.PancakeView.Resource.Styleable.AppCompatTheme_android_windowIsFloating = global::NutritionApp.Droid.Resource.Styleable.AppCompatTheme_android_windowIsFloating;
-			global::Xamarin.Forms.PancakeView.Resource.Styleable.AppCompatTheme_autoCompleteTextViewStyle = global::NutritionApp.Droid.Resource.Styleable.AppCompatTheme_autoCompleteTextViewStyle;
-			global::Xamarin.Forms.PancakeView.Resource.Styleable.AppCompatTheme_borderlessButtonStyle = global::NutritionApp.Droid.Resource.Styleable.AppCompatTheme_borderlessButtonStyle;
-			global::Xamarin.Forms.PancakeView.Resource.Styleable.AppCompatTheme_buttonBarButtonStyle = global::NutritionApp.Droid.Resource.Styleable.AppCompatTheme_buttonBarButtonStyle;
-			global::Xamarin.Forms.PancakeView.Resource.Styleable.AppCompatTheme_buttonBarNegativeButtonStyle = global::NutritionApp.Droid.Resource.Styleable.AppCompatTheme_buttonBarNegativeButtonStyle;
-			global::Xamarin.Forms.PancakeView.Resource.Styleable.AppCompatTheme_buttonBarNeutralButtonStyle = global::NutritionApp.Droid.Resource.Styleable.AppCompatTheme_buttonBarNeutralButtonStyle;
-			global::Xamarin.Forms.PancakeView.Resource.Styleable.AppCompatTheme_buttonBarPositiveButtonStyle = global::NutritionApp.Droid.Resource.Styleable.AppCompatTheme_buttonBarPositiveButtonStyle;
-			global::Xamarin.Forms.PancakeView.Resource.Styleable.AppCompatTheme_buttonBarStyle = global::NutritionApp.Droid.Resource.Styleable.AppCompatTheme_buttonBarStyle;
-			global::Xamarin.Forms.PancakeView.Resource.Styleable.AppCompatTheme_buttonStyle = global::NutritionApp.Droid.Resource.Styleable.AppCompatTheme_buttonStyle;
-			global::Xamarin.Forms.PancakeView.Resource.Styleable.AppCompatTheme_buttonStyleSmall = global::NutritionApp.Droid.Resource.Styleable.AppCompatTheme_buttonStyleSmall;
-			global::Xamarin.Forms.PancakeView.Resource.Styleable.AppCompatTheme_checkboxStyle = global::NutritionApp.Droid.Resource.Styleable.AppCompatTheme_checkboxStyle;
-			global::Xamarin.Forms.PancakeView.Resource.Styleable.AppCompatTheme_checkedTextViewStyle = global::NutritionApp.Droid.Resource.Styleable.AppCompatTheme_checkedTextViewStyle;
-			global::Xamarin.Forms.PancakeView.Resource.Styleable.AppCompatTheme_colorAccent = global::NutritionApp.Droid.Resource.Styleable.AppCompatTheme_colorAccent;
-			global::Xamarin.Forms.PancakeView.Resource.Styleable.AppCompatTheme_colorBackgroundFloating = global::NutritionApp.Droid.Resource.Styleable.AppCompatTheme_colorBackgroundFloating;
-			global::Xamarin.Forms.PancakeView.Resource.Styleable.AppCompatTheme_colorButtonNormal = global::NutritionApp.Droid.Resource.Styleable.AppCompatTheme_colorButtonNormal;
-			global::Xamarin.Forms.PancakeView.Resource.Styleable.AppCompatTheme_colorControlActivated = global::NutritionApp.Droid.Resource.Styleable.AppCompatTheme_colorControlActivated;
-			global::Xamarin.Forms.PancakeView.Resource.Styleable.AppCompatTheme_colorControlHighlight = global::NutritionApp.Droid.Resource.Styleable.AppCompatTheme_colorControlHighlight;
-			global::Xamarin.Forms.PancakeView.Resource.Styleable.AppCompatTheme_colorControlNormal = global::NutritionApp.Droid.Resource.Styleable.AppCompatTheme_colorControlNormal;
-			global::Xamarin.Forms.PancakeView.Resource.Styleable.AppCompatTheme_colorError = global::NutritionApp.Droid.Resource.Styleable.AppCompatTheme_colorError;
-			global::Xamarin.Forms.PancakeView.Resource.Styleable.AppCompatTheme_colorPrimary = global::NutritionApp.Droid.Resource.Styleable.AppCompatTheme_colorPrimary;
-			global::Xamarin.Forms.PancakeView.Resource.Styleable.AppCompatTheme_colorPrimaryDark = global::NutritionApp.Droid.Resource.Styleable.AppCompatTheme_colorPrimaryDark;
-			global::Xamarin.Forms.PancakeView.Resource.Styleable.AppCompatTheme_colorSwitchThumbNormal = global::NutritionApp.Droid.Resource.Styleable.AppCompatTheme_colorSwitchThumbNormal;
-			global::Xamarin.Forms.PancakeView.Resource.Styleable.AppCompatTheme_controlBackground = global::NutritionApp.Droid.Resource.Styleable.AppCompatTheme_controlBackground;
-			global::Xamarin.Forms.PancakeView.Resource.Styleable.AppCompatTheme_dialogCornerRadius = global::NutritionApp.Droid.Resource.Styleable.AppCompatTheme_dialogCornerRadius;
-			global::Xamarin.Forms.PancakeView.Resource.Styleable.AppCompatTheme_dialogPreferredPadding = global::NutritionApp.Droid.Resource.Styleable.AppCompatTheme_dialogPreferredPadding;
-			global::Xamarin.Forms.PancakeView.Resource.Styleable.AppCompatTheme_dialogTheme = global::NutritionApp.Droid.Resource.Styleable.AppCompatTheme_dialogTheme;
-			global::Xamarin.Forms.PancakeView.Resource.Styleable.AppCompatTheme_dividerHorizontal = global::NutritionApp.Droid.Resource.Styleable.AppCompatTheme_dividerHorizontal;
-			global::Xamarin.Forms.PancakeView.Resource.Styleable.AppCompatTheme_dividerVertical = global::NutritionApp.Droid.Resource.Styleable.AppCompatTheme_dividerVertical;
-			global::Xamarin.Forms.PancakeView.Resource.Styleable.AppCompatTheme_dropdownListPreferredItemHeight = global::NutritionApp.Droid.Resource.Styleable.AppCompatTheme_dropdownListPreferredItemHeight;
-			global::Xamarin.Forms.PancakeView.Resource.Styleable.AppCompatTheme_dropDownListViewStyle = global::NutritionApp.Droid.Resource.Styleable.AppCompatTheme_dropDownListViewStyle;
-			global::Xamarin.Forms.PancakeView.Resource.Styleable.AppCompatTheme_editTextBackground = global::NutritionApp.Droid.Resource.Styleable.AppCompatTheme_editTextBackground;
-			global::Xamarin.Forms.PancakeView.Resource.Styleable.AppCompatTheme_editTextColor = global::NutritionApp.Droid.Resource.Styleable.AppCompatTheme_editTextColor;
-			global::Xamarin.Forms.PancakeView.Resource.Styleable.AppCompatTheme_editTextStyle = global::NutritionApp.Droid.Resource.Styleable.AppCompatTheme_editTextStyle;
-			global::Xamarin.Forms.PancakeView.Resource.Styleable.AppCompatTheme_homeAsUpIndicator = global::NutritionApp.Droid.Resource.Styleable.AppCompatTheme_homeAsUpIndicator;
-			global::Xamarin.Forms.PancakeView.Resource.Styleable.AppCompatTheme_imageButtonStyle = global::NutritionApp.Droid.Resource.Styleable.AppCompatTheme_imageButtonStyle;
-			global::Xamarin.Forms.PancakeView.Resource.Styleable.AppCompatTheme_listChoiceBackgroundIndicator = global::NutritionApp.Droid.Resource.Styleable.AppCompatTheme_listChoiceBackgroundIndicator;
-			global::Xamarin.Forms.PancakeView.Resource.Styleable.AppCompatTheme_listChoiceIndicatorMultipleAnimated = global::NutritionApp.Droid.Resource.Styleable.AppCompatTheme_listChoiceIndicatorMultipleAnimated;
-			global::Xamarin.Forms.PancakeView.Resource.Styleable.AppCompatTheme_listChoiceIndicatorSingleAnimated = global::NutritionApp.Droid.Resource.Styleable.AppCompatTheme_listChoiceIndicatorSingleAnimated;
-			global::Xamarin.Forms.PancakeView.Resource.Styleable.AppCompatTheme_listDividerAlertDialog = global::NutritionApp.Droid.Resource.Styleable.AppCompatTheme_listDividerAlertDialog;
-			global::Xamarin.Forms.PancakeView.Resource.Styleable.AppCompatTheme_listMenuViewStyle = global::NutritionApp.Droid.Resource.Styleable.AppCompatTheme_listMenuViewStyle;
-			global::Xamarin.Forms.PancakeView.Resource.Styleable.AppCompatTheme_listPopupWindowStyle = global::NutritionApp.Droid.Resource.Styleable.AppCompatTheme_listPopupWindowStyle;
-			global::Xamarin.Forms.PancakeView.Resource.Styleable.AppCompatTheme_listPreferredItemHeight = global::NutritionApp.Droid.Resource.Styleable.AppCompatTheme_listPreferredItemHeight;
-			global::Xamarin.Forms.PancakeView.Resource.Styleable.AppCompatTheme_listPreferredItemHeightLarge = global::NutritionApp.Droid.Resource.Styleable.AppCompatTheme_listPreferredItemHeightLarge;
-			global::Xamarin.Forms.PancakeView.Resource.Styleable.AppCompatTheme_listPreferredItemHeightSmall = global::NutritionApp.Droid.Resource.Styleable.AppCompatTheme_listPreferredItemHeightSmall;
-			global::Xamarin.Forms.PancakeView.Resource.Styleable.AppCompatTheme_listPreferredItemPaddingEnd = global::NutritionApp.Droid.Resource.Styleable.AppCompatTheme_listPreferredItemPaddingEnd;
-			global::Xamarin.Forms.PancakeView.Resource.Styleable.AppCompatTheme_listPreferredItemPaddingLeft = global::NutritionApp.Droid.Resource.Styleable.AppCompatTheme_listPreferredItemPaddingLeft;
-			global::Xamarin.Forms.PancakeView.Resource.Styleable.AppCompatTheme_listPreferredItemPaddingRight = global::NutritionApp.Droid.Resource.Styleable.AppCompatTheme_listPreferredItemPaddingRight;
-			global::Xamarin.Forms.PancakeView.Resource.Styleable.AppCompatTheme_listPreferredItemPaddingStart = global::NutritionApp.Droid.Resource.Styleable.AppCompatTheme_listPreferredItemPaddingStart;
-			global::Xamarin.Forms.PancakeView.Resource.Styleable.AppCompatTheme_panelBackground = global::NutritionApp.Droid.Resource.Styleable.AppCompatTheme_panelBackground;
-			global::Xamarin.Forms.PancakeView.Resource.Styleable.AppCompatTheme_panelMenuListTheme = global::NutritionApp.Droid.Resource.Styleable.AppCompatTheme_panelMenuListTheme;
-			global::Xamarin.Forms.PancakeView.Resource.Styleable.AppCompatTheme_panelMenuListWidth = global::NutritionApp.Droid.Resource.Styleable.AppCompatTheme_panelMenuListWidth;
-			global::Xamarin.Forms.PancakeView.Resource.Styleable.AppCompatTheme_popupMenuStyle = global::NutritionApp.Droid.Resource.Styleable.AppCompatTheme_popupMenuStyle;
-			global::Xamarin.Forms.PancakeView.Resource.Styleable.AppCompatTheme_popupWindowStyle = global::NutritionApp.Droid.Resource.Styleable.AppCompatTheme_popupWindowStyle;
-			global::Xamarin.Forms.PancakeView.Resource.Styleable.AppCompatTheme_radioButtonStyle = global::NutritionApp.Droid.Resource.Styleable.AppCompatTheme_radioButtonStyle;
-			global::Xamarin.Forms.PancakeView.Resource.Styleable.AppCompatTheme_ratingBarStyle = global::NutritionApp.Droid.Resource.Styleable.AppCompatTheme_ratingBarStyle;
-			global::Xamarin.Forms.PancakeView.Resource.Styleable.AppCompatTheme_ratingBarStyleIndicator = global::NutritionApp.Droid.Resource.Styleable.AppCompatTheme_ratingBarStyleIndicator;
-			global::Xamarin.Forms.PancakeView.Resource.Styleable.AppCompatTheme_ratingBarStyleSmall = global::NutritionApp.Droid.Resource.Styleable.AppCompatTheme_ratingBarStyleSmall;
-			global::Xamarin.Forms.PancakeView.Resource.Styleable.AppCompatTheme_searchViewStyle = global::NutritionApp.Droid.Resource.Styleable.AppCompatTheme_searchViewStyle;
-			global::Xamarin.Forms.PancakeView.Resource.Styleable.AppCompatTheme_seekBarStyle = global::NutritionApp.Droid.Resource.Styleable.AppCompatTheme_seekBarStyle;
-			global::Xamarin.Forms.PancakeView.Resource.Styleable.AppCompatTheme_selectableItemBackground = global::NutritionApp.Droid.Resource.Styleable.AppCompatTheme_selectableItemBackground;
-			global::Xamarin.Forms.PancakeView.Resource.Styleable.AppCompatTheme_selectableItemBackgroundBorderless = global::NutritionApp.Droid.Resource.Styleable.AppCompatTheme_selectableItemBackgroundBorderless;
-			global::Xamarin.Forms.PancakeView.Resource.Styleable.AppCompatTheme_spinnerDropDownItemStyle = global::NutritionApp.Droid.Resource.Styleable.AppCompatTheme_spinnerDropDownItemStyle;
-			global::Xamarin.Forms.PancakeView.Resource.Styleable.AppCompatTheme_spinnerStyle = global::NutritionApp.Droid.Resource.Styleable.AppCompatTheme_spinnerStyle;
-			global::Xamarin.Forms.PancakeView.Resource.Styleable.AppCompatTheme_switchStyle = global::NutritionApp.Droid.Resource.Styleable.AppCompatTheme_switchStyle;
-			global::Xamarin.Forms.PancakeView.Resource.Styleable.AppCompatTheme_textAppearanceLargePopupMenu = global::NutritionApp.Droid.Resource.Styleable.AppCompatTheme_textAppearanceLargePopupMenu;
-			global::Xamarin.Forms.PancakeView.Resource.Styleable.AppCompatTheme_textAppearanceListItem = global::NutritionApp.Droid.Resource.Styleable.AppCompatTheme_textAppearanceListItem;
-			global::Xamarin.Forms.PancakeView.Resource.Styleable.AppCompatTheme_textAppearanceListItemSecondary = global::NutritionApp.Droid.Resource.Styleable.AppCompatTheme_textAppearanceListItemSecondary;
-			global::Xamarin.Forms.PancakeView.Resource.Styleable.AppCompatTheme_textAppearanceListItemSmall = global::NutritionApp.Droid.Resource.Styleable.AppCompatTheme_textAppearanceListItemSmall;
-			global::Xamarin.Forms.PancakeView.Resource.Styleable.AppCompatTheme_textAppearancePopupMenuHeader = global::NutritionApp.Droid.Resource.Styleable.AppCompatTheme_textAppearancePopupMenuHeader;
-			global::Xamarin.Forms.PancakeView.Resource.Styleable.AppCompatTheme_textAppearanceSearchResultSubtitle = global::NutritionApp.Droid.Resource.Styleable.AppCompatTheme_textAppearanceSearchResultSubtitle;
-			global::Xamarin.Forms.PancakeView.Resource.Styleable.AppCompatTheme_textAppearanceSearchResultTitle = global::NutritionApp.Droid.Resource.Styleable.AppCompatTheme_textAppearanceSearchResultTitle;
-			global::Xamarin.Forms.PancakeView.Resource.Styleable.AppCompatTheme_textAppearanceSmallPopupMenu = global::NutritionApp.Droid.Resource.Styleable.AppCompatTheme_textAppearanceSmallPopupMenu;
-			global::Xamarin.Forms.PancakeView.Resource.Styleable.AppCompatTheme_textColorAlertDialogListItem = global::NutritionApp.Droid.Resource.Styleable.AppCompatTheme_textColorAlertDialogListItem;
-			global::Xamarin.Forms.PancakeView.Resource.Styleable.AppCompatTheme_textColorSearchUrl = global::NutritionApp.Droid.Resource.Styleable.AppCompatTheme_textColorSearchUrl;
-			global::Xamarin.Forms.PancakeView.Resource.Styleable.AppCompatTheme_toolbarNavigationButtonStyle = global::NutritionApp.Droid.Resource.Styleable.AppCompatTheme_toolbarNavigationButtonStyle;
-			global::Xamarin.Forms.PancakeView.Resource.Styleable.AppCompatTheme_toolbarStyle = global::NutritionApp.Droid.Resource.Styleable.AppCompatTheme_toolbarStyle;
-			global::Xamarin.Forms.PancakeView.Resource.Styleable.AppCompatTheme_tooltipForegroundColor = global::NutritionApp.Droid.Resource.Styleable.AppCompatTheme_tooltipForegroundColor;
-			global::Xamarin.Forms.PancakeView.Resource.Styleable.AppCompatTheme_tooltipFrameBackground = global::NutritionApp.Droid.Resource.Styleable.AppCompatTheme_tooltipFrameBackground;
-			global::Xamarin.Forms.PancakeView.Resource.Styleable.AppCompatTheme_viewInflaterClass = global::NutritionApp.Droid.Resource.Styleable.AppCompatTheme_viewInflaterClass;
-			global::Xamarin.Forms.PancakeView.Resource.Styleable.AppCompatTheme_windowActionBar = global::NutritionApp.Droid.Resource.Styleable.AppCompatTheme_windowActionBar;
-			global::Xamarin.Forms.PancakeView.Resource.Styleable.AppCompatTheme_windowActionBarOverlay = global::NutritionApp.Droid.Resource.Styleable.AppCompatTheme_windowActionBarOverlay;
-			global::Xamarin.Forms.PancakeView.Resource.Styleable.AppCompatTheme_windowActionModeOverlay = global::NutritionApp.Droid.Resource.Styleable.AppCompatTheme_windowActionModeOverlay;
-			global::Xamarin.Forms.PancakeView.Resource.Styleable.AppCompatTheme_windowFixedHeightMajor = global::NutritionApp.Droid.Resource.Styleable.AppCompatTheme_windowFixedHeightMajor;
-			global::Xamarin.Forms.PancakeView.Resource.Styleable.AppCompatTheme_windowFixedHeightMinor = global::NutritionApp.Droid.Resource.Styleable.AppCompatTheme_windowFixedHeightMinor;
-			global::Xamarin.Forms.PancakeView.Resource.Styleable.AppCompatTheme_windowFixedWidthMajor = global::NutritionApp.Droid.Resource.Styleable.AppCompatTheme_windowFixedWidthMajor;
-			global::Xamarin.Forms.PancakeView.Resource.Styleable.AppCompatTheme_windowFixedWidthMinor = global::NutritionApp.Droid.Resource.Styleable.AppCompatTheme_windowFixedWidthMinor;
-			global::Xamarin.Forms.PancakeView.Resource.Styleable.AppCompatTheme_windowMinWidthMajor = global::NutritionApp.Droid.Resource.Styleable.AppCompatTheme_windowMinWidthMajor;
-			global::Xamarin.Forms.PancakeView.Resource.Styleable.AppCompatTheme_windowMinWidthMinor = global::NutritionApp.Droid.Resource.Styleable.AppCompatTheme_windowMinWidthMinor;
-			global::Xamarin.Forms.PancakeView.Resource.Styleable.AppCompatTheme_windowNoTitle = global::NutritionApp.Droid.Resource.Styleable.AppCompatTheme_windowNoTitle;
-			global::Xamarin.Forms.PancakeView.Resource.Styleable.BottomAppBar = global::NutritionApp.Droid.Resource.Styleable.BottomAppBar;
-			global::Xamarin.Forms.PancakeView.Resource.Styleable.BottomAppBar_backgroundTint = global::NutritionApp.Droid.Resource.Styleable.BottomAppBar_backgroundTint;
-			global::Xamarin.Forms.PancakeView.Resource.Styleable.BottomAppBar_fabAlignmentMode = global::NutritionApp.Droid.Resource.Styleable.BottomAppBar_fabAlignmentMode;
-			global::Xamarin.Forms.PancakeView.Resource.Styleable.BottomAppBar_fabCradleMargin = global::NutritionApp.Droid.Resource.Styleable.BottomAppBar_fabCradleMargin;
-			global::Xamarin.Forms.PancakeView.Resource.Styleable.BottomAppBar_fabCradleRoundedCornerRadius = global::NutritionApp.Droid.Resource.Styleable.BottomAppBar_fabCradleRoundedCornerRadius;
-			global::Xamarin.Forms.PancakeView.Resource.Styleable.BottomAppBar_fabCradleVerticalOffset = global::NutritionApp.Droid.Resource.Styleable.BottomAppBar_fabCradleVerticalOffset;
-			global::Xamarin.Forms.PancakeView.Resource.Styleable.BottomAppBar_hideOnScroll = global::NutritionApp.Droid.Resource.Styleable.BottomAppBar_hideOnScroll;
-			global::Xamarin.Forms.PancakeView.Resource.Styleable.BottomNavigationView = global::NutritionApp.Droid.Resource.Styleable.BottomNavigationView;
-			global::Xamarin.Forms.PancakeView.Resource.Styleable.BottomNavigationView_itemHorizontalTranslationEnabled = global::NutritionApp.Droid.Resource.Styleable.BottomNavigationView_itemHorizontalTranslationEnabled;
-			global::Xamarin.Forms.PancakeView.Resource.Styleable.BottomSheetBehavior_Layout = global::NutritionApp.Droid.Resource.Styleable.BottomSheetBehavior_Layout;
-			global::Xamarin.Forms.PancakeView.Resource.Styleable.BottomSheetBehavior_Layout_behavior_fitToContents = global::NutritionApp.Droid.Resource.Styleable.BottomSheetBehavior_Layout_behavior_fitToContents;
-			global::Xamarin.Forms.PancakeView.Resource.Styleable.BottomSheetBehavior_Layout_behavior_hideable = global::NutritionApp.Droid.Resource.Styleable.BottomSheetBehavior_Layout_behavior_hideable;
-			global::Xamarin.Forms.PancakeView.Resource.Styleable.BottomSheetBehavior_Layout_behavior_peekHeight = global::NutritionApp.Droid.Resource.Styleable.BottomSheetBehavior_Layout_behavior_peekHeight;
-			global::Xamarin.Forms.PancakeView.Resource.Styleable.BottomSheetBehavior_Layout_behavior_skipCollapsed = global::NutritionApp.Droid.Resource.Styleable.BottomSheetBehavior_Layout_behavior_skipCollapsed;
-			global::Xamarin.Forms.PancakeView.Resource.Styleable.ButtonBarLayout = global::NutritionApp.Droid.Resource.Styleable.ButtonBarLayout;
-			global::Xamarin.Forms.PancakeView.Resource.Styleable.ButtonBarLayout_allowStacking = global::NutritionApp.Droid.Resource.Styleable.ButtonBarLayout_allowStacking;
-			global::Xamarin.Forms.PancakeView.Resource.Styleable.CardView = global::NutritionApp.Droid.Resource.Styleable.CardView;
-			global::Xamarin.Forms.PancakeView.Resource.Styleable.CardView_android_minHeight = global::NutritionApp.Droid.Resource.Styleable.CardView_android_minHeight;
-			global::Xamarin.Forms.PancakeView.Resource.Styleable.CardView_android_minWidth = global::NutritionApp.Droid.Resource.Styleable.CardView_android_minWidth;
-			global::Xamarin.Forms.PancakeView.Resource.Styleable.CardView_cardBackgroundColor = global::NutritionApp.Droid.Resource.Styleable.CardView_cardBackgroundColor;
-			global::Xamarin.Forms.PancakeView.Resource.Styleable.CardView_cardCornerRadius = global::NutritionApp.Droid.Resource.Styleable.CardView_cardCornerRadius;
-			global::Xamarin.Forms.PancakeView.Resource.Styleable.CardView_cardElevation = global::NutritionApp.Droid.Resource.Styleable.CardView_cardElevation;
-			global::Xamarin.Forms.PancakeView.Resource.Styleable.CardView_cardMaxElevation = global::NutritionApp.Droid.Resource.Styleable.CardView_cardMaxElevation;
-			global::Xamarin.Forms.PancakeView.Resource.Styleable.CardView_cardPreventCornerOverlap = global::NutritionApp.Droid.Resource.Styleable.CardView_cardPreventCornerOverlap;
-			global::Xamarin.Forms.PancakeView.Resource.Styleable.CardView_cardUseCompatPadding = global::NutritionApp.Droid.Resource.Styleable.CardView_cardUseCompatPadding;
-			global::Xamarin.Forms.PancakeView.Resource.Styleable.CardView_contentPadding = global::NutritionApp.Droid.Resource.Styleable.CardView_contentPadding;
-			global::Xamarin.Forms.PancakeView.Resource.Styleable.CardView_contentPaddingBottom = global::NutritionApp.Droid.Resource.Styleable.CardView_contentPaddingBottom;
-			global::Xamarin.Forms.PancakeView.Resource.Styleable.CardView_contentPaddingLeft = global::NutritionApp.Droid.Resource.Styleable.CardView_contentPaddingLeft;
-			global::Xamarin.Forms.PancakeView.Resource.Styleable.CardView_contentPaddingRight = global::NutritionApp.Droid.Resource.Styleable.CardView_contentPaddingRight;
-			global::Xamarin.Forms.PancakeView.Resource.Styleable.CardView_contentPaddingTop = global::NutritionApp.Droid.Resource.Styleable.CardView_contentPaddingTop;
-			global::Xamarin.Forms.PancakeView.Resource.Styleable.Chip = global::NutritionApp.Droid.Resource.Styleable.Chip;
-			global::Xamarin.Forms.PancakeView.Resource.Styleable.ChipGroup = global::NutritionApp.Droid.Resource.Styleable.ChipGroup;
-			global::Xamarin.Forms.PancakeView.Resource.Styleable.ChipGroup_checkedChip = global::NutritionApp.Droid.Resource.Styleable.ChipGroup_checkedChip;
-			global::Xamarin.Forms.PancakeView.Resource.Styleable.ChipGroup_chipSpacing = global::NutritionApp.Droid.Resource.Styleable.ChipGroup_chipSpacing;
-			global::Xamarin.Forms.PancakeView.Resource.Styleable.ChipGroup_chipSpacingHorizontal = global::NutritionApp.Droid.Resource.Styleable.ChipGroup_chipSpacingHorizontal;
-			global::Xamarin.Forms.PancakeView.Resource.Styleable.ChipGroup_chipSpacingVertical = global::NutritionApp.Droid.Resource.Styleable.ChipGroup_chipSpacingVertical;
-			global::Xamarin.Forms.PancakeView.Resource.Styleable.ChipGroup_singleLine = global::NutritionApp.Droid.Resource.Styleable.ChipGroup_singleLine;
-			global::Xamarin.Forms.PancakeView.Resource.Styleable.ChipGroup_singleSelection = global::NutritionApp.Droid.Resource.Styleable.ChipGroup_singleSelection;
-			global::Xamarin.Forms.PancakeView.Resource.Styleable.Chip_android_checkable = global::NutritionApp.Droid.Resource.Styleable.Chip_android_checkable;
-			global::Xamarin.Forms.PancakeView.Resource.Styleable.Chip_android_ellipsize = global::NutritionApp.Droid.Resource.Styleable.Chip_android_ellipsize;
-			global::Xamarin.Forms.PancakeView.Resource.Styleable.Chip_android_maxWidth = global::NutritionApp.Droid.Resource.Styleable.Chip_android_maxWidth;
-			global::Xamarin.Forms.PancakeView.Resource.Styleable.Chip_android_text = global::NutritionApp.Droid.Resource.Styleable.Chip_android_text;
-			global::Xamarin.Forms.PancakeView.Resource.Styleable.Chip_android_textAppearance = global::NutritionApp.Droid.Resource.Styleable.Chip_android_textAppearance;
-			global::Xamarin.Forms.PancakeView.Resource.Styleable.Chip_checkedIcon = global::NutritionApp.Droid.Resource.Styleable.Chip_checkedIcon;
-			global::Xamarin.Forms.PancakeView.Resource.Styleable.Chip_checkedIconEnabled = global::NutritionApp.Droid.Resource.Styleable.Chip_checkedIconEnabled;
-			global::Xamarin.Forms.PancakeView.Resource.Styleable.Chip_checkedIconVisible = global::NutritionApp.Droid.Resource.Styleable.Chip_checkedIconVisible;
-			global::Xamarin.Forms.PancakeView.Resource.Styleable.Chip_chipBackgroundColor = global::NutritionApp.Droid.Resource.Styleable.Chip_chipBackgroundColor;
-			global::Xamarin.Forms.PancakeView.Resource.Styleable.Chip_chipCornerRadius = global::NutritionApp.Droid.Resource.Styleable.Chip_chipCornerRadius;
-			global::Xamarin.Forms.PancakeView.Resource.Styleable.Chip_chipEndPadding = global::NutritionApp.Droid.Resource.Styleable.Chip_chipEndPadding;
-			global::Xamarin.Forms.PancakeView.Resource.Styleable.Chip_chipIcon = global::NutritionApp.Droid.Resource.Styleable.Chip_chipIcon;
-			global::Xamarin.Forms.PancakeView.Resource.Styleable.Chip_chipIconEnabled = global::NutritionApp.Droid.Resource.Styleable.Chip_chipIconEnabled;
-			global::Xamarin.Forms.PancakeView.Resource.Styleable.Chip_chipIconSize = global::NutritionApp.Droid.Resource.Styleable.Chip_chipIconSize;
-			global::Xamarin.Forms.PancakeView.Resource.Styleable.Chip_chipIconTint = global::NutritionApp.Droid.Resource.Styleable.Chip_chipIconTint;
-			global::Xamarin.Forms.PancakeView.Resource.Styleable.Chip_chipIconVisible = global::NutritionApp.Droid.Resource.Styleable.Chip_chipIconVisible;
-			global::Xamarin.Forms.PancakeView.Resource.Styleable.Chip_chipMinHeight = global::NutritionApp.Droid.Resource.Styleable.Chip_chipMinHeight;
-			global::Xamarin.Forms.PancakeView.Resource.Styleable.Chip_chipStartPadding = global::NutritionApp.Droid.Resource.Styleable.Chip_chipStartPadding;
-			global::Xamarin.Forms.PancakeView.Resource.Styleable.Chip_chipStrokeColor = global::NutritionApp.Droid.Resource.Styleable.Chip_chipStrokeColor;
-			global::Xamarin.Forms.PancakeView.Resource.Styleable.Chip_chipStrokeWidth = global::NutritionApp.Droid.Resource.Styleable.Chip_chipStrokeWidth;
-			global::Xamarin.Forms.PancakeView.Resource.Styleable.Chip_closeIcon = global::NutritionApp.Droid.Resource.Styleable.Chip_closeIcon;
-			global::Xamarin.Forms.PancakeView.Resource.Styleable.Chip_closeIconEnabled = global::NutritionApp.Droid.Resource.Styleable.Chip_closeIconEnabled;
-			global::Xamarin.Forms.PancakeView.Resource.Styleable.Chip_closeIconEndPadding = global::NutritionApp.Droid.Resource.Styleable.Chip_closeIconEndPadding;
-			global::Xamarin.Forms.PancakeView.Resource.Styleable.Chip_closeIconSize = global::NutritionApp.Droid.Resource.Styleable.Chip_closeIconSize;
-			global::Xamarin.Forms.PancakeView.Resource.Styleable.Chip_closeIconStartPadding = global::NutritionApp.Droid.Resource.Styleable.Chip_closeIconStartPadding;
-			global::Xamarin.Forms.PancakeView.Resource.Styleable.Chip_closeIconTint = global::NutritionApp.Droid.Resource.Styleable.Chip_closeIconTint;
-			global::Xamarin.Forms.PancakeView.Resource.Styleable.Chip_closeIconVisible = global::NutritionApp.Droid.Resource.Styleable.Chip_closeIconVisible;
-			global::Xamarin.Forms.PancakeView.Resource.Styleable.Chip_hideMotionSpec = global::NutritionApp.Droid.Resource.Styleable.Chip_hideMotionSpec;
-			global::Xamarin.Forms.PancakeView.Resource.Styleable.Chip_iconEndPadding = global::NutritionApp.Droid.Resource.Styleable.Chip_iconEndPadding;
-			global::Xamarin.Forms.PancakeView.Resource.Styleable.Chip_iconStartPadding = global::NutritionApp.Droid.Resource.Styleable.Chip_iconStartPadding;
-			global::Xamarin.Forms.PancakeView.Resource.Styleable.Chip_rippleColor = global::NutritionApp.Droid.Resource.Styleable.Chip_rippleColor;
-			global::Xamarin.Forms.PancakeView.Resource.Styleable.Chip_showMotionSpec = global::NutritionApp.Droid.Resource.Styleable.Chip_showMotionSpec;
-			global::Xamarin.Forms.PancakeView.Resource.Styleable.Chip_textEndPadding = global::NutritionApp.Droid.Resource.Styleable.Chip_textEndPadding;
-			global::Xamarin.Forms.PancakeView.Resource.Styleable.Chip_textStartPadding = global::NutritionApp.Droid.Resource.Styleable.Chip_textStartPadding;
-			global::Xamarin.Forms.PancakeView.Resource.Styleable.CollapsingToolbarLayout = global::NutritionApp.Droid.Resource.Styleable.CollapsingToolbarLayout;
-			global::Xamarin.Forms.PancakeView.Resource.Styleable.CollapsingToolbarLayout_collapsedTitleGravity = global::NutritionApp.Droid.Resource.Styleable.CollapsingToolbarLayout_collapsedTitleGravity;
-			global::Xamarin.Forms.PancakeView.Resource.Styleable.CollapsingToolbarLayout_collapsedTitleTextAppearance = global::NutritionApp.Droid.Resource.Styleable.CollapsingToolbarLayout_collapsedTitleTextAppearance;
-			global::Xamarin.Forms.PancakeView.Resource.Styleable.CollapsingToolbarLayout_contentScrim = global::NutritionApp.Droid.Resource.Styleable.CollapsingToolbarLayout_contentScrim;
-			global::Xamarin.Forms.PancakeView.Resource.Styleable.CollapsingToolbarLayout_expandedTitleGravity = global::NutritionApp.Droid.Resource.Styleable.CollapsingToolbarLayout_expandedTitleGravity;
-			global::Xamarin.Forms.PancakeView.Resource.Styleable.CollapsingToolbarLayout_expandedTitleMargin = global::NutritionApp.Droid.Resource.Styleable.CollapsingToolbarLayout_expandedTitleMargin;
-			global::Xamarin.Forms.PancakeView.Resource.Styleable.CollapsingToolbarLayout_expandedTitleMarginBottom = global::NutritionApp.Droid.Resource.Styleable.CollapsingToolbarLayout_expandedTitleMarginBottom;
-			global::Xamarin.Forms.PancakeView.Resource.Styleable.CollapsingToolbarLayout_expandedTitleMarginEnd = global::NutritionApp.Droid.Resource.Styleable.CollapsingToolbarLayout_expandedTitleMarginEnd;
-			global::Xamarin.Forms.PancakeView.Resource.Styleable.CollapsingToolbarLayout_expandedTitleMarginStart = global::NutritionApp.Droid.Resource.Styleable.CollapsingToolbarLayout_expandedTitleMarginStart;
-			global::Xamarin.Forms.PancakeView.Resource.Styleable.CollapsingToolbarLayout_expandedTitleMarginTop = global::NutritionApp.Droid.Resource.Styleable.CollapsingToolbarLayout_expandedTitleMarginTop;
-			global::Xamarin.Forms.PancakeView.Resource.Styleable.CollapsingToolbarLayout_expandedTitleTextAppearance = global::NutritionApp.Droid.Resource.Styleable.CollapsingToolbarLayout_expandedTitleTextAppearance;
-			global::Xamarin.Forms.PancakeView.Resource.Styleable.CollapsingToolbarLayout_Layout = global::NutritionApp.Droid.Resource.Styleable.CollapsingToolbarLayout_Layout;
-			global::Xamarin.Forms.PancakeView.Resource.Styleable.CollapsingToolbarLayout_Layout_layout_collapseMode = global::NutritionApp.Droid.Resource.Styleable.CollapsingToolbarLayout_Layout_layout_collapseMode;
-			global::Xamarin.Forms.PancakeView.Resource.Styleable.CollapsingToolbarLayout_Layout_layout_collapseParallaxMultiplier = global::NutritionApp.Droid.Resource.Styleable.CollapsingToolbarLayout_Layout_layout_collapseParallaxMultiplier;
-			global::Xamarin.Forms.PancakeView.Resource.Styleable.CollapsingToolbarLayout_scrimAnimationDuration = global::NutritionApp.Droid.Resource.Styleable.CollapsingToolbarLayout_scrimAnimationDuration;
-			global::Xamarin.Forms.PancakeView.Resource.Styleable.CollapsingToolbarLayout_scrimVisibleHeightTrigger = global::NutritionApp.Droid.Resource.Styleable.CollapsingToolbarLayout_scrimVisibleHeightTrigger;
-			global::Xamarin.Forms.PancakeView.Resource.Styleable.CollapsingToolbarLayout_statusBarScrim = global::NutritionApp.Droid.Resource.Styleable.CollapsingToolbarLayout_statusBarScrim;
-			global::Xamarin.Forms.PancakeView.Resource.Styleable.CollapsingToolbarLayout_title = global::NutritionApp.Droid.Resource.Styleable.CollapsingToolbarLayout_title;
-			global::Xamarin.Forms.PancakeView.Resource.Styleable.CollapsingToolbarLayout_titleEnabled = global::NutritionApp.Droid.Resource.Styleable.CollapsingToolbarLayout_titleEnabled;
-			global::Xamarin.Forms.PancakeView.Resource.Styleable.CollapsingToolbarLayout_toolbarId = global::NutritionApp.Droid.Resource.Styleable.CollapsingToolbarLayout_toolbarId;
-			global::Xamarin.Forms.PancakeView.Resource.Styleable.ColorStateListItem = global::NutritionApp.Droid.Resource.Styleable.ColorStateListItem;
-			global::Xamarin.Forms.PancakeView.Resource.Styleable.ColorStateListItem_alpha = global::NutritionApp.Droid.Resource.Styleable.ColorStateListItem_alpha;
-			global::Xamarin.Forms.PancakeView.Resource.Styleable.ColorStateListItem_android_alpha = global::NutritionApp.Droid.Resource.Styleable.ColorStateListItem_android_alpha;
-			global::Xamarin.Forms.PancakeView.Resource.Styleable.ColorStateListItem_android_color = global::NutritionApp.Droid.Resource.Styleable.ColorStateListItem_android_color;
-			global::Xamarin.Forms.PancakeView.Resource.Styleable.CompoundButton = global::NutritionApp.Droid.Resource.Styleable.CompoundButton;
-			global::Xamarin.Forms.PancakeView.Resource.Styleable.CompoundButton_android_button = global::NutritionApp.Droid.Resource.Styleable.CompoundButton_android_button;
-			global::Xamarin.Forms.PancakeView.Resource.Styleable.CompoundButton_buttonCompat = global::NutritionApp.Droid.Resource.Styleable.CompoundButton_buttonCompat;
-			global::Xamarin.Forms.PancakeView.Resource.Styleable.CompoundButton_buttonTint = global::NutritionApp.Droid.Resource.Styleable.CompoundButton_buttonTint;
-			global::Xamarin.Forms.PancakeView.Resource.Styleable.CompoundButton_buttonTintMode = global::NutritionApp.Droid.Resource.Styleable.CompoundButton_buttonTintMode;
-			global::Xamarin.Forms.PancakeView.Resource.Styleable.CoordinatorLayout = global::NutritionApp.Droid.Resource.Styleable.CoordinatorLayout;
-			global::Xamarin.Forms.PancakeView.Resource.Styleable.CoordinatorLayout_keylines = global::NutritionApp.Droid.Resource.Styleable.CoordinatorLayout_keylines;
-			global::Xamarin.Forms.PancakeView.Resource.Styleable.CoordinatorLayout_Layout = global::NutritionApp.Droid.Resource.Styleable.CoordinatorLayout_Layout;
-			global::Xamarin.Forms.PancakeView.Resource.Styleable.CoordinatorLayout_Layout_android_layout_gravity = global::NutritionApp.Droid.Resource.Styleable.CoordinatorLayout_Layout_android_layout_gravity;
-			global::Xamarin.Forms.PancakeView.Resource.Styleable.CoordinatorLayout_Layout_layout_anchor = global::NutritionApp.Droid.Resource.Styleable.CoordinatorLayout_Layout_layout_anchor;
-			global::Xamarin.Forms.PancakeView.Resource.Styleable.CoordinatorLayout_Layout_layout_anchorGravity = global::NutritionApp.Droid.Resource.Styleable.CoordinatorLayout_Layout_layout_anchorGravity;
-			global::Xamarin.Forms.PancakeView.Resource.Styleable.CoordinatorLayout_Layout_layout_behavior = global::NutritionApp.Droid.Resource.Styleable.CoordinatorLayout_Layout_layout_behavior;
-			global::Xamarin.Forms.PancakeView.Resource.Styleable.CoordinatorLayout_Layout_layout_dodgeInsetEdges = global::NutritionApp.Droid.Resource.Styleable.CoordinatorLayout_Layout_layout_dodgeInsetEdges;
-			global::Xamarin.Forms.PancakeView.Resource.Styleable.CoordinatorLayout_Layout_layout_insetEdge = global::NutritionApp.Droid.Resource.Styleable.CoordinatorLayout_Layout_layout_insetEdge;
-			global::Xamarin.Forms.PancakeView.Resource.Styleable.CoordinatorLayout_Layout_layout_keyline = global::NutritionApp.Droid.Resource.Styleable.CoordinatorLayout_Layout_layout_keyline;
-			global::Xamarin.Forms.PancakeView.Resource.Styleable.CoordinatorLayout_statusBarBackground = global::NutritionApp.Droid.Resource.Styleable.CoordinatorLayout_statusBarBackground;
-			global::Xamarin.Forms.PancakeView.Resource.Styleable.DrawerArrowToggle = global::NutritionApp.Droid.Resource.Styleable.DrawerArrowToggle;
-			global::Xamarin.Forms.PancakeView.Resource.Styleable.DrawerArrowToggle_arrowHeadLength = global::NutritionApp.Droid.Resource.Styleable.DrawerArrowToggle_arrowHeadLength;
-			global::Xamarin.Forms.PancakeView.Resource.Styleable.DrawerArrowToggle_arrowShaftLength = global::NutritionApp.Droid.Resource.Styleable.DrawerArrowToggle_arrowShaftLength;
-			global::Xamarin.Forms.PancakeView.Resource.Styleable.DrawerArrowToggle_barLength = global::NutritionApp.Droid.Resource.Styleable.DrawerArrowToggle_barLength;
-			global::Xamarin.Forms.PancakeView.Resource.Styleable.DrawerArrowToggle_color = global::NutritionApp.Droid.Resource.Styleable.DrawerArrowToggle_color;
-			global::Xamarin.Forms.PancakeView.Resource.Styleable.DrawerArrowToggle_drawableSize = global::NutritionApp.Droid.Resource.Styleable.DrawerArrowToggle_drawableSize;
-			global::Xamarin.Forms.PancakeView.Resource.Styleable.DrawerArrowToggle_gapBetweenBars = global::NutritionApp.Droid.Resource.Styleable.DrawerArrowToggle_gapBetweenBars;
-			global::Xamarin.Forms.PancakeView.Resource.Styleable.DrawerArrowToggle_spinBars = global::NutritionApp.Droid.Resource.Styleable.DrawerArrowToggle_spinBars;
-			global::Xamarin.Forms.PancakeView.Resource.Styleable.DrawerArrowToggle_thickness = global::NutritionApp.Droid.Resource.Styleable.DrawerArrowToggle_thickness;
-			global::Xamarin.Forms.PancakeView.Resource.Styleable.FloatingActionButton = global::NutritionApp.Droid.Resource.Styleable.FloatingActionButton;
-			global::Xamarin.Forms.PancakeView.Resource.Styleable.FloatingActionButton_backgroundTint = global::NutritionApp.Droid.Resource.Styleable.FloatingActionButton_backgroundTint;
-			global::Xamarin.Forms.PancakeView.Resource.Styleable.FloatingActionButton_backgroundTintMode = global::NutritionApp.Droid.Resource.Styleable.FloatingActionButton_backgroundTintMode;
-			global::Xamarin.Forms.PancakeView.Resource.Styleable.FloatingActionButton_Behavior_Layout = global::NutritionApp.Droid.Resource.Styleable.FloatingActionButton_Behavior_Layout;
-			global::Xamarin.Forms.PancakeView.Resource.Styleable.FloatingActionButton_Behavior_Layout_behavior_autoHide = global::NutritionApp.Droid.Resource.Styleable.FloatingActionButton_Behavior_Layout_behavior_autoHide;
-			global::Xamarin.Forms.PancakeView.Resource.Styleable.FloatingActionButton_borderWidth = global::NutritionApp.Droid.Resource.Styleable.FloatingActionButton_borderWidth;
-			global::Xamarin.Forms.PancakeView.Resource.Styleable.FloatingActionButton_elevation = global::NutritionApp.Droid.Resource.Styleable.FloatingActionButton_elevation;
-			global::Xamarin.Forms.PancakeView.Resource.Styleable.FloatingActionButton_fabCustomSize = global::NutritionApp.Droid.Resource.Styleable.FloatingActionButton_fabCustomSize;
-			global::Xamarin.Forms.PancakeView.Resource.Styleable.FloatingActionButton_fabSize = global::NutritionApp.Droid.Resource.Styleable.FloatingActionButton_fabSize;
-			global::Xamarin.Forms.PancakeView.Resource.Styleable.FloatingActionButton_hideMotionSpec = global::NutritionApp.Droid.Resource.Styleable.FloatingActionButton_hideMotionSpec;
-			global::Xamarin.Forms.PancakeView.Resource.Styleable.FloatingActionButton_hoveredFocusedTranslationZ = global::NutritionApp.Droid.Resource.Styleable.FloatingActionButton_hoveredFocusedTranslationZ;
-			global::Xamarin.Forms.PancakeView.Resource.Styleable.FloatingActionButton_maxImageSize = global::NutritionApp.Droid.Resource.Styleable.FloatingActionButton_maxImageSize;
-			global::Xamarin.Forms.PancakeView.Resource.Styleable.FloatingActionButton_pressedTranslationZ = global::NutritionApp.Droid.Resource.Styleable.FloatingActionButton_pressedTranslationZ;
-			global::Xamarin.Forms.PancakeView.Resource.Styleable.FloatingActionButton_rippleColor = global::NutritionApp.Droid.Resource.Styleable.FloatingActionButton_rippleColor;
-			global::Xamarin.Forms.PancakeView.Resource.Styleable.FloatingActionButton_showMotionSpec = global::NutritionApp.Droid.Resource.Styleable.FloatingActionButton_showMotionSpec;
-			global::Xamarin.Forms.PancakeView.Resource.Styleable.FloatingActionButton_useCompatPadding = global::NutritionApp.Droid.Resource.Styleable.FloatingActionButton_useCompatPadding;
-			global::Xamarin.Forms.PancakeView.Resource.Styleable.FlowLayout = global::NutritionApp.Droid.Resource.Styleable.FlowLayout;
-			global::Xamarin.Forms.PancakeView.Resource.Styleable.FlowLayout_itemSpacing = global::NutritionApp.Droid.Resource.Styleable.FlowLayout_itemSpacing;
-			global::Xamarin.Forms.PancakeView.Resource.Styleable.FlowLayout_lineSpacing = global::NutritionApp.Droid.Resource.Styleable.FlowLayout_lineSpacing;
-			global::Xamarin.Forms.PancakeView.Resource.Styleable.FontFamily = global::NutritionApp.Droid.Resource.Styleable.FontFamily;
-			global::Xamarin.Forms.PancakeView.Resource.Styleable.FontFamilyFont = global::NutritionApp.Droid.Resource.Styleable.FontFamilyFont;
-			global::Xamarin.Forms.PancakeView.Resource.Styleable.FontFamilyFont_android_font = global::NutritionApp.Droid.Resource.Styleable.FontFamilyFont_android_font;
-			global::Xamarin.Forms.PancakeView.Resource.Styleable.FontFamilyFont_android_fontStyle = global::NutritionApp.Droid.Resource.Styleable.FontFamilyFont_android_fontStyle;
-			global::Xamarin.Forms.PancakeView.Resource.Styleable.FontFamilyFont_android_fontVariationSettings = global::NutritionApp.Droid.Resource.Styleable.FontFamilyFont_android_fontVariationSettings;
-			global::Xamarin.Forms.PancakeView.Resource.Styleable.FontFamilyFont_android_fontWeight = global::NutritionApp.Droid.Resource.Styleable.FontFamilyFont_android_fontWeight;
-			global::Xamarin.Forms.PancakeView.Resource.Styleable.FontFamilyFont_android_ttcIndex = global::NutritionApp.Droid.Resource.Styleable.FontFamilyFont_android_ttcIndex;
-			global::Xamarin.Forms.PancakeView.Resource.Styleable.FontFamilyFont_font = global::NutritionApp.Droid.Resource.Styleable.FontFamilyFont_font;
-			global::Xamarin.Forms.PancakeView.Resource.Styleable.FontFamilyFont_fontStyle = global::NutritionApp.Droid.Resource.Styleable.FontFamilyFont_fontStyle;
-			global::Xamarin.Forms.PancakeView.Resource.Styleable.FontFamilyFont_fontVariationSettings = global::NutritionApp.Droid.Resource.Styleable.FontFamilyFont_fontVariationSettings;
-			global::Xamarin.Forms.PancakeView.Resource.Styleable.FontFamilyFont_fontWeight = global::NutritionApp.Droid.Resource.Styleable.FontFamilyFont_fontWeight;
-			global::Xamarin.Forms.PancakeView.Resource.Styleable.FontFamilyFont_ttcIndex = global::NutritionApp.Droid.Resource.Styleable.FontFamilyFont_ttcIndex;
-			global::Xamarin.Forms.PancakeView.Resource.Styleable.FontFamily_fontProviderAuthority = global::NutritionApp.Droid.Resource.Styleable.FontFamily_fontProviderAuthority;
-			global::Xamarin.Forms.PancakeView.Resource.Styleable.FontFamily_fontProviderCerts = global::NutritionApp.Droid.Resource.Styleable.FontFamily_fontProviderCerts;
-			global::Xamarin.Forms.PancakeView.Resource.Styleable.FontFamily_fontProviderFetchStrategy = global::NutritionApp.Droid.Resource.Styleable.FontFamily_fontProviderFetchStrategy;
-			global::Xamarin.Forms.PancakeView.Resource.Styleable.FontFamily_fontProviderFetchTimeout = global::NutritionApp.Droid.Resource.Styleable.FontFamily_fontProviderFetchTimeout;
-			global::Xamarin.Forms.PancakeView.Resource.Styleable.FontFamily_fontProviderPackage = global::NutritionApp.Droid.Resource.Styleable.FontFamily_fontProviderPackage;
-			global::Xamarin.Forms.PancakeView.Resource.Styleable.FontFamily_fontProviderQuery = global::NutritionApp.Droid.Resource.Styleable.FontFamily_fontProviderQuery;
-			global::Xamarin.Forms.PancakeView.Resource.Styleable.ForegroundLinearLayout = global::NutritionApp.Droid.Resource.Styleable.ForegroundLinearLayout;
-			global::Xamarin.Forms.PancakeView.Resource.Styleable.ForegroundLinearLayout_android_foreground = global::NutritionApp.Droid.Resource.Styleable.ForegroundLinearLayout_android_foreground;
-			global::Xamarin.Forms.PancakeView.Resource.Styleable.ForegroundLinearLayout_android_foregroundGravity = global::NutritionApp.Droid.Resource.Styleable.ForegroundLinearLayout_android_foregroundGravity;
-			global::Xamarin.Forms.PancakeView.Resource.Styleable.ForegroundLinearLayout_foregroundInsidePadding = global::NutritionApp.Droid.Resource.Styleable.ForegroundLinearLayout_foregroundInsidePadding;
-			global::Xamarin.Forms.PancakeView.Resource.Styleable.Fragment = global::NutritionApp.Droid.Resource.Styleable.Fragment;
-			global::Xamarin.Forms.PancakeView.Resource.Styleable.FragmentContainerView = global::NutritionApp.Droid.Resource.Styleable.FragmentContainerView;
-			global::Xamarin.Forms.PancakeView.Resource.Styleable.FragmentContainerView_android_name = global::NutritionApp.Droid.Resource.Styleable.FragmentContainerView_android_name;
-			global::Xamarin.Forms.PancakeView.Resource.Styleable.FragmentContainerView_android_tag = global::NutritionApp.Droid.Resource.Styleable.FragmentContainerView_android_tag;
-			global::Xamarin.Forms.PancakeView.Resource.Styleable.Fragment_android_id = global::NutritionApp.Droid.Resource.Styleable.Fragment_android_id;
-			global::Xamarin.Forms.PancakeView.Resource.Styleable.Fragment_android_name = global::NutritionApp.Droid.Resource.Styleable.Fragment_android_name;
-			global::Xamarin.Forms.PancakeView.Resource.Styleable.Fragment_android_tag = global::NutritionApp.Droid.Resource.Styleable.Fragment_android_tag;
-			global::Xamarin.Forms.PancakeView.Resource.Styleable.GradientColor = global::NutritionApp.Droid.Resource.Styleable.GradientColor;
-			global::Xamarin.Forms.PancakeView.Resource.Styleable.GradientColorItem = global::NutritionApp.Droid.Resource.Styleable.GradientColorItem;
-			global::Xamarin.Forms.PancakeView.Resource.Styleable.GradientColorItem_android_color = global::NutritionApp.Droid.Resource.Styleable.GradientColorItem_android_color;
-			global::Xamarin.Forms.PancakeView.Resource.Styleable.GradientColorItem_android_offset = global::NutritionApp.Droid.Resource.Styleable.GradientColorItem_android_offset;
-			global::Xamarin.Forms.PancakeView.Resource.Styleable.GradientColor_android_centerColor = global::NutritionApp.Droid.Resource.Styleable.GradientColor_android_centerColor;
-			global::Xamarin.Forms.PancakeView.Resource.Styleable.GradientColor_android_centerX = global::NutritionApp.Droid.Resource.Styleable.GradientColor_android_centerX;
-			global::Xamarin.Forms.PancakeView.Resource.Styleable.GradientColor_android_centerY = global::NutritionApp.Droid.Resource.Styleable.GradientColor_android_centerY;
-			global::Xamarin.Forms.PancakeView.Resource.Styleable.GradientColor_android_endColor = global::NutritionApp.Droid.Resource.Styleable.GradientColor_android_endColor;
-			global::Xamarin.Forms.PancakeView.Resource.Styleable.GradientColor_android_endX = global::NutritionApp.Droid.Resource.Styleable.GradientColor_android_endX;
-			global::Xamarin.Forms.PancakeView.Resource.Styleable.GradientColor_android_endY = global::NutritionApp.Droid.Resource.Styleable.GradientColor_android_endY;
-			global::Xamarin.Forms.PancakeView.Resource.Styleable.GradientColor_android_gradientRadius = global::NutritionApp.Droid.Resource.Styleable.GradientColor_android_gradientRadius;
-			global::Xamarin.Forms.PancakeView.Resource.Styleable.GradientColor_android_startColor = global::NutritionApp.Droid.Resource.Styleable.GradientColor_android_startColor;
-			global::Xamarin.Forms.PancakeView.Resource.Styleable.GradientColor_android_startX = global::NutritionApp.Droid.Resource.Styleable.GradientColor_android_startX;
-			global::Xamarin.Forms.PancakeView.Resource.Styleable.GradientColor_android_startY = global::NutritionApp.Droid.Resource.Styleable.GradientColor_android_startY;
-			global::Xamarin.Forms.PancakeView.Resource.Styleable.GradientColor_android_tileMode = global::NutritionApp.Droid.Resource.Styleable.GradientColor_android_tileMode;
-			global::Xamarin.Forms.PancakeView.Resource.Styleable.GradientColor_android_type = global::NutritionApp.Droid.Resource.Styleable.GradientColor_android_type;
-			global::Xamarin.Forms.PancakeView.Resource.Styleable.ItemsViewRendererTheme = global::NutritionApp.Droid.Resource.Styleable.ItemsViewRendererTheme;
-			global::Xamarin.Forms.PancakeView.Resource.Styleable.ItemsViewRendererTheme_collectionViewStyle = global::NutritionApp.Droid.Resource.Styleable.ItemsViewRendererTheme_collectionViewStyle;
-			global::Xamarin.Forms.PancakeView.Resource.Styleable.LinearLayoutCompat = global::NutritionApp.Droid.Resource.Styleable.LinearLayoutCompat;
-			global::Xamarin.Forms.PancakeView.Resource.Styleable.LinearLayoutCompat_android_baselineAligned = global::NutritionApp.Droid.Resource.Styleable.LinearLayoutCompat_android_baselineAligned;
-			global::Xamarin.Forms.PancakeView.Resource.Styleable.LinearLayoutCompat_android_baselineAlignedChildIndex = global::NutritionApp.Droid.Resource.Styleable.LinearLayoutCompat_android_baselineAlignedChildIndex;
-			global::Xamarin.Forms.PancakeView.Resource.Styleable.LinearLayoutCompat_android_gravity = global::NutritionApp.Droid.Resource.Styleable.LinearLayoutCompat_android_gravity;
-			global::Xamarin.Forms.PancakeView.Resource.Styleable.LinearLayoutCompat_android_orientation = global::NutritionApp.Droid.Resource.Styleable.LinearLayoutCompat_android_orientation;
-			global::Xamarin.Forms.PancakeView.Resource.Styleable.LinearLayoutCompat_android_weightSum = global::NutritionApp.Droid.Resource.Styleable.LinearLayoutCompat_android_weightSum;
-			global::Xamarin.Forms.PancakeView.Resource.Styleable.LinearLayoutCompat_divider = global::NutritionApp.Droid.Resource.Styleable.LinearLayoutCompat_divider;
-			global::Xamarin.Forms.PancakeView.Resource.Styleable.LinearLayoutCompat_dividerPadding = global::NutritionApp.Droid.Resource.Styleable.LinearLayoutCompat_dividerPadding;
-			global::Xamarin.Forms.PancakeView.Resource.Styleable.LinearLayoutCompat_Layout = global::NutritionApp.Droid.Resource.Styleable.LinearLayoutCompat_Layout;
-			global::Xamarin.Forms.PancakeView.Resource.Styleable.LinearLayoutCompat_Layout_android_layout_gravity = global::NutritionApp.Droid.Resource.Styleable.LinearLayoutCompat_Layout_android_layout_gravity;
-			global::Xamarin.Forms.PancakeView.Resource.Styleable.LinearLayoutCompat_Layout_android_layout_height = global::NutritionApp.Droid.Resource.Styleable.LinearLayoutCompat_Layout_android_layout_height;
-			global::Xamarin.Forms.PancakeView.Resource.Styleable.LinearLayoutCompat_Layout_android_layout_weight = global::NutritionApp.Droid.Resource.Styleable.LinearLayoutCompat_Layout_android_layout_weight;
-			global::Xamarin.Forms.PancakeView.Resource.Styleable.LinearLayoutCompat_Layout_android_layout_width = global::NutritionApp.Droid.Resource.Styleable.LinearLayoutCompat_Layout_android_layout_width;
-			global::Xamarin.Forms.PancakeView.Resource.Styleable.LinearLayoutCompat_measureWithLargestChild = global::NutritionApp.Droid.Resource.Styleable.LinearLayoutCompat_measureWithLargestChild;
-			global::Xamarin.Forms.PancakeView.Resource.Styleable.LinearLayoutCompat_showDividers = global::NutritionApp.Droid.Resource.Styleable.LinearLayoutCompat_showDividers;
-			global::Xamarin.Forms.PancakeView.Resource.Styleable.ListPopupWindow = global::NutritionApp.Droid.Resource.Styleable.ListPopupWindow;
-			global::Xamarin.Forms.PancakeView.Resource.Styleable.ListPopupWindow_android_dropDownHorizontalOffset = global::NutritionApp.Droid.Resource.Styleable.ListPopupWindow_android_dropDownHorizontalOffset;
-			global::Xamarin.Forms.PancakeView.Resource.Styleable.ListPopupWindow_android_dropDownVerticalOffset = global::NutritionApp.Droid.Resource.Styleable.ListPopupWindow_android_dropDownVerticalOffset;
-			global::Xamarin.Forms.PancakeView.Resource.Styleable.MaterialButton = global::NutritionApp.Droid.Resource.Styleable.MaterialButton;
-			global::Xamarin.Forms.PancakeView.Resource.Styleable.MaterialButton_android_insetBottom = global::NutritionApp.Droid.Resource.Styleable.MaterialButton_android_insetBottom;
-			global::Xamarin.Forms.PancakeView.Resource.Styleable.MaterialButton_android_insetLeft = global::NutritionApp.Droid.Resource.Styleable.MaterialButton_android_insetLeft;
-			global::Xamarin.Forms.PancakeView.Resource.Styleable.MaterialButton_android_insetRight = global::NutritionApp.Droid.Resource.Styleable.MaterialButton_android_insetRight;
-			global::Xamarin.Forms.PancakeView.Resource.Styleable.MaterialButton_android_insetTop = global::NutritionApp.Droid.Resource.Styleable.MaterialButton_android_insetTop;
-			global::Xamarin.Forms.PancakeView.Resource.Styleable.MaterialButton_backgroundTint = global::NutritionApp.Droid.Resource.Styleable.MaterialButton_backgroundTint;
-			global::Xamarin.Forms.PancakeView.Resource.Styleable.MaterialButton_backgroundTintMode = global::NutritionApp.Droid.Resource.Styleable.MaterialButton_backgroundTintMode;
-			global::Xamarin.Forms.PancakeView.Resource.Styleable.MaterialButton_cornerRadius = global::NutritionApp.Droid.Resource.Styleable.MaterialButton_cornerRadius;
-			global::Xamarin.Forms.PancakeView.Resource.Styleable.MaterialButton_icon = global::NutritionApp.Droid.Resource.Styleable.MaterialButton_icon;
-			global::Xamarin.Forms.PancakeView.Resource.Styleable.MaterialButton_iconGravity = global::NutritionApp.Droid.Resource.Styleable.MaterialButton_iconGravity;
-			global::Xamarin.Forms.PancakeView.Resource.Styleable.MaterialButton_iconPadding = global::NutritionApp.Droid.Resource.Styleable.MaterialButton_iconPadding;
-			global::Xamarin.Forms.PancakeView.Resource.Styleable.MaterialButton_iconSize = global::NutritionApp.Droid.Resource.Styleable.MaterialButton_iconSize;
-			global::Xamarin.Forms.PancakeView.Resource.Styleable.MaterialButton_iconTint = global::NutritionApp.Droid.Resource.Styleable.MaterialButton_iconTint;
-			global::Xamarin.Forms.PancakeView.Resource.Styleable.MaterialButton_iconTintMode = global::NutritionApp.Droid.Resource.Styleable.MaterialButton_iconTintMode;
-			global::Xamarin.Forms.PancakeView.Resource.Styleable.MaterialButton_rippleColor = global::NutritionApp.Droid.Resource.Styleable.MaterialButton_rippleColor;
-			global::Xamarin.Forms.PancakeView.Resource.Styleable.MaterialButton_strokeColor = global::NutritionApp.Droid.Resource.Styleable.MaterialButton_strokeColor;
-			global::Xamarin.Forms.PancakeView.Resource.Styleable.MaterialButton_strokeWidth = global::NutritionApp.Droid.Resource.Styleable.MaterialButton_strokeWidth;
-			global::Xamarin.Forms.PancakeView.Resource.Styleable.MaterialCardView = global::NutritionApp.Droid.Resource.Styleable.MaterialCardView;
-			global::Xamarin.Forms.PancakeView.Resource.Styleable.MaterialCardView_strokeColor = global::NutritionApp.Droid.Resource.Styleable.MaterialCardView_strokeColor;
-			global::Xamarin.Forms.PancakeView.Resource.Styleable.MaterialCardView_strokeWidth = global::NutritionApp.Droid.Resource.Styleable.MaterialCardView_strokeWidth;
-			global::Xamarin.Forms.PancakeView.Resource.Styleable.MenuGroup = global::NutritionApp.Droid.Resource.Styleable.MenuGroup;
-			global::Xamarin.Forms.PancakeView.Resource.Styleable.MenuGroup_android_checkableBehavior = global::NutritionApp.Droid.Resource.Styleable.MenuGroup_android_checkableBehavior;
-			global::Xamarin.Forms.PancakeView.Resource.Styleable.MenuGroup_android_enabled = global::NutritionApp.Droid.Resource.Styleable.MenuGroup_android_enabled;
-			global::Xamarin.Forms.PancakeView.Resource.Styleable.MenuGroup_android_id = global::NutritionApp.Droid.Resource.Styleable.MenuGroup_android_id;
-			global::Xamarin.Forms.PancakeView.Resource.Styleable.MenuGroup_android_menuCategory = global::NutritionApp.Droid.Resource.Styleable.MenuGroup_android_menuCategory;
-			global::Xamarin.Forms.PancakeView.Resource.Styleable.MenuGroup_android_orderInCategory = global::NutritionApp.Droid.Resource.Styleable.MenuGroup_android_orderInCategory;
-			global::Xamarin.Forms.PancakeView.Resource.Styleable.MenuGroup_android_visible = global::NutritionApp.Droid.Resource.Styleable.MenuGroup_android_visible;
-			global::Xamarin.Forms.PancakeView.Resource.Styleable.MenuItem = global::NutritionApp.Droid.Resource.Styleable.MenuItem;
-			global::Xamarin.Forms.PancakeView.Resource.Styleable.MenuItem_actionLayout = global::NutritionApp.Droid.Resource.Styleable.MenuItem_actionLayout;
-			global::Xamarin.Forms.PancakeView.Resource.Styleable.MenuItem_actionProviderClass = global::NutritionApp.Droid.Resource.Styleable.MenuItem_actionProviderClass;
-			global::Xamarin.Forms.PancakeView.Resource.Styleable.MenuItem_actionViewClass = global::NutritionApp.Droid.Resource.Styleable.MenuItem_actionViewClass;
-			global::Xamarin.Forms.PancakeView.Resource.Styleable.MenuItem_alphabeticModifiers = global::NutritionApp.Droid.Resource.Styleable.MenuItem_alphabeticModifiers;
-			global::Xamarin.Forms.PancakeView.Resource.Styleable.MenuItem_android_alphabeticShortcut = global::NutritionApp.Droid.Resource.Styleable.MenuItem_android_alphabeticShortcut;
-			global::Xamarin.Forms.PancakeView.Resource.Styleable.MenuItem_android_checkable = global::NutritionApp.Droid.Resource.Styleable.MenuItem_android_checkable;
-			global::Xamarin.Forms.PancakeView.Resource.Styleable.MenuItem_android_checked = global::NutritionApp.Droid.Resource.Styleable.MenuItem_android_checked;
-			global::Xamarin.Forms.PancakeView.Resource.Styleable.MenuItem_android_enabled = global::NutritionApp.Droid.Resource.Styleable.MenuItem_android_enabled;
-			global::Xamarin.Forms.PancakeView.Resource.Styleable.MenuItem_android_icon = global::NutritionApp.Droid.Resource.Styleable.MenuItem_android_icon;
-			global::Xamarin.Forms.PancakeView.Resource.Styleable.MenuItem_android_id = global::NutritionApp.Droid.Resource.Styleable.MenuItem_android_id;
-			global::Xamarin.Forms.PancakeView.Resource.Styleable.MenuItem_android_menuCategory = global::NutritionApp.Droid.Resource.Styleable.MenuItem_android_menuCategory;
-			global::Xamarin.Forms.PancakeView.Resource.Styleable.MenuItem_android_numericShortcut = global::NutritionApp.Droid.Resource.Styleable.MenuItem_android_numericShortcut;
-			global::Xamarin.Forms.PancakeView.Resource.Styleable.MenuItem_android_onClick = global::NutritionApp.Droid.Resource.Styleable.MenuItem_android_onClick;
-			global::Xamarin.Forms.PancakeView.Resource.Styleable.MenuItem_android_orderInCategory = global::NutritionApp.Droid.Resource.Styleable.MenuItem_android_orderInCategory;
-			global::Xamarin.Forms.PancakeView.Resource.Styleable.MenuItem_android_title = global::NutritionApp.Droid.Resource.Styleable.MenuItem_android_title;
-			global::Xamarin.Forms.PancakeView.Resource.Styleable.MenuItem_android_titleCondensed = global::NutritionApp.Droid.Resource.Styleable.MenuItem_android_titleCondensed;
-			global::Xamarin.Forms.PancakeView.Resource.Styleable.MenuItem_android_visible = global::NutritionApp.Droid.Resource.Styleable.MenuItem_android_visible;
-			global::Xamarin.Forms.PancakeView.Resource.Styleable.MenuItem_contentDescription = global::NutritionApp.Droid.Resource.Styleable.MenuItem_contentDescription;
-			global::Xamarin.Forms.PancakeView.Resource.Styleable.MenuItem_iconTint = global::NutritionApp.Droid.Resource.Styleable.MenuItem_iconTint;
-			global::Xamarin.Forms.PancakeView.Resource.Styleable.MenuItem_iconTintMode = global::NutritionApp.Droid.Resource.Styleable.MenuItem_iconTintMode;
-			global::Xamarin.Forms.PancakeView.Resource.Styleable.MenuItem_numericModifiers = global::NutritionApp.Droid.Resource.Styleable.MenuItem_numericModifiers;
-			global::Xamarin.Forms.PancakeView.Resource.Styleable.MenuItem_showAsAction = global::NutritionApp.Droid.Resource.Styleable.MenuItem_showAsAction;
-			global::Xamarin.Forms.PancakeView.Resource.Styleable.MenuItem_tooltipText = global::NutritionApp.Droid.Resource.Styleable.MenuItem_tooltipText;
-			global::Xamarin.Forms.PancakeView.Resource.Styleable.MenuView = global::NutritionApp.Droid.Resource.Styleable.MenuView;
-			global::Xamarin.Forms.PancakeView.Resource.Styleable.MenuView_android_headerBackground = global::NutritionApp.Droid.Resource.Styleable.MenuView_android_headerBackground;
-			global::Xamarin.Forms.PancakeView.Resource.Styleable.MenuView_android_horizontalDivider = global::NutritionApp.Droid.Resource.Styleable.MenuView_android_horizontalDivider;
-			global::Xamarin.Forms.PancakeView.Resource.Styleable.MenuView_android_itemBackground = global::NutritionApp.Droid.Resource.Styleable.MenuView_android_itemBackground;
-			global::Xamarin.Forms.PancakeView.Resource.Styleable.MenuView_android_itemIconDisabledAlpha = global::NutritionApp.Droid.Resource.Styleable.MenuView_android_itemIconDisabledAlpha;
-			global::Xamarin.Forms.PancakeView.Resource.Styleable.MenuView_android_itemTextAppearance = global::NutritionApp.Droid.Resource.Styleable.MenuView_android_itemTextAppearance;
-			global::Xamarin.Forms.PancakeView.Resource.Styleable.MenuView_android_verticalDivider = global::NutritionApp.Droid.Resource.Styleable.MenuView_android_verticalDivider;
-			global::Xamarin.Forms.PancakeView.Resource.Styleable.MenuView_android_windowAnimationStyle = global::NutritionApp.Droid.Resource.Styleable.MenuView_android_windowAnimationStyle;
-			global::Xamarin.Forms.PancakeView.Resource.Styleable.MenuView_preserveIconSpacing = global::NutritionApp.Droid.Resource.Styleable.MenuView_preserveIconSpacing;
-			global::Xamarin.Forms.PancakeView.Resource.Styleable.MenuView_subMenuArrow = global::NutritionApp.Droid.Resource.Styleable.MenuView_subMenuArrow;
-			global::Xamarin.Forms.PancakeView.Resource.Styleable.NavigationView = global::NutritionApp.Droid.Resource.Styleable.NavigationView;
-			global::Xamarin.Forms.PancakeView.Resource.Styleable.NavigationView_android_background = global::NutritionApp.Droid.Resource.Styleable.NavigationView_android_background;
-			global::Xamarin.Forms.PancakeView.Resource.Styleable.NavigationView_android_fitsSystemWindows = global::NutritionApp.Droid.Resource.Styleable.NavigationView_android_fitsSystemWindows;
-			global::Xamarin.Forms.PancakeView.Resource.Styleable.NavigationView_android_maxWidth = global::NutritionApp.Droid.Resource.Styleable.NavigationView_android_maxWidth;
-			global::Xamarin.Forms.PancakeView.Resource.Styleable.NavigationView_elevation = global::NutritionApp.Droid.Resource.Styleable.NavigationView_elevation;
-			global::Xamarin.Forms.PancakeView.Resource.Styleable.NavigationView_headerLayout = global::NutritionApp.Droid.Resource.Styleable.NavigationView_headerLayout;
-			global::Xamarin.Forms.PancakeView.Resource.Styleable.NavigationView_itemBackground = global::NutritionApp.Droid.Resource.Styleable.NavigationView_itemBackground;
-			global::Xamarin.Forms.PancakeView.Resource.Styleable.NavigationView_itemHorizontalPadding = global::NutritionApp.Droid.Resource.Styleable.NavigationView_itemHorizontalPadding;
-			global::Xamarin.Forms.PancakeView.Resource.Styleable.NavigationView_itemIconPadding = global::NutritionApp.Droid.Resource.Styleable.NavigationView_itemIconPadding;
-			global::Xamarin.Forms.PancakeView.Resource.Styleable.NavigationView_itemIconTint = global::NutritionApp.Droid.Resource.Styleable.NavigationView_itemIconTint;
-			global::Xamarin.Forms.PancakeView.Resource.Styleable.NavigationView_itemTextAppearance = global::NutritionApp.Droid.Resource.Styleable.NavigationView_itemTextAppearance;
-			global::Xamarin.Forms.PancakeView.Resource.Styleable.NavigationView_itemTextColor = global::NutritionApp.Droid.Resource.Styleable.NavigationView_itemTextColor;
-			global::Xamarin.Forms.PancakeView.Resource.Styleable.NavigationView_menu = global::NutritionApp.Droid.Resource.Styleable.NavigationView_menu;
-			global::Xamarin.Forms.PancakeView.Resource.Styleable.PopupWindow = global::NutritionApp.Droid.Resource.Styleable.PopupWindow;
-			global::Xamarin.Forms.PancakeView.Resource.Styleable.PopupWindowBackgroundState = global::NutritionApp.Droid.Resource.Styleable.PopupWindowBackgroundState;
-			global::Xamarin.Forms.PancakeView.Resource.Styleable.PopupWindowBackgroundState_state_above_anchor = global::NutritionApp.Droid.Resource.Styleable.PopupWindowBackgroundState_state_above_anchor;
-			global::Xamarin.Forms.PancakeView.Resource.Styleable.PopupWindow_android_popupAnimationStyle = global::NutritionApp.Droid.Resource.Styleable.PopupWindow_android_popupAnimationStyle;
-			global::Xamarin.Forms.PancakeView.Resource.Styleable.PopupWindow_android_popupBackground = global::NutritionApp.Droid.Resource.Styleable.PopupWindow_android_popupBackground;
-			global::Xamarin.Forms.PancakeView.Resource.Styleable.PopupWindow_overlapAnchor = global::NutritionApp.Droid.Resource.Styleable.PopupWindow_overlapAnchor;
-			global::Xamarin.Forms.PancakeView.Resource.Styleable.RecycleListView = global::NutritionApp.Droid.Resource.Styleable.RecycleListView;
-			global::Xamarin.Forms.PancakeView.Resource.Styleable.RecycleListView_paddingBottomNoButtons = global::NutritionApp.Droid.Resource.Styleable.RecycleListView_paddingBottomNoButtons;
-			global::Xamarin.Forms.PancakeView.Resource.Styleable.RecycleListView_paddingTopNoTitle = global::NutritionApp.Droid.Resource.Styleable.RecycleListView_paddingTopNoTitle;
-			global::Xamarin.Forms.PancakeView.Resource.Styleable.RecyclerView = global::NutritionApp.Droid.Resource.Styleable.RecyclerView;
-			global::Xamarin.Forms.PancakeView.Resource.Styleable.RecyclerView_android_clipToPadding = global::NutritionApp.Droid.Resource.Styleable.RecyclerView_android_clipToPadding;
-			global::Xamarin.Forms.PancakeView.Resource.Styleable.RecyclerView_android_descendantFocusability = global::NutritionApp.Droid.Resource.Styleable.RecyclerView_android_descendantFocusability;
-			global::Xamarin.Forms.PancakeView.Resource.Styleable.RecyclerView_android_orientation = global::NutritionApp.Droid.Resource.Styleable.RecyclerView_android_orientation;
-			global::Xamarin.Forms.PancakeView.Resource.Styleable.RecyclerView_fastScrollEnabled = global::NutritionApp.Droid.Resource.Styleable.RecyclerView_fastScrollEnabled;
-			global::Xamarin.Forms.PancakeView.Resource.Styleable.RecyclerView_fastScrollHorizontalThumbDrawable = global::NutritionApp.Droid.Resource.Styleable.RecyclerView_fastScrollHorizontalThumbDrawable;
-			global::Xamarin.Forms.PancakeView.Resource.Styleable.RecyclerView_fastScrollHorizontalTrackDrawable = global::NutritionApp.Droid.Resource.Styleable.RecyclerView_fastScrollHorizontalTrackDrawable;
-			global::Xamarin.Forms.PancakeView.Resource.Styleable.RecyclerView_fastScrollVerticalThumbDrawable = global::NutritionApp.Droid.Resource.Styleable.RecyclerView_fastScrollVerticalThumbDrawable;
-			global::Xamarin.Forms.PancakeView.Resource.Styleable.RecyclerView_fastScrollVerticalTrackDrawable = global::NutritionApp.Droid.Resource.Styleable.RecyclerView_fastScrollVerticalTrackDrawable;
-			global::Xamarin.Forms.PancakeView.Resource.Styleable.RecyclerView_layoutManager = global::NutritionApp.Droid.Resource.Styleable.RecyclerView_layoutManager;
-			global::Xamarin.Forms.PancakeView.Resource.Styleable.RecyclerView_reverseLayout = global::NutritionApp.Droid.Resource.Styleable.RecyclerView_reverseLayout;
-			global::Xamarin.Forms.PancakeView.Resource.Styleable.RecyclerView_spanCount = global::NutritionApp.Droid.Resource.Styleable.RecyclerView_spanCount;
-			global::Xamarin.Forms.PancakeView.Resource.Styleable.RecyclerView_stackFromEnd = global::NutritionApp.Droid.Resource.Styleable.RecyclerView_stackFromEnd;
-			global::Xamarin.Forms.PancakeView.Resource.Styleable.ScrimInsetsFrameLayout = global::NutritionApp.Droid.Resource.Styleable.ScrimInsetsFrameLayout;
-			global::Xamarin.Forms.PancakeView.Resource.Styleable.ScrimInsetsFrameLayout_insetForeground = global::NutritionApp.Droid.Resource.Styleable.ScrimInsetsFrameLayout_insetForeground;
-			global::Xamarin.Forms.PancakeView.Resource.Styleable.ScrollingViewBehavior_Layout = global::NutritionApp.Droid.Resource.Styleable.ScrollingViewBehavior_Layout;
-			global::Xamarin.Forms.PancakeView.Resource.Styleable.ScrollingViewBehavior_Layout_behavior_overlapTop = global::NutritionApp.Droid.Resource.Styleable.ScrollingViewBehavior_Layout_behavior_overlapTop;
-			global::Xamarin.Forms.PancakeView.Resource.Styleable.ScrollViewRendererTheme = global::NutritionApp.Droid.Resource.Styleable.ScrollViewRendererTheme;
-			global::Xamarin.Forms.PancakeView.Resource.Styleable.ScrollViewRendererTheme_scrollViewStyle = global::NutritionApp.Droid.Resource.Styleable.ScrollViewRendererTheme_scrollViewStyle;
-			global::Xamarin.Forms.PancakeView.Resource.Styleable.SearchView = global::NutritionApp.Droid.Resource.Styleable.SearchView;
-			global::Xamarin.Forms.PancakeView.Resource.Styleable.SearchView_android_focusable = global::NutritionApp.Droid.Resource.Styleable.SearchView_android_focusable;
-			global::Xamarin.Forms.PancakeView.Resource.Styleable.SearchView_android_imeOptions = global::NutritionApp.Droid.Resource.Styleable.SearchView_android_imeOptions;
-			global::Xamarin.Forms.PancakeView.Resource.Styleable.SearchView_android_inputType = global::NutritionApp.Droid.Resource.Styleable.SearchView_android_inputType;
-			global::Xamarin.Forms.PancakeView.Resource.Styleable.SearchView_android_maxWidth = global::NutritionApp.Droid.Resource.Styleable.SearchView_android_maxWidth;
-			global::Xamarin.Forms.PancakeView.Resource.Styleable.SearchView_closeIcon = global::NutritionApp.Droid.Resource.Styleable.SearchView_closeIcon;
-			global::Xamarin.Forms.PancakeView.Resource.Styleable.SearchView_commitIcon = global::NutritionApp.Droid.Resource.Styleable.SearchView_commitIcon;
-			global::Xamarin.Forms.PancakeView.Resource.Styleable.SearchView_defaultQueryHint = global::NutritionApp.Droid.Resource.Styleable.SearchView_defaultQueryHint;
-			global::Xamarin.Forms.PancakeView.Resource.Styleable.SearchView_goIcon = global::NutritionApp.Droid.Resource.Styleable.SearchView_goIcon;
-			global::Xamarin.Forms.PancakeView.Resource.Styleable.SearchView_iconifiedByDefault = global::NutritionApp.Droid.Resource.Styleable.SearchView_iconifiedByDefault;
-			global::Xamarin.Forms.PancakeView.Resource.Styleable.SearchView_layout = global::NutritionApp.Droid.Resource.Styleable.SearchView_layout;
-			global::Xamarin.Forms.PancakeView.Resource.Styleable.SearchView_queryBackground = global::NutritionApp.Droid.Resource.Styleable.SearchView_queryBackground;
-			global::Xamarin.Forms.PancakeView.Resource.Styleable.SearchView_queryHint = global::NutritionApp.Droid.Resource.Styleable.SearchView_queryHint;
-			global::Xamarin.Forms.PancakeView.Resource.Styleable.SearchView_searchHintIcon = global::NutritionApp.Droid.Resource.Styleable.SearchView_searchHintIcon;
-			global::Xamarin.Forms.PancakeView.Resource.Styleable.SearchView_searchIcon = global::NutritionApp.Droid.Resource.Styleable.SearchView_searchIcon;
-			global::Xamarin.Forms.PancakeView.Resource.Styleable.SearchView_submitBackground = global::NutritionApp.Droid.Resource.Styleable.SearchView_submitBackground;
-			global::Xamarin.Forms.PancakeView.Resource.Styleable.SearchView_suggestionRowLayout = global::NutritionApp.Droid.Resource.Styleable.SearchView_suggestionRowLayout;
-			global::Xamarin.Forms.PancakeView.Resource.Styleable.SearchView_voiceIcon = global::NutritionApp.Droid.Resource.Styleable.SearchView_voiceIcon;
-			global::Xamarin.Forms.PancakeView.Resource.Styleable.Snackbar = global::NutritionApp.Droid.Resource.Styleable.Snackbar;
-			global::Xamarin.Forms.PancakeView.Resource.Styleable.SnackbarLayout = global::NutritionApp.Droid.Resource.Styleable.SnackbarLayout;
-			global::Xamarin.Forms.PancakeView.Resource.Styleable.SnackbarLayout_android_maxWidth = global::NutritionApp.Droid.Resource.Styleable.SnackbarLayout_android_maxWidth;
-			global::Xamarin.Forms.PancakeView.Resource.Styleable.SnackbarLayout_elevation = global::NutritionApp.Droid.Resource.Styleable.SnackbarLayout_elevation;
-			global::Xamarin.Forms.PancakeView.Resource.Styleable.SnackbarLayout_maxActionInlineWidth = global::NutritionApp.Droid.Resource.Styleable.SnackbarLayout_maxActionInlineWidth;
-			global::Xamarin.Forms.PancakeView.Resource.Styleable.Snackbar_snackbarButtonStyle = global::NutritionApp.Droid.Resource.Styleable.Snackbar_snackbarButtonStyle;
-			global::Xamarin.Forms.PancakeView.Resource.Styleable.Snackbar_snackbarStyle = global::NutritionApp.Droid.Resource.Styleable.Snackbar_snackbarStyle;
-			global::Xamarin.Forms.PancakeView.Resource.Styleable.Spinner = global::NutritionApp.Droid.Resource.Styleable.Spinner;
-			global::Xamarin.Forms.PancakeView.Resource.Styleable.Spinner_android_dropDownWidth = global::NutritionApp.Droid.Resource.Styleable.Spinner_android_dropDownWidth;
-			global::Xamarin.Forms.PancakeView.Resource.Styleable.Spinner_android_entries = global::NutritionApp.Droid.Resource.Styleable.Spinner_android_entries;
-			global::Xamarin.Forms.PancakeView.Resource.Styleable.Spinner_android_popupBackground = global::NutritionApp.Droid.Resource.Styleable.Spinner_android_popupBackground;
-			global::Xamarin.Forms.PancakeView.Resource.Styleable.Spinner_android_prompt = global::NutritionApp.Droid.Resource.Styleable.Spinner_android_prompt;
-			global::Xamarin.Forms.PancakeView.Resource.Styleable.Spinner_popupTheme = global::NutritionApp.Droid.Resource.Styleable.Spinner_popupTheme;
-			global::Xamarin.Forms.PancakeView.Resource.Styleable.StateListDrawable = global::NutritionApp.Droid.Resource.Styleable.StateListDrawable;
-			global::Xamarin.Forms.PancakeView.Resource.Styleable.StateListDrawableItem = global::NutritionApp.Droid.Resource.Styleable.StateListDrawableItem;
-			global::Xamarin.Forms.PancakeView.Resource.Styleable.StateListDrawableItem_android_drawable = global::NutritionApp.Droid.Resource.Styleable.StateListDrawableItem_android_drawable;
-			global::Xamarin.Forms.PancakeView.Resource.Styleable.StateListDrawable_android_constantSize = global::NutritionApp.Droid.Resource.Styleable.StateListDrawable_android_constantSize;
-			global::Xamarin.Forms.PancakeView.Resource.Styleable.StateListDrawable_android_dither = global::NutritionApp.Droid.Resource.Styleable.StateListDrawable_android_dither;
-			global::Xamarin.Forms.PancakeView.Resource.Styleable.StateListDrawable_android_enterFadeDuration = global::NutritionApp.Droid.Resource.Styleable.StateListDrawable_android_enterFadeDuration;
-			global::Xamarin.Forms.PancakeView.Resource.Styleable.StateListDrawable_android_exitFadeDuration = global::NutritionApp.Droid.Resource.Styleable.StateListDrawable_android_exitFadeDuration;
-			global::Xamarin.Forms.PancakeView.Resource.Styleable.StateListDrawable_android_variablePadding = global::NutritionApp.Droid.Resource.Styleable.StateListDrawable_android_variablePadding;
-			global::Xamarin.Forms.PancakeView.Resource.Styleable.StateListDrawable_android_visible = global::NutritionApp.Droid.Resource.Styleable.StateListDrawable_android_visible;
-			global::Xamarin.Forms.PancakeView.Resource.Styleable.SwitchCompat = global::NutritionApp.Droid.Resource.Styleable.SwitchCompat;
-			global::Xamarin.Forms.PancakeView.Resource.Styleable.SwitchCompat_android_textOff = global::NutritionApp.Droid.Resource.Styleable.SwitchCompat_android_textOff;
-			global::Xamarin.Forms.PancakeView.Resource.Styleable.SwitchCompat_android_textOn = global::NutritionApp.Droid.Resource.Styleable.SwitchCompat_android_textOn;
-			global::Xamarin.Forms.PancakeView.Resource.Styleable.SwitchCompat_android_thumb = global::NutritionApp.Droid.Resource.Styleable.SwitchCompat_android_thumb;
-			global::Xamarin.Forms.PancakeView.Resource.Styleable.SwitchCompat_showText = global::NutritionApp.Droid.Resource.Styleable.SwitchCompat_showText;
-			global::Xamarin.Forms.PancakeView.Resource.Styleable.SwitchCompat_splitTrack = global::NutritionApp.Droid.Resource.Styleable.SwitchCompat_splitTrack;
-			global::Xamarin.Forms.PancakeView.Resource.Styleable.SwitchCompat_switchMinWidth = global::NutritionApp.Droid.Resource.Styleable.SwitchCompat_switchMinWidth;
-			global::Xamarin.Forms.PancakeView.Resource.Styleable.SwitchCompat_switchPadding = global::NutritionApp.Droid.Resource.Styleable.SwitchCompat_switchPadding;
-			global::Xamarin.Forms.PancakeView.Resource.Styleable.SwitchCompat_switchTextAppearance = global::NutritionApp.Droid.Resource.Styleable.SwitchCompat_switchTextAppearance;
-			global::Xamarin.Forms.PancakeView.Resource.Styleable.SwitchCompat_thumbTextPadding = global::NutritionApp.Droid.Resource.Styleable.SwitchCompat_thumbTextPadding;
-			global::Xamarin.Forms.PancakeView.Resource.Styleable.SwitchCompat_thumbTint = global::NutritionApp.Droid.Resource.Styleable.SwitchCompat_thumbTint;
-			global::Xamarin.Forms.PancakeView.Resource.Styleable.SwitchCompat_thumbTintMode = global::NutritionApp.Droid.Resource.Styleable.SwitchCompat_thumbTintMode;
-			global::Xamarin.Forms.PancakeView.Resource.Styleable.SwitchCompat_track = global::NutritionApp.Droid.Resource.Styleable.SwitchCompat_track;
-			global::Xamarin.Forms.PancakeView.Resource.Styleable.SwitchCompat_trackTint = global::NutritionApp.Droid.Resource.Styleable.SwitchCompat_trackTint;
-			global::Xamarin.Forms.PancakeView.Resource.Styleable.SwitchCompat_trackTintMode = global::NutritionApp.Droid.Resource.Styleable.SwitchCompat_trackTintMode;
-			global::Xamarin.Forms.PancakeView.Resource.Styleable.TabItem = global::NutritionApp.Droid.Resource.Styleable.TabItem;
-			global::Xamarin.Forms.PancakeView.Resource.Styleable.TabItem_android_icon = global::NutritionApp.Droid.Resource.Styleable.TabItem_android_icon;
-			global::Xamarin.Forms.PancakeView.Resource.Styleable.TabItem_android_layout = global::NutritionApp.Droid.Resource.Styleable.TabItem_android_layout;
-			global::Xamarin.Forms.PancakeView.Resource.Styleable.TabItem_android_text = global::NutritionApp.Droid.Resource.Styleable.TabItem_android_text;
-			global::Xamarin.Forms.PancakeView.Resource.Styleable.TabLayout = global::NutritionApp.Droid.Resource.Styleable.TabLayout;
-			global::Xamarin.Forms.PancakeView.Resource.Styleable.TabLayout_tabBackground = global::NutritionApp.Droid.Resource.Styleable.TabLayout_tabBackground;
-			global::Xamarin.Forms.PancakeView.Resource.Styleable.TabLayout_tabContentStart = global::NutritionApp.Droid.Resource.Styleable.TabLayout_tabContentStart;
-			global::Xamarin.Forms.PancakeView.Resource.Styleable.TabLayout_tabGravity = global::NutritionApp.Droid.Resource.Styleable.TabLayout_tabGravity;
-			global::Xamarin.Forms.PancakeView.Resource.Styleable.TabLayout_tabIconTint = global::NutritionApp.Droid.Resource.Styleable.TabLayout_tabIconTint;
-			global::Xamarin.Forms.PancakeView.Resource.Styleable.TabLayout_tabIconTintMode = global::NutritionApp.Droid.Resource.Styleable.TabLayout_tabIconTintMode;
-			global::Xamarin.Forms.PancakeView.Resource.Styleable.TabLayout_tabIndicator = global::NutritionApp.Droid.Resource.Styleable.TabLayout_tabIndicator;
-			global::Xamarin.Forms.PancakeView.Resource.Styleable.TabLayout_tabIndicatorAnimationDuration = global::NutritionApp.Droid.Resource.Styleable.TabLayout_tabIndicatorAnimationDuration;
-			global::Xamarin.Forms.PancakeView.Resource.Styleable.TabLayout_tabIndicatorColor = global::NutritionApp.Droid.Resource.Styleable.TabLayout_tabIndicatorColor;
-			global::Xamarin.Forms.PancakeView.Resource.Styleable.TabLayout_tabIndicatorFullWidth = global::NutritionApp.Droid.Resource.Styleable.TabLayout_tabIndicatorFullWidth;
-			global::Xamarin.Forms.PancakeView.Resource.Styleable.TabLayout_tabIndicatorGravity = global::NutritionApp.Droid.Resource.Styleable.TabLayout_tabIndicatorGravity;
-			global::Xamarin.Forms.PancakeView.Resource.Styleable.TabLayout_tabIndicatorHeight = global::NutritionApp.Droid.Resource.Styleable.TabLayout_tabIndicatorHeight;
-			global::Xamarin.Forms.PancakeView.Resource.Styleable.TabLayout_tabInlineLabel = global::NutritionApp.Droid.Resource.Styleable.TabLayout_tabInlineLabel;
-			global::Xamarin.Forms.PancakeView.Resource.Styleable.TabLayout_tabMaxWidth = global::NutritionApp.Droid.Resource.Styleable.TabLayout_tabMaxWidth;
-			global::Xamarin.Forms.PancakeView.Resource.Styleable.TabLayout_tabMinWidth = global::NutritionApp.Droid.Resource.Styleable.TabLayout_tabMinWidth;
-			global::Xamarin.Forms.PancakeView.Resource.Styleable.TabLayout_tabMode = global::NutritionApp.Droid.Resource.Styleable.TabLayout_tabMode;
-			global::Xamarin.Forms.PancakeView.Resource.Styleable.TabLayout_tabPadding = global::NutritionApp.Droid.Resource.Styleable.TabLayout_tabPadding;
-			global::Xamarin.Forms.PancakeView.Resource.Styleable.TabLayout_tabPaddingBottom = global::NutritionApp.Droid.Resource.Styleable.TabLayout_tabPaddingBottom;
-			global::Xamarin.Forms.PancakeView.Resource.Styleable.TabLayout_tabPaddingEnd = global::NutritionApp.Droid.Resource.Styleable.TabLayout_tabPaddingEnd;
-			global::Xamarin.Forms.PancakeView.Resource.Styleable.TabLayout_tabPaddingStart = global::NutritionApp.Droid.Resource.Styleable.TabLayout_tabPaddingStart;
-			global::Xamarin.Forms.PancakeView.Resource.Styleable.TabLayout_tabPaddingTop = global::NutritionApp.Droid.Resource.Styleable.TabLayout_tabPaddingTop;
-			global::Xamarin.Forms.PancakeView.Resource.Styleable.TabLayout_tabRippleColor = global::NutritionApp.Droid.Resource.Styleable.TabLayout_tabRippleColor;
-			global::Xamarin.Forms.PancakeView.Resource.Styleable.TabLayout_tabSelectedTextColor = global::NutritionApp.Droid.Resource.Styleable.TabLayout_tabSelectedTextColor;
-			global::Xamarin.Forms.PancakeView.Resource.Styleable.TabLayout_tabTextAppearance = global::NutritionApp.Droid.Resource.Styleable.TabLayout_tabTextAppearance;
-			global::Xamarin.Forms.PancakeView.Resource.Styleable.TabLayout_tabTextColor = global::NutritionApp.Droid.Resource.Styleable.TabLayout_tabTextColor;
-			global::Xamarin.Forms.PancakeView.Resource.Styleable.TabLayout_tabUnboundedRipple = global::NutritionApp.Droid.Resource.Styleable.TabLayout_tabUnboundedRipple;
-			global::Xamarin.Forms.PancakeView.Resource.Styleable.TextAppearance = global::NutritionApp.Droid.Resource.Styleable.TextAppearance;
-			global::Xamarin.Forms.PancakeView.Resource.Styleable.TextAppearance_android_fontFamily = global::NutritionApp.Droid.Resource.Styleable.TextAppearance_android_fontFamily;
-			global::Xamarin.Forms.PancakeView.Resource.Styleable.TextAppearance_android_shadowColor = global::NutritionApp.Droid.Resource.Styleable.TextAppearance_android_shadowColor;
-			global::Xamarin.Forms.PancakeView.Resource.Styleable.TextAppearance_android_shadowDx = global::NutritionApp.Droid.Resource.Styleable.TextAppearance_android_shadowDx;
-			global::Xamarin.Forms.PancakeView.Resource.Styleable.TextAppearance_android_shadowDy = global::NutritionApp.Droid.Resource.Styleable.TextAppearance_android_shadowDy;
-			global::Xamarin.Forms.PancakeView.Resource.Styleable.TextAppearance_android_shadowRadius = global::NutritionApp.Droid.Resource.Styleable.TextAppearance_android_shadowRadius;
-			global::Xamarin.Forms.PancakeView.Resource.Styleable.TextAppearance_android_textColor = global::NutritionApp.Droid.Resource.Styleable.TextAppearance_android_textColor;
-			global::Xamarin.Forms.PancakeView.Resource.Styleable.TextAppearance_android_textColorHint = global::NutritionApp.Droid.Resource.Styleable.TextAppearance_android_textColorHint;
-			global::Xamarin.Forms.PancakeView.Resource.Styleable.TextAppearance_android_textColorLink = global::NutritionApp.Droid.Resource.Styleable.TextAppearance_android_textColorLink;
-			global::Xamarin.Forms.PancakeView.Resource.Styleable.TextAppearance_android_textFontWeight = global::NutritionApp.Droid.Resource.Styleable.TextAppearance_android_textFontWeight;
-			global::Xamarin.Forms.PancakeView.Resource.Styleable.TextAppearance_android_textSize = global::NutritionApp.Droid.Resource.Styleable.TextAppearance_android_textSize;
-			global::Xamarin.Forms.PancakeView.Resource.Styleable.TextAppearance_android_textStyle = global::NutritionApp.Droid.Resource.Styleable.TextAppearance_android_textStyle;
-			global::Xamarin.Forms.PancakeView.Resource.Styleable.TextAppearance_android_typeface = global::NutritionApp.Droid.Resource.Styleable.TextAppearance_android_typeface;
-			global::Xamarin.Forms.PancakeView.Resource.Styleable.TextAppearance_fontFamily = global::NutritionApp.Droid.Resource.Styleable.TextAppearance_fontFamily;
-			global::Xamarin.Forms.PancakeView.Resource.Styleable.TextAppearance_fontVariationSettings = global::NutritionApp.Droid.Resource.Styleable.TextAppearance_fontVariationSettings;
-			global::Xamarin.Forms.PancakeView.Resource.Styleable.TextAppearance_textAllCaps = global::NutritionApp.Droid.Resource.Styleable.TextAppearance_textAllCaps;
-			global::Xamarin.Forms.PancakeView.Resource.Styleable.TextAppearance_textLocale = global::NutritionApp.Droid.Resource.Styleable.TextAppearance_textLocale;
-			global::Xamarin.Forms.PancakeView.Resource.Styleable.TextInputLayout = global::NutritionApp.Droid.Resource.Styleable.TextInputLayout;
-			global::Xamarin.Forms.PancakeView.Resource.Styleable.TextInputLayout_android_hint = global::NutritionApp.Droid.Resource.Styleable.TextInputLayout_android_hint;
-			global::Xamarin.Forms.PancakeView.Resource.Styleable.TextInputLayout_android_textColorHint = global::NutritionApp.Droid.Resource.Styleable.TextInputLayout_android_textColorHint;
-			global::Xamarin.Forms.PancakeView.Resource.Styleable.TextInputLayout_boxBackgroundColor = global::NutritionApp.Droid.Resource.Styleable.TextInputLayout_boxBackgroundColor;
-			global::Xamarin.Forms.PancakeView.Resource.Styleable.TextInputLayout_boxBackgroundMode = global::NutritionApp.Droid.Resource.Styleable.TextInputLayout_boxBackgroundMode;
-			global::Xamarin.Forms.PancakeView.Resource.Styleable.TextInputLayout_boxCollapsedPaddingTop = global::NutritionApp.Droid.Resource.Styleable.TextInputLayout_boxCollapsedPaddingTop;
-			global::Xamarin.Forms.PancakeView.Resource.Styleable.TextInputLayout_boxCornerRadiusBottomEnd = global::NutritionApp.Droid.Resource.Styleable.TextInputLayout_boxCornerRadiusBottomEnd;
-			global::Xamarin.Forms.PancakeView.Resource.Styleable.TextInputLayout_boxCornerRadiusBottomStart = global::NutritionApp.Droid.Resource.Styleable.TextInputLayout_boxCornerRadiusBottomStart;
-			global::Xamarin.Forms.PancakeView.Resource.Styleable.TextInputLayout_boxCornerRadiusTopEnd = global::NutritionApp.Droid.Resource.Styleable.TextInputLayout_boxCornerRadiusTopEnd;
-			global::Xamarin.Forms.PancakeView.Resource.Styleable.TextInputLayout_boxCornerRadiusTopStart = global::NutritionApp.Droid.Resource.Styleable.TextInputLayout_boxCornerRadiusTopStart;
-			global::Xamarin.Forms.PancakeView.Resource.Styleable.TextInputLayout_boxStrokeColor = global::NutritionApp.Droid.Resource.Styleable.TextInputLayout_boxStrokeColor;
-			global::Xamarin.Forms.PancakeView.Resource.Styleable.TextInputLayout_boxStrokeWidth = global::NutritionApp.Droid.Resource.Styleable.TextInputLayout_boxStrokeWidth;
-			global::Xamarin.Forms.PancakeView.Resource.Styleable.TextInputLayout_counterEnabled = global::NutritionApp.Droid.Resource.Styleable.TextInputLayout_counterEnabled;
-			global::Xamarin.Forms.PancakeView.Resource.Styleable.TextInputLayout_counterMaxLength = global::NutritionApp.Droid.Resource.Styleable.TextInputLayout_counterMaxLength;
-			global::Xamarin.Forms.PancakeView.Resource.Styleable.TextInputLayout_counterOverflowTextAppearance = global::NutritionApp.Droid.Resource.Styleable.TextInputLayout_counterOverflowTextAppearance;
-			global::Xamarin.Forms.PancakeView.Resource.Styleable.TextInputLayout_counterTextAppearance = global::NutritionApp.Droid.Resource.Styleable.TextInputLayout_counterTextAppearance;
-			global::Xamarin.Forms.PancakeView.Resource.Styleable.TextInputLayout_errorEnabled = global::NutritionApp.Droid.Resource.Styleable.TextInputLayout_errorEnabled;
-			global::Xamarin.Forms.PancakeView.Resource.Styleable.TextInputLayout_errorTextAppearance = global::NutritionApp.Droid.Resource.Styleable.TextInputLayout_errorTextAppearance;
-			global::Xamarin.Forms.PancakeView.Resource.Styleable.TextInputLayout_helperText = global::NutritionApp.Droid.Resource.Styleable.TextInputLayout_helperText;
-			global::Xamarin.Forms.PancakeView.Resource.Styleable.TextInputLayout_helperTextEnabled = global::NutritionApp.Droid.Resource.Styleable.TextInputLayout_helperTextEnabled;
-			global::Xamarin.Forms.PancakeView.Resource.Styleable.TextInputLayout_helperTextTextAppearance = global::NutritionApp.Droid.Resource.Styleable.TextInputLayout_helperTextTextAppearance;
-			global::Xamarin.Forms.PancakeView.Resource.Styleable.TextInputLayout_hintAnimationEnabled = global::NutritionApp.Droid.Resource.Styleable.TextInputLayout_hintAnimationEnabled;
-			global::Xamarin.Forms.PancakeView.Resource.Styleable.TextInputLayout_hintEnabled = global::NutritionApp.Droid.Resource.Styleable.TextInputLayout_hintEnabled;
-			global::Xamarin.Forms.PancakeView.Resource.Styleable.TextInputLayout_hintTextAppearance = global::NutritionApp.Droid.Resource.Styleable.TextInputLayout_hintTextAppearance;
-			global::Xamarin.Forms.PancakeView.Resource.Styleable.TextInputLayout_passwordToggleContentDescription = global::NutritionApp.Droid.Resource.Styleable.TextInputLayout_passwordToggleContentDescription;
-			global::Xamarin.Forms.PancakeView.Resource.Styleable.TextInputLayout_passwordToggleDrawable = global::NutritionApp.Droid.Resource.Styleable.TextInputLayout_passwordToggleDrawable;
-			global::Xamarin.Forms.PancakeView.Resource.Styleable.TextInputLayout_passwordToggleEnabled = global::NutritionApp.Droid.Resource.Styleable.TextInputLayout_passwordToggleEnabled;
-			global::Xamarin.Forms.PancakeView.Resource.Styleable.TextInputLayout_passwordToggleTint = global::NutritionApp.Droid.Resource.Styleable.TextInputLayout_passwordToggleTint;
-			global::Xamarin.Forms.PancakeView.Resource.Styleable.TextInputLayout_passwordToggleTintMode = global::NutritionApp.Droid.Resource.Styleable.TextInputLayout_passwordToggleTintMode;
-			global::Xamarin.Forms.PancakeView.Resource.Styleable.ThemeEnforcement = global::NutritionApp.Droid.Resource.Styleable.ThemeEnforcement;
-			global::Xamarin.Forms.PancakeView.Resource.Styleable.ThemeEnforcement_android_textAppearance = global::NutritionApp.Droid.Resource.Styleable.ThemeEnforcement_android_textAppearance;
-			global::Xamarin.Forms.PancakeView.Resource.Styleable.ThemeEnforcement_enforceMaterialTheme = global::NutritionApp.Droid.Resource.Styleable.ThemeEnforcement_enforceMaterialTheme;
-			global::Xamarin.Forms.PancakeView.Resource.Styleable.ThemeEnforcement_enforceTextAppearance = global::NutritionApp.Droid.Resource.Styleable.ThemeEnforcement_enforceTextAppearance;
-			global::Xamarin.Forms.PancakeView.Resource.Styleable.Toolbar = global::NutritionApp.Droid.Resource.Styleable.Toolbar;
-			global::Xamarin.Forms.PancakeView.Resource.Styleable.Toolbar_android_gravity = global::NutritionApp.Droid.Resource.Styleable.Toolbar_android_gravity;
-			global::Xamarin.Forms.PancakeView.Resource.Styleable.Toolbar_android_minHeight = global::NutritionApp.Droid.Resource.Styleable.Toolbar_android_minHeight;
-			global::Xamarin.Forms.PancakeView.Resource.Styleable.Toolbar_buttonGravity = global::NutritionApp.Droid.Resource.Styleable.Toolbar_buttonGravity;
-			global::Xamarin.Forms.PancakeView.Resource.Styleable.Toolbar_collapseContentDescription = global::NutritionApp.Droid.Resource.Styleable.Toolbar_collapseContentDescription;
-			global::Xamarin.Forms.PancakeView.Resource.Styleable.Toolbar_collapseIcon = global::NutritionApp.Droid.Resource.Styleable.Toolbar_collapseIcon;
-			global::Xamarin.Forms.PancakeView.Resource.Styleable.Toolbar_contentInsetEnd = global::NutritionApp.Droid.Resource.Styleable.Toolbar_contentInsetEnd;
-			global::Xamarin.Forms.PancakeView.Resource.Styleable.Toolbar_contentInsetEndWithActions = global::NutritionApp.Droid.Resource.Styleable.Toolbar_contentInsetEndWithActions;
-			global::Xamarin.Forms.PancakeView.Resource.Styleable.Toolbar_contentInsetLeft = global::NutritionApp.Droid.Resource.Styleable.Toolbar_contentInsetLeft;
-			global::Xamarin.Forms.PancakeView.Resource.Styleable.Toolbar_contentInsetRight = global::NutritionApp.Droid.Resource.Styleable.Toolbar_contentInsetRight;
-			global::Xamarin.Forms.PancakeView.Resource.Styleable.Toolbar_contentInsetStart = global::NutritionApp.Droid.Resource.Styleable.Toolbar_contentInsetStart;
-			global::Xamarin.Forms.PancakeView.Resource.Styleable.Toolbar_contentInsetStartWithNavigation = global::NutritionApp.Droid.Resource.Styleable.Toolbar_contentInsetStartWithNavigation;
-			global::Xamarin.Forms.PancakeView.Resource.Styleable.Toolbar_logo = global::NutritionApp.Droid.Resource.Styleable.Toolbar_logo;
-			global::Xamarin.Forms.PancakeView.Resource.Styleable.Toolbar_logoDescription = global::NutritionApp.Droid.Resource.Styleable.Toolbar_logoDescription;
-			global::Xamarin.Forms.PancakeView.Resource.Styleable.Toolbar_maxButtonHeight = global::NutritionApp.Droid.Resource.Styleable.Toolbar_maxButtonHeight;
-			global::Xamarin.Forms.PancakeView.Resource.Styleable.Toolbar_menu = global::NutritionApp.Droid.Resource.Styleable.Toolbar_menu;
-			global::Xamarin.Forms.PancakeView.Resource.Styleable.Toolbar_navigationContentDescription = global::NutritionApp.Droid.Resource.Styleable.Toolbar_navigationContentDescription;
-			global::Xamarin.Forms.PancakeView.Resource.Styleable.Toolbar_navigationIcon = global::NutritionApp.Droid.Resource.Styleable.Toolbar_navigationIcon;
-			global::Xamarin.Forms.PancakeView.Resource.Styleable.Toolbar_popupTheme = global::NutritionApp.Droid.Resource.Styleable.Toolbar_popupTheme;
-			global::Xamarin.Forms.PancakeView.Resource.Styleable.Toolbar_subtitle = global::NutritionApp.Droid.Resource.Styleable.Toolbar_subtitle;
-			global::Xamarin.Forms.PancakeView.Resource.Styleable.Toolbar_subtitleTextAppearance = global::NutritionApp.Droid.Resource.Styleable.Toolbar_subtitleTextAppearance;
-			global::Xamarin.Forms.PancakeView.Resource.Styleable.Toolbar_subtitleTextColor = global::NutritionApp.Droid.Resource.Styleable.Toolbar_subtitleTextColor;
-			global::Xamarin.Forms.PancakeView.Resource.Styleable.Toolbar_title = global::NutritionApp.Droid.Resource.Styleable.Toolbar_title;
-			global::Xamarin.Forms.PancakeView.Resource.Styleable.Toolbar_titleMargin = global::NutritionApp.Droid.Resource.Styleable.Toolbar_titleMargin;
-			global::Xamarin.Forms.PancakeView.Resource.Styleable.Toolbar_titleMarginBottom = global::NutritionApp.Droid.Resource.Styleable.Toolbar_titleMarginBottom;
-			global::Xamarin.Forms.PancakeView.Resource.Styleable.Toolbar_titleMarginEnd = global::NutritionApp.Droid.Resource.Styleable.Toolbar_titleMarginEnd;
-			global::Xamarin.Forms.PancakeView.Resource.Styleable.Toolbar_titleMargins = global::NutritionApp.Droid.Resource.Styleable.Toolbar_titleMargins;
-			global::Xamarin.Forms.PancakeView.Resource.Styleable.Toolbar_titleMarginStart = global::NutritionApp.Droid.Resource.Styleable.Toolbar_titleMarginStart;
-			global::Xamarin.Forms.PancakeView.Resource.Styleable.Toolbar_titleMarginTop = global::NutritionApp.Droid.Resource.Styleable.Toolbar_titleMarginTop;
-			global::Xamarin.Forms.PancakeView.Resource.Styleable.Toolbar_titleTextAppearance = global::NutritionApp.Droid.Resource.Styleable.Toolbar_titleTextAppearance;
-			global::Xamarin.Forms.PancakeView.Resource.Styleable.Toolbar_titleTextColor = global::NutritionApp.Droid.Resource.Styleable.Toolbar_titleTextColor;
-			global::Xamarin.Forms.PancakeView.Resource.Styleable.View = global::NutritionApp.Droid.Resource.Styleable.View;
-			global::Xamarin.Forms.PancakeView.Resource.Styleable.ViewBackgroundHelper = global::NutritionApp.Droid.Resource.Styleable.ViewBackgroundHelper;
-			global::Xamarin.Forms.PancakeView.Resource.Styleable.ViewBackgroundHelper_android_background = global::NutritionApp.Droid.Resource.Styleable.ViewBackgroundHelper_android_background;
-			global::Xamarin.Forms.PancakeView.Resource.Styleable.ViewBackgroundHelper_backgroundTint = global::NutritionApp.Droid.Resource.Styleable.ViewBackgroundHelper_backgroundTint;
-			global::Xamarin.Forms.PancakeView.Resource.Styleable.ViewBackgroundHelper_backgroundTintMode = global::NutritionApp.Droid.Resource.Styleable.ViewBackgroundHelper_backgroundTintMode;
-			global::Xamarin.Forms.PancakeView.Resource.Styleable.ViewStubCompat = global::NutritionApp.Droid.Resource.Styleable.ViewStubCompat;
-			global::Xamarin.Forms.PancakeView.Resource.Styleable.ViewStubCompat_android_id = global::NutritionApp.Droid.Resource.Styleable.ViewStubCompat_android_id;
-			global::Xamarin.Forms.PancakeView.Resource.Styleable.ViewStubCompat_android_inflatedId = global::NutritionApp.Droid.Resource.Styleable.ViewStubCompat_android_inflatedId;
-			global::Xamarin.Forms.PancakeView.Resource.Styleable.ViewStubCompat_android_layout = global::NutritionApp.Droid.Resource.Styleable.ViewStubCompat_android_layout;
-			global::Xamarin.Forms.PancakeView.Resource.Styleable.View_android_focusable = global::NutritionApp.Droid.Resource.Styleable.View_android_focusable;
-			global::Xamarin.Forms.PancakeView.Resource.Styleable.View_android_theme = global::NutritionApp.Droid.Resource.Styleable.View_android_theme;
-			global::Xamarin.Forms.PancakeView.Resource.Styleable.View_paddingEnd = global::NutritionApp.Droid.Resource.Styleable.View_paddingEnd;
-			global::Xamarin.Forms.PancakeView.Resource.Styleable.View_paddingStart = global::NutritionApp.Droid.Resource.Styleable.View_paddingStart;
-			global::Xamarin.Forms.PancakeView.Resource.Styleable.View_theme = global::NutritionApp.Droid.Resource.Styleable.View_theme;
 			global::Xamarin.Forms.Platform.Android.Resource.Animation.abc_fade_in = global::NutritionApp.Droid.Resource.Animation.abc_fade_in;
 			global::Xamarin.Forms.Platform.Android.Resource.Animation.abc_fade_out = global::NutritionApp.Droid.Resource.Animation.abc_fade_out;
 			global::Xamarin.Forms.Platform.Android.Resource.Animation.abc_grow_fade_in_from_bottom = global::NutritionApp.Droid.Resource.Animation.abc_grow_fade_in_from_bottom;
@@ -24695,217 +22098,325 @@ namespace NutritionApp.Droid
 			public const int add = 2131165269;
 			
 			// aapt resource value: 0x7F070056
-			public const int avd_hide_password = 2131165270;
+			public const int Avatar1 = 2131165270;
 			
 			// aapt resource value: 0x7F070057
-			public const int avd_show_password = 2131165271;
+			public const int Avatar10 = 2131165271;
 			
 			// aapt resource value: 0x7F070058
-			public const int btn_checkbox_checked_mtrl = 2131165272;
+			public const int Avatar11 = 2131165272;
 			
 			// aapt resource value: 0x7F070059
-			public const int btn_checkbox_checked_to_unchecked_mtrl_animation = 2131165273;
+			public const int Avatar12 = 2131165273;
 			
 			// aapt resource value: 0x7F07005A
-			public const int btn_checkbox_unchecked_mtrl = 2131165274;
+			public const int Avatar13 = 2131165274;
 			
 			// aapt resource value: 0x7F07005B
-			public const int btn_checkbox_unchecked_to_checked_mtrl_animation = 2131165275;
+			public const int Avatar14 = 2131165275;
 			
 			// aapt resource value: 0x7F07005C
-			public const int btn_radio_off_mtrl = 2131165276;
+			public const int Avatar15 = 2131165276;
 			
 			// aapt resource value: 0x7F07005D
-			public const int btn_radio_off_to_on_mtrl_animation = 2131165277;
+			public const int Avatar16 = 2131165277;
 			
 			// aapt resource value: 0x7F07005E
-			public const int btn_radio_on_mtrl = 2131165278;
+			public const int Avatar17 = 2131165278;
 			
 			// aapt resource value: 0x7F07005F
-			public const int btn_radio_on_to_off_mtrl_animation = 2131165279;
+			public const int Avatar18 = 2131165279;
 			
 			// aapt resource value: 0x7F070060
-			public const int calendar = 2131165280;
+			public const int Avatar19 = 2131165280;
 			
 			// aapt resource value: 0x7F070061
-			public const int delete = 2131165281;
+			public const int Avatar2 = 2131165281;
 			
 			// aapt resource value: 0x7F070062
-			public const int design_fab_background = 2131165282;
+			public const int Avatar20 = 2131165282;
 			
 			// aapt resource value: 0x7F070063
-			public const int design_ic_visibility = 2131165283;
+			public const int Avatar21 = 2131165283;
 			
 			// aapt resource value: 0x7F070064
-			public const int design_ic_visibility_off = 2131165284;
+			public const int Avatar22 = 2131165284;
 			
 			// aapt resource value: 0x7F070065
-			public const int design_password_eye = 2131165285;
+			public const int Avatar23 = 2131165285;
 			
 			// aapt resource value: 0x7F070066
-			public const int design_snackbar_background = 2131165286;
+			public const int Avatar24 = 2131165286;
 			
 			// aapt resource value: 0x7F070067
-			public const int edit = 2131165287;
+			public const int Avatar25 = 2131165287;
 			
 			// aapt resource value: 0x7F070068
-			public const int food = 2131165288;
+			public const int Avatar26 = 2131165288;
 			
 			// aapt resource value: 0x7F070069
-			public const int fruit = 2131165289;
+			public const int Avatar27 = 2131165289;
 			
 			// aapt resource value: 0x7F07006A
-			public const int home = 2131165290;
+			public const int Avatar28 = 2131165290;
 			
 			// aapt resource value: 0x7F07006B
-			public const int ic_arrow_down_24dp = 2131165291;
+			public const int Avatar29 = 2131165291;
 			
 			// aapt resource value: 0x7F07006C
-			public const int ic_clock_black_24dp = 2131165292;
+			public const int Avatar3 = 2131165292;
 			
 			// aapt resource value: 0x7F07006D
-			public const int ic_keyboard_black_24dp = 2131165293;
+			public const int Avatar30 = 2131165293;
 			
 			// aapt resource value: 0x7F07006E
-			public const int ic_mtrl_checked_circle = 2131165294;
+			public const int Avatar4 = 2131165294;
 			
 			// aapt resource value: 0x7F07006F
-			public const int ic_mtrl_chip_checked_black = 2131165295;
+			public const int Avatar5 = 2131165295;
 			
 			// aapt resource value: 0x7F070070
-			public const int ic_mtrl_chip_checked_circle = 2131165296;
+			public const int Avatar6 = 2131165296;
 			
 			// aapt resource value: 0x7F070071
-			public const int ic_mtrl_chip_close_circle = 2131165297;
+			public const int Avatar7 = 2131165297;
 			
 			// aapt resource value: 0x7F070072
-			public const int ingredient = 2131165298;
+			public const int Avatar8 = 2131165298;
 			
 			// aapt resource value: 0x7F070073
-			public const int material_cursor_drawable = 2131165299;
+			public const int Avatar9 = 2131165299;
 			
 			// aapt resource value: 0x7F070074
-			public const int material_ic_calendar_black_24dp = 2131165300;
+			public const int avd_hide_password = 2131165300;
 			
 			// aapt resource value: 0x7F070075
-			public const int material_ic_clear_black_24dp = 2131165301;
+			public const int avd_show_password = 2131165301;
 			
 			// aapt resource value: 0x7F070076
-			public const int material_ic_edit_black_24dp = 2131165302;
+			public const int btn_checkbox_checked_mtrl = 2131165302;
 			
 			// aapt resource value: 0x7F070077
-			public const int material_ic_keyboard_arrow_left_black_24dp = 2131165303;
+			public const int btn_checkbox_checked_to_unchecked_mtrl_animation = 2131165303;
 			
 			// aapt resource value: 0x7F070078
-			public const int material_ic_keyboard_arrow_next_black_24dp = 2131165304;
+			public const int btn_checkbox_unchecked_mtrl = 2131165304;
 			
 			// aapt resource value: 0x7F070079
-			public const int material_ic_keyboard_arrow_previous_black_24dp = 2131165305;
+			public const int btn_checkbox_unchecked_to_checked_mtrl_animation = 2131165305;
 			
 			// aapt resource value: 0x7F07007A
-			public const int material_ic_keyboard_arrow_right_black_24dp = 2131165306;
+			public const int btn_radio_off_mtrl = 2131165306;
 			
 			// aapt resource value: 0x7F07007B
-			public const int material_ic_menu_arrow_down_black_24dp = 2131165307;
+			public const int btn_radio_off_to_on_mtrl_animation = 2131165307;
 			
 			// aapt resource value: 0x7F07007C
-			public const int material_ic_menu_arrow_up_black_24dp = 2131165308;
+			public const int btn_radio_on_mtrl = 2131165308;
 			
 			// aapt resource value: 0x7F07007D
-			public const int meal = 2131165309;
+			public const int btn_radio_on_to_off_mtrl_animation = 2131165309;
 			
 			// aapt resource value: 0x7F07007E
-			public const int mtrl_dialog_background = 2131165310;
+			public const int calendar = 2131165310;
 			
 			// aapt resource value: 0x7F07007F
-			public const int mtrl_dropdown_arrow = 2131165311;
+			public const int clear_button_icon = 2131165311;
 			
 			// aapt resource value: 0x7F070080
-			public const int mtrl_ic_arrow_drop_down = 2131165312;
+			public const int delete = 2131165312;
 			
 			// aapt resource value: 0x7F070081
-			public const int mtrl_ic_arrow_drop_up = 2131165313;
+			public const int design_fab_background = 2131165313;
 			
 			// aapt resource value: 0x7F070082
-			public const int mtrl_ic_cancel = 2131165314;
+			public const int design_ic_visibility = 2131165314;
 			
 			// aapt resource value: 0x7F070083
-			public const int mtrl_ic_error = 2131165315;
+			public const int design_ic_visibility_off = 2131165315;
 			
 			// aapt resource value: 0x7F070084
-			public const int mtrl_navigation_bar_item_background = 2131165316;
+			public const int design_password_eye = 2131165316;
 			
 			// aapt resource value: 0x7F070085
-			public const int mtrl_popupmenu_background = 2131165317;
+			public const int design_snackbar_background = 2131165317;
 			
 			// aapt resource value: 0x7F070086
-			public const int mtrl_popupmenu_background_dark = 2131165318;
+			public const int edit = 2131165318;
 			
 			// aapt resource value: 0x7F070087
-			public const int mtrl_tabs_default_indicator = 2131165319;
+			public const int expand = 2131165319;
 			
 			// aapt resource value: 0x7F070088
-			public const int navigation_empty_icon = 2131165320;
+			public const int food = 2131165320;
 			
 			// aapt resource value: 0x7F070089
-			public const int notification_action_background = 2131165321;
+			public const int fruit = 2131165321;
 			
 			// aapt resource value: 0x7F07008A
-			public const int notification_bg = 2131165322;
+			public const int home = 2131165322;
 			
 			// aapt resource value: 0x7F07008B
-			public const int notification_bg_low = 2131165323;
+			public const int ic_arrow_down_24dp = 2131165323;
 			
 			// aapt resource value: 0x7F07008C
-			public const int notification_bg_low_normal = 2131165324;
+			public const int ic_clock_black_24dp = 2131165324;
 			
 			// aapt resource value: 0x7F07008D
-			public const int notification_bg_low_pressed = 2131165325;
+			public const int ic_keyboard_black_24dp = 2131165325;
 			
 			// aapt resource value: 0x7F07008E
-			public const int notification_bg_normal = 2131165326;
+			public const int ic_mtrl_checked_circle = 2131165326;
 			
 			// aapt resource value: 0x7F07008F
-			public const int notification_bg_normal_pressed = 2131165327;
+			public const int ic_mtrl_chip_checked_black = 2131165327;
 			
 			// aapt resource value: 0x7F070090
-			public const int notification_icon_background = 2131165328;
+			public const int ic_mtrl_chip_checked_circle = 2131165328;
 			
 			// aapt resource value: 0x7F070091
-			public const int notification_template_icon_bg = 2131165329;
+			public const int ic_mtrl_chip_close_circle = 2131165329;
 			
 			// aapt resource value: 0x7F070092
-			public const int notification_template_icon_low_bg = 2131165330;
-			
-			// aapt resource value: 0x7F070093
-			public const int notification_tile_bg = 2131165331;
+			public const int ingredient = 2131165330;
 			
 			// aapt resource value: 0x7F070094
-			public const int notify_panel_notification_icon_bg = 2131165332;
+			public const int inputlayout_togglecollapseicon = 2131165332;
 			
 			// aapt resource value: 0x7F070095
-			public const int preference_list_divider_material = 2131165333;
+			public const int inputlayout_togglevisibleicon = 2131165333;
+			
+			// aapt resource value: 0x7F070093
+			public const int input_layout_drop_down_icon = 2131165331;
 			
 			// aapt resource value: 0x7F070096
-			public const int profile = 2131165334;
+			public const int material_cursor_drawable = 2131165334;
 			
 			// aapt resource value: 0x7F070097
-			public const int profiles = 2131165335;
+			public const int material_ic_calendar_black_24dp = 2131165335;
 			
 			// aapt resource value: 0x7F070098
-			public const int settings = 2131165336;
+			public const int material_ic_clear_black_24dp = 2131165336;
 			
 			// aapt resource value: 0x7F070099
-			public const int test_custom_background = 2131165337;
+			public const int material_ic_edit_black_24dp = 2131165337;
 			
 			// aapt resource value: 0x7F07009A
-			public const int tooltip_frame_dark = 2131165338;
+			public const int material_ic_keyboard_arrow_left_black_24dp = 2131165338;
 			
 			// aapt resource value: 0x7F07009B
-			public const int tooltip_frame_light = 2131165339;
+			public const int material_ic_keyboard_arrow_next_black_24dp = 2131165339;
 			
 			// aapt resource value: 0x7F07009C
-			public const int xamarin_logo = 2131165340;
+			public const int material_ic_keyboard_arrow_previous_black_24dp = 2131165340;
+			
+			// aapt resource value: 0x7F07009D
+			public const int material_ic_keyboard_arrow_right_black_24dp = 2131165341;
+			
+			// aapt resource value: 0x7F07009E
+			public const int material_ic_menu_arrow_down_black_24dp = 2131165342;
+			
+			// aapt resource value: 0x7F07009F
+			public const int material_ic_menu_arrow_up_black_24dp = 2131165343;
+			
+			// aapt resource value: 0x7F0700A0
+			public const int meal = 2131165344;
+			
+			// aapt resource value: 0x7F0700A1
+			public const int mtrl_dialog_background = 2131165345;
+			
+			// aapt resource value: 0x7F0700A2
+			public const int mtrl_dropdown_arrow = 2131165346;
+			
+			// aapt resource value: 0x7F0700A3
+			public const int mtrl_ic_arrow_drop_down = 2131165347;
+			
+			// aapt resource value: 0x7F0700A4
+			public const int mtrl_ic_arrow_drop_up = 2131165348;
+			
+			// aapt resource value: 0x7F0700A5
+			public const int mtrl_ic_cancel = 2131165349;
+			
+			// aapt resource value: 0x7F0700A6
+			public const int mtrl_ic_error = 2131165350;
+			
+			// aapt resource value: 0x7F0700A7
+			public const int mtrl_navigation_bar_item_background = 2131165351;
+			
+			// aapt resource value: 0x7F0700A8
+			public const int mtrl_popupmenu_background = 2131165352;
+			
+			// aapt resource value: 0x7F0700A9
+			public const int mtrl_popupmenu_background_dark = 2131165353;
+			
+			// aapt resource value: 0x7F0700AA
+			public const int mtrl_tabs_default_indicator = 2131165354;
+			
+			// aapt resource value: 0x7F0700AB
+			public const int navigation_empty_icon = 2131165355;
+			
+			// aapt resource value: 0x7F0700AC
+			public const int notification_action_background = 2131165356;
+			
+			// aapt resource value: 0x7F0700AD
+			public const int notification_bg = 2131165357;
+			
+			// aapt resource value: 0x7F0700AE
+			public const int notification_bg_low = 2131165358;
+			
+			// aapt resource value: 0x7F0700AF
+			public const int notification_bg_low_normal = 2131165359;
+			
+			// aapt resource value: 0x7F0700B0
+			public const int notification_bg_low_pressed = 2131165360;
+			
+			// aapt resource value: 0x7F0700B1
+			public const int notification_bg_normal = 2131165361;
+			
+			// aapt resource value: 0x7F0700B2
+			public const int notification_bg_normal_pressed = 2131165362;
+			
+			// aapt resource value: 0x7F0700B3
+			public const int notification_icon_background = 2131165363;
+			
+			// aapt resource value: 0x7F0700B4
+			public const int notification_template_icon_bg = 2131165364;
+			
+			// aapt resource value: 0x7F0700B5
+			public const int notification_template_icon_low_bg = 2131165365;
+			
+			// aapt resource value: 0x7F0700B6
+			public const int notification_tile_bg = 2131165366;
+			
+			// aapt resource value: 0x7F0700B7
+			public const int notify_panel_notification_icon_bg = 2131165367;
+			
+			// aapt resource value: 0x7F0700B8
+			public const int preference_list_divider_material = 2131165368;
+			
+			// aapt resource value: 0x7F0700B9
+			public const int profile = 2131165369;
+			
+			// aapt resource value: 0x7F0700BA
+			public const int profiles = 2131165370;
+			
+			// aapt resource value: 0x7F0700BB
+			public const int settings = 2131165371;
+			
+			// aapt resource value: 0x7F0700BC
+			public const int targetKjs = 2131165372;
+			
+			// aapt resource value: 0x7F0700BD
+			public const int test_custom_background = 2131165373;
+			
+			// aapt resource value: 0x7F0700BE
+			public const int tooltip_frame_dark = 2131165374;
+			
+			// aapt resource value: 0x7F0700BF
+			public const int tooltip_frame_light = 2131165375;
+			
+			// aapt resource value: 0x7F0700C0
+			public const int xamarin_logo = 2131165376;
 			
 			static Drawable()
 			{
@@ -27068,359 +24579,368 @@ namespace NutritionApp.Droid
 		public partial class String
 		{
 			
-			// aapt resource value: 0x7F0E0000
-			public const int abc_action_bar_home_description = 2131623936;
-			
-			// aapt resource value: 0x7F0E0001
-			public const int abc_action_bar_up_description = 2131623937;
-			
-			// aapt resource value: 0x7F0E0002
-			public const int abc_action_menu_overflow_description = 2131623938;
-			
 			// aapt resource value: 0x7F0E0003
-			public const int abc_action_mode_done = 2131623939;
-			
-			// aapt resource value: 0x7F0E0005
-			public const int abc_activitychooserview_choose_application = 2131623941;
+			public const int abc_action_bar_home_description = 2131623939;
 			
 			// aapt resource value: 0x7F0E0004
-			public const int abc_activity_chooser_view_see_all = 2131623940;
+			public const int abc_action_bar_up_description = 2131623940;
+			
+			// aapt resource value: 0x7F0E0005
+			public const int abc_action_menu_overflow_description = 2131623941;
 			
 			// aapt resource value: 0x7F0E0006
-			public const int abc_capital_off = 2131623942;
-			
-			// aapt resource value: 0x7F0E0007
-			public const int abc_capital_on = 2131623943;
+			public const int abc_action_mode_done = 2131623942;
 			
 			// aapt resource value: 0x7F0E0008
-			public const int abc_menu_alt_shortcut_label = 2131623944;
+			public const int abc_activitychooserview_choose_application = 2131623944;
+			
+			// aapt resource value: 0x7F0E0007
+			public const int abc_activity_chooser_view_see_all = 2131623943;
 			
 			// aapt resource value: 0x7F0E0009
-			public const int abc_menu_ctrl_shortcut_label = 2131623945;
+			public const int abc_capital_off = 2131623945;
 			
 			// aapt resource value: 0x7F0E000A
-			public const int abc_menu_delete_shortcut_label = 2131623946;
+			public const int abc_capital_on = 2131623946;
 			
 			// aapt resource value: 0x7F0E000B
-			public const int abc_menu_enter_shortcut_label = 2131623947;
+			public const int abc_menu_alt_shortcut_label = 2131623947;
 			
 			// aapt resource value: 0x7F0E000C
-			public const int abc_menu_function_shortcut_label = 2131623948;
+			public const int abc_menu_ctrl_shortcut_label = 2131623948;
 			
 			// aapt resource value: 0x7F0E000D
-			public const int abc_menu_meta_shortcut_label = 2131623949;
+			public const int abc_menu_delete_shortcut_label = 2131623949;
 			
 			// aapt resource value: 0x7F0E000E
-			public const int abc_menu_shift_shortcut_label = 2131623950;
+			public const int abc_menu_enter_shortcut_label = 2131623950;
 			
 			// aapt resource value: 0x7F0E000F
-			public const int abc_menu_space_shortcut_label = 2131623951;
+			public const int abc_menu_function_shortcut_label = 2131623951;
 			
 			// aapt resource value: 0x7F0E0010
-			public const int abc_menu_sym_shortcut_label = 2131623952;
+			public const int abc_menu_meta_shortcut_label = 2131623952;
 			
 			// aapt resource value: 0x7F0E0011
-			public const int abc_prepend_shortcut_label = 2131623953;
-			
-			// aapt resource value: 0x7F0E0013
-			public const int abc_searchview_description_clear = 2131623955;
-			
-			// aapt resource value: 0x7F0E0014
-			public const int abc_searchview_description_query = 2131623956;
-			
-			// aapt resource value: 0x7F0E0015
-			public const int abc_searchview_description_search = 2131623957;
-			
-			// aapt resource value: 0x7F0E0016
-			public const int abc_searchview_description_submit = 2131623958;
-			
-			// aapt resource value: 0x7F0E0017
-			public const int abc_searchview_description_voice = 2131623959;
+			public const int abc_menu_shift_shortcut_label = 2131623953;
 			
 			// aapt resource value: 0x7F0E0012
-			public const int abc_search_hint = 2131623954;
+			public const int abc_menu_space_shortcut_label = 2131623954;
+			
+			// aapt resource value: 0x7F0E0013
+			public const int abc_menu_sym_shortcut_label = 2131623955;
+			
+			// aapt resource value: 0x7F0E0014
+			public const int abc_prepend_shortcut_label = 2131623956;
+			
+			// aapt resource value: 0x7F0E0016
+			public const int abc_searchview_description_clear = 2131623958;
+			
+			// aapt resource value: 0x7F0E0017
+			public const int abc_searchview_description_query = 2131623959;
 			
 			// aapt resource value: 0x7F0E0018
-			public const int abc_shareactionprovider_share_with = 2131623960;
+			public const int abc_searchview_description_search = 2131623960;
 			
 			// aapt resource value: 0x7F0E0019
-			public const int abc_shareactionprovider_share_with_application = 2131623961;
+			public const int abc_searchview_description_submit = 2131623961;
 			
 			// aapt resource value: 0x7F0E001A
-			public const int abc_toolbar_collapse_description = 2131623962;
+			public const int abc_searchview_description_voice = 2131623962;
+			
+			// aapt resource value: 0x7F0E0015
+			public const int abc_search_hint = 2131623957;
 			
 			// aapt resource value: 0x7F0E001B
-			public const int appbar_scrolling_view_behavior = 2131623963;
-			
-			// aapt resource value: 0x7F0E001D
-			public const int bottomsheet_action_expand_halfway = 2131623965;
+			public const int abc_shareactionprovider_share_with = 2131623963;
 			
 			// aapt resource value: 0x7F0E001C
-			public const int bottom_sheet_behavior = 2131623964;
+			public const int abc_shareactionprovider_share_with_application = 2131623964;
+			
+			// aapt resource value: 0x7F0E001D
+			public const int abc_toolbar_collapse_description = 2131623965;
 			
 			// aapt resource value: 0x7F0E001E
-			public const int character_counter_content_description = 2131623966;
+			public const int appbar_scrolling_view_behavior = 2131623966;
 			
-			// aapt resource value: 0x7F0E001F
-			public const int character_counter_overflowed_content_description = 2131623967;
+			// aapt resource value: 0x7F0E0000
+			public const int ApplicationName = 2131623936;
 			
 			// aapt resource value: 0x7F0E0020
-			public const int character_counter_pattern = 2131623968;
+			public const int bottomsheet_action_expand_halfway = 2131623968;
+			
+			// aapt resource value: 0x7F0E001F
+			public const int bottom_sheet_behavior = 2131623967;
 			
 			// aapt resource value: 0x7F0E0021
-			public const int chip_text = 2131623969;
+			public const int character_counter_content_description = 2131623969;
 			
 			// aapt resource value: 0x7F0E0022
-			public const int clear_text_end_icon_content_description = 2131623970;
+			public const int character_counter_overflowed_content_description = 2131623970;
 			
 			// aapt resource value: 0x7F0E0023
-			public const int copy = 2131623971;
+			public const int character_counter_pattern = 2131623971;
 			
 			// aapt resource value: 0x7F0E0024
-			public const int copy_toast_msg = 2131623972;
+			public const int chip_text = 2131623972;
 			
 			// aapt resource value: 0x7F0E0025
-			public const int error_icon_content_description = 2131623973;
+			public const int clear_text_end_icon_content_description = 2131623973;
 			
 			// aapt resource value: 0x7F0E0026
-			public const int expand_button_title = 2131623974;
+			public const int copy = 2131623974;
 			
 			// aapt resource value: 0x7F0E0027
-			public const int exposed_dropdown_menu_content_description = 2131623975;
+			public const int copy_toast_msg = 2131623975;
 			
 			// aapt resource value: 0x7F0E0028
-			public const int fab_transformation_scrim_behavior = 2131623976;
+			public const int error_icon_content_description = 2131623976;
 			
 			// aapt resource value: 0x7F0E0029
-			public const int fab_transformation_sheet_behavior = 2131623977;
+			public const int expand_button_title = 2131623977;
 			
 			// aapt resource value: 0x7F0E002A
-			public const int fallback_menu_item_copy_link = 2131623978;
+			public const int exposed_dropdown_menu_content_description = 2131623978;
 			
 			// aapt resource value: 0x7F0E002B
-			public const int fallback_menu_item_open_in_browser = 2131623979;
+			public const int fab_transformation_scrim_behavior = 2131623979;
 			
 			// aapt resource value: 0x7F0E002C
-			public const int fallback_menu_item_share_link = 2131623980;
+			public const int fab_transformation_sheet_behavior = 2131623980;
 			
 			// aapt resource value: 0x7F0E002D
-			public const int hide_bottom_view_on_scroll_behavior = 2131623981;
+			public const int fallback_menu_item_copy_link = 2131623981;
 			
 			// aapt resource value: 0x7F0E002E
-			public const int icon_content_description = 2131623982;
+			public const int fallback_menu_item_open_in_browser = 2131623982;
 			
 			// aapt resource value: 0x7F0E002F
-			public const int item_view_role_description = 2131623983;
+			public const int fallback_menu_item_share_link = 2131623983;
+			
+			// aapt resource value: 0x7F0E0001
+			public const int Hello = 2131623937;
 			
 			// aapt resource value: 0x7F0E0030
-			public const int material_clock_display_divider = 2131623984;
+			public const int hide_bottom_view_on_scroll_behavior = 2131623984;
 			
 			// aapt resource value: 0x7F0E0031
-			public const int material_clock_toggle_content_description = 2131623985;
+			public const int icon_content_description = 2131623985;
 			
 			// aapt resource value: 0x7F0E0032
-			public const int material_hour_selection = 2131623986;
+			public const int item_view_role_description = 2131623986;
+			
+			// aapt resource value: 0x7F0E0002
+			public const int Load_More = 2131623938;
 			
 			// aapt resource value: 0x7F0E0033
-			public const int material_hour_suffix = 2131623987;
+			public const int material_clock_display_divider = 2131623987;
 			
 			// aapt resource value: 0x7F0E0034
-			public const int material_minute_selection = 2131623988;
+			public const int material_clock_toggle_content_description = 2131623988;
 			
 			// aapt resource value: 0x7F0E0035
-			public const int material_minute_suffix = 2131623989;
+			public const int material_hour_selection = 2131623989;
 			
 			// aapt resource value: 0x7F0E0036
-			public const int material_motion_easing_accelerated = 2131623990;
+			public const int material_hour_suffix = 2131623990;
 			
 			// aapt resource value: 0x7F0E0037
-			public const int material_motion_easing_decelerated = 2131623991;
+			public const int material_minute_selection = 2131623991;
 			
 			// aapt resource value: 0x7F0E0038
-			public const int material_motion_easing_emphasized = 2131623992;
+			public const int material_minute_suffix = 2131623992;
 			
 			// aapt resource value: 0x7F0E0039
-			public const int material_motion_easing_linear = 2131623993;
+			public const int material_motion_easing_accelerated = 2131623993;
 			
 			// aapt resource value: 0x7F0E003A
-			public const int material_motion_easing_standard = 2131623994;
+			public const int material_motion_easing_decelerated = 2131623994;
 			
 			// aapt resource value: 0x7F0E003B
-			public const int material_slider_range_end = 2131623995;
+			public const int material_motion_easing_emphasized = 2131623995;
 			
 			// aapt resource value: 0x7F0E003C
-			public const int material_slider_range_start = 2131623996;
+			public const int material_motion_easing_linear = 2131623996;
 			
 			// aapt resource value: 0x7F0E003D
-			public const int material_timepicker_am = 2131623997;
+			public const int material_motion_easing_standard = 2131623997;
 			
 			// aapt resource value: 0x7F0E003E
-			public const int material_timepicker_clock_mode_description = 2131623998;
+			public const int material_slider_range_end = 2131623998;
 			
 			// aapt resource value: 0x7F0E003F
-			public const int material_timepicker_hour = 2131623999;
+			public const int material_slider_range_start = 2131623999;
 			
 			// aapt resource value: 0x7F0E0040
-			public const int material_timepicker_minute = 2131624000;
+			public const int material_timepicker_am = 2131624000;
 			
 			// aapt resource value: 0x7F0E0041
-			public const int material_timepicker_pm = 2131624001;
+			public const int material_timepicker_clock_mode_description = 2131624001;
 			
 			// aapt resource value: 0x7F0E0042
-			public const int material_timepicker_select_time = 2131624002;
+			public const int material_timepicker_hour = 2131624002;
 			
 			// aapt resource value: 0x7F0E0043
-			public const int material_timepicker_text_input_mode_description = 2131624003;
+			public const int material_timepicker_minute = 2131624003;
 			
 			// aapt resource value: 0x7F0E0044
-			public const int mtrl_badge_numberless_content_description = 2131624004;
+			public const int material_timepicker_pm = 2131624004;
 			
 			// aapt resource value: 0x7F0E0045
-			public const int mtrl_chip_close_icon_content_description = 2131624005;
+			public const int material_timepicker_select_time = 2131624005;
 			
 			// aapt resource value: 0x7F0E0046
-			public const int mtrl_exceed_max_badge_number_content_description = 2131624006;
+			public const int material_timepicker_text_input_mode_description = 2131624006;
 			
 			// aapt resource value: 0x7F0E0047
-			public const int mtrl_exceed_max_badge_number_suffix = 2131624007;
+			public const int mtrl_badge_numberless_content_description = 2131624007;
 			
 			// aapt resource value: 0x7F0E0048
-			public const int mtrl_picker_a11y_next_month = 2131624008;
+			public const int mtrl_chip_close_icon_content_description = 2131624008;
 			
 			// aapt resource value: 0x7F0E0049
-			public const int mtrl_picker_a11y_prev_month = 2131624009;
+			public const int mtrl_exceed_max_badge_number_content_description = 2131624009;
 			
 			// aapt resource value: 0x7F0E004A
-			public const int mtrl_picker_announce_current_selection = 2131624010;
+			public const int mtrl_exceed_max_badge_number_suffix = 2131624010;
 			
 			// aapt resource value: 0x7F0E004B
-			public const int mtrl_picker_cancel = 2131624011;
+			public const int mtrl_picker_a11y_next_month = 2131624011;
 			
 			// aapt resource value: 0x7F0E004C
-			public const int mtrl_picker_confirm = 2131624012;
+			public const int mtrl_picker_a11y_prev_month = 2131624012;
 			
 			// aapt resource value: 0x7F0E004D
-			public const int mtrl_picker_date_header_selected = 2131624013;
+			public const int mtrl_picker_announce_current_selection = 2131624013;
 			
 			// aapt resource value: 0x7F0E004E
-			public const int mtrl_picker_date_header_title = 2131624014;
+			public const int mtrl_picker_cancel = 2131624014;
 			
 			// aapt resource value: 0x7F0E004F
-			public const int mtrl_picker_date_header_unselected = 2131624015;
+			public const int mtrl_picker_confirm = 2131624015;
 			
 			// aapt resource value: 0x7F0E0050
-			public const int mtrl_picker_day_of_week_column_header = 2131624016;
+			public const int mtrl_picker_date_header_selected = 2131624016;
 			
 			// aapt resource value: 0x7F0E0051
-			public const int mtrl_picker_invalid_format = 2131624017;
+			public const int mtrl_picker_date_header_title = 2131624017;
 			
 			// aapt resource value: 0x7F0E0052
-			public const int mtrl_picker_invalid_format_example = 2131624018;
+			public const int mtrl_picker_date_header_unselected = 2131624018;
 			
 			// aapt resource value: 0x7F0E0053
-			public const int mtrl_picker_invalid_format_use = 2131624019;
+			public const int mtrl_picker_day_of_week_column_header = 2131624019;
 			
 			// aapt resource value: 0x7F0E0054
-			public const int mtrl_picker_invalid_range = 2131624020;
+			public const int mtrl_picker_invalid_format = 2131624020;
 			
 			// aapt resource value: 0x7F0E0055
-			public const int mtrl_picker_navigate_to_year_description = 2131624021;
+			public const int mtrl_picker_invalid_format_example = 2131624021;
 			
 			// aapt resource value: 0x7F0E0056
-			public const int mtrl_picker_out_of_range = 2131624022;
+			public const int mtrl_picker_invalid_format_use = 2131624022;
 			
 			// aapt resource value: 0x7F0E0057
-			public const int mtrl_picker_range_header_only_end_selected = 2131624023;
+			public const int mtrl_picker_invalid_range = 2131624023;
 			
 			// aapt resource value: 0x7F0E0058
-			public const int mtrl_picker_range_header_only_start_selected = 2131624024;
+			public const int mtrl_picker_navigate_to_year_description = 2131624024;
 			
 			// aapt resource value: 0x7F0E0059
-			public const int mtrl_picker_range_header_selected = 2131624025;
+			public const int mtrl_picker_out_of_range = 2131624025;
 			
 			// aapt resource value: 0x7F0E005A
-			public const int mtrl_picker_range_header_title = 2131624026;
+			public const int mtrl_picker_range_header_only_end_selected = 2131624026;
 			
 			// aapt resource value: 0x7F0E005B
-			public const int mtrl_picker_range_header_unselected = 2131624027;
+			public const int mtrl_picker_range_header_only_start_selected = 2131624027;
 			
 			// aapt resource value: 0x7F0E005C
-			public const int mtrl_picker_save = 2131624028;
+			public const int mtrl_picker_range_header_selected = 2131624028;
 			
 			// aapt resource value: 0x7F0E005D
-			public const int mtrl_picker_text_input_date_hint = 2131624029;
+			public const int mtrl_picker_range_header_title = 2131624029;
 			
 			// aapt resource value: 0x7F0E005E
-			public const int mtrl_picker_text_input_date_range_end_hint = 2131624030;
+			public const int mtrl_picker_range_header_unselected = 2131624030;
 			
 			// aapt resource value: 0x7F0E005F
-			public const int mtrl_picker_text_input_date_range_start_hint = 2131624031;
+			public const int mtrl_picker_save = 2131624031;
 			
 			// aapt resource value: 0x7F0E0060
-			public const int mtrl_picker_text_input_day_abbr = 2131624032;
+			public const int mtrl_picker_text_input_date_hint = 2131624032;
 			
 			// aapt resource value: 0x7F0E0061
-			public const int mtrl_picker_text_input_month_abbr = 2131624033;
+			public const int mtrl_picker_text_input_date_range_end_hint = 2131624033;
 			
 			// aapt resource value: 0x7F0E0062
-			public const int mtrl_picker_text_input_year_abbr = 2131624034;
+			public const int mtrl_picker_text_input_date_range_start_hint = 2131624034;
 			
 			// aapt resource value: 0x7F0E0063
-			public const int mtrl_picker_toggle_to_calendar_input_mode = 2131624035;
+			public const int mtrl_picker_text_input_day_abbr = 2131624035;
 			
 			// aapt resource value: 0x7F0E0064
-			public const int mtrl_picker_toggle_to_day_selection = 2131624036;
+			public const int mtrl_picker_text_input_month_abbr = 2131624036;
 			
 			// aapt resource value: 0x7F0E0065
-			public const int mtrl_picker_toggle_to_text_input_mode = 2131624037;
+			public const int mtrl_picker_text_input_year_abbr = 2131624037;
 			
 			// aapt resource value: 0x7F0E0066
-			public const int mtrl_picker_toggle_to_year_selection = 2131624038;
+			public const int mtrl_picker_toggle_to_calendar_input_mode = 2131624038;
 			
 			// aapt resource value: 0x7F0E0067
-			public const int nav_app_bar_navigate_up_description = 2131624039;
+			public const int mtrl_picker_toggle_to_day_selection = 2131624039;
 			
 			// aapt resource value: 0x7F0E0068
-			public const int nav_app_bar_open_drawer_description = 2131624040;
+			public const int mtrl_picker_toggle_to_text_input_mode = 2131624040;
 			
 			// aapt resource value: 0x7F0E0069
-			public const int not_set = 2131624041;
+			public const int mtrl_picker_toggle_to_year_selection = 2131624041;
 			
 			// aapt resource value: 0x7F0E006A
-			public const int overflow_tab_title = 2131624042;
+			public const int nav_app_bar_navigate_up_description = 2131624042;
 			
 			// aapt resource value: 0x7F0E006B
-			public const int password_toggle_content_description = 2131624043;
+			public const int nav_app_bar_open_drawer_description = 2131624043;
 			
 			// aapt resource value: 0x7F0E006C
-			public const int path_password_eye = 2131624044;
+			public const int not_set = 2131624044;
 			
 			// aapt resource value: 0x7F0E006D
-			public const int path_password_eye_mask_strike_through = 2131624045;
+			public const int overflow_tab_title = 2131624045;
 			
 			// aapt resource value: 0x7F0E006E
-			public const int path_password_eye_mask_visible = 2131624046;
+			public const int password_toggle_content_description = 2131624046;
 			
 			// aapt resource value: 0x7F0E006F
-			public const int path_password_strike_through = 2131624047;
+			public const int path_password_eye = 2131624047;
 			
 			// aapt resource value: 0x7F0E0070
-			public const int preference_copied = 2131624048;
+			public const int path_password_eye_mask_strike_through = 2131624048;
 			
 			// aapt resource value: 0x7F0E0071
-			public const int search_menu_title = 2131624049;
+			public const int path_password_eye_mask_visible = 2131624049;
 			
 			// aapt resource value: 0x7F0E0072
-			public const int status_bar_notification_info_overflow = 2131624050;
+			public const int path_password_strike_through = 2131624050;
 			
 			// aapt resource value: 0x7F0E0073
-			public const int summary_collapsed_preference_list = 2131624051;
+			public const int preference_copied = 2131624051;
 			
 			// aapt resource value: 0x7F0E0074
-			public const int v7_preference_off = 2131624052;
+			public const int search_menu_title = 2131624052;
 			
 			// aapt resource value: 0x7F0E0075
-			public const int v7_preference_on = 2131624053;
+			public const int status_bar_notification_info_overflow = 2131624053;
+			
+			// aapt resource value: 0x7F0E0076
+			public const int summary_collapsed_preference_list = 2131624054;
+			
+			// aapt resource value: 0x7F0E0077
+			public const int v7_preference_off = 2131624055;
+			
+			// aapt resource value: 0x7F0E0078
+			public const int v7_preference_on = 2131624056;
 			
 			static String()
 			{
