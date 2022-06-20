@@ -2,6 +2,10 @@
 <ContentPage xmlns="http://xamarin.com/schemas/2014/forms"
              xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
              x:Class="NutritionApp.Views.MealDetailPage"
+             xmlns:local="clr-namespace:NutritionApp.ViewModels"  
+             xmlns:model="clr-namespace:NutritionApp.Models"  
+             xmlns:combobox="clr-namespace:Syncfusion.XForms.ComboBox;assembly=Syncfusion.SfComboBox.XForms"
+             xmlns:ListCollection="clr-namespace:System.Collections.Generic;assembly=netstandard"
              Title="Meal Details">
     <StackLayout>
         
@@ -15,13 +19,20 @@
                 <ViewCell>
                     <StackLayout Orientation="Horizontal">
                         <Label Text="Ingredient: " Padding="15,10,10,0" />
-                        <Picker 
-                        x:Name="mealIngredientPicker"
-                        Title="Select Ingredients..."
-                        ItemsSource="{Binding Path=Ingredient}"
-                        ItemDisplayBinding="{Binding Path=Meal.Ingredient}"
-                        SelectedItem="onMealIngredientSelected"
+                        <!--<combobox:SfComboBox x:Name="combo"
+                                             DataSource="{Binding Ingredient}" DisplayMemberPath="Name">
+
+                            
+                        </combobox:SfComboBox>-->
+
+                        <Picker x:Name="mealIngredientPicker"
+                                Title="Select Ingredient..."
+                                ItemsSource="{Binding Ingredients}"
+                                ItemDisplayBinding="{Binding Name}"
+                                SelectedItem="onMealIngredientSelected"
                         />
+
+
                     </StackLayout>
                     
                 </ViewCell>

@@ -1,6 +1,7 @@
 ﻿using NutritionApp.Models;
 using NutritionApp.Persistence;
 using NutritionApp.Views;
+using System.Collections.Generic;
 using System.Collections.ObjectModel;
 using System.Linq;
 using System.Threading.Tasks;
@@ -32,6 +33,7 @@ namespace NutritionApp.ViewModels
                 SetValue(ref meals, value);
             }
         }
+
 
         public Meal SelectedMeal
         {

@@ -70,8 +70,8 @@ namespace NutritionApp.ViewModels
         // null profile
         private async Task EditProfile(Profile profile)
         {
-            //if (profile == null)
-            //    return;
+            if (profile == null)
+                return;
 
             await pageService.PushAsync(new ProfileDetailPage(profile));
         }

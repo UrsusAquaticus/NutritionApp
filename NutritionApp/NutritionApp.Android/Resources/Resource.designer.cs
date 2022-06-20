@@ -59,6 +59,3649 @@ namespace NutritionApp.Droid
 			global::Syncfusion.XForms.Android.Core.Resource.Drawable.inputlayout_togglecollapseicon = global::NutritionApp.Droid.Resource.Drawable.inputlayout_togglecollapseicon;
 			global::Syncfusion.XForms.Android.Core.Resource.Drawable.inputlayout_togglevisibleicon = global::NutritionApp.Droid.Resource.Drawable.inputlayout_togglevisibleicon;
 			global::Syncfusion.XForms.Android.Core.Resource.Drawable.clear_button_icon = global::NutritionApp.Droid.Resource.Drawable.clear_button_icon;
+			global::Syncfusion.XForms.Android.ComboBox.Resource.Animation.abc_fade_in = global::NutritionApp.Droid.Resource.Animation.abc_fade_in;
+			global::Syncfusion.XForms.Android.ComboBox.Resource.Animation.abc_fade_out = global::NutritionApp.Droid.Resource.Animation.abc_fade_out;
+			global::Syncfusion.XForms.Android.ComboBox.Resource.Animation.abc_grow_fade_in_from_bottom = global::NutritionApp.Droid.Resource.Animation.abc_grow_fade_in_from_bottom;
+			global::Syncfusion.XForms.Android.ComboBox.Resource.Animation.abc_popup_enter = global::NutritionApp.Droid.Resource.Animation.abc_popup_enter;
+			global::Syncfusion.XForms.Android.ComboBox.Resource.Animation.abc_popup_exit = global::NutritionApp.Droid.Resource.Animation.abc_popup_exit;
+			global::Syncfusion.XForms.Android.ComboBox.Resource.Animation.abc_shrink_fade_out_from_bottom = global::NutritionApp.Droid.Resource.Animation.abc_shrink_fade_out_from_bottom;
+			global::Syncfusion.XForms.Android.ComboBox.Resource.Animation.abc_slide_in_bottom = global::NutritionApp.Droid.Resource.Animation.abc_slide_in_bottom;
+			global::Syncfusion.XForms.Android.ComboBox.Resource.Animation.abc_slide_in_top = global::NutritionApp.Droid.Resource.Animation.abc_slide_in_top;
+			global::Syncfusion.XForms.Android.ComboBox.Resource.Animation.abc_slide_out_bottom = global::NutritionApp.Droid.Resource.Animation.abc_slide_out_bottom;
+			global::Syncfusion.XForms.Android.ComboBox.Resource.Animation.abc_slide_out_top = global::NutritionApp.Droid.Resource.Animation.abc_slide_out_top;
+			global::Syncfusion.XForms.Android.ComboBox.Resource.Animation.abc_tooltip_enter = global::NutritionApp.Droid.Resource.Animation.abc_tooltip_enter;
+			global::Syncfusion.XForms.Android.ComboBox.Resource.Animation.abc_tooltip_exit = global::NutritionApp.Droid.Resource.Animation.abc_tooltip_exit;
+			global::Syncfusion.XForms.Android.ComboBox.Resource.Animation.btn_checkbox_to_checked_box_inner_merged_animation = global::NutritionApp.Droid.Resource.Animation.btn_checkbox_to_checked_box_inner_merged_animation;
+			global::Syncfusion.XForms.Android.ComboBox.Resource.Animation.btn_checkbox_to_checked_box_outer_merged_animation = global::NutritionApp.Droid.Resource.Animation.btn_checkbox_to_checked_box_outer_merged_animation;
+			global::Syncfusion.XForms.Android.ComboBox.Resource.Animation.btn_checkbox_to_checked_icon_null_animation = global::NutritionApp.Droid.Resource.Animation.btn_checkbox_to_checked_icon_null_animation;
+			global::Syncfusion.XForms.Android.ComboBox.Resource.Animation.btn_checkbox_to_unchecked_box_inner_merged_animation = global::NutritionApp.Droid.Resource.Animation.btn_checkbox_to_unchecked_box_inner_merged_animation;
+			global::Syncfusion.XForms.Android.ComboBox.Resource.Animation.btn_checkbox_to_unchecked_check_path_merged_animation = global::NutritionApp.Droid.Resource.Animation.btn_checkbox_to_unchecked_check_path_merged_animation;
+			global::Syncfusion.XForms.Android.ComboBox.Resource.Animation.btn_checkbox_to_unchecked_icon_null_animation = global::NutritionApp.Droid.Resource.Animation.btn_checkbox_to_unchecked_icon_null_animation;
+			global::Syncfusion.XForms.Android.ComboBox.Resource.Animation.btn_radio_to_off_mtrl_dot_group_animation = global::NutritionApp.Droid.Resource.Animation.btn_radio_to_off_mtrl_dot_group_animation;
+			global::Syncfusion.XForms.Android.ComboBox.Resource.Animation.btn_radio_to_off_mtrl_ring_outer_animation = global::NutritionApp.Droid.Resource.Animation.btn_radio_to_off_mtrl_ring_outer_animation;
+			global::Syncfusion.XForms.Android.ComboBox.Resource.Animation.btn_radio_to_off_mtrl_ring_outer_path_animation = global::NutritionApp.Droid.Resource.Animation.btn_radio_to_off_mtrl_ring_outer_path_animation;
+			global::Syncfusion.XForms.Android.ComboBox.Resource.Animation.btn_radio_to_on_mtrl_dot_group_animation = global::NutritionApp.Droid.Resource.Animation.btn_radio_to_on_mtrl_dot_group_animation;
+			global::Syncfusion.XForms.Android.ComboBox.Resource.Animation.btn_radio_to_on_mtrl_ring_outer_animation = global::NutritionApp.Droid.Resource.Animation.btn_radio_to_on_mtrl_ring_outer_animation;
+			global::Syncfusion.XForms.Android.ComboBox.Resource.Animation.btn_radio_to_on_mtrl_ring_outer_path_animation = global::NutritionApp.Droid.Resource.Animation.btn_radio_to_on_mtrl_ring_outer_path_animation;
+			global::Syncfusion.XForms.Android.ComboBox.Resource.Animation.design_bottom_sheet_slide_in = global::NutritionApp.Droid.Resource.Animation.design_bottom_sheet_slide_in;
+			global::Syncfusion.XForms.Android.ComboBox.Resource.Animation.design_bottom_sheet_slide_out = global::NutritionApp.Droid.Resource.Animation.design_bottom_sheet_slide_out;
+			global::Syncfusion.XForms.Android.ComboBox.Resource.Animation.design_snackbar_in = global::NutritionApp.Droid.Resource.Animation.design_snackbar_in;
+			global::Syncfusion.XForms.Android.ComboBox.Resource.Animation.design_snackbar_out = global::NutritionApp.Droid.Resource.Animation.design_snackbar_out;
+			global::Syncfusion.XForms.Android.ComboBox.Resource.Animation.EnterFromLeft = global::NutritionApp.Droid.Resource.Animation.EnterFromLeft;
+			global::Syncfusion.XForms.Android.ComboBox.Resource.Animation.EnterFromRight = global::NutritionApp.Droid.Resource.Animation.EnterFromRight;
+			global::Syncfusion.XForms.Android.ComboBox.Resource.Animation.ExitToLeft = global::NutritionApp.Droid.Resource.Animation.ExitToLeft;
+			global::Syncfusion.XForms.Android.ComboBox.Resource.Animation.ExitToRight = global::NutritionApp.Droid.Resource.Animation.ExitToRight;
+			global::Syncfusion.XForms.Android.ComboBox.Resource.Animation.fragment_fast_out_extra_slow_in = global::NutritionApp.Droid.Resource.Animation.fragment_fast_out_extra_slow_in;
+			global::Syncfusion.XForms.Android.ComboBox.Resource.Animation.mtrl_bottom_sheet_slide_in = global::NutritionApp.Droid.Resource.Animation.mtrl_bottom_sheet_slide_in;
+			global::Syncfusion.XForms.Android.ComboBox.Resource.Animation.mtrl_bottom_sheet_slide_out = global::NutritionApp.Droid.Resource.Animation.mtrl_bottom_sheet_slide_out;
+			global::Syncfusion.XForms.Android.ComboBox.Resource.Animation.mtrl_card_lowers_interpolator = global::NutritionApp.Droid.Resource.Animation.mtrl_card_lowers_interpolator;
+			global::Syncfusion.XForms.Android.ComboBox.Resource.Animator.design_appbar_state_list_animator = global::NutritionApp.Droid.Resource.Animator.design_appbar_state_list_animator;
+			global::Syncfusion.XForms.Android.ComboBox.Resource.Animator.design_fab_hide_motion_spec = global::NutritionApp.Droid.Resource.Animator.design_fab_hide_motion_spec;
+			global::Syncfusion.XForms.Android.ComboBox.Resource.Animator.design_fab_show_motion_spec = global::NutritionApp.Droid.Resource.Animator.design_fab_show_motion_spec;
+			global::Syncfusion.XForms.Android.ComboBox.Resource.Animator.mtrl_btn_state_list_anim = global::NutritionApp.Droid.Resource.Animator.mtrl_btn_state_list_anim;
+			global::Syncfusion.XForms.Android.ComboBox.Resource.Animator.mtrl_btn_unelevated_state_list_anim = global::NutritionApp.Droid.Resource.Animator.mtrl_btn_unelevated_state_list_anim;
+			global::Syncfusion.XForms.Android.ComboBox.Resource.Animator.mtrl_card_state_list_anim = global::NutritionApp.Droid.Resource.Animator.mtrl_card_state_list_anim;
+			global::Syncfusion.XForms.Android.ComboBox.Resource.Animator.mtrl_chip_state_list_anim = global::NutritionApp.Droid.Resource.Animator.mtrl_chip_state_list_anim;
+			global::Syncfusion.XForms.Android.ComboBox.Resource.Animator.mtrl_extended_fab_hide_motion_spec = global::NutritionApp.Droid.Resource.Animator.mtrl_extended_fab_hide_motion_spec;
+			global::Syncfusion.XForms.Android.ComboBox.Resource.Animator.mtrl_extended_fab_show_motion_spec = global::NutritionApp.Droid.Resource.Animator.mtrl_extended_fab_show_motion_spec;
+			global::Syncfusion.XForms.Android.ComboBox.Resource.Animator.mtrl_extended_fab_state_list_animator = global::NutritionApp.Droid.Resource.Animator.mtrl_extended_fab_state_list_animator;
+			global::Syncfusion.XForms.Android.ComboBox.Resource.Animator.mtrl_fab_hide_motion_spec = global::NutritionApp.Droid.Resource.Animator.mtrl_fab_hide_motion_spec;
+			global::Syncfusion.XForms.Android.ComboBox.Resource.Animator.mtrl_fab_show_motion_spec = global::NutritionApp.Droid.Resource.Animator.mtrl_fab_show_motion_spec;
+			global::Syncfusion.XForms.Android.ComboBox.Resource.Animator.mtrl_fab_transformation_sheet_collapse_spec = global::NutritionApp.Droid.Resource.Animator.mtrl_fab_transformation_sheet_collapse_spec;
+			global::Syncfusion.XForms.Android.ComboBox.Resource.Animator.mtrl_fab_transformation_sheet_expand_spec = global::NutritionApp.Droid.Resource.Animator.mtrl_fab_transformation_sheet_expand_spec;
+			global::Syncfusion.XForms.Android.ComboBox.Resource.Attribute.actionBarDivider = global::NutritionApp.Droid.Resource.Attribute.actionBarDivider;
+			global::Syncfusion.XForms.Android.ComboBox.Resource.Attribute.actionBarItemBackground = global::NutritionApp.Droid.Resource.Attribute.actionBarItemBackground;
+			global::Syncfusion.XForms.Android.ComboBox.Resource.Attribute.actionBarPopupTheme = global::NutritionApp.Droid.Resource.Attribute.actionBarPopupTheme;
+			global::Syncfusion.XForms.Android.ComboBox.Resource.Attribute.actionBarSize = global::NutritionApp.Droid.Resource.Attribute.actionBarSize;
+			global::Syncfusion.XForms.Android.ComboBox.Resource.Attribute.actionBarSplitStyle = global::NutritionApp.Droid.Resource.Attribute.actionBarSplitStyle;
+			global::Syncfusion.XForms.Android.ComboBox.Resource.Attribute.actionBarStyle = global::NutritionApp.Droid.Resource.Attribute.actionBarStyle;
+			global::Syncfusion.XForms.Android.ComboBox.Resource.Attribute.actionBarTabBarStyle = global::NutritionApp.Droid.Resource.Attribute.actionBarTabBarStyle;
+			global::Syncfusion.XForms.Android.ComboBox.Resource.Attribute.actionBarTabStyle = global::NutritionApp.Droid.Resource.Attribute.actionBarTabStyle;
+			global::Syncfusion.XForms.Android.ComboBox.Resource.Attribute.actionBarTabTextStyle = global::NutritionApp.Droid.Resource.Attribute.actionBarTabTextStyle;
+			global::Syncfusion.XForms.Android.ComboBox.Resource.Attribute.actionBarTheme = global::NutritionApp.Droid.Resource.Attribute.actionBarTheme;
+			global::Syncfusion.XForms.Android.ComboBox.Resource.Attribute.actionBarWidgetTheme = global::NutritionApp.Droid.Resource.Attribute.actionBarWidgetTheme;
+			global::Syncfusion.XForms.Android.ComboBox.Resource.Attribute.actionButtonStyle = global::NutritionApp.Droid.Resource.Attribute.actionButtonStyle;
+			global::Syncfusion.XForms.Android.ComboBox.Resource.Attribute.actionDropDownStyle = global::NutritionApp.Droid.Resource.Attribute.actionDropDownStyle;
+			global::Syncfusion.XForms.Android.ComboBox.Resource.Attribute.actionLayout = global::NutritionApp.Droid.Resource.Attribute.actionLayout;
+			global::Syncfusion.XForms.Android.ComboBox.Resource.Attribute.actionMenuTextAppearance = global::NutritionApp.Droid.Resource.Attribute.actionMenuTextAppearance;
+			global::Syncfusion.XForms.Android.ComboBox.Resource.Attribute.actionMenuTextColor = global::NutritionApp.Droid.Resource.Attribute.actionMenuTextColor;
+			global::Syncfusion.XForms.Android.ComboBox.Resource.Attribute.actionModeBackground = global::NutritionApp.Droid.Resource.Attribute.actionModeBackground;
+			global::Syncfusion.XForms.Android.ComboBox.Resource.Attribute.actionModeCloseButtonStyle = global::NutritionApp.Droid.Resource.Attribute.actionModeCloseButtonStyle;
+			global::Syncfusion.XForms.Android.ComboBox.Resource.Attribute.actionModeCloseDrawable = global::NutritionApp.Droid.Resource.Attribute.actionModeCloseDrawable;
+			global::Syncfusion.XForms.Android.ComboBox.Resource.Attribute.actionModeCopyDrawable = global::NutritionApp.Droid.Resource.Attribute.actionModeCopyDrawable;
+			global::Syncfusion.XForms.Android.ComboBox.Resource.Attribute.actionModeCutDrawable = global::NutritionApp.Droid.Resource.Attribute.actionModeCutDrawable;
+			global::Syncfusion.XForms.Android.ComboBox.Resource.Attribute.actionModeFindDrawable = global::NutritionApp.Droid.Resource.Attribute.actionModeFindDrawable;
+			global::Syncfusion.XForms.Android.ComboBox.Resource.Attribute.actionModePasteDrawable = global::NutritionApp.Droid.Resource.Attribute.actionModePasteDrawable;
+			global::Syncfusion.XForms.Android.ComboBox.Resource.Attribute.actionModePopupWindowStyle = global::NutritionApp.Droid.Resource.Attribute.actionModePopupWindowStyle;
+			global::Syncfusion.XForms.Android.ComboBox.Resource.Attribute.actionModeSelectAllDrawable = global::NutritionApp.Droid.Resource.Attribute.actionModeSelectAllDrawable;
+			global::Syncfusion.XForms.Android.ComboBox.Resource.Attribute.actionModeShareDrawable = global::NutritionApp.Droid.Resource.Attribute.actionModeShareDrawable;
+			global::Syncfusion.XForms.Android.ComboBox.Resource.Attribute.actionModeSplitBackground = global::NutritionApp.Droid.Resource.Attribute.actionModeSplitBackground;
+			global::Syncfusion.XForms.Android.ComboBox.Resource.Attribute.actionModeStyle = global::NutritionApp.Droid.Resource.Attribute.actionModeStyle;
+			global::Syncfusion.XForms.Android.ComboBox.Resource.Attribute.actionModeWebSearchDrawable = global::NutritionApp.Droid.Resource.Attribute.actionModeWebSearchDrawable;
+			global::Syncfusion.XForms.Android.ComboBox.Resource.Attribute.actionOverflowButtonStyle = global::NutritionApp.Droid.Resource.Attribute.actionOverflowButtonStyle;
+			global::Syncfusion.XForms.Android.ComboBox.Resource.Attribute.actionOverflowMenuStyle = global::NutritionApp.Droid.Resource.Attribute.actionOverflowMenuStyle;
+			global::Syncfusion.XForms.Android.ComboBox.Resource.Attribute.actionProviderClass = global::NutritionApp.Droid.Resource.Attribute.actionProviderClass;
+			global::Syncfusion.XForms.Android.ComboBox.Resource.Attribute.actionTextColorAlpha = global::NutritionApp.Droid.Resource.Attribute.actionTextColorAlpha;
+			global::Syncfusion.XForms.Android.ComboBox.Resource.Attribute.actionViewClass = global::NutritionApp.Droid.Resource.Attribute.actionViewClass;
+			global::Syncfusion.XForms.Android.ComboBox.Resource.Attribute.activityChooserViewStyle = global::NutritionApp.Droid.Resource.Attribute.activityChooserViewStyle;
+			global::Syncfusion.XForms.Android.ComboBox.Resource.Attribute.alertDialogButtonGroupStyle = global::NutritionApp.Droid.Resource.Attribute.alertDialogButtonGroupStyle;
+			global::Syncfusion.XForms.Android.ComboBox.Resource.Attribute.alertDialogCenterButtons = global::NutritionApp.Droid.Resource.Attribute.alertDialogCenterButtons;
+			global::Syncfusion.XForms.Android.ComboBox.Resource.Attribute.alertDialogStyle = global::NutritionApp.Droid.Resource.Attribute.alertDialogStyle;
+			global::Syncfusion.XForms.Android.ComboBox.Resource.Attribute.alertDialogTheme = global::NutritionApp.Droid.Resource.Attribute.alertDialogTheme;
+			global::Syncfusion.XForms.Android.ComboBox.Resource.Attribute.allowStacking = global::NutritionApp.Droid.Resource.Attribute.allowStacking;
+			global::Syncfusion.XForms.Android.ComboBox.Resource.Attribute.alpha = global::NutritionApp.Droid.Resource.Attribute.alpha;
+			global::Syncfusion.XForms.Android.ComboBox.Resource.Attribute.alphabeticModifiers = global::NutritionApp.Droid.Resource.Attribute.alphabeticModifiers;
+			global::Syncfusion.XForms.Android.ComboBox.Resource.Attribute.animationMode = global::NutritionApp.Droid.Resource.Attribute.animationMode;
+			global::Syncfusion.XForms.Android.ComboBox.Resource.Attribute.appBarLayoutStyle = global::NutritionApp.Droid.Resource.Attribute.appBarLayoutStyle;
+			global::Syncfusion.XForms.Android.ComboBox.Resource.Attribute.arrowHeadLength = global::NutritionApp.Droid.Resource.Attribute.arrowHeadLength;
+			global::Syncfusion.XForms.Android.ComboBox.Resource.Attribute.arrowShaftLength = global::NutritionApp.Droid.Resource.Attribute.arrowShaftLength;
+			global::Syncfusion.XForms.Android.ComboBox.Resource.Attribute.autoCompleteTextViewStyle = global::NutritionApp.Droid.Resource.Attribute.autoCompleteTextViewStyle;
+			global::Syncfusion.XForms.Android.ComboBox.Resource.Attribute.autoSizeMaxTextSize = global::NutritionApp.Droid.Resource.Attribute.autoSizeMaxTextSize;
+			global::Syncfusion.XForms.Android.ComboBox.Resource.Attribute.autoSizeMinTextSize = global::NutritionApp.Droid.Resource.Attribute.autoSizeMinTextSize;
+			global::Syncfusion.XForms.Android.ComboBox.Resource.Attribute.autoSizePresetSizes = global::NutritionApp.Droid.Resource.Attribute.autoSizePresetSizes;
+			global::Syncfusion.XForms.Android.ComboBox.Resource.Attribute.autoSizeStepGranularity = global::NutritionApp.Droid.Resource.Attribute.autoSizeStepGranularity;
+			global::Syncfusion.XForms.Android.ComboBox.Resource.Attribute.autoSizeTextType = global::NutritionApp.Droid.Resource.Attribute.autoSizeTextType;
+			global::Syncfusion.XForms.Android.ComboBox.Resource.Attribute.background = global::NutritionApp.Droid.Resource.Attribute.background;
+			global::Syncfusion.XForms.Android.ComboBox.Resource.Attribute.backgroundColor = global::NutritionApp.Droid.Resource.Attribute.backgroundColor;
+			global::Syncfusion.XForms.Android.ComboBox.Resource.Attribute.backgroundInsetBottom = global::NutritionApp.Droid.Resource.Attribute.backgroundInsetBottom;
+			global::Syncfusion.XForms.Android.ComboBox.Resource.Attribute.backgroundInsetEnd = global::NutritionApp.Droid.Resource.Attribute.backgroundInsetEnd;
+			global::Syncfusion.XForms.Android.ComboBox.Resource.Attribute.backgroundInsetStart = global::NutritionApp.Droid.Resource.Attribute.backgroundInsetStart;
+			global::Syncfusion.XForms.Android.ComboBox.Resource.Attribute.backgroundInsetTop = global::NutritionApp.Droid.Resource.Attribute.backgroundInsetTop;
+			global::Syncfusion.XForms.Android.ComboBox.Resource.Attribute.backgroundOverlayColorAlpha = global::NutritionApp.Droid.Resource.Attribute.backgroundOverlayColorAlpha;
+			global::Syncfusion.XForms.Android.ComboBox.Resource.Attribute.backgroundSplit = global::NutritionApp.Droid.Resource.Attribute.backgroundSplit;
+			global::Syncfusion.XForms.Android.ComboBox.Resource.Attribute.backgroundStacked = global::NutritionApp.Droid.Resource.Attribute.backgroundStacked;
+			global::Syncfusion.XForms.Android.ComboBox.Resource.Attribute.backgroundTint = global::NutritionApp.Droid.Resource.Attribute.backgroundTint;
+			global::Syncfusion.XForms.Android.ComboBox.Resource.Attribute.backgroundTintMode = global::NutritionApp.Droid.Resource.Attribute.backgroundTintMode;
+			global::Syncfusion.XForms.Android.ComboBox.Resource.Attribute.badgeGravity = global::NutritionApp.Droid.Resource.Attribute.badgeGravity;
+			global::Syncfusion.XForms.Android.ComboBox.Resource.Attribute.badgeStyle = global::NutritionApp.Droid.Resource.Attribute.badgeStyle;
+			global::Syncfusion.XForms.Android.ComboBox.Resource.Attribute.badgeTextColor = global::NutritionApp.Droid.Resource.Attribute.badgeTextColor;
+			global::Syncfusion.XForms.Android.ComboBox.Resource.Attribute.barLength = global::NutritionApp.Droid.Resource.Attribute.barLength;
+			global::Syncfusion.XForms.Android.ComboBox.Resource.Attribute.behavior_autoHide = global::NutritionApp.Droid.Resource.Attribute.behavior_autoHide;
+			global::Syncfusion.XForms.Android.ComboBox.Resource.Attribute.behavior_autoShrink = global::NutritionApp.Droid.Resource.Attribute.behavior_autoShrink;
+			global::Syncfusion.XForms.Android.ComboBox.Resource.Attribute.behavior_draggable = global::NutritionApp.Droid.Resource.Attribute.behavior_draggable;
+			global::Syncfusion.XForms.Android.ComboBox.Resource.Attribute.behavior_expandedOffset = global::NutritionApp.Droid.Resource.Attribute.behavior_expandedOffset;
+			global::Syncfusion.XForms.Android.ComboBox.Resource.Attribute.behavior_fitToContents = global::NutritionApp.Droid.Resource.Attribute.behavior_fitToContents;
+			global::Syncfusion.XForms.Android.ComboBox.Resource.Attribute.behavior_halfExpandedRatio = global::NutritionApp.Droid.Resource.Attribute.behavior_halfExpandedRatio;
+			global::Syncfusion.XForms.Android.ComboBox.Resource.Attribute.behavior_hideable = global::NutritionApp.Droid.Resource.Attribute.behavior_hideable;
+			global::Syncfusion.XForms.Android.ComboBox.Resource.Attribute.behavior_overlapTop = global::NutritionApp.Droid.Resource.Attribute.behavior_overlapTop;
+			global::Syncfusion.XForms.Android.ComboBox.Resource.Attribute.behavior_peekHeight = global::NutritionApp.Droid.Resource.Attribute.behavior_peekHeight;
+			global::Syncfusion.XForms.Android.ComboBox.Resource.Attribute.behavior_saveFlags = global::NutritionApp.Droid.Resource.Attribute.behavior_saveFlags;
+			global::Syncfusion.XForms.Android.ComboBox.Resource.Attribute.behavior_skipCollapsed = global::NutritionApp.Droid.Resource.Attribute.behavior_skipCollapsed;
+			global::Syncfusion.XForms.Android.ComboBox.Resource.Attribute.borderlessButtonStyle = global::NutritionApp.Droid.Resource.Attribute.borderlessButtonStyle;
+			global::Syncfusion.XForms.Android.ComboBox.Resource.Attribute.borderWidth = global::NutritionApp.Droid.Resource.Attribute.borderWidth;
+			global::Syncfusion.XForms.Android.ComboBox.Resource.Attribute.bottomAppBarStyle = global::NutritionApp.Droid.Resource.Attribute.bottomAppBarStyle;
+			global::Syncfusion.XForms.Android.ComboBox.Resource.Attribute.bottomNavigationStyle = global::NutritionApp.Droid.Resource.Attribute.bottomNavigationStyle;
+			global::Syncfusion.XForms.Android.ComboBox.Resource.Attribute.bottomSheetDialogTheme = global::NutritionApp.Droid.Resource.Attribute.bottomSheetDialogTheme;
+			global::Syncfusion.XForms.Android.ComboBox.Resource.Attribute.bottomSheetStyle = global::NutritionApp.Droid.Resource.Attribute.bottomSheetStyle;
+			global::Syncfusion.XForms.Android.ComboBox.Resource.Attribute.boxBackgroundColor = global::NutritionApp.Droid.Resource.Attribute.boxBackgroundColor;
+			global::Syncfusion.XForms.Android.ComboBox.Resource.Attribute.boxBackgroundMode = global::NutritionApp.Droid.Resource.Attribute.boxBackgroundMode;
+			global::Syncfusion.XForms.Android.ComboBox.Resource.Attribute.boxCollapsedPaddingTop = global::NutritionApp.Droid.Resource.Attribute.boxCollapsedPaddingTop;
+			global::Syncfusion.XForms.Android.ComboBox.Resource.Attribute.boxCornerRadiusBottomEnd = global::NutritionApp.Droid.Resource.Attribute.boxCornerRadiusBottomEnd;
+			global::Syncfusion.XForms.Android.ComboBox.Resource.Attribute.boxCornerRadiusBottomStart = global::NutritionApp.Droid.Resource.Attribute.boxCornerRadiusBottomStart;
+			global::Syncfusion.XForms.Android.ComboBox.Resource.Attribute.boxCornerRadiusTopEnd = global::NutritionApp.Droid.Resource.Attribute.boxCornerRadiusTopEnd;
+			global::Syncfusion.XForms.Android.ComboBox.Resource.Attribute.boxCornerRadiusTopStart = global::NutritionApp.Droid.Resource.Attribute.boxCornerRadiusTopStart;
+			global::Syncfusion.XForms.Android.ComboBox.Resource.Attribute.boxStrokeColor = global::NutritionApp.Droid.Resource.Attribute.boxStrokeColor;
+			global::Syncfusion.XForms.Android.ComboBox.Resource.Attribute.boxStrokeErrorColor = global::NutritionApp.Droid.Resource.Attribute.boxStrokeErrorColor;
+			global::Syncfusion.XForms.Android.ComboBox.Resource.Attribute.boxStrokeWidth = global::NutritionApp.Droid.Resource.Attribute.boxStrokeWidth;
+			global::Syncfusion.XForms.Android.ComboBox.Resource.Attribute.boxStrokeWidthFocused = global::NutritionApp.Droid.Resource.Attribute.boxStrokeWidthFocused;
+			global::Syncfusion.XForms.Android.ComboBox.Resource.Attribute.buttonBarButtonStyle = global::NutritionApp.Droid.Resource.Attribute.buttonBarButtonStyle;
+			global::Syncfusion.XForms.Android.ComboBox.Resource.Attribute.buttonBarNegativeButtonStyle = global::NutritionApp.Droid.Resource.Attribute.buttonBarNegativeButtonStyle;
+			global::Syncfusion.XForms.Android.ComboBox.Resource.Attribute.buttonBarNeutralButtonStyle = global::NutritionApp.Droid.Resource.Attribute.buttonBarNeutralButtonStyle;
+			global::Syncfusion.XForms.Android.ComboBox.Resource.Attribute.buttonBarPositiveButtonStyle = global::NutritionApp.Droid.Resource.Attribute.buttonBarPositiveButtonStyle;
+			global::Syncfusion.XForms.Android.ComboBox.Resource.Attribute.buttonBarStyle = global::NutritionApp.Droid.Resource.Attribute.buttonBarStyle;
+			global::Syncfusion.XForms.Android.ComboBox.Resource.Attribute.buttonCompat = global::NutritionApp.Droid.Resource.Attribute.buttonCompat;
+			global::Syncfusion.XForms.Android.ComboBox.Resource.Attribute.buttonGravity = global::NutritionApp.Droid.Resource.Attribute.buttonGravity;
+			global::Syncfusion.XForms.Android.ComboBox.Resource.Attribute.buttonIconDimen = global::NutritionApp.Droid.Resource.Attribute.buttonIconDimen;
+			global::Syncfusion.XForms.Android.ComboBox.Resource.Attribute.buttonPanelSideLayout = global::NutritionApp.Droid.Resource.Attribute.buttonPanelSideLayout;
+			global::Syncfusion.XForms.Android.ComboBox.Resource.Attribute.buttonStyle = global::NutritionApp.Droid.Resource.Attribute.buttonStyle;
+			global::Syncfusion.XForms.Android.ComboBox.Resource.Attribute.buttonStyleSmall = global::NutritionApp.Droid.Resource.Attribute.buttonStyleSmall;
+			global::Syncfusion.XForms.Android.ComboBox.Resource.Attribute.buttonTint = global::NutritionApp.Droid.Resource.Attribute.buttonTint;
+			global::Syncfusion.XForms.Android.ComboBox.Resource.Attribute.buttonTintMode = global::NutritionApp.Droid.Resource.Attribute.buttonTintMode;
+			global::Syncfusion.XForms.Android.ComboBox.Resource.Attribute.cardBackgroundColor = global::NutritionApp.Droid.Resource.Attribute.cardBackgroundColor;
+			global::Syncfusion.XForms.Android.ComboBox.Resource.Attribute.cardCornerRadius = global::NutritionApp.Droid.Resource.Attribute.cardCornerRadius;
+			global::Syncfusion.XForms.Android.ComboBox.Resource.Attribute.cardElevation = global::NutritionApp.Droid.Resource.Attribute.cardElevation;
+			global::Syncfusion.XForms.Android.ComboBox.Resource.Attribute.cardForegroundColor = global::NutritionApp.Droid.Resource.Attribute.cardForegroundColor;
+			global::Syncfusion.XForms.Android.ComboBox.Resource.Attribute.cardMaxElevation = global::NutritionApp.Droid.Resource.Attribute.cardMaxElevation;
+			global::Syncfusion.XForms.Android.ComboBox.Resource.Attribute.cardPreventCornerOverlap = global::NutritionApp.Droid.Resource.Attribute.cardPreventCornerOverlap;
+			global::Syncfusion.XForms.Android.ComboBox.Resource.Attribute.cardUseCompatPadding = global::NutritionApp.Droid.Resource.Attribute.cardUseCompatPadding;
+			global::Syncfusion.XForms.Android.ComboBox.Resource.Attribute.cardViewStyle = global::NutritionApp.Droid.Resource.Attribute.cardViewStyle;
+			global::Syncfusion.XForms.Android.ComboBox.Resource.Attribute.checkboxStyle = global::NutritionApp.Droid.Resource.Attribute.checkboxStyle;
+			global::Syncfusion.XForms.Android.ComboBox.Resource.Attribute.checkedButton = global::NutritionApp.Droid.Resource.Attribute.checkedButton;
+			global::Syncfusion.XForms.Android.ComboBox.Resource.Attribute.checkedChip = global::NutritionApp.Droid.Resource.Attribute.checkedChip;
+			global::Syncfusion.XForms.Android.ComboBox.Resource.Attribute.checkedIcon = global::NutritionApp.Droid.Resource.Attribute.checkedIcon;
+			global::Syncfusion.XForms.Android.ComboBox.Resource.Attribute.checkedIconEnabled = global::NutritionApp.Droid.Resource.Attribute.checkedIconEnabled;
+			global::Syncfusion.XForms.Android.ComboBox.Resource.Attribute.checkedIconTint = global::NutritionApp.Droid.Resource.Attribute.checkedIconTint;
+			global::Syncfusion.XForms.Android.ComboBox.Resource.Attribute.checkedIconVisible = global::NutritionApp.Droid.Resource.Attribute.checkedIconVisible;
+			global::Syncfusion.XForms.Android.ComboBox.Resource.Attribute.checkedTextViewStyle = global::NutritionApp.Droid.Resource.Attribute.checkedTextViewStyle;
+			global::Syncfusion.XForms.Android.ComboBox.Resource.Attribute.chipBackgroundColor = global::NutritionApp.Droid.Resource.Attribute.chipBackgroundColor;
+			global::Syncfusion.XForms.Android.ComboBox.Resource.Attribute.chipCornerRadius = global::NutritionApp.Droid.Resource.Attribute.chipCornerRadius;
+			global::Syncfusion.XForms.Android.ComboBox.Resource.Attribute.chipEndPadding = global::NutritionApp.Droid.Resource.Attribute.chipEndPadding;
+			global::Syncfusion.XForms.Android.ComboBox.Resource.Attribute.chipGroupStyle = global::NutritionApp.Droid.Resource.Attribute.chipGroupStyle;
+			global::Syncfusion.XForms.Android.ComboBox.Resource.Attribute.chipIcon = global::NutritionApp.Droid.Resource.Attribute.chipIcon;
+			global::Syncfusion.XForms.Android.ComboBox.Resource.Attribute.chipIconEnabled = global::NutritionApp.Droid.Resource.Attribute.chipIconEnabled;
+			global::Syncfusion.XForms.Android.ComboBox.Resource.Attribute.chipIconSize = global::NutritionApp.Droid.Resource.Attribute.chipIconSize;
+			global::Syncfusion.XForms.Android.ComboBox.Resource.Attribute.chipIconTint = global::NutritionApp.Droid.Resource.Attribute.chipIconTint;
+			global::Syncfusion.XForms.Android.ComboBox.Resource.Attribute.chipIconVisible = global::NutritionApp.Droid.Resource.Attribute.chipIconVisible;
+			global::Syncfusion.XForms.Android.ComboBox.Resource.Attribute.chipMinHeight = global::NutritionApp.Droid.Resource.Attribute.chipMinHeight;
+			global::Syncfusion.XForms.Android.ComboBox.Resource.Attribute.chipMinTouchTargetSize = global::NutritionApp.Droid.Resource.Attribute.chipMinTouchTargetSize;
+			global::Syncfusion.XForms.Android.ComboBox.Resource.Attribute.chipSpacing = global::NutritionApp.Droid.Resource.Attribute.chipSpacing;
+			global::Syncfusion.XForms.Android.ComboBox.Resource.Attribute.chipSpacingHorizontal = global::NutritionApp.Droid.Resource.Attribute.chipSpacingHorizontal;
+			global::Syncfusion.XForms.Android.ComboBox.Resource.Attribute.chipSpacingVertical = global::NutritionApp.Droid.Resource.Attribute.chipSpacingVertical;
+			global::Syncfusion.XForms.Android.ComboBox.Resource.Attribute.chipStandaloneStyle = global::NutritionApp.Droid.Resource.Attribute.chipStandaloneStyle;
+			global::Syncfusion.XForms.Android.ComboBox.Resource.Attribute.chipStartPadding = global::NutritionApp.Droid.Resource.Attribute.chipStartPadding;
+			global::Syncfusion.XForms.Android.ComboBox.Resource.Attribute.chipStrokeColor = global::NutritionApp.Droid.Resource.Attribute.chipStrokeColor;
+			global::Syncfusion.XForms.Android.ComboBox.Resource.Attribute.chipStrokeWidth = global::NutritionApp.Droid.Resource.Attribute.chipStrokeWidth;
+			global::Syncfusion.XForms.Android.ComboBox.Resource.Attribute.chipStyle = global::NutritionApp.Droid.Resource.Attribute.chipStyle;
+			global::Syncfusion.XForms.Android.ComboBox.Resource.Attribute.chipSurfaceColor = global::NutritionApp.Droid.Resource.Attribute.chipSurfaceColor;
+			global::Syncfusion.XForms.Android.ComboBox.Resource.Attribute.closeIcon = global::NutritionApp.Droid.Resource.Attribute.closeIcon;
+			global::Syncfusion.XForms.Android.ComboBox.Resource.Attribute.closeIconEnabled = global::NutritionApp.Droid.Resource.Attribute.closeIconEnabled;
+			global::Syncfusion.XForms.Android.ComboBox.Resource.Attribute.closeIconEndPadding = global::NutritionApp.Droid.Resource.Attribute.closeIconEndPadding;
+			global::Syncfusion.XForms.Android.ComboBox.Resource.Attribute.closeIconSize = global::NutritionApp.Droid.Resource.Attribute.closeIconSize;
+			global::Syncfusion.XForms.Android.ComboBox.Resource.Attribute.closeIconStartPadding = global::NutritionApp.Droid.Resource.Attribute.closeIconStartPadding;
+			global::Syncfusion.XForms.Android.ComboBox.Resource.Attribute.closeIconTint = global::NutritionApp.Droid.Resource.Attribute.closeIconTint;
+			global::Syncfusion.XForms.Android.ComboBox.Resource.Attribute.closeIconVisible = global::NutritionApp.Droid.Resource.Attribute.closeIconVisible;
+			global::Syncfusion.XForms.Android.ComboBox.Resource.Attribute.closeItemLayout = global::NutritionApp.Droid.Resource.Attribute.closeItemLayout;
+			global::Syncfusion.XForms.Android.ComboBox.Resource.Attribute.collapseContentDescription = global::NutritionApp.Droid.Resource.Attribute.collapseContentDescription;
+			global::Syncfusion.XForms.Android.ComboBox.Resource.Attribute.collapsedTitleGravity = global::NutritionApp.Droid.Resource.Attribute.collapsedTitleGravity;
+			global::Syncfusion.XForms.Android.ComboBox.Resource.Attribute.collapsedTitleTextAppearance = global::NutritionApp.Droid.Resource.Attribute.collapsedTitleTextAppearance;
+			global::Syncfusion.XForms.Android.ComboBox.Resource.Attribute.collapseIcon = global::NutritionApp.Droid.Resource.Attribute.collapseIcon;
+			global::Syncfusion.XForms.Android.ComboBox.Resource.Attribute.collectionViewStyle = global::NutritionApp.Droid.Resource.Attribute.collectionViewStyle;
+			global::Syncfusion.XForms.Android.ComboBox.Resource.Attribute.color = global::NutritionApp.Droid.Resource.Attribute.color;
+			global::Syncfusion.XForms.Android.ComboBox.Resource.Attribute.colorAccent = global::NutritionApp.Droid.Resource.Attribute.colorAccent;
+			global::Syncfusion.XForms.Android.ComboBox.Resource.Attribute.colorBackgroundFloating = global::NutritionApp.Droid.Resource.Attribute.colorBackgroundFloating;
+			global::Syncfusion.XForms.Android.ComboBox.Resource.Attribute.colorButtonNormal = global::NutritionApp.Droid.Resource.Attribute.colorButtonNormal;
+			global::Syncfusion.XForms.Android.ComboBox.Resource.Attribute.colorControlActivated = global::NutritionApp.Droid.Resource.Attribute.colorControlActivated;
+			global::Syncfusion.XForms.Android.ComboBox.Resource.Attribute.colorControlHighlight = global::NutritionApp.Droid.Resource.Attribute.colorControlHighlight;
+			global::Syncfusion.XForms.Android.ComboBox.Resource.Attribute.colorControlNormal = global::NutritionApp.Droid.Resource.Attribute.colorControlNormal;
+			global::Syncfusion.XForms.Android.ComboBox.Resource.Attribute.colorError = global::NutritionApp.Droid.Resource.Attribute.colorError;
+			global::Syncfusion.XForms.Android.ComboBox.Resource.Attribute.colorOnBackground = global::NutritionApp.Droid.Resource.Attribute.colorOnBackground;
+			global::Syncfusion.XForms.Android.ComboBox.Resource.Attribute.colorOnError = global::NutritionApp.Droid.Resource.Attribute.colorOnError;
+			global::Syncfusion.XForms.Android.ComboBox.Resource.Attribute.colorOnPrimary = global::NutritionApp.Droid.Resource.Attribute.colorOnPrimary;
+			global::Syncfusion.XForms.Android.ComboBox.Resource.Attribute.colorOnPrimarySurface = global::NutritionApp.Droid.Resource.Attribute.colorOnPrimarySurface;
+			global::Syncfusion.XForms.Android.ComboBox.Resource.Attribute.colorOnSecondary = global::NutritionApp.Droid.Resource.Attribute.colorOnSecondary;
+			global::Syncfusion.XForms.Android.ComboBox.Resource.Attribute.colorOnSurface = global::NutritionApp.Droid.Resource.Attribute.colorOnSurface;
+			global::Syncfusion.XForms.Android.ComboBox.Resource.Attribute.colorPrimary = global::NutritionApp.Droid.Resource.Attribute.colorPrimary;
+			global::Syncfusion.XForms.Android.ComboBox.Resource.Attribute.colorPrimaryDark = global::NutritionApp.Droid.Resource.Attribute.colorPrimaryDark;
+			global::Syncfusion.XForms.Android.ComboBox.Resource.Attribute.colorPrimarySurface = global::NutritionApp.Droid.Resource.Attribute.colorPrimarySurface;
+			global::Syncfusion.XForms.Android.ComboBox.Resource.Attribute.colorPrimaryVariant = global::NutritionApp.Droid.Resource.Attribute.colorPrimaryVariant;
+			global::Syncfusion.XForms.Android.ComboBox.Resource.Attribute.colorSecondary = global::NutritionApp.Droid.Resource.Attribute.colorSecondary;
+			global::Syncfusion.XForms.Android.ComboBox.Resource.Attribute.colorSecondaryVariant = global::NutritionApp.Droid.Resource.Attribute.colorSecondaryVariant;
+			global::Syncfusion.XForms.Android.ComboBox.Resource.Attribute.colorSurface = global::NutritionApp.Droid.Resource.Attribute.colorSurface;
+			global::Syncfusion.XForms.Android.ComboBox.Resource.Attribute.colorSwitchThumbNormal = global::NutritionApp.Droid.Resource.Attribute.colorSwitchThumbNormal;
+			global::Syncfusion.XForms.Android.ComboBox.Resource.Attribute.commitIcon = global::NutritionApp.Droid.Resource.Attribute.commitIcon;
+			global::Syncfusion.XForms.Android.ComboBox.Resource.Attribute.contentDescription = global::NutritionApp.Droid.Resource.Attribute.contentDescription;
+			global::Syncfusion.XForms.Android.ComboBox.Resource.Attribute.contentInsetEnd = global::NutritionApp.Droid.Resource.Attribute.contentInsetEnd;
+			global::Syncfusion.XForms.Android.ComboBox.Resource.Attribute.contentInsetEndWithActions = global::NutritionApp.Droid.Resource.Attribute.contentInsetEndWithActions;
+			global::Syncfusion.XForms.Android.ComboBox.Resource.Attribute.contentInsetLeft = global::NutritionApp.Droid.Resource.Attribute.contentInsetLeft;
+			global::Syncfusion.XForms.Android.ComboBox.Resource.Attribute.contentInsetRight = global::NutritionApp.Droid.Resource.Attribute.contentInsetRight;
+			global::Syncfusion.XForms.Android.ComboBox.Resource.Attribute.contentInsetStart = global::NutritionApp.Droid.Resource.Attribute.contentInsetStart;
+			global::Syncfusion.XForms.Android.ComboBox.Resource.Attribute.contentInsetStartWithNavigation = global::NutritionApp.Droid.Resource.Attribute.contentInsetStartWithNavigation;
+			global::Syncfusion.XForms.Android.ComboBox.Resource.Attribute.contentPadding = global::NutritionApp.Droid.Resource.Attribute.contentPadding;
+			global::Syncfusion.XForms.Android.ComboBox.Resource.Attribute.contentPaddingBottom = global::NutritionApp.Droid.Resource.Attribute.contentPaddingBottom;
+			global::Syncfusion.XForms.Android.ComboBox.Resource.Attribute.contentPaddingLeft = global::NutritionApp.Droid.Resource.Attribute.contentPaddingLeft;
+			global::Syncfusion.XForms.Android.ComboBox.Resource.Attribute.contentPaddingRight = global::NutritionApp.Droid.Resource.Attribute.contentPaddingRight;
+			global::Syncfusion.XForms.Android.ComboBox.Resource.Attribute.contentPaddingTop = global::NutritionApp.Droid.Resource.Attribute.contentPaddingTop;
+			global::Syncfusion.XForms.Android.ComboBox.Resource.Attribute.contentScrim = global::NutritionApp.Droid.Resource.Attribute.contentScrim;
+			global::Syncfusion.XForms.Android.ComboBox.Resource.Attribute.controlBackground = global::NutritionApp.Droid.Resource.Attribute.controlBackground;
+			global::Syncfusion.XForms.Android.ComboBox.Resource.Attribute.coordinatorLayoutStyle = global::NutritionApp.Droid.Resource.Attribute.coordinatorLayoutStyle;
+			global::Syncfusion.XForms.Android.ComboBox.Resource.Attribute.cornerFamily = global::NutritionApp.Droid.Resource.Attribute.cornerFamily;
+			global::Syncfusion.XForms.Android.ComboBox.Resource.Attribute.cornerFamilyBottomLeft = global::NutritionApp.Droid.Resource.Attribute.cornerFamilyBottomLeft;
+			global::Syncfusion.XForms.Android.ComboBox.Resource.Attribute.cornerFamilyBottomRight = global::NutritionApp.Droid.Resource.Attribute.cornerFamilyBottomRight;
+			global::Syncfusion.XForms.Android.ComboBox.Resource.Attribute.cornerFamilyTopLeft = global::NutritionApp.Droid.Resource.Attribute.cornerFamilyTopLeft;
+			global::Syncfusion.XForms.Android.ComboBox.Resource.Attribute.cornerFamilyTopRight = global::NutritionApp.Droid.Resource.Attribute.cornerFamilyTopRight;
+			global::Syncfusion.XForms.Android.ComboBox.Resource.Attribute.cornerRadius = global::NutritionApp.Droid.Resource.Attribute.cornerRadius;
+			global::Syncfusion.XForms.Android.ComboBox.Resource.Attribute.cornerSize = global::NutritionApp.Droid.Resource.Attribute.cornerSize;
+			global::Syncfusion.XForms.Android.ComboBox.Resource.Attribute.cornerSizeBottomLeft = global::NutritionApp.Droid.Resource.Attribute.cornerSizeBottomLeft;
+			global::Syncfusion.XForms.Android.ComboBox.Resource.Attribute.cornerSizeBottomRight = global::NutritionApp.Droid.Resource.Attribute.cornerSizeBottomRight;
+			global::Syncfusion.XForms.Android.ComboBox.Resource.Attribute.cornerSizeTopLeft = global::NutritionApp.Droid.Resource.Attribute.cornerSizeTopLeft;
+			global::Syncfusion.XForms.Android.ComboBox.Resource.Attribute.cornerSizeTopRight = global::NutritionApp.Droid.Resource.Attribute.cornerSizeTopRight;
+			global::Syncfusion.XForms.Android.ComboBox.Resource.Attribute.counterEnabled = global::NutritionApp.Droid.Resource.Attribute.counterEnabled;
+			global::Syncfusion.XForms.Android.ComboBox.Resource.Attribute.counterMaxLength = global::NutritionApp.Droid.Resource.Attribute.counterMaxLength;
+			global::Syncfusion.XForms.Android.ComboBox.Resource.Attribute.counterOverflowTextAppearance = global::NutritionApp.Droid.Resource.Attribute.counterOverflowTextAppearance;
+			global::Syncfusion.XForms.Android.ComboBox.Resource.Attribute.counterOverflowTextColor = global::NutritionApp.Droid.Resource.Attribute.counterOverflowTextColor;
+			global::Syncfusion.XForms.Android.ComboBox.Resource.Attribute.counterTextAppearance = global::NutritionApp.Droid.Resource.Attribute.counterTextAppearance;
+			global::Syncfusion.XForms.Android.ComboBox.Resource.Attribute.counterTextColor = global::NutritionApp.Droid.Resource.Attribute.counterTextColor;
+			global::Syncfusion.XForms.Android.ComboBox.Resource.Attribute.customNavigationLayout = global::NutritionApp.Droid.Resource.Attribute.customNavigationLayout;
+			global::Syncfusion.XForms.Android.ComboBox.Resource.Attribute.dayInvalidStyle = global::NutritionApp.Droid.Resource.Attribute.dayInvalidStyle;
+			global::Syncfusion.XForms.Android.ComboBox.Resource.Attribute.daySelectedStyle = global::NutritionApp.Droid.Resource.Attribute.daySelectedStyle;
+			global::Syncfusion.XForms.Android.ComboBox.Resource.Attribute.dayStyle = global::NutritionApp.Droid.Resource.Attribute.dayStyle;
+			global::Syncfusion.XForms.Android.ComboBox.Resource.Attribute.dayTodayStyle = global::NutritionApp.Droid.Resource.Attribute.dayTodayStyle;
+			global::Syncfusion.XForms.Android.ComboBox.Resource.Attribute.defaultQueryHint = global::NutritionApp.Droid.Resource.Attribute.defaultQueryHint;
+			global::Syncfusion.XForms.Android.ComboBox.Resource.Attribute.dialogCornerRadius = global::NutritionApp.Droid.Resource.Attribute.dialogCornerRadius;
+			global::Syncfusion.XForms.Android.ComboBox.Resource.Attribute.dialogPreferredPadding = global::NutritionApp.Droid.Resource.Attribute.dialogPreferredPadding;
+			global::Syncfusion.XForms.Android.ComboBox.Resource.Attribute.dialogTheme = global::NutritionApp.Droid.Resource.Attribute.dialogTheme;
+			global::Syncfusion.XForms.Android.ComboBox.Resource.Attribute.displayOptions = global::NutritionApp.Droid.Resource.Attribute.displayOptions;
+			global::Syncfusion.XForms.Android.ComboBox.Resource.Attribute.divider = global::NutritionApp.Droid.Resource.Attribute.divider;
+			global::Syncfusion.XForms.Android.ComboBox.Resource.Attribute.dividerHorizontal = global::NutritionApp.Droid.Resource.Attribute.dividerHorizontal;
+			global::Syncfusion.XForms.Android.ComboBox.Resource.Attribute.dividerPadding = global::NutritionApp.Droid.Resource.Attribute.dividerPadding;
+			global::Syncfusion.XForms.Android.ComboBox.Resource.Attribute.dividerVertical = global::NutritionApp.Droid.Resource.Attribute.dividerVertical;
+			global::Syncfusion.XForms.Android.ComboBox.Resource.Attribute.drawableBottomCompat = global::NutritionApp.Droid.Resource.Attribute.drawableBottomCompat;
+			global::Syncfusion.XForms.Android.ComboBox.Resource.Attribute.drawableEndCompat = global::NutritionApp.Droid.Resource.Attribute.drawableEndCompat;
+			global::Syncfusion.XForms.Android.ComboBox.Resource.Attribute.drawableLeftCompat = global::NutritionApp.Droid.Resource.Attribute.drawableLeftCompat;
+			global::Syncfusion.XForms.Android.ComboBox.Resource.Attribute.drawableRightCompat = global::NutritionApp.Droid.Resource.Attribute.drawableRightCompat;
+			global::Syncfusion.XForms.Android.ComboBox.Resource.Attribute.drawableSize = global::NutritionApp.Droid.Resource.Attribute.drawableSize;
+			global::Syncfusion.XForms.Android.ComboBox.Resource.Attribute.drawableStartCompat = global::NutritionApp.Droid.Resource.Attribute.drawableStartCompat;
+			global::Syncfusion.XForms.Android.ComboBox.Resource.Attribute.drawableTint = global::NutritionApp.Droid.Resource.Attribute.drawableTint;
+			global::Syncfusion.XForms.Android.ComboBox.Resource.Attribute.drawableTintMode = global::NutritionApp.Droid.Resource.Attribute.drawableTintMode;
+			global::Syncfusion.XForms.Android.ComboBox.Resource.Attribute.drawableTopCompat = global::NutritionApp.Droid.Resource.Attribute.drawableTopCompat;
+			global::Syncfusion.XForms.Android.ComboBox.Resource.Attribute.drawerArrowStyle = global::NutritionApp.Droid.Resource.Attribute.drawerArrowStyle;
+			global::Syncfusion.XForms.Android.ComboBox.Resource.Attribute.drawerLayoutStyle = global::NutritionApp.Droid.Resource.Attribute.drawerLayoutStyle;
+			global::Syncfusion.XForms.Android.ComboBox.Resource.Attribute.dropdownListPreferredItemHeight = global::NutritionApp.Droid.Resource.Attribute.dropdownListPreferredItemHeight;
+			global::Syncfusion.XForms.Android.ComboBox.Resource.Attribute.dropDownListViewStyle = global::NutritionApp.Droid.Resource.Attribute.dropDownListViewStyle;
+			global::Syncfusion.XForms.Android.ComboBox.Resource.Attribute.editTextBackground = global::NutritionApp.Droid.Resource.Attribute.editTextBackground;
+			global::Syncfusion.XForms.Android.ComboBox.Resource.Attribute.editTextColor = global::NutritionApp.Droid.Resource.Attribute.editTextColor;
+			global::Syncfusion.XForms.Android.ComboBox.Resource.Attribute.editTextStyle = global::NutritionApp.Droid.Resource.Attribute.editTextStyle;
+			global::Syncfusion.XForms.Android.ComboBox.Resource.Attribute.elevation = global::NutritionApp.Droid.Resource.Attribute.elevation;
+			global::Syncfusion.XForms.Android.ComboBox.Resource.Attribute.elevationOverlayColor = global::NutritionApp.Droid.Resource.Attribute.elevationOverlayColor;
+			global::Syncfusion.XForms.Android.ComboBox.Resource.Attribute.elevationOverlayEnabled = global::NutritionApp.Droid.Resource.Attribute.elevationOverlayEnabled;
+			global::Syncfusion.XForms.Android.ComboBox.Resource.Attribute.endIconCheckable = global::NutritionApp.Droid.Resource.Attribute.endIconCheckable;
+			global::Syncfusion.XForms.Android.ComboBox.Resource.Attribute.endIconContentDescription = global::NutritionApp.Droid.Resource.Attribute.endIconContentDescription;
+			global::Syncfusion.XForms.Android.ComboBox.Resource.Attribute.endIconDrawable = global::NutritionApp.Droid.Resource.Attribute.endIconDrawable;
+			global::Syncfusion.XForms.Android.ComboBox.Resource.Attribute.endIconMode = global::NutritionApp.Droid.Resource.Attribute.endIconMode;
+			global::Syncfusion.XForms.Android.ComboBox.Resource.Attribute.endIconTint = global::NutritionApp.Droid.Resource.Attribute.endIconTint;
+			global::Syncfusion.XForms.Android.ComboBox.Resource.Attribute.endIconTintMode = global::NutritionApp.Droid.Resource.Attribute.endIconTintMode;
+			global::Syncfusion.XForms.Android.ComboBox.Resource.Attribute.enforceMaterialTheme = global::NutritionApp.Droid.Resource.Attribute.enforceMaterialTheme;
+			global::Syncfusion.XForms.Android.ComboBox.Resource.Attribute.enforceTextAppearance = global::NutritionApp.Droid.Resource.Attribute.enforceTextAppearance;
+			global::Syncfusion.XForms.Android.ComboBox.Resource.Attribute.ensureMinTouchTargetSize = global::NutritionApp.Droid.Resource.Attribute.ensureMinTouchTargetSize;
+			global::Syncfusion.XForms.Android.ComboBox.Resource.Attribute.errorContentDescription = global::NutritionApp.Droid.Resource.Attribute.errorContentDescription;
+			global::Syncfusion.XForms.Android.ComboBox.Resource.Attribute.errorEnabled = global::NutritionApp.Droid.Resource.Attribute.errorEnabled;
+			global::Syncfusion.XForms.Android.ComboBox.Resource.Attribute.errorIconDrawable = global::NutritionApp.Droid.Resource.Attribute.errorIconDrawable;
+			global::Syncfusion.XForms.Android.ComboBox.Resource.Attribute.errorIconTint = global::NutritionApp.Droid.Resource.Attribute.errorIconTint;
+			global::Syncfusion.XForms.Android.ComboBox.Resource.Attribute.errorIconTintMode = global::NutritionApp.Droid.Resource.Attribute.errorIconTintMode;
+			global::Syncfusion.XForms.Android.ComboBox.Resource.Attribute.errorTextAppearance = global::NutritionApp.Droid.Resource.Attribute.errorTextAppearance;
+			global::Syncfusion.XForms.Android.ComboBox.Resource.Attribute.errorTextColor = global::NutritionApp.Droid.Resource.Attribute.errorTextColor;
+			global::Syncfusion.XForms.Android.ComboBox.Resource.Attribute.expandActivityOverflowButtonDrawable = global::NutritionApp.Droid.Resource.Attribute.expandActivityOverflowButtonDrawable;
+			global::Syncfusion.XForms.Android.ComboBox.Resource.Attribute.expanded = global::NutritionApp.Droid.Resource.Attribute.expanded;
+			global::Syncfusion.XForms.Android.ComboBox.Resource.Attribute.expandedTitleGravity = global::NutritionApp.Droid.Resource.Attribute.expandedTitleGravity;
+			global::Syncfusion.XForms.Android.ComboBox.Resource.Attribute.expandedTitleMargin = global::NutritionApp.Droid.Resource.Attribute.expandedTitleMargin;
+			global::Syncfusion.XForms.Android.ComboBox.Resource.Attribute.expandedTitleMarginBottom = global::NutritionApp.Droid.Resource.Attribute.expandedTitleMarginBottom;
+			global::Syncfusion.XForms.Android.ComboBox.Resource.Attribute.expandedTitleMarginEnd = global::NutritionApp.Droid.Resource.Attribute.expandedTitleMarginEnd;
+			global::Syncfusion.XForms.Android.ComboBox.Resource.Attribute.expandedTitleMarginStart = global::NutritionApp.Droid.Resource.Attribute.expandedTitleMarginStart;
+			global::Syncfusion.XForms.Android.ComboBox.Resource.Attribute.expandedTitleMarginTop = global::NutritionApp.Droid.Resource.Attribute.expandedTitleMarginTop;
+			global::Syncfusion.XForms.Android.ComboBox.Resource.Attribute.expandedTitleTextAppearance = global::NutritionApp.Droid.Resource.Attribute.expandedTitleTextAppearance;
+			global::Syncfusion.XForms.Android.ComboBox.Resource.Attribute.extendedFloatingActionButtonStyle = global::NutritionApp.Droid.Resource.Attribute.extendedFloatingActionButtonStyle;
+			global::Syncfusion.XForms.Android.ComboBox.Resource.Attribute.extendMotionSpec = global::NutritionApp.Droid.Resource.Attribute.extendMotionSpec;
+			global::Syncfusion.XForms.Android.ComboBox.Resource.Attribute.fabAlignmentMode = global::NutritionApp.Droid.Resource.Attribute.fabAlignmentMode;
+			global::Syncfusion.XForms.Android.ComboBox.Resource.Attribute.fabAnimationMode = global::NutritionApp.Droid.Resource.Attribute.fabAnimationMode;
+			global::Syncfusion.XForms.Android.ComboBox.Resource.Attribute.fabCradleMargin = global::NutritionApp.Droid.Resource.Attribute.fabCradleMargin;
+			global::Syncfusion.XForms.Android.ComboBox.Resource.Attribute.fabCradleRoundedCornerRadius = global::NutritionApp.Droid.Resource.Attribute.fabCradleRoundedCornerRadius;
+			global::Syncfusion.XForms.Android.ComboBox.Resource.Attribute.fabCradleVerticalOffset = global::NutritionApp.Droid.Resource.Attribute.fabCradleVerticalOffset;
+			global::Syncfusion.XForms.Android.ComboBox.Resource.Attribute.fabCustomSize = global::NutritionApp.Droid.Resource.Attribute.fabCustomSize;
+			global::Syncfusion.XForms.Android.ComboBox.Resource.Attribute.fabSize = global::NutritionApp.Droid.Resource.Attribute.fabSize;
+			global::Syncfusion.XForms.Android.ComboBox.Resource.Attribute.fastScrollEnabled = global::NutritionApp.Droid.Resource.Attribute.fastScrollEnabled;
+			global::Syncfusion.XForms.Android.ComboBox.Resource.Attribute.fastScrollHorizontalThumbDrawable = global::NutritionApp.Droid.Resource.Attribute.fastScrollHorizontalThumbDrawable;
+			global::Syncfusion.XForms.Android.ComboBox.Resource.Attribute.fastScrollHorizontalTrackDrawable = global::NutritionApp.Droid.Resource.Attribute.fastScrollHorizontalTrackDrawable;
+			global::Syncfusion.XForms.Android.ComboBox.Resource.Attribute.fastScrollVerticalThumbDrawable = global::NutritionApp.Droid.Resource.Attribute.fastScrollVerticalThumbDrawable;
+			global::Syncfusion.XForms.Android.ComboBox.Resource.Attribute.fastScrollVerticalTrackDrawable = global::NutritionApp.Droid.Resource.Attribute.fastScrollVerticalTrackDrawable;
+			global::Syncfusion.XForms.Android.ComboBox.Resource.Attribute.firstBaselineToTopHeight = global::NutritionApp.Droid.Resource.Attribute.firstBaselineToTopHeight;
+			global::Syncfusion.XForms.Android.ComboBox.Resource.Attribute.floatingActionButtonStyle = global::NutritionApp.Droid.Resource.Attribute.floatingActionButtonStyle;
+			global::Syncfusion.XForms.Android.ComboBox.Resource.Attribute.font = global::NutritionApp.Droid.Resource.Attribute.font;
+			global::Syncfusion.XForms.Android.ComboBox.Resource.Attribute.fontFamily = global::NutritionApp.Droid.Resource.Attribute.fontFamily;
+			global::Syncfusion.XForms.Android.ComboBox.Resource.Attribute.fontProviderAuthority = global::NutritionApp.Droid.Resource.Attribute.fontProviderAuthority;
+			global::Syncfusion.XForms.Android.ComboBox.Resource.Attribute.fontProviderCerts = global::NutritionApp.Droid.Resource.Attribute.fontProviderCerts;
+			global::Syncfusion.XForms.Android.ComboBox.Resource.Attribute.fontProviderFetchStrategy = global::NutritionApp.Droid.Resource.Attribute.fontProviderFetchStrategy;
+			global::Syncfusion.XForms.Android.ComboBox.Resource.Attribute.fontProviderFetchTimeout = global::NutritionApp.Droid.Resource.Attribute.fontProviderFetchTimeout;
+			global::Syncfusion.XForms.Android.ComboBox.Resource.Attribute.fontProviderPackage = global::NutritionApp.Droid.Resource.Attribute.fontProviderPackage;
+			global::Syncfusion.XForms.Android.ComboBox.Resource.Attribute.fontProviderQuery = global::NutritionApp.Droid.Resource.Attribute.fontProviderQuery;
+			global::Syncfusion.XForms.Android.ComboBox.Resource.Attribute.fontStyle = global::NutritionApp.Droid.Resource.Attribute.fontStyle;
+			global::Syncfusion.XForms.Android.ComboBox.Resource.Attribute.fontVariationSettings = global::NutritionApp.Droid.Resource.Attribute.fontVariationSettings;
+			global::Syncfusion.XForms.Android.ComboBox.Resource.Attribute.fontWeight = global::NutritionApp.Droid.Resource.Attribute.fontWeight;
+			global::Syncfusion.XForms.Android.ComboBox.Resource.Attribute.foregroundInsidePadding = global::NutritionApp.Droid.Resource.Attribute.foregroundInsidePadding;
+			global::Syncfusion.XForms.Android.ComboBox.Resource.Attribute.gapBetweenBars = global::NutritionApp.Droid.Resource.Attribute.gapBetweenBars;
+			global::Syncfusion.XForms.Android.ComboBox.Resource.Attribute.gestureInsetBottomIgnored = global::NutritionApp.Droid.Resource.Attribute.gestureInsetBottomIgnored;
+			global::Syncfusion.XForms.Android.ComboBox.Resource.Attribute.goIcon = global::NutritionApp.Droid.Resource.Attribute.goIcon;
+			global::Syncfusion.XForms.Android.ComboBox.Resource.Attribute.haloColor = global::NutritionApp.Droid.Resource.Attribute.haloColor;
+			global::Syncfusion.XForms.Android.ComboBox.Resource.Attribute.haloRadius = global::NutritionApp.Droid.Resource.Attribute.haloRadius;
+			global::Syncfusion.XForms.Android.ComboBox.Resource.Attribute.headerLayout = global::NutritionApp.Droid.Resource.Attribute.headerLayout;
+			global::Syncfusion.XForms.Android.ComboBox.Resource.Attribute.height = global::NutritionApp.Droid.Resource.Attribute.height;
+			global::Syncfusion.XForms.Android.ComboBox.Resource.Attribute.helperText = global::NutritionApp.Droid.Resource.Attribute.helperText;
+			global::Syncfusion.XForms.Android.ComboBox.Resource.Attribute.helperTextEnabled = global::NutritionApp.Droid.Resource.Attribute.helperTextEnabled;
+			global::Syncfusion.XForms.Android.ComboBox.Resource.Attribute.helperTextTextAppearance = global::NutritionApp.Droid.Resource.Attribute.helperTextTextAppearance;
+			global::Syncfusion.XForms.Android.ComboBox.Resource.Attribute.helperTextTextColor = global::NutritionApp.Droid.Resource.Attribute.helperTextTextColor;
+			global::Syncfusion.XForms.Android.ComboBox.Resource.Attribute.hideMotionSpec = global::NutritionApp.Droid.Resource.Attribute.hideMotionSpec;
+			global::Syncfusion.XForms.Android.ComboBox.Resource.Attribute.hideOnContentScroll = global::NutritionApp.Droid.Resource.Attribute.hideOnContentScroll;
+			global::Syncfusion.XForms.Android.ComboBox.Resource.Attribute.hideOnScroll = global::NutritionApp.Droid.Resource.Attribute.hideOnScroll;
+			global::Syncfusion.XForms.Android.ComboBox.Resource.Attribute.hintAnimationEnabled = global::NutritionApp.Droid.Resource.Attribute.hintAnimationEnabled;
+			global::Syncfusion.XForms.Android.ComboBox.Resource.Attribute.hintEnabled = global::NutritionApp.Droid.Resource.Attribute.hintEnabled;
+			global::Syncfusion.XForms.Android.ComboBox.Resource.Attribute.hintTextAppearance = global::NutritionApp.Droid.Resource.Attribute.hintTextAppearance;
+			global::Syncfusion.XForms.Android.ComboBox.Resource.Attribute.hintTextColor = global::NutritionApp.Droid.Resource.Attribute.hintTextColor;
+			global::Syncfusion.XForms.Android.ComboBox.Resource.Attribute.homeAsUpIndicator = global::NutritionApp.Droid.Resource.Attribute.homeAsUpIndicator;
+			global::Syncfusion.XForms.Android.ComboBox.Resource.Attribute.homeLayout = global::NutritionApp.Droid.Resource.Attribute.homeLayout;
+			global::Syncfusion.XForms.Android.ComboBox.Resource.Attribute.horizontalOffset = global::NutritionApp.Droid.Resource.Attribute.horizontalOffset;
+			global::Syncfusion.XForms.Android.ComboBox.Resource.Attribute.hoveredFocusedTranslationZ = global::NutritionApp.Droid.Resource.Attribute.hoveredFocusedTranslationZ;
+			global::Syncfusion.XForms.Android.ComboBox.Resource.Attribute.icon = global::NutritionApp.Droid.Resource.Attribute.icon;
+			global::Syncfusion.XForms.Android.ComboBox.Resource.Attribute.iconEndPadding = global::NutritionApp.Droid.Resource.Attribute.iconEndPadding;
+			global::Syncfusion.XForms.Android.ComboBox.Resource.Attribute.iconGravity = global::NutritionApp.Droid.Resource.Attribute.iconGravity;
+			global::Syncfusion.XForms.Android.ComboBox.Resource.Attribute.iconifiedByDefault = global::NutritionApp.Droid.Resource.Attribute.iconifiedByDefault;
+			global::Syncfusion.XForms.Android.ComboBox.Resource.Attribute.iconPadding = global::NutritionApp.Droid.Resource.Attribute.iconPadding;
+			global::Syncfusion.XForms.Android.ComboBox.Resource.Attribute.iconSize = global::NutritionApp.Droid.Resource.Attribute.iconSize;
+			global::Syncfusion.XForms.Android.ComboBox.Resource.Attribute.iconStartPadding = global::NutritionApp.Droid.Resource.Attribute.iconStartPadding;
+			global::Syncfusion.XForms.Android.ComboBox.Resource.Attribute.iconTint = global::NutritionApp.Droid.Resource.Attribute.iconTint;
+			global::Syncfusion.XForms.Android.ComboBox.Resource.Attribute.iconTintMode = global::NutritionApp.Droid.Resource.Attribute.iconTintMode;
+			global::Syncfusion.XForms.Android.ComboBox.Resource.Attribute.imageButtonStyle = global::NutritionApp.Droid.Resource.Attribute.imageButtonStyle;
+			global::Syncfusion.XForms.Android.ComboBox.Resource.Attribute.indeterminateProgressStyle = global::NutritionApp.Droid.Resource.Attribute.indeterminateProgressStyle;
+			global::Syncfusion.XForms.Android.ComboBox.Resource.Attribute.initialActivityCount = global::NutritionApp.Droid.Resource.Attribute.initialActivityCount;
+			global::Syncfusion.XForms.Android.ComboBox.Resource.Attribute.insetForeground = global::NutritionApp.Droid.Resource.Attribute.insetForeground;
+			global::Syncfusion.XForms.Android.ComboBox.Resource.Attribute.isLightTheme = global::NutritionApp.Droid.Resource.Attribute.isLightTheme;
+			global::Syncfusion.XForms.Android.ComboBox.Resource.Attribute.isMaterialTheme = global::NutritionApp.Droid.Resource.Attribute.isMaterialTheme;
+			global::Syncfusion.XForms.Android.ComboBox.Resource.Attribute.itemBackground = global::NutritionApp.Droid.Resource.Attribute.itemBackground;
+			global::Syncfusion.XForms.Android.ComboBox.Resource.Attribute.itemFillColor = global::NutritionApp.Droid.Resource.Attribute.itemFillColor;
+			global::Syncfusion.XForms.Android.ComboBox.Resource.Attribute.itemHorizontalPadding = global::NutritionApp.Droid.Resource.Attribute.itemHorizontalPadding;
+			global::Syncfusion.XForms.Android.ComboBox.Resource.Attribute.itemHorizontalTranslationEnabled = global::NutritionApp.Droid.Resource.Attribute.itemHorizontalTranslationEnabled;
+			global::Syncfusion.XForms.Android.ComboBox.Resource.Attribute.itemIconPadding = global::NutritionApp.Droid.Resource.Attribute.itemIconPadding;
+			global::Syncfusion.XForms.Android.ComboBox.Resource.Attribute.itemIconSize = global::NutritionApp.Droid.Resource.Attribute.itemIconSize;
+			global::Syncfusion.XForms.Android.ComboBox.Resource.Attribute.itemIconTint = global::NutritionApp.Droid.Resource.Attribute.itemIconTint;
+			global::Syncfusion.XForms.Android.ComboBox.Resource.Attribute.itemMaxLines = global::NutritionApp.Droid.Resource.Attribute.itemMaxLines;
+			global::Syncfusion.XForms.Android.ComboBox.Resource.Attribute.itemPadding = global::NutritionApp.Droid.Resource.Attribute.itemPadding;
+			global::Syncfusion.XForms.Android.ComboBox.Resource.Attribute.itemRippleColor = global::NutritionApp.Droid.Resource.Attribute.itemRippleColor;
+			global::Syncfusion.XForms.Android.ComboBox.Resource.Attribute.itemShapeAppearance = global::NutritionApp.Droid.Resource.Attribute.itemShapeAppearance;
+			global::Syncfusion.XForms.Android.ComboBox.Resource.Attribute.itemShapeAppearanceOverlay = global::NutritionApp.Droid.Resource.Attribute.itemShapeAppearanceOverlay;
+			global::Syncfusion.XForms.Android.ComboBox.Resource.Attribute.itemShapeFillColor = global::NutritionApp.Droid.Resource.Attribute.itemShapeFillColor;
+			global::Syncfusion.XForms.Android.ComboBox.Resource.Attribute.itemShapeInsetBottom = global::NutritionApp.Droid.Resource.Attribute.itemShapeInsetBottom;
+			global::Syncfusion.XForms.Android.ComboBox.Resource.Attribute.itemShapeInsetEnd = global::NutritionApp.Droid.Resource.Attribute.itemShapeInsetEnd;
+			global::Syncfusion.XForms.Android.ComboBox.Resource.Attribute.itemShapeInsetStart = global::NutritionApp.Droid.Resource.Attribute.itemShapeInsetStart;
+			global::Syncfusion.XForms.Android.ComboBox.Resource.Attribute.itemShapeInsetTop = global::NutritionApp.Droid.Resource.Attribute.itemShapeInsetTop;
+			global::Syncfusion.XForms.Android.ComboBox.Resource.Attribute.itemSpacing = global::NutritionApp.Droid.Resource.Attribute.itemSpacing;
+			global::Syncfusion.XForms.Android.ComboBox.Resource.Attribute.itemStrokeColor = global::NutritionApp.Droid.Resource.Attribute.itemStrokeColor;
+			global::Syncfusion.XForms.Android.ComboBox.Resource.Attribute.itemStrokeWidth = global::NutritionApp.Droid.Resource.Attribute.itemStrokeWidth;
+			global::Syncfusion.XForms.Android.ComboBox.Resource.Attribute.itemTextAppearance = global::NutritionApp.Droid.Resource.Attribute.itemTextAppearance;
+			global::Syncfusion.XForms.Android.ComboBox.Resource.Attribute.itemTextAppearanceActive = global::NutritionApp.Droid.Resource.Attribute.itemTextAppearanceActive;
+			global::Syncfusion.XForms.Android.ComboBox.Resource.Attribute.itemTextAppearanceInactive = global::NutritionApp.Droid.Resource.Attribute.itemTextAppearanceInactive;
+			global::Syncfusion.XForms.Android.ComboBox.Resource.Attribute.itemTextColor = global::NutritionApp.Droid.Resource.Attribute.itemTextColor;
+			global::Syncfusion.XForms.Android.ComboBox.Resource.Attribute.keylines = global::NutritionApp.Droid.Resource.Attribute.keylines;
+			global::Syncfusion.XForms.Android.ComboBox.Resource.Attribute.labelBehavior = global::NutritionApp.Droid.Resource.Attribute.labelBehavior;
+			global::Syncfusion.XForms.Android.ComboBox.Resource.Attribute.labelStyle = global::NutritionApp.Droid.Resource.Attribute.labelStyle;
+			global::Syncfusion.XForms.Android.ComboBox.Resource.Attribute.labelVisibilityMode = global::NutritionApp.Droid.Resource.Attribute.labelVisibilityMode;
+			global::Syncfusion.XForms.Android.ComboBox.Resource.Attribute.lastBaselineToBottomHeight = global::NutritionApp.Droid.Resource.Attribute.lastBaselineToBottomHeight;
+			global::Syncfusion.XForms.Android.ComboBox.Resource.Attribute.layout = global::NutritionApp.Droid.Resource.Attribute.layout;
+			global::Syncfusion.XForms.Android.ComboBox.Resource.Attribute.layoutManager = global::NutritionApp.Droid.Resource.Attribute.layoutManager;
+			global::Syncfusion.XForms.Android.ComboBox.Resource.Attribute.layout_anchor = global::NutritionApp.Droid.Resource.Attribute.layout_anchor;
+			global::Syncfusion.XForms.Android.ComboBox.Resource.Attribute.layout_anchorGravity = global::NutritionApp.Droid.Resource.Attribute.layout_anchorGravity;
+			global::Syncfusion.XForms.Android.ComboBox.Resource.Attribute.layout_behavior = global::NutritionApp.Droid.Resource.Attribute.layout_behavior;
+			global::Syncfusion.XForms.Android.ComboBox.Resource.Attribute.layout_collapseMode = global::NutritionApp.Droid.Resource.Attribute.layout_collapseMode;
+			global::Syncfusion.XForms.Android.ComboBox.Resource.Attribute.layout_collapseParallaxMultiplier = global::NutritionApp.Droid.Resource.Attribute.layout_collapseParallaxMultiplier;
+			global::Syncfusion.XForms.Android.ComboBox.Resource.Attribute.layout_dodgeInsetEdges = global::NutritionApp.Droid.Resource.Attribute.layout_dodgeInsetEdges;
+			global::Syncfusion.XForms.Android.ComboBox.Resource.Attribute.layout_insetEdge = global::NutritionApp.Droid.Resource.Attribute.layout_insetEdge;
+			global::Syncfusion.XForms.Android.ComboBox.Resource.Attribute.layout_keyline = global::NutritionApp.Droid.Resource.Attribute.layout_keyline;
+			global::Syncfusion.XForms.Android.ComboBox.Resource.Attribute.layout_scrollFlags = global::NutritionApp.Droid.Resource.Attribute.layout_scrollFlags;
+			global::Syncfusion.XForms.Android.ComboBox.Resource.Attribute.layout_scrollInterpolator = global::NutritionApp.Droid.Resource.Attribute.layout_scrollInterpolator;
+			global::Syncfusion.XForms.Android.ComboBox.Resource.Attribute.liftOnScroll = global::NutritionApp.Droid.Resource.Attribute.liftOnScroll;
+			global::Syncfusion.XForms.Android.ComboBox.Resource.Attribute.liftOnScrollTargetViewId = global::NutritionApp.Droid.Resource.Attribute.liftOnScrollTargetViewId;
+			global::Syncfusion.XForms.Android.ComboBox.Resource.Attribute.lineHeight = global::NutritionApp.Droid.Resource.Attribute.lineHeight;
+			global::Syncfusion.XForms.Android.ComboBox.Resource.Attribute.lineSpacing = global::NutritionApp.Droid.Resource.Attribute.lineSpacing;
+			global::Syncfusion.XForms.Android.ComboBox.Resource.Attribute.listChoiceBackgroundIndicator = global::NutritionApp.Droid.Resource.Attribute.listChoiceBackgroundIndicator;
+			global::Syncfusion.XForms.Android.ComboBox.Resource.Attribute.listChoiceIndicatorMultipleAnimated = global::NutritionApp.Droid.Resource.Attribute.listChoiceIndicatorMultipleAnimated;
+			global::Syncfusion.XForms.Android.ComboBox.Resource.Attribute.listChoiceIndicatorSingleAnimated = global::NutritionApp.Droid.Resource.Attribute.listChoiceIndicatorSingleAnimated;
+			global::Syncfusion.XForms.Android.ComboBox.Resource.Attribute.listDividerAlertDialog = global::NutritionApp.Droid.Resource.Attribute.listDividerAlertDialog;
+			global::Syncfusion.XForms.Android.ComboBox.Resource.Attribute.listItemLayout = global::NutritionApp.Droid.Resource.Attribute.listItemLayout;
+			global::Syncfusion.XForms.Android.ComboBox.Resource.Attribute.listLayout = global::NutritionApp.Droid.Resource.Attribute.listLayout;
+			global::Syncfusion.XForms.Android.ComboBox.Resource.Attribute.listMenuViewStyle = global::NutritionApp.Droid.Resource.Attribute.listMenuViewStyle;
+			global::Syncfusion.XForms.Android.ComboBox.Resource.Attribute.listPopupWindowStyle = global::NutritionApp.Droid.Resource.Attribute.listPopupWindowStyle;
+			global::Syncfusion.XForms.Android.ComboBox.Resource.Attribute.listPreferredItemHeight = global::NutritionApp.Droid.Resource.Attribute.listPreferredItemHeight;
+			global::Syncfusion.XForms.Android.ComboBox.Resource.Attribute.listPreferredItemHeightLarge = global::NutritionApp.Droid.Resource.Attribute.listPreferredItemHeightLarge;
+			global::Syncfusion.XForms.Android.ComboBox.Resource.Attribute.listPreferredItemHeightSmall = global::NutritionApp.Droid.Resource.Attribute.listPreferredItemHeightSmall;
+			global::Syncfusion.XForms.Android.ComboBox.Resource.Attribute.listPreferredItemPaddingEnd = global::NutritionApp.Droid.Resource.Attribute.listPreferredItemPaddingEnd;
+			global::Syncfusion.XForms.Android.ComboBox.Resource.Attribute.listPreferredItemPaddingLeft = global::NutritionApp.Droid.Resource.Attribute.listPreferredItemPaddingLeft;
+			global::Syncfusion.XForms.Android.ComboBox.Resource.Attribute.listPreferredItemPaddingRight = global::NutritionApp.Droid.Resource.Attribute.listPreferredItemPaddingRight;
+			global::Syncfusion.XForms.Android.ComboBox.Resource.Attribute.listPreferredItemPaddingStart = global::NutritionApp.Droid.Resource.Attribute.listPreferredItemPaddingStart;
+			global::Syncfusion.XForms.Android.ComboBox.Resource.Attribute.logo = global::NutritionApp.Droid.Resource.Attribute.logo;
+			global::Syncfusion.XForms.Android.ComboBox.Resource.Attribute.logoDescription = global::NutritionApp.Droid.Resource.Attribute.logoDescription;
+			global::Syncfusion.XForms.Android.ComboBox.Resource.Attribute.materialAlertDialogBodyTextStyle = global::NutritionApp.Droid.Resource.Attribute.materialAlertDialogBodyTextStyle;
+			global::Syncfusion.XForms.Android.ComboBox.Resource.Attribute.materialAlertDialogTheme = global::NutritionApp.Droid.Resource.Attribute.materialAlertDialogTheme;
+			global::Syncfusion.XForms.Android.ComboBox.Resource.Attribute.materialAlertDialogTitleIconStyle = global::NutritionApp.Droid.Resource.Attribute.materialAlertDialogTitleIconStyle;
+			global::Syncfusion.XForms.Android.ComboBox.Resource.Attribute.materialAlertDialogTitlePanelStyle = global::NutritionApp.Droid.Resource.Attribute.materialAlertDialogTitlePanelStyle;
+			global::Syncfusion.XForms.Android.ComboBox.Resource.Attribute.materialAlertDialogTitleTextStyle = global::NutritionApp.Droid.Resource.Attribute.materialAlertDialogTitleTextStyle;
+			global::Syncfusion.XForms.Android.ComboBox.Resource.Attribute.materialButtonOutlinedStyle = global::NutritionApp.Droid.Resource.Attribute.materialButtonOutlinedStyle;
+			global::Syncfusion.XForms.Android.ComboBox.Resource.Attribute.materialButtonStyle = global::NutritionApp.Droid.Resource.Attribute.materialButtonStyle;
+			global::Syncfusion.XForms.Android.ComboBox.Resource.Attribute.materialButtonToggleGroupStyle = global::NutritionApp.Droid.Resource.Attribute.materialButtonToggleGroupStyle;
+			global::Syncfusion.XForms.Android.ComboBox.Resource.Attribute.materialCalendarDay = global::NutritionApp.Droid.Resource.Attribute.materialCalendarDay;
+			global::Syncfusion.XForms.Android.ComboBox.Resource.Attribute.materialCalendarFullscreenTheme = global::NutritionApp.Droid.Resource.Attribute.materialCalendarFullscreenTheme;
+			global::Syncfusion.XForms.Android.ComboBox.Resource.Attribute.materialCalendarHeaderConfirmButton = global::NutritionApp.Droid.Resource.Attribute.materialCalendarHeaderConfirmButton;
+			global::Syncfusion.XForms.Android.ComboBox.Resource.Attribute.materialCalendarHeaderDivider = global::NutritionApp.Droid.Resource.Attribute.materialCalendarHeaderDivider;
+			global::Syncfusion.XForms.Android.ComboBox.Resource.Attribute.materialCalendarHeaderLayout = global::NutritionApp.Droid.Resource.Attribute.materialCalendarHeaderLayout;
+			global::Syncfusion.XForms.Android.ComboBox.Resource.Attribute.materialCalendarHeaderSelection = global::NutritionApp.Droid.Resource.Attribute.materialCalendarHeaderSelection;
+			global::Syncfusion.XForms.Android.ComboBox.Resource.Attribute.materialCalendarHeaderTitle = global::NutritionApp.Droid.Resource.Attribute.materialCalendarHeaderTitle;
+			global::Syncfusion.XForms.Android.ComboBox.Resource.Attribute.materialCalendarHeaderToggleButton = global::NutritionApp.Droid.Resource.Attribute.materialCalendarHeaderToggleButton;
+			global::Syncfusion.XForms.Android.ComboBox.Resource.Attribute.materialCalendarStyle = global::NutritionApp.Droid.Resource.Attribute.materialCalendarStyle;
+			global::Syncfusion.XForms.Android.ComboBox.Resource.Attribute.materialCalendarTheme = global::NutritionApp.Droid.Resource.Attribute.materialCalendarTheme;
+			global::Syncfusion.XForms.Android.ComboBox.Resource.Attribute.materialCardViewStyle = global::NutritionApp.Droid.Resource.Attribute.materialCardViewStyle;
+			global::Syncfusion.XForms.Android.ComboBox.Resource.Attribute.materialThemeOverlay = global::NutritionApp.Droid.Resource.Attribute.materialThemeOverlay;
+			global::Syncfusion.XForms.Android.ComboBox.Resource.Attribute.maxActionInlineWidth = global::NutritionApp.Droid.Resource.Attribute.maxActionInlineWidth;
+			global::Syncfusion.XForms.Android.ComboBox.Resource.Attribute.maxButtonHeight = global::NutritionApp.Droid.Resource.Attribute.maxButtonHeight;
+			global::Syncfusion.XForms.Android.ComboBox.Resource.Attribute.maxCharacterCount = global::NutritionApp.Droid.Resource.Attribute.maxCharacterCount;
+			global::Syncfusion.XForms.Android.ComboBox.Resource.Attribute.maxImageSize = global::NutritionApp.Droid.Resource.Attribute.maxImageSize;
+			global::Syncfusion.XForms.Android.ComboBox.Resource.Attribute.maxLines = global::NutritionApp.Droid.Resource.Attribute.maxLines;
+			global::Syncfusion.XForms.Android.ComboBox.Resource.Attribute.measureWithLargestChild = global::NutritionApp.Droid.Resource.Attribute.measureWithLargestChild;
+			global::Syncfusion.XForms.Android.ComboBox.Resource.Attribute.menu = global::NutritionApp.Droid.Resource.Attribute.menu;
+			global::Syncfusion.XForms.Android.ComboBox.Resource.Attribute.minTouchTargetSize = global::NutritionApp.Droid.Resource.Attribute.minTouchTargetSize;
+			global::Syncfusion.XForms.Android.ComboBox.Resource.Attribute.multiChoiceItemLayout = global::NutritionApp.Droid.Resource.Attribute.multiChoiceItemLayout;
+			global::Syncfusion.XForms.Android.ComboBox.Resource.Attribute.navigationContentDescription = global::NutritionApp.Droid.Resource.Attribute.navigationContentDescription;
+			global::Syncfusion.XForms.Android.ComboBox.Resource.Attribute.navigationIcon = global::NutritionApp.Droid.Resource.Attribute.navigationIcon;
+			global::Syncfusion.XForms.Android.ComboBox.Resource.Attribute.navigationMode = global::NutritionApp.Droid.Resource.Attribute.navigationMode;
+			global::Syncfusion.XForms.Android.ComboBox.Resource.Attribute.navigationViewStyle = global::NutritionApp.Droid.Resource.Attribute.navigationViewStyle;
+			global::Syncfusion.XForms.Android.ComboBox.Resource.Attribute.number = global::NutritionApp.Droid.Resource.Attribute.number;
+			global::Syncfusion.XForms.Android.ComboBox.Resource.Attribute.numericModifiers = global::NutritionApp.Droid.Resource.Attribute.numericModifiers;
+			global::Syncfusion.XForms.Android.ComboBox.Resource.Attribute.overlapAnchor = global::NutritionApp.Droid.Resource.Attribute.overlapAnchor;
+			global::Syncfusion.XForms.Android.ComboBox.Resource.Attribute.paddingBottomNoButtons = global::NutritionApp.Droid.Resource.Attribute.paddingBottomNoButtons;
+			global::Syncfusion.XForms.Android.ComboBox.Resource.Attribute.paddingBottomSystemWindowInsets = global::NutritionApp.Droid.Resource.Attribute.paddingBottomSystemWindowInsets;
+			global::Syncfusion.XForms.Android.ComboBox.Resource.Attribute.paddingEnd = global::NutritionApp.Droid.Resource.Attribute.paddingEnd;
+			global::Syncfusion.XForms.Android.ComboBox.Resource.Attribute.paddingLeftSystemWindowInsets = global::NutritionApp.Droid.Resource.Attribute.paddingLeftSystemWindowInsets;
+			global::Syncfusion.XForms.Android.ComboBox.Resource.Attribute.paddingRightSystemWindowInsets = global::NutritionApp.Droid.Resource.Attribute.paddingRightSystemWindowInsets;
+			global::Syncfusion.XForms.Android.ComboBox.Resource.Attribute.paddingStart = global::NutritionApp.Droid.Resource.Attribute.paddingStart;
+			global::Syncfusion.XForms.Android.ComboBox.Resource.Attribute.paddingTopNoTitle = global::NutritionApp.Droid.Resource.Attribute.paddingTopNoTitle;
+			global::Syncfusion.XForms.Android.ComboBox.Resource.Attribute.panelBackground = global::NutritionApp.Droid.Resource.Attribute.panelBackground;
+			global::Syncfusion.XForms.Android.ComboBox.Resource.Attribute.panelMenuListTheme = global::NutritionApp.Droid.Resource.Attribute.panelMenuListTheme;
+			global::Syncfusion.XForms.Android.ComboBox.Resource.Attribute.panelMenuListWidth = global::NutritionApp.Droid.Resource.Attribute.panelMenuListWidth;
+			global::Syncfusion.XForms.Android.ComboBox.Resource.Attribute.passwordToggleContentDescription = global::NutritionApp.Droid.Resource.Attribute.passwordToggleContentDescription;
+			global::Syncfusion.XForms.Android.ComboBox.Resource.Attribute.passwordToggleDrawable = global::NutritionApp.Droid.Resource.Attribute.passwordToggleDrawable;
+			global::Syncfusion.XForms.Android.ComboBox.Resource.Attribute.passwordToggleEnabled = global::NutritionApp.Droid.Resource.Attribute.passwordToggleEnabled;
+			global::Syncfusion.XForms.Android.ComboBox.Resource.Attribute.passwordToggleTint = global::NutritionApp.Droid.Resource.Attribute.passwordToggleTint;
+			global::Syncfusion.XForms.Android.ComboBox.Resource.Attribute.passwordToggleTintMode = global::NutritionApp.Droid.Resource.Attribute.passwordToggleTintMode;
+			global::Syncfusion.XForms.Android.ComboBox.Resource.Attribute.placeholderText = global::NutritionApp.Droid.Resource.Attribute.placeholderText;
+			global::Syncfusion.XForms.Android.ComboBox.Resource.Attribute.placeholderTextAppearance = global::NutritionApp.Droid.Resource.Attribute.placeholderTextAppearance;
+			global::Syncfusion.XForms.Android.ComboBox.Resource.Attribute.placeholderTextColor = global::NutritionApp.Droid.Resource.Attribute.placeholderTextColor;
+			global::Syncfusion.XForms.Android.ComboBox.Resource.Attribute.popupMenuBackground = global::NutritionApp.Droid.Resource.Attribute.popupMenuBackground;
+			global::Syncfusion.XForms.Android.ComboBox.Resource.Attribute.popupMenuStyle = global::NutritionApp.Droid.Resource.Attribute.popupMenuStyle;
+			global::Syncfusion.XForms.Android.ComboBox.Resource.Attribute.popupTheme = global::NutritionApp.Droid.Resource.Attribute.popupTheme;
+			global::Syncfusion.XForms.Android.ComboBox.Resource.Attribute.popupWindowStyle = global::NutritionApp.Droid.Resource.Attribute.popupWindowStyle;
+			global::Syncfusion.XForms.Android.ComboBox.Resource.Attribute.prefixText = global::NutritionApp.Droid.Resource.Attribute.prefixText;
+			global::Syncfusion.XForms.Android.ComboBox.Resource.Attribute.prefixTextAppearance = global::NutritionApp.Droid.Resource.Attribute.prefixTextAppearance;
+			global::Syncfusion.XForms.Android.ComboBox.Resource.Attribute.prefixTextColor = global::NutritionApp.Droid.Resource.Attribute.prefixTextColor;
+			global::Syncfusion.XForms.Android.ComboBox.Resource.Attribute.preserveIconSpacing = global::NutritionApp.Droid.Resource.Attribute.preserveIconSpacing;
+			global::Syncfusion.XForms.Android.ComboBox.Resource.Attribute.pressedTranslationZ = global::NutritionApp.Droid.Resource.Attribute.pressedTranslationZ;
+			global::Syncfusion.XForms.Android.ComboBox.Resource.Attribute.progressBarPadding = global::NutritionApp.Droid.Resource.Attribute.progressBarPadding;
+			global::Syncfusion.XForms.Android.ComboBox.Resource.Attribute.progressBarStyle = global::NutritionApp.Droid.Resource.Attribute.progressBarStyle;
+			global::Syncfusion.XForms.Android.ComboBox.Resource.Attribute.queryBackground = global::NutritionApp.Droid.Resource.Attribute.queryBackground;
+			global::Syncfusion.XForms.Android.ComboBox.Resource.Attribute.queryHint = global::NutritionApp.Droid.Resource.Attribute.queryHint;
+			global::Syncfusion.XForms.Android.ComboBox.Resource.Attribute.radioButtonStyle = global::NutritionApp.Droid.Resource.Attribute.radioButtonStyle;
+			global::Syncfusion.XForms.Android.ComboBox.Resource.Attribute.rangeFillColor = global::NutritionApp.Droid.Resource.Attribute.rangeFillColor;
+			global::Syncfusion.XForms.Android.ComboBox.Resource.Attribute.ratingBarStyle = global::NutritionApp.Droid.Resource.Attribute.ratingBarStyle;
+			global::Syncfusion.XForms.Android.ComboBox.Resource.Attribute.ratingBarStyleIndicator = global::NutritionApp.Droid.Resource.Attribute.ratingBarStyleIndicator;
+			global::Syncfusion.XForms.Android.ComboBox.Resource.Attribute.ratingBarStyleSmall = global::NutritionApp.Droid.Resource.Attribute.ratingBarStyleSmall;
+			global::Syncfusion.XForms.Android.ComboBox.Resource.Attribute.recyclerViewStyle = global::NutritionApp.Droid.Resource.Attribute.recyclerViewStyle;
+			global::Syncfusion.XForms.Android.ComboBox.Resource.Attribute.reverseLayout = global::NutritionApp.Droid.Resource.Attribute.reverseLayout;
+			global::Syncfusion.XForms.Android.ComboBox.Resource.Attribute.rippleColor = global::NutritionApp.Droid.Resource.Attribute.rippleColor;
+			global::Syncfusion.XForms.Android.ComboBox.Resource.Attribute.scrimAnimationDuration = global::NutritionApp.Droid.Resource.Attribute.scrimAnimationDuration;
+			global::Syncfusion.XForms.Android.ComboBox.Resource.Attribute.scrimBackground = global::NutritionApp.Droid.Resource.Attribute.scrimBackground;
+			global::Syncfusion.XForms.Android.ComboBox.Resource.Attribute.scrimVisibleHeightTrigger = global::NutritionApp.Droid.Resource.Attribute.scrimVisibleHeightTrigger;
+			global::Syncfusion.XForms.Android.ComboBox.Resource.Attribute.scrollViewStyle = global::NutritionApp.Droid.Resource.Attribute.scrollViewStyle;
+			global::Syncfusion.XForms.Android.ComboBox.Resource.Attribute.searchHintIcon = global::NutritionApp.Droid.Resource.Attribute.searchHintIcon;
+			global::Syncfusion.XForms.Android.ComboBox.Resource.Attribute.searchIcon = global::NutritionApp.Droid.Resource.Attribute.searchIcon;
+			global::Syncfusion.XForms.Android.ComboBox.Resource.Attribute.searchViewStyle = global::NutritionApp.Droid.Resource.Attribute.searchViewStyle;
+			global::Syncfusion.XForms.Android.ComboBox.Resource.Attribute.seekBarStyle = global::NutritionApp.Droid.Resource.Attribute.seekBarStyle;
+			global::Syncfusion.XForms.Android.ComboBox.Resource.Attribute.selectableItemBackground = global::NutritionApp.Droid.Resource.Attribute.selectableItemBackground;
+			global::Syncfusion.XForms.Android.ComboBox.Resource.Attribute.selectableItemBackgroundBorderless = global::NutritionApp.Droid.Resource.Attribute.selectableItemBackgroundBorderless;
+			global::Syncfusion.XForms.Android.ComboBox.Resource.Attribute.selectionRequired = global::NutritionApp.Droid.Resource.Attribute.selectionRequired;
+			global::Syncfusion.XForms.Android.ComboBox.Resource.Attribute.shapeAppearance = global::NutritionApp.Droid.Resource.Attribute.shapeAppearance;
+			global::Syncfusion.XForms.Android.ComboBox.Resource.Attribute.shapeAppearanceLargeComponent = global::NutritionApp.Droid.Resource.Attribute.shapeAppearanceLargeComponent;
+			global::Syncfusion.XForms.Android.ComboBox.Resource.Attribute.shapeAppearanceMediumComponent = global::NutritionApp.Droid.Resource.Attribute.shapeAppearanceMediumComponent;
+			global::Syncfusion.XForms.Android.ComboBox.Resource.Attribute.shapeAppearanceOverlay = global::NutritionApp.Droid.Resource.Attribute.shapeAppearanceOverlay;
+			global::Syncfusion.XForms.Android.ComboBox.Resource.Attribute.shapeAppearanceSmallComponent = global::NutritionApp.Droid.Resource.Attribute.shapeAppearanceSmallComponent;
+			global::Syncfusion.XForms.Android.ComboBox.Resource.Attribute.showAsAction = global::NutritionApp.Droid.Resource.Attribute.showAsAction;
+			global::Syncfusion.XForms.Android.ComboBox.Resource.Attribute.showDividers = global::NutritionApp.Droid.Resource.Attribute.showDividers;
+			global::Syncfusion.XForms.Android.ComboBox.Resource.Attribute.showMotionSpec = global::NutritionApp.Droid.Resource.Attribute.showMotionSpec;
+			global::Syncfusion.XForms.Android.ComboBox.Resource.Attribute.showText = global::NutritionApp.Droid.Resource.Attribute.showText;
+			global::Syncfusion.XForms.Android.ComboBox.Resource.Attribute.showTitle = global::NutritionApp.Droid.Resource.Attribute.showTitle;
+			global::Syncfusion.XForms.Android.ComboBox.Resource.Attribute.shrinkMotionSpec = global::NutritionApp.Droid.Resource.Attribute.shrinkMotionSpec;
+			global::Syncfusion.XForms.Android.ComboBox.Resource.Attribute.singleChoiceItemLayout = global::NutritionApp.Droid.Resource.Attribute.singleChoiceItemLayout;
+			global::Syncfusion.XForms.Android.ComboBox.Resource.Attribute.singleLine = global::NutritionApp.Droid.Resource.Attribute.singleLine;
+			global::Syncfusion.XForms.Android.ComboBox.Resource.Attribute.singleSelection = global::NutritionApp.Droid.Resource.Attribute.singleSelection;
+			global::Syncfusion.XForms.Android.ComboBox.Resource.Attribute.sliderStyle = global::NutritionApp.Droid.Resource.Attribute.sliderStyle;
+			global::Syncfusion.XForms.Android.ComboBox.Resource.Attribute.snackbarButtonStyle = global::NutritionApp.Droid.Resource.Attribute.snackbarButtonStyle;
+			global::Syncfusion.XForms.Android.ComboBox.Resource.Attribute.snackbarStyle = global::NutritionApp.Droid.Resource.Attribute.snackbarStyle;
+			global::Syncfusion.XForms.Android.ComboBox.Resource.Attribute.snackbarTextViewStyle = global::NutritionApp.Droid.Resource.Attribute.snackbarTextViewStyle;
+			global::Syncfusion.XForms.Android.ComboBox.Resource.Attribute.spanCount = global::NutritionApp.Droid.Resource.Attribute.spanCount;
+			global::Syncfusion.XForms.Android.ComboBox.Resource.Attribute.spinBars = global::NutritionApp.Droid.Resource.Attribute.spinBars;
+			global::Syncfusion.XForms.Android.ComboBox.Resource.Attribute.spinnerDropDownItemStyle = global::NutritionApp.Droid.Resource.Attribute.spinnerDropDownItemStyle;
+			global::Syncfusion.XForms.Android.ComboBox.Resource.Attribute.spinnerStyle = global::NutritionApp.Droid.Resource.Attribute.spinnerStyle;
+			global::Syncfusion.XForms.Android.ComboBox.Resource.Attribute.splitTrack = global::NutritionApp.Droid.Resource.Attribute.splitTrack;
+			global::Syncfusion.XForms.Android.ComboBox.Resource.Attribute.srcCompat = global::NutritionApp.Droid.Resource.Attribute.srcCompat;
+			global::Syncfusion.XForms.Android.ComboBox.Resource.Attribute.stackFromEnd = global::NutritionApp.Droid.Resource.Attribute.stackFromEnd;
+			global::Syncfusion.XForms.Android.ComboBox.Resource.Attribute.startIconCheckable = global::NutritionApp.Droid.Resource.Attribute.startIconCheckable;
+			global::Syncfusion.XForms.Android.ComboBox.Resource.Attribute.startIconContentDescription = global::NutritionApp.Droid.Resource.Attribute.startIconContentDescription;
+			global::Syncfusion.XForms.Android.ComboBox.Resource.Attribute.startIconDrawable = global::NutritionApp.Droid.Resource.Attribute.startIconDrawable;
+			global::Syncfusion.XForms.Android.ComboBox.Resource.Attribute.startIconTint = global::NutritionApp.Droid.Resource.Attribute.startIconTint;
+			global::Syncfusion.XForms.Android.ComboBox.Resource.Attribute.startIconTintMode = global::NutritionApp.Droid.Resource.Attribute.startIconTintMode;
+			global::Syncfusion.XForms.Android.ComboBox.Resource.Attribute.state_above_anchor = global::NutritionApp.Droid.Resource.Attribute.state_above_anchor;
+			global::Syncfusion.XForms.Android.ComboBox.Resource.Attribute.state_collapsed = global::NutritionApp.Droid.Resource.Attribute.state_collapsed;
+			global::Syncfusion.XForms.Android.ComboBox.Resource.Attribute.state_collapsible = global::NutritionApp.Droid.Resource.Attribute.state_collapsible;
+			global::Syncfusion.XForms.Android.ComboBox.Resource.Attribute.state_dragged = global::NutritionApp.Droid.Resource.Attribute.state_dragged;
+			global::Syncfusion.XForms.Android.ComboBox.Resource.Attribute.state_liftable = global::NutritionApp.Droid.Resource.Attribute.state_liftable;
+			global::Syncfusion.XForms.Android.ComboBox.Resource.Attribute.state_lifted = global::NutritionApp.Droid.Resource.Attribute.state_lifted;
+			global::Syncfusion.XForms.Android.ComboBox.Resource.Attribute.statusBarBackground = global::NutritionApp.Droid.Resource.Attribute.statusBarBackground;
+			global::Syncfusion.XForms.Android.ComboBox.Resource.Attribute.statusBarForeground = global::NutritionApp.Droid.Resource.Attribute.statusBarForeground;
+			global::Syncfusion.XForms.Android.ComboBox.Resource.Attribute.statusBarScrim = global::NutritionApp.Droid.Resource.Attribute.statusBarScrim;
+			global::Syncfusion.XForms.Android.ComboBox.Resource.Attribute.strokeColor = global::NutritionApp.Droid.Resource.Attribute.strokeColor;
+			global::Syncfusion.XForms.Android.ComboBox.Resource.Attribute.strokeWidth = global::NutritionApp.Droid.Resource.Attribute.strokeWidth;
+			global::Syncfusion.XForms.Android.ComboBox.Resource.Attribute.subMenuArrow = global::NutritionApp.Droid.Resource.Attribute.subMenuArrow;
+			global::Syncfusion.XForms.Android.ComboBox.Resource.Attribute.submitBackground = global::NutritionApp.Droid.Resource.Attribute.submitBackground;
+			global::Syncfusion.XForms.Android.ComboBox.Resource.Attribute.subtitle = global::NutritionApp.Droid.Resource.Attribute.subtitle;
+			global::Syncfusion.XForms.Android.ComboBox.Resource.Attribute.subtitleTextAppearance = global::NutritionApp.Droid.Resource.Attribute.subtitleTextAppearance;
+			global::Syncfusion.XForms.Android.ComboBox.Resource.Attribute.subtitleTextColor = global::NutritionApp.Droid.Resource.Attribute.subtitleTextColor;
+			global::Syncfusion.XForms.Android.ComboBox.Resource.Attribute.subtitleTextStyle = global::NutritionApp.Droid.Resource.Attribute.subtitleTextStyle;
+			global::Syncfusion.XForms.Android.ComboBox.Resource.Attribute.suffixText = global::NutritionApp.Droid.Resource.Attribute.suffixText;
+			global::Syncfusion.XForms.Android.ComboBox.Resource.Attribute.suffixTextAppearance = global::NutritionApp.Droid.Resource.Attribute.suffixTextAppearance;
+			global::Syncfusion.XForms.Android.ComboBox.Resource.Attribute.suffixTextColor = global::NutritionApp.Droid.Resource.Attribute.suffixTextColor;
+			global::Syncfusion.XForms.Android.ComboBox.Resource.Attribute.suggestionRowLayout = global::NutritionApp.Droid.Resource.Attribute.suggestionRowLayout;
+			global::Syncfusion.XForms.Android.ComboBox.Resource.Attribute.swipeRefreshLayoutProgressSpinnerBackgroundColor = global::NutritionApp.Droid.Resource.Attribute.swipeRefreshLayoutProgressSpinnerBackgroundColor;
+			global::Syncfusion.XForms.Android.ComboBox.Resource.Attribute.switchMinWidth = global::NutritionApp.Droid.Resource.Attribute.switchMinWidth;
+			global::Syncfusion.XForms.Android.ComboBox.Resource.Attribute.switchPadding = global::NutritionApp.Droid.Resource.Attribute.switchPadding;
+			global::Syncfusion.XForms.Android.ComboBox.Resource.Attribute.switchStyle = global::NutritionApp.Droid.Resource.Attribute.switchStyle;
+			global::Syncfusion.XForms.Android.ComboBox.Resource.Attribute.switchTextAppearance = global::NutritionApp.Droid.Resource.Attribute.switchTextAppearance;
+			global::Syncfusion.XForms.Android.ComboBox.Resource.Attribute.tabBackground = global::NutritionApp.Droid.Resource.Attribute.tabBackground;
+			global::Syncfusion.XForms.Android.ComboBox.Resource.Attribute.tabContentStart = global::NutritionApp.Droid.Resource.Attribute.tabContentStart;
+			global::Syncfusion.XForms.Android.ComboBox.Resource.Attribute.tabGravity = global::NutritionApp.Droid.Resource.Attribute.tabGravity;
+			global::Syncfusion.XForms.Android.ComboBox.Resource.Attribute.tabIconTint = global::NutritionApp.Droid.Resource.Attribute.tabIconTint;
+			global::Syncfusion.XForms.Android.ComboBox.Resource.Attribute.tabIconTintMode = global::NutritionApp.Droid.Resource.Attribute.tabIconTintMode;
+			global::Syncfusion.XForms.Android.ComboBox.Resource.Attribute.tabIndicator = global::NutritionApp.Droid.Resource.Attribute.tabIndicator;
+			global::Syncfusion.XForms.Android.ComboBox.Resource.Attribute.tabIndicatorAnimationDuration = global::NutritionApp.Droid.Resource.Attribute.tabIndicatorAnimationDuration;
+			global::Syncfusion.XForms.Android.ComboBox.Resource.Attribute.tabIndicatorColor = global::NutritionApp.Droid.Resource.Attribute.tabIndicatorColor;
+			global::Syncfusion.XForms.Android.ComboBox.Resource.Attribute.tabIndicatorFullWidth = global::NutritionApp.Droid.Resource.Attribute.tabIndicatorFullWidth;
+			global::Syncfusion.XForms.Android.ComboBox.Resource.Attribute.tabIndicatorGravity = global::NutritionApp.Droid.Resource.Attribute.tabIndicatorGravity;
+			global::Syncfusion.XForms.Android.ComboBox.Resource.Attribute.tabIndicatorHeight = global::NutritionApp.Droid.Resource.Attribute.tabIndicatorHeight;
+			global::Syncfusion.XForms.Android.ComboBox.Resource.Attribute.tabInlineLabel = global::NutritionApp.Droid.Resource.Attribute.tabInlineLabel;
+			global::Syncfusion.XForms.Android.ComboBox.Resource.Attribute.tabMaxWidth = global::NutritionApp.Droid.Resource.Attribute.tabMaxWidth;
+			global::Syncfusion.XForms.Android.ComboBox.Resource.Attribute.tabMinWidth = global::NutritionApp.Droid.Resource.Attribute.tabMinWidth;
+			global::Syncfusion.XForms.Android.ComboBox.Resource.Attribute.tabMode = global::NutritionApp.Droid.Resource.Attribute.tabMode;
+			global::Syncfusion.XForms.Android.ComboBox.Resource.Attribute.tabPadding = global::NutritionApp.Droid.Resource.Attribute.tabPadding;
+			global::Syncfusion.XForms.Android.ComboBox.Resource.Attribute.tabPaddingBottom = global::NutritionApp.Droid.Resource.Attribute.tabPaddingBottom;
+			global::Syncfusion.XForms.Android.ComboBox.Resource.Attribute.tabPaddingEnd = global::NutritionApp.Droid.Resource.Attribute.tabPaddingEnd;
+			global::Syncfusion.XForms.Android.ComboBox.Resource.Attribute.tabPaddingStart = global::NutritionApp.Droid.Resource.Attribute.tabPaddingStart;
+			global::Syncfusion.XForms.Android.ComboBox.Resource.Attribute.tabPaddingTop = global::NutritionApp.Droid.Resource.Attribute.tabPaddingTop;
+			global::Syncfusion.XForms.Android.ComboBox.Resource.Attribute.tabRippleColor = global::NutritionApp.Droid.Resource.Attribute.tabRippleColor;
+			global::Syncfusion.XForms.Android.ComboBox.Resource.Attribute.tabSelectedTextColor = global::NutritionApp.Droid.Resource.Attribute.tabSelectedTextColor;
+			global::Syncfusion.XForms.Android.ComboBox.Resource.Attribute.tabStyle = global::NutritionApp.Droid.Resource.Attribute.tabStyle;
+			global::Syncfusion.XForms.Android.ComboBox.Resource.Attribute.tabTextAppearance = global::NutritionApp.Droid.Resource.Attribute.tabTextAppearance;
+			global::Syncfusion.XForms.Android.ComboBox.Resource.Attribute.tabTextColor = global::NutritionApp.Droid.Resource.Attribute.tabTextColor;
+			global::Syncfusion.XForms.Android.ComboBox.Resource.Attribute.tabUnboundedRipple = global::NutritionApp.Droid.Resource.Attribute.tabUnboundedRipple;
+			global::Syncfusion.XForms.Android.ComboBox.Resource.Attribute.textAllCaps = global::NutritionApp.Droid.Resource.Attribute.textAllCaps;
+			global::Syncfusion.XForms.Android.ComboBox.Resource.Attribute.textAppearanceBody1 = global::NutritionApp.Droid.Resource.Attribute.textAppearanceBody1;
+			global::Syncfusion.XForms.Android.ComboBox.Resource.Attribute.textAppearanceBody2 = global::NutritionApp.Droid.Resource.Attribute.textAppearanceBody2;
+			global::Syncfusion.XForms.Android.ComboBox.Resource.Attribute.textAppearanceButton = global::NutritionApp.Droid.Resource.Attribute.textAppearanceButton;
+			global::Syncfusion.XForms.Android.ComboBox.Resource.Attribute.textAppearanceCaption = global::NutritionApp.Droid.Resource.Attribute.textAppearanceCaption;
+			global::Syncfusion.XForms.Android.ComboBox.Resource.Attribute.textAppearanceHeadline1 = global::NutritionApp.Droid.Resource.Attribute.textAppearanceHeadline1;
+			global::Syncfusion.XForms.Android.ComboBox.Resource.Attribute.textAppearanceHeadline2 = global::NutritionApp.Droid.Resource.Attribute.textAppearanceHeadline2;
+			global::Syncfusion.XForms.Android.ComboBox.Resource.Attribute.textAppearanceHeadline3 = global::NutritionApp.Droid.Resource.Attribute.textAppearanceHeadline3;
+			global::Syncfusion.XForms.Android.ComboBox.Resource.Attribute.textAppearanceHeadline4 = global::NutritionApp.Droid.Resource.Attribute.textAppearanceHeadline4;
+			global::Syncfusion.XForms.Android.ComboBox.Resource.Attribute.textAppearanceHeadline5 = global::NutritionApp.Droid.Resource.Attribute.textAppearanceHeadline5;
+			global::Syncfusion.XForms.Android.ComboBox.Resource.Attribute.textAppearanceHeadline6 = global::NutritionApp.Droid.Resource.Attribute.textAppearanceHeadline6;
+			global::Syncfusion.XForms.Android.ComboBox.Resource.Attribute.textAppearanceLargePopupMenu = global::NutritionApp.Droid.Resource.Attribute.textAppearanceLargePopupMenu;
+			global::Syncfusion.XForms.Android.ComboBox.Resource.Attribute.textAppearanceLineHeightEnabled = global::NutritionApp.Droid.Resource.Attribute.textAppearanceLineHeightEnabled;
+			global::Syncfusion.XForms.Android.ComboBox.Resource.Attribute.textAppearanceListItem = global::NutritionApp.Droid.Resource.Attribute.textAppearanceListItem;
+			global::Syncfusion.XForms.Android.ComboBox.Resource.Attribute.textAppearanceListItemSecondary = global::NutritionApp.Droid.Resource.Attribute.textAppearanceListItemSecondary;
+			global::Syncfusion.XForms.Android.ComboBox.Resource.Attribute.textAppearanceListItemSmall = global::NutritionApp.Droid.Resource.Attribute.textAppearanceListItemSmall;
+			global::Syncfusion.XForms.Android.ComboBox.Resource.Attribute.textAppearanceOverline = global::NutritionApp.Droid.Resource.Attribute.textAppearanceOverline;
+			global::Syncfusion.XForms.Android.ComboBox.Resource.Attribute.textAppearancePopupMenuHeader = global::NutritionApp.Droid.Resource.Attribute.textAppearancePopupMenuHeader;
+			global::Syncfusion.XForms.Android.ComboBox.Resource.Attribute.textAppearanceSearchResultSubtitle = global::NutritionApp.Droid.Resource.Attribute.textAppearanceSearchResultSubtitle;
+			global::Syncfusion.XForms.Android.ComboBox.Resource.Attribute.textAppearanceSearchResultTitle = global::NutritionApp.Droid.Resource.Attribute.textAppearanceSearchResultTitle;
+			global::Syncfusion.XForms.Android.ComboBox.Resource.Attribute.textAppearanceSmallPopupMenu = global::NutritionApp.Droid.Resource.Attribute.textAppearanceSmallPopupMenu;
+			global::Syncfusion.XForms.Android.ComboBox.Resource.Attribute.textAppearanceSubtitle1 = global::NutritionApp.Droid.Resource.Attribute.textAppearanceSubtitle1;
+			global::Syncfusion.XForms.Android.ComboBox.Resource.Attribute.textAppearanceSubtitle2 = global::NutritionApp.Droid.Resource.Attribute.textAppearanceSubtitle2;
+			global::Syncfusion.XForms.Android.ComboBox.Resource.Attribute.textColorAlertDialogListItem = global::NutritionApp.Droid.Resource.Attribute.textColorAlertDialogListItem;
+			global::Syncfusion.XForms.Android.ComboBox.Resource.Attribute.textColorSearchUrl = global::NutritionApp.Droid.Resource.Attribute.textColorSearchUrl;
+			global::Syncfusion.XForms.Android.ComboBox.Resource.Attribute.textEndPadding = global::NutritionApp.Droid.Resource.Attribute.textEndPadding;
+			global::Syncfusion.XForms.Android.ComboBox.Resource.Attribute.textInputLayoutFocusedRectEnabled = global::NutritionApp.Droid.Resource.Attribute.textInputLayoutFocusedRectEnabled;
+			global::Syncfusion.XForms.Android.ComboBox.Resource.Attribute.textInputStyle = global::NutritionApp.Droid.Resource.Attribute.textInputStyle;
+			global::Syncfusion.XForms.Android.ComboBox.Resource.Attribute.textLocale = global::NutritionApp.Droid.Resource.Attribute.textLocale;
+			global::Syncfusion.XForms.Android.ComboBox.Resource.Attribute.textStartPadding = global::NutritionApp.Droid.Resource.Attribute.textStartPadding;
+			global::Syncfusion.XForms.Android.ComboBox.Resource.Attribute.theme = global::NutritionApp.Droid.Resource.Attribute.theme;
+			global::Syncfusion.XForms.Android.ComboBox.Resource.Attribute.themeLineHeight = global::NutritionApp.Droid.Resource.Attribute.themeLineHeight;
+			global::Syncfusion.XForms.Android.ComboBox.Resource.Attribute.thickness = global::NutritionApp.Droid.Resource.Attribute.thickness;
+			global::Syncfusion.XForms.Android.ComboBox.Resource.Attribute.thumbColor = global::NutritionApp.Droid.Resource.Attribute.thumbColor;
+			global::Syncfusion.XForms.Android.ComboBox.Resource.Attribute.thumbElevation = global::NutritionApp.Droid.Resource.Attribute.thumbElevation;
+			global::Syncfusion.XForms.Android.ComboBox.Resource.Attribute.thumbRadius = global::NutritionApp.Droid.Resource.Attribute.thumbRadius;
+			global::Syncfusion.XForms.Android.ComboBox.Resource.Attribute.thumbTextPadding = global::NutritionApp.Droid.Resource.Attribute.thumbTextPadding;
+			global::Syncfusion.XForms.Android.ComboBox.Resource.Attribute.thumbTint = global::NutritionApp.Droid.Resource.Attribute.thumbTint;
+			global::Syncfusion.XForms.Android.ComboBox.Resource.Attribute.thumbTintMode = global::NutritionApp.Droid.Resource.Attribute.thumbTintMode;
+			global::Syncfusion.XForms.Android.ComboBox.Resource.Attribute.tickColor = global::NutritionApp.Droid.Resource.Attribute.tickColor;
+			global::Syncfusion.XForms.Android.ComboBox.Resource.Attribute.tickColorActive = global::NutritionApp.Droid.Resource.Attribute.tickColorActive;
+			global::Syncfusion.XForms.Android.ComboBox.Resource.Attribute.tickColorInactive = global::NutritionApp.Droid.Resource.Attribute.tickColorInactive;
+			global::Syncfusion.XForms.Android.ComboBox.Resource.Attribute.tickMark = global::NutritionApp.Droid.Resource.Attribute.tickMark;
+			global::Syncfusion.XForms.Android.ComboBox.Resource.Attribute.tickMarkTint = global::NutritionApp.Droid.Resource.Attribute.tickMarkTint;
+			global::Syncfusion.XForms.Android.ComboBox.Resource.Attribute.tickMarkTintMode = global::NutritionApp.Droid.Resource.Attribute.tickMarkTintMode;
+			global::Syncfusion.XForms.Android.ComboBox.Resource.Attribute.tint = global::NutritionApp.Droid.Resource.Attribute.tint;
+			global::Syncfusion.XForms.Android.ComboBox.Resource.Attribute.tintMode = global::NutritionApp.Droid.Resource.Attribute.tintMode;
+			global::Syncfusion.XForms.Android.ComboBox.Resource.Attribute.title = global::NutritionApp.Droid.Resource.Attribute.title;
+			global::Syncfusion.XForms.Android.ComboBox.Resource.Attribute.titleEnabled = global::NutritionApp.Droid.Resource.Attribute.titleEnabled;
+			global::Syncfusion.XForms.Android.ComboBox.Resource.Attribute.titleMargin = global::NutritionApp.Droid.Resource.Attribute.titleMargin;
+			global::Syncfusion.XForms.Android.ComboBox.Resource.Attribute.titleMarginBottom = global::NutritionApp.Droid.Resource.Attribute.titleMarginBottom;
+			global::Syncfusion.XForms.Android.ComboBox.Resource.Attribute.titleMarginEnd = global::NutritionApp.Droid.Resource.Attribute.titleMarginEnd;
+			global::Syncfusion.XForms.Android.ComboBox.Resource.Attribute.titleMargins = global::NutritionApp.Droid.Resource.Attribute.titleMargins;
+			global::Syncfusion.XForms.Android.ComboBox.Resource.Attribute.titleMarginStart = global::NutritionApp.Droid.Resource.Attribute.titleMarginStart;
+			global::Syncfusion.XForms.Android.ComboBox.Resource.Attribute.titleMarginTop = global::NutritionApp.Droid.Resource.Attribute.titleMarginTop;
+			global::Syncfusion.XForms.Android.ComboBox.Resource.Attribute.titleTextAppearance = global::NutritionApp.Droid.Resource.Attribute.titleTextAppearance;
+			global::Syncfusion.XForms.Android.ComboBox.Resource.Attribute.titleTextColor = global::NutritionApp.Droid.Resource.Attribute.titleTextColor;
+			global::Syncfusion.XForms.Android.ComboBox.Resource.Attribute.titleTextStyle = global::NutritionApp.Droid.Resource.Attribute.titleTextStyle;
+			global::Syncfusion.XForms.Android.ComboBox.Resource.Attribute.toolbarId = global::NutritionApp.Droid.Resource.Attribute.toolbarId;
+			global::Syncfusion.XForms.Android.ComboBox.Resource.Attribute.toolbarNavigationButtonStyle = global::NutritionApp.Droid.Resource.Attribute.toolbarNavigationButtonStyle;
+			global::Syncfusion.XForms.Android.ComboBox.Resource.Attribute.toolbarStyle = global::NutritionApp.Droid.Resource.Attribute.toolbarStyle;
+			global::Syncfusion.XForms.Android.ComboBox.Resource.Attribute.tooltipForegroundColor = global::NutritionApp.Droid.Resource.Attribute.tooltipForegroundColor;
+			global::Syncfusion.XForms.Android.ComboBox.Resource.Attribute.tooltipFrameBackground = global::NutritionApp.Droid.Resource.Attribute.tooltipFrameBackground;
+			global::Syncfusion.XForms.Android.ComboBox.Resource.Attribute.tooltipStyle = global::NutritionApp.Droid.Resource.Attribute.tooltipStyle;
+			global::Syncfusion.XForms.Android.ComboBox.Resource.Attribute.tooltipText = global::NutritionApp.Droid.Resource.Attribute.tooltipText;
+			global::Syncfusion.XForms.Android.ComboBox.Resource.Attribute.track = global::NutritionApp.Droid.Resource.Attribute.track;
+			global::Syncfusion.XForms.Android.ComboBox.Resource.Attribute.trackColor = global::NutritionApp.Droid.Resource.Attribute.trackColor;
+			global::Syncfusion.XForms.Android.ComboBox.Resource.Attribute.trackColorActive = global::NutritionApp.Droid.Resource.Attribute.trackColorActive;
+			global::Syncfusion.XForms.Android.ComboBox.Resource.Attribute.trackColorInactive = global::NutritionApp.Droid.Resource.Attribute.trackColorInactive;
+			global::Syncfusion.XForms.Android.ComboBox.Resource.Attribute.trackHeight = global::NutritionApp.Droid.Resource.Attribute.trackHeight;
+			global::Syncfusion.XForms.Android.ComboBox.Resource.Attribute.trackTint = global::NutritionApp.Droid.Resource.Attribute.trackTint;
+			global::Syncfusion.XForms.Android.ComboBox.Resource.Attribute.trackTintMode = global::NutritionApp.Droid.Resource.Attribute.trackTintMode;
+			global::Syncfusion.XForms.Android.ComboBox.Resource.Attribute.transitionShapeAppearance = global::NutritionApp.Droid.Resource.Attribute.transitionShapeAppearance;
+			global::Syncfusion.XForms.Android.ComboBox.Resource.Attribute.ttcIndex = global::NutritionApp.Droid.Resource.Attribute.ttcIndex;
+			global::Syncfusion.XForms.Android.ComboBox.Resource.Attribute.useCompatPadding = global::NutritionApp.Droid.Resource.Attribute.useCompatPadding;
+			global::Syncfusion.XForms.Android.ComboBox.Resource.Attribute.useMaterialThemeColors = global::NutritionApp.Droid.Resource.Attribute.useMaterialThemeColors;
+			global::Syncfusion.XForms.Android.ComboBox.Resource.Attribute.values = global::NutritionApp.Droid.Resource.Attribute.values;
+			global::Syncfusion.XForms.Android.ComboBox.Resource.Attribute.verticalOffset = global::NutritionApp.Droid.Resource.Attribute.verticalOffset;
+			global::Syncfusion.XForms.Android.ComboBox.Resource.Attribute.viewInflaterClass = global::NutritionApp.Droid.Resource.Attribute.viewInflaterClass;
+			global::Syncfusion.XForms.Android.ComboBox.Resource.Attribute.voiceIcon = global::NutritionApp.Droid.Resource.Attribute.voiceIcon;
+			global::Syncfusion.XForms.Android.ComboBox.Resource.Attribute.windowActionBar = global::NutritionApp.Droid.Resource.Attribute.windowActionBar;
+			global::Syncfusion.XForms.Android.ComboBox.Resource.Attribute.windowActionBarOverlay = global::NutritionApp.Droid.Resource.Attribute.windowActionBarOverlay;
+			global::Syncfusion.XForms.Android.ComboBox.Resource.Attribute.windowActionModeOverlay = global::NutritionApp.Droid.Resource.Attribute.windowActionModeOverlay;
+			global::Syncfusion.XForms.Android.ComboBox.Resource.Attribute.windowFixedHeightMajor = global::NutritionApp.Droid.Resource.Attribute.windowFixedHeightMajor;
+			global::Syncfusion.XForms.Android.ComboBox.Resource.Attribute.windowFixedHeightMinor = global::NutritionApp.Droid.Resource.Attribute.windowFixedHeightMinor;
+			global::Syncfusion.XForms.Android.ComboBox.Resource.Attribute.windowFixedWidthMajor = global::NutritionApp.Droid.Resource.Attribute.windowFixedWidthMajor;
+			global::Syncfusion.XForms.Android.ComboBox.Resource.Attribute.windowFixedWidthMinor = global::NutritionApp.Droid.Resource.Attribute.windowFixedWidthMinor;
+			global::Syncfusion.XForms.Android.ComboBox.Resource.Attribute.windowMinWidthMajor = global::NutritionApp.Droid.Resource.Attribute.windowMinWidthMajor;
+			global::Syncfusion.XForms.Android.ComboBox.Resource.Attribute.windowMinWidthMinor = global::NutritionApp.Droid.Resource.Attribute.windowMinWidthMinor;
+			global::Syncfusion.XForms.Android.ComboBox.Resource.Attribute.windowNoTitle = global::NutritionApp.Droid.Resource.Attribute.windowNoTitle;
+			global::Syncfusion.XForms.Android.ComboBox.Resource.Attribute.yearSelectedStyle = global::NutritionApp.Droid.Resource.Attribute.yearSelectedStyle;
+			global::Syncfusion.XForms.Android.ComboBox.Resource.Attribute.yearStyle = global::NutritionApp.Droid.Resource.Attribute.yearStyle;
+			global::Syncfusion.XForms.Android.ComboBox.Resource.Attribute.yearTodayStyle = global::NutritionApp.Droid.Resource.Attribute.yearTodayStyle;
+			global::Syncfusion.XForms.Android.ComboBox.Resource.Boolean.abc_action_bar_embed_tabs = global::NutritionApp.Droid.Resource.Boolean.abc_action_bar_embed_tabs;
+			global::Syncfusion.XForms.Android.ComboBox.Resource.Boolean.abc_config_actionMenuItemAllCaps = global::NutritionApp.Droid.Resource.Boolean.abc_config_actionMenuItemAllCaps;
+			global::Syncfusion.XForms.Android.ComboBox.Resource.Boolean.mtrl_btn_textappearance_all_caps = global::NutritionApp.Droid.Resource.Boolean.mtrl_btn_textappearance_all_caps;
+			global::Syncfusion.XForms.Android.ComboBox.Resource.Color.abc_background_cache_hint_selector_material_dark = global::NutritionApp.Droid.Resource.Color.abc_background_cache_hint_selector_material_dark;
+			global::Syncfusion.XForms.Android.ComboBox.Resource.Color.abc_background_cache_hint_selector_material_light = global::NutritionApp.Droid.Resource.Color.abc_background_cache_hint_selector_material_light;
+			global::Syncfusion.XForms.Android.ComboBox.Resource.Color.abc_btn_colored_borderless_text_material = global::NutritionApp.Droid.Resource.Color.abc_btn_colored_borderless_text_material;
+			global::Syncfusion.XForms.Android.ComboBox.Resource.Color.abc_btn_colored_text_material = global::NutritionApp.Droid.Resource.Color.abc_btn_colored_text_material;
+			global::Syncfusion.XForms.Android.ComboBox.Resource.Color.abc_color_highlight_material = global::NutritionApp.Droid.Resource.Color.abc_color_highlight_material;
+			global::Syncfusion.XForms.Android.ComboBox.Resource.Color.abc_decor_view_status_guard = global::NutritionApp.Droid.Resource.Color.abc_decor_view_status_guard;
+			global::Syncfusion.XForms.Android.ComboBox.Resource.Color.abc_decor_view_status_guard_light = global::NutritionApp.Droid.Resource.Color.abc_decor_view_status_guard_light;
+			global::Syncfusion.XForms.Android.ComboBox.Resource.Color.abc_hint_foreground_material_dark = global::NutritionApp.Droid.Resource.Color.abc_hint_foreground_material_dark;
+			global::Syncfusion.XForms.Android.ComboBox.Resource.Color.abc_hint_foreground_material_light = global::NutritionApp.Droid.Resource.Color.abc_hint_foreground_material_light;
+			global::Syncfusion.XForms.Android.ComboBox.Resource.Color.abc_primary_text_disable_only_material_dark = global::NutritionApp.Droid.Resource.Color.abc_primary_text_disable_only_material_dark;
+			global::Syncfusion.XForms.Android.ComboBox.Resource.Color.abc_primary_text_disable_only_material_light = global::NutritionApp.Droid.Resource.Color.abc_primary_text_disable_only_material_light;
+			global::Syncfusion.XForms.Android.ComboBox.Resource.Color.abc_primary_text_material_dark = global::NutritionApp.Droid.Resource.Color.abc_primary_text_material_dark;
+			global::Syncfusion.XForms.Android.ComboBox.Resource.Color.abc_primary_text_material_light = global::NutritionApp.Droid.Resource.Color.abc_primary_text_material_light;
+			global::Syncfusion.XForms.Android.ComboBox.Resource.Color.abc_search_url_text = global::NutritionApp.Droid.Resource.Color.abc_search_url_text;
+			global::Syncfusion.XForms.Android.ComboBox.Resource.Color.abc_search_url_text_normal = global::NutritionApp.Droid.Resource.Color.abc_search_url_text_normal;
+			global::Syncfusion.XForms.Android.ComboBox.Resource.Color.abc_search_url_text_pressed = global::NutritionApp.Droid.Resource.Color.abc_search_url_text_pressed;
+			global::Syncfusion.XForms.Android.ComboBox.Resource.Color.abc_search_url_text_selected = global::NutritionApp.Droid.Resource.Color.abc_search_url_text_selected;
+			global::Syncfusion.XForms.Android.ComboBox.Resource.Color.abc_secondary_text_material_dark = global::NutritionApp.Droid.Resource.Color.abc_secondary_text_material_dark;
+			global::Syncfusion.XForms.Android.ComboBox.Resource.Color.abc_secondary_text_material_light = global::NutritionApp.Droid.Resource.Color.abc_secondary_text_material_light;
+			global::Syncfusion.XForms.Android.ComboBox.Resource.Color.abc_tint_btn_checkable = global::NutritionApp.Droid.Resource.Color.abc_tint_btn_checkable;
+			global::Syncfusion.XForms.Android.ComboBox.Resource.Color.abc_tint_default = global::NutritionApp.Droid.Resource.Color.abc_tint_default;
+			global::Syncfusion.XForms.Android.ComboBox.Resource.Color.abc_tint_edittext = global::NutritionApp.Droid.Resource.Color.abc_tint_edittext;
+			global::Syncfusion.XForms.Android.ComboBox.Resource.Color.abc_tint_seek_thumb = global::NutritionApp.Droid.Resource.Color.abc_tint_seek_thumb;
+			global::Syncfusion.XForms.Android.ComboBox.Resource.Color.abc_tint_spinner = global::NutritionApp.Droid.Resource.Color.abc_tint_spinner;
+			global::Syncfusion.XForms.Android.ComboBox.Resource.Color.abc_tint_switch_track = global::NutritionApp.Droid.Resource.Color.abc_tint_switch_track;
+			global::Syncfusion.XForms.Android.ComboBox.Resource.Color.accent_material_dark = global::NutritionApp.Droid.Resource.Color.accent_material_dark;
+			global::Syncfusion.XForms.Android.ComboBox.Resource.Color.accent_material_light = global::NutritionApp.Droid.Resource.Color.accent_material_light;
+			global::Syncfusion.XForms.Android.ComboBox.Resource.Color.androidx_core_ripple_material_light = global::NutritionApp.Droid.Resource.Color.androidx_core_ripple_material_light;
+			global::Syncfusion.XForms.Android.ComboBox.Resource.Color.androidx_core_secondary_text_default_material_light = global::NutritionApp.Droid.Resource.Color.androidx_core_secondary_text_default_material_light;
+			global::Syncfusion.XForms.Android.ComboBox.Resource.Color.background_floating_material_dark = global::NutritionApp.Droid.Resource.Color.background_floating_material_dark;
+			global::Syncfusion.XForms.Android.ComboBox.Resource.Color.background_floating_material_light = global::NutritionApp.Droid.Resource.Color.background_floating_material_light;
+			global::Syncfusion.XForms.Android.ComboBox.Resource.Color.background_material_dark = global::NutritionApp.Droid.Resource.Color.background_material_dark;
+			global::Syncfusion.XForms.Android.ComboBox.Resource.Color.background_material_light = global::NutritionApp.Droid.Resource.Color.background_material_light;
+			global::Syncfusion.XForms.Android.ComboBox.Resource.Color.bright_foreground_disabled_material_dark = global::NutritionApp.Droid.Resource.Color.bright_foreground_disabled_material_dark;
+			global::Syncfusion.XForms.Android.ComboBox.Resource.Color.bright_foreground_disabled_material_light = global::NutritionApp.Droid.Resource.Color.bright_foreground_disabled_material_light;
+			global::Syncfusion.XForms.Android.ComboBox.Resource.Color.bright_foreground_inverse_material_dark = global::NutritionApp.Droid.Resource.Color.bright_foreground_inverse_material_dark;
+			global::Syncfusion.XForms.Android.ComboBox.Resource.Color.bright_foreground_inverse_material_light = global::NutritionApp.Droid.Resource.Color.bright_foreground_inverse_material_light;
+			global::Syncfusion.XForms.Android.ComboBox.Resource.Color.bright_foreground_material_dark = global::NutritionApp.Droid.Resource.Color.bright_foreground_material_dark;
+			global::Syncfusion.XForms.Android.ComboBox.Resource.Color.bright_foreground_material_light = global::NutritionApp.Droid.Resource.Color.bright_foreground_material_light;
+			global::Syncfusion.XForms.Android.ComboBox.Resource.Color.browser_actions_bg_grey = global::NutritionApp.Droid.Resource.Color.browser_actions_bg_grey;
+			global::Syncfusion.XForms.Android.ComboBox.Resource.Color.browser_actions_divider_color = global::NutritionApp.Droid.Resource.Color.browser_actions_divider_color;
+			global::Syncfusion.XForms.Android.ComboBox.Resource.Color.browser_actions_text_color = global::NutritionApp.Droid.Resource.Color.browser_actions_text_color;
+			global::Syncfusion.XForms.Android.ComboBox.Resource.Color.browser_actions_title_color = global::NutritionApp.Droid.Resource.Color.browser_actions_title_color;
+			global::Syncfusion.XForms.Android.ComboBox.Resource.Color.button_material_dark = global::NutritionApp.Droid.Resource.Color.button_material_dark;
+			global::Syncfusion.XForms.Android.ComboBox.Resource.Color.button_material_light = global::NutritionApp.Droid.Resource.Color.button_material_light;
+			global::Syncfusion.XForms.Android.ComboBox.Resource.Color.cardview_dark_background = global::NutritionApp.Droid.Resource.Color.cardview_dark_background;
+			global::Syncfusion.XForms.Android.ComboBox.Resource.Color.cardview_light_background = global::NutritionApp.Droid.Resource.Color.cardview_light_background;
+			global::Syncfusion.XForms.Android.ComboBox.Resource.Color.cardview_shadow_end_color = global::NutritionApp.Droid.Resource.Color.cardview_shadow_end_color;
+			global::Syncfusion.XForms.Android.ComboBox.Resource.Color.cardview_shadow_start_color = global::NutritionApp.Droid.Resource.Color.cardview_shadow_start_color;
+			global::Syncfusion.XForms.Android.ComboBox.Resource.Color.checkbox_themeable_attribute_color = global::NutritionApp.Droid.Resource.Color.checkbox_themeable_attribute_color;
+			global::Syncfusion.XForms.Android.ComboBox.Resource.Color.design_bottom_navigation_shadow_color = global::NutritionApp.Droid.Resource.Color.design_bottom_navigation_shadow_color;
+			global::Syncfusion.XForms.Android.ComboBox.Resource.Color.design_box_stroke_color = global::NutritionApp.Droid.Resource.Color.design_box_stroke_color;
+			global::Syncfusion.XForms.Android.ComboBox.Resource.Color.design_dark_default_color_background = global::NutritionApp.Droid.Resource.Color.design_dark_default_color_background;
+			global::Syncfusion.XForms.Android.ComboBox.Resource.Color.design_dark_default_color_error = global::NutritionApp.Droid.Resource.Color.design_dark_default_color_error;
+			global::Syncfusion.XForms.Android.ComboBox.Resource.Color.design_dark_default_color_on_background = global::NutritionApp.Droid.Resource.Color.design_dark_default_color_on_background;
+			global::Syncfusion.XForms.Android.ComboBox.Resource.Color.design_dark_default_color_on_error = global::NutritionApp.Droid.Resource.Color.design_dark_default_color_on_error;
+			global::Syncfusion.XForms.Android.ComboBox.Resource.Color.design_dark_default_color_on_primary = global::NutritionApp.Droid.Resource.Color.design_dark_default_color_on_primary;
+			global::Syncfusion.XForms.Android.ComboBox.Resource.Color.design_dark_default_color_on_secondary = global::NutritionApp.Droid.Resource.Color.design_dark_default_color_on_secondary;
+			global::Syncfusion.XForms.Android.ComboBox.Resource.Color.design_dark_default_color_on_surface = global::NutritionApp.Droid.Resource.Color.design_dark_default_color_on_surface;
+			global::Syncfusion.XForms.Android.ComboBox.Resource.Color.design_dark_default_color_primary = global::NutritionApp.Droid.Resource.Color.design_dark_default_color_primary;
+			global::Syncfusion.XForms.Android.ComboBox.Resource.Color.design_dark_default_color_primary_dark = global::NutritionApp.Droid.Resource.Color.design_dark_default_color_primary_dark;
+			global::Syncfusion.XForms.Android.ComboBox.Resource.Color.design_dark_default_color_primary_variant = global::NutritionApp.Droid.Resource.Color.design_dark_default_color_primary_variant;
+			global::Syncfusion.XForms.Android.ComboBox.Resource.Color.design_dark_default_color_secondary = global::NutritionApp.Droid.Resource.Color.design_dark_default_color_secondary;
+			global::Syncfusion.XForms.Android.ComboBox.Resource.Color.design_dark_default_color_secondary_variant = global::NutritionApp.Droid.Resource.Color.design_dark_default_color_secondary_variant;
+			global::Syncfusion.XForms.Android.ComboBox.Resource.Color.design_dark_default_color_surface = global::NutritionApp.Droid.Resource.Color.design_dark_default_color_surface;
+			global::Syncfusion.XForms.Android.ComboBox.Resource.Color.design_default_color_background = global::NutritionApp.Droid.Resource.Color.design_default_color_background;
+			global::Syncfusion.XForms.Android.ComboBox.Resource.Color.design_default_color_error = global::NutritionApp.Droid.Resource.Color.design_default_color_error;
+			global::Syncfusion.XForms.Android.ComboBox.Resource.Color.design_default_color_on_background = global::NutritionApp.Droid.Resource.Color.design_default_color_on_background;
+			global::Syncfusion.XForms.Android.ComboBox.Resource.Color.design_default_color_on_error = global::NutritionApp.Droid.Resource.Color.design_default_color_on_error;
+			global::Syncfusion.XForms.Android.ComboBox.Resource.Color.design_default_color_on_primary = global::NutritionApp.Droid.Resource.Color.design_default_color_on_primary;
+			global::Syncfusion.XForms.Android.ComboBox.Resource.Color.design_default_color_on_secondary = global::NutritionApp.Droid.Resource.Color.design_default_color_on_secondary;
+			global::Syncfusion.XForms.Android.ComboBox.Resource.Color.design_default_color_on_surface = global::NutritionApp.Droid.Resource.Color.design_default_color_on_surface;
+			global::Syncfusion.XForms.Android.ComboBox.Resource.Color.design_default_color_primary = global::NutritionApp.Droid.Resource.Color.design_default_color_primary;
+			global::Syncfusion.XForms.Android.ComboBox.Resource.Color.design_default_color_primary_dark = global::NutritionApp.Droid.Resource.Color.design_default_color_primary_dark;
+			global::Syncfusion.XForms.Android.ComboBox.Resource.Color.design_default_color_primary_variant = global::NutritionApp.Droid.Resource.Color.design_default_color_primary_variant;
+			global::Syncfusion.XForms.Android.ComboBox.Resource.Color.design_default_color_secondary = global::NutritionApp.Droid.Resource.Color.design_default_color_secondary;
+			global::Syncfusion.XForms.Android.ComboBox.Resource.Color.design_default_color_secondary_variant = global::NutritionApp.Droid.Resource.Color.design_default_color_secondary_variant;
+			global::Syncfusion.XForms.Android.ComboBox.Resource.Color.design_default_color_surface = global::NutritionApp.Droid.Resource.Color.design_default_color_surface;
+			global::Syncfusion.XForms.Android.ComboBox.Resource.Color.design_error = global::NutritionApp.Droid.Resource.Color.design_error;
+			global::Syncfusion.XForms.Android.ComboBox.Resource.Color.design_fab_shadow_end_color = global::NutritionApp.Droid.Resource.Color.design_fab_shadow_end_color;
+			global::Syncfusion.XForms.Android.ComboBox.Resource.Color.design_fab_shadow_mid_color = global::NutritionApp.Droid.Resource.Color.design_fab_shadow_mid_color;
+			global::Syncfusion.XForms.Android.ComboBox.Resource.Color.design_fab_shadow_start_color = global::NutritionApp.Droid.Resource.Color.design_fab_shadow_start_color;
+			global::Syncfusion.XForms.Android.ComboBox.Resource.Color.design_fab_stroke_end_inner_color = global::NutritionApp.Droid.Resource.Color.design_fab_stroke_end_inner_color;
+			global::Syncfusion.XForms.Android.ComboBox.Resource.Color.design_fab_stroke_end_outer_color = global::NutritionApp.Droid.Resource.Color.design_fab_stroke_end_outer_color;
+			global::Syncfusion.XForms.Android.ComboBox.Resource.Color.design_fab_stroke_top_inner_color = global::NutritionApp.Droid.Resource.Color.design_fab_stroke_top_inner_color;
+			global::Syncfusion.XForms.Android.ComboBox.Resource.Color.design_fab_stroke_top_outer_color = global::NutritionApp.Droid.Resource.Color.design_fab_stroke_top_outer_color;
+			global::Syncfusion.XForms.Android.ComboBox.Resource.Color.design_icon_tint = global::NutritionApp.Droid.Resource.Color.design_icon_tint;
+			global::Syncfusion.XForms.Android.ComboBox.Resource.Color.design_snackbar_background_color = global::NutritionApp.Droid.Resource.Color.design_snackbar_background_color;
+			global::Syncfusion.XForms.Android.ComboBox.Resource.Color.dim_foreground_disabled_material_dark = global::NutritionApp.Droid.Resource.Color.dim_foreground_disabled_material_dark;
+			global::Syncfusion.XForms.Android.ComboBox.Resource.Color.dim_foreground_disabled_material_light = global::NutritionApp.Droid.Resource.Color.dim_foreground_disabled_material_light;
+			global::Syncfusion.XForms.Android.ComboBox.Resource.Color.dim_foreground_material_dark = global::NutritionApp.Droid.Resource.Color.dim_foreground_material_dark;
+			global::Syncfusion.XForms.Android.ComboBox.Resource.Color.dim_foreground_material_light = global::NutritionApp.Droid.Resource.Color.dim_foreground_material_light;
+			global::Syncfusion.XForms.Android.ComboBox.Resource.Color.error_color_material_dark = global::NutritionApp.Droid.Resource.Color.error_color_material_dark;
+			global::Syncfusion.XForms.Android.ComboBox.Resource.Color.error_color_material_light = global::NutritionApp.Droid.Resource.Color.error_color_material_light;
+			global::Syncfusion.XForms.Android.ComboBox.Resource.Color.foreground_material_dark = global::NutritionApp.Droid.Resource.Color.foreground_material_dark;
+			global::Syncfusion.XForms.Android.ComboBox.Resource.Color.foreground_material_light = global::NutritionApp.Droid.Resource.Color.foreground_material_light;
+			global::Syncfusion.XForms.Android.ComboBox.Resource.Color.highlighted_text_material_dark = global::NutritionApp.Droid.Resource.Color.highlighted_text_material_dark;
+			global::Syncfusion.XForms.Android.ComboBox.Resource.Color.highlighted_text_material_light = global::NutritionApp.Droid.Resource.Color.highlighted_text_material_light;
+			global::Syncfusion.XForms.Android.ComboBox.Resource.Color.material_blue_grey_800 = global::NutritionApp.Droid.Resource.Color.material_blue_grey_800;
+			global::Syncfusion.XForms.Android.ComboBox.Resource.Color.material_blue_grey_900 = global::NutritionApp.Droid.Resource.Color.material_blue_grey_900;
+			global::Syncfusion.XForms.Android.ComboBox.Resource.Color.material_blue_grey_950 = global::NutritionApp.Droid.Resource.Color.material_blue_grey_950;
+			global::Syncfusion.XForms.Android.ComboBox.Resource.Color.material_deep_teal_200 = global::NutritionApp.Droid.Resource.Color.material_deep_teal_200;
+			global::Syncfusion.XForms.Android.ComboBox.Resource.Color.material_deep_teal_500 = global::NutritionApp.Droid.Resource.Color.material_deep_teal_500;
+			global::Syncfusion.XForms.Android.ComboBox.Resource.Color.material_grey_100 = global::NutritionApp.Droid.Resource.Color.material_grey_100;
+			global::Syncfusion.XForms.Android.ComboBox.Resource.Color.material_grey_300 = global::NutritionApp.Droid.Resource.Color.material_grey_300;
+			global::Syncfusion.XForms.Android.ComboBox.Resource.Color.material_grey_50 = global::NutritionApp.Droid.Resource.Color.material_grey_50;
+			global::Syncfusion.XForms.Android.ComboBox.Resource.Color.material_grey_600 = global::NutritionApp.Droid.Resource.Color.material_grey_600;
+			global::Syncfusion.XForms.Android.ComboBox.Resource.Color.material_grey_800 = global::NutritionApp.Droid.Resource.Color.material_grey_800;
+			global::Syncfusion.XForms.Android.ComboBox.Resource.Color.material_grey_850 = global::NutritionApp.Droid.Resource.Color.material_grey_850;
+			global::Syncfusion.XForms.Android.ComboBox.Resource.Color.material_grey_900 = global::NutritionApp.Droid.Resource.Color.material_grey_900;
+			global::Syncfusion.XForms.Android.ComboBox.Resource.Color.material_on_background_disabled = global::NutritionApp.Droid.Resource.Color.material_on_background_disabled;
+			global::Syncfusion.XForms.Android.ComboBox.Resource.Color.material_on_background_emphasis_high_type = global::NutritionApp.Droid.Resource.Color.material_on_background_emphasis_high_type;
+			global::Syncfusion.XForms.Android.ComboBox.Resource.Color.material_on_background_emphasis_medium = global::NutritionApp.Droid.Resource.Color.material_on_background_emphasis_medium;
+			global::Syncfusion.XForms.Android.ComboBox.Resource.Color.material_on_primary_disabled = global::NutritionApp.Droid.Resource.Color.material_on_primary_disabled;
+			global::Syncfusion.XForms.Android.ComboBox.Resource.Color.material_on_primary_emphasis_high_type = global::NutritionApp.Droid.Resource.Color.material_on_primary_emphasis_high_type;
+			global::Syncfusion.XForms.Android.ComboBox.Resource.Color.material_on_primary_emphasis_medium = global::NutritionApp.Droid.Resource.Color.material_on_primary_emphasis_medium;
+			global::Syncfusion.XForms.Android.ComboBox.Resource.Color.material_on_surface_disabled = global::NutritionApp.Droid.Resource.Color.material_on_surface_disabled;
+			global::Syncfusion.XForms.Android.ComboBox.Resource.Color.material_on_surface_emphasis_high_type = global::NutritionApp.Droid.Resource.Color.material_on_surface_emphasis_high_type;
+			global::Syncfusion.XForms.Android.ComboBox.Resource.Color.material_on_surface_emphasis_medium = global::NutritionApp.Droid.Resource.Color.material_on_surface_emphasis_medium;
+			global::Syncfusion.XForms.Android.ComboBox.Resource.Color.material_on_surface_stroke = global::NutritionApp.Droid.Resource.Color.material_on_surface_stroke;
+			global::Syncfusion.XForms.Android.ComboBox.Resource.Color.material_slider_active_tick_marks_color = global::NutritionApp.Droid.Resource.Color.material_slider_active_tick_marks_color;
+			global::Syncfusion.XForms.Android.ComboBox.Resource.Color.material_slider_active_track_color = global::NutritionApp.Droid.Resource.Color.material_slider_active_track_color;
+			global::Syncfusion.XForms.Android.ComboBox.Resource.Color.material_slider_halo_color = global::NutritionApp.Droid.Resource.Color.material_slider_halo_color;
+			global::Syncfusion.XForms.Android.ComboBox.Resource.Color.material_slider_inactive_tick_marks_color = global::NutritionApp.Droid.Resource.Color.material_slider_inactive_tick_marks_color;
+			global::Syncfusion.XForms.Android.ComboBox.Resource.Color.material_slider_inactive_track_color = global::NutritionApp.Droid.Resource.Color.material_slider_inactive_track_color;
+			global::Syncfusion.XForms.Android.ComboBox.Resource.Color.material_slider_thumb_color = global::NutritionApp.Droid.Resource.Color.material_slider_thumb_color;
+			global::Syncfusion.XForms.Android.ComboBox.Resource.Color.mtrl_btn_bg_color_selector = global::NutritionApp.Droid.Resource.Color.mtrl_btn_bg_color_selector;
+			global::Syncfusion.XForms.Android.ComboBox.Resource.Color.mtrl_btn_ripple_color = global::NutritionApp.Droid.Resource.Color.mtrl_btn_ripple_color;
+			global::Syncfusion.XForms.Android.ComboBox.Resource.Color.mtrl_btn_stroke_color_selector = global::NutritionApp.Droid.Resource.Color.mtrl_btn_stroke_color_selector;
+			global::Syncfusion.XForms.Android.ComboBox.Resource.Color.mtrl_btn_text_btn_bg_color_selector = global::NutritionApp.Droid.Resource.Color.mtrl_btn_text_btn_bg_color_selector;
+			global::Syncfusion.XForms.Android.ComboBox.Resource.Color.mtrl_btn_text_btn_ripple_color = global::NutritionApp.Droid.Resource.Color.mtrl_btn_text_btn_ripple_color;
+			global::Syncfusion.XForms.Android.ComboBox.Resource.Color.mtrl_btn_text_color_disabled = global::NutritionApp.Droid.Resource.Color.mtrl_btn_text_color_disabled;
+			global::Syncfusion.XForms.Android.ComboBox.Resource.Color.mtrl_btn_text_color_selector = global::NutritionApp.Droid.Resource.Color.mtrl_btn_text_color_selector;
+			global::Syncfusion.XForms.Android.ComboBox.Resource.Color.mtrl_btn_transparent_bg_color = global::NutritionApp.Droid.Resource.Color.mtrl_btn_transparent_bg_color;
+			global::Syncfusion.XForms.Android.ComboBox.Resource.Color.mtrl_calendar_item_stroke_color = global::NutritionApp.Droid.Resource.Color.mtrl_calendar_item_stroke_color;
+			global::Syncfusion.XForms.Android.ComboBox.Resource.Color.mtrl_calendar_selected_range = global::NutritionApp.Droid.Resource.Color.mtrl_calendar_selected_range;
+			global::Syncfusion.XForms.Android.ComboBox.Resource.Color.mtrl_card_view_foreground = global::NutritionApp.Droid.Resource.Color.mtrl_card_view_foreground;
+			global::Syncfusion.XForms.Android.ComboBox.Resource.Color.mtrl_card_view_ripple = global::NutritionApp.Droid.Resource.Color.mtrl_card_view_ripple;
+			global::Syncfusion.XForms.Android.ComboBox.Resource.Color.mtrl_chip_background_color = global::NutritionApp.Droid.Resource.Color.mtrl_chip_background_color;
+			global::Syncfusion.XForms.Android.ComboBox.Resource.Color.mtrl_chip_close_icon_tint = global::NutritionApp.Droid.Resource.Color.mtrl_chip_close_icon_tint;
+			global::Syncfusion.XForms.Android.ComboBox.Resource.Color.mtrl_chip_surface_color = global::NutritionApp.Droid.Resource.Color.mtrl_chip_surface_color;
+			global::Syncfusion.XForms.Android.ComboBox.Resource.Color.mtrl_chip_text_color = global::NutritionApp.Droid.Resource.Color.mtrl_chip_text_color;
+			global::Syncfusion.XForms.Android.ComboBox.Resource.Color.mtrl_choice_chip_background_color = global::NutritionApp.Droid.Resource.Color.mtrl_choice_chip_background_color;
+			global::Syncfusion.XForms.Android.ComboBox.Resource.Color.mtrl_choice_chip_ripple_color = global::NutritionApp.Droid.Resource.Color.mtrl_choice_chip_ripple_color;
+			global::Syncfusion.XForms.Android.ComboBox.Resource.Color.mtrl_choice_chip_text_color = global::NutritionApp.Droid.Resource.Color.mtrl_choice_chip_text_color;
+			global::Syncfusion.XForms.Android.ComboBox.Resource.Color.mtrl_error = global::NutritionApp.Droid.Resource.Color.mtrl_error;
+			global::Syncfusion.XForms.Android.ComboBox.Resource.Color.mtrl_fab_bg_color_selector = global::NutritionApp.Droid.Resource.Color.mtrl_fab_bg_color_selector;
+			global::Syncfusion.XForms.Android.ComboBox.Resource.Color.mtrl_fab_icon_text_color_selector = global::NutritionApp.Droid.Resource.Color.mtrl_fab_icon_text_color_selector;
+			global::Syncfusion.XForms.Android.ComboBox.Resource.Color.mtrl_fab_ripple_color = global::NutritionApp.Droid.Resource.Color.mtrl_fab_ripple_color;
+			global::Syncfusion.XForms.Android.ComboBox.Resource.Color.mtrl_filled_background_color = global::NutritionApp.Droid.Resource.Color.mtrl_filled_background_color;
+			global::Syncfusion.XForms.Android.ComboBox.Resource.Color.mtrl_filled_icon_tint = global::NutritionApp.Droid.Resource.Color.mtrl_filled_icon_tint;
+			global::Syncfusion.XForms.Android.ComboBox.Resource.Color.mtrl_filled_stroke_color = global::NutritionApp.Droid.Resource.Color.mtrl_filled_stroke_color;
+			global::Syncfusion.XForms.Android.ComboBox.Resource.Color.mtrl_indicator_text_color = global::NutritionApp.Droid.Resource.Color.mtrl_indicator_text_color;
+			global::Syncfusion.XForms.Android.ComboBox.Resource.Color.mtrl_navigation_item_background_color = global::NutritionApp.Droid.Resource.Color.mtrl_navigation_item_background_color;
+			global::Syncfusion.XForms.Android.ComboBox.Resource.Color.mtrl_navigation_item_icon_tint = global::NutritionApp.Droid.Resource.Color.mtrl_navigation_item_icon_tint;
+			global::Syncfusion.XForms.Android.ComboBox.Resource.Color.mtrl_navigation_item_text_color = global::NutritionApp.Droid.Resource.Color.mtrl_navigation_item_text_color;
+			global::Syncfusion.XForms.Android.ComboBox.Resource.Color.mtrl_on_primary_text_btn_text_color_selector = global::NutritionApp.Droid.Resource.Color.mtrl_on_primary_text_btn_text_color_selector;
+			global::Syncfusion.XForms.Android.ComboBox.Resource.Color.mtrl_outlined_icon_tint = global::NutritionApp.Droid.Resource.Color.mtrl_outlined_icon_tint;
+			global::Syncfusion.XForms.Android.ComboBox.Resource.Color.mtrl_outlined_stroke_color = global::NutritionApp.Droid.Resource.Color.mtrl_outlined_stroke_color;
+			global::Syncfusion.XForms.Android.ComboBox.Resource.Color.mtrl_popupmenu_overlay_color = global::NutritionApp.Droid.Resource.Color.mtrl_popupmenu_overlay_color;
+			global::Syncfusion.XForms.Android.ComboBox.Resource.Color.mtrl_scrim_color = global::NutritionApp.Droid.Resource.Color.mtrl_scrim_color;
+			global::Syncfusion.XForms.Android.ComboBox.Resource.Color.mtrl_tabs_colored_ripple_color = global::NutritionApp.Droid.Resource.Color.mtrl_tabs_colored_ripple_color;
+			global::Syncfusion.XForms.Android.ComboBox.Resource.Color.mtrl_tabs_icon_color_selector = global::NutritionApp.Droid.Resource.Color.mtrl_tabs_icon_color_selector;
+			global::Syncfusion.XForms.Android.ComboBox.Resource.Color.mtrl_tabs_icon_color_selector_colored = global::NutritionApp.Droid.Resource.Color.mtrl_tabs_icon_color_selector_colored;
+			global::Syncfusion.XForms.Android.ComboBox.Resource.Color.mtrl_tabs_legacy_text_color_selector = global::NutritionApp.Droid.Resource.Color.mtrl_tabs_legacy_text_color_selector;
+			global::Syncfusion.XForms.Android.ComboBox.Resource.Color.mtrl_tabs_ripple_color = global::NutritionApp.Droid.Resource.Color.mtrl_tabs_ripple_color;
+			global::Syncfusion.XForms.Android.ComboBox.Resource.Color.mtrl_textinput_default_box_stroke_color = global::NutritionApp.Droid.Resource.Color.mtrl_textinput_default_box_stroke_color;
+			global::Syncfusion.XForms.Android.ComboBox.Resource.Color.mtrl_textinput_disabled_color = global::NutritionApp.Droid.Resource.Color.mtrl_textinput_disabled_color;
+			global::Syncfusion.XForms.Android.ComboBox.Resource.Color.mtrl_textinput_filled_box_default_background_color = global::NutritionApp.Droid.Resource.Color.mtrl_textinput_filled_box_default_background_color;
+			global::Syncfusion.XForms.Android.ComboBox.Resource.Color.mtrl_textinput_focused_box_stroke_color = global::NutritionApp.Droid.Resource.Color.mtrl_textinput_focused_box_stroke_color;
+			global::Syncfusion.XForms.Android.ComboBox.Resource.Color.mtrl_textinput_hovered_box_stroke_color = global::NutritionApp.Droid.Resource.Color.mtrl_textinput_hovered_box_stroke_color;
+			global::Syncfusion.XForms.Android.ComboBox.Resource.Color.mtrl_text_btn_text_color_selector = global::NutritionApp.Droid.Resource.Color.mtrl_text_btn_text_color_selector;
+			global::Syncfusion.XForms.Android.ComboBox.Resource.Color.notification_action_color_filter = global::NutritionApp.Droid.Resource.Color.notification_action_color_filter;
+			global::Syncfusion.XForms.Android.ComboBox.Resource.Color.notification_icon_bg_color = global::NutritionApp.Droid.Resource.Color.notification_icon_bg_color;
+			global::Syncfusion.XForms.Android.ComboBox.Resource.Color.notification_material_background_media_default_color = global::NutritionApp.Droid.Resource.Color.notification_material_background_media_default_color;
+			global::Syncfusion.XForms.Android.ComboBox.Resource.Color.primary_dark_material_dark = global::NutritionApp.Droid.Resource.Color.primary_dark_material_dark;
+			global::Syncfusion.XForms.Android.ComboBox.Resource.Color.primary_dark_material_light = global::NutritionApp.Droid.Resource.Color.primary_dark_material_light;
+			global::Syncfusion.XForms.Android.ComboBox.Resource.Color.primary_material_dark = global::NutritionApp.Droid.Resource.Color.primary_material_dark;
+			global::Syncfusion.XForms.Android.ComboBox.Resource.Color.primary_material_light = global::NutritionApp.Droid.Resource.Color.primary_material_light;
+			global::Syncfusion.XForms.Android.ComboBox.Resource.Color.primary_text_default_material_dark = global::NutritionApp.Droid.Resource.Color.primary_text_default_material_dark;
+			global::Syncfusion.XForms.Android.ComboBox.Resource.Color.primary_text_default_material_light = global::NutritionApp.Droid.Resource.Color.primary_text_default_material_light;
+			global::Syncfusion.XForms.Android.ComboBox.Resource.Color.primary_text_disabled_material_dark = global::NutritionApp.Droid.Resource.Color.primary_text_disabled_material_dark;
+			global::Syncfusion.XForms.Android.ComboBox.Resource.Color.primary_text_disabled_material_light = global::NutritionApp.Droid.Resource.Color.primary_text_disabled_material_light;
+			global::Syncfusion.XForms.Android.ComboBox.Resource.Color.radiobutton_themeable_attribute_color = global::NutritionApp.Droid.Resource.Color.radiobutton_themeable_attribute_color;
+			global::Syncfusion.XForms.Android.ComboBox.Resource.Color.ripple_material_dark = global::NutritionApp.Droid.Resource.Color.ripple_material_dark;
+			global::Syncfusion.XForms.Android.ComboBox.Resource.Color.ripple_material_light = global::NutritionApp.Droid.Resource.Color.ripple_material_light;
+			global::Syncfusion.XForms.Android.ComboBox.Resource.Color.secondary_text_default_material_dark = global::NutritionApp.Droid.Resource.Color.secondary_text_default_material_dark;
+			global::Syncfusion.XForms.Android.ComboBox.Resource.Color.secondary_text_default_material_light = global::NutritionApp.Droid.Resource.Color.secondary_text_default_material_light;
+			global::Syncfusion.XForms.Android.ComboBox.Resource.Color.secondary_text_disabled_material_dark = global::NutritionApp.Droid.Resource.Color.secondary_text_disabled_material_dark;
+			global::Syncfusion.XForms.Android.ComboBox.Resource.Color.secondary_text_disabled_material_light = global::NutritionApp.Droid.Resource.Color.secondary_text_disabled_material_light;
+			global::Syncfusion.XForms.Android.ComboBox.Resource.Color.switch_thumb_disabled_material_dark = global::NutritionApp.Droid.Resource.Color.switch_thumb_disabled_material_dark;
+			global::Syncfusion.XForms.Android.ComboBox.Resource.Color.switch_thumb_disabled_material_light = global::NutritionApp.Droid.Resource.Color.switch_thumb_disabled_material_light;
+			global::Syncfusion.XForms.Android.ComboBox.Resource.Color.switch_thumb_material_dark = global::NutritionApp.Droid.Resource.Color.switch_thumb_material_dark;
+			global::Syncfusion.XForms.Android.ComboBox.Resource.Color.switch_thumb_material_light = global::NutritionApp.Droid.Resource.Color.switch_thumb_material_light;
+			global::Syncfusion.XForms.Android.ComboBox.Resource.Color.switch_thumb_normal_material_dark = global::NutritionApp.Droid.Resource.Color.switch_thumb_normal_material_dark;
+			global::Syncfusion.XForms.Android.ComboBox.Resource.Color.switch_thumb_normal_material_light = global::NutritionApp.Droid.Resource.Color.switch_thumb_normal_material_light;
+			global::Syncfusion.XForms.Android.ComboBox.Resource.Color.test_mtrl_calendar_day = global::NutritionApp.Droid.Resource.Color.test_mtrl_calendar_day;
+			global::Syncfusion.XForms.Android.ComboBox.Resource.Color.test_mtrl_calendar_day_selected = global::NutritionApp.Droid.Resource.Color.test_mtrl_calendar_day_selected;
+			global::Syncfusion.XForms.Android.ComboBox.Resource.Color.tooltip_background_dark = global::NutritionApp.Droid.Resource.Color.tooltip_background_dark;
+			global::Syncfusion.XForms.Android.ComboBox.Resource.Color.tooltip_background_light = global::NutritionApp.Droid.Resource.Color.tooltip_background_light;
+			global::Syncfusion.XForms.Android.ComboBox.Resource.Dimension.abc_action_bar_content_inset_material = global::NutritionApp.Droid.Resource.Dimension.abc_action_bar_content_inset_material;
+			global::Syncfusion.XForms.Android.ComboBox.Resource.Dimension.abc_action_bar_content_inset_with_nav = global::NutritionApp.Droid.Resource.Dimension.abc_action_bar_content_inset_with_nav;
+			global::Syncfusion.XForms.Android.ComboBox.Resource.Dimension.abc_action_bar_default_height_material = global::NutritionApp.Droid.Resource.Dimension.abc_action_bar_default_height_material;
+			global::Syncfusion.XForms.Android.ComboBox.Resource.Dimension.abc_action_bar_default_padding_end_material = global::NutritionApp.Droid.Resource.Dimension.abc_action_bar_default_padding_end_material;
+			global::Syncfusion.XForms.Android.ComboBox.Resource.Dimension.abc_action_bar_default_padding_start_material = global::NutritionApp.Droid.Resource.Dimension.abc_action_bar_default_padding_start_material;
+			global::Syncfusion.XForms.Android.ComboBox.Resource.Dimension.abc_action_bar_elevation_material = global::NutritionApp.Droid.Resource.Dimension.abc_action_bar_elevation_material;
+			global::Syncfusion.XForms.Android.ComboBox.Resource.Dimension.abc_action_bar_icon_vertical_padding_material = global::NutritionApp.Droid.Resource.Dimension.abc_action_bar_icon_vertical_padding_material;
+			global::Syncfusion.XForms.Android.ComboBox.Resource.Dimension.abc_action_bar_overflow_padding_end_material = global::NutritionApp.Droid.Resource.Dimension.abc_action_bar_overflow_padding_end_material;
+			global::Syncfusion.XForms.Android.ComboBox.Resource.Dimension.abc_action_bar_overflow_padding_start_material = global::NutritionApp.Droid.Resource.Dimension.abc_action_bar_overflow_padding_start_material;
+			global::Syncfusion.XForms.Android.ComboBox.Resource.Dimension.abc_action_bar_stacked_max_height = global::NutritionApp.Droid.Resource.Dimension.abc_action_bar_stacked_max_height;
+			global::Syncfusion.XForms.Android.ComboBox.Resource.Dimension.abc_action_bar_stacked_tab_max_width = global::NutritionApp.Droid.Resource.Dimension.abc_action_bar_stacked_tab_max_width;
+			global::Syncfusion.XForms.Android.ComboBox.Resource.Dimension.abc_action_bar_subtitle_bottom_margin_material = global::NutritionApp.Droid.Resource.Dimension.abc_action_bar_subtitle_bottom_margin_material;
+			global::Syncfusion.XForms.Android.ComboBox.Resource.Dimension.abc_action_bar_subtitle_top_margin_material = global::NutritionApp.Droid.Resource.Dimension.abc_action_bar_subtitle_top_margin_material;
+			global::Syncfusion.XForms.Android.ComboBox.Resource.Dimension.abc_action_button_min_height_material = global::NutritionApp.Droid.Resource.Dimension.abc_action_button_min_height_material;
+			global::Syncfusion.XForms.Android.ComboBox.Resource.Dimension.abc_action_button_min_width_material = global::NutritionApp.Droid.Resource.Dimension.abc_action_button_min_width_material;
+			global::Syncfusion.XForms.Android.ComboBox.Resource.Dimension.abc_action_button_min_width_overflow_material = global::NutritionApp.Droid.Resource.Dimension.abc_action_button_min_width_overflow_material;
+			global::Syncfusion.XForms.Android.ComboBox.Resource.Dimension.abc_alert_dialog_button_bar_height = global::NutritionApp.Droid.Resource.Dimension.abc_alert_dialog_button_bar_height;
+			global::Syncfusion.XForms.Android.ComboBox.Resource.Dimension.abc_alert_dialog_button_dimen = global::NutritionApp.Droid.Resource.Dimension.abc_alert_dialog_button_dimen;
+			global::Syncfusion.XForms.Android.ComboBox.Resource.Dimension.abc_button_inset_horizontal_material = global::NutritionApp.Droid.Resource.Dimension.abc_button_inset_horizontal_material;
+			global::Syncfusion.XForms.Android.ComboBox.Resource.Dimension.abc_button_inset_vertical_material = global::NutritionApp.Droid.Resource.Dimension.abc_button_inset_vertical_material;
+			global::Syncfusion.XForms.Android.ComboBox.Resource.Dimension.abc_button_padding_horizontal_material = global::NutritionApp.Droid.Resource.Dimension.abc_button_padding_horizontal_material;
+			global::Syncfusion.XForms.Android.ComboBox.Resource.Dimension.abc_button_padding_vertical_material = global::NutritionApp.Droid.Resource.Dimension.abc_button_padding_vertical_material;
+			global::Syncfusion.XForms.Android.ComboBox.Resource.Dimension.abc_cascading_menus_min_smallest_width = global::NutritionApp.Droid.Resource.Dimension.abc_cascading_menus_min_smallest_width;
+			global::Syncfusion.XForms.Android.ComboBox.Resource.Dimension.abc_config_prefDialogWidth = global::NutritionApp.Droid.Resource.Dimension.abc_config_prefDialogWidth;
+			global::Syncfusion.XForms.Android.ComboBox.Resource.Dimension.abc_control_corner_material = global::NutritionApp.Droid.Resource.Dimension.abc_control_corner_material;
+			global::Syncfusion.XForms.Android.ComboBox.Resource.Dimension.abc_control_inset_material = global::NutritionApp.Droid.Resource.Dimension.abc_control_inset_material;
+			global::Syncfusion.XForms.Android.ComboBox.Resource.Dimension.abc_control_padding_material = global::NutritionApp.Droid.Resource.Dimension.abc_control_padding_material;
+			global::Syncfusion.XForms.Android.ComboBox.Resource.Dimension.abc_dialog_corner_radius_material = global::NutritionApp.Droid.Resource.Dimension.abc_dialog_corner_radius_material;
+			global::Syncfusion.XForms.Android.ComboBox.Resource.Dimension.abc_dialog_fixed_height_major = global::NutritionApp.Droid.Resource.Dimension.abc_dialog_fixed_height_major;
+			global::Syncfusion.XForms.Android.ComboBox.Resource.Dimension.abc_dialog_fixed_height_minor = global::NutritionApp.Droid.Resource.Dimension.abc_dialog_fixed_height_minor;
+			global::Syncfusion.XForms.Android.ComboBox.Resource.Dimension.abc_dialog_fixed_width_major = global::NutritionApp.Droid.Resource.Dimension.abc_dialog_fixed_width_major;
+			global::Syncfusion.XForms.Android.ComboBox.Resource.Dimension.abc_dialog_fixed_width_minor = global::NutritionApp.Droid.Resource.Dimension.abc_dialog_fixed_width_minor;
+			global::Syncfusion.XForms.Android.ComboBox.Resource.Dimension.abc_dialog_list_padding_bottom_no_buttons = global::NutritionApp.Droid.Resource.Dimension.abc_dialog_list_padding_bottom_no_buttons;
+			global::Syncfusion.XForms.Android.ComboBox.Resource.Dimension.abc_dialog_list_padding_top_no_title = global::NutritionApp.Droid.Resource.Dimension.abc_dialog_list_padding_top_no_title;
+			global::Syncfusion.XForms.Android.ComboBox.Resource.Dimension.abc_dialog_min_width_major = global::NutritionApp.Droid.Resource.Dimension.abc_dialog_min_width_major;
+			global::Syncfusion.XForms.Android.ComboBox.Resource.Dimension.abc_dialog_min_width_minor = global::NutritionApp.Droid.Resource.Dimension.abc_dialog_min_width_minor;
+			global::Syncfusion.XForms.Android.ComboBox.Resource.Dimension.abc_dialog_padding_material = global::NutritionApp.Droid.Resource.Dimension.abc_dialog_padding_material;
+			global::Syncfusion.XForms.Android.ComboBox.Resource.Dimension.abc_dialog_padding_top_material = global::NutritionApp.Droid.Resource.Dimension.abc_dialog_padding_top_material;
+			global::Syncfusion.XForms.Android.ComboBox.Resource.Dimension.abc_dialog_title_divider_material = global::NutritionApp.Droid.Resource.Dimension.abc_dialog_title_divider_material;
+			global::Syncfusion.XForms.Android.ComboBox.Resource.Dimension.abc_disabled_alpha_material_dark = global::NutritionApp.Droid.Resource.Dimension.abc_disabled_alpha_material_dark;
+			global::Syncfusion.XForms.Android.ComboBox.Resource.Dimension.abc_disabled_alpha_material_light = global::NutritionApp.Droid.Resource.Dimension.abc_disabled_alpha_material_light;
+			global::Syncfusion.XForms.Android.ComboBox.Resource.Dimension.abc_dropdownitem_icon_width = global::NutritionApp.Droid.Resource.Dimension.abc_dropdownitem_icon_width;
+			global::Syncfusion.XForms.Android.ComboBox.Resource.Dimension.abc_dropdownitem_text_padding_left = global::NutritionApp.Droid.Resource.Dimension.abc_dropdownitem_text_padding_left;
+			global::Syncfusion.XForms.Android.ComboBox.Resource.Dimension.abc_dropdownitem_text_padding_right = global::NutritionApp.Droid.Resource.Dimension.abc_dropdownitem_text_padding_right;
+			global::Syncfusion.XForms.Android.ComboBox.Resource.Dimension.abc_edit_text_inset_bottom_material = global::NutritionApp.Droid.Resource.Dimension.abc_edit_text_inset_bottom_material;
+			global::Syncfusion.XForms.Android.ComboBox.Resource.Dimension.abc_edit_text_inset_horizontal_material = global::NutritionApp.Droid.Resource.Dimension.abc_edit_text_inset_horizontal_material;
+			global::Syncfusion.XForms.Android.ComboBox.Resource.Dimension.abc_edit_text_inset_top_material = global::NutritionApp.Droid.Resource.Dimension.abc_edit_text_inset_top_material;
+			global::Syncfusion.XForms.Android.ComboBox.Resource.Dimension.abc_floating_window_z = global::NutritionApp.Droid.Resource.Dimension.abc_floating_window_z;
+			global::Syncfusion.XForms.Android.ComboBox.Resource.Dimension.abc_list_item_height_large_material = global::NutritionApp.Droid.Resource.Dimension.abc_list_item_height_large_material;
+			global::Syncfusion.XForms.Android.ComboBox.Resource.Dimension.abc_list_item_height_material = global::NutritionApp.Droid.Resource.Dimension.abc_list_item_height_material;
+			global::Syncfusion.XForms.Android.ComboBox.Resource.Dimension.abc_list_item_height_small_material = global::NutritionApp.Droid.Resource.Dimension.abc_list_item_height_small_material;
+			global::Syncfusion.XForms.Android.ComboBox.Resource.Dimension.abc_list_item_padding_horizontal_material = global::NutritionApp.Droid.Resource.Dimension.abc_list_item_padding_horizontal_material;
+			global::Syncfusion.XForms.Android.ComboBox.Resource.Dimension.abc_panel_menu_list_width = global::NutritionApp.Droid.Resource.Dimension.abc_panel_menu_list_width;
+			global::Syncfusion.XForms.Android.ComboBox.Resource.Dimension.abc_progress_bar_height_material = global::NutritionApp.Droid.Resource.Dimension.abc_progress_bar_height_material;
+			global::Syncfusion.XForms.Android.ComboBox.Resource.Dimension.abc_search_view_preferred_height = global::NutritionApp.Droid.Resource.Dimension.abc_search_view_preferred_height;
+			global::Syncfusion.XForms.Android.ComboBox.Resource.Dimension.abc_search_view_preferred_width = global::NutritionApp.Droid.Resource.Dimension.abc_search_view_preferred_width;
+			global::Syncfusion.XForms.Android.ComboBox.Resource.Dimension.abc_seekbar_track_background_height_material = global::NutritionApp.Droid.Resource.Dimension.abc_seekbar_track_background_height_material;
+			global::Syncfusion.XForms.Android.ComboBox.Resource.Dimension.abc_seekbar_track_progress_height_material = global::NutritionApp.Droid.Resource.Dimension.abc_seekbar_track_progress_height_material;
+			global::Syncfusion.XForms.Android.ComboBox.Resource.Dimension.abc_select_dialog_padding_start_material = global::NutritionApp.Droid.Resource.Dimension.abc_select_dialog_padding_start_material;
+			global::Syncfusion.XForms.Android.ComboBox.Resource.Dimension.abc_switch_padding = global::NutritionApp.Droid.Resource.Dimension.abc_switch_padding;
+			global::Syncfusion.XForms.Android.ComboBox.Resource.Dimension.abc_text_size_body_1_material = global::NutritionApp.Droid.Resource.Dimension.abc_text_size_body_1_material;
+			global::Syncfusion.XForms.Android.ComboBox.Resource.Dimension.abc_text_size_body_2_material = global::NutritionApp.Droid.Resource.Dimension.abc_text_size_body_2_material;
+			global::Syncfusion.XForms.Android.ComboBox.Resource.Dimension.abc_text_size_button_material = global::NutritionApp.Droid.Resource.Dimension.abc_text_size_button_material;
+			global::Syncfusion.XForms.Android.ComboBox.Resource.Dimension.abc_text_size_caption_material = global::NutritionApp.Droid.Resource.Dimension.abc_text_size_caption_material;
+			global::Syncfusion.XForms.Android.ComboBox.Resource.Dimension.abc_text_size_display_1_material = global::NutritionApp.Droid.Resource.Dimension.abc_text_size_display_1_material;
+			global::Syncfusion.XForms.Android.ComboBox.Resource.Dimension.abc_text_size_display_2_material = global::NutritionApp.Droid.Resource.Dimension.abc_text_size_display_2_material;
+			global::Syncfusion.XForms.Android.ComboBox.Resource.Dimension.abc_text_size_display_3_material = global::NutritionApp.Droid.Resource.Dimension.abc_text_size_display_3_material;
+			global::Syncfusion.XForms.Android.ComboBox.Resource.Dimension.abc_text_size_display_4_material = global::NutritionApp.Droid.Resource.Dimension.abc_text_size_display_4_material;
+			global::Syncfusion.XForms.Android.ComboBox.Resource.Dimension.abc_text_size_headline_material = global::NutritionApp.Droid.Resource.Dimension.abc_text_size_headline_material;
+			global::Syncfusion.XForms.Android.ComboBox.Resource.Dimension.abc_text_size_large_material = global::NutritionApp.Droid.Resource.Dimension.abc_text_size_large_material;
+			global::Syncfusion.XForms.Android.ComboBox.Resource.Dimension.abc_text_size_medium_material = global::NutritionApp.Droid.Resource.Dimension.abc_text_size_medium_material;
+			global::Syncfusion.XForms.Android.ComboBox.Resource.Dimension.abc_text_size_menu_header_material = global::NutritionApp.Droid.Resource.Dimension.abc_text_size_menu_header_material;
+			global::Syncfusion.XForms.Android.ComboBox.Resource.Dimension.abc_text_size_menu_material = global::NutritionApp.Droid.Resource.Dimension.abc_text_size_menu_material;
+			global::Syncfusion.XForms.Android.ComboBox.Resource.Dimension.abc_text_size_small_material = global::NutritionApp.Droid.Resource.Dimension.abc_text_size_small_material;
+			global::Syncfusion.XForms.Android.ComboBox.Resource.Dimension.abc_text_size_subhead_material = global::NutritionApp.Droid.Resource.Dimension.abc_text_size_subhead_material;
+			global::Syncfusion.XForms.Android.ComboBox.Resource.Dimension.abc_text_size_subtitle_material_toolbar = global::NutritionApp.Droid.Resource.Dimension.abc_text_size_subtitle_material_toolbar;
+			global::Syncfusion.XForms.Android.ComboBox.Resource.Dimension.abc_text_size_title_material = global::NutritionApp.Droid.Resource.Dimension.abc_text_size_title_material;
+			global::Syncfusion.XForms.Android.ComboBox.Resource.Dimension.abc_text_size_title_material_toolbar = global::NutritionApp.Droid.Resource.Dimension.abc_text_size_title_material_toolbar;
+			global::Syncfusion.XForms.Android.ComboBox.Resource.Dimension.action_bar_size = global::NutritionApp.Droid.Resource.Dimension.action_bar_size;
+			global::Syncfusion.XForms.Android.ComboBox.Resource.Dimension.appcompat_dialog_background_inset = global::NutritionApp.Droid.Resource.Dimension.appcompat_dialog_background_inset;
+			global::Syncfusion.XForms.Android.ComboBox.Resource.Dimension.browser_actions_context_menu_max_width = global::NutritionApp.Droid.Resource.Dimension.browser_actions_context_menu_max_width;
+			global::Syncfusion.XForms.Android.ComboBox.Resource.Dimension.browser_actions_context_menu_min_padding = global::NutritionApp.Droid.Resource.Dimension.browser_actions_context_menu_min_padding;
+			global::Syncfusion.XForms.Android.ComboBox.Resource.Dimension.cardview_compat_inset_shadow = global::NutritionApp.Droid.Resource.Dimension.cardview_compat_inset_shadow;
+			global::Syncfusion.XForms.Android.ComboBox.Resource.Dimension.cardview_default_elevation = global::NutritionApp.Droid.Resource.Dimension.cardview_default_elevation;
+			global::Syncfusion.XForms.Android.ComboBox.Resource.Dimension.cardview_default_radius = global::NutritionApp.Droid.Resource.Dimension.cardview_default_radius;
+			global::Syncfusion.XForms.Android.ComboBox.Resource.Dimension.compat_button_inset_horizontal_material = global::NutritionApp.Droid.Resource.Dimension.compat_button_inset_horizontal_material;
+			global::Syncfusion.XForms.Android.ComboBox.Resource.Dimension.compat_button_inset_vertical_material = global::NutritionApp.Droid.Resource.Dimension.compat_button_inset_vertical_material;
+			global::Syncfusion.XForms.Android.ComboBox.Resource.Dimension.compat_button_padding_horizontal_material = global::NutritionApp.Droid.Resource.Dimension.compat_button_padding_horizontal_material;
+			global::Syncfusion.XForms.Android.ComboBox.Resource.Dimension.compat_button_padding_vertical_material = global::NutritionApp.Droid.Resource.Dimension.compat_button_padding_vertical_material;
+			global::Syncfusion.XForms.Android.ComboBox.Resource.Dimension.compat_control_corner_material = global::NutritionApp.Droid.Resource.Dimension.compat_control_corner_material;
+			global::Syncfusion.XForms.Android.ComboBox.Resource.Dimension.compat_notification_large_icon_max_height = global::NutritionApp.Droid.Resource.Dimension.compat_notification_large_icon_max_height;
+			global::Syncfusion.XForms.Android.ComboBox.Resource.Dimension.compat_notification_large_icon_max_width = global::NutritionApp.Droid.Resource.Dimension.compat_notification_large_icon_max_width;
+			global::Syncfusion.XForms.Android.ComboBox.Resource.Dimension.default_dimension = global::NutritionApp.Droid.Resource.Dimension.default_dimension;
+			global::Syncfusion.XForms.Android.ComboBox.Resource.Dimension.def_drawer_elevation = global::NutritionApp.Droid.Resource.Dimension.def_drawer_elevation;
+			global::Syncfusion.XForms.Android.ComboBox.Resource.Dimension.design_appbar_elevation = global::NutritionApp.Droid.Resource.Dimension.design_appbar_elevation;
+			global::Syncfusion.XForms.Android.ComboBox.Resource.Dimension.design_bottom_navigation_active_item_max_width = global::NutritionApp.Droid.Resource.Dimension.design_bottom_navigation_active_item_max_width;
+			global::Syncfusion.XForms.Android.ComboBox.Resource.Dimension.design_bottom_navigation_active_item_min_width = global::NutritionApp.Droid.Resource.Dimension.design_bottom_navigation_active_item_min_width;
+			global::Syncfusion.XForms.Android.ComboBox.Resource.Dimension.design_bottom_navigation_active_text_size = global::NutritionApp.Droid.Resource.Dimension.design_bottom_navigation_active_text_size;
+			global::Syncfusion.XForms.Android.ComboBox.Resource.Dimension.design_bottom_navigation_elevation = global::NutritionApp.Droid.Resource.Dimension.design_bottom_navigation_elevation;
+			global::Syncfusion.XForms.Android.ComboBox.Resource.Dimension.design_bottom_navigation_height = global::NutritionApp.Droid.Resource.Dimension.design_bottom_navigation_height;
+			global::Syncfusion.XForms.Android.ComboBox.Resource.Dimension.design_bottom_navigation_icon_size = global::NutritionApp.Droid.Resource.Dimension.design_bottom_navigation_icon_size;
+			global::Syncfusion.XForms.Android.ComboBox.Resource.Dimension.design_bottom_navigation_item_max_width = global::NutritionApp.Droid.Resource.Dimension.design_bottom_navigation_item_max_width;
+			global::Syncfusion.XForms.Android.ComboBox.Resource.Dimension.design_bottom_navigation_item_min_width = global::NutritionApp.Droid.Resource.Dimension.design_bottom_navigation_item_min_width;
+			global::Syncfusion.XForms.Android.ComboBox.Resource.Dimension.design_bottom_navigation_margin = global::NutritionApp.Droid.Resource.Dimension.design_bottom_navigation_margin;
+			global::Syncfusion.XForms.Android.ComboBox.Resource.Dimension.design_bottom_navigation_shadow_height = global::NutritionApp.Droid.Resource.Dimension.design_bottom_navigation_shadow_height;
+			global::Syncfusion.XForms.Android.ComboBox.Resource.Dimension.design_bottom_navigation_text_size = global::NutritionApp.Droid.Resource.Dimension.design_bottom_navigation_text_size;
+			global::Syncfusion.XForms.Android.ComboBox.Resource.Dimension.design_bottom_sheet_elevation = global::NutritionApp.Droid.Resource.Dimension.design_bottom_sheet_elevation;
+			global::Syncfusion.XForms.Android.ComboBox.Resource.Dimension.design_bottom_sheet_modal_elevation = global::NutritionApp.Droid.Resource.Dimension.design_bottom_sheet_modal_elevation;
+			global::Syncfusion.XForms.Android.ComboBox.Resource.Dimension.design_bottom_sheet_peek_height_min = global::NutritionApp.Droid.Resource.Dimension.design_bottom_sheet_peek_height_min;
+			global::Syncfusion.XForms.Android.ComboBox.Resource.Dimension.design_fab_border_width = global::NutritionApp.Droid.Resource.Dimension.design_fab_border_width;
+			global::Syncfusion.XForms.Android.ComboBox.Resource.Dimension.design_fab_elevation = global::NutritionApp.Droid.Resource.Dimension.design_fab_elevation;
+			global::Syncfusion.XForms.Android.ComboBox.Resource.Dimension.design_fab_image_size = global::NutritionApp.Droid.Resource.Dimension.design_fab_image_size;
+			global::Syncfusion.XForms.Android.ComboBox.Resource.Dimension.design_fab_size_mini = global::NutritionApp.Droid.Resource.Dimension.design_fab_size_mini;
+			global::Syncfusion.XForms.Android.ComboBox.Resource.Dimension.design_fab_size_normal = global::NutritionApp.Droid.Resource.Dimension.design_fab_size_normal;
+			global::Syncfusion.XForms.Android.ComboBox.Resource.Dimension.design_fab_translation_z_hovered_focused = global::NutritionApp.Droid.Resource.Dimension.design_fab_translation_z_hovered_focused;
+			global::Syncfusion.XForms.Android.ComboBox.Resource.Dimension.design_fab_translation_z_pressed = global::NutritionApp.Droid.Resource.Dimension.design_fab_translation_z_pressed;
+			global::Syncfusion.XForms.Android.ComboBox.Resource.Dimension.design_navigation_elevation = global::NutritionApp.Droid.Resource.Dimension.design_navigation_elevation;
+			global::Syncfusion.XForms.Android.ComboBox.Resource.Dimension.design_navigation_icon_padding = global::NutritionApp.Droid.Resource.Dimension.design_navigation_icon_padding;
+			global::Syncfusion.XForms.Android.ComboBox.Resource.Dimension.design_navigation_icon_size = global::NutritionApp.Droid.Resource.Dimension.design_navigation_icon_size;
+			global::Syncfusion.XForms.Android.ComboBox.Resource.Dimension.design_navigation_item_horizontal_padding = global::NutritionApp.Droid.Resource.Dimension.design_navigation_item_horizontal_padding;
+			global::Syncfusion.XForms.Android.ComboBox.Resource.Dimension.design_navigation_item_icon_padding = global::NutritionApp.Droid.Resource.Dimension.design_navigation_item_icon_padding;
+			global::Syncfusion.XForms.Android.ComboBox.Resource.Dimension.design_navigation_max_width = global::NutritionApp.Droid.Resource.Dimension.design_navigation_max_width;
+			global::Syncfusion.XForms.Android.ComboBox.Resource.Dimension.design_navigation_padding_bottom = global::NutritionApp.Droid.Resource.Dimension.design_navigation_padding_bottom;
+			global::Syncfusion.XForms.Android.ComboBox.Resource.Dimension.design_navigation_separator_vertical_padding = global::NutritionApp.Droid.Resource.Dimension.design_navigation_separator_vertical_padding;
+			global::Syncfusion.XForms.Android.ComboBox.Resource.Dimension.design_snackbar_action_inline_max_width = global::NutritionApp.Droid.Resource.Dimension.design_snackbar_action_inline_max_width;
+			global::Syncfusion.XForms.Android.ComboBox.Resource.Dimension.design_snackbar_action_text_color_alpha = global::NutritionApp.Droid.Resource.Dimension.design_snackbar_action_text_color_alpha;
+			global::Syncfusion.XForms.Android.ComboBox.Resource.Dimension.design_snackbar_background_corner_radius = global::NutritionApp.Droid.Resource.Dimension.design_snackbar_background_corner_radius;
+			global::Syncfusion.XForms.Android.ComboBox.Resource.Dimension.design_snackbar_elevation = global::NutritionApp.Droid.Resource.Dimension.design_snackbar_elevation;
+			global::Syncfusion.XForms.Android.ComboBox.Resource.Dimension.design_snackbar_extra_spacing_horizontal = global::NutritionApp.Droid.Resource.Dimension.design_snackbar_extra_spacing_horizontal;
+			global::Syncfusion.XForms.Android.ComboBox.Resource.Dimension.design_snackbar_max_width = global::NutritionApp.Droid.Resource.Dimension.design_snackbar_max_width;
+			global::Syncfusion.XForms.Android.ComboBox.Resource.Dimension.design_snackbar_min_width = global::NutritionApp.Droid.Resource.Dimension.design_snackbar_min_width;
+			global::Syncfusion.XForms.Android.ComboBox.Resource.Dimension.design_snackbar_padding_horizontal = global::NutritionApp.Droid.Resource.Dimension.design_snackbar_padding_horizontal;
+			global::Syncfusion.XForms.Android.ComboBox.Resource.Dimension.design_snackbar_padding_vertical = global::NutritionApp.Droid.Resource.Dimension.design_snackbar_padding_vertical;
+			global::Syncfusion.XForms.Android.ComboBox.Resource.Dimension.design_snackbar_padding_vertical_2lines = global::NutritionApp.Droid.Resource.Dimension.design_snackbar_padding_vertical_2lines;
+			global::Syncfusion.XForms.Android.ComboBox.Resource.Dimension.design_snackbar_text_size = global::NutritionApp.Droid.Resource.Dimension.design_snackbar_text_size;
+			global::Syncfusion.XForms.Android.ComboBox.Resource.Dimension.design_tab_max_width = global::NutritionApp.Droid.Resource.Dimension.design_tab_max_width;
+			global::Syncfusion.XForms.Android.ComboBox.Resource.Dimension.design_tab_scrollable_min_width = global::NutritionApp.Droid.Resource.Dimension.design_tab_scrollable_min_width;
+			global::Syncfusion.XForms.Android.ComboBox.Resource.Dimension.design_tab_text_size = global::NutritionApp.Droid.Resource.Dimension.design_tab_text_size;
+			global::Syncfusion.XForms.Android.ComboBox.Resource.Dimension.design_tab_text_size_2line = global::NutritionApp.Droid.Resource.Dimension.design_tab_text_size_2line;
+			global::Syncfusion.XForms.Android.ComboBox.Resource.Dimension.design_textinput_caption_translate_y = global::NutritionApp.Droid.Resource.Dimension.design_textinput_caption_translate_y;
+			global::Syncfusion.XForms.Android.ComboBox.Resource.Dimension.disabled_alpha_material_dark = global::NutritionApp.Droid.Resource.Dimension.disabled_alpha_material_dark;
+			global::Syncfusion.XForms.Android.ComboBox.Resource.Dimension.disabled_alpha_material_light = global::NutritionApp.Droid.Resource.Dimension.disabled_alpha_material_light;
+			global::Syncfusion.XForms.Android.ComboBox.Resource.Dimension.fastscroll_default_thickness = global::NutritionApp.Droid.Resource.Dimension.fastscroll_default_thickness;
+			global::Syncfusion.XForms.Android.ComboBox.Resource.Dimension.fastscroll_margin = global::NutritionApp.Droid.Resource.Dimension.fastscroll_margin;
+			global::Syncfusion.XForms.Android.ComboBox.Resource.Dimension.fastscroll_minimum_range = global::NutritionApp.Droid.Resource.Dimension.fastscroll_minimum_range;
+			global::Syncfusion.XForms.Android.ComboBox.Resource.Dimension.highlight_alpha_material_colored = global::NutritionApp.Droid.Resource.Dimension.highlight_alpha_material_colored;
+			global::Syncfusion.XForms.Android.ComboBox.Resource.Dimension.highlight_alpha_material_dark = global::NutritionApp.Droid.Resource.Dimension.highlight_alpha_material_dark;
+			global::Syncfusion.XForms.Android.ComboBox.Resource.Dimension.highlight_alpha_material_light = global::NutritionApp.Droid.Resource.Dimension.highlight_alpha_material_light;
+			global::Syncfusion.XForms.Android.ComboBox.Resource.Dimension.hint_alpha_material_dark = global::NutritionApp.Droid.Resource.Dimension.hint_alpha_material_dark;
+			global::Syncfusion.XForms.Android.ComboBox.Resource.Dimension.hint_alpha_material_light = global::NutritionApp.Droid.Resource.Dimension.hint_alpha_material_light;
+			global::Syncfusion.XForms.Android.ComboBox.Resource.Dimension.hint_pressed_alpha_material_dark = global::NutritionApp.Droid.Resource.Dimension.hint_pressed_alpha_material_dark;
+			global::Syncfusion.XForms.Android.ComboBox.Resource.Dimension.hint_pressed_alpha_material_light = global::NutritionApp.Droid.Resource.Dimension.hint_pressed_alpha_material_light;
+			global::Syncfusion.XForms.Android.ComboBox.Resource.Dimension.item_touch_helper_max_drag_scroll_per_frame = global::NutritionApp.Droid.Resource.Dimension.item_touch_helper_max_drag_scroll_per_frame;
+			global::Syncfusion.XForms.Android.ComboBox.Resource.Dimension.item_touch_helper_swipe_escape_max_velocity = global::NutritionApp.Droid.Resource.Dimension.item_touch_helper_swipe_escape_max_velocity;
+			global::Syncfusion.XForms.Android.ComboBox.Resource.Dimension.item_touch_helper_swipe_escape_velocity = global::NutritionApp.Droid.Resource.Dimension.item_touch_helper_swipe_escape_velocity;
+			global::Syncfusion.XForms.Android.ComboBox.Resource.Dimension.material_emphasis_disabled = global::NutritionApp.Droid.Resource.Dimension.material_emphasis_disabled;
+			global::Syncfusion.XForms.Android.ComboBox.Resource.Dimension.material_emphasis_high_type = global::NutritionApp.Droid.Resource.Dimension.material_emphasis_high_type;
+			global::Syncfusion.XForms.Android.ComboBox.Resource.Dimension.material_emphasis_medium = global::NutritionApp.Droid.Resource.Dimension.material_emphasis_medium;
+			global::Syncfusion.XForms.Android.ComboBox.Resource.Dimension.material_text_view_test_line_height = global::NutritionApp.Droid.Resource.Dimension.material_text_view_test_line_height;
+			global::Syncfusion.XForms.Android.ComboBox.Resource.Dimension.material_text_view_test_line_height_override = global::NutritionApp.Droid.Resource.Dimension.material_text_view_test_line_height_override;
+			global::Syncfusion.XForms.Android.ComboBox.Resource.Dimension.mtrl_alert_dialog_background_inset_bottom = global::NutritionApp.Droid.Resource.Dimension.mtrl_alert_dialog_background_inset_bottom;
+			global::Syncfusion.XForms.Android.ComboBox.Resource.Dimension.mtrl_alert_dialog_background_inset_end = global::NutritionApp.Droid.Resource.Dimension.mtrl_alert_dialog_background_inset_end;
+			global::Syncfusion.XForms.Android.ComboBox.Resource.Dimension.mtrl_alert_dialog_background_inset_start = global::NutritionApp.Droid.Resource.Dimension.mtrl_alert_dialog_background_inset_start;
+			global::Syncfusion.XForms.Android.ComboBox.Resource.Dimension.mtrl_alert_dialog_background_inset_top = global::NutritionApp.Droid.Resource.Dimension.mtrl_alert_dialog_background_inset_top;
+			global::Syncfusion.XForms.Android.ComboBox.Resource.Dimension.mtrl_alert_dialog_picker_background_inset = global::NutritionApp.Droid.Resource.Dimension.mtrl_alert_dialog_picker_background_inset;
+			global::Syncfusion.XForms.Android.ComboBox.Resource.Dimension.mtrl_badge_horizontal_edge_offset = global::NutritionApp.Droid.Resource.Dimension.mtrl_badge_horizontal_edge_offset;
+			global::Syncfusion.XForms.Android.ComboBox.Resource.Dimension.mtrl_badge_long_text_horizontal_padding = global::NutritionApp.Droid.Resource.Dimension.mtrl_badge_long_text_horizontal_padding;
+			global::Syncfusion.XForms.Android.ComboBox.Resource.Dimension.mtrl_badge_radius = global::NutritionApp.Droid.Resource.Dimension.mtrl_badge_radius;
+			global::Syncfusion.XForms.Android.ComboBox.Resource.Dimension.mtrl_badge_text_horizontal_edge_offset = global::NutritionApp.Droid.Resource.Dimension.mtrl_badge_text_horizontal_edge_offset;
+			global::Syncfusion.XForms.Android.ComboBox.Resource.Dimension.mtrl_badge_text_size = global::NutritionApp.Droid.Resource.Dimension.mtrl_badge_text_size;
+			global::Syncfusion.XForms.Android.ComboBox.Resource.Dimension.mtrl_badge_with_text_radius = global::NutritionApp.Droid.Resource.Dimension.mtrl_badge_with_text_radius;
+			global::Syncfusion.XForms.Android.ComboBox.Resource.Dimension.mtrl_bottomappbar_fabOffsetEndMode = global::NutritionApp.Droid.Resource.Dimension.mtrl_bottomappbar_fabOffsetEndMode;
+			global::Syncfusion.XForms.Android.ComboBox.Resource.Dimension.mtrl_bottomappbar_fab_bottom_margin = global::NutritionApp.Droid.Resource.Dimension.mtrl_bottomappbar_fab_bottom_margin;
+			global::Syncfusion.XForms.Android.ComboBox.Resource.Dimension.mtrl_bottomappbar_fab_cradle_margin = global::NutritionApp.Droid.Resource.Dimension.mtrl_bottomappbar_fab_cradle_margin;
+			global::Syncfusion.XForms.Android.ComboBox.Resource.Dimension.mtrl_bottomappbar_fab_cradle_rounded_corner_radius = global::NutritionApp.Droid.Resource.Dimension.mtrl_bottomappbar_fab_cradle_rounded_corner_radius;
+			global::Syncfusion.XForms.Android.ComboBox.Resource.Dimension.mtrl_bottomappbar_fab_cradle_vertical_offset = global::NutritionApp.Droid.Resource.Dimension.mtrl_bottomappbar_fab_cradle_vertical_offset;
+			global::Syncfusion.XForms.Android.ComboBox.Resource.Dimension.mtrl_bottomappbar_height = global::NutritionApp.Droid.Resource.Dimension.mtrl_bottomappbar_height;
+			global::Syncfusion.XForms.Android.ComboBox.Resource.Dimension.mtrl_btn_corner_radius = global::NutritionApp.Droid.Resource.Dimension.mtrl_btn_corner_radius;
+			global::Syncfusion.XForms.Android.ComboBox.Resource.Dimension.mtrl_btn_dialog_btn_min_width = global::NutritionApp.Droid.Resource.Dimension.mtrl_btn_dialog_btn_min_width;
+			global::Syncfusion.XForms.Android.ComboBox.Resource.Dimension.mtrl_btn_disabled_elevation = global::NutritionApp.Droid.Resource.Dimension.mtrl_btn_disabled_elevation;
+			global::Syncfusion.XForms.Android.ComboBox.Resource.Dimension.mtrl_btn_disabled_z = global::NutritionApp.Droid.Resource.Dimension.mtrl_btn_disabled_z;
+			global::Syncfusion.XForms.Android.ComboBox.Resource.Dimension.mtrl_btn_elevation = global::NutritionApp.Droid.Resource.Dimension.mtrl_btn_elevation;
+			global::Syncfusion.XForms.Android.ComboBox.Resource.Dimension.mtrl_btn_focused_z = global::NutritionApp.Droid.Resource.Dimension.mtrl_btn_focused_z;
+			global::Syncfusion.XForms.Android.ComboBox.Resource.Dimension.mtrl_btn_hovered_z = global::NutritionApp.Droid.Resource.Dimension.mtrl_btn_hovered_z;
+			global::Syncfusion.XForms.Android.ComboBox.Resource.Dimension.mtrl_btn_icon_btn_padding_left = global::NutritionApp.Droid.Resource.Dimension.mtrl_btn_icon_btn_padding_left;
+			global::Syncfusion.XForms.Android.ComboBox.Resource.Dimension.mtrl_btn_icon_padding = global::NutritionApp.Droid.Resource.Dimension.mtrl_btn_icon_padding;
+			global::Syncfusion.XForms.Android.ComboBox.Resource.Dimension.mtrl_btn_inset = global::NutritionApp.Droid.Resource.Dimension.mtrl_btn_inset;
+			global::Syncfusion.XForms.Android.ComboBox.Resource.Dimension.mtrl_btn_letter_spacing = global::NutritionApp.Droid.Resource.Dimension.mtrl_btn_letter_spacing;
+			global::Syncfusion.XForms.Android.ComboBox.Resource.Dimension.mtrl_btn_padding_bottom = global::NutritionApp.Droid.Resource.Dimension.mtrl_btn_padding_bottom;
+			global::Syncfusion.XForms.Android.ComboBox.Resource.Dimension.mtrl_btn_padding_left = global::NutritionApp.Droid.Resource.Dimension.mtrl_btn_padding_left;
+			global::Syncfusion.XForms.Android.ComboBox.Resource.Dimension.mtrl_btn_padding_right = global::NutritionApp.Droid.Resource.Dimension.mtrl_btn_padding_right;
+			global::Syncfusion.XForms.Android.ComboBox.Resource.Dimension.mtrl_btn_padding_top = global::NutritionApp.Droid.Resource.Dimension.mtrl_btn_padding_top;
+			global::Syncfusion.XForms.Android.ComboBox.Resource.Dimension.mtrl_btn_pressed_z = global::NutritionApp.Droid.Resource.Dimension.mtrl_btn_pressed_z;
+			global::Syncfusion.XForms.Android.ComboBox.Resource.Dimension.mtrl_btn_stroke_size = global::NutritionApp.Droid.Resource.Dimension.mtrl_btn_stroke_size;
+			global::Syncfusion.XForms.Android.ComboBox.Resource.Dimension.mtrl_btn_text_btn_icon_padding = global::NutritionApp.Droid.Resource.Dimension.mtrl_btn_text_btn_icon_padding;
+			global::Syncfusion.XForms.Android.ComboBox.Resource.Dimension.mtrl_btn_text_btn_padding_left = global::NutritionApp.Droid.Resource.Dimension.mtrl_btn_text_btn_padding_left;
+			global::Syncfusion.XForms.Android.ComboBox.Resource.Dimension.mtrl_btn_text_btn_padding_right = global::NutritionApp.Droid.Resource.Dimension.mtrl_btn_text_btn_padding_right;
+			global::Syncfusion.XForms.Android.ComboBox.Resource.Dimension.mtrl_btn_text_size = global::NutritionApp.Droid.Resource.Dimension.mtrl_btn_text_size;
+			global::Syncfusion.XForms.Android.ComboBox.Resource.Dimension.mtrl_btn_z = global::NutritionApp.Droid.Resource.Dimension.mtrl_btn_z;
+			global::Syncfusion.XForms.Android.ComboBox.Resource.Dimension.mtrl_calendar_action_height = global::NutritionApp.Droid.Resource.Dimension.mtrl_calendar_action_height;
+			global::Syncfusion.XForms.Android.ComboBox.Resource.Dimension.mtrl_calendar_action_padding = global::NutritionApp.Droid.Resource.Dimension.mtrl_calendar_action_padding;
+			global::Syncfusion.XForms.Android.ComboBox.Resource.Dimension.mtrl_calendar_bottom_padding = global::NutritionApp.Droid.Resource.Dimension.mtrl_calendar_bottom_padding;
+			global::Syncfusion.XForms.Android.ComboBox.Resource.Dimension.mtrl_calendar_content_padding = global::NutritionApp.Droid.Resource.Dimension.mtrl_calendar_content_padding;
+			global::Syncfusion.XForms.Android.ComboBox.Resource.Dimension.mtrl_calendar_days_of_week_height = global::NutritionApp.Droid.Resource.Dimension.mtrl_calendar_days_of_week_height;
+			global::Syncfusion.XForms.Android.ComboBox.Resource.Dimension.mtrl_calendar_day_corner = global::NutritionApp.Droid.Resource.Dimension.mtrl_calendar_day_corner;
+			global::Syncfusion.XForms.Android.ComboBox.Resource.Dimension.mtrl_calendar_day_height = global::NutritionApp.Droid.Resource.Dimension.mtrl_calendar_day_height;
+			global::Syncfusion.XForms.Android.ComboBox.Resource.Dimension.mtrl_calendar_day_horizontal_padding = global::NutritionApp.Droid.Resource.Dimension.mtrl_calendar_day_horizontal_padding;
+			global::Syncfusion.XForms.Android.ComboBox.Resource.Dimension.mtrl_calendar_day_today_stroke = global::NutritionApp.Droid.Resource.Dimension.mtrl_calendar_day_today_stroke;
+			global::Syncfusion.XForms.Android.ComboBox.Resource.Dimension.mtrl_calendar_day_vertical_padding = global::NutritionApp.Droid.Resource.Dimension.mtrl_calendar_day_vertical_padding;
+			global::Syncfusion.XForms.Android.ComboBox.Resource.Dimension.mtrl_calendar_day_width = global::NutritionApp.Droid.Resource.Dimension.mtrl_calendar_day_width;
+			global::Syncfusion.XForms.Android.ComboBox.Resource.Dimension.mtrl_calendar_dialog_background_inset = global::NutritionApp.Droid.Resource.Dimension.mtrl_calendar_dialog_background_inset;
+			global::Syncfusion.XForms.Android.ComboBox.Resource.Dimension.mtrl_calendar_header_content_padding = global::NutritionApp.Droid.Resource.Dimension.mtrl_calendar_header_content_padding;
+			global::Syncfusion.XForms.Android.ComboBox.Resource.Dimension.mtrl_calendar_header_content_padding_fullscreen = global::NutritionApp.Droid.Resource.Dimension.mtrl_calendar_header_content_padding_fullscreen;
+			global::Syncfusion.XForms.Android.ComboBox.Resource.Dimension.mtrl_calendar_header_divider_thickness = global::NutritionApp.Droid.Resource.Dimension.mtrl_calendar_header_divider_thickness;
+			global::Syncfusion.XForms.Android.ComboBox.Resource.Dimension.mtrl_calendar_header_height = global::NutritionApp.Droid.Resource.Dimension.mtrl_calendar_header_height;
+			global::Syncfusion.XForms.Android.ComboBox.Resource.Dimension.mtrl_calendar_header_height_fullscreen = global::NutritionApp.Droid.Resource.Dimension.mtrl_calendar_header_height_fullscreen;
+			global::Syncfusion.XForms.Android.ComboBox.Resource.Dimension.mtrl_calendar_header_selection_line_height = global::NutritionApp.Droid.Resource.Dimension.mtrl_calendar_header_selection_line_height;
+			global::Syncfusion.XForms.Android.ComboBox.Resource.Dimension.mtrl_calendar_header_text_padding = global::NutritionApp.Droid.Resource.Dimension.mtrl_calendar_header_text_padding;
+			global::Syncfusion.XForms.Android.ComboBox.Resource.Dimension.mtrl_calendar_header_toggle_margin_bottom = global::NutritionApp.Droid.Resource.Dimension.mtrl_calendar_header_toggle_margin_bottom;
+			global::Syncfusion.XForms.Android.ComboBox.Resource.Dimension.mtrl_calendar_header_toggle_margin_top = global::NutritionApp.Droid.Resource.Dimension.mtrl_calendar_header_toggle_margin_top;
+			global::Syncfusion.XForms.Android.ComboBox.Resource.Dimension.mtrl_calendar_landscape_header_width = global::NutritionApp.Droid.Resource.Dimension.mtrl_calendar_landscape_header_width;
+			global::Syncfusion.XForms.Android.ComboBox.Resource.Dimension.mtrl_calendar_maximum_default_fullscreen_minor_axis = global::NutritionApp.Droid.Resource.Dimension.mtrl_calendar_maximum_default_fullscreen_minor_axis;
+			global::Syncfusion.XForms.Android.ComboBox.Resource.Dimension.mtrl_calendar_month_horizontal_padding = global::NutritionApp.Droid.Resource.Dimension.mtrl_calendar_month_horizontal_padding;
+			global::Syncfusion.XForms.Android.ComboBox.Resource.Dimension.mtrl_calendar_month_vertical_padding = global::NutritionApp.Droid.Resource.Dimension.mtrl_calendar_month_vertical_padding;
+			global::Syncfusion.XForms.Android.ComboBox.Resource.Dimension.mtrl_calendar_navigation_bottom_padding = global::NutritionApp.Droid.Resource.Dimension.mtrl_calendar_navigation_bottom_padding;
+			global::Syncfusion.XForms.Android.ComboBox.Resource.Dimension.mtrl_calendar_navigation_height = global::NutritionApp.Droid.Resource.Dimension.mtrl_calendar_navigation_height;
+			global::Syncfusion.XForms.Android.ComboBox.Resource.Dimension.mtrl_calendar_navigation_top_padding = global::NutritionApp.Droid.Resource.Dimension.mtrl_calendar_navigation_top_padding;
+			global::Syncfusion.XForms.Android.ComboBox.Resource.Dimension.mtrl_calendar_pre_l_text_clip_padding = global::NutritionApp.Droid.Resource.Dimension.mtrl_calendar_pre_l_text_clip_padding;
+			global::Syncfusion.XForms.Android.ComboBox.Resource.Dimension.mtrl_calendar_selection_baseline_to_top_fullscreen = global::NutritionApp.Droid.Resource.Dimension.mtrl_calendar_selection_baseline_to_top_fullscreen;
+			global::Syncfusion.XForms.Android.ComboBox.Resource.Dimension.mtrl_calendar_selection_text_baseline_to_bottom = global::NutritionApp.Droid.Resource.Dimension.mtrl_calendar_selection_text_baseline_to_bottom;
+			global::Syncfusion.XForms.Android.ComboBox.Resource.Dimension.mtrl_calendar_selection_text_baseline_to_bottom_fullscreen = global::NutritionApp.Droid.Resource.Dimension.mtrl_calendar_selection_text_baseline_to_bottom_fullscreen;
+			global::Syncfusion.XForms.Android.ComboBox.Resource.Dimension.mtrl_calendar_selection_text_baseline_to_top = global::NutritionApp.Droid.Resource.Dimension.mtrl_calendar_selection_text_baseline_to_top;
+			global::Syncfusion.XForms.Android.ComboBox.Resource.Dimension.mtrl_calendar_text_input_padding_top = global::NutritionApp.Droid.Resource.Dimension.mtrl_calendar_text_input_padding_top;
+			global::Syncfusion.XForms.Android.ComboBox.Resource.Dimension.mtrl_calendar_title_baseline_to_top = global::NutritionApp.Droid.Resource.Dimension.mtrl_calendar_title_baseline_to_top;
+			global::Syncfusion.XForms.Android.ComboBox.Resource.Dimension.mtrl_calendar_title_baseline_to_top_fullscreen = global::NutritionApp.Droid.Resource.Dimension.mtrl_calendar_title_baseline_to_top_fullscreen;
+			global::Syncfusion.XForms.Android.ComboBox.Resource.Dimension.mtrl_calendar_year_corner = global::NutritionApp.Droid.Resource.Dimension.mtrl_calendar_year_corner;
+			global::Syncfusion.XForms.Android.ComboBox.Resource.Dimension.mtrl_calendar_year_height = global::NutritionApp.Droid.Resource.Dimension.mtrl_calendar_year_height;
+			global::Syncfusion.XForms.Android.ComboBox.Resource.Dimension.mtrl_calendar_year_horizontal_padding = global::NutritionApp.Droid.Resource.Dimension.mtrl_calendar_year_horizontal_padding;
+			global::Syncfusion.XForms.Android.ComboBox.Resource.Dimension.mtrl_calendar_year_vertical_padding = global::NutritionApp.Droid.Resource.Dimension.mtrl_calendar_year_vertical_padding;
+			global::Syncfusion.XForms.Android.ComboBox.Resource.Dimension.mtrl_calendar_year_width = global::NutritionApp.Droid.Resource.Dimension.mtrl_calendar_year_width;
+			global::Syncfusion.XForms.Android.ComboBox.Resource.Dimension.mtrl_card_checked_icon_margin = global::NutritionApp.Droid.Resource.Dimension.mtrl_card_checked_icon_margin;
+			global::Syncfusion.XForms.Android.ComboBox.Resource.Dimension.mtrl_card_checked_icon_size = global::NutritionApp.Droid.Resource.Dimension.mtrl_card_checked_icon_size;
+			global::Syncfusion.XForms.Android.ComboBox.Resource.Dimension.mtrl_card_corner_radius = global::NutritionApp.Droid.Resource.Dimension.mtrl_card_corner_radius;
+			global::Syncfusion.XForms.Android.ComboBox.Resource.Dimension.mtrl_card_dragged_z = global::NutritionApp.Droid.Resource.Dimension.mtrl_card_dragged_z;
+			global::Syncfusion.XForms.Android.ComboBox.Resource.Dimension.mtrl_card_elevation = global::NutritionApp.Droid.Resource.Dimension.mtrl_card_elevation;
+			global::Syncfusion.XForms.Android.ComboBox.Resource.Dimension.mtrl_card_spacing = global::NutritionApp.Droid.Resource.Dimension.mtrl_card_spacing;
+			global::Syncfusion.XForms.Android.ComboBox.Resource.Dimension.mtrl_chip_pressed_translation_z = global::NutritionApp.Droid.Resource.Dimension.mtrl_chip_pressed_translation_z;
+			global::Syncfusion.XForms.Android.ComboBox.Resource.Dimension.mtrl_chip_text_size = global::NutritionApp.Droid.Resource.Dimension.mtrl_chip_text_size;
+			global::Syncfusion.XForms.Android.ComboBox.Resource.Dimension.mtrl_edittext_rectangle_top_offset = global::NutritionApp.Droid.Resource.Dimension.mtrl_edittext_rectangle_top_offset;
+			global::Syncfusion.XForms.Android.ComboBox.Resource.Dimension.mtrl_exposed_dropdown_menu_popup_elevation = global::NutritionApp.Droid.Resource.Dimension.mtrl_exposed_dropdown_menu_popup_elevation;
+			global::Syncfusion.XForms.Android.ComboBox.Resource.Dimension.mtrl_exposed_dropdown_menu_popup_vertical_offset = global::NutritionApp.Droid.Resource.Dimension.mtrl_exposed_dropdown_menu_popup_vertical_offset;
+			global::Syncfusion.XForms.Android.ComboBox.Resource.Dimension.mtrl_exposed_dropdown_menu_popup_vertical_padding = global::NutritionApp.Droid.Resource.Dimension.mtrl_exposed_dropdown_menu_popup_vertical_padding;
+			global::Syncfusion.XForms.Android.ComboBox.Resource.Dimension.mtrl_extended_fab_bottom_padding = global::NutritionApp.Droid.Resource.Dimension.mtrl_extended_fab_bottom_padding;
+			global::Syncfusion.XForms.Android.ComboBox.Resource.Dimension.mtrl_extended_fab_corner_radius = global::NutritionApp.Droid.Resource.Dimension.mtrl_extended_fab_corner_radius;
+			global::Syncfusion.XForms.Android.ComboBox.Resource.Dimension.mtrl_extended_fab_disabled_elevation = global::NutritionApp.Droid.Resource.Dimension.mtrl_extended_fab_disabled_elevation;
+			global::Syncfusion.XForms.Android.ComboBox.Resource.Dimension.mtrl_extended_fab_disabled_translation_z = global::NutritionApp.Droid.Resource.Dimension.mtrl_extended_fab_disabled_translation_z;
+			global::Syncfusion.XForms.Android.ComboBox.Resource.Dimension.mtrl_extended_fab_elevation = global::NutritionApp.Droid.Resource.Dimension.mtrl_extended_fab_elevation;
+			global::Syncfusion.XForms.Android.ComboBox.Resource.Dimension.mtrl_extended_fab_end_padding = global::NutritionApp.Droid.Resource.Dimension.mtrl_extended_fab_end_padding;
+			global::Syncfusion.XForms.Android.ComboBox.Resource.Dimension.mtrl_extended_fab_end_padding_icon = global::NutritionApp.Droid.Resource.Dimension.mtrl_extended_fab_end_padding_icon;
+			global::Syncfusion.XForms.Android.ComboBox.Resource.Dimension.mtrl_extended_fab_icon_size = global::NutritionApp.Droid.Resource.Dimension.mtrl_extended_fab_icon_size;
+			global::Syncfusion.XForms.Android.ComboBox.Resource.Dimension.mtrl_extended_fab_icon_text_spacing = global::NutritionApp.Droid.Resource.Dimension.mtrl_extended_fab_icon_text_spacing;
+			global::Syncfusion.XForms.Android.ComboBox.Resource.Dimension.mtrl_extended_fab_min_height = global::NutritionApp.Droid.Resource.Dimension.mtrl_extended_fab_min_height;
+			global::Syncfusion.XForms.Android.ComboBox.Resource.Dimension.mtrl_extended_fab_min_width = global::NutritionApp.Droid.Resource.Dimension.mtrl_extended_fab_min_width;
+			global::Syncfusion.XForms.Android.ComboBox.Resource.Dimension.mtrl_extended_fab_start_padding = global::NutritionApp.Droid.Resource.Dimension.mtrl_extended_fab_start_padding;
+			global::Syncfusion.XForms.Android.ComboBox.Resource.Dimension.mtrl_extended_fab_start_padding_icon = global::NutritionApp.Droid.Resource.Dimension.mtrl_extended_fab_start_padding_icon;
+			global::Syncfusion.XForms.Android.ComboBox.Resource.Dimension.mtrl_extended_fab_top_padding = global::NutritionApp.Droid.Resource.Dimension.mtrl_extended_fab_top_padding;
+			global::Syncfusion.XForms.Android.ComboBox.Resource.Dimension.mtrl_extended_fab_translation_z_base = global::NutritionApp.Droid.Resource.Dimension.mtrl_extended_fab_translation_z_base;
+			global::Syncfusion.XForms.Android.ComboBox.Resource.Dimension.mtrl_extended_fab_translation_z_hovered_focused = global::NutritionApp.Droid.Resource.Dimension.mtrl_extended_fab_translation_z_hovered_focused;
+			global::Syncfusion.XForms.Android.ComboBox.Resource.Dimension.mtrl_extended_fab_translation_z_pressed = global::NutritionApp.Droid.Resource.Dimension.mtrl_extended_fab_translation_z_pressed;
+			global::Syncfusion.XForms.Android.ComboBox.Resource.Dimension.mtrl_fab_elevation = global::NutritionApp.Droid.Resource.Dimension.mtrl_fab_elevation;
+			global::Syncfusion.XForms.Android.ComboBox.Resource.Dimension.mtrl_fab_min_touch_target = global::NutritionApp.Droid.Resource.Dimension.mtrl_fab_min_touch_target;
+			global::Syncfusion.XForms.Android.ComboBox.Resource.Dimension.mtrl_fab_translation_z_hovered_focused = global::NutritionApp.Droid.Resource.Dimension.mtrl_fab_translation_z_hovered_focused;
+			global::Syncfusion.XForms.Android.ComboBox.Resource.Dimension.mtrl_fab_translation_z_pressed = global::NutritionApp.Droid.Resource.Dimension.mtrl_fab_translation_z_pressed;
+			global::Syncfusion.XForms.Android.ComboBox.Resource.Dimension.mtrl_high_ripple_default_alpha = global::NutritionApp.Droid.Resource.Dimension.mtrl_high_ripple_default_alpha;
+			global::Syncfusion.XForms.Android.ComboBox.Resource.Dimension.mtrl_high_ripple_focused_alpha = global::NutritionApp.Droid.Resource.Dimension.mtrl_high_ripple_focused_alpha;
+			global::Syncfusion.XForms.Android.ComboBox.Resource.Dimension.mtrl_high_ripple_hovered_alpha = global::NutritionApp.Droid.Resource.Dimension.mtrl_high_ripple_hovered_alpha;
+			global::Syncfusion.XForms.Android.ComboBox.Resource.Dimension.mtrl_high_ripple_pressed_alpha = global::NutritionApp.Droid.Resource.Dimension.mtrl_high_ripple_pressed_alpha;
+			global::Syncfusion.XForms.Android.ComboBox.Resource.Dimension.mtrl_large_touch_target = global::NutritionApp.Droid.Resource.Dimension.mtrl_large_touch_target;
+			global::Syncfusion.XForms.Android.ComboBox.Resource.Dimension.mtrl_low_ripple_default_alpha = global::NutritionApp.Droid.Resource.Dimension.mtrl_low_ripple_default_alpha;
+			global::Syncfusion.XForms.Android.ComboBox.Resource.Dimension.mtrl_low_ripple_focused_alpha = global::NutritionApp.Droid.Resource.Dimension.mtrl_low_ripple_focused_alpha;
+			global::Syncfusion.XForms.Android.ComboBox.Resource.Dimension.mtrl_low_ripple_hovered_alpha = global::NutritionApp.Droid.Resource.Dimension.mtrl_low_ripple_hovered_alpha;
+			global::Syncfusion.XForms.Android.ComboBox.Resource.Dimension.mtrl_low_ripple_pressed_alpha = global::NutritionApp.Droid.Resource.Dimension.mtrl_low_ripple_pressed_alpha;
+			global::Syncfusion.XForms.Android.ComboBox.Resource.Dimension.mtrl_min_touch_target_size = global::NutritionApp.Droid.Resource.Dimension.mtrl_min_touch_target_size;
+			global::Syncfusion.XForms.Android.ComboBox.Resource.Dimension.mtrl_navigation_elevation = global::NutritionApp.Droid.Resource.Dimension.mtrl_navigation_elevation;
+			global::Syncfusion.XForms.Android.ComboBox.Resource.Dimension.mtrl_navigation_item_horizontal_padding = global::NutritionApp.Droid.Resource.Dimension.mtrl_navigation_item_horizontal_padding;
+			global::Syncfusion.XForms.Android.ComboBox.Resource.Dimension.mtrl_navigation_item_icon_padding = global::NutritionApp.Droid.Resource.Dimension.mtrl_navigation_item_icon_padding;
+			global::Syncfusion.XForms.Android.ComboBox.Resource.Dimension.mtrl_navigation_item_icon_size = global::NutritionApp.Droid.Resource.Dimension.mtrl_navigation_item_icon_size;
+			global::Syncfusion.XForms.Android.ComboBox.Resource.Dimension.mtrl_navigation_item_shape_horizontal_margin = global::NutritionApp.Droid.Resource.Dimension.mtrl_navigation_item_shape_horizontal_margin;
+			global::Syncfusion.XForms.Android.ComboBox.Resource.Dimension.mtrl_navigation_item_shape_vertical_margin = global::NutritionApp.Droid.Resource.Dimension.mtrl_navigation_item_shape_vertical_margin;
+			global::Syncfusion.XForms.Android.ComboBox.Resource.Dimension.mtrl_shape_corner_size_large_component = global::NutritionApp.Droid.Resource.Dimension.mtrl_shape_corner_size_large_component;
+			global::Syncfusion.XForms.Android.ComboBox.Resource.Dimension.mtrl_shape_corner_size_medium_component = global::NutritionApp.Droid.Resource.Dimension.mtrl_shape_corner_size_medium_component;
+			global::Syncfusion.XForms.Android.ComboBox.Resource.Dimension.mtrl_shape_corner_size_small_component = global::NutritionApp.Droid.Resource.Dimension.mtrl_shape_corner_size_small_component;
+			global::Syncfusion.XForms.Android.ComboBox.Resource.Dimension.mtrl_slider_halo_radius = global::NutritionApp.Droid.Resource.Dimension.mtrl_slider_halo_radius;
+			global::Syncfusion.XForms.Android.ComboBox.Resource.Dimension.mtrl_slider_label_padding = global::NutritionApp.Droid.Resource.Dimension.mtrl_slider_label_padding;
+			global::Syncfusion.XForms.Android.ComboBox.Resource.Dimension.mtrl_slider_label_radius = global::NutritionApp.Droid.Resource.Dimension.mtrl_slider_label_radius;
+			global::Syncfusion.XForms.Android.ComboBox.Resource.Dimension.mtrl_slider_label_square_side = global::NutritionApp.Droid.Resource.Dimension.mtrl_slider_label_square_side;
+			global::Syncfusion.XForms.Android.ComboBox.Resource.Dimension.mtrl_slider_thumb_elevation = global::NutritionApp.Droid.Resource.Dimension.mtrl_slider_thumb_elevation;
+			global::Syncfusion.XForms.Android.ComboBox.Resource.Dimension.mtrl_slider_thumb_radius = global::NutritionApp.Droid.Resource.Dimension.mtrl_slider_thumb_radius;
+			global::Syncfusion.XForms.Android.ComboBox.Resource.Dimension.mtrl_slider_track_height = global::NutritionApp.Droid.Resource.Dimension.mtrl_slider_track_height;
+			global::Syncfusion.XForms.Android.ComboBox.Resource.Dimension.mtrl_slider_track_side_padding = global::NutritionApp.Droid.Resource.Dimension.mtrl_slider_track_side_padding;
+			global::Syncfusion.XForms.Android.ComboBox.Resource.Dimension.mtrl_slider_track_top = global::NutritionApp.Droid.Resource.Dimension.mtrl_slider_track_top;
+			global::Syncfusion.XForms.Android.ComboBox.Resource.Dimension.mtrl_slider_widget_height = global::NutritionApp.Droid.Resource.Dimension.mtrl_slider_widget_height;
+			global::Syncfusion.XForms.Android.ComboBox.Resource.Dimension.mtrl_snackbar_action_text_color_alpha = global::NutritionApp.Droid.Resource.Dimension.mtrl_snackbar_action_text_color_alpha;
+			global::Syncfusion.XForms.Android.ComboBox.Resource.Dimension.mtrl_snackbar_background_corner_radius = global::NutritionApp.Droid.Resource.Dimension.mtrl_snackbar_background_corner_radius;
+			global::Syncfusion.XForms.Android.ComboBox.Resource.Dimension.mtrl_snackbar_background_overlay_color_alpha = global::NutritionApp.Droid.Resource.Dimension.mtrl_snackbar_background_overlay_color_alpha;
+			global::Syncfusion.XForms.Android.ComboBox.Resource.Dimension.mtrl_snackbar_margin = global::NutritionApp.Droid.Resource.Dimension.mtrl_snackbar_margin;
+			global::Syncfusion.XForms.Android.ComboBox.Resource.Dimension.mtrl_switch_thumb_elevation = global::NutritionApp.Droid.Resource.Dimension.mtrl_switch_thumb_elevation;
+			global::Syncfusion.XForms.Android.ComboBox.Resource.Dimension.mtrl_textinput_box_corner_radius_medium = global::NutritionApp.Droid.Resource.Dimension.mtrl_textinput_box_corner_radius_medium;
+			global::Syncfusion.XForms.Android.ComboBox.Resource.Dimension.mtrl_textinput_box_corner_radius_small = global::NutritionApp.Droid.Resource.Dimension.mtrl_textinput_box_corner_radius_small;
+			global::Syncfusion.XForms.Android.ComboBox.Resource.Dimension.mtrl_textinput_box_label_cutout_padding = global::NutritionApp.Droid.Resource.Dimension.mtrl_textinput_box_label_cutout_padding;
+			global::Syncfusion.XForms.Android.ComboBox.Resource.Dimension.mtrl_textinput_box_stroke_width_default = global::NutritionApp.Droid.Resource.Dimension.mtrl_textinput_box_stroke_width_default;
+			global::Syncfusion.XForms.Android.ComboBox.Resource.Dimension.mtrl_textinput_box_stroke_width_focused = global::NutritionApp.Droid.Resource.Dimension.mtrl_textinput_box_stroke_width_focused;
+			global::Syncfusion.XForms.Android.ComboBox.Resource.Dimension.mtrl_textinput_counter_margin_start = global::NutritionApp.Droid.Resource.Dimension.mtrl_textinput_counter_margin_start;
+			global::Syncfusion.XForms.Android.ComboBox.Resource.Dimension.mtrl_textinput_end_icon_margin_start = global::NutritionApp.Droid.Resource.Dimension.mtrl_textinput_end_icon_margin_start;
+			global::Syncfusion.XForms.Android.ComboBox.Resource.Dimension.mtrl_textinput_outline_box_expanded_padding = global::NutritionApp.Droid.Resource.Dimension.mtrl_textinput_outline_box_expanded_padding;
+			global::Syncfusion.XForms.Android.ComboBox.Resource.Dimension.mtrl_textinput_start_icon_margin_end = global::NutritionApp.Droid.Resource.Dimension.mtrl_textinput_start_icon_margin_end;
+			global::Syncfusion.XForms.Android.ComboBox.Resource.Dimension.mtrl_toolbar_default_height = global::NutritionApp.Droid.Resource.Dimension.mtrl_toolbar_default_height;
+			global::Syncfusion.XForms.Android.ComboBox.Resource.Dimension.mtrl_tooltip_arrowSize = global::NutritionApp.Droid.Resource.Dimension.mtrl_tooltip_arrowSize;
+			global::Syncfusion.XForms.Android.ComboBox.Resource.Dimension.mtrl_tooltip_cornerSize = global::NutritionApp.Droid.Resource.Dimension.mtrl_tooltip_cornerSize;
+			global::Syncfusion.XForms.Android.ComboBox.Resource.Dimension.mtrl_tooltip_minHeight = global::NutritionApp.Droid.Resource.Dimension.mtrl_tooltip_minHeight;
+			global::Syncfusion.XForms.Android.ComboBox.Resource.Dimension.mtrl_tooltip_minWidth = global::NutritionApp.Droid.Resource.Dimension.mtrl_tooltip_minWidth;
+			global::Syncfusion.XForms.Android.ComboBox.Resource.Dimension.mtrl_tooltip_padding = global::NutritionApp.Droid.Resource.Dimension.mtrl_tooltip_padding;
+			global::Syncfusion.XForms.Android.ComboBox.Resource.Dimension.mtrl_transition_shared_axis_slide_distance = global::NutritionApp.Droid.Resource.Dimension.mtrl_transition_shared_axis_slide_distance;
+			global::Syncfusion.XForms.Android.ComboBox.Resource.Dimension.notification_action_icon_size = global::NutritionApp.Droid.Resource.Dimension.notification_action_icon_size;
+			global::Syncfusion.XForms.Android.ComboBox.Resource.Dimension.notification_action_text_size = global::NutritionApp.Droid.Resource.Dimension.notification_action_text_size;
+			global::Syncfusion.XForms.Android.ComboBox.Resource.Dimension.notification_big_circle_margin = global::NutritionApp.Droid.Resource.Dimension.notification_big_circle_margin;
+			global::Syncfusion.XForms.Android.ComboBox.Resource.Dimension.notification_content_margin_start = global::NutritionApp.Droid.Resource.Dimension.notification_content_margin_start;
+			global::Syncfusion.XForms.Android.ComboBox.Resource.Dimension.notification_large_icon_height = global::NutritionApp.Droid.Resource.Dimension.notification_large_icon_height;
+			global::Syncfusion.XForms.Android.ComboBox.Resource.Dimension.notification_large_icon_width = global::NutritionApp.Droid.Resource.Dimension.notification_large_icon_width;
+			global::Syncfusion.XForms.Android.ComboBox.Resource.Dimension.notification_main_column_padding_top = global::NutritionApp.Droid.Resource.Dimension.notification_main_column_padding_top;
+			global::Syncfusion.XForms.Android.ComboBox.Resource.Dimension.notification_media_narrow_margin = global::NutritionApp.Droid.Resource.Dimension.notification_media_narrow_margin;
+			global::Syncfusion.XForms.Android.ComboBox.Resource.Dimension.notification_right_icon_size = global::NutritionApp.Droid.Resource.Dimension.notification_right_icon_size;
+			global::Syncfusion.XForms.Android.ComboBox.Resource.Dimension.notification_right_side_padding_top = global::NutritionApp.Droid.Resource.Dimension.notification_right_side_padding_top;
+			global::Syncfusion.XForms.Android.ComboBox.Resource.Dimension.notification_small_icon_background_padding = global::NutritionApp.Droid.Resource.Dimension.notification_small_icon_background_padding;
+			global::Syncfusion.XForms.Android.ComboBox.Resource.Dimension.notification_small_icon_size_as_large = global::NutritionApp.Droid.Resource.Dimension.notification_small_icon_size_as_large;
+			global::Syncfusion.XForms.Android.ComboBox.Resource.Dimension.notification_subtext_size = global::NutritionApp.Droid.Resource.Dimension.notification_subtext_size;
+			global::Syncfusion.XForms.Android.ComboBox.Resource.Dimension.notification_top_pad = global::NutritionApp.Droid.Resource.Dimension.notification_top_pad;
+			global::Syncfusion.XForms.Android.ComboBox.Resource.Dimension.notification_top_pad_large_text = global::NutritionApp.Droid.Resource.Dimension.notification_top_pad_large_text;
+			global::Syncfusion.XForms.Android.ComboBox.Resource.Dimension.test_mtrl_calendar_day_cornerSize = global::NutritionApp.Droid.Resource.Dimension.test_mtrl_calendar_day_cornerSize;
+			global::Syncfusion.XForms.Android.ComboBox.Resource.Dimension.tooltip_corner_radius = global::NutritionApp.Droid.Resource.Dimension.tooltip_corner_radius;
+			global::Syncfusion.XForms.Android.ComboBox.Resource.Dimension.tooltip_horizontal_padding = global::NutritionApp.Droid.Resource.Dimension.tooltip_horizontal_padding;
+			global::Syncfusion.XForms.Android.ComboBox.Resource.Dimension.tooltip_margin = global::NutritionApp.Droid.Resource.Dimension.tooltip_margin;
+			global::Syncfusion.XForms.Android.ComboBox.Resource.Dimension.tooltip_precise_anchor_extra_offset = global::NutritionApp.Droid.Resource.Dimension.tooltip_precise_anchor_extra_offset;
+			global::Syncfusion.XForms.Android.ComboBox.Resource.Dimension.tooltip_precise_anchor_threshold = global::NutritionApp.Droid.Resource.Dimension.tooltip_precise_anchor_threshold;
+			global::Syncfusion.XForms.Android.ComboBox.Resource.Dimension.tooltip_vertical_padding = global::NutritionApp.Droid.Resource.Dimension.tooltip_vertical_padding;
+			global::Syncfusion.XForms.Android.ComboBox.Resource.Dimension.tooltip_y_offset_non_touch = global::NutritionApp.Droid.Resource.Dimension.tooltip_y_offset_non_touch;
+			global::Syncfusion.XForms.Android.ComboBox.Resource.Dimension.tooltip_y_offset_touch = global::NutritionApp.Droid.Resource.Dimension.tooltip_y_offset_touch;
+			global::Syncfusion.XForms.Android.ComboBox.Resource.Drawable.abc_ab_share_pack_mtrl_alpha = global::NutritionApp.Droid.Resource.Drawable.abc_ab_share_pack_mtrl_alpha;
+			global::Syncfusion.XForms.Android.ComboBox.Resource.Drawable.abc_action_bar_item_background_material = global::NutritionApp.Droid.Resource.Drawable.abc_action_bar_item_background_material;
+			global::Syncfusion.XForms.Android.ComboBox.Resource.Drawable.abc_btn_borderless_material = global::NutritionApp.Droid.Resource.Drawable.abc_btn_borderless_material;
+			global::Syncfusion.XForms.Android.ComboBox.Resource.Drawable.abc_btn_check_material = global::NutritionApp.Droid.Resource.Drawable.abc_btn_check_material;
+			global::Syncfusion.XForms.Android.ComboBox.Resource.Drawable.abc_btn_check_material_anim = global::NutritionApp.Droid.Resource.Drawable.abc_btn_check_material_anim;
+			global::Syncfusion.XForms.Android.ComboBox.Resource.Drawable.abc_btn_check_to_on_mtrl_000 = global::NutritionApp.Droid.Resource.Drawable.abc_btn_check_to_on_mtrl_000;
+			global::Syncfusion.XForms.Android.ComboBox.Resource.Drawable.abc_btn_check_to_on_mtrl_015 = global::NutritionApp.Droid.Resource.Drawable.abc_btn_check_to_on_mtrl_015;
+			global::Syncfusion.XForms.Android.ComboBox.Resource.Drawable.abc_btn_colored_material = global::NutritionApp.Droid.Resource.Drawable.abc_btn_colored_material;
+			global::Syncfusion.XForms.Android.ComboBox.Resource.Drawable.abc_btn_default_mtrl_shape = global::NutritionApp.Droid.Resource.Drawable.abc_btn_default_mtrl_shape;
+			global::Syncfusion.XForms.Android.ComboBox.Resource.Drawable.abc_btn_radio_material = global::NutritionApp.Droid.Resource.Drawable.abc_btn_radio_material;
+			global::Syncfusion.XForms.Android.ComboBox.Resource.Drawable.abc_btn_radio_material_anim = global::NutritionApp.Droid.Resource.Drawable.abc_btn_radio_material_anim;
+			global::Syncfusion.XForms.Android.ComboBox.Resource.Drawable.abc_btn_radio_to_on_mtrl_000 = global::NutritionApp.Droid.Resource.Drawable.abc_btn_radio_to_on_mtrl_000;
+			global::Syncfusion.XForms.Android.ComboBox.Resource.Drawable.abc_btn_radio_to_on_mtrl_015 = global::NutritionApp.Droid.Resource.Drawable.abc_btn_radio_to_on_mtrl_015;
+			global::Syncfusion.XForms.Android.ComboBox.Resource.Drawable.abc_btn_switch_to_on_mtrl_00001 = global::NutritionApp.Droid.Resource.Drawable.abc_btn_switch_to_on_mtrl_00001;
+			global::Syncfusion.XForms.Android.ComboBox.Resource.Drawable.abc_btn_switch_to_on_mtrl_00012 = global::NutritionApp.Droid.Resource.Drawable.abc_btn_switch_to_on_mtrl_00012;
+			global::Syncfusion.XForms.Android.ComboBox.Resource.Drawable.abc_cab_background_internal_bg = global::NutritionApp.Droid.Resource.Drawable.abc_cab_background_internal_bg;
+			global::Syncfusion.XForms.Android.ComboBox.Resource.Drawable.abc_cab_background_top_material = global::NutritionApp.Droid.Resource.Drawable.abc_cab_background_top_material;
+			global::Syncfusion.XForms.Android.ComboBox.Resource.Drawable.abc_cab_background_top_mtrl_alpha = global::NutritionApp.Droid.Resource.Drawable.abc_cab_background_top_mtrl_alpha;
+			global::Syncfusion.XForms.Android.ComboBox.Resource.Drawable.abc_control_background_material = global::NutritionApp.Droid.Resource.Drawable.abc_control_background_material;
+			global::Syncfusion.XForms.Android.ComboBox.Resource.Drawable.abc_dialog_material_background = global::NutritionApp.Droid.Resource.Drawable.abc_dialog_material_background;
+			global::Syncfusion.XForms.Android.ComboBox.Resource.Drawable.abc_edit_text_material = global::NutritionApp.Droid.Resource.Drawable.abc_edit_text_material;
+			global::Syncfusion.XForms.Android.ComboBox.Resource.Drawable.abc_ic_ab_back_material = global::NutritionApp.Droid.Resource.Drawable.abc_ic_ab_back_material;
+			global::Syncfusion.XForms.Android.ComboBox.Resource.Drawable.abc_ic_arrow_drop_right_black_24dp = global::NutritionApp.Droid.Resource.Drawable.abc_ic_arrow_drop_right_black_24dp;
+			global::Syncfusion.XForms.Android.ComboBox.Resource.Drawable.abc_ic_clear_material = global::NutritionApp.Droid.Resource.Drawable.abc_ic_clear_material;
+			global::Syncfusion.XForms.Android.ComboBox.Resource.Drawable.abc_ic_commit_search_api_mtrl_alpha = global::NutritionApp.Droid.Resource.Drawable.abc_ic_commit_search_api_mtrl_alpha;
+			global::Syncfusion.XForms.Android.ComboBox.Resource.Drawable.abc_ic_go_search_api_material = global::NutritionApp.Droid.Resource.Drawable.abc_ic_go_search_api_material;
+			global::Syncfusion.XForms.Android.ComboBox.Resource.Drawable.abc_ic_menu_copy_mtrl_am_alpha = global::NutritionApp.Droid.Resource.Drawable.abc_ic_menu_copy_mtrl_am_alpha;
+			global::Syncfusion.XForms.Android.ComboBox.Resource.Drawable.abc_ic_menu_cut_mtrl_alpha = global::NutritionApp.Droid.Resource.Drawable.abc_ic_menu_cut_mtrl_alpha;
+			global::Syncfusion.XForms.Android.ComboBox.Resource.Drawable.abc_ic_menu_overflow_material = global::NutritionApp.Droid.Resource.Drawable.abc_ic_menu_overflow_material;
+			global::Syncfusion.XForms.Android.ComboBox.Resource.Drawable.abc_ic_menu_paste_mtrl_am_alpha = global::NutritionApp.Droid.Resource.Drawable.abc_ic_menu_paste_mtrl_am_alpha;
+			global::Syncfusion.XForms.Android.ComboBox.Resource.Drawable.abc_ic_menu_selectall_mtrl_alpha = global::NutritionApp.Droid.Resource.Drawable.abc_ic_menu_selectall_mtrl_alpha;
+			global::Syncfusion.XForms.Android.ComboBox.Resource.Drawable.abc_ic_menu_share_mtrl_alpha = global::NutritionApp.Droid.Resource.Drawable.abc_ic_menu_share_mtrl_alpha;
+			global::Syncfusion.XForms.Android.ComboBox.Resource.Drawable.abc_ic_search_api_material = global::NutritionApp.Droid.Resource.Drawable.abc_ic_search_api_material;
+			global::Syncfusion.XForms.Android.ComboBox.Resource.Drawable.abc_ic_voice_search_api_material = global::NutritionApp.Droid.Resource.Drawable.abc_ic_voice_search_api_material;
+			global::Syncfusion.XForms.Android.ComboBox.Resource.Drawable.abc_item_background_holo_dark = global::NutritionApp.Droid.Resource.Drawable.abc_item_background_holo_dark;
+			global::Syncfusion.XForms.Android.ComboBox.Resource.Drawable.abc_item_background_holo_light = global::NutritionApp.Droid.Resource.Drawable.abc_item_background_holo_light;
+			global::Syncfusion.XForms.Android.ComboBox.Resource.Drawable.abc_list_divider_material = global::NutritionApp.Droid.Resource.Drawable.abc_list_divider_material;
+			global::Syncfusion.XForms.Android.ComboBox.Resource.Drawable.abc_list_divider_mtrl_alpha = global::NutritionApp.Droid.Resource.Drawable.abc_list_divider_mtrl_alpha;
+			global::Syncfusion.XForms.Android.ComboBox.Resource.Drawable.abc_list_focused_holo = global::NutritionApp.Droid.Resource.Drawable.abc_list_focused_holo;
+			global::Syncfusion.XForms.Android.ComboBox.Resource.Drawable.abc_list_longpressed_holo = global::NutritionApp.Droid.Resource.Drawable.abc_list_longpressed_holo;
+			global::Syncfusion.XForms.Android.ComboBox.Resource.Drawable.abc_list_pressed_holo_dark = global::NutritionApp.Droid.Resource.Drawable.abc_list_pressed_holo_dark;
+			global::Syncfusion.XForms.Android.ComboBox.Resource.Drawable.abc_list_pressed_holo_light = global::NutritionApp.Droid.Resource.Drawable.abc_list_pressed_holo_light;
+			global::Syncfusion.XForms.Android.ComboBox.Resource.Drawable.abc_list_selector_background_transition_holo_dark = global::NutritionApp.Droid.Resource.Drawable.abc_list_selector_background_transition_holo_dark;
+			global::Syncfusion.XForms.Android.ComboBox.Resource.Drawable.abc_list_selector_background_transition_holo_light = global::NutritionApp.Droid.Resource.Drawable.abc_list_selector_background_transition_holo_light;
+			global::Syncfusion.XForms.Android.ComboBox.Resource.Drawable.abc_list_selector_disabled_holo_dark = global::NutritionApp.Droid.Resource.Drawable.abc_list_selector_disabled_holo_dark;
+			global::Syncfusion.XForms.Android.ComboBox.Resource.Drawable.abc_list_selector_disabled_holo_light = global::NutritionApp.Droid.Resource.Drawable.abc_list_selector_disabled_holo_light;
+			global::Syncfusion.XForms.Android.ComboBox.Resource.Drawable.abc_list_selector_holo_dark = global::NutritionApp.Droid.Resource.Drawable.abc_list_selector_holo_dark;
+			global::Syncfusion.XForms.Android.ComboBox.Resource.Drawable.abc_list_selector_holo_light = global::NutritionApp.Droid.Resource.Drawable.abc_list_selector_holo_light;
+			global::Syncfusion.XForms.Android.ComboBox.Resource.Drawable.abc_menu_hardkey_panel_mtrl_mult = global::NutritionApp.Droid.Resource.Drawable.abc_menu_hardkey_panel_mtrl_mult;
+			global::Syncfusion.XForms.Android.ComboBox.Resource.Drawable.abc_popup_background_mtrl_mult = global::NutritionApp.Droid.Resource.Drawable.abc_popup_background_mtrl_mult;
+			global::Syncfusion.XForms.Android.ComboBox.Resource.Drawable.abc_ratingbar_indicator_material = global::NutritionApp.Droid.Resource.Drawable.abc_ratingbar_indicator_material;
+			global::Syncfusion.XForms.Android.ComboBox.Resource.Drawable.abc_ratingbar_material = global::NutritionApp.Droid.Resource.Drawable.abc_ratingbar_material;
+			global::Syncfusion.XForms.Android.ComboBox.Resource.Drawable.abc_ratingbar_small_material = global::NutritionApp.Droid.Resource.Drawable.abc_ratingbar_small_material;
+			global::Syncfusion.XForms.Android.ComboBox.Resource.Drawable.abc_scrubber_control_off_mtrl_alpha = global::NutritionApp.Droid.Resource.Drawable.abc_scrubber_control_off_mtrl_alpha;
+			global::Syncfusion.XForms.Android.ComboBox.Resource.Drawable.abc_scrubber_control_to_pressed_mtrl_000 = global::NutritionApp.Droid.Resource.Drawable.abc_scrubber_control_to_pressed_mtrl_000;
+			global::Syncfusion.XForms.Android.ComboBox.Resource.Drawable.abc_scrubber_control_to_pressed_mtrl_005 = global::NutritionApp.Droid.Resource.Drawable.abc_scrubber_control_to_pressed_mtrl_005;
+			global::Syncfusion.XForms.Android.ComboBox.Resource.Drawable.abc_scrubber_primary_mtrl_alpha = global::NutritionApp.Droid.Resource.Drawable.abc_scrubber_primary_mtrl_alpha;
+			global::Syncfusion.XForms.Android.ComboBox.Resource.Drawable.abc_scrubber_track_mtrl_alpha = global::NutritionApp.Droid.Resource.Drawable.abc_scrubber_track_mtrl_alpha;
+			global::Syncfusion.XForms.Android.ComboBox.Resource.Drawable.abc_seekbar_thumb_material = global::NutritionApp.Droid.Resource.Drawable.abc_seekbar_thumb_material;
+			global::Syncfusion.XForms.Android.ComboBox.Resource.Drawable.abc_seekbar_tick_mark_material = global::NutritionApp.Droid.Resource.Drawable.abc_seekbar_tick_mark_material;
+			global::Syncfusion.XForms.Android.ComboBox.Resource.Drawable.abc_seekbar_track_material = global::NutritionApp.Droid.Resource.Drawable.abc_seekbar_track_material;
+			global::Syncfusion.XForms.Android.ComboBox.Resource.Drawable.abc_spinner_mtrl_am_alpha = global::NutritionApp.Droid.Resource.Drawable.abc_spinner_mtrl_am_alpha;
+			global::Syncfusion.XForms.Android.ComboBox.Resource.Drawable.abc_spinner_textfield_background_material = global::NutritionApp.Droid.Resource.Drawable.abc_spinner_textfield_background_material;
+			global::Syncfusion.XForms.Android.ComboBox.Resource.Drawable.abc_switch_thumb_material = global::NutritionApp.Droid.Resource.Drawable.abc_switch_thumb_material;
+			global::Syncfusion.XForms.Android.ComboBox.Resource.Drawable.abc_switch_track_mtrl_alpha = global::NutritionApp.Droid.Resource.Drawable.abc_switch_track_mtrl_alpha;
+			global::Syncfusion.XForms.Android.ComboBox.Resource.Drawable.abc_tab_indicator_material = global::NutritionApp.Droid.Resource.Drawable.abc_tab_indicator_material;
+			global::Syncfusion.XForms.Android.ComboBox.Resource.Drawable.abc_tab_indicator_mtrl_alpha = global::NutritionApp.Droid.Resource.Drawable.abc_tab_indicator_mtrl_alpha;
+			global::Syncfusion.XForms.Android.ComboBox.Resource.Drawable.abc_textfield_activated_mtrl_alpha = global::NutritionApp.Droid.Resource.Drawable.abc_textfield_activated_mtrl_alpha;
+			global::Syncfusion.XForms.Android.ComboBox.Resource.Drawable.abc_textfield_default_mtrl_alpha = global::NutritionApp.Droid.Resource.Drawable.abc_textfield_default_mtrl_alpha;
+			global::Syncfusion.XForms.Android.ComboBox.Resource.Drawable.abc_textfield_search_activated_mtrl_alpha = global::NutritionApp.Droid.Resource.Drawable.abc_textfield_search_activated_mtrl_alpha;
+			global::Syncfusion.XForms.Android.ComboBox.Resource.Drawable.abc_textfield_search_default_mtrl_alpha = global::NutritionApp.Droid.Resource.Drawable.abc_textfield_search_default_mtrl_alpha;
+			global::Syncfusion.XForms.Android.ComboBox.Resource.Drawable.abc_textfield_search_material = global::NutritionApp.Droid.Resource.Drawable.abc_textfield_search_material;
+			global::Syncfusion.XForms.Android.ComboBox.Resource.Drawable.abc_text_cursor_material = global::NutritionApp.Droid.Resource.Drawable.abc_text_cursor_material;
+			global::Syncfusion.XForms.Android.ComboBox.Resource.Drawable.abc_vector_test = global::NutritionApp.Droid.Resource.Drawable.abc_vector_test;
+			global::Syncfusion.XForms.Android.ComboBox.Resource.Drawable.Avatar1 = global::NutritionApp.Droid.Resource.Drawable.Avatar1;
+			global::Syncfusion.XForms.Android.ComboBox.Resource.Drawable.Avatar10 = global::NutritionApp.Droid.Resource.Drawable.Avatar10;
+			global::Syncfusion.XForms.Android.ComboBox.Resource.Drawable.Avatar11 = global::NutritionApp.Droid.Resource.Drawable.Avatar11;
+			global::Syncfusion.XForms.Android.ComboBox.Resource.Drawable.Avatar12 = global::NutritionApp.Droid.Resource.Drawable.Avatar12;
+			global::Syncfusion.XForms.Android.ComboBox.Resource.Drawable.Avatar13 = global::NutritionApp.Droid.Resource.Drawable.Avatar13;
+			global::Syncfusion.XForms.Android.ComboBox.Resource.Drawable.Avatar14 = global::NutritionApp.Droid.Resource.Drawable.Avatar14;
+			global::Syncfusion.XForms.Android.ComboBox.Resource.Drawable.Avatar15 = global::NutritionApp.Droid.Resource.Drawable.Avatar15;
+			global::Syncfusion.XForms.Android.ComboBox.Resource.Drawable.Avatar16 = global::NutritionApp.Droid.Resource.Drawable.Avatar16;
+			global::Syncfusion.XForms.Android.ComboBox.Resource.Drawable.Avatar17 = global::NutritionApp.Droid.Resource.Drawable.Avatar17;
+			global::Syncfusion.XForms.Android.ComboBox.Resource.Drawable.Avatar18 = global::NutritionApp.Droid.Resource.Drawable.Avatar18;
+			global::Syncfusion.XForms.Android.ComboBox.Resource.Drawable.Avatar19 = global::NutritionApp.Droid.Resource.Drawable.Avatar19;
+			global::Syncfusion.XForms.Android.ComboBox.Resource.Drawable.Avatar2 = global::NutritionApp.Droid.Resource.Drawable.Avatar2;
+			global::Syncfusion.XForms.Android.ComboBox.Resource.Drawable.Avatar20 = global::NutritionApp.Droid.Resource.Drawable.Avatar20;
+			global::Syncfusion.XForms.Android.ComboBox.Resource.Drawable.Avatar21 = global::NutritionApp.Droid.Resource.Drawable.Avatar21;
+			global::Syncfusion.XForms.Android.ComboBox.Resource.Drawable.Avatar22 = global::NutritionApp.Droid.Resource.Drawable.Avatar22;
+			global::Syncfusion.XForms.Android.ComboBox.Resource.Drawable.Avatar23 = global::NutritionApp.Droid.Resource.Drawable.Avatar23;
+			global::Syncfusion.XForms.Android.ComboBox.Resource.Drawable.Avatar24 = global::NutritionApp.Droid.Resource.Drawable.Avatar24;
+			global::Syncfusion.XForms.Android.ComboBox.Resource.Drawable.Avatar25 = global::NutritionApp.Droid.Resource.Drawable.Avatar25;
+			global::Syncfusion.XForms.Android.ComboBox.Resource.Drawable.Avatar26 = global::NutritionApp.Droid.Resource.Drawable.Avatar26;
+			global::Syncfusion.XForms.Android.ComboBox.Resource.Drawable.Avatar27 = global::NutritionApp.Droid.Resource.Drawable.Avatar27;
+			global::Syncfusion.XForms.Android.ComboBox.Resource.Drawable.Avatar28 = global::NutritionApp.Droid.Resource.Drawable.Avatar28;
+			global::Syncfusion.XForms.Android.ComboBox.Resource.Drawable.Avatar29 = global::NutritionApp.Droid.Resource.Drawable.Avatar29;
+			global::Syncfusion.XForms.Android.ComboBox.Resource.Drawable.Avatar3 = global::NutritionApp.Droid.Resource.Drawable.Avatar3;
+			global::Syncfusion.XForms.Android.ComboBox.Resource.Drawable.Avatar30 = global::NutritionApp.Droid.Resource.Drawable.Avatar30;
+			global::Syncfusion.XForms.Android.ComboBox.Resource.Drawable.Avatar4 = global::NutritionApp.Droid.Resource.Drawable.Avatar4;
+			global::Syncfusion.XForms.Android.ComboBox.Resource.Drawable.Avatar5 = global::NutritionApp.Droid.Resource.Drawable.Avatar5;
+			global::Syncfusion.XForms.Android.ComboBox.Resource.Drawable.Avatar6 = global::NutritionApp.Droid.Resource.Drawable.Avatar6;
+			global::Syncfusion.XForms.Android.ComboBox.Resource.Drawable.Avatar7 = global::NutritionApp.Droid.Resource.Drawable.Avatar7;
+			global::Syncfusion.XForms.Android.ComboBox.Resource.Drawable.Avatar8 = global::NutritionApp.Droid.Resource.Drawable.Avatar8;
+			global::Syncfusion.XForms.Android.ComboBox.Resource.Drawable.Avatar9 = global::NutritionApp.Droid.Resource.Drawable.Avatar9;
+			global::Syncfusion.XForms.Android.ComboBox.Resource.Drawable.avd_hide_password = global::NutritionApp.Droid.Resource.Drawable.avd_hide_password;
+			global::Syncfusion.XForms.Android.ComboBox.Resource.Drawable.avd_show_password = global::NutritionApp.Droid.Resource.Drawable.avd_show_password;
+			global::Syncfusion.XForms.Android.ComboBox.Resource.Drawable.btn_checkbox_checked_mtrl = global::NutritionApp.Droid.Resource.Drawable.btn_checkbox_checked_mtrl;
+			global::Syncfusion.XForms.Android.ComboBox.Resource.Drawable.btn_checkbox_checked_to_unchecked_mtrl_animation = global::NutritionApp.Droid.Resource.Drawable.btn_checkbox_checked_to_unchecked_mtrl_animation;
+			global::Syncfusion.XForms.Android.ComboBox.Resource.Drawable.btn_checkbox_unchecked_mtrl = global::NutritionApp.Droid.Resource.Drawable.btn_checkbox_unchecked_mtrl;
+			global::Syncfusion.XForms.Android.ComboBox.Resource.Drawable.btn_checkbox_unchecked_to_checked_mtrl_animation = global::NutritionApp.Droid.Resource.Drawable.btn_checkbox_unchecked_to_checked_mtrl_animation;
+			global::Syncfusion.XForms.Android.ComboBox.Resource.Drawable.btn_radio_off_mtrl = global::NutritionApp.Droid.Resource.Drawable.btn_radio_off_mtrl;
+			global::Syncfusion.XForms.Android.ComboBox.Resource.Drawable.btn_radio_off_to_on_mtrl_animation = global::NutritionApp.Droid.Resource.Drawable.btn_radio_off_to_on_mtrl_animation;
+			global::Syncfusion.XForms.Android.ComboBox.Resource.Drawable.btn_radio_on_mtrl = global::NutritionApp.Droid.Resource.Drawable.btn_radio_on_mtrl;
+			global::Syncfusion.XForms.Android.ComboBox.Resource.Drawable.btn_radio_on_to_off_mtrl_animation = global::NutritionApp.Droid.Resource.Drawable.btn_radio_on_to_off_mtrl_animation;
+			global::Syncfusion.XForms.Android.ComboBox.Resource.Drawable.clear_button_icon = global::NutritionApp.Droid.Resource.Drawable.clear_button_icon;
+			global::Syncfusion.XForms.Android.ComboBox.Resource.Drawable.design_fab_background = global::NutritionApp.Droid.Resource.Drawable.design_fab_background;
+			global::Syncfusion.XForms.Android.ComboBox.Resource.Drawable.design_ic_visibility = global::NutritionApp.Droid.Resource.Drawable.design_ic_visibility;
+			global::Syncfusion.XForms.Android.ComboBox.Resource.Drawable.design_ic_visibility_off = global::NutritionApp.Droid.Resource.Drawable.design_ic_visibility_off;
+			global::Syncfusion.XForms.Android.ComboBox.Resource.Drawable.design_password_eye = global::NutritionApp.Droid.Resource.Drawable.design_password_eye;
+			global::Syncfusion.XForms.Android.ComboBox.Resource.Drawable.design_snackbar_background = global::NutritionApp.Droid.Resource.Drawable.design_snackbar_background;
+			global::Syncfusion.XForms.Android.ComboBox.Resource.Drawable.dropdownbuttonimage = global::NutritionApp.Droid.Resource.Drawable.dropdownbuttonimage;
+			global::Syncfusion.XForms.Android.ComboBox.Resource.Drawable.ic_mtrl_checked_circle = global::NutritionApp.Droid.Resource.Drawable.ic_mtrl_checked_circle;
+			global::Syncfusion.XForms.Android.ComboBox.Resource.Drawable.ic_mtrl_chip_checked_black = global::NutritionApp.Droid.Resource.Drawable.ic_mtrl_chip_checked_black;
+			global::Syncfusion.XForms.Android.ComboBox.Resource.Drawable.ic_mtrl_chip_checked_circle = global::NutritionApp.Droid.Resource.Drawable.ic_mtrl_chip_checked_circle;
+			global::Syncfusion.XForms.Android.ComboBox.Resource.Drawable.ic_mtrl_chip_close_circle = global::NutritionApp.Droid.Resource.Drawable.ic_mtrl_chip_close_circle;
+			global::Syncfusion.XForms.Android.ComboBox.Resource.Drawable.inputlayout_togglecollapseicon = global::NutritionApp.Droid.Resource.Drawable.inputlayout_togglecollapseicon;
+			global::Syncfusion.XForms.Android.ComboBox.Resource.Drawable.inputlayout_togglevisibleicon = global::NutritionApp.Droid.Resource.Drawable.inputlayout_togglevisibleicon;
+			global::Syncfusion.XForms.Android.ComboBox.Resource.Drawable.input_layout_drop_down_icon = global::NutritionApp.Droid.Resource.Drawable.input_layout_drop_down_icon;
+			global::Syncfusion.XForms.Android.ComboBox.Resource.Drawable.material_ic_calendar_black_24dp = global::NutritionApp.Droid.Resource.Drawable.material_ic_calendar_black_24dp;
+			global::Syncfusion.XForms.Android.ComboBox.Resource.Drawable.material_ic_clear_black_24dp = global::NutritionApp.Droid.Resource.Drawable.material_ic_clear_black_24dp;
+			global::Syncfusion.XForms.Android.ComboBox.Resource.Drawable.material_ic_edit_black_24dp = global::NutritionApp.Droid.Resource.Drawable.material_ic_edit_black_24dp;
+			global::Syncfusion.XForms.Android.ComboBox.Resource.Drawable.material_ic_keyboard_arrow_left_black_24dp = global::NutritionApp.Droid.Resource.Drawable.material_ic_keyboard_arrow_left_black_24dp;
+			global::Syncfusion.XForms.Android.ComboBox.Resource.Drawable.material_ic_keyboard_arrow_right_black_24dp = global::NutritionApp.Droid.Resource.Drawable.material_ic_keyboard_arrow_right_black_24dp;
+			global::Syncfusion.XForms.Android.ComboBox.Resource.Drawable.material_ic_menu_arrow_down_black_24dp = global::NutritionApp.Droid.Resource.Drawable.material_ic_menu_arrow_down_black_24dp;
+			global::Syncfusion.XForms.Android.ComboBox.Resource.Drawable.material_ic_menu_arrow_up_black_24dp = global::NutritionApp.Droid.Resource.Drawable.material_ic_menu_arrow_up_black_24dp;
+			global::Syncfusion.XForms.Android.ComboBox.Resource.Drawable.mtrl_dialog_background = global::NutritionApp.Droid.Resource.Drawable.mtrl_dialog_background;
+			global::Syncfusion.XForms.Android.ComboBox.Resource.Drawable.mtrl_dropdown_arrow = global::NutritionApp.Droid.Resource.Drawable.mtrl_dropdown_arrow;
+			global::Syncfusion.XForms.Android.ComboBox.Resource.Drawable.mtrl_ic_arrow_drop_down = global::NutritionApp.Droid.Resource.Drawable.mtrl_ic_arrow_drop_down;
+			global::Syncfusion.XForms.Android.ComboBox.Resource.Drawable.mtrl_ic_arrow_drop_up = global::NutritionApp.Droid.Resource.Drawable.mtrl_ic_arrow_drop_up;
+			global::Syncfusion.XForms.Android.ComboBox.Resource.Drawable.mtrl_ic_cancel = global::NutritionApp.Droid.Resource.Drawable.mtrl_ic_cancel;
+			global::Syncfusion.XForms.Android.ComboBox.Resource.Drawable.mtrl_ic_error = global::NutritionApp.Droid.Resource.Drawable.mtrl_ic_error;
+			global::Syncfusion.XForms.Android.ComboBox.Resource.Drawable.mtrl_popupmenu_background = global::NutritionApp.Droid.Resource.Drawable.mtrl_popupmenu_background;
+			global::Syncfusion.XForms.Android.ComboBox.Resource.Drawable.mtrl_popupmenu_background_dark = global::NutritionApp.Droid.Resource.Drawable.mtrl_popupmenu_background_dark;
+			global::Syncfusion.XForms.Android.ComboBox.Resource.Drawable.mtrl_tabs_default_indicator = global::NutritionApp.Droid.Resource.Drawable.mtrl_tabs_default_indicator;
+			global::Syncfusion.XForms.Android.ComboBox.Resource.Drawable.navigation_empty_icon = global::NutritionApp.Droid.Resource.Drawable.navigation_empty_icon;
+			global::Syncfusion.XForms.Android.ComboBox.Resource.Drawable.notification_action_background = global::NutritionApp.Droid.Resource.Drawable.notification_action_background;
+			global::Syncfusion.XForms.Android.ComboBox.Resource.Drawable.notification_bg = global::NutritionApp.Droid.Resource.Drawable.notification_bg;
+			global::Syncfusion.XForms.Android.ComboBox.Resource.Drawable.notification_bg_low = global::NutritionApp.Droid.Resource.Drawable.notification_bg_low;
+			global::Syncfusion.XForms.Android.ComboBox.Resource.Drawable.notification_bg_low_normal = global::NutritionApp.Droid.Resource.Drawable.notification_bg_low_normal;
+			global::Syncfusion.XForms.Android.ComboBox.Resource.Drawable.notification_bg_low_pressed = global::NutritionApp.Droid.Resource.Drawable.notification_bg_low_pressed;
+			global::Syncfusion.XForms.Android.ComboBox.Resource.Drawable.notification_bg_normal = global::NutritionApp.Droid.Resource.Drawable.notification_bg_normal;
+			global::Syncfusion.XForms.Android.ComboBox.Resource.Drawable.notification_bg_normal_pressed = global::NutritionApp.Droid.Resource.Drawable.notification_bg_normal_pressed;
+			global::Syncfusion.XForms.Android.ComboBox.Resource.Drawable.notification_icon_background = global::NutritionApp.Droid.Resource.Drawable.notification_icon_background;
+			global::Syncfusion.XForms.Android.ComboBox.Resource.Drawable.notification_template_icon_bg = global::NutritionApp.Droid.Resource.Drawable.notification_template_icon_bg;
+			global::Syncfusion.XForms.Android.ComboBox.Resource.Drawable.notification_template_icon_low_bg = global::NutritionApp.Droid.Resource.Drawable.notification_template_icon_low_bg;
+			global::Syncfusion.XForms.Android.ComboBox.Resource.Drawable.notification_tile_bg = global::NutritionApp.Droid.Resource.Drawable.notification_tile_bg;
+			global::Syncfusion.XForms.Android.ComboBox.Resource.Drawable.notify_panel_notification_icon_bg = global::NutritionApp.Droid.Resource.Drawable.notify_panel_notification_icon_bg;
+			global::Syncfusion.XForms.Android.ComboBox.Resource.Drawable.test_custom_background = global::NutritionApp.Droid.Resource.Drawable.test_custom_background;
+			global::Syncfusion.XForms.Android.ComboBox.Resource.Drawable.tooltip_frame_dark = global::NutritionApp.Droid.Resource.Drawable.tooltip_frame_dark;
+			global::Syncfusion.XForms.Android.ComboBox.Resource.Drawable.tooltip_frame_light = global::NutritionApp.Droid.Resource.Drawable.tooltip_frame_light;
+			global::Syncfusion.XForms.Android.ComboBox.Resource.Id.accessibility_action_clickable_span = global::NutritionApp.Droid.Resource.Id.accessibility_action_clickable_span;
+			global::Syncfusion.XForms.Android.ComboBox.Resource.Id.accessibility_custom_action_0 = global::NutritionApp.Droid.Resource.Id.accessibility_custom_action_0;
+			global::Syncfusion.XForms.Android.ComboBox.Resource.Id.accessibility_custom_action_1 = global::NutritionApp.Droid.Resource.Id.accessibility_custom_action_1;
+			global::Syncfusion.XForms.Android.ComboBox.Resource.Id.accessibility_custom_action_10 = global::NutritionApp.Droid.Resource.Id.accessibility_custom_action_10;
+			global::Syncfusion.XForms.Android.ComboBox.Resource.Id.accessibility_custom_action_11 = global::NutritionApp.Droid.Resource.Id.accessibility_custom_action_11;
+			global::Syncfusion.XForms.Android.ComboBox.Resource.Id.accessibility_custom_action_12 = global::NutritionApp.Droid.Resource.Id.accessibility_custom_action_12;
+			global::Syncfusion.XForms.Android.ComboBox.Resource.Id.accessibility_custom_action_13 = global::NutritionApp.Droid.Resource.Id.accessibility_custom_action_13;
+			global::Syncfusion.XForms.Android.ComboBox.Resource.Id.accessibility_custom_action_14 = global::NutritionApp.Droid.Resource.Id.accessibility_custom_action_14;
+			global::Syncfusion.XForms.Android.ComboBox.Resource.Id.accessibility_custom_action_15 = global::NutritionApp.Droid.Resource.Id.accessibility_custom_action_15;
+			global::Syncfusion.XForms.Android.ComboBox.Resource.Id.accessibility_custom_action_16 = global::NutritionApp.Droid.Resource.Id.accessibility_custom_action_16;
+			global::Syncfusion.XForms.Android.ComboBox.Resource.Id.accessibility_custom_action_17 = global::NutritionApp.Droid.Resource.Id.accessibility_custom_action_17;
+			global::Syncfusion.XForms.Android.ComboBox.Resource.Id.accessibility_custom_action_18 = global::NutritionApp.Droid.Resource.Id.accessibility_custom_action_18;
+			global::Syncfusion.XForms.Android.ComboBox.Resource.Id.accessibility_custom_action_19 = global::NutritionApp.Droid.Resource.Id.accessibility_custom_action_19;
+			global::Syncfusion.XForms.Android.ComboBox.Resource.Id.accessibility_custom_action_2 = global::NutritionApp.Droid.Resource.Id.accessibility_custom_action_2;
+			global::Syncfusion.XForms.Android.ComboBox.Resource.Id.accessibility_custom_action_20 = global::NutritionApp.Droid.Resource.Id.accessibility_custom_action_20;
+			global::Syncfusion.XForms.Android.ComboBox.Resource.Id.accessibility_custom_action_21 = global::NutritionApp.Droid.Resource.Id.accessibility_custom_action_21;
+			global::Syncfusion.XForms.Android.ComboBox.Resource.Id.accessibility_custom_action_22 = global::NutritionApp.Droid.Resource.Id.accessibility_custom_action_22;
+			global::Syncfusion.XForms.Android.ComboBox.Resource.Id.accessibility_custom_action_23 = global::NutritionApp.Droid.Resource.Id.accessibility_custom_action_23;
+			global::Syncfusion.XForms.Android.ComboBox.Resource.Id.accessibility_custom_action_24 = global::NutritionApp.Droid.Resource.Id.accessibility_custom_action_24;
+			global::Syncfusion.XForms.Android.ComboBox.Resource.Id.accessibility_custom_action_25 = global::NutritionApp.Droid.Resource.Id.accessibility_custom_action_25;
+			global::Syncfusion.XForms.Android.ComboBox.Resource.Id.accessibility_custom_action_26 = global::NutritionApp.Droid.Resource.Id.accessibility_custom_action_26;
+			global::Syncfusion.XForms.Android.ComboBox.Resource.Id.accessibility_custom_action_27 = global::NutritionApp.Droid.Resource.Id.accessibility_custom_action_27;
+			global::Syncfusion.XForms.Android.ComboBox.Resource.Id.accessibility_custom_action_28 = global::NutritionApp.Droid.Resource.Id.accessibility_custom_action_28;
+			global::Syncfusion.XForms.Android.ComboBox.Resource.Id.accessibility_custom_action_29 = global::NutritionApp.Droid.Resource.Id.accessibility_custom_action_29;
+			global::Syncfusion.XForms.Android.ComboBox.Resource.Id.accessibility_custom_action_3 = global::NutritionApp.Droid.Resource.Id.accessibility_custom_action_3;
+			global::Syncfusion.XForms.Android.ComboBox.Resource.Id.accessibility_custom_action_30 = global::NutritionApp.Droid.Resource.Id.accessibility_custom_action_30;
+			global::Syncfusion.XForms.Android.ComboBox.Resource.Id.accessibility_custom_action_31 = global::NutritionApp.Droid.Resource.Id.accessibility_custom_action_31;
+			global::Syncfusion.XForms.Android.ComboBox.Resource.Id.accessibility_custom_action_4 = global::NutritionApp.Droid.Resource.Id.accessibility_custom_action_4;
+			global::Syncfusion.XForms.Android.ComboBox.Resource.Id.accessibility_custom_action_5 = global::NutritionApp.Droid.Resource.Id.accessibility_custom_action_5;
+			global::Syncfusion.XForms.Android.ComboBox.Resource.Id.accessibility_custom_action_6 = global::NutritionApp.Droid.Resource.Id.accessibility_custom_action_6;
+			global::Syncfusion.XForms.Android.ComboBox.Resource.Id.accessibility_custom_action_7 = global::NutritionApp.Droid.Resource.Id.accessibility_custom_action_7;
+			global::Syncfusion.XForms.Android.ComboBox.Resource.Id.accessibility_custom_action_8 = global::NutritionApp.Droid.Resource.Id.accessibility_custom_action_8;
+			global::Syncfusion.XForms.Android.ComboBox.Resource.Id.accessibility_custom_action_9 = global::NutritionApp.Droid.Resource.Id.accessibility_custom_action_9;
+			global::Syncfusion.XForms.Android.ComboBox.Resource.Id.action0 = global::NutritionApp.Droid.Resource.Id.action0;
+			global::Syncfusion.XForms.Android.ComboBox.Resource.Id.actions = global::NutritionApp.Droid.Resource.Id.actions;
+			global::Syncfusion.XForms.Android.ComboBox.Resource.Id.action_bar = global::NutritionApp.Droid.Resource.Id.action_bar;
+			global::Syncfusion.XForms.Android.ComboBox.Resource.Id.action_bar_activity_content = global::NutritionApp.Droid.Resource.Id.action_bar_activity_content;
+			global::Syncfusion.XForms.Android.ComboBox.Resource.Id.action_bar_container = global::NutritionApp.Droid.Resource.Id.action_bar_container;
+			global::Syncfusion.XForms.Android.ComboBox.Resource.Id.action_bar_root = global::NutritionApp.Droid.Resource.Id.action_bar_root;
+			global::Syncfusion.XForms.Android.ComboBox.Resource.Id.action_bar_spinner = global::NutritionApp.Droid.Resource.Id.action_bar_spinner;
+			global::Syncfusion.XForms.Android.ComboBox.Resource.Id.action_bar_subtitle = global::NutritionApp.Droid.Resource.Id.action_bar_subtitle;
+			global::Syncfusion.XForms.Android.ComboBox.Resource.Id.action_bar_title = global::NutritionApp.Droid.Resource.Id.action_bar_title;
+			global::Syncfusion.XForms.Android.ComboBox.Resource.Id.action_container = global::NutritionApp.Droid.Resource.Id.action_container;
+			global::Syncfusion.XForms.Android.ComboBox.Resource.Id.action_context_bar = global::NutritionApp.Droid.Resource.Id.action_context_bar;
+			global::Syncfusion.XForms.Android.ComboBox.Resource.Id.action_divider = global::NutritionApp.Droid.Resource.Id.action_divider;
+			global::Syncfusion.XForms.Android.ComboBox.Resource.Id.action_image = global::NutritionApp.Droid.Resource.Id.action_image;
+			global::Syncfusion.XForms.Android.ComboBox.Resource.Id.action_menu_divider = global::NutritionApp.Droid.Resource.Id.action_menu_divider;
+			global::Syncfusion.XForms.Android.ComboBox.Resource.Id.action_menu_presenter = global::NutritionApp.Droid.Resource.Id.action_menu_presenter;
+			global::Syncfusion.XForms.Android.ComboBox.Resource.Id.action_mode_bar = global::NutritionApp.Droid.Resource.Id.action_mode_bar;
+			global::Syncfusion.XForms.Android.ComboBox.Resource.Id.action_mode_bar_stub = global::NutritionApp.Droid.Resource.Id.action_mode_bar_stub;
+			global::Syncfusion.XForms.Android.ComboBox.Resource.Id.action_mode_close_button = global::NutritionApp.Droid.Resource.Id.action_mode_close_button;
+			global::Syncfusion.XForms.Android.ComboBox.Resource.Id.action_text = global::NutritionApp.Droid.Resource.Id.action_text;
+			global::Syncfusion.XForms.Android.ComboBox.Resource.Id.activity_chooser_view_content = global::NutritionApp.Droid.Resource.Id.activity_chooser_view_content;
+			global::Syncfusion.XForms.Android.ComboBox.Resource.Id.add = global::NutritionApp.Droid.Resource.Id.add;
+			global::Syncfusion.XForms.Android.ComboBox.Resource.Id.alertTitle = global::NutritionApp.Droid.Resource.Id.alertTitle;
+			global::Syncfusion.XForms.Android.ComboBox.Resource.Id.all = global::NutritionApp.Droid.Resource.Id.all;
+			global::Syncfusion.XForms.Android.ComboBox.Resource.Id.ALT = global::NutritionApp.Droid.Resource.Id.ALT;
+			global::Syncfusion.XForms.Android.ComboBox.Resource.Id.always = global::NutritionApp.Droid.Resource.Id.always;
+			global::Syncfusion.XForms.Android.ComboBox.Resource.Id.async = global::NutritionApp.Droid.Resource.Id.async;
+			global::Syncfusion.XForms.Android.ComboBox.Resource.Id.auto = global::NutritionApp.Droid.Resource.Id.auto;
+			global::Syncfusion.XForms.Android.ComboBox.Resource.Id.beginning = global::NutritionApp.Droid.Resource.Id.beginning;
+			global::Syncfusion.XForms.Android.ComboBox.Resource.Id.blocking = global::NutritionApp.Droid.Resource.Id.blocking;
+			global::Syncfusion.XForms.Android.ComboBox.Resource.Id.bottom = global::NutritionApp.Droid.Resource.Id.bottom;
+			global::Syncfusion.XForms.Android.ComboBox.Resource.Id.bottomtab_navarea = global::NutritionApp.Droid.Resource.Id.bottomtab_navarea;
+			global::Syncfusion.XForms.Android.ComboBox.Resource.Id.bottomtab_tabbar = global::NutritionApp.Droid.Resource.Id.bottomtab_tabbar;
+			global::Syncfusion.XForms.Android.ComboBox.Resource.Id.BOTTOM_END = global::NutritionApp.Droid.Resource.Id.BOTTOM_END;
+			global::Syncfusion.XForms.Android.ComboBox.Resource.Id.BOTTOM_START = global::NutritionApp.Droid.Resource.Id.BOTTOM_START;
+			global::Syncfusion.XForms.Android.ComboBox.Resource.Id.browser_actions_header_text = global::NutritionApp.Droid.Resource.Id.browser_actions_header_text;
+			global::Syncfusion.XForms.Android.ComboBox.Resource.Id.browser_actions_menu_items = global::NutritionApp.Droid.Resource.Id.browser_actions_menu_items;
+			global::Syncfusion.XForms.Android.ComboBox.Resource.Id.browser_actions_menu_item_icon = global::NutritionApp.Droid.Resource.Id.browser_actions_menu_item_icon;
+			global::Syncfusion.XForms.Android.ComboBox.Resource.Id.browser_actions_menu_item_text = global::NutritionApp.Droid.Resource.Id.browser_actions_menu_item_text;
+			global::Syncfusion.XForms.Android.ComboBox.Resource.Id.browser_actions_menu_view = global::NutritionApp.Droid.Resource.Id.browser_actions_menu_view;
+			global::Syncfusion.XForms.Android.ComboBox.Resource.Id.buttonPanel = global::NutritionApp.Droid.Resource.Id.buttonPanel;
+			global::Syncfusion.XForms.Android.ComboBox.Resource.Id.cancel_action = global::NutritionApp.Droid.Resource.Id.cancel_action;
+			global::Syncfusion.XForms.Android.ComboBox.Resource.Id.cancel_button = global::NutritionApp.Droid.Resource.Id.cancel_button;
+			global::Syncfusion.XForms.Android.ComboBox.Resource.Id.center = global::NutritionApp.Droid.Resource.Id.center;
+			global::Syncfusion.XForms.Android.ComboBox.Resource.Id.center_horizontal = global::NutritionApp.Droid.Resource.Id.center_horizontal;
+			global::Syncfusion.XForms.Android.ComboBox.Resource.Id.center_vertical = global::NutritionApp.Droid.Resource.Id.center_vertical;
+			global::Syncfusion.XForms.Android.ComboBox.Resource.Id.checkbox = global::NutritionApp.Droid.Resource.Id.checkbox;
+			global::Syncfusion.XForms.Android.ComboBox.Resource.Id.@checked = global::NutritionApp.Droid.Resource.Id.@checked;
+			global::Syncfusion.XForms.Android.ComboBox.Resource.Id.chip = global::NutritionApp.Droid.Resource.Id.chip;
+			global::Syncfusion.XForms.Android.ComboBox.Resource.Id.chip1 = global::NutritionApp.Droid.Resource.Id.chip1;
+			global::Syncfusion.XForms.Android.ComboBox.Resource.Id.chip2 = global::NutritionApp.Droid.Resource.Id.chip2;
+			global::Syncfusion.XForms.Android.ComboBox.Resource.Id.chip3 = global::NutritionApp.Droid.Resource.Id.chip3;
+			global::Syncfusion.XForms.Android.ComboBox.Resource.Id.chip_group = global::NutritionApp.Droid.Resource.Id.chip_group;
+			global::Syncfusion.XForms.Android.ComboBox.Resource.Id.chronometer = global::NutritionApp.Droid.Resource.Id.chronometer;
+			global::Syncfusion.XForms.Android.ComboBox.Resource.Id.clear_text = global::NutritionApp.Droid.Resource.Id.clear_text;
+			global::Syncfusion.XForms.Android.ComboBox.Resource.Id.clip_horizontal = global::NutritionApp.Droid.Resource.Id.clip_horizontal;
+			global::Syncfusion.XForms.Android.ComboBox.Resource.Id.clip_vertical = global::NutritionApp.Droid.Resource.Id.clip_vertical;
+			global::Syncfusion.XForms.Android.ComboBox.Resource.Id.collapseActionView = global::NutritionApp.Droid.Resource.Id.collapseActionView;
+			global::Syncfusion.XForms.Android.ComboBox.Resource.Id.confirm_button = global::NutritionApp.Droid.Resource.Id.confirm_button;
+			global::Syncfusion.XForms.Android.ComboBox.Resource.Id.container = global::NutritionApp.Droid.Resource.Id.container;
+			global::Syncfusion.XForms.Android.ComboBox.Resource.Id.content = global::NutritionApp.Droid.Resource.Id.content;
+			global::Syncfusion.XForms.Android.ComboBox.Resource.Id.contentPanel = global::NutritionApp.Droid.Resource.Id.contentPanel;
+			global::Syncfusion.XForms.Android.ComboBox.Resource.Id.coordinator = global::NutritionApp.Droid.Resource.Id.coordinator;
+			global::Syncfusion.XForms.Android.ComboBox.Resource.Id.CTRL = global::NutritionApp.Droid.Resource.Id.CTRL;
+			global::Syncfusion.XForms.Android.ComboBox.Resource.Id.custom = global::NutritionApp.Droid.Resource.Id.custom;
+			global::Syncfusion.XForms.Android.ComboBox.Resource.Id.customPanel = global::NutritionApp.Droid.Resource.Id.customPanel;
+			global::Syncfusion.XForms.Android.ComboBox.Resource.Id.cut = global::NutritionApp.Droid.Resource.Id.cut;
+			global::Syncfusion.XForms.Android.ComboBox.Resource.Id.date_picker_actions = global::NutritionApp.Droid.Resource.Id.date_picker_actions;
+			global::Syncfusion.XForms.Android.ComboBox.Resource.Id.decor_content_parent = global::NutritionApp.Droid.Resource.Id.decor_content_parent;
+			global::Syncfusion.XForms.Android.ComboBox.Resource.Id.default_activity_button = global::NutritionApp.Droid.Resource.Id.default_activity_button;
+			global::Syncfusion.XForms.Android.ComboBox.Resource.Id.design_bottom_sheet = global::NutritionApp.Droid.Resource.Id.design_bottom_sheet;
+			global::Syncfusion.XForms.Android.ComboBox.Resource.Id.design_menu_item_action_area = global::NutritionApp.Droid.Resource.Id.design_menu_item_action_area;
+			global::Syncfusion.XForms.Android.ComboBox.Resource.Id.design_menu_item_action_area_stub = global::NutritionApp.Droid.Resource.Id.design_menu_item_action_area_stub;
+			global::Syncfusion.XForms.Android.ComboBox.Resource.Id.design_menu_item_text = global::NutritionApp.Droid.Resource.Id.design_menu_item_text;
+			global::Syncfusion.XForms.Android.ComboBox.Resource.Id.design_navigation_view = global::NutritionApp.Droid.Resource.Id.design_navigation_view;
+			global::Syncfusion.XForms.Android.ComboBox.Resource.Id.dialog_button = global::NutritionApp.Droid.Resource.Id.dialog_button;
+			global::Syncfusion.XForms.Android.ComboBox.Resource.Id.disableHome = global::NutritionApp.Droid.Resource.Id.disableHome;
+			global::Syncfusion.XForms.Android.ComboBox.Resource.Id.dropdown_menu = global::NutritionApp.Droid.Resource.Id.dropdown_menu;
+			global::Syncfusion.XForms.Android.ComboBox.Resource.Id.edit_query = global::NutritionApp.Droid.Resource.Id.edit_query;
+			global::Syncfusion.XForms.Android.ComboBox.Resource.Id.end = global::NutritionApp.Droid.Resource.Id.end;
+			global::Syncfusion.XForms.Android.ComboBox.Resource.Id.end_padder = global::NutritionApp.Droid.Resource.Id.end_padder;
+			global::Syncfusion.XForms.Android.ComboBox.Resource.Id.enterAlways = global::NutritionApp.Droid.Resource.Id.enterAlways;
+			global::Syncfusion.XForms.Android.ComboBox.Resource.Id.enterAlwaysCollapsed = global::NutritionApp.Droid.Resource.Id.enterAlwaysCollapsed;
+			global::Syncfusion.XForms.Android.ComboBox.Resource.Id.exitUntilCollapsed = global::NutritionApp.Droid.Resource.Id.exitUntilCollapsed;
+			global::Syncfusion.XForms.Android.ComboBox.Resource.Id.expanded_menu = global::NutritionApp.Droid.Resource.Id.expanded_menu;
+			global::Syncfusion.XForms.Android.ComboBox.Resource.Id.expand_activities_button = global::NutritionApp.Droid.Resource.Id.expand_activities_button;
+			global::Syncfusion.XForms.Android.ComboBox.Resource.Id.fade = global::NutritionApp.Droid.Resource.Id.fade;
+			global::Syncfusion.XForms.Android.ComboBox.Resource.Id.fill = global::NutritionApp.Droid.Resource.Id.fill;
+			global::Syncfusion.XForms.Android.ComboBox.Resource.Id.filled = global::NutritionApp.Droid.Resource.Id.filled;
+			global::Syncfusion.XForms.Android.ComboBox.Resource.Id.fill_horizontal = global::NutritionApp.Droid.Resource.Id.fill_horizontal;
+			global::Syncfusion.XForms.Android.ComboBox.Resource.Id.fill_vertical = global::NutritionApp.Droid.Resource.Id.fill_vertical;
+			global::Syncfusion.XForms.Android.ComboBox.Resource.Id.fitToContents = global::NutritionApp.Droid.Resource.Id.fitToContents;
+			global::Syncfusion.XForms.Android.ComboBox.Resource.Id.@fixed = global::NutritionApp.Droid.Resource.Id.@fixed;
+			global::Syncfusion.XForms.Android.ComboBox.Resource.Id.floating = global::NutritionApp.Droid.Resource.Id.floating;
+			global::Syncfusion.XForms.Android.ComboBox.Resource.Id.flyoutcontent_appbar = global::NutritionApp.Droid.Resource.Id.flyoutcontent_appbar;
+			global::Syncfusion.XForms.Android.ComboBox.Resource.Id.forever = global::NutritionApp.Droid.Resource.Id.forever;
+			global::Syncfusion.XForms.Android.ComboBox.Resource.Id.fragment_container_view_tag = global::NutritionApp.Droid.Resource.Id.fragment_container_view_tag;
+			global::Syncfusion.XForms.Android.ComboBox.Resource.Id.FUNCTION = global::NutritionApp.Droid.Resource.Id.FUNCTION;
+			global::Syncfusion.XForms.Android.ComboBox.Resource.Id.ghost_view = global::NutritionApp.Droid.Resource.Id.ghost_view;
+			global::Syncfusion.XForms.Android.ComboBox.Resource.Id.ghost_view_holder = global::NutritionApp.Droid.Resource.Id.ghost_view_holder;
+			global::Syncfusion.XForms.Android.ComboBox.Resource.Id.gone = global::NutritionApp.Droid.Resource.Id.gone;
+			global::Syncfusion.XForms.Android.ComboBox.Resource.Id.group_divider = global::NutritionApp.Droid.Resource.Id.group_divider;
+			global::Syncfusion.XForms.Android.ComboBox.Resource.Id.hideable = global::NutritionApp.Droid.Resource.Id.hideable;
+			global::Syncfusion.XForms.Android.ComboBox.Resource.Id.home = global::NutritionApp.Droid.Resource.Id.home;
+			global::Syncfusion.XForms.Android.ComboBox.Resource.Id.homeAsUp = global::NutritionApp.Droid.Resource.Id.homeAsUp;
+			global::Syncfusion.XForms.Android.ComboBox.Resource.Id.icon = global::NutritionApp.Droid.Resource.Id.icon;
+			global::Syncfusion.XForms.Android.ComboBox.Resource.Id.icon_group = global::NutritionApp.Droid.Resource.Id.icon_group;
+			global::Syncfusion.XForms.Android.ComboBox.Resource.Id.ifRoom = global::NutritionApp.Droid.Resource.Id.ifRoom;
+			global::Syncfusion.XForms.Android.ComboBox.Resource.Id.image = global::NutritionApp.Droid.Resource.Id.image;
+			global::Syncfusion.XForms.Android.ComboBox.Resource.Id.info = global::NutritionApp.Droid.Resource.Id.info;
+			global::Syncfusion.XForms.Android.ComboBox.Resource.Id.italic = global::NutritionApp.Droid.Resource.Id.italic;
+			global::Syncfusion.XForms.Android.ComboBox.Resource.Id.Itemname = global::NutritionApp.Droid.Resource.Id.Itemname;
+			global::Syncfusion.XForms.Android.ComboBox.Resource.Id.item_touch_helper_previous_elevation = global::NutritionApp.Droid.Resource.Id.item_touch_helper_previous_elevation;
+			global::Syncfusion.XForms.Android.ComboBox.Resource.Id.labeled = global::NutritionApp.Droid.Resource.Id.labeled;
+			global::Syncfusion.XForms.Android.ComboBox.Resource.Id.left = global::NutritionApp.Droid.Resource.Id.left;
+			global::Syncfusion.XForms.Android.ComboBox.Resource.Id.line1 = global::NutritionApp.Droid.Resource.Id.line1;
+			global::Syncfusion.XForms.Android.ComboBox.Resource.Id.line3 = global::NutritionApp.Droid.Resource.Id.line3;
+			global::Syncfusion.XForms.Android.ComboBox.Resource.Id.listMode = global::NutritionApp.Droid.Resource.Id.listMode;
+			global::Syncfusion.XForms.Android.ComboBox.Resource.Id.list_item = global::NutritionApp.Droid.Resource.Id.list_item;
+			global::Syncfusion.XForms.Android.ComboBox.Resource.Id.main_appbar = global::NutritionApp.Droid.Resource.Id.main_appbar;
+			global::Syncfusion.XForms.Android.ComboBox.Resource.Id.main_tablayout = global::NutritionApp.Droid.Resource.Id.main_tablayout;
+			global::Syncfusion.XForms.Android.ComboBox.Resource.Id.main_toolbar = global::NutritionApp.Droid.Resource.Id.main_toolbar;
+			global::Syncfusion.XForms.Android.ComboBox.Resource.Id.main_viewpager = global::NutritionApp.Droid.Resource.Id.main_viewpager;
+			global::Syncfusion.XForms.Android.ComboBox.Resource.Id.masked = global::NutritionApp.Droid.Resource.Id.masked;
+			global::Syncfusion.XForms.Android.ComboBox.Resource.Id.media_actions = global::NutritionApp.Droid.Resource.Id.media_actions;
+			global::Syncfusion.XForms.Android.ComboBox.Resource.Id.media_controller_compat_view_tag = global::NutritionApp.Droid.Resource.Id.media_controller_compat_view_tag;
+			global::Syncfusion.XForms.Android.ComboBox.Resource.Id.message = global::NutritionApp.Droid.Resource.Id.message;
+			global::Syncfusion.XForms.Android.ComboBox.Resource.Id.META = global::NutritionApp.Droid.Resource.Id.META;
+			global::Syncfusion.XForms.Android.ComboBox.Resource.Id.middle = global::NutritionApp.Droid.Resource.Id.middle;
+			global::Syncfusion.XForms.Android.ComboBox.Resource.Id.mini = global::NutritionApp.Droid.Resource.Id.mini;
+			global::Syncfusion.XForms.Android.ComboBox.Resource.Id.month_grid = global::NutritionApp.Droid.Resource.Id.month_grid;
+			global::Syncfusion.XForms.Android.ComboBox.Resource.Id.month_navigation_bar = global::NutritionApp.Droid.Resource.Id.month_navigation_bar;
+			global::Syncfusion.XForms.Android.ComboBox.Resource.Id.month_navigation_fragment_toggle = global::NutritionApp.Droid.Resource.Id.month_navigation_fragment_toggle;
+			global::Syncfusion.XForms.Android.ComboBox.Resource.Id.month_navigation_next = global::NutritionApp.Droid.Resource.Id.month_navigation_next;
+			global::Syncfusion.XForms.Android.ComboBox.Resource.Id.month_navigation_previous = global::NutritionApp.Droid.Resource.Id.month_navigation_previous;
+			global::Syncfusion.XForms.Android.ComboBox.Resource.Id.month_title = global::NutritionApp.Droid.Resource.Id.month_title;
+			global::Syncfusion.XForms.Android.ComboBox.Resource.Id.mtrl_calendar_days_of_week = global::NutritionApp.Droid.Resource.Id.mtrl_calendar_days_of_week;
+			global::Syncfusion.XForms.Android.ComboBox.Resource.Id.mtrl_calendar_day_selector_frame = global::NutritionApp.Droid.Resource.Id.mtrl_calendar_day_selector_frame;
+			global::Syncfusion.XForms.Android.ComboBox.Resource.Id.mtrl_calendar_frame = global::NutritionApp.Droid.Resource.Id.mtrl_calendar_frame;
+			global::Syncfusion.XForms.Android.ComboBox.Resource.Id.mtrl_calendar_main_pane = global::NutritionApp.Droid.Resource.Id.mtrl_calendar_main_pane;
+			global::Syncfusion.XForms.Android.ComboBox.Resource.Id.mtrl_calendar_months = global::NutritionApp.Droid.Resource.Id.mtrl_calendar_months;
+			global::Syncfusion.XForms.Android.ComboBox.Resource.Id.mtrl_calendar_selection_frame = global::NutritionApp.Droid.Resource.Id.mtrl_calendar_selection_frame;
+			global::Syncfusion.XForms.Android.ComboBox.Resource.Id.mtrl_calendar_text_input_frame = global::NutritionApp.Droid.Resource.Id.mtrl_calendar_text_input_frame;
+			global::Syncfusion.XForms.Android.ComboBox.Resource.Id.mtrl_calendar_year_selector_frame = global::NutritionApp.Droid.Resource.Id.mtrl_calendar_year_selector_frame;
+			global::Syncfusion.XForms.Android.ComboBox.Resource.Id.mtrl_card_checked_layer_id = global::NutritionApp.Droid.Resource.Id.mtrl_card_checked_layer_id;
+			global::Syncfusion.XForms.Android.ComboBox.Resource.Id.mtrl_child_content_container = global::NutritionApp.Droid.Resource.Id.mtrl_child_content_container;
+			global::Syncfusion.XForms.Android.ComboBox.Resource.Id.mtrl_internal_children_alpha_tag = global::NutritionApp.Droid.Resource.Id.mtrl_internal_children_alpha_tag;
+			global::Syncfusion.XForms.Android.ComboBox.Resource.Id.mtrl_motion_snapshot_view = global::NutritionApp.Droid.Resource.Id.mtrl_motion_snapshot_view;
+			global::Syncfusion.XForms.Android.ComboBox.Resource.Id.mtrl_picker_fullscreen = global::NutritionApp.Droid.Resource.Id.mtrl_picker_fullscreen;
+			global::Syncfusion.XForms.Android.ComboBox.Resource.Id.mtrl_picker_header = global::NutritionApp.Droid.Resource.Id.mtrl_picker_header;
+			global::Syncfusion.XForms.Android.ComboBox.Resource.Id.mtrl_picker_header_selection_text = global::NutritionApp.Droid.Resource.Id.mtrl_picker_header_selection_text;
+			global::Syncfusion.XForms.Android.ComboBox.Resource.Id.mtrl_picker_header_title_and_selection = global::NutritionApp.Droid.Resource.Id.mtrl_picker_header_title_and_selection;
+			global::Syncfusion.XForms.Android.ComboBox.Resource.Id.mtrl_picker_header_toggle = global::NutritionApp.Droid.Resource.Id.mtrl_picker_header_toggle;
+			global::Syncfusion.XForms.Android.ComboBox.Resource.Id.mtrl_picker_text_input_date = global::NutritionApp.Droid.Resource.Id.mtrl_picker_text_input_date;
+			global::Syncfusion.XForms.Android.ComboBox.Resource.Id.mtrl_picker_text_input_range_end = global::NutritionApp.Droid.Resource.Id.mtrl_picker_text_input_range_end;
+			global::Syncfusion.XForms.Android.ComboBox.Resource.Id.mtrl_picker_text_input_range_start = global::NutritionApp.Droid.Resource.Id.mtrl_picker_text_input_range_start;
+			global::Syncfusion.XForms.Android.ComboBox.Resource.Id.mtrl_picker_title_text = global::NutritionApp.Droid.Resource.Id.mtrl_picker_title_text;
+			global::Syncfusion.XForms.Android.ComboBox.Resource.Id.multiply = global::NutritionApp.Droid.Resource.Id.multiply;
+			global::Syncfusion.XForms.Android.ComboBox.Resource.Id.navigation_header_container = global::NutritionApp.Droid.Resource.Id.navigation_header_container;
+			global::Syncfusion.XForms.Android.ComboBox.Resource.Id.never = global::NutritionApp.Droid.Resource.Id.never;
+			global::Syncfusion.XForms.Android.ComboBox.Resource.Id.none = global::NutritionApp.Droid.Resource.Id.none;
+			global::Syncfusion.XForms.Android.ComboBox.Resource.Id.normal = global::NutritionApp.Droid.Resource.Id.normal;
+			global::Syncfusion.XForms.Android.ComboBox.Resource.Id.noScroll = global::NutritionApp.Droid.Resource.Id.noScroll;
+			global::Syncfusion.XForms.Android.ComboBox.Resource.Id.notification_background = global::NutritionApp.Droid.Resource.Id.notification_background;
+			global::Syncfusion.XForms.Android.ComboBox.Resource.Id.notification_main_column = global::NutritionApp.Droid.Resource.Id.notification_main_column;
+			global::Syncfusion.XForms.Android.ComboBox.Resource.Id.notification_main_column_container = global::NutritionApp.Droid.Resource.Id.notification_main_column_container;
+			global::Syncfusion.XForms.Android.ComboBox.Resource.Id.off = global::NutritionApp.Droid.Resource.Id.off;
+			global::Syncfusion.XForms.Android.ComboBox.Resource.Id.on = global::NutritionApp.Droid.Resource.Id.on;
+			global::Syncfusion.XForms.Android.ComboBox.Resource.Id.outline = global::NutritionApp.Droid.Resource.Id.outline;
+			global::Syncfusion.XForms.Android.ComboBox.Resource.Id.parallax = global::NutritionApp.Droid.Resource.Id.parallax;
+			global::Syncfusion.XForms.Android.ComboBox.Resource.Id.parentPanel = global::NutritionApp.Droid.Resource.Id.parentPanel;
+			global::Syncfusion.XForms.Android.ComboBox.Resource.Id.parent_matrix = global::NutritionApp.Droid.Resource.Id.parent_matrix;
+			global::Syncfusion.XForms.Android.ComboBox.Resource.Id.password_toggle = global::NutritionApp.Droid.Resource.Id.password_toggle;
+			global::Syncfusion.XForms.Android.ComboBox.Resource.Id.peekHeight = global::NutritionApp.Droid.Resource.Id.peekHeight;
+			global::Syncfusion.XForms.Android.ComboBox.Resource.Id.pin = global::NutritionApp.Droid.Resource.Id.pin;
+			global::Syncfusion.XForms.Android.ComboBox.Resource.Id.progress_circular = global::NutritionApp.Droid.Resource.Id.progress_circular;
+			global::Syncfusion.XForms.Android.ComboBox.Resource.Id.progress_horizontal = global::NutritionApp.Droid.Resource.Id.progress_horizontal;
+			global::Syncfusion.XForms.Android.ComboBox.Resource.Id.radio = global::NutritionApp.Droid.Resource.Id.radio;
+			global::Syncfusion.XForms.Android.ComboBox.Resource.Id.right = global::NutritionApp.Droid.Resource.Id.right;
+			global::Syncfusion.XForms.Android.ComboBox.Resource.Id.right_icon = global::NutritionApp.Droid.Resource.Id.right_icon;
+			global::Syncfusion.XForms.Android.ComboBox.Resource.Id.right_side = global::NutritionApp.Droid.Resource.Id.right_side;
+			global::Syncfusion.XForms.Android.ComboBox.Resource.Id.rounded = global::NutritionApp.Droid.Resource.Id.rounded;
+			global::Syncfusion.XForms.Android.ComboBox.Resource.Id.row_index_key = global::NutritionApp.Droid.Resource.Id.row_index_key;
+			global::Syncfusion.XForms.Android.ComboBox.Resource.Id.save_non_transition_alpha = global::NutritionApp.Droid.Resource.Id.save_non_transition_alpha;
+			global::Syncfusion.XForms.Android.ComboBox.Resource.Id.save_overlay_view = global::NutritionApp.Droid.Resource.Id.save_overlay_view;
+			global::Syncfusion.XForms.Android.ComboBox.Resource.Id.scale = global::NutritionApp.Droid.Resource.Id.scale;
+			global::Syncfusion.XForms.Android.ComboBox.Resource.Id.screen = global::NutritionApp.Droid.Resource.Id.screen;
+			global::Syncfusion.XForms.Android.ComboBox.Resource.Id.scroll = global::NutritionApp.Droid.Resource.Id.scroll;
+			global::Syncfusion.XForms.Android.ComboBox.Resource.Id.scrollable = global::NutritionApp.Droid.Resource.Id.scrollable;
+			global::Syncfusion.XForms.Android.ComboBox.Resource.Id.scrollIndicatorDown = global::NutritionApp.Droid.Resource.Id.scrollIndicatorDown;
+			global::Syncfusion.XForms.Android.ComboBox.Resource.Id.scrollIndicatorUp = global::NutritionApp.Droid.Resource.Id.scrollIndicatorUp;
+			global::Syncfusion.XForms.Android.ComboBox.Resource.Id.scrollView = global::NutritionApp.Droid.Resource.Id.scrollView;
+			global::Syncfusion.XForms.Android.ComboBox.Resource.Id.search_badge = global::NutritionApp.Droid.Resource.Id.search_badge;
+			global::Syncfusion.XForms.Android.ComboBox.Resource.Id.search_bar = global::NutritionApp.Droid.Resource.Id.search_bar;
+			global::Syncfusion.XForms.Android.ComboBox.Resource.Id.search_button = global::NutritionApp.Droid.Resource.Id.search_button;
+			global::Syncfusion.XForms.Android.ComboBox.Resource.Id.search_close_btn = global::NutritionApp.Droid.Resource.Id.search_close_btn;
+			global::Syncfusion.XForms.Android.ComboBox.Resource.Id.search_edit_frame = global::NutritionApp.Droid.Resource.Id.search_edit_frame;
+			global::Syncfusion.XForms.Android.ComboBox.Resource.Id.search_go_btn = global::NutritionApp.Droid.Resource.Id.search_go_btn;
+			global::Syncfusion.XForms.Android.ComboBox.Resource.Id.search_mag_icon = global::NutritionApp.Droid.Resource.Id.search_mag_icon;
+			global::Syncfusion.XForms.Android.ComboBox.Resource.Id.search_plate = global::NutritionApp.Droid.Resource.Id.search_plate;
+			global::Syncfusion.XForms.Android.ComboBox.Resource.Id.search_src_text = global::NutritionApp.Droid.Resource.Id.search_src_text;
+			global::Syncfusion.XForms.Android.ComboBox.Resource.Id.search_voice_btn = global::NutritionApp.Droid.Resource.Id.search_voice_btn;
+			global::Syncfusion.XForms.Android.ComboBox.Resource.Id.selected = global::NutritionApp.Droid.Resource.Id.selected;
+			global::Syncfusion.XForms.Android.ComboBox.Resource.Id.select_dialog_listview = global::NutritionApp.Droid.Resource.Id.select_dialog_listview;
+			global::Syncfusion.XForms.Android.ComboBox.Resource.Id.shellcontent_appbar = global::NutritionApp.Droid.Resource.Id.shellcontent_appbar;
+			global::Syncfusion.XForms.Android.ComboBox.Resource.Id.shellcontent_toolbar = global::NutritionApp.Droid.Resource.Id.shellcontent_toolbar;
+			global::Syncfusion.XForms.Android.ComboBox.Resource.Id.SHIFT = global::NutritionApp.Droid.Resource.Id.SHIFT;
+			global::Syncfusion.XForms.Android.ComboBox.Resource.Id.shortcut = global::NutritionApp.Droid.Resource.Id.shortcut;
+			global::Syncfusion.XForms.Android.ComboBox.Resource.Id.showCustom = global::NutritionApp.Droid.Resource.Id.showCustom;
+			global::Syncfusion.XForms.Android.ComboBox.Resource.Id.showHome = global::NutritionApp.Droid.Resource.Id.showHome;
+			global::Syncfusion.XForms.Android.ComboBox.Resource.Id.showTitle = global::NutritionApp.Droid.Resource.Id.showTitle;
+			global::Syncfusion.XForms.Android.ComboBox.Resource.Id.skipCollapsed = global::NutritionApp.Droid.Resource.Id.skipCollapsed;
+			global::Syncfusion.XForms.Android.ComboBox.Resource.Id.slide = global::NutritionApp.Droid.Resource.Id.slide;
+			global::Syncfusion.XForms.Android.ComboBox.Resource.Id.sliding_tabs = global::NutritionApp.Droid.Resource.Id.sliding_tabs;
+			global::Syncfusion.XForms.Android.ComboBox.Resource.Id.snackbar_action = global::NutritionApp.Droid.Resource.Id.snackbar_action;
+			global::Syncfusion.XForms.Android.ComboBox.Resource.Id.snackbar_text = global::NutritionApp.Droid.Resource.Id.snackbar_text;
+			global::Syncfusion.XForms.Android.ComboBox.Resource.Id.snap = global::NutritionApp.Droid.Resource.Id.snap;
+			global::Syncfusion.XForms.Android.ComboBox.Resource.Id.snapMargins = global::NutritionApp.Droid.Resource.Id.snapMargins;
+			global::Syncfusion.XForms.Android.ComboBox.Resource.Id.spacer = global::NutritionApp.Droid.Resource.Id.spacer;
+			global::Syncfusion.XForms.Android.ComboBox.Resource.Id.split_action_bar = global::NutritionApp.Droid.Resource.Id.split_action_bar;
+			global::Syncfusion.XForms.Android.ComboBox.Resource.Id.src_atop = global::NutritionApp.Droid.Resource.Id.src_atop;
+			global::Syncfusion.XForms.Android.ComboBox.Resource.Id.src_in = global::NutritionApp.Droid.Resource.Id.src_in;
+			global::Syncfusion.XForms.Android.ComboBox.Resource.Id.src_over = global::NutritionApp.Droid.Resource.Id.src_over;
+			global::Syncfusion.XForms.Android.ComboBox.Resource.Id.start = global::NutritionApp.Droid.Resource.Id.start;
+			global::Syncfusion.XForms.Android.ComboBox.Resource.Id.status_bar_latest_event_content = global::NutritionApp.Droid.Resource.Id.status_bar_latest_event_content;
+			global::Syncfusion.XForms.Android.ComboBox.Resource.Id.stretch = global::NutritionApp.Droid.Resource.Id.stretch;
+			global::Syncfusion.XForms.Android.ComboBox.Resource.Id.submenuarrow = global::NutritionApp.Droid.Resource.Id.submenuarrow;
+			global::Syncfusion.XForms.Android.ComboBox.Resource.Id.submit_area = global::NutritionApp.Droid.Resource.Id.submit_area;
+			global::Syncfusion.XForms.Android.ComboBox.Resource.Id.SYM = global::NutritionApp.Droid.Resource.Id.SYM;
+			global::Syncfusion.XForms.Android.ComboBox.Resource.Id.tabMode = global::NutritionApp.Droid.Resource.Id.tabMode;
+			global::Syncfusion.XForms.Android.ComboBox.Resource.Id.tag_accessibility_actions = global::NutritionApp.Droid.Resource.Id.tag_accessibility_actions;
+			global::Syncfusion.XForms.Android.ComboBox.Resource.Id.tag_accessibility_clickable_spans = global::NutritionApp.Droid.Resource.Id.tag_accessibility_clickable_spans;
+			global::Syncfusion.XForms.Android.ComboBox.Resource.Id.tag_accessibility_heading = global::NutritionApp.Droid.Resource.Id.tag_accessibility_heading;
+			global::Syncfusion.XForms.Android.ComboBox.Resource.Id.tag_accessibility_pane_title = global::NutritionApp.Droid.Resource.Id.tag_accessibility_pane_title;
+			global::Syncfusion.XForms.Android.ComboBox.Resource.Id.tag_screen_reader_focusable = global::NutritionApp.Droid.Resource.Id.tag_screen_reader_focusable;
+			global::Syncfusion.XForms.Android.ComboBox.Resource.Id.tag_transition_group = global::NutritionApp.Droid.Resource.Id.tag_transition_group;
+			global::Syncfusion.XForms.Android.ComboBox.Resource.Id.tag_unhandled_key_event_manager = global::NutritionApp.Droid.Resource.Id.tag_unhandled_key_event_manager;
+			global::Syncfusion.XForms.Android.ComboBox.Resource.Id.tag_unhandled_key_listeners = global::NutritionApp.Droid.Resource.Id.tag_unhandled_key_listeners;
+			global::Syncfusion.XForms.Android.ComboBox.Resource.Id.test_checkbox_android_button_tint = global::NutritionApp.Droid.Resource.Id.test_checkbox_android_button_tint;
+			global::Syncfusion.XForms.Android.ComboBox.Resource.Id.test_checkbox_app_button_tint = global::NutritionApp.Droid.Resource.Id.test_checkbox_app_button_tint;
+			global::Syncfusion.XForms.Android.ComboBox.Resource.Id.test_radiobutton_android_button_tint = global::NutritionApp.Droid.Resource.Id.test_radiobutton_android_button_tint;
+			global::Syncfusion.XForms.Android.ComboBox.Resource.Id.test_radiobutton_app_button_tint = global::NutritionApp.Droid.Resource.Id.test_radiobutton_app_button_tint;
+			global::Syncfusion.XForms.Android.ComboBox.Resource.Id.text = global::NutritionApp.Droid.Resource.Id.text;
+			global::Syncfusion.XForms.Android.ComboBox.Resource.Id.text2 = global::NutritionApp.Droid.Resource.Id.text2;
+			global::Syncfusion.XForms.Android.ComboBox.Resource.Id.textEnd = global::NutritionApp.Droid.Resource.Id.textEnd;
+			global::Syncfusion.XForms.Android.ComboBox.Resource.Id.textinput_counter = global::NutritionApp.Droid.Resource.Id.textinput_counter;
+			global::Syncfusion.XForms.Android.ComboBox.Resource.Id.textinput_error = global::NutritionApp.Droid.Resource.Id.textinput_error;
+			global::Syncfusion.XForms.Android.ComboBox.Resource.Id.textinput_helper_text = global::NutritionApp.Droid.Resource.Id.textinput_helper_text;
+			global::Syncfusion.XForms.Android.ComboBox.Resource.Id.textinput_placeholder = global::NutritionApp.Droid.Resource.Id.textinput_placeholder;
+			global::Syncfusion.XForms.Android.ComboBox.Resource.Id.textinput_prefix_text = global::NutritionApp.Droid.Resource.Id.textinput_prefix_text;
+			global::Syncfusion.XForms.Android.ComboBox.Resource.Id.textinput_suffix_text = global::NutritionApp.Droid.Resource.Id.textinput_suffix_text;
+			global::Syncfusion.XForms.Android.ComboBox.Resource.Id.textSpacerNoButtons = global::NutritionApp.Droid.Resource.Id.textSpacerNoButtons;
+			global::Syncfusion.XForms.Android.ComboBox.Resource.Id.textSpacerNoTitle = global::NutritionApp.Droid.Resource.Id.textSpacerNoTitle;
+			global::Syncfusion.XForms.Android.ComboBox.Resource.Id.textStart = global::NutritionApp.Droid.Resource.Id.textStart;
+			global::Syncfusion.XForms.Android.ComboBox.Resource.Id.text_input_end_icon = global::NutritionApp.Droid.Resource.Id.text_input_end_icon;
+			global::Syncfusion.XForms.Android.ComboBox.Resource.Id.text_input_start_icon = global::NutritionApp.Droid.Resource.Id.text_input_start_icon;
+			global::Syncfusion.XForms.Android.ComboBox.Resource.Id.time = global::NutritionApp.Droid.Resource.Id.time;
+			global::Syncfusion.XForms.Android.ComboBox.Resource.Id.title = global::NutritionApp.Droid.Resource.Id.title;
+			global::Syncfusion.XForms.Android.ComboBox.Resource.Id.titleDividerNoCustom = global::NutritionApp.Droid.Resource.Id.titleDividerNoCustom;
+			global::Syncfusion.XForms.Android.ComboBox.Resource.Id.title_template = global::NutritionApp.Droid.Resource.Id.title_template;
+			global::Syncfusion.XForms.Android.ComboBox.Resource.Id.toolbar = global::NutritionApp.Droid.Resource.Id.toolbar;
+			global::Syncfusion.XForms.Android.ComboBox.Resource.Id.top = global::NutritionApp.Droid.Resource.Id.top;
+			global::Syncfusion.XForms.Android.ComboBox.Resource.Id.topPanel = global::NutritionApp.Droid.Resource.Id.topPanel;
+			global::Syncfusion.XForms.Android.ComboBox.Resource.Id.TOP_END = global::NutritionApp.Droid.Resource.Id.TOP_END;
+			global::Syncfusion.XForms.Android.ComboBox.Resource.Id.TOP_START = global::NutritionApp.Droid.Resource.Id.TOP_START;
+			global::Syncfusion.XForms.Android.ComboBox.Resource.Id.touch_outside = global::NutritionApp.Droid.Resource.Id.touch_outside;
+			global::Syncfusion.XForms.Android.ComboBox.Resource.Id.transition_current_scene = global::NutritionApp.Droid.Resource.Id.transition_current_scene;
+			global::Syncfusion.XForms.Android.ComboBox.Resource.Id.transition_layout_save = global::NutritionApp.Droid.Resource.Id.transition_layout_save;
+			global::Syncfusion.XForms.Android.ComboBox.Resource.Id.transition_position = global::NutritionApp.Droid.Resource.Id.transition_position;
+			global::Syncfusion.XForms.Android.ComboBox.Resource.Id.transition_scene_layoutid_cache = global::NutritionApp.Droid.Resource.Id.transition_scene_layoutid_cache;
+			global::Syncfusion.XForms.Android.ComboBox.Resource.Id.transition_transform = global::NutritionApp.Droid.Resource.Id.transition_transform;
+			global::Syncfusion.XForms.Android.ComboBox.Resource.Id.@unchecked = global::NutritionApp.Droid.Resource.Id.@unchecked;
+			global::Syncfusion.XForms.Android.ComboBox.Resource.Id.uniform = global::NutritionApp.Droid.Resource.Id.uniform;
+			global::Syncfusion.XForms.Android.ComboBox.Resource.Id.unlabeled = global::NutritionApp.Droid.Resource.Id.unlabeled;
+			global::Syncfusion.XForms.Android.ComboBox.Resource.Id.up = global::NutritionApp.Droid.Resource.Id.up;
+			global::Syncfusion.XForms.Android.ComboBox.Resource.Id.useLogo = global::NutritionApp.Droid.Resource.Id.useLogo;
+			global::Syncfusion.XForms.Android.ComboBox.Resource.Id.view_offset_helper = global::NutritionApp.Droid.Resource.Id.view_offset_helper;
+			global::Syncfusion.XForms.Android.ComboBox.Resource.Id.view_tree_lifecycle_owner = global::NutritionApp.Droid.Resource.Id.view_tree_lifecycle_owner;
+			global::Syncfusion.XForms.Android.ComboBox.Resource.Id.view_tree_saved_state_registry_owner = global::NutritionApp.Droid.Resource.Id.view_tree_saved_state_registry_owner;
+			global::Syncfusion.XForms.Android.ComboBox.Resource.Id.visible = global::NutritionApp.Droid.Resource.Id.visible;
+			global::Syncfusion.XForms.Android.ComboBox.Resource.Id.visible_removing_fragment_view_tag = global::NutritionApp.Droid.Resource.Id.visible_removing_fragment_view_tag;
+			global::Syncfusion.XForms.Android.ComboBox.Resource.Id.withinBounds = global::NutritionApp.Droid.Resource.Id.withinBounds;
+			global::Syncfusion.XForms.Android.ComboBox.Resource.Id.withText = global::NutritionApp.Droid.Resource.Id.withText;
+			global::Syncfusion.XForms.Android.ComboBox.Resource.Id.wrap_content = global::NutritionApp.Droid.Resource.Id.wrap_content;
+			global::Syncfusion.XForms.Android.ComboBox.Resource.Id.zero_corner_chip = global::NutritionApp.Droid.Resource.Id.zero_corner_chip;
+			global::Syncfusion.XForms.Android.ComboBox.Resource.Integer.abc_config_activityDefaultDur = global::NutritionApp.Droid.Resource.Integer.abc_config_activityDefaultDur;
+			global::Syncfusion.XForms.Android.ComboBox.Resource.Integer.abc_config_activityShortDur = global::NutritionApp.Droid.Resource.Integer.abc_config_activityShortDur;
+			global::Syncfusion.XForms.Android.ComboBox.Resource.Integer.app_bar_elevation_anim_duration = global::NutritionApp.Droid.Resource.Integer.app_bar_elevation_anim_duration;
+			global::Syncfusion.XForms.Android.ComboBox.Resource.Integer.bottom_sheet_slide_duration = global::NutritionApp.Droid.Resource.Integer.bottom_sheet_slide_duration;
+			global::Syncfusion.XForms.Android.ComboBox.Resource.Integer.cancel_button_image_alpha = global::NutritionApp.Droid.Resource.Integer.cancel_button_image_alpha;
+			global::Syncfusion.XForms.Android.ComboBox.Resource.Integer.config_tooltipAnimTime = global::NutritionApp.Droid.Resource.Integer.config_tooltipAnimTime;
+			global::Syncfusion.XForms.Android.ComboBox.Resource.Integer.design_snackbar_text_max_lines = global::NutritionApp.Droid.Resource.Integer.design_snackbar_text_max_lines;
+			global::Syncfusion.XForms.Android.ComboBox.Resource.Integer.design_tab_indicator_anim_duration_ms = global::NutritionApp.Droid.Resource.Integer.design_tab_indicator_anim_duration_ms;
+			global::Syncfusion.XForms.Android.ComboBox.Resource.Integer.hide_password_duration = global::NutritionApp.Droid.Resource.Integer.hide_password_duration;
+			global::Syncfusion.XForms.Android.ComboBox.Resource.Integer.mtrl_badge_max_character_count = global::NutritionApp.Droid.Resource.Integer.mtrl_badge_max_character_count;
+			global::Syncfusion.XForms.Android.ComboBox.Resource.Integer.mtrl_btn_anim_delay_ms = global::NutritionApp.Droid.Resource.Integer.mtrl_btn_anim_delay_ms;
+			global::Syncfusion.XForms.Android.ComboBox.Resource.Integer.mtrl_btn_anim_duration_ms = global::NutritionApp.Droid.Resource.Integer.mtrl_btn_anim_duration_ms;
+			global::Syncfusion.XForms.Android.ComboBox.Resource.Integer.mtrl_calendar_header_orientation = global::NutritionApp.Droid.Resource.Integer.mtrl_calendar_header_orientation;
+			global::Syncfusion.XForms.Android.ComboBox.Resource.Integer.mtrl_calendar_selection_text_lines = global::NutritionApp.Droid.Resource.Integer.mtrl_calendar_selection_text_lines;
+			global::Syncfusion.XForms.Android.ComboBox.Resource.Integer.mtrl_calendar_year_selector_span = global::NutritionApp.Droid.Resource.Integer.mtrl_calendar_year_selector_span;
+			global::Syncfusion.XForms.Android.ComboBox.Resource.Integer.mtrl_card_anim_delay_ms = global::NutritionApp.Droid.Resource.Integer.mtrl_card_anim_delay_ms;
+			global::Syncfusion.XForms.Android.ComboBox.Resource.Integer.mtrl_card_anim_duration_ms = global::NutritionApp.Droid.Resource.Integer.mtrl_card_anim_duration_ms;
+			global::Syncfusion.XForms.Android.ComboBox.Resource.Integer.mtrl_chip_anim_duration = global::NutritionApp.Droid.Resource.Integer.mtrl_chip_anim_duration;
+			global::Syncfusion.XForms.Android.ComboBox.Resource.Integer.mtrl_tab_indicator_anim_duration_ms = global::NutritionApp.Droid.Resource.Integer.mtrl_tab_indicator_anim_duration_ms;
+			global::Syncfusion.XForms.Android.ComboBox.Resource.Integer.show_password_duration = global::NutritionApp.Droid.Resource.Integer.show_password_duration;
+			global::Syncfusion.XForms.Android.ComboBox.Resource.Integer.status_bar_notification_info_maxnum = global::NutritionApp.Droid.Resource.Integer.status_bar_notification_info_maxnum;
+			global::Syncfusion.XForms.Android.ComboBox.Resource.Interpolator.btn_checkbox_checked_mtrl_animation_interpolator_0 = global::NutritionApp.Droid.Resource.Interpolator.btn_checkbox_checked_mtrl_animation_interpolator_0;
+			global::Syncfusion.XForms.Android.ComboBox.Resource.Interpolator.btn_checkbox_checked_mtrl_animation_interpolator_1 = global::NutritionApp.Droid.Resource.Interpolator.btn_checkbox_checked_mtrl_animation_interpolator_1;
+			global::Syncfusion.XForms.Android.ComboBox.Resource.Interpolator.btn_checkbox_unchecked_mtrl_animation_interpolator_0 = global::NutritionApp.Droid.Resource.Interpolator.btn_checkbox_unchecked_mtrl_animation_interpolator_0;
+			global::Syncfusion.XForms.Android.ComboBox.Resource.Interpolator.btn_checkbox_unchecked_mtrl_animation_interpolator_1 = global::NutritionApp.Droid.Resource.Interpolator.btn_checkbox_unchecked_mtrl_animation_interpolator_1;
+			global::Syncfusion.XForms.Android.ComboBox.Resource.Interpolator.btn_radio_to_off_mtrl_animation_interpolator_0 = global::NutritionApp.Droid.Resource.Interpolator.btn_radio_to_off_mtrl_animation_interpolator_0;
+			global::Syncfusion.XForms.Android.ComboBox.Resource.Interpolator.btn_radio_to_on_mtrl_animation_interpolator_0 = global::NutritionApp.Droid.Resource.Interpolator.btn_radio_to_on_mtrl_animation_interpolator_0;
+			global::Syncfusion.XForms.Android.ComboBox.Resource.Interpolator.fast_out_slow_in = global::NutritionApp.Droid.Resource.Interpolator.fast_out_slow_in;
+			global::Syncfusion.XForms.Android.ComboBox.Resource.Interpolator.mtrl_fast_out_linear_in = global::NutritionApp.Droid.Resource.Interpolator.mtrl_fast_out_linear_in;
+			global::Syncfusion.XForms.Android.ComboBox.Resource.Interpolator.mtrl_fast_out_slow_in = global::NutritionApp.Droid.Resource.Interpolator.mtrl_fast_out_slow_in;
+			global::Syncfusion.XForms.Android.ComboBox.Resource.Interpolator.mtrl_linear = global::NutritionApp.Droid.Resource.Interpolator.mtrl_linear;
+			global::Syncfusion.XForms.Android.ComboBox.Resource.Interpolator.mtrl_linear_out_slow_in = global::NutritionApp.Droid.Resource.Interpolator.mtrl_linear_out_slow_in;
+			global::Syncfusion.XForms.Android.ComboBox.Resource.Layout.abc_action_bar_title_item = global::NutritionApp.Droid.Resource.Layout.abc_action_bar_title_item;
+			global::Syncfusion.XForms.Android.ComboBox.Resource.Layout.abc_action_bar_up_container = global::NutritionApp.Droid.Resource.Layout.abc_action_bar_up_container;
+			global::Syncfusion.XForms.Android.ComboBox.Resource.Layout.abc_action_menu_item_layout = global::NutritionApp.Droid.Resource.Layout.abc_action_menu_item_layout;
+			global::Syncfusion.XForms.Android.ComboBox.Resource.Layout.abc_action_menu_layout = global::NutritionApp.Droid.Resource.Layout.abc_action_menu_layout;
+			global::Syncfusion.XForms.Android.ComboBox.Resource.Layout.abc_action_mode_bar = global::NutritionApp.Droid.Resource.Layout.abc_action_mode_bar;
+			global::Syncfusion.XForms.Android.ComboBox.Resource.Layout.abc_action_mode_close_item_material = global::NutritionApp.Droid.Resource.Layout.abc_action_mode_close_item_material;
+			global::Syncfusion.XForms.Android.ComboBox.Resource.Layout.abc_activity_chooser_view = global::NutritionApp.Droid.Resource.Layout.abc_activity_chooser_view;
+			global::Syncfusion.XForms.Android.ComboBox.Resource.Layout.abc_activity_chooser_view_list_item = global::NutritionApp.Droid.Resource.Layout.abc_activity_chooser_view_list_item;
+			global::Syncfusion.XForms.Android.ComboBox.Resource.Layout.abc_alert_dialog_button_bar_material = global::NutritionApp.Droid.Resource.Layout.abc_alert_dialog_button_bar_material;
+			global::Syncfusion.XForms.Android.ComboBox.Resource.Layout.abc_alert_dialog_material = global::NutritionApp.Droid.Resource.Layout.abc_alert_dialog_material;
+			global::Syncfusion.XForms.Android.ComboBox.Resource.Layout.abc_alert_dialog_title_material = global::NutritionApp.Droid.Resource.Layout.abc_alert_dialog_title_material;
+			global::Syncfusion.XForms.Android.ComboBox.Resource.Layout.abc_cascading_menu_item_layout = global::NutritionApp.Droid.Resource.Layout.abc_cascading_menu_item_layout;
+			global::Syncfusion.XForms.Android.ComboBox.Resource.Layout.abc_dialog_title_material = global::NutritionApp.Droid.Resource.Layout.abc_dialog_title_material;
+			global::Syncfusion.XForms.Android.ComboBox.Resource.Layout.abc_expanded_menu_layout = global::NutritionApp.Droid.Resource.Layout.abc_expanded_menu_layout;
+			global::Syncfusion.XForms.Android.ComboBox.Resource.Layout.abc_list_menu_item_checkbox = global::NutritionApp.Droid.Resource.Layout.abc_list_menu_item_checkbox;
+			global::Syncfusion.XForms.Android.ComboBox.Resource.Layout.abc_list_menu_item_icon = global::NutritionApp.Droid.Resource.Layout.abc_list_menu_item_icon;
+			global::Syncfusion.XForms.Android.ComboBox.Resource.Layout.abc_list_menu_item_layout = global::NutritionApp.Droid.Resource.Layout.abc_list_menu_item_layout;
+			global::Syncfusion.XForms.Android.ComboBox.Resource.Layout.abc_list_menu_item_radio = global::NutritionApp.Droid.Resource.Layout.abc_list_menu_item_radio;
+			global::Syncfusion.XForms.Android.ComboBox.Resource.Layout.abc_popup_menu_header_item_layout = global::NutritionApp.Droid.Resource.Layout.abc_popup_menu_header_item_layout;
+			global::Syncfusion.XForms.Android.ComboBox.Resource.Layout.abc_popup_menu_item_layout = global::NutritionApp.Droid.Resource.Layout.abc_popup_menu_item_layout;
+			global::Syncfusion.XForms.Android.ComboBox.Resource.Layout.abc_screen_content_include = global::NutritionApp.Droid.Resource.Layout.abc_screen_content_include;
+			global::Syncfusion.XForms.Android.ComboBox.Resource.Layout.abc_screen_simple = global::NutritionApp.Droid.Resource.Layout.abc_screen_simple;
+			global::Syncfusion.XForms.Android.ComboBox.Resource.Layout.abc_screen_simple_overlay_action_mode = global::NutritionApp.Droid.Resource.Layout.abc_screen_simple_overlay_action_mode;
+			global::Syncfusion.XForms.Android.ComboBox.Resource.Layout.abc_screen_toolbar = global::NutritionApp.Droid.Resource.Layout.abc_screen_toolbar;
+			global::Syncfusion.XForms.Android.ComboBox.Resource.Layout.abc_search_dropdown_item_icons_2line = global::NutritionApp.Droid.Resource.Layout.abc_search_dropdown_item_icons_2line;
+			global::Syncfusion.XForms.Android.ComboBox.Resource.Layout.abc_search_view = global::NutritionApp.Droid.Resource.Layout.abc_search_view;
+			global::Syncfusion.XForms.Android.ComboBox.Resource.Layout.abc_select_dialog_material = global::NutritionApp.Droid.Resource.Layout.abc_select_dialog_material;
+			global::Syncfusion.XForms.Android.ComboBox.Resource.Layout.abc_tooltip = global::NutritionApp.Droid.Resource.Layout.abc_tooltip;
+			global::Syncfusion.XForms.Android.ComboBox.Resource.Layout.BottomTabLayout = global::NutritionApp.Droid.Resource.Layout.BottomTabLayout;
+			global::Syncfusion.XForms.Android.ComboBox.Resource.Layout.browser_actions_context_menu_page = global::NutritionApp.Droid.Resource.Layout.browser_actions_context_menu_page;
+			global::Syncfusion.XForms.Android.ComboBox.Resource.Layout.browser_actions_context_menu_row = global::NutritionApp.Droid.Resource.Layout.browser_actions_context_menu_row;
+			global::Syncfusion.XForms.Android.ComboBox.Resource.Layout.CustomizedImageView = global::NutritionApp.Droid.Resource.Layout.CustomizedImageView;
+			global::Syncfusion.XForms.Android.ComboBox.Resource.Layout.CustomizedView = global::NutritionApp.Droid.Resource.Layout.CustomizedView;
+			global::Syncfusion.XForms.Android.ComboBox.Resource.Layout.custom_dialog = global::NutritionApp.Droid.Resource.Layout.custom_dialog;
+			global::Syncfusion.XForms.Android.ComboBox.Resource.Layout.design_bottom_navigation_item = global::NutritionApp.Droid.Resource.Layout.design_bottom_navigation_item;
+			global::Syncfusion.XForms.Android.ComboBox.Resource.Layout.design_bottom_sheet_dialog = global::NutritionApp.Droid.Resource.Layout.design_bottom_sheet_dialog;
+			global::Syncfusion.XForms.Android.ComboBox.Resource.Layout.design_layout_snackbar = global::NutritionApp.Droid.Resource.Layout.design_layout_snackbar;
+			global::Syncfusion.XForms.Android.ComboBox.Resource.Layout.design_layout_snackbar_include = global::NutritionApp.Droid.Resource.Layout.design_layout_snackbar_include;
+			global::Syncfusion.XForms.Android.ComboBox.Resource.Layout.design_layout_tab_icon = global::NutritionApp.Droid.Resource.Layout.design_layout_tab_icon;
+			global::Syncfusion.XForms.Android.ComboBox.Resource.Layout.design_layout_tab_text = global::NutritionApp.Droid.Resource.Layout.design_layout_tab_text;
+			global::Syncfusion.XForms.Android.ComboBox.Resource.Layout.design_menu_item_action_area = global::NutritionApp.Droid.Resource.Layout.design_menu_item_action_area;
+			global::Syncfusion.XForms.Android.ComboBox.Resource.Layout.design_navigation_item = global::NutritionApp.Droid.Resource.Layout.design_navigation_item;
+			global::Syncfusion.XForms.Android.ComboBox.Resource.Layout.design_navigation_item_header = global::NutritionApp.Droid.Resource.Layout.design_navigation_item_header;
+			global::Syncfusion.XForms.Android.ComboBox.Resource.Layout.design_navigation_item_separator = global::NutritionApp.Droid.Resource.Layout.design_navigation_item_separator;
+			global::Syncfusion.XForms.Android.ComboBox.Resource.Layout.design_navigation_item_subheader = global::NutritionApp.Droid.Resource.Layout.design_navigation_item_subheader;
+			global::Syncfusion.XForms.Android.ComboBox.Resource.Layout.design_navigation_menu = global::NutritionApp.Droid.Resource.Layout.design_navigation_menu;
+			global::Syncfusion.XForms.Android.ComboBox.Resource.Layout.design_navigation_menu_item = global::NutritionApp.Droid.Resource.Layout.design_navigation_menu_item;
+			global::Syncfusion.XForms.Android.ComboBox.Resource.Layout.design_text_input_end_icon = global::NutritionApp.Droid.Resource.Layout.design_text_input_end_icon;
+			global::Syncfusion.XForms.Android.ComboBox.Resource.Layout.design_text_input_start_icon = global::NutritionApp.Droid.Resource.Layout.design_text_input_start_icon;
+			global::Syncfusion.XForms.Android.ComboBox.Resource.Layout.FallbackTabbarDoNotUse = global::NutritionApp.Droid.Resource.Layout.FallbackTabbarDoNotUse;
+			global::Syncfusion.XForms.Android.ComboBox.Resource.Layout.FallbackToolbarDoNotUse = global::NutritionApp.Droid.Resource.Layout.FallbackToolbarDoNotUse;
+			global::Syncfusion.XForms.Android.ComboBox.Resource.Layout.FlyoutContent = global::NutritionApp.Droid.Resource.Layout.FlyoutContent;
+			global::Syncfusion.XForms.Android.ComboBox.Resource.Layout.mtrl_alert_dialog = global::NutritionApp.Droid.Resource.Layout.mtrl_alert_dialog;
+			global::Syncfusion.XForms.Android.ComboBox.Resource.Layout.mtrl_alert_dialog_actions = global::NutritionApp.Droid.Resource.Layout.mtrl_alert_dialog_actions;
+			global::Syncfusion.XForms.Android.ComboBox.Resource.Layout.mtrl_alert_dialog_title = global::NutritionApp.Droid.Resource.Layout.mtrl_alert_dialog_title;
+			global::Syncfusion.XForms.Android.ComboBox.Resource.Layout.mtrl_alert_select_dialog_item = global::NutritionApp.Droid.Resource.Layout.mtrl_alert_select_dialog_item;
+			global::Syncfusion.XForms.Android.ComboBox.Resource.Layout.mtrl_alert_select_dialog_multichoice = global::NutritionApp.Droid.Resource.Layout.mtrl_alert_select_dialog_multichoice;
+			global::Syncfusion.XForms.Android.ComboBox.Resource.Layout.mtrl_alert_select_dialog_singlechoice = global::NutritionApp.Droid.Resource.Layout.mtrl_alert_select_dialog_singlechoice;
+			global::Syncfusion.XForms.Android.ComboBox.Resource.Layout.mtrl_calendar_day = global::NutritionApp.Droid.Resource.Layout.mtrl_calendar_day;
+			global::Syncfusion.XForms.Android.ComboBox.Resource.Layout.mtrl_calendar_days_of_week = global::NutritionApp.Droid.Resource.Layout.mtrl_calendar_days_of_week;
+			global::Syncfusion.XForms.Android.ComboBox.Resource.Layout.mtrl_calendar_day_of_week = global::NutritionApp.Droid.Resource.Layout.mtrl_calendar_day_of_week;
+			global::Syncfusion.XForms.Android.ComboBox.Resource.Layout.mtrl_calendar_horizontal = global::NutritionApp.Droid.Resource.Layout.mtrl_calendar_horizontal;
+			global::Syncfusion.XForms.Android.ComboBox.Resource.Layout.mtrl_calendar_month = global::NutritionApp.Droid.Resource.Layout.mtrl_calendar_month;
+			global::Syncfusion.XForms.Android.ComboBox.Resource.Layout.mtrl_calendar_months = global::NutritionApp.Droid.Resource.Layout.mtrl_calendar_months;
+			global::Syncfusion.XForms.Android.ComboBox.Resource.Layout.mtrl_calendar_month_labeled = global::NutritionApp.Droid.Resource.Layout.mtrl_calendar_month_labeled;
+			global::Syncfusion.XForms.Android.ComboBox.Resource.Layout.mtrl_calendar_month_navigation = global::NutritionApp.Droid.Resource.Layout.mtrl_calendar_month_navigation;
+			global::Syncfusion.XForms.Android.ComboBox.Resource.Layout.mtrl_calendar_vertical = global::NutritionApp.Droid.Resource.Layout.mtrl_calendar_vertical;
+			global::Syncfusion.XForms.Android.ComboBox.Resource.Layout.mtrl_calendar_year = global::NutritionApp.Droid.Resource.Layout.mtrl_calendar_year;
+			global::Syncfusion.XForms.Android.ComboBox.Resource.Layout.mtrl_layout_snackbar = global::NutritionApp.Droid.Resource.Layout.mtrl_layout_snackbar;
+			global::Syncfusion.XForms.Android.ComboBox.Resource.Layout.mtrl_layout_snackbar_include = global::NutritionApp.Droid.Resource.Layout.mtrl_layout_snackbar_include;
+			global::Syncfusion.XForms.Android.ComboBox.Resource.Layout.mtrl_picker_actions = global::NutritionApp.Droid.Resource.Layout.mtrl_picker_actions;
+			global::Syncfusion.XForms.Android.ComboBox.Resource.Layout.mtrl_picker_dialog = global::NutritionApp.Droid.Resource.Layout.mtrl_picker_dialog;
+			global::Syncfusion.XForms.Android.ComboBox.Resource.Layout.mtrl_picker_fullscreen = global::NutritionApp.Droid.Resource.Layout.mtrl_picker_fullscreen;
+			global::Syncfusion.XForms.Android.ComboBox.Resource.Layout.mtrl_picker_header_dialog = global::NutritionApp.Droid.Resource.Layout.mtrl_picker_header_dialog;
+			global::Syncfusion.XForms.Android.ComboBox.Resource.Layout.mtrl_picker_header_fullscreen = global::NutritionApp.Droid.Resource.Layout.mtrl_picker_header_fullscreen;
+			global::Syncfusion.XForms.Android.ComboBox.Resource.Layout.mtrl_picker_header_selection_text = global::NutritionApp.Droid.Resource.Layout.mtrl_picker_header_selection_text;
+			global::Syncfusion.XForms.Android.ComboBox.Resource.Layout.mtrl_picker_header_title_text = global::NutritionApp.Droid.Resource.Layout.mtrl_picker_header_title_text;
+			global::Syncfusion.XForms.Android.ComboBox.Resource.Layout.mtrl_picker_header_toggle = global::NutritionApp.Droid.Resource.Layout.mtrl_picker_header_toggle;
+			global::Syncfusion.XForms.Android.ComboBox.Resource.Layout.mtrl_picker_text_input_date = global::NutritionApp.Droid.Resource.Layout.mtrl_picker_text_input_date;
+			global::Syncfusion.XForms.Android.ComboBox.Resource.Layout.mtrl_picker_text_input_date_range = global::NutritionApp.Droid.Resource.Layout.mtrl_picker_text_input_date_range;
+			global::Syncfusion.XForms.Android.ComboBox.Resource.Layout.notification_action = global::NutritionApp.Droid.Resource.Layout.notification_action;
+			global::Syncfusion.XForms.Android.ComboBox.Resource.Layout.notification_action_tombstone = global::NutritionApp.Droid.Resource.Layout.notification_action_tombstone;
+			global::Syncfusion.XForms.Android.ComboBox.Resource.Layout.notification_media_action = global::NutritionApp.Droid.Resource.Layout.notification_media_action;
+			global::Syncfusion.XForms.Android.ComboBox.Resource.Layout.notification_media_cancel_action = global::NutritionApp.Droid.Resource.Layout.notification_media_cancel_action;
+			global::Syncfusion.XForms.Android.ComboBox.Resource.Layout.notification_template_big_media = global::NutritionApp.Droid.Resource.Layout.notification_template_big_media;
+			global::Syncfusion.XForms.Android.ComboBox.Resource.Layout.notification_template_big_media_custom = global::NutritionApp.Droid.Resource.Layout.notification_template_big_media_custom;
+			global::Syncfusion.XForms.Android.ComboBox.Resource.Layout.notification_template_big_media_narrow = global::NutritionApp.Droid.Resource.Layout.notification_template_big_media_narrow;
+			global::Syncfusion.XForms.Android.ComboBox.Resource.Layout.notification_template_big_media_narrow_custom = global::NutritionApp.Droid.Resource.Layout.notification_template_big_media_narrow_custom;
+			global::Syncfusion.XForms.Android.ComboBox.Resource.Layout.notification_template_custom_big = global::NutritionApp.Droid.Resource.Layout.notification_template_custom_big;
+			global::Syncfusion.XForms.Android.ComboBox.Resource.Layout.notification_template_icon_group = global::NutritionApp.Droid.Resource.Layout.notification_template_icon_group;
+			global::Syncfusion.XForms.Android.ComboBox.Resource.Layout.notification_template_lines_media = global::NutritionApp.Droid.Resource.Layout.notification_template_lines_media;
+			global::Syncfusion.XForms.Android.ComboBox.Resource.Layout.notification_template_media = global::NutritionApp.Droid.Resource.Layout.notification_template_media;
+			global::Syncfusion.XForms.Android.ComboBox.Resource.Layout.notification_template_media_custom = global::NutritionApp.Droid.Resource.Layout.notification_template_media_custom;
+			global::Syncfusion.XForms.Android.ComboBox.Resource.Layout.notification_template_part_chronometer = global::NutritionApp.Droid.Resource.Layout.notification_template_part_chronometer;
+			global::Syncfusion.XForms.Android.ComboBox.Resource.Layout.notification_template_part_time = global::NutritionApp.Droid.Resource.Layout.notification_template_part_time;
+			global::Syncfusion.XForms.Android.ComboBox.Resource.Layout.RootLayout = global::NutritionApp.Droid.Resource.Layout.RootLayout;
+			global::Syncfusion.XForms.Android.ComboBox.Resource.Layout.select_dialog_item_material = global::NutritionApp.Droid.Resource.Layout.select_dialog_item_material;
+			global::Syncfusion.XForms.Android.ComboBox.Resource.Layout.select_dialog_multichoice_material = global::NutritionApp.Droid.Resource.Layout.select_dialog_multichoice_material;
+			global::Syncfusion.XForms.Android.ComboBox.Resource.Layout.select_dialog_singlechoice_material = global::NutritionApp.Droid.Resource.Layout.select_dialog_singlechoice_material;
+			global::Syncfusion.XForms.Android.ComboBox.Resource.Layout.sfcomboBox_layout = global::NutritionApp.Droid.Resource.Layout.sfcomboBox_layout;
+			global::Syncfusion.XForms.Android.ComboBox.Resource.Layout.ShellContent = global::NutritionApp.Droid.Resource.Layout.ShellContent;
+			global::Syncfusion.XForms.Android.ComboBox.Resource.Layout.support_simple_spinner_dropdown_item = global::NutritionApp.Droid.Resource.Layout.support_simple_spinner_dropdown_item;
+			global::Syncfusion.XForms.Android.ComboBox.Resource.Layout.Tabbar = global::NutritionApp.Droid.Resource.Layout.Tabbar;
+			global::Syncfusion.XForms.Android.ComboBox.Resource.Layout.test_action_chip = global::NutritionApp.Droid.Resource.Layout.test_action_chip;
+			global::Syncfusion.XForms.Android.ComboBox.Resource.Layout.test_chip_zero_corner_radius = global::NutritionApp.Droid.Resource.Layout.test_chip_zero_corner_radius;
+			global::Syncfusion.XForms.Android.ComboBox.Resource.Layout.test_design_checkbox = global::NutritionApp.Droid.Resource.Layout.test_design_checkbox;
+			global::Syncfusion.XForms.Android.ComboBox.Resource.Layout.test_design_radiobutton = global::NutritionApp.Droid.Resource.Layout.test_design_radiobutton;
+			global::Syncfusion.XForms.Android.ComboBox.Resource.Layout.test_reflow_chipgroup = global::NutritionApp.Droid.Resource.Layout.test_reflow_chipgroup;
+			global::Syncfusion.XForms.Android.ComboBox.Resource.Layout.test_toolbar = global::NutritionApp.Droid.Resource.Layout.test_toolbar;
+			global::Syncfusion.XForms.Android.ComboBox.Resource.Layout.test_toolbar_custom_background = global::NutritionApp.Droid.Resource.Layout.test_toolbar_custom_background;
+			global::Syncfusion.XForms.Android.ComboBox.Resource.Layout.test_toolbar_elevation = global::NutritionApp.Droid.Resource.Layout.test_toolbar_elevation;
+			global::Syncfusion.XForms.Android.ComboBox.Resource.Layout.test_toolbar_surface = global::NutritionApp.Droid.Resource.Layout.test_toolbar_surface;
+			global::Syncfusion.XForms.Android.ComboBox.Resource.Layout.text_view_without_line_height = global::NutritionApp.Droid.Resource.Layout.text_view_without_line_height;
+			global::Syncfusion.XForms.Android.ComboBox.Resource.Layout.text_view_with_line_height_from_appearance = global::NutritionApp.Droid.Resource.Layout.text_view_with_line_height_from_appearance;
+			global::Syncfusion.XForms.Android.ComboBox.Resource.Layout.text_view_with_line_height_from_layout = global::NutritionApp.Droid.Resource.Layout.text_view_with_line_height_from_layout;
+			global::Syncfusion.XForms.Android.ComboBox.Resource.Layout.text_view_with_line_height_from_style = global::NutritionApp.Droid.Resource.Layout.text_view_with_line_height_from_style;
+			global::Syncfusion.XForms.Android.ComboBox.Resource.Layout.text_view_with_theme_line_height = global::NutritionApp.Droid.Resource.Layout.text_view_with_theme_line_height;
+			global::Syncfusion.XForms.Android.ComboBox.Resource.Layout.Toolbar = global::NutritionApp.Droid.Resource.Layout.Toolbar;
+			global::Syncfusion.XForms.Android.ComboBox.Resource.Plurals.mtrl_badge_content_description = global::NutritionApp.Droid.Resource.Plurals.mtrl_badge_content_description;
+			global::Syncfusion.XForms.Android.ComboBox.Resource.String.abc_action_bar_home_description = global::NutritionApp.Droid.Resource.String.abc_action_bar_home_description;
+			global::Syncfusion.XForms.Android.ComboBox.Resource.String.abc_action_bar_up_description = global::NutritionApp.Droid.Resource.String.abc_action_bar_up_description;
+			global::Syncfusion.XForms.Android.ComboBox.Resource.String.abc_action_menu_overflow_description = global::NutritionApp.Droid.Resource.String.abc_action_menu_overflow_description;
+			global::Syncfusion.XForms.Android.ComboBox.Resource.String.abc_action_mode_done = global::NutritionApp.Droid.Resource.String.abc_action_mode_done;
+			global::Syncfusion.XForms.Android.ComboBox.Resource.String.abc_activitychooserview_choose_application = global::NutritionApp.Droid.Resource.String.abc_activitychooserview_choose_application;
+			global::Syncfusion.XForms.Android.ComboBox.Resource.String.abc_activity_chooser_view_see_all = global::NutritionApp.Droid.Resource.String.abc_activity_chooser_view_see_all;
+			global::Syncfusion.XForms.Android.ComboBox.Resource.String.abc_capital_off = global::NutritionApp.Droid.Resource.String.abc_capital_off;
+			global::Syncfusion.XForms.Android.ComboBox.Resource.String.abc_capital_on = global::NutritionApp.Droid.Resource.String.abc_capital_on;
+			global::Syncfusion.XForms.Android.ComboBox.Resource.String.abc_menu_alt_shortcut_label = global::NutritionApp.Droid.Resource.String.abc_menu_alt_shortcut_label;
+			global::Syncfusion.XForms.Android.ComboBox.Resource.String.abc_menu_ctrl_shortcut_label = global::NutritionApp.Droid.Resource.String.abc_menu_ctrl_shortcut_label;
+			global::Syncfusion.XForms.Android.ComboBox.Resource.String.abc_menu_delete_shortcut_label = global::NutritionApp.Droid.Resource.String.abc_menu_delete_shortcut_label;
+			global::Syncfusion.XForms.Android.ComboBox.Resource.String.abc_menu_enter_shortcut_label = global::NutritionApp.Droid.Resource.String.abc_menu_enter_shortcut_label;
+			global::Syncfusion.XForms.Android.ComboBox.Resource.String.abc_menu_function_shortcut_label = global::NutritionApp.Droid.Resource.String.abc_menu_function_shortcut_label;
+			global::Syncfusion.XForms.Android.ComboBox.Resource.String.abc_menu_meta_shortcut_label = global::NutritionApp.Droid.Resource.String.abc_menu_meta_shortcut_label;
+			global::Syncfusion.XForms.Android.ComboBox.Resource.String.abc_menu_shift_shortcut_label = global::NutritionApp.Droid.Resource.String.abc_menu_shift_shortcut_label;
+			global::Syncfusion.XForms.Android.ComboBox.Resource.String.abc_menu_space_shortcut_label = global::NutritionApp.Droid.Resource.String.abc_menu_space_shortcut_label;
+			global::Syncfusion.XForms.Android.ComboBox.Resource.String.abc_menu_sym_shortcut_label = global::NutritionApp.Droid.Resource.String.abc_menu_sym_shortcut_label;
+			global::Syncfusion.XForms.Android.ComboBox.Resource.String.abc_prepend_shortcut_label = global::NutritionApp.Droid.Resource.String.abc_prepend_shortcut_label;
+			global::Syncfusion.XForms.Android.ComboBox.Resource.String.abc_searchview_description_clear = global::NutritionApp.Droid.Resource.String.abc_searchview_description_clear;
+			global::Syncfusion.XForms.Android.ComboBox.Resource.String.abc_searchview_description_query = global::NutritionApp.Droid.Resource.String.abc_searchview_description_query;
+			global::Syncfusion.XForms.Android.ComboBox.Resource.String.abc_searchview_description_search = global::NutritionApp.Droid.Resource.String.abc_searchview_description_search;
+			global::Syncfusion.XForms.Android.ComboBox.Resource.String.abc_searchview_description_submit = global::NutritionApp.Droid.Resource.String.abc_searchview_description_submit;
+			global::Syncfusion.XForms.Android.ComboBox.Resource.String.abc_searchview_description_voice = global::NutritionApp.Droid.Resource.String.abc_searchview_description_voice;
+			global::Syncfusion.XForms.Android.ComboBox.Resource.String.abc_search_hint = global::NutritionApp.Droid.Resource.String.abc_search_hint;
+			global::Syncfusion.XForms.Android.ComboBox.Resource.String.abc_shareactionprovider_share_with = global::NutritionApp.Droid.Resource.String.abc_shareactionprovider_share_with;
+			global::Syncfusion.XForms.Android.ComboBox.Resource.String.abc_shareactionprovider_share_with_application = global::NutritionApp.Droid.Resource.String.abc_shareactionprovider_share_with_application;
+			global::Syncfusion.XForms.Android.ComboBox.Resource.String.abc_toolbar_collapse_description = global::NutritionApp.Droid.Resource.String.abc_toolbar_collapse_description;
+			global::Syncfusion.XForms.Android.ComboBox.Resource.String.appbar_scrolling_view_behavior = global::NutritionApp.Droid.Resource.String.appbar_scrolling_view_behavior;
+			global::Syncfusion.XForms.Android.ComboBox.Resource.String.bottom_sheet_behavior = global::NutritionApp.Droid.Resource.String.bottom_sheet_behavior;
+			global::Syncfusion.XForms.Android.ComboBox.Resource.String.character_counter_content_description = global::NutritionApp.Droid.Resource.String.character_counter_content_description;
+			global::Syncfusion.XForms.Android.ComboBox.Resource.String.character_counter_overflowed_content_description = global::NutritionApp.Droid.Resource.String.character_counter_overflowed_content_description;
+			global::Syncfusion.XForms.Android.ComboBox.Resource.String.character_counter_pattern = global::NutritionApp.Droid.Resource.String.character_counter_pattern;
+			global::Syncfusion.XForms.Android.ComboBox.Resource.String.chip_text = global::NutritionApp.Droid.Resource.String.chip_text;
+			global::Syncfusion.XForms.Android.ComboBox.Resource.String.clear_text_end_icon_content_description = global::NutritionApp.Droid.Resource.String.clear_text_end_icon_content_description;
+			global::Syncfusion.XForms.Android.ComboBox.Resource.String.copy_toast_msg = global::NutritionApp.Droid.Resource.String.copy_toast_msg;
+			global::Syncfusion.XForms.Android.ComboBox.Resource.String.error_icon_content_description = global::NutritionApp.Droid.Resource.String.error_icon_content_description;
+			global::Syncfusion.XForms.Android.ComboBox.Resource.String.exposed_dropdown_menu_content_description = global::NutritionApp.Droid.Resource.String.exposed_dropdown_menu_content_description;
+			global::Syncfusion.XForms.Android.ComboBox.Resource.String.fab_transformation_scrim_behavior = global::NutritionApp.Droid.Resource.String.fab_transformation_scrim_behavior;
+			global::Syncfusion.XForms.Android.ComboBox.Resource.String.fab_transformation_sheet_behavior = global::NutritionApp.Droid.Resource.String.fab_transformation_sheet_behavior;
+			global::Syncfusion.XForms.Android.ComboBox.Resource.String.fallback_menu_item_copy_link = global::NutritionApp.Droid.Resource.String.fallback_menu_item_copy_link;
+			global::Syncfusion.XForms.Android.ComboBox.Resource.String.fallback_menu_item_open_in_browser = global::NutritionApp.Droid.Resource.String.fallback_menu_item_open_in_browser;
+			global::Syncfusion.XForms.Android.ComboBox.Resource.String.fallback_menu_item_share_link = global::NutritionApp.Droid.Resource.String.fallback_menu_item_share_link;
+			global::Syncfusion.XForms.Android.ComboBox.Resource.String.hide_bottom_view_on_scroll_behavior = global::NutritionApp.Droid.Resource.String.hide_bottom_view_on_scroll_behavior;
+			global::Syncfusion.XForms.Android.ComboBox.Resource.String.icon_content_description = global::NutritionApp.Droid.Resource.String.icon_content_description;
+			global::Syncfusion.XForms.Android.ComboBox.Resource.String.item_view_role_description = global::NutritionApp.Droid.Resource.String.item_view_role_description;
+			global::Syncfusion.XForms.Android.ComboBox.Resource.String.material_slider_range_end = global::NutritionApp.Droid.Resource.String.material_slider_range_end;
+			global::Syncfusion.XForms.Android.ComboBox.Resource.String.material_slider_range_start = global::NutritionApp.Droid.Resource.String.material_slider_range_start;
+			global::Syncfusion.XForms.Android.ComboBox.Resource.String.mtrl_badge_numberless_content_description = global::NutritionApp.Droid.Resource.String.mtrl_badge_numberless_content_description;
+			global::Syncfusion.XForms.Android.ComboBox.Resource.String.mtrl_chip_close_icon_content_description = global::NutritionApp.Droid.Resource.String.mtrl_chip_close_icon_content_description;
+			global::Syncfusion.XForms.Android.ComboBox.Resource.String.mtrl_exceed_max_badge_number_content_description = global::NutritionApp.Droid.Resource.String.mtrl_exceed_max_badge_number_content_description;
+			global::Syncfusion.XForms.Android.ComboBox.Resource.String.mtrl_exceed_max_badge_number_suffix = global::NutritionApp.Droid.Resource.String.mtrl_exceed_max_badge_number_suffix;
+			global::Syncfusion.XForms.Android.ComboBox.Resource.String.mtrl_picker_a11y_next_month = global::NutritionApp.Droid.Resource.String.mtrl_picker_a11y_next_month;
+			global::Syncfusion.XForms.Android.ComboBox.Resource.String.mtrl_picker_a11y_prev_month = global::NutritionApp.Droid.Resource.String.mtrl_picker_a11y_prev_month;
+			global::Syncfusion.XForms.Android.ComboBox.Resource.String.mtrl_picker_announce_current_selection = global::NutritionApp.Droid.Resource.String.mtrl_picker_announce_current_selection;
+			global::Syncfusion.XForms.Android.ComboBox.Resource.String.mtrl_picker_cancel = global::NutritionApp.Droid.Resource.String.mtrl_picker_cancel;
+			global::Syncfusion.XForms.Android.ComboBox.Resource.String.mtrl_picker_confirm = global::NutritionApp.Droid.Resource.String.mtrl_picker_confirm;
+			global::Syncfusion.XForms.Android.ComboBox.Resource.String.mtrl_picker_date_header_selected = global::NutritionApp.Droid.Resource.String.mtrl_picker_date_header_selected;
+			global::Syncfusion.XForms.Android.ComboBox.Resource.String.mtrl_picker_date_header_title = global::NutritionApp.Droid.Resource.String.mtrl_picker_date_header_title;
+			global::Syncfusion.XForms.Android.ComboBox.Resource.String.mtrl_picker_date_header_unselected = global::NutritionApp.Droid.Resource.String.mtrl_picker_date_header_unselected;
+			global::Syncfusion.XForms.Android.ComboBox.Resource.String.mtrl_picker_day_of_week_column_header = global::NutritionApp.Droid.Resource.String.mtrl_picker_day_of_week_column_header;
+			global::Syncfusion.XForms.Android.ComboBox.Resource.String.mtrl_picker_invalid_format = global::NutritionApp.Droid.Resource.String.mtrl_picker_invalid_format;
+			global::Syncfusion.XForms.Android.ComboBox.Resource.String.mtrl_picker_invalid_format_example = global::NutritionApp.Droid.Resource.String.mtrl_picker_invalid_format_example;
+			global::Syncfusion.XForms.Android.ComboBox.Resource.String.mtrl_picker_invalid_format_use = global::NutritionApp.Droid.Resource.String.mtrl_picker_invalid_format_use;
+			global::Syncfusion.XForms.Android.ComboBox.Resource.String.mtrl_picker_invalid_range = global::NutritionApp.Droid.Resource.String.mtrl_picker_invalid_range;
+			global::Syncfusion.XForms.Android.ComboBox.Resource.String.mtrl_picker_navigate_to_year_description = global::NutritionApp.Droid.Resource.String.mtrl_picker_navigate_to_year_description;
+			global::Syncfusion.XForms.Android.ComboBox.Resource.String.mtrl_picker_out_of_range = global::NutritionApp.Droid.Resource.String.mtrl_picker_out_of_range;
+			global::Syncfusion.XForms.Android.ComboBox.Resource.String.mtrl_picker_range_header_only_end_selected = global::NutritionApp.Droid.Resource.String.mtrl_picker_range_header_only_end_selected;
+			global::Syncfusion.XForms.Android.ComboBox.Resource.String.mtrl_picker_range_header_only_start_selected = global::NutritionApp.Droid.Resource.String.mtrl_picker_range_header_only_start_selected;
+			global::Syncfusion.XForms.Android.ComboBox.Resource.String.mtrl_picker_range_header_selected = global::NutritionApp.Droid.Resource.String.mtrl_picker_range_header_selected;
+			global::Syncfusion.XForms.Android.ComboBox.Resource.String.mtrl_picker_range_header_title = global::NutritionApp.Droid.Resource.String.mtrl_picker_range_header_title;
+			global::Syncfusion.XForms.Android.ComboBox.Resource.String.mtrl_picker_range_header_unselected = global::NutritionApp.Droid.Resource.String.mtrl_picker_range_header_unselected;
+			global::Syncfusion.XForms.Android.ComboBox.Resource.String.mtrl_picker_save = global::NutritionApp.Droid.Resource.String.mtrl_picker_save;
+			global::Syncfusion.XForms.Android.ComboBox.Resource.String.mtrl_picker_text_input_date_hint = global::NutritionApp.Droid.Resource.String.mtrl_picker_text_input_date_hint;
+			global::Syncfusion.XForms.Android.ComboBox.Resource.String.mtrl_picker_text_input_date_range_end_hint = global::NutritionApp.Droid.Resource.String.mtrl_picker_text_input_date_range_end_hint;
+			global::Syncfusion.XForms.Android.ComboBox.Resource.String.mtrl_picker_text_input_date_range_start_hint = global::NutritionApp.Droid.Resource.String.mtrl_picker_text_input_date_range_start_hint;
+			global::Syncfusion.XForms.Android.ComboBox.Resource.String.mtrl_picker_text_input_day_abbr = global::NutritionApp.Droid.Resource.String.mtrl_picker_text_input_day_abbr;
+			global::Syncfusion.XForms.Android.ComboBox.Resource.String.mtrl_picker_text_input_month_abbr = global::NutritionApp.Droid.Resource.String.mtrl_picker_text_input_month_abbr;
+			global::Syncfusion.XForms.Android.ComboBox.Resource.String.mtrl_picker_text_input_year_abbr = global::NutritionApp.Droid.Resource.String.mtrl_picker_text_input_year_abbr;
+			global::Syncfusion.XForms.Android.ComboBox.Resource.String.mtrl_picker_toggle_to_calendar_input_mode = global::NutritionApp.Droid.Resource.String.mtrl_picker_toggle_to_calendar_input_mode;
+			global::Syncfusion.XForms.Android.ComboBox.Resource.String.mtrl_picker_toggle_to_day_selection = global::NutritionApp.Droid.Resource.String.mtrl_picker_toggle_to_day_selection;
+			global::Syncfusion.XForms.Android.ComboBox.Resource.String.mtrl_picker_toggle_to_text_input_mode = global::NutritionApp.Droid.Resource.String.mtrl_picker_toggle_to_text_input_mode;
+			global::Syncfusion.XForms.Android.ComboBox.Resource.String.mtrl_picker_toggle_to_year_selection = global::NutritionApp.Droid.Resource.String.mtrl_picker_toggle_to_year_selection;
+			global::Syncfusion.XForms.Android.ComboBox.Resource.String.overflow_tab_title = global::NutritionApp.Droid.Resource.String.overflow_tab_title;
+			global::Syncfusion.XForms.Android.ComboBox.Resource.String.password_toggle_content_description = global::NutritionApp.Droid.Resource.String.password_toggle_content_description;
+			global::Syncfusion.XForms.Android.ComboBox.Resource.String.path_password_eye = global::NutritionApp.Droid.Resource.String.path_password_eye;
+			global::Syncfusion.XForms.Android.ComboBox.Resource.String.path_password_eye_mask_strike_through = global::NutritionApp.Droid.Resource.String.path_password_eye_mask_strike_through;
+			global::Syncfusion.XForms.Android.ComboBox.Resource.String.path_password_eye_mask_visible = global::NutritionApp.Droid.Resource.String.path_password_eye_mask_visible;
+			global::Syncfusion.XForms.Android.ComboBox.Resource.String.path_password_strike_through = global::NutritionApp.Droid.Resource.String.path_password_strike_through;
+			global::Syncfusion.XForms.Android.ComboBox.Resource.String.search_menu_title = global::NutritionApp.Droid.Resource.String.search_menu_title;
+			global::Syncfusion.XForms.Android.ComboBox.Resource.String.status_bar_notification_info_overflow = global::NutritionApp.Droid.Resource.String.status_bar_notification_info_overflow;
+			global::Syncfusion.XForms.Android.ComboBox.Resource.Style.AlertDialog_AppCompat = global::NutritionApp.Droid.Resource.Style.AlertDialog_AppCompat;
+			global::Syncfusion.XForms.Android.ComboBox.Resource.Style.AlertDialog_AppCompat_Light = global::NutritionApp.Droid.Resource.Style.AlertDialog_AppCompat_Light;
+			global::Syncfusion.XForms.Android.ComboBox.Resource.Style.AndroidThemeColorAccentYellow = global::NutritionApp.Droid.Resource.Style.AndroidThemeColorAccentYellow;
+			global::Syncfusion.XForms.Android.ComboBox.Resource.Style.Animation_AppCompat_Dialog = global::NutritionApp.Droid.Resource.Style.Animation_AppCompat_Dialog;
+			global::Syncfusion.XForms.Android.ComboBox.Resource.Style.Animation_AppCompat_DropDownUp = global::NutritionApp.Droid.Resource.Style.Animation_AppCompat_DropDownUp;
+			global::Syncfusion.XForms.Android.ComboBox.Resource.Style.Animation_AppCompat_Tooltip = global::NutritionApp.Droid.Resource.Style.Animation_AppCompat_Tooltip;
+			global::Syncfusion.XForms.Android.ComboBox.Resource.Style.Animation_Design_BottomSheetDialog = global::NutritionApp.Droid.Resource.Style.Animation_Design_BottomSheetDialog;
+			global::Syncfusion.XForms.Android.ComboBox.Resource.Style.Animation_MaterialComponents_BottomSheetDialog = global::NutritionApp.Droid.Resource.Style.Animation_MaterialComponents_BottomSheetDialog;
+			global::Syncfusion.XForms.Android.ComboBox.Resource.Style.AppCompatDialogStyle = global::NutritionApp.Droid.Resource.Style.AppCompatDialogStyle;
+			global::Syncfusion.XForms.Android.ComboBox.Resource.Style.Base_AlertDialog_AppCompat = global::NutritionApp.Droid.Resource.Style.Base_AlertDialog_AppCompat;
+			global::Syncfusion.XForms.Android.ComboBox.Resource.Style.Base_AlertDialog_AppCompat_Light = global::NutritionApp.Droid.Resource.Style.Base_AlertDialog_AppCompat_Light;
+			global::Syncfusion.XForms.Android.ComboBox.Resource.Style.Base_Animation_AppCompat_Dialog = global::NutritionApp.Droid.Resource.Style.Base_Animation_AppCompat_Dialog;
+			global::Syncfusion.XForms.Android.ComboBox.Resource.Style.Base_Animation_AppCompat_DropDownUp = global::NutritionApp.Droid.Resource.Style.Base_Animation_AppCompat_DropDownUp;
+			global::Syncfusion.XForms.Android.ComboBox.Resource.Style.Base_Animation_AppCompat_Tooltip = global::NutritionApp.Droid.Resource.Style.Base_Animation_AppCompat_Tooltip;
+			global::Syncfusion.XForms.Android.ComboBox.Resource.Style.Base_CardView = global::NutritionApp.Droid.Resource.Style.Base_CardView;
+			global::Syncfusion.XForms.Android.ComboBox.Resource.Style.Base_DialogWindowTitleBackground_AppCompat = global::NutritionApp.Droid.Resource.Style.Base_DialogWindowTitleBackground_AppCompat;
+			global::Syncfusion.XForms.Android.ComboBox.Resource.Style.Base_DialogWindowTitle_AppCompat = global::NutritionApp.Droid.Resource.Style.Base_DialogWindowTitle_AppCompat;
+			global::Syncfusion.XForms.Android.ComboBox.Resource.Style.Base_MaterialAlertDialog_MaterialComponents_Title_Icon = global::NutritionApp.Droid.Resource.Style.Base_MaterialAlertDialog_MaterialComponents_Title_Icon;
+			global::Syncfusion.XForms.Android.ComboBox.Resource.Style.Base_MaterialAlertDialog_MaterialComponents_Title_Panel = global::NutritionApp.Droid.Resource.Style.Base_MaterialAlertDialog_MaterialComponents_Title_Panel;
+			global::Syncfusion.XForms.Android.ComboBox.Resource.Style.Base_MaterialAlertDialog_MaterialComponents_Title_Text = global::NutritionApp.Droid.Resource.Style.Base_MaterialAlertDialog_MaterialComponents_Title_Text;
+			global::Syncfusion.XForms.Android.ComboBox.Resource.Style.Base_TextAppearance_AppCompat = global::NutritionApp.Droid.Resource.Style.Base_TextAppearance_AppCompat;
+			global::Syncfusion.XForms.Android.ComboBox.Resource.Style.Base_TextAppearance_AppCompat_Body1 = global::NutritionApp.Droid.Resource.Style.Base_TextAppearance_AppCompat_Body1;
+			global::Syncfusion.XForms.Android.ComboBox.Resource.Style.Base_TextAppearance_AppCompat_Body2 = global::NutritionApp.Droid.Resource.Style.Base_TextAppearance_AppCompat_Body2;
+			global::Syncfusion.XForms.Android.ComboBox.Resource.Style.Base_TextAppearance_AppCompat_Button = global::NutritionApp.Droid.Resource.Style.Base_TextAppearance_AppCompat_Button;
+			global::Syncfusion.XForms.Android.ComboBox.Resource.Style.Base_TextAppearance_AppCompat_Caption = global::NutritionApp.Droid.Resource.Style.Base_TextAppearance_AppCompat_Caption;
+			global::Syncfusion.XForms.Android.ComboBox.Resource.Style.Base_TextAppearance_AppCompat_Display1 = global::NutritionApp.Droid.Resource.Style.Base_TextAppearance_AppCompat_Display1;
+			global::Syncfusion.XForms.Android.ComboBox.Resource.Style.Base_TextAppearance_AppCompat_Display2 = global::NutritionApp.Droid.Resource.Style.Base_TextAppearance_AppCompat_Display2;
+			global::Syncfusion.XForms.Android.ComboBox.Resource.Style.Base_TextAppearance_AppCompat_Display3 = global::NutritionApp.Droid.Resource.Style.Base_TextAppearance_AppCompat_Display3;
+			global::Syncfusion.XForms.Android.ComboBox.Resource.Style.Base_TextAppearance_AppCompat_Display4 = global::NutritionApp.Droid.Resource.Style.Base_TextAppearance_AppCompat_Display4;
+			global::Syncfusion.XForms.Android.ComboBox.Resource.Style.Base_TextAppearance_AppCompat_Headline = global::NutritionApp.Droid.Resource.Style.Base_TextAppearance_AppCompat_Headline;
+			global::Syncfusion.XForms.Android.ComboBox.Resource.Style.Base_TextAppearance_AppCompat_Inverse = global::NutritionApp.Droid.Resource.Style.Base_TextAppearance_AppCompat_Inverse;
+			global::Syncfusion.XForms.Android.ComboBox.Resource.Style.Base_TextAppearance_AppCompat_Large = global::NutritionApp.Droid.Resource.Style.Base_TextAppearance_AppCompat_Large;
+			global::Syncfusion.XForms.Android.ComboBox.Resource.Style.Base_TextAppearance_AppCompat_Large_Inverse = global::NutritionApp.Droid.Resource.Style.Base_TextAppearance_AppCompat_Large_Inverse;
+			global::Syncfusion.XForms.Android.ComboBox.Resource.Style.Base_TextAppearance_AppCompat_Light_Widget_PopupMenu_Large = global::NutritionApp.Droid.Resource.Style.Base_TextAppearance_AppCompat_Light_Widget_PopupMenu_Large;
+			global::Syncfusion.XForms.Android.ComboBox.Resource.Style.Base_TextAppearance_AppCompat_Light_Widget_PopupMenu_Small = global::NutritionApp.Droid.Resource.Style.Base_TextAppearance_AppCompat_Light_Widget_PopupMenu_Small;
+			global::Syncfusion.XForms.Android.ComboBox.Resource.Style.Base_TextAppearance_AppCompat_Medium = global::NutritionApp.Droid.Resource.Style.Base_TextAppearance_AppCompat_Medium;
+			global::Syncfusion.XForms.Android.ComboBox.Resource.Style.Base_TextAppearance_AppCompat_Medium_Inverse = global::NutritionApp.Droid.Resource.Style.Base_TextAppearance_AppCompat_Medium_Inverse;
+			global::Syncfusion.XForms.Android.ComboBox.Resource.Style.Base_TextAppearance_AppCompat_Menu = global::NutritionApp.Droid.Resource.Style.Base_TextAppearance_AppCompat_Menu;
+			global::Syncfusion.XForms.Android.ComboBox.Resource.Style.Base_TextAppearance_AppCompat_SearchResult = global::NutritionApp.Droid.Resource.Style.Base_TextAppearance_AppCompat_SearchResult;
+			global::Syncfusion.XForms.Android.ComboBox.Resource.Style.Base_TextAppearance_AppCompat_SearchResult_Subtitle = global::NutritionApp.Droid.Resource.Style.Base_TextAppearance_AppCompat_SearchResult_Subtitle;
+			global::Syncfusion.XForms.Android.ComboBox.Resource.Style.Base_TextAppearance_AppCompat_SearchResult_Title = global::NutritionApp.Droid.Resource.Style.Base_TextAppearance_AppCompat_SearchResult_Title;
+			global::Syncfusion.XForms.Android.ComboBox.Resource.Style.Base_TextAppearance_AppCompat_Small = global::NutritionApp.Droid.Resource.Style.Base_TextAppearance_AppCompat_Small;
+			global::Syncfusion.XForms.Android.ComboBox.Resource.Style.Base_TextAppearance_AppCompat_Small_Inverse = global::NutritionApp.Droid.Resource.Style.Base_TextAppearance_AppCompat_Small_Inverse;
+			global::Syncfusion.XForms.Android.ComboBox.Resource.Style.Base_TextAppearance_AppCompat_Subhead = global::NutritionApp.Droid.Resource.Style.Base_TextAppearance_AppCompat_Subhead;
+			global::Syncfusion.XForms.Android.ComboBox.Resource.Style.Base_TextAppearance_AppCompat_Subhead_Inverse = global::NutritionApp.Droid.Resource.Style.Base_TextAppearance_AppCompat_Subhead_Inverse;
+			global::Syncfusion.XForms.Android.ComboBox.Resource.Style.Base_TextAppearance_AppCompat_Title = global::NutritionApp.Droid.Resource.Style.Base_TextAppearance_AppCompat_Title;
+			global::Syncfusion.XForms.Android.ComboBox.Resource.Style.Base_TextAppearance_AppCompat_Title_Inverse = global::NutritionApp.Droid.Resource.Style.Base_TextAppearance_AppCompat_Title_Inverse;
+			global::Syncfusion.XForms.Android.ComboBox.Resource.Style.Base_TextAppearance_AppCompat_Tooltip = global::NutritionApp.Droid.Resource.Style.Base_TextAppearance_AppCompat_Tooltip;
+			global::Syncfusion.XForms.Android.ComboBox.Resource.Style.Base_TextAppearance_AppCompat_Widget_ActionBar_Menu = global::NutritionApp.Droid.Resource.Style.Base_TextAppearance_AppCompat_Widget_ActionBar_Menu;
+			global::Syncfusion.XForms.Android.ComboBox.Resource.Style.Base_TextAppearance_AppCompat_Widget_ActionBar_Subtitle = global::NutritionApp.Droid.Resource.Style.Base_TextAppearance_AppCompat_Widget_ActionBar_Subtitle;
+			global::Syncfusion.XForms.Android.ComboBox.Resource.Style.Base_TextAppearance_AppCompat_Widget_ActionBar_Subtitle_Inverse = global::NutritionApp.Droid.Resource.Style.Base_TextAppearance_AppCompat_Widget_ActionBar_Subtitle_Inverse;
+			global::Syncfusion.XForms.Android.ComboBox.Resource.Style.Base_TextAppearance_AppCompat_Widget_ActionBar_Title = global::NutritionApp.Droid.Resource.Style.Base_TextAppearance_AppCompat_Widget_ActionBar_Title;
+			global::Syncfusion.XForms.Android.ComboBox.Resource.Style.Base_TextAppearance_AppCompat_Widget_ActionBar_Title_Inverse = global::NutritionApp.Droid.Resource.Style.Base_TextAppearance_AppCompat_Widget_ActionBar_Title_Inverse;
+			global::Syncfusion.XForms.Android.ComboBox.Resource.Style.Base_TextAppearance_AppCompat_Widget_ActionMode_Subtitle = global::NutritionApp.Droid.Resource.Style.Base_TextAppearance_AppCompat_Widget_ActionMode_Subtitle;
+			global::Syncfusion.XForms.Android.ComboBox.Resource.Style.Base_TextAppearance_AppCompat_Widget_ActionMode_Title = global::NutritionApp.Droid.Resource.Style.Base_TextAppearance_AppCompat_Widget_ActionMode_Title;
+			global::Syncfusion.XForms.Android.ComboBox.Resource.Style.Base_TextAppearance_AppCompat_Widget_Button = global::NutritionApp.Droid.Resource.Style.Base_TextAppearance_AppCompat_Widget_Button;
+			global::Syncfusion.XForms.Android.ComboBox.Resource.Style.Base_TextAppearance_AppCompat_Widget_Button_Borderless_Colored = global::NutritionApp.Droid.Resource.Style.Base_TextAppearance_AppCompat_Widget_Button_Borderless_Colored;
+			global::Syncfusion.XForms.Android.ComboBox.Resource.Style.Base_TextAppearance_AppCompat_Widget_Button_Colored = global::NutritionApp.Droid.Resource.Style.Base_TextAppearance_AppCompat_Widget_Button_Colored;
+			global::Syncfusion.XForms.Android.ComboBox.Resource.Style.Base_TextAppearance_AppCompat_Widget_Button_Inverse = global::NutritionApp.Droid.Resource.Style.Base_TextAppearance_AppCompat_Widget_Button_Inverse;
+			global::Syncfusion.XForms.Android.ComboBox.Resource.Style.Base_TextAppearance_AppCompat_Widget_DropDownItem = global::NutritionApp.Droid.Resource.Style.Base_TextAppearance_AppCompat_Widget_DropDownItem;
+			global::Syncfusion.XForms.Android.ComboBox.Resource.Style.Base_TextAppearance_AppCompat_Widget_PopupMenu_Header = global::NutritionApp.Droid.Resource.Style.Base_TextAppearance_AppCompat_Widget_PopupMenu_Header;
+			global::Syncfusion.XForms.Android.ComboBox.Resource.Style.Base_TextAppearance_AppCompat_Widget_PopupMenu_Large = global::NutritionApp.Droid.Resource.Style.Base_TextAppearance_AppCompat_Widget_PopupMenu_Large;
+			global::Syncfusion.XForms.Android.ComboBox.Resource.Style.Base_TextAppearance_AppCompat_Widget_PopupMenu_Small = global::NutritionApp.Droid.Resource.Style.Base_TextAppearance_AppCompat_Widget_PopupMenu_Small;
+			global::Syncfusion.XForms.Android.ComboBox.Resource.Style.Base_TextAppearance_AppCompat_Widget_Switch = global::NutritionApp.Droid.Resource.Style.Base_TextAppearance_AppCompat_Widget_Switch;
+			global::Syncfusion.XForms.Android.ComboBox.Resource.Style.Base_TextAppearance_AppCompat_Widget_TextView_SpinnerItem = global::NutritionApp.Droid.Resource.Style.Base_TextAppearance_AppCompat_Widget_TextView_SpinnerItem;
+			global::Syncfusion.XForms.Android.ComboBox.Resource.Style.Base_TextAppearance_MaterialComponents_Badge = global::NutritionApp.Droid.Resource.Style.Base_TextAppearance_MaterialComponents_Badge;
+			global::Syncfusion.XForms.Android.ComboBox.Resource.Style.Base_TextAppearance_MaterialComponents_Button = global::NutritionApp.Droid.Resource.Style.Base_TextAppearance_MaterialComponents_Button;
+			global::Syncfusion.XForms.Android.ComboBox.Resource.Style.Base_TextAppearance_MaterialComponents_Headline6 = global::NutritionApp.Droid.Resource.Style.Base_TextAppearance_MaterialComponents_Headline6;
+			global::Syncfusion.XForms.Android.ComboBox.Resource.Style.Base_TextAppearance_MaterialComponents_Subtitle2 = global::NutritionApp.Droid.Resource.Style.Base_TextAppearance_MaterialComponents_Subtitle2;
+			global::Syncfusion.XForms.Android.ComboBox.Resource.Style.Base_TextAppearance_Widget_AppCompat_ExpandedMenu_Item = global::NutritionApp.Droid.Resource.Style.Base_TextAppearance_Widget_AppCompat_ExpandedMenu_Item;
+			global::Syncfusion.XForms.Android.ComboBox.Resource.Style.Base_TextAppearance_Widget_AppCompat_Toolbar_Subtitle = global::NutritionApp.Droid.Resource.Style.Base_TextAppearance_Widget_AppCompat_Toolbar_Subtitle;
+			global::Syncfusion.XForms.Android.ComboBox.Resource.Style.Base_TextAppearance_Widget_AppCompat_Toolbar_Title = global::NutritionApp.Droid.Resource.Style.Base_TextAppearance_Widget_AppCompat_Toolbar_Title;
+			global::Syncfusion.XForms.Android.ComboBox.Resource.Style.Base_ThemeOverlay_AppCompat = global::NutritionApp.Droid.Resource.Style.Base_ThemeOverlay_AppCompat;
+			global::Syncfusion.XForms.Android.ComboBox.Resource.Style.Base_ThemeOverlay_AppCompat_ActionBar = global::NutritionApp.Droid.Resource.Style.Base_ThemeOverlay_AppCompat_ActionBar;
+			global::Syncfusion.XForms.Android.ComboBox.Resource.Style.Base_ThemeOverlay_AppCompat_Dark = global::NutritionApp.Droid.Resource.Style.Base_ThemeOverlay_AppCompat_Dark;
+			global::Syncfusion.XForms.Android.ComboBox.Resource.Style.Base_ThemeOverlay_AppCompat_Dark_ActionBar = global::NutritionApp.Droid.Resource.Style.Base_ThemeOverlay_AppCompat_Dark_ActionBar;
+			global::Syncfusion.XForms.Android.ComboBox.Resource.Style.Base_ThemeOverlay_AppCompat_Dialog = global::NutritionApp.Droid.Resource.Style.Base_ThemeOverlay_AppCompat_Dialog;
+			global::Syncfusion.XForms.Android.ComboBox.Resource.Style.Base_ThemeOverlay_AppCompat_Dialog_Alert = global::NutritionApp.Droid.Resource.Style.Base_ThemeOverlay_AppCompat_Dialog_Alert;
+			global::Syncfusion.XForms.Android.ComboBox.Resource.Style.Base_ThemeOverlay_AppCompat_Light = global::NutritionApp.Droid.Resource.Style.Base_ThemeOverlay_AppCompat_Light;
+			global::Syncfusion.XForms.Android.ComboBox.Resource.Style.Base_ThemeOverlay_MaterialComponents_Dialog = global::NutritionApp.Droid.Resource.Style.Base_ThemeOverlay_MaterialComponents_Dialog;
+			global::Syncfusion.XForms.Android.ComboBox.Resource.Style.Base_ThemeOverlay_MaterialComponents_Dialog_Alert = global::NutritionApp.Droid.Resource.Style.Base_ThemeOverlay_MaterialComponents_Dialog_Alert;
+			global::Syncfusion.XForms.Android.ComboBox.Resource.Style.Base_ThemeOverlay_MaterialComponents_Dialog_Alert_Framework = global::NutritionApp.Droid.Resource.Style.Base_ThemeOverlay_MaterialComponents_Dialog_Alert_Framework;
+			global::Syncfusion.XForms.Android.ComboBox.Resource.Style.Base_ThemeOverlay_MaterialComponents_Light_Dialog_Alert_Framework = global::NutritionApp.Droid.Resource.Style.Base_ThemeOverlay_MaterialComponents_Light_Dialog_Alert_Framework;
+			global::Syncfusion.XForms.Android.ComboBox.Resource.Style.Base_ThemeOverlay_MaterialComponents_MaterialAlertDialog = global::NutritionApp.Droid.Resource.Style.Base_ThemeOverlay_MaterialComponents_MaterialAlertDialog;
+			global::Syncfusion.XForms.Android.ComboBox.Resource.Style.Base_Theme_AppCompat = global::NutritionApp.Droid.Resource.Style.Base_Theme_AppCompat;
+			global::Syncfusion.XForms.Android.ComboBox.Resource.Style.Base_Theme_AppCompat_CompactMenu = global::NutritionApp.Droid.Resource.Style.Base_Theme_AppCompat_CompactMenu;
+			global::Syncfusion.XForms.Android.ComboBox.Resource.Style.Base_Theme_AppCompat_Dialog = global::NutritionApp.Droid.Resource.Style.Base_Theme_AppCompat_Dialog;
+			global::Syncfusion.XForms.Android.ComboBox.Resource.Style.Base_Theme_AppCompat_DialogWhenLarge = global::NutritionApp.Droid.Resource.Style.Base_Theme_AppCompat_DialogWhenLarge;
+			global::Syncfusion.XForms.Android.ComboBox.Resource.Style.Base_Theme_AppCompat_Dialog_Alert = global::NutritionApp.Droid.Resource.Style.Base_Theme_AppCompat_Dialog_Alert;
+			global::Syncfusion.XForms.Android.ComboBox.Resource.Style.Base_Theme_AppCompat_Dialog_FixedSize = global::NutritionApp.Droid.Resource.Style.Base_Theme_AppCompat_Dialog_FixedSize;
+			global::Syncfusion.XForms.Android.ComboBox.Resource.Style.Base_Theme_AppCompat_Dialog_MinWidth = global::NutritionApp.Droid.Resource.Style.Base_Theme_AppCompat_Dialog_MinWidth;
+			global::Syncfusion.XForms.Android.ComboBox.Resource.Style.Base_Theme_AppCompat_Light = global::NutritionApp.Droid.Resource.Style.Base_Theme_AppCompat_Light;
+			global::Syncfusion.XForms.Android.ComboBox.Resource.Style.Base_Theme_AppCompat_Light_DarkActionBar = global::NutritionApp.Droid.Resource.Style.Base_Theme_AppCompat_Light_DarkActionBar;
+			global::Syncfusion.XForms.Android.ComboBox.Resource.Style.Base_Theme_AppCompat_Light_Dialog = global::NutritionApp.Droid.Resource.Style.Base_Theme_AppCompat_Light_Dialog;
+			global::Syncfusion.XForms.Android.ComboBox.Resource.Style.Base_Theme_AppCompat_Light_DialogWhenLarge = global::NutritionApp.Droid.Resource.Style.Base_Theme_AppCompat_Light_DialogWhenLarge;
+			global::Syncfusion.XForms.Android.ComboBox.Resource.Style.Base_Theme_AppCompat_Light_Dialog_Alert = global::NutritionApp.Droid.Resource.Style.Base_Theme_AppCompat_Light_Dialog_Alert;
+			global::Syncfusion.XForms.Android.ComboBox.Resource.Style.Base_Theme_AppCompat_Light_Dialog_FixedSize = global::NutritionApp.Droid.Resource.Style.Base_Theme_AppCompat_Light_Dialog_FixedSize;
+			global::Syncfusion.XForms.Android.ComboBox.Resource.Style.Base_Theme_AppCompat_Light_Dialog_MinWidth = global::NutritionApp.Droid.Resource.Style.Base_Theme_AppCompat_Light_Dialog_MinWidth;
+			global::Syncfusion.XForms.Android.ComboBox.Resource.Style.Base_Theme_MaterialComponents = global::NutritionApp.Droid.Resource.Style.Base_Theme_MaterialComponents;
+			global::Syncfusion.XForms.Android.ComboBox.Resource.Style.Base_Theme_MaterialComponents_Bridge = global::NutritionApp.Droid.Resource.Style.Base_Theme_MaterialComponents_Bridge;
+			global::Syncfusion.XForms.Android.ComboBox.Resource.Style.Base_Theme_MaterialComponents_CompactMenu = global::NutritionApp.Droid.Resource.Style.Base_Theme_MaterialComponents_CompactMenu;
+			global::Syncfusion.XForms.Android.ComboBox.Resource.Style.Base_Theme_MaterialComponents_Dialog = global::NutritionApp.Droid.Resource.Style.Base_Theme_MaterialComponents_Dialog;
+			global::Syncfusion.XForms.Android.ComboBox.Resource.Style.Base_Theme_MaterialComponents_DialogWhenLarge = global::NutritionApp.Droid.Resource.Style.Base_Theme_MaterialComponents_DialogWhenLarge;
+			global::Syncfusion.XForms.Android.ComboBox.Resource.Style.Base_Theme_MaterialComponents_Dialog_Alert = global::NutritionApp.Droid.Resource.Style.Base_Theme_MaterialComponents_Dialog_Alert;
+			global::Syncfusion.XForms.Android.ComboBox.Resource.Style.Base_Theme_MaterialComponents_Dialog_Bridge = global::NutritionApp.Droid.Resource.Style.Base_Theme_MaterialComponents_Dialog_Bridge;
+			global::Syncfusion.XForms.Android.ComboBox.Resource.Style.Base_Theme_MaterialComponents_Dialog_FixedSize = global::NutritionApp.Droid.Resource.Style.Base_Theme_MaterialComponents_Dialog_FixedSize;
+			global::Syncfusion.XForms.Android.ComboBox.Resource.Style.Base_Theme_MaterialComponents_Dialog_MinWidth = global::NutritionApp.Droid.Resource.Style.Base_Theme_MaterialComponents_Dialog_MinWidth;
+			global::Syncfusion.XForms.Android.ComboBox.Resource.Style.Base_Theme_MaterialComponents_Light = global::NutritionApp.Droid.Resource.Style.Base_Theme_MaterialComponents_Light;
+			global::Syncfusion.XForms.Android.ComboBox.Resource.Style.Base_Theme_MaterialComponents_Light_Bridge = global::NutritionApp.Droid.Resource.Style.Base_Theme_MaterialComponents_Light_Bridge;
+			global::Syncfusion.XForms.Android.ComboBox.Resource.Style.Base_Theme_MaterialComponents_Light_DarkActionBar = global::NutritionApp.Droid.Resource.Style.Base_Theme_MaterialComponents_Light_DarkActionBar;
+			global::Syncfusion.XForms.Android.ComboBox.Resource.Style.Base_Theme_MaterialComponents_Light_DarkActionBar_Bridge = global::NutritionApp.Droid.Resource.Style.Base_Theme_MaterialComponents_Light_DarkActionBar_Bridge;
+			global::Syncfusion.XForms.Android.ComboBox.Resource.Style.Base_Theme_MaterialComponents_Light_Dialog = global::NutritionApp.Droid.Resource.Style.Base_Theme_MaterialComponents_Light_Dialog;
+			global::Syncfusion.XForms.Android.ComboBox.Resource.Style.Base_Theme_MaterialComponents_Light_DialogWhenLarge = global::NutritionApp.Droid.Resource.Style.Base_Theme_MaterialComponents_Light_DialogWhenLarge;
+			global::Syncfusion.XForms.Android.ComboBox.Resource.Style.Base_Theme_MaterialComponents_Light_Dialog_Alert = global::NutritionApp.Droid.Resource.Style.Base_Theme_MaterialComponents_Light_Dialog_Alert;
+			global::Syncfusion.XForms.Android.ComboBox.Resource.Style.Base_Theme_MaterialComponents_Light_Dialog_Bridge = global::NutritionApp.Droid.Resource.Style.Base_Theme_MaterialComponents_Light_Dialog_Bridge;
+			global::Syncfusion.XForms.Android.ComboBox.Resource.Style.Base_Theme_MaterialComponents_Light_Dialog_FixedSize = global::NutritionApp.Droid.Resource.Style.Base_Theme_MaterialComponents_Light_Dialog_FixedSize;
+			global::Syncfusion.XForms.Android.ComboBox.Resource.Style.Base_Theme_MaterialComponents_Light_Dialog_MinWidth = global::NutritionApp.Droid.Resource.Style.Base_Theme_MaterialComponents_Light_Dialog_MinWidth;
+			global::Syncfusion.XForms.Android.ComboBox.Resource.Style.Base_V14_ThemeOverlay_MaterialComponents_Dialog = global::NutritionApp.Droid.Resource.Style.Base_V14_ThemeOverlay_MaterialComponents_Dialog;
+			global::Syncfusion.XForms.Android.ComboBox.Resource.Style.Base_V14_ThemeOverlay_MaterialComponents_Dialog_Alert = global::NutritionApp.Droid.Resource.Style.Base_V14_ThemeOverlay_MaterialComponents_Dialog_Alert;
+			global::Syncfusion.XForms.Android.ComboBox.Resource.Style.Base_V14_ThemeOverlay_MaterialComponents_MaterialAlertDialog = global::NutritionApp.Droid.Resource.Style.Base_V14_ThemeOverlay_MaterialComponents_MaterialAlertDialog;
+			global::Syncfusion.XForms.Android.ComboBox.Resource.Style.Base_V14_Theme_MaterialComponents = global::NutritionApp.Droid.Resource.Style.Base_V14_Theme_MaterialComponents;
+			global::Syncfusion.XForms.Android.ComboBox.Resource.Style.Base_V14_Theme_MaterialComponents_Bridge = global::NutritionApp.Droid.Resource.Style.Base_V14_Theme_MaterialComponents_Bridge;
+			global::Syncfusion.XForms.Android.ComboBox.Resource.Style.Base_V14_Theme_MaterialComponents_Dialog = global::NutritionApp.Droid.Resource.Style.Base_V14_Theme_MaterialComponents_Dialog;
+			global::Syncfusion.XForms.Android.ComboBox.Resource.Style.Base_V14_Theme_MaterialComponents_Dialog_Bridge = global::NutritionApp.Droid.Resource.Style.Base_V14_Theme_MaterialComponents_Dialog_Bridge;
+			global::Syncfusion.XForms.Android.ComboBox.Resource.Style.Base_V14_Theme_MaterialComponents_Light = global::NutritionApp.Droid.Resource.Style.Base_V14_Theme_MaterialComponents_Light;
+			global::Syncfusion.XForms.Android.ComboBox.Resource.Style.Base_V14_Theme_MaterialComponents_Light_Bridge = global::NutritionApp.Droid.Resource.Style.Base_V14_Theme_MaterialComponents_Light_Bridge;
+			global::Syncfusion.XForms.Android.ComboBox.Resource.Style.Base_V14_Theme_MaterialComponents_Light_DarkActionBar_Bridge = global::NutritionApp.Droid.Resource.Style.Base_V14_Theme_MaterialComponents_Light_DarkActionBar_Bridge;
+			global::Syncfusion.XForms.Android.ComboBox.Resource.Style.Base_V14_Theme_MaterialComponents_Light_Dialog = global::NutritionApp.Droid.Resource.Style.Base_V14_Theme_MaterialComponents_Light_Dialog;
+			global::Syncfusion.XForms.Android.ComboBox.Resource.Style.Base_V14_Theme_MaterialComponents_Light_Dialog_Bridge = global::NutritionApp.Droid.Resource.Style.Base_V14_Theme_MaterialComponents_Light_Dialog_Bridge;
+			global::Syncfusion.XForms.Android.ComboBox.Resource.Style.Base_V21_ThemeOverlay_AppCompat_Dialog = global::NutritionApp.Droid.Resource.Style.Base_V21_ThemeOverlay_AppCompat_Dialog;
+			global::Syncfusion.XForms.Android.ComboBox.Resource.Style.Base_V21_Theme_AppCompat = global::NutritionApp.Droid.Resource.Style.Base_V21_Theme_AppCompat;
+			global::Syncfusion.XForms.Android.ComboBox.Resource.Style.Base_V21_Theme_AppCompat_Dialog = global::NutritionApp.Droid.Resource.Style.Base_V21_Theme_AppCompat_Dialog;
+			global::Syncfusion.XForms.Android.ComboBox.Resource.Style.Base_V21_Theme_AppCompat_Light = global::NutritionApp.Droid.Resource.Style.Base_V21_Theme_AppCompat_Light;
+			global::Syncfusion.XForms.Android.ComboBox.Resource.Style.Base_V21_Theme_AppCompat_Light_Dialog = global::NutritionApp.Droid.Resource.Style.Base_V21_Theme_AppCompat_Light_Dialog;
+			global::Syncfusion.XForms.Android.ComboBox.Resource.Style.Base_V21_Theme_MaterialComponents = global::NutritionApp.Droid.Resource.Style.Base_V21_Theme_MaterialComponents;
+			global::Syncfusion.XForms.Android.ComboBox.Resource.Style.Base_V21_Theme_MaterialComponents_Dialog = global::NutritionApp.Droid.Resource.Style.Base_V21_Theme_MaterialComponents_Dialog;
+			global::Syncfusion.XForms.Android.ComboBox.Resource.Style.Base_V21_Theme_MaterialComponents_Light = global::NutritionApp.Droid.Resource.Style.Base_V21_Theme_MaterialComponents_Light;
+			global::Syncfusion.XForms.Android.ComboBox.Resource.Style.Base_V21_Theme_MaterialComponents_Light_Dialog = global::NutritionApp.Droid.Resource.Style.Base_V21_Theme_MaterialComponents_Light_Dialog;
+			global::Syncfusion.XForms.Android.ComboBox.Resource.Style.Base_V22_Theme_AppCompat = global::NutritionApp.Droid.Resource.Style.Base_V22_Theme_AppCompat;
+			global::Syncfusion.XForms.Android.ComboBox.Resource.Style.Base_V22_Theme_AppCompat_Light = global::NutritionApp.Droid.Resource.Style.Base_V22_Theme_AppCompat_Light;
+			global::Syncfusion.XForms.Android.ComboBox.Resource.Style.Base_V23_Theme_AppCompat = global::NutritionApp.Droid.Resource.Style.Base_V23_Theme_AppCompat;
+			global::Syncfusion.XForms.Android.ComboBox.Resource.Style.Base_V23_Theme_AppCompat_Light = global::NutritionApp.Droid.Resource.Style.Base_V23_Theme_AppCompat_Light;
+			global::Syncfusion.XForms.Android.ComboBox.Resource.Style.Base_V26_Theme_AppCompat = global::NutritionApp.Droid.Resource.Style.Base_V26_Theme_AppCompat;
+			global::Syncfusion.XForms.Android.ComboBox.Resource.Style.Base_V26_Theme_AppCompat_Light = global::NutritionApp.Droid.Resource.Style.Base_V26_Theme_AppCompat_Light;
+			global::Syncfusion.XForms.Android.ComboBox.Resource.Style.Base_V26_Widget_AppCompat_Toolbar = global::NutritionApp.Droid.Resource.Style.Base_V26_Widget_AppCompat_Toolbar;
+			global::Syncfusion.XForms.Android.ComboBox.Resource.Style.Base_V28_Theme_AppCompat = global::NutritionApp.Droid.Resource.Style.Base_V28_Theme_AppCompat;
+			global::Syncfusion.XForms.Android.ComboBox.Resource.Style.Base_V28_Theme_AppCompat_Light = global::NutritionApp.Droid.Resource.Style.Base_V28_Theme_AppCompat_Light;
+			global::Syncfusion.XForms.Android.ComboBox.Resource.Style.Base_V7_ThemeOverlay_AppCompat_Dialog = global::NutritionApp.Droid.Resource.Style.Base_V7_ThemeOverlay_AppCompat_Dialog;
+			global::Syncfusion.XForms.Android.ComboBox.Resource.Style.Base_V7_Theme_AppCompat = global::NutritionApp.Droid.Resource.Style.Base_V7_Theme_AppCompat;
+			global::Syncfusion.XForms.Android.ComboBox.Resource.Style.Base_V7_Theme_AppCompat_Dialog = global::NutritionApp.Droid.Resource.Style.Base_V7_Theme_AppCompat_Dialog;
+			global::Syncfusion.XForms.Android.ComboBox.Resource.Style.Base_V7_Theme_AppCompat_Light = global::NutritionApp.Droid.Resource.Style.Base_V7_Theme_AppCompat_Light;
+			global::Syncfusion.XForms.Android.ComboBox.Resource.Style.Base_V7_Theme_AppCompat_Light_Dialog = global::NutritionApp.Droid.Resource.Style.Base_V7_Theme_AppCompat_Light_Dialog;
+			global::Syncfusion.XForms.Android.ComboBox.Resource.Style.Base_V7_Widget_AppCompat_AutoCompleteTextView = global::NutritionApp.Droid.Resource.Style.Base_V7_Widget_AppCompat_AutoCompleteTextView;
+			global::Syncfusion.XForms.Android.ComboBox.Resource.Style.Base_V7_Widget_AppCompat_EditText = global::NutritionApp.Droid.Resource.Style.Base_V7_Widget_AppCompat_EditText;
+			global::Syncfusion.XForms.Android.ComboBox.Resource.Style.Base_V7_Widget_AppCompat_Toolbar = global::NutritionApp.Droid.Resource.Style.Base_V7_Widget_AppCompat_Toolbar;
+			global::Syncfusion.XForms.Android.ComboBox.Resource.Style.Base_Widget_AppCompat_ActionBar = global::NutritionApp.Droid.Resource.Style.Base_Widget_AppCompat_ActionBar;
+			global::Syncfusion.XForms.Android.ComboBox.Resource.Style.Base_Widget_AppCompat_ActionBar_Solid = global::NutritionApp.Droid.Resource.Style.Base_Widget_AppCompat_ActionBar_Solid;
+			global::Syncfusion.XForms.Android.ComboBox.Resource.Style.Base_Widget_AppCompat_ActionBar_TabBar = global::NutritionApp.Droid.Resource.Style.Base_Widget_AppCompat_ActionBar_TabBar;
+			global::Syncfusion.XForms.Android.ComboBox.Resource.Style.Base_Widget_AppCompat_ActionBar_TabText = global::NutritionApp.Droid.Resource.Style.Base_Widget_AppCompat_ActionBar_TabText;
+			global::Syncfusion.XForms.Android.ComboBox.Resource.Style.Base_Widget_AppCompat_ActionBar_TabView = global::NutritionApp.Droid.Resource.Style.Base_Widget_AppCompat_ActionBar_TabView;
+			global::Syncfusion.XForms.Android.ComboBox.Resource.Style.Base_Widget_AppCompat_ActionButton = global::NutritionApp.Droid.Resource.Style.Base_Widget_AppCompat_ActionButton;
+			global::Syncfusion.XForms.Android.ComboBox.Resource.Style.Base_Widget_AppCompat_ActionButton_CloseMode = global::NutritionApp.Droid.Resource.Style.Base_Widget_AppCompat_ActionButton_CloseMode;
+			global::Syncfusion.XForms.Android.ComboBox.Resource.Style.Base_Widget_AppCompat_ActionButton_Overflow = global::NutritionApp.Droid.Resource.Style.Base_Widget_AppCompat_ActionButton_Overflow;
+			global::Syncfusion.XForms.Android.ComboBox.Resource.Style.Base_Widget_AppCompat_ActionMode = global::NutritionApp.Droid.Resource.Style.Base_Widget_AppCompat_ActionMode;
+			global::Syncfusion.XForms.Android.ComboBox.Resource.Style.Base_Widget_AppCompat_ActivityChooserView = global::NutritionApp.Droid.Resource.Style.Base_Widget_AppCompat_ActivityChooserView;
+			global::Syncfusion.XForms.Android.ComboBox.Resource.Style.Base_Widget_AppCompat_AutoCompleteTextView = global::NutritionApp.Droid.Resource.Style.Base_Widget_AppCompat_AutoCompleteTextView;
+			global::Syncfusion.XForms.Android.ComboBox.Resource.Style.Base_Widget_AppCompat_Button = global::NutritionApp.Droid.Resource.Style.Base_Widget_AppCompat_Button;
+			global::Syncfusion.XForms.Android.ComboBox.Resource.Style.Base_Widget_AppCompat_ButtonBar = global::NutritionApp.Droid.Resource.Style.Base_Widget_AppCompat_ButtonBar;
+			global::Syncfusion.XForms.Android.ComboBox.Resource.Style.Base_Widget_AppCompat_ButtonBar_AlertDialog = global::NutritionApp.Droid.Resource.Style.Base_Widget_AppCompat_ButtonBar_AlertDialog;
+			global::Syncfusion.XForms.Android.ComboBox.Resource.Style.Base_Widget_AppCompat_Button_Borderless = global::NutritionApp.Droid.Resource.Style.Base_Widget_AppCompat_Button_Borderless;
+			global::Syncfusion.XForms.Android.ComboBox.Resource.Style.Base_Widget_AppCompat_Button_Borderless_Colored = global::NutritionApp.Droid.Resource.Style.Base_Widget_AppCompat_Button_Borderless_Colored;
+			global::Syncfusion.XForms.Android.ComboBox.Resource.Style.Base_Widget_AppCompat_Button_ButtonBar_AlertDialog = global::NutritionApp.Droid.Resource.Style.Base_Widget_AppCompat_Button_ButtonBar_AlertDialog;
+			global::Syncfusion.XForms.Android.ComboBox.Resource.Style.Base_Widget_AppCompat_Button_Colored = global::NutritionApp.Droid.Resource.Style.Base_Widget_AppCompat_Button_Colored;
+			global::Syncfusion.XForms.Android.ComboBox.Resource.Style.Base_Widget_AppCompat_Button_Small = global::NutritionApp.Droid.Resource.Style.Base_Widget_AppCompat_Button_Small;
+			global::Syncfusion.XForms.Android.ComboBox.Resource.Style.Base_Widget_AppCompat_CompoundButton_CheckBox = global::NutritionApp.Droid.Resource.Style.Base_Widget_AppCompat_CompoundButton_CheckBox;
+			global::Syncfusion.XForms.Android.ComboBox.Resource.Style.Base_Widget_AppCompat_CompoundButton_RadioButton = global::NutritionApp.Droid.Resource.Style.Base_Widget_AppCompat_CompoundButton_RadioButton;
+			global::Syncfusion.XForms.Android.ComboBox.Resource.Style.Base_Widget_AppCompat_CompoundButton_Switch = global::NutritionApp.Droid.Resource.Style.Base_Widget_AppCompat_CompoundButton_Switch;
+			global::Syncfusion.XForms.Android.ComboBox.Resource.Style.Base_Widget_AppCompat_DrawerArrowToggle = global::NutritionApp.Droid.Resource.Style.Base_Widget_AppCompat_DrawerArrowToggle;
+			global::Syncfusion.XForms.Android.ComboBox.Resource.Style.Base_Widget_AppCompat_DrawerArrowToggle_Common = global::NutritionApp.Droid.Resource.Style.Base_Widget_AppCompat_DrawerArrowToggle_Common;
+			global::Syncfusion.XForms.Android.ComboBox.Resource.Style.Base_Widget_AppCompat_DropDownItem_Spinner = global::NutritionApp.Droid.Resource.Style.Base_Widget_AppCompat_DropDownItem_Spinner;
+			global::Syncfusion.XForms.Android.ComboBox.Resource.Style.Base_Widget_AppCompat_EditText = global::NutritionApp.Droid.Resource.Style.Base_Widget_AppCompat_EditText;
+			global::Syncfusion.XForms.Android.ComboBox.Resource.Style.Base_Widget_AppCompat_ImageButton = global::NutritionApp.Droid.Resource.Style.Base_Widget_AppCompat_ImageButton;
+			global::Syncfusion.XForms.Android.ComboBox.Resource.Style.Base_Widget_AppCompat_Light_ActionBar = global::NutritionApp.Droid.Resource.Style.Base_Widget_AppCompat_Light_ActionBar;
+			global::Syncfusion.XForms.Android.ComboBox.Resource.Style.Base_Widget_AppCompat_Light_ActionBar_Solid = global::NutritionApp.Droid.Resource.Style.Base_Widget_AppCompat_Light_ActionBar_Solid;
+			global::Syncfusion.XForms.Android.ComboBox.Resource.Style.Base_Widget_AppCompat_Light_ActionBar_TabBar = global::NutritionApp.Droid.Resource.Style.Base_Widget_AppCompat_Light_ActionBar_TabBar;
+			global::Syncfusion.XForms.Android.ComboBox.Resource.Style.Base_Widget_AppCompat_Light_ActionBar_TabText = global::NutritionApp.Droid.Resource.Style.Base_Widget_AppCompat_Light_ActionBar_TabText;
+			global::Syncfusion.XForms.Android.ComboBox.Resource.Style.Base_Widget_AppCompat_Light_ActionBar_TabText_Inverse = global::NutritionApp.Droid.Resource.Style.Base_Widget_AppCompat_Light_ActionBar_TabText_Inverse;
+			global::Syncfusion.XForms.Android.ComboBox.Resource.Style.Base_Widget_AppCompat_Light_ActionBar_TabView = global::NutritionApp.Droid.Resource.Style.Base_Widget_AppCompat_Light_ActionBar_TabView;
+			global::Syncfusion.XForms.Android.ComboBox.Resource.Style.Base_Widget_AppCompat_Light_PopupMenu = global::NutritionApp.Droid.Resource.Style.Base_Widget_AppCompat_Light_PopupMenu;
+			global::Syncfusion.XForms.Android.ComboBox.Resource.Style.Base_Widget_AppCompat_Light_PopupMenu_Overflow = global::NutritionApp.Droid.Resource.Style.Base_Widget_AppCompat_Light_PopupMenu_Overflow;
+			global::Syncfusion.XForms.Android.ComboBox.Resource.Style.Base_Widget_AppCompat_ListMenuView = global::NutritionApp.Droid.Resource.Style.Base_Widget_AppCompat_ListMenuView;
+			global::Syncfusion.XForms.Android.ComboBox.Resource.Style.Base_Widget_AppCompat_ListPopupWindow = global::NutritionApp.Droid.Resource.Style.Base_Widget_AppCompat_ListPopupWindow;
+			global::Syncfusion.XForms.Android.ComboBox.Resource.Style.Base_Widget_AppCompat_ListView = global::NutritionApp.Droid.Resource.Style.Base_Widget_AppCompat_ListView;
+			global::Syncfusion.XForms.Android.ComboBox.Resource.Style.Base_Widget_AppCompat_ListView_DropDown = global::NutritionApp.Droid.Resource.Style.Base_Widget_AppCompat_ListView_DropDown;
+			global::Syncfusion.XForms.Android.ComboBox.Resource.Style.Base_Widget_AppCompat_ListView_Menu = global::NutritionApp.Droid.Resource.Style.Base_Widget_AppCompat_ListView_Menu;
+			global::Syncfusion.XForms.Android.ComboBox.Resource.Style.Base_Widget_AppCompat_PopupMenu = global::NutritionApp.Droid.Resource.Style.Base_Widget_AppCompat_PopupMenu;
+			global::Syncfusion.XForms.Android.ComboBox.Resource.Style.Base_Widget_AppCompat_PopupMenu_Overflow = global::NutritionApp.Droid.Resource.Style.Base_Widget_AppCompat_PopupMenu_Overflow;
+			global::Syncfusion.XForms.Android.ComboBox.Resource.Style.Base_Widget_AppCompat_PopupWindow = global::NutritionApp.Droid.Resource.Style.Base_Widget_AppCompat_PopupWindow;
+			global::Syncfusion.XForms.Android.ComboBox.Resource.Style.Base_Widget_AppCompat_ProgressBar = global::NutritionApp.Droid.Resource.Style.Base_Widget_AppCompat_ProgressBar;
+			global::Syncfusion.XForms.Android.ComboBox.Resource.Style.Base_Widget_AppCompat_ProgressBar_Horizontal = global::NutritionApp.Droid.Resource.Style.Base_Widget_AppCompat_ProgressBar_Horizontal;
+			global::Syncfusion.XForms.Android.ComboBox.Resource.Style.Base_Widget_AppCompat_RatingBar = global::NutritionApp.Droid.Resource.Style.Base_Widget_AppCompat_RatingBar;
+			global::Syncfusion.XForms.Android.ComboBox.Resource.Style.Base_Widget_AppCompat_RatingBar_Indicator = global::NutritionApp.Droid.Resource.Style.Base_Widget_AppCompat_RatingBar_Indicator;
+			global::Syncfusion.XForms.Android.ComboBox.Resource.Style.Base_Widget_AppCompat_RatingBar_Small = global::NutritionApp.Droid.Resource.Style.Base_Widget_AppCompat_RatingBar_Small;
+			global::Syncfusion.XForms.Android.ComboBox.Resource.Style.Base_Widget_AppCompat_SearchView = global::NutritionApp.Droid.Resource.Style.Base_Widget_AppCompat_SearchView;
+			global::Syncfusion.XForms.Android.ComboBox.Resource.Style.Base_Widget_AppCompat_SearchView_ActionBar = global::NutritionApp.Droid.Resource.Style.Base_Widget_AppCompat_SearchView_ActionBar;
+			global::Syncfusion.XForms.Android.ComboBox.Resource.Style.Base_Widget_AppCompat_SeekBar = global::NutritionApp.Droid.Resource.Style.Base_Widget_AppCompat_SeekBar;
+			global::Syncfusion.XForms.Android.ComboBox.Resource.Style.Base_Widget_AppCompat_SeekBar_Discrete = global::NutritionApp.Droid.Resource.Style.Base_Widget_AppCompat_SeekBar_Discrete;
+			global::Syncfusion.XForms.Android.ComboBox.Resource.Style.Base_Widget_AppCompat_Spinner = global::NutritionApp.Droid.Resource.Style.Base_Widget_AppCompat_Spinner;
+			global::Syncfusion.XForms.Android.ComboBox.Resource.Style.Base_Widget_AppCompat_Spinner_Underlined = global::NutritionApp.Droid.Resource.Style.Base_Widget_AppCompat_Spinner_Underlined;
+			global::Syncfusion.XForms.Android.ComboBox.Resource.Style.Base_Widget_AppCompat_TextView = global::NutritionApp.Droid.Resource.Style.Base_Widget_AppCompat_TextView;
+			global::Syncfusion.XForms.Android.ComboBox.Resource.Style.Base_Widget_AppCompat_TextView_SpinnerItem = global::NutritionApp.Droid.Resource.Style.Base_Widget_AppCompat_TextView_SpinnerItem;
+			global::Syncfusion.XForms.Android.ComboBox.Resource.Style.Base_Widget_AppCompat_Toolbar = global::NutritionApp.Droid.Resource.Style.Base_Widget_AppCompat_Toolbar;
+			global::Syncfusion.XForms.Android.ComboBox.Resource.Style.Base_Widget_AppCompat_Toolbar_Button_Navigation = global::NutritionApp.Droid.Resource.Style.Base_Widget_AppCompat_Toolbar_Button_Navigation;
+			global::Syncfusion.XForms.Android.ComboBox.Resource.Style.Base_Widget_Design_TabLayout = global::NutritionApp.Droid.Resource.Style.Base_Widget_Design_TabLayout;
+			global::Syncfusion.XForms.Android.ComboBox.Resource.Style.Base_Widget_MaterialComponents_AutoCompleteTextView = global::NutritionApp.Droid.Resource.Style.Base_Widget_MaterialComponents_AutoCompleteTextView;
+			global::Syncfusion.XForms.Android.ComboBox.Resource.Style.Base_Widget_MaterialComponents_CheckedTextView = global::NutritionApp.Droid.Resource.Style.Base_Widget_MaterialComponents_CheckedTextView;
+			global::Syncfusion.XForms.Android.ComboBox.Resource.Style.Base_Widget_MaterialComponents_Chip = global::NutritionApp.Droid.Resource.Style.Base_Widget_MaterialComponents_Chip;
+			global::Syncfusion.XForms.Android.ComboBox.Resource.Style.Base_Widget_MaterialComponents_PopupMenu = global::NutritionApp.Droid.Resource.Style.Base_Widget_MaterialComponents_PopupMenu;
+			global::Syncfusion.XForms.Android.ComboBox.Resource.Style.Base_Widget_MaterialComponents_PopupMenu_ContextMenu = global::NutritionApp.Droid.Resource.Style.Base_Widget_MaterialComponents_PopupMenu_ContextMenu;
+			global::Syncfusion.XForms.Android.ComboBox.Resource.Style.Base_Widget_MaterialComponents_PopupMenu_ListPopupWindow = global::NutritionApp.Droid.Resource.Style.Base_Widget_MaterialComponents_PopupMenu_ListPopupWindow;
+			global::Syncfusion.XForms.Android.ComboBox.Resource.Style.Base_Widget_MaterialComponents_PopupMenu_Overflow = global::NutritionApp.Droid.Resource.Style.Base_Widget_MaterialComponents_PopupMenu_Overflow;
+			global::Syncfusion.XForms.Android.ComboBox.Resource.Style.Base_Widget_MaterialComponents_Slider = global::NutritionApp.Droid.Resource.Style.Base_Widget_MaterialComponents_Slider;
+			global::Syncfusion.XForms.Android.ComboBox.Resource.Style.Base_Widget_MaterialComponents_TextInputEditText = global::NutritionApp.Droid.Resource.Style.Base_Widget_MaterialComponents_TextInputEditText;
+			global::Syncfusion.XForms.Android.ComboBox.Resource.Style.Base_Widget_MaterialComponents_TextInputLayout = global::NutritionApp.Droid.Resource.Style.Base_Widget_MaterialComponents_TextInputLayout;
+			global::Syncfusion.XForms.Android.ComboBox.Resource.Style.Base_Widget_MaterialComponents_TextView = global::NutritionApp.Droid.Resource.Style.Base_Widget_MaterialComponents_TextView;
+			global::Syncfusion.XForms.Android.ComboBox.Resource.Style.CardView = global::NutritionApp.Droid.Resource.Style.CardView;
+			global::Syncfusion.XForms.Android.ComboBox.Resource.Style.CardView_Dark = global::NutritionApp.Droid.Resource.Style.CardView_Dark;
+			global::Syncfusion.XForms.Android.ComboBox.Resource.Style.CardView_Light = global::NutritionApp.Droid.Resource.Style.CardView_Light;
+			global::Syncfusion.XForms.Android.ComboBox.Resource.Style.collectionViewTheme = global::NutritionApp.Droid.Resource.Style.collectionViewTheme;
+			global::Syncfusion.XForms.Android.ComboBox.Resource.Style.EmptyTheme = global::NutritionApp.Droid.Resource.Style.EmptyTheme;
+			global::Syncfusion.XForms.Android.ComboBox.Resource.Style.MainTheme = global::NutritionApp.Droid.Resource.Style.MainTheme;
+			global::Syncfusion.XForms.Android.ComboBox.Resource.Style.MainTheme_Base = global::NutritionApp.Droid.Resource.Style.MainTheme_Base;
+			global::Syncfusion.XForms.Android.ComboBox.Resource.Style.MaterialAlertDialog_MaterialComponents = global::NutritionApp.Droid.Resource.Style.MaterialAlertDialog_MaterialComponents;
+			global::Syncfusion.XForms.Android.ComboBox.Resource.Style.MaterialAlertDialog_MaterialComponents_Body_Text = global::NutritionApp.Droid.Resource.Style.MaterialAlertDialog_MaterialComponents_Body_Text;
+			global::Syncfusion.XForms.Android.ComboBox.Resource.Style.MaterialAlertDialog_MaterialComponents_Picker_Date_Calendar = global::NutritionApp.Droid.Resource.Style.MaterialAlertDialog_MaterialComponents_Picker_Date_Calendar;
+			global::Syncfusion.XForms.Android.ComboBox.Resource.Style.MaterialAlertDialog_MaterialComponents_Picker_Date_Spinner = global::NutritionApp.Droid.Resource.Style.MaterialAlertDialog_MaterialComponents_Picker_Date_Spinner;
+			global::Syncfusion.XForms.Android.ComboBox.Resource.Style.MaterialAlertDialog_MaterialComponents_Title_Icon = global::NutritionApp.Droid.Resource.Style.MaterialAlertDialog_MaterialComponents_Title_Icon;
+			global::Syncfusion.XForms.Android.ComboBox.Resource.Style.MaterialAlertDialog_MaterialComponents_Title_Icon_CenterStacked = global::NutritionApp.Droid.Resource.Style.MaterialAlertDialog_MaterialComponents_Title_Icon_CenterStacked;
+			global::Syncfusion.XForms.Android.ComboBox.Resource.Style.MaterialAlertDialog_MaterialComponents_Title_Panel = global::NutritionApp.Droid.Resource.Style.MaterialAlertDialog_MaterialComponents_Title_Panel;
+			global::Syncfusion.XForms.Android.ComboBox.Resource.Style.MaterialAlertDialog_MaterialComponents_Title_Panel_CenterStacked = global::NutritionApp.Droid.Resource.Style.MaterialAlertDialog_MaterialComponents_Title_Panel_CenterStacked;
+			global::Syncfusion.XForms.Android.ComboBox.Resource.Style.MaterialAlertDialog_MaterialComponents_Title_Text = global::NutritionApp.Droid.Resource.Style.MaterialAlertDialog_MaterialComponents_Title_Text;
+			global::Syncfusion.XForms.Android.ComboBox.Resource.Style.MaterialAlertDialog_MaterialComponents_Title_Text_CenterStacked = global::NutritionApp.Droid.Resource.Style.MaterialAlertDialog_MaterialComponents_Title_Text_CenterStacked;
+			global::Syncfusion.XForms.Android.ComboBox.Resource.Style.Platform_AppCompat = global::NutritionApp.Droid.Resource.Style.Platform_AppCompat;
+			global::Syncfusion.XForms.Android.ComboBox.Resource.Style.Platform_AppCompat_Light = global::NutritionApp.Droid.Resource.Style.Platform_AppCompat_Light;
+			global::Syncfusion.XForms.Android.ComboBox.Resource.Style.Platform_MaterialComponents = global::NutritionApp.Droid.Resource.Style.Platform_MaterialComponents;
+			global::Syncfusion.XForms.Android.ComboBox.Resource.Style.Platform_MaterialComponents_Dialog = global::NutritionApp.Droid.Resource.Style.Platform_MaterialComponents_Dialog;
+			global::Syncfusion.XForms.Android.ComboBox.Resource.Style.Platform_MaterialComponents_Light = global::NutritionApp.Droid.Resource.Style.Platform_MaterialComponents_Light;
+			global::Syncfusion.XForms.Android.ComboBox.Resource.Style.Platform_MaterialComponents_Light_Dialog = global::NutritionApp.Droid.Resource.Style.Platform_MaterialComponents_Light_Dialog;
+			global::Syncfusion.XForms.Android.ComboBox.Resource.Style.Platform_ThemeOverlay_AppCompat = global::NutritionApp.Droid.Resource.Style.Platform_ThemeOverlay_AppCompat;
+			global::Syncfusion.XForms.Android.ComboBox.Resource.Style.Platform_ThemeOverlay_AppCompat_Dark = global::NutritionApp.Droid.Resource.Style.Platform_ThemeOverlay_AppCompat_Dark;
+			global::Syncfusion.XForms.Android.ComboBox.Resource.Style.Platform_ThemeOverlay_AppCompat_Light = global::NutritionApp.Droid.Resource.Style.Platform_ThemeOverlay_AppCompat_Light;
+			global::Syncfusion.XForms.Android.ComboBox.Resource.Style.Platform_V21_AppCompat = global::NutritionApp.Droid.Resource.Style.Platform_V21_AppCompat;
+			global::Syncfusion.XForms.Android.ComboBox.Resource.Style.Platform_V21_AppCompat_Light = global::NutritionApp.Droid.Resource.Style.Platform_V21_AppCompat_Light;
+			global::Syncfusion.XForms.Android.ComboBox.Resource.Style.Platform_V25_AppCompat = global::NutritionApp.Droid.Resource.Style.Platform_V25_AppCompat;
+			global::Syncfusion.XForms.Android.ComboBox.Resource.Style.Platform_V25_AppCompat_Light = global::NutritionApp.Droid.Resource.Style.Platform_V25_AppCompat_Light;
+			global::Syncfusion.XForms.Android.ComboBox.Resource.Style.Platform_Widget_AppCompat_Spinner = global::NutritionApp.Droid.Resource.Style.Platform_Widget_AppCompat_Spinner;
+			global::Syncfusion.XForms.Android.ComboBox.Resource.Style.RtlOverlay_DialogWindowTitle_AppCompat = global::NutritionApp.Droid.Resource.Style.RtlOverlay_DialogWindowTitle_AppCompat;
+			global::Syncfusion.XForms.Android.ComboBox.Resource.Style.RtlOverlay_Widget_AppCompat_ActionBar_TitleItem = global::NutritionApp.Droid.Resource.Style.RtlOverlay_Widget_AppCompat_ActionBar_TitleItem;
+			global::Syncfusion.XForms.Android.ComboBox.Resource.Style.RtlOverlay_Widget_AppCompat_DialogTitle_Icon = global::NutritionApp.Droid.Resource.Style.RtlOverlay_Widget_AppCompat_DialogTitle_Icon;
+			global::Syncfusion.XForms.Android.ComboBox.Resource.Style.RtlOverlay_Widget_AppCompat_PopupMenuItem = global::NutritionApp.Droid.Resource.Style.RtlOverlay_Widget_AppCompat_PopupMenuItem;
+			global::Syncfusion.XForms.Android.ComboBox.Resource.Style.RtlOverlay_Widget_AppCompat_PopupMenuItem_InternalGroup = global::NutritionApp.Droid.Resource.Style.RtlOverlay_Widget_AppCompat_PopupMenuItem_InternalGroup;
+			global::Syncfusion.XForms.Android.ComboBox.Resource.Style.RtlOverlay_Widget_AppCompat_PopupMenuItem_Shortcut = global::NutritionApp.Droid.Resource.Style.RtlOverlay_Widget_AppCompat_PopupMenuItem_Shortcut;
+			global::Syncfusion.XForms.Android.ComboBox.Resource.Style.RtlOverlay_Widget_AppCompat_PopupMenuItem_SubmenuArrow = global::NutritionApp.Droid.Resource.Style.RtlOverlay_Widget_AppCompat_PopupMenuItem_SubmenuArrow;
+			global::Syncfusion.XForms.Android.ComboBox.Resource.Style.RtlOverlay_Widget_AppCompat_PopupMenuItem_Text = global::NutritionApp.Droid.Resource.Style.RtlOverlay_Widget_AppCompat_PopupMenuItem_Text;
+			global::Syncfusion.XForms.Android.ComboBox.Resource.Style.RtlOverlay_Widget_AppCompat_PopupMenuItem_Title = global::NutritionApp.Droid.Resource.Style.RtlOverlay_Widget_AppCompat_PopupMenuItem_Title;
+			global::Syncfusion.XForms.Android.ComboBox.Resource.Style.RtlOverlay_Widget_AppCompat_SearchView_MagIcon = global::NutritionApp.Droid.Resource.Style.RtlOverlay_Widget_AppCompat_SearchView_MagIcon;
+			global::Syncfusion.XForms.Android.ComboBox.Resource.Style.RtlOverlay_Widget_AppCompat_Search_DropDown = global::NutritionApp.Droid.Resource.Style.RtlOverlay_Widget_AppCompat_Search_DropDown;
+			global::Syncfusion.XForms.Android.ComboBox.Resource.Style.RtlOverlay_Widget_AppCompat_Search_DropDown_Icon1 = global::NutritionApp.Droid.Resource.Style.RtlOverlay_Widget_AppCompat_Search_DropDown_Icon1;
+			global::Syncfusion.XForms.Android.ComboBox.Resource.Style.RtlOverlay_Widget_AppCompat_Search_DropDown_Icon2 = global::NutritionApp.Droid.Resource.Style.RtlOverlay_Widget_AppCompat_Search_DropDown_Icon2;
+			global::Syncfusion.XForms.Android.ComboBox.Resource.Style.RtlOverlay_Widget_AppCompat_Search_DropDown_Query = global::NutritionApp.Droid.Resource.Style.RtlOverlay_Widget_AppCompat_Search_DropDown_Query;
+			global::Syncfusion.XForms.Android.ComboBox.Resource.Style.RtlOverlay_Widget_AppCompat_Search_DropDown_Text = global::NutritionApp.Droid.Resource.Style.RtlOverlay_Widget_AppCompat_Search_DropDown_Text;
+			global::Syncfusion.XForms.Android.ComboBox.Resource.Style.RtlUnderlay_Widget_AppCompat_ActionButton = global::NutritionApp.Droid.Resource.Style.RtlUnderlay_Widget_AppCompat_ActionButton;
+			global::Syncfusion.XForms.Android.ComboBox.Resource.Style.RtlUnderlay_Widget_AppCompat_ActionButton_Overflow = global::NutritionApp.Droid.Resource.Style.RtlUnderlay_Widget_AppCompat_ActionButton_Overflow;
+			global::Syncfusion.XForms.Android.ComboBox.Resource.Style.scrollViewScrollBars = global::NutritionApp.Droid.Resource.Style.scrollViewScrollBars;
+			global::Syncfusion.XForms.Android.ComboBox.Resource.Style.scrollViewTheme = global::NutritionApp.Droid.Resource.Style.scrollViewTheme;
+			global::Syncfusion.XForms.Android.ComboBox.Resource.Style.ShapeAppearanceOverlay = global::NutritionApp.Droid.Resource.Style.ShapeAppearanceOverlay;
+			global::Syncfusion.XForms.Android.ComboBox.Resource.Style.ShapeAppearanceOverlay_BottomLeftDifferentCornerSize = global::NutritionApp.Droid.Resource.Style.ShapeAppearanceOverlay_BottomLeftDifferentCornerSize;
+			global::Syncfusion.XForms.Android.ComboBox.Resource.Style.ShapeAppearanceOverlay_BottomRightCut = global::NutritionApp.Droid.Resource.Style.ShapeAppearanceOverlay_BottomRightCut;
+			global::Syncfusion.XForms.Android.ComboBox.Resource.Style.ShapeAppearanceOverlay_Cut = global::NutritionApp.Droid.Resource.Style.ShapeAppearanceOverlay_Cut;
+			global::Syncfusion.XForms.Android.ComboBox.Resource.Style.ShapeAppearanceOverlay_DifferentCornerSize = global::NutritionApp.Droid.Resource.Style.ShapeAppearanceOverlay_DifferentCornerSize;
+			global::Syncfusion.XForms.Android.ComboBox.Resource.Style.ShapeAppearanceOverlay_MaterialComponents_BottomSheet = global::NutritionApp.Droid.Resource.Style.ShapeAppearanceOverlay_MaterialComponents_BottomSheet;
+			global::Syncfusion.XForms.Android.ComboBox.Resource.Style.ShapeAppearanceOverlay_MaterialComponents_Chip = global::NutritionApp.Droid.Resource.Style.ShapeAppearanceOverlay_MaterialComponents_Chip;
+			global::Syncfusion.XForms.Android.ComboBox.Resource.Style.ShapeAppearanceOverlay_MaterialComponents_ExtendedFloatingActionButton = global::NutritionApp.Droid.Resource.Style.ShapeAppearanceOverlay_MaterialComponents_ExtendedFloatingActionButton;
+			global::Syncfusion.XForms.Android.ComboBox.Resource.Style.ShapeAppearanceOverlay_MaterialComponents_FloatingActionButton = global::NutritionApp.Droid.Resource.Style.ShapeAppearanceOverlay_MaterialComponents_FloatingActionButton;
+			global::Syncfusion.XForms.Android.ComboBox.Resource.Style.ShapeAppearanceOverlay_MaterialComponents_MaterialCalendar_Day = global::NutritionApp.Droid.Resource.Style.ShapeAppearanceOverlay_MaterialComponents_MaterialCalendar_Day;
+			global::Syncfusion.XForms.Android.ComboBox.Resource.Style.ShapeAppearanceOverlay_MaterialComponents_MaterialCalendar_Window_Fullscreen = global::NutritionApp.Droid.Resource.Style.ShapeAppearanceOverlay_MaterialComponents_MaterialCalendar_Window_Fullscreen;
+			global::Syncfusion.XForms.Android.ComboBox.Resource.Style.ShapeAppearanceOverlay_MaterialComponents_MaterialCalendar_Year = global::NutritionApp.Droid.Resource.Style.ShapeAppearanceOverlay_MaterialComponents_MaterialCalendar_Year;
+			global::Syncfusion.XForms.Android.ComboBox.Resource.Style.ShapeAppearanceOverlay_MaterialComponents_TextInputLayout_FilledBox = global::NutritionApp.Droid.Resource.Style.ShapeAppearanceOverlay_MaterialComponents_TextInputLayout_FilledBox;
+			global::Syncfusion.XForms.Android.ComboBox.Resource.Style.ShapeAppearanceOverlay_TopLeftCut = global::NutritionApp.Droid.Resource.Style.ShapeAppearanceOverlay_TopLeftCut;
+			global::Syncfusion.XForms.Android.ComboBox.Resource.Style.ShapeAppearanceOverlay_TopRightDifferentCornerSize = global::NutritionApp.Droid.Resource.Style.ShapeAppearanceOverlay_TopRightDifferentCornerSize;
+			global::Syncfusion.XForms.Android.ComboBox.Resource.Style.ShapeAppearance_MaterialComponents = global::NutritionApp.Droid.Resource.Style.ShapeAppearance_MaterialComponents;
+			global::Syncfusion.XForms.Android.ComboBox.Resource.Style.ShapeAppearance_MaterialComponents_LargeComponent = global::NutritionApp.Droid.Resource.Style.ShapeAppearance_MaterialComponents_LargeComponent;
+			global::Syncfusion.XForms.Android.ComboBox.Resource.Style.ShapeAppearance_MaterialComponents_MediumComponent = global::NutritionApp.Droid.Resource.Style.ShapeAppearance_MaterialComponents_MediumComponent;
+			global::Syncfusion.XForms.Android.ComboBox.Resource.Style.ShapeAppearance_MaterialComponents_SmallComponent = global::NutritionApp.Droid.Resource.Style.ShapeAppearance_MaterialComponents_SmallComponent;
+			global::Syncfusion.XForms.Android.ComboBox.Resource.Style.ShapeAppearance_MaterialComponents_Test = global::NutritionApp.Droid.Resource.Style.ShapeAppearance_MaterialComponents_Test;
+			global::Syncfusion.XForms.Android.ComboBox.Resource.Style.ShapeAppearance_MaterialComponents_Tooltip = global::NutritionApp.Droid.Resource.Style.ShapeAppearance_MaterialComponents_Tooltip;
+			global::Syncfusion.XForms.Android.ComboBox.Resource.Style.TestStyleWithLineHeight = global::NutritionApp.Droid.Resource.Style.TestStyleWithLineHeight;
+			global::Syncfusion.XForms.Android.ComboBox.Resource.Style.TestStyleWithLineHeightAppearance = global::NutritionApp.Droid.Resource.Style.TestStyleWithLineHeightAppearance;
+			global::Syncfusion.XForms.Android.ComboBox.Resource.Style.TestStyleWithoutLineHeight = global::NutritionApp.Droid.Resource.Style.TestStyleWithoutLineHeight;
+			global::Syncfusion.XForms.Android.ComboBox.Resource.Style.TestStyleWithThemeLineHeightAttribute = global::NutritionApp.Droid.Resource.Style.TestStyleWithThemeLineHeightAttribute;
+			global::Syncfusion.XForms.Android.ComboBox.Resource.Style.TestThemeWithLineHeight = global::NutritionApp.Droid.Resource.Style.TestThemeWithLineHeight;
+			global::Syncfusion.XForms.Android.ComboBox.Resource.Style.TestThemeWithLineHeightDisabled = global::NutritionApp.Droid.Resource.Style.TestThemeWithLineHeightDisabled;
+			global::Syncfusion.XForms.Android.ComboBox.Resource.Style.Test_ShapeAppearanceOverlay_MaterialComponents_MaterialCalendar_Day = global::NutritionApp.Droid.Resource.Style.Test_ShapeAppearanceOverlay_MaterialComponents_MaterialCalendar_Day;
+			global::Syncfusion.XForms.Android.ComboBox.Resource.Style.Test_Theme_MaterialComponents_MaterialCalendar = global::NutritionApp.Droid.Resource.Style.Test_Theme_MaterialComponents_MaterialCalendar;
+			global::Syncfusion.XForms.Android.ComboBox.Resource.Style.Test_Widget_MaterialComponents_MaterialCalendar = global::NutritionApp.Droid.Resource.Style.Test_Widget_MaterialComponents_MaterialCalendar;
+			global::Syncfusion.XForms.Android.ComboBox.Resource.Style.Test_Widget_MaterialComponents_MaterialCalendar_Day = global::NutritionApp.Droid.Resource.Style.Test_Widget_MaterialComponents_MaterialCalendar_Day;
+			global::Syncfusion.XForms.Android.ComboBox.Resource.Style.Test_Widget_MaterialComponents_MaterialCalendar_Day_Selected = global::NutritionApp.Droid.Resource.Style.Test_Widget_MaterialComponents_MaterialCalendar_Day_Selected;
+			global::Syncfusion.XForms.Android.ComboBox.Resource.Style.TextAppearance_AppCompat = global::NutritionApp.Droid.Resource.Style.TextAppearance_AppCompat;
+			global::Syncfusion.XForms.Android.ComboBox.Resource.Style.TextAppearance_AppCompat_Body1 = global::NutritionApp.Droid.Resource.Style.TextAppearance_AppCompat_Body1;
+			global::Syncfusion.XForms.Android.ComboBox.Resource.Style.TextAppearance_AppCompat_Body2 = global::NutritionApp.Droid.Resource.Style.TextAppearance_AppCompat_Body2;
+			global::Syncfusion.XForms.Android.ComboBox.Resource.Style.TextAppearance_AppCompat_Button = global::NutritionApp.Droid.Resource.Style.TextAppearance_AppCompat_Button;
+			global::Syncfusion.XForms.Android.ComboBox.Resource.Style.TextAppearance_AppCompat_Caption = global::NutritionApp.Droid.Resource.Style.TextAppearance_AppCompat_Caption;
+			global::Syncfusion.XForms.Android.ComboBox.Resource.Style.TextAppearance_AppCompat_Display1 = global::NutritionApp.Droid.Resource.Style.TextAppearance_AppCompat_Display1;
+			global::Syncfusion.XForms.Android.ComboBox.Resource.Style.TextAppearance_AppCompat_Display2 = global::NutritionApp.Droid.Resource.Style.TextAppearance_AppCompat_Display2;
+			global::Syncfusion.XForms.Android.ComboBox.Resource.Style.TextAppearance_AppCompat_Display3 = global::NutritionApp.Droid.Resource.Style.TextAppearance_AppCompat_Display3;
+			global::Syncfusion.XForms.Android.ComboBox.Resource.Style.TextAppearance_AppCompat_Display4 = global::NutritionApp.Droid.Resource.Style.TextAppearance_AppCompat_Display4;
+			global::Syncfusion.XForms.Android.ComboBox.Resource.Style.TextAppearance_AppCompat_Headline = global::NutritionApp.Droid.Resource.Style.TextAppearance_AppCompat_Headline;
+			global::Syncfusion.XForms.Android.ComboBox.Resource.Style.TextAppearance_AppCompat_Inverse = global::NutritionApp.Droid.Resource.Style.TextAppearance_AppCompat_Inverse;
+			global::Syncfusion.XForms.Android.ComboBox.Resource.Style.TextAppearance_AppCompat_Large = global::NutritionApp.Droid.Resource.Style.TextAppearance_AppCompat_Large;
+			global::Syncfusion.XForms.Android.ComboBox.Resource.Style.TextAppearance_AppCompat_Large_Inverse = global::NutritionApp.Droid.Resource.Style.TextAppearance_AppCompat_Large_Inverse;
+			global::Syncfusion.XForms.Android.ComboBox.Resource.Style.TextAppearance_AppCompat_Light_SearchResult_Subtitle = global::NutritionApp.Droid.Resource.Style.TextAppearance_AppCompat_Light_SearchResult_Subtitle;
+			global::Syncfusion.XForms.Android.ComboBox.Resource.Style.TextAppearance_AppCompat_Light_SearchResult_Title = global::NutritionApp.Droid.Resource.Style.TextAppearance_AppCompat_Light_SearchResult_Title;
+			global::Syncfusion.XForms.Android.ComboBox.Resource.Style.TextAppearance_AppCompat_Light_Widget_PopupMenu_Large = global::NutritionApp.Droid.Resource.Style.TextAppearance_AppCompat_Light_Widget_PopupMenu_Large;
+			global::Syncfusion.XForms.Android.ComboBox.Resource.Style.TextAppearance_AppCompat_Light_Widget_PopupMenu_Small = global::NutritionApp.Droid.Resource.Style.TextAppearance_AppCompat_Light_Widget_PopupMenu_Small;
+			global::Syncfusion.XForms.Android.ComboBox.Resource.Style.TextAppearance_AppCompat_Medium = global::NutritionApp.Droid.Resource.Style.TextAppearance_AppCompat_Medium;
+			global::Syncfusion.XForms.Android.ComboBox.Resource.Style.TextAppearance_AppCompat_Medium_Inverse = global::NutritionApp.Droid.Resource.Style.TextAppearance_AppCompat_Medium_Inverse;
+			global::Syncfusion.XForms.Android.ComboBox.Resource.Style.TextAppearance_AppCompat_Menu = global::NutritionApp.Droid.Resource.Style.TextAppearance_AppCompat_Menu;
+			global::Syncfusion.XForms.Android.ComboBox.Resource.Style.TextAppearance_AppCompat_SearchResult_Subtitle = global::NutritionApp.Droid.Resource.Style.TextAppearance_AppCompat_SearchResult_Subtitle;
+			global::Syncfusion.XForms.Android.ComboBox.Resource.Style.TextAppearance_AppCompat_SearchResult_Title = global::NutritionApp.Droid.Resource.Style.TextAppearance_AppCompat_SearchResult_Title;
+			global::Syncfusion.XForms.Android.ComboBox.Resource.Style.TextAppearance_AppCompat_Small = global::NutritionApp.Droid.Resource.Style.TextAppearance_AppCompat_Small;
+			global::Syncfusion.XForms.Android.ComboBox.Resource.Style.TextAppearance_AppCompat_Small_Inverse = global::NutritionApp.Droid.Resource.Style.TextAppearance_AppCompat_Small_Inverse;
+			global::Syncfusion.XForms.Android.ComboBox.Resource.Style.TextAppearance_AppCompat_Subhead = global::NutritionApp.Droid.Resource.Style.TextAppearance_AppCompat_Subhead;
+			global::Syncfusion.XForms.Android.ComboBox.Resource.Style.TextAppearance_AppCompat_Subhead_Inverse = global::NutritionApp.Droid.Resource.Style.TextAppearance_AppCompat_Subhead_Inverse;
+			global::Syncfusion.XForms.Android.ComboBox.Resource.Style.TextAppearance_AppCompat_Title = global::NutritionApp.Droid.Resource.Style.TextAppearance_AppCompat_Title;
+			global::Syncfusion.XForms.Android.ComboBox.Resource.Style.TextAppearance_AppCompat_Title_Inverse = global::NutritionApp.Droid.Resource.Style.TextAppearance_AppCompat_Title_Inverse;
+			global::Syncfusion.XForms.Android.ComboBox.Resource.Style.TextAppearance_AppCompat_Tooltip = global::NutritionApp.Droid.Resource.Style.TextAppearance_AppCompat_Tooltip;
+			global::Syncfusion.XForms.Android.ComboBox.Resource.Style.TextAppearance_AppCompat_Widget_ActionBar_Menu = global::NutritionApp.Droid.Resource.Style.TextAppearance_AppCompat_Widget_ActionBar_Menu;
+			global::Syncfusion.XForms.Android.ComboBox.Resource.Style.TextAppearance_AppCompat_Widget_ActionBar_Subtitle = global::NutritionApp.Droid.Resource.Style.TextAppearance_AppCompat_Widget_ActionBar_Subtitle;
+			global::Syncfusion.XForms.Android.ComboBox.Resource.Style.TextAppearance_AppCompat_Widget_ActionBar_Subtitle_Inverse = global::NutritionApp.Droid.Resource.Style.TextAppearance_AppCompat_Widget_ActionBar_Subtitle_Inverse;
+			global::Syncfusion.XForms.Android.ComboBox.Resource.Style.TextAppearance_AppCompat_Widget_ActionBar_Title = global::NutritionApp.Droid.Resource.Style.TextAppearance_AppCompat_Widget_ActionBar_Title;
+			global::Syncfusion.XForms.Android.ComboBox.Resource.Style.TextAppearance_AppCompat_Widget_ActionBar_Title_Inverse = global::NutritionApp.Droid.Resource.Style.TextAppearance_AppCompat_Widget_ActionBar_Title_Inverse;
+			global::Syncfusion.XForms.Android.ComboBox.Resource.Style.TextAppearance_AppCompat_Widget_ActionMode_Subtitle = global::NutritionApp.Droid.Resource.Style.TextAppearance_AppCompat_Widget_ActionMode_Subtitle;
+			global::Syncfusion.XForms.Android.ComboBox.Resource.Style.TextAppearance_AppCompat_Widget_ActionMode_Subtitle_Inverse = global::NutritionApp.Droid.Resource.Style.TextAppearance_AppCompat_Widget_ActionMode_Subtitle_Inverse;
+			global::Syncfusion.XForms.Android.ComboBox.Resource.Style.TextAppearance_AppCompat_Widget_ActionMode_Title = global::NutritionApp.Droid.Resource.Style.TextAppearance_AppCompat_Widget_ActionMode_Title;
+			global::Syncfusion.XForms.Android.ComboBox.Resource.Style.TextAppearance_AppCompat_Widget_ActionMode_Title_Inverse = global::NutritionApp.Droid.Resource.Style.TextAppearance_AppCompat_Widget_ActionMode_Title_Inverse;
+			global::Syncfusion.XForms.Android.ComboBox.Resource.Style.TextAppearance_AppCompat_Widget_Button = global::NutritionApp.Droid.Resource.Style.TextAppearance_AppCompat_Widget_Button;
+			global::Syncfusion.XForms.Android.ComboBox.Resource.Style.TextAppearance_AppCompat_Widget_Button_Borderless_Colored = global::NutritionApp.Droid.Resource.Style.TextAppearance_AppCompat_Widget_Button_Borderless_Colored;
+			global::Syncfusion.XForms.Android.ComboBox.Resource.Style.TextAppearance_AppCompat_Widget_Button_Colored = global::NutritionApp.Droid.Resource.Style.TextAppearance_AppCompat_Widget_Button_Colored;
+			global::Syncfusion.XForms.Android.ComboBox.Resource.Style.TextAppearance_AppCompat_Widget_Button_Inverse = global::NutritionApp.Droid.Resource.Style.TextAppearance_AppCompat_Widget_Button_Inverse;
+			global::Syncfusion.XForms.Android.ComboBox.Resource.Style.TextAppearance_AppCompat_Widget_DropDownItem = global::NutritionApp.Droid.Resource.Style.TextAppearance_AppCompat_Widget_DropDownItem;
+			global::Syncfusion.XForms.Android.ComboBox.Resource.Style.TextAppearance_AppCompat_Widget_PopupMenu_Header = global::NutritionApp.Droid.Resource.Style.TextAppearance_AppCompat_Widget_PopupMenu_Header;
+			global::Syncfusion.XForms.Android.ComboBox.Resource.Style.TextAppearance_AppCompat_Widget_PopupMenu_Large = global::NutritionApp.Droid.Resource.Style.TextAppearance_AppCompat_Widget_PopupMenu_Large;
+			global::Syncfusion.XForms.Android.ComboBox.Resource.Style.TextAppearance_AppCompat_Widget_PopupMenu_Small = global::NutritionApp.Droid.Resource.Style.TextAppearance_AppCompat_Widget_PopupMenu_Small;
+			global::Syncfusion.XForms.Android.ComboBox.Resource.Style.TextAppearance_AppCompat_Widget_Switch = global::NutritionApp.Droid.Resource.Style.TextAppearance_AppCompat_Widget_Switch;
+			global::Syncfusion.XForms.Android.ComboBox.Resource.Style.TextAppearance_AppCompat_Widget_TextView_SpinnerItem = global::NutritionApp.Droid.Resource.Style.TextAppearance_AppCompat_Widget_TextView_SpinnerItem;
+			global::Syncfusion.XForms.Android.ComboBox.Resource.Style.TextAppearance_Compat_Notification = global::NutritionApp.Droid.Resource.Style.TextAppearance_Compat_Notification;
+			global::Syncfusion.XForms.Android.ComboBox.Resource.Style.TextAppearance_Compat_Notification_Info = global::NutritionApp.Droid.Resource.Style.TextAppearance_Compat_Notification_Info;
+			global::Syncfusion.XForms.Android.ComboBox.Resource.Style.TextAppearance_Compat_Notification_Info_Media = global::NutritionApp.Droid.Resource.Style.TextAppearance_Compat_Notification_Info_Media;
+			global::Syncfusion.XForms.Android.ComboBox.Resource.Style.TextAppearance_Compat_Notification_Line2 = global::NutritionApp.Droid.Resource.Style.TextAppearance_Compat_Notification_Line2;
+			global::Syncfusion.XForms.Android.ComboBox.Resource.Style.TextAppearance_Compat_Notification_Line2_Media = global::NutritionApp.Droid.Resource.Style.TextAppearance_Compat_Notification_Line2_Media;
+			global::Syncfusion.XForms.Android.ComboBox.Resource.Style.TextAppearance_Compat_Notification_Media = global::NutritionApp.Droid.Resource.Style.TextAppearance_Compat_Notification_Media;
+			global::Syncfusion.XForms.Android.ComboBox.Resource.Style.TextAppearance_Compat_Notification_Time = global::NutritionApp.Droid.Resource.Style.TextAppearance_Compat_Notification_Time;
+			global::Syncfusion.XForms.Android.ComboBox.Resource.Style.TextAppearance_Compat_Notification_Time_Media = global::NutritionApp.Droid.Resource.Style.TextAppearance_Compat_Notification_Time_Media;
+			global::Syncfusion.XForms.Android.ComboBox.Resource.Style.TextAppearance_Compat_Notification_Title = global::NutritionApp.Droid.Resource.Style.TextAppearance_Compat_Notification_Title;
+			global::Syncfusion.XForms.Android.ComboBox.Resource.Style.TextAppearance_Compat_Notification_Title_Media = global::NutritionApp.Droid.Resource.Style.TextAppearance_Compat_Notification_Title_Media;
+			global::Syncfusion.XForms.Android.ComboBox.Resource.Style.TextAppearance_Design_CollapsingToolbar_Expanded = global::NutritionApp.Droid.Resource.Style.TextAppearance_Design_CollapsingToolbar_Expanded;
+			global::Syncfusion.XForms.Android.ComboBox.Resource.Style.TextAppearance_Design_Counter = global::NutritionApp.Droid.Resource.Style.TextAppearance_Design_Counter;
+			global::Syncfusion.XForms.Android.ComboBox.Resource.Style.TextAppearance_Design_Counter_Overflow = global::NutritionApp.Droid.Resource.Style.TextAppearance_Design_Counter_Overflow;
+			global::Syncfusion.XForms.Android.ComboBox.Resource.Style.TextAppearance_Design_Error = global::NutritionApp.Droid.Resource.Style.TextAppearance_Design_Error;
+			global::Syncfusion.XForms.Android.ComboBox.Resource.Style.TextAppearance_Design_HelperText = global::NutritionApp.Droid.Resource.Style.TextAppearance_Design_HelperText;
+			global::Syncfusion.XForms.Android.ComboBox.Resource.Style.TextAppearance_Design_Hint = global::NutritionApp.Droid.Resource.Style.TextAppearance_Design_Hint;
+			global::Syncfusion.XForms.Android.ComboBox.Resource.Style.TextAppearance_Design_Placeholder = global::NutritionApp.Droid.Resource.Style.TextAppearance_Design_Placeholder;
+			global::Syncfusion.XForms.Android.ComboBox.Resource.Style.TextAppearance_Design_Prefix = global::NutritionApp.Droid.Resource.Style.TextAppearance_Design_Prefix;
+			global::Syncfusion.XForms.Android.ComboBox.Resource.Style.TextAppearance_Design_Snackbar_Message = global::NutritionApp.Droid.Resource.Style.TextAppearance_Design_Snackbar_Message;
+			global::Syncfusion.XForms.Android.ComboBox.Resource.Style.TextAppearance_Design_Suffix = global::NutritionApp.Droid.Resource.Style.TextAppearance_Design_Suffix;
+			global::Syncfusion.XForms.Android.ComboBox.Resource.Style.TextAppearance_Design_Tab = global::NutritionApp.Droid.Resource.Style.TextAppearance_Design_Tab;
+			global::Syncfusion.XForms.Android.ComboBox.Resource.Style.TextAppearance_MaterialComponents_Badge = global::NutritionApp.Droid.Resource.Style.TextAppearance_MaterialComponents_Badge;
+			global::Syncfusion.XForms.Android.ComboBox.Resource.Style.TextAppearance_MaterialComponents_Body1 = global::NutritionApp.Droid.Resource.Style.TextAppearance_MaterialComponents_Body1;
+			global::Syncfusion.XForms.Android.ComboBox.Resource.Style.TextAppearance_MaterialComponents_Body2 = global::NutritionApp.Droid.Resource.Style.TextAppearance_MaterialComponents_Body2;
+			global::Syncfusion.XForms.Android.ComboBox.Resource.Style.TextAppearance_MaterialComponents_Button = global::NutritionApp.Droid.Resource.Style.TextAppearance_MaterialComponents_Button;
+			global::Syncfusion.XForms.Android.ComboBox.Resource.Style.TextAppearance_MaterialComponents_Caption = global::NutritionApp.Droid.Resource.Style.TextAppearance_MaterialComponents_Caption;
+			global::Syncfusion.XForms.Android.ComboBox.Resource.Style.TextAppearance_MaterialComponents_Chip = global::NutritionApp.Droid.Resource.Style.TextAppearance_MaterialComponents_Chip;
+			global::Syncfusion.XForms.Android.ComboBox.Resource.Style.TextAppearance_MaterialComponents_Headline1 = global::NutritionApp.Droid.Resource.Style.TextAppearance_MaterialComponents_Headline1;
+			global::Syncfusion.XForms.Android.ComboBox.Resource.Style.TextAppearance_MaterialComponents_Headline2 = global::NutritionApp.Droid.Resource.Style.TextAppearance_MaterialComponents_Headline2;
+			global::Syncfusion.XForms.Android.ComboBox.Resource.Style.TextAppearance_MaterialComponents_Headline3 = global::NutritionApp.Droid.Resource.Style.TextAppearance_MaterialComponents_Headline3;
+			global::Syncfusion.XForms.Android.ComboBox.Resource.Style.TextAppearance_MaterialComponents_Headline4 = global::NutritionApp.Droid.Resource.Style.TextAppearance_MaterialComponents_Headline4;
+			global::Syncfusion.XForms.Android.ComboBox.Resource.Style.TextAppearance_MaterialComponents_Headline5 = global::NutritionApp.Droid.Resource.Style.TextAppearance_MaterialComponents_Headline5;
+			global::Syncfusion.XForms.Android.ComboBox.Resource.Style.TextAppearance_MaterialComponents_Headline6 = global::NutritionApp.Droid.Resource.Style.TextAppearance_MaterialComponents_Headline6;
+			global::Syncfusion.XForms.Android.ComboBox.Resource.Style.TextAppearance_MaterialComponents_Overline = global::NutritionApp.Droid.Resource.Style.TextAppearance_MaterialComponents_Overline;
+			global::Syncfusion.XForms.Android.ComboBox.Resource.Style.TextAppearance_MaterialComponents_Subtitle1 = global::NutritionApp.Droid.Resource.Style.TextAppearance_MaterialComponents_Subtitle1;
+			global::Syncfusion.XForms.Android.ComboBox.Resource.Style.TextAppearance_MaterialComponents_Subtitle2 = global::NutritionApp.Droid.Resource.Style.TextAppearance_MaterialComponents_Subtitle2;
+			global::Syncfusion.XForms.Android.ComboBox.Resource.Style.TextAppearance_MaterialComponents_Tooltip = global::NutritionApp.Droid.Resource.Style.TextAppearance_MaterialComponents_Tooltip;
+			global::Syncfusion.XForms.Android.ComboBox.Resource.Style.TextAppearance_Widget_AppCompat_ExpandedMenu_Item = global::NutritionApp.Droid.Resource.Style.TextAppearance_Widget_AppCompat_ExpandedMenu_Item;
+			global::Syncfusion.XForms.Android.ComboBox.Resource.Style.TextAppearance_Widget_AppCompat_Toolbar_Subtitle = global::NutritionApp.Droid.Resource.Style.TextAppearance_Widget_AppCompat_Toolbar_Subtitle;
+			global::Syncfusion.XForms.Android.ComboBox.Resource.Style.TextAppearance_Widget_AppCompat_Toolbar_Title = global::NutritionApp.Droid.Resource.Style.TextAppearance_Widget_AppCompat_Toolbar_Title;
+			global::Syncfusion.XForms.Android.ComboBox.Resource.Style.ThemeOverlayColorAccentRed = global::NutritionApp.Droid.Resource.Style.ThemeOverlayColorAccentRed;
+			global::Syncfusion.XForms.Android.ComboBox.Resource.Style.ThemeOverlay_AppCompat = global::NutritionApp.Droid.Resource.Style.ThemeOverlay_AppCompat;
+			global::Syncfusion.XForms.Android.ComboBox.Resource.Style.ThemeOverlay_AppCompat_ActionBar = global::NutritionApp.Droid.Resource.Style.ThemeOverlay_AppCompat_ActionBar;
+			global::Syncfusion.XForms.Android.ComboBox.Resource.Style.ThemeOverlay_AppCompat_Dark = global::NutritionApp.Droid.Resource.Style.ThemeOverlay_AppCompat_Dark;
+			global::Syncfusion.XForms.Android.ComboBox.Resource.Style.ThemeOverlay_AppCompat_Dark_ActionBar = global::NutritionApp.Droid.Resource.Style.ThemeOverlay_AppCompat_Dark_ActionBar;
+			global::Syncfusion.XForms.Android.ComboBox.Resource.Style.ThemeOverlay_AppCompat_DayNight = global::NutritionApp.Droid.Resource.Style.ThemeOverlay_AppCompat_DayNight;
+			global::Syncfusion.XForms.Android.ComboBox.Resource.Style.ThemeOverlay_AppCompat_DayNight_ActionBar = global::NutritionApp.Droid.Resource.Style.ThemeOverlay_AppCompat_DayNight_ActionBar;
+			global::Syncfusion.XForms.Android.ComboBox.Resource.Style.ThemeOverlay_AppCompat_Dialog = global::NutritionApp.Droid.Resource.Style.ThemeOverlay_AppCompat_Dialog;
+			global::Syncfusion.XForms.Android.ComboBox.Resource.Style.ThemeOverlay_AppCompat_Dialog_Alert = global::NutritionApp.Droid.Resource.Style.ThemeOverlay_AppCompat_Dialog_Alert;
+			global::Syncfusion.XForms.Android.ComboBox.Resource.Style.ThemeOverlay_AppCompat_Light = global::NutritionApp.Droid.Resource.Style.ThemeOverlay_AppCompat_Light;
+			global::Syncfusion.XForms.Android.ComboBox.Resource.Style.ThemeOverlay_Design_TextInputEditText = global::NutritionApp.Droid.Resource.Style.ThemeOverlay_Design_TextInputEditText;
+			global::Syncfusion.XForms.Android.ComboBox.Resource.Style.ThemeOverlay_MaterialComponents = global::NutritionApp.Droid.Resource.Style.ThemeOverlay_MaterialComponents;
+			global::Syncfusion.XForms.Android.ComboBox.Resource.Style.ThemeOverlay_MaterialComponents_ActionBar = global::NutritionApp.Droid.Resource.Style.ThemeOverlay_MaterialComponents_ActionBar;
+			global::Syncfusion.XForms.Android.ComboBox.Resource.Style.ThemeOverlay_MaterialComponents_ActionBar_Primary = global::NutritionApp.Droid.Resource.Style.ThemeOverlay_MaterialComponents_ActionBar_Primary;
+			global::Syncfusion.XForms.Android.ComboBox.Resource.Style.ThemeOverlay_MaterialComponents_ActionBar_Surface = global::NutritionApp.Droid.Resource.Style.ThemeOverlay_MaterialComponents_ActionBar_Surface;
+			global::Syncfusion.XForms.Android.ComboBox.Resource.Style.ThemeOverlay_MaterialComponents_AutoCompleteTextView = global::NutritionApp.Droid.Resource.Style.ThemeOverlay_MaterialComponents_AutoCompleteTextView;
+			global::Syncfusion.XForms.Android.ComboBox.Resource.Style.ThemeOverlay_MaterialComponents_AutoCompleteTextView_FilledBox = global::NutritionApp.Droid.Resource.Style.ThemeOverlay_MaterialComponents_AutoCompleteTextView_FilledBox;
+			global::Syncfusion.XForms.Android.ComboBox.Resource.Style.ThemeOverlay_MaterialComponents_AutoCompleteTextView_FilledBox_Dense = global::NutritionApp.Droid.Resource.Style.ThemeOverlay_MaterialComponents_AutoCompleteTextView_FilledBox_Dense;
+			global::Syncfusion.XForms.Android.ComboBox.Resource.Style.ThemeOverlay_MaterialComponents_AutoCompleteTextView_OutlinedBox = global::NutritionApp.Droid.Resource.Style.ThemeOverlay_MaterialComponents_AutoCompleteTextView_OutlinedBox;
+			global::Syncfusion.XForms.Android.ComboBox.Resource.Style.ThemeOverlay_MaterialComponents_AutoCompleteTextView_OutlinedBox_Dense = global::NutritionApp.Droid.Resource.Style.ThemeOverlay_MaterialComponents_AutoCompleteTextView_OutlinedBox_Dense;
+			global::Syncfusion.XForms.Android.ComboBox.Resource.Style.ThemeOverlay_MaterialComponents_BottomAppBar_Primary = global::NutritionApp.Droid.Resource.Style.ThemeOverlay_MaterialComponents_BottomAppBar_Primary;
+			global::Syncfusion.XForms.Android.ComboBox.Resource.Style.ThemeOverlay_MaterialComponents_BottomAppBar_Surface = global::NutritionApp.Droid.Resource.Style.ThemeOverlay_MaterialComponents_BottomAppBar_Surface;
+			global::Syncfusion.XForms.Android.ComboBox.Resource.Style.ThemeOverlay_MaterialComponents_BottomSheetDialog = global::NutritionApp.Droid.Resource.Style.ThemeOverlay_MaterialComponents_BottomSheetDialog;
+			global::Syncfusion.XForms.Android.ComboBox.Resource.Style.ThemeOverlay_MaterialComponents_Dark = global::NutritionApp.Droid.Resource.Style.ThemeOverlay_MaterialComponents_Dark;
+			global::Syncfusion.XForms.Android.ComboBox.Resource.Style.ThemeOverlay_MaterialComponents_Dark_ActionBar = global::NutritionApp.Droid.Resource.Style.ThemeOverlay_MaterialComponents_Dark_ActionBar;
+			global::Syncfusion.XForms.Android.ComboBox.Resource.Style.ThemeOverlay_MaterialComponents_DayNight_BottomSheetDialog = global::NutritionApp.Droid.Resource.Style.ThemeOverlay_MaterialComponents_DayNight_BottomSheetDialog;
+			global::Syncfusion.XForms.Android.ComboBox.Resource.Style.ThemeOverlay_MaterialComponents_Dialog = global::NutritionApp.Droid.Resource.Style.ThemeOverlay_MaterialComponents_Dialog;
+			global::Syncfusion.XForms.Android.ComboBox.Resource.Style.ThemeOverlay_MaterialComponents_Dialog_Alert = global::NutritionApp.Droid.Resource.Style.ThemeOverlay_MaterialComponents_Dialog_Alert;
+			global::Syncfusion.XForms.Android.ComboBox.Resource.Style.ThemeOverlay_MaterialComponents_Dialog_Alert_Framework = global::NutritionApp.Droid.Resource.Style.ThemeOverlay_MaterialComponents_Dialog_Alert_Framework;
+			global::Syncfusion.XForms.Android.ComboBox.Resource.Style.ThemeOverlay_MaterialComponents_Light = global::NutritionApp.Droid.Resource.Style.ThemeOverlay_MaterialComponents_Light;
+			global::Syncfusion.XForms.Android.ComboBox.Resource.Style.ThemeOverlay_MaterialComponents_Light_Dialog_Alert_Framework = global::NutritionApp.Droid.Resource.Style.ThemeOverlay_MaterialComponents_Light_Dialog_Alert_Framework;
+			global::Syncfusion.XForms.Android.ComboBox.Resource.Style.ThemeOverlay_MaterialComponents_MaterialAlertDialog = global::NutritionApp.Droid.Resource.Style.ThemeOverlay_MaterialComponents_MaterialAlertDialog;
+			global::Syncfusion.XForms.Android.ComboBox.Resource.Style.ThemeOverlay_MaterialComponents_MaterialAlertDialog_Centered = global::NutritionApp.Droid.Resource.Style.ThemeOverlay_MaterialComponents_MaterialAlertDialog_Centered;
+			global::Syncfusion.XForms.Android.ComboBox.Resource.Style.ThemeOverlay_MaterialComponents_MaterialAlertDialog_Picker_Date = global::NutritionApp.Droid.Resource.Style.ThemeOverlay_MaterialComponents_MaterialAlertDialog_Picker_Date;
+			global::Syncfusion.XForms.Android.ComboBox.Resource.Style.ThemeOverlay_MaterialComponents_MaterialAlertDialog_Picker_Date_Calendar = global::NutritionApp.Droid.Resource.Style.ThemeOverlay_MaterialComponents_MaterialAlertDialog_Picker_Date_Calendar;
+			global::Syncfusion.XForms.Android.ComboBox.Resource.Style.ThemeOverlay_MaterialComponents_MaterialAlertDialog_Picker_Date_Header_Text = global::NutritionApp.Droid.Resource.Style.ThemeOverlay_MaterialComponents_MaterialAlertDialog_Picker_Date_Header_Text;
+			global::Syncfusion.XForms.Android.ComboBox.Resource.Style.ThemeOverlay_MaterialComponents_MaterialAlertDialog_Picker_Date_Header_Text_Day = global::NutritionApp.Droid.Resource.Style.ThemeOverlay_MaterialComponents_MaterialAlertDialog_Picker_Date_Header_Text_Day;
+			global::Syncfusion.XForms.Android.ComboBox.Resource.Style.ThemeOverlay_MaterialComponents_MaterialAlertDialog_Picker_Date_Spinner = global::NutritionApp.Droid.Resource.Style.ThemeOverlay_MaterialComponents_MaterialAlertDialog_Picker_Date_Spinner;
+			global::Syncfusion.XForms.Android.ComboBox.Resource.Style.ThemeOverlay_MaterialComponents_MaterialCalendar = global::NutritionApp.Droid.Resource.Style.ThemeOverlay_MaterialComponents_MaterialCalendar;
+			global::Syncfusion.XForms.Android.ComboBox.Resource.Style.ThemeOverlay_MaterialComponents_MaterialCalendar_Fullscreen = global::NutritionApp.Droid.Resource.Style.ThemeOverlay_MaterialComponents_MaterialCalendar_Fullscreen;
+			global::Syncfusion.XForms.Android.ComboBox.Resource.Style.ThemeOverlay_MaterialComponents_TextInputEditText = global::NutritionApp.Droid.Resource.Style.ThemeOverlay_MaterialComponents_TextInputEditText;
+			global::Syncfusion.XForms.Android.ComboBox.Resource.Style.ThemeOverlay_MaterialComponents_TextInputEditText_FilledBox = global::NutritionApp.Droid.Resource.Style.ThemeOverlay_MaterialComponents_TextInputEditText_FilledBox;
+			global::Syncfusion.XForms.Android.ComboBox.Resource.Style.ThemeOverlay_MaterialComponents_TextInputEditText_FilledBox_Dense = global::NutritionApp.Droid.Resource.Style.ThemeOverlay_MaterialComponents_TextInputEditText_FilledBox_Dense;
+			global::Syncfusion.XForms.Android.ComboBox.Resource.Style.ThemeOverlay_MaterialComponents_TextInputEditText_OutlinedBox = global::NutritionApp.Droid.Resource.Style.ThemeOverlay_MaterialComponents_TextInputEditText_OutlinedBox;
+			global::Syncfusion.XForms.Android.ComboBox.Resource.Style.ThemeOverlay_MaterialComponents_TextInputEditText_OutlinedBox_Dense = global::NutritionApp.Droid.Resource.Style.ThemeOverlay_MaterialComponents_TextInputEditText_OutlinedBox_Dense;
+			global::Syncfusion.XForms.Android.ComboBox.Resource.Style.ThemeOverlay_MaterialComponents_Toolbar_Primary = global::NutritionApp.Droid.Resource.Style.ThemeOverlay_MaterialComponents_Toolbar_Primary;
+			global::Syncfusion.XForms.Android.ComboBox.Resource.Style.ThemeOverlay_MaterialComponents_Toolbar_Surface = global::NutritionApp.Droid.Resource.Style.ThemeOverlay_MaterialComponents_Toolbar_Surface;
+			global::Syncfusion.XForms.Android.ComboBox.Resource.Style.Theme_AppCompat = global::NutritionApp.Droid.Resource.Style.Theme_AppCompat;
+			global::Syncfusion.XForms.Android.ComboBox.Resource.Style.Theme_AppCompat_CompactMenu = global::NutritionApp.Droid.Resource.Style.Theme_AppCompat_CompactMenu;
+			global::Syncfusion.XForms.Android.ComboBox.Resource.Style.Theme_AppCompat_DayNight = global::NutritionApp.Droid.Resource.Style.Theme_AppCompat_DayNight;
+			global::Syncfusion.XForms.Android.ComboBox.Resource.Style.Theme_AppCompat_DayNight_DarkActionBar = global::NutritionApp.Droid.Resource.Style.Theme_AppCompat_DayNight_DarkActionBar;
+			global::Syncfusion.XForms.Android.ComboBox.Resource.Style.Theme_AppCompat_DayNight_Dialog = global::NutritionApp.Droid.Resource.Style.Theme_AppCompat_DayNight_Dialog;
+			global::Syncfusion.XForms.Android.ComboBox.Resource.Style.Theme_AppCompat_DayNight_DialogWhenLarge = global::NutritionApp.Droid.Resource.Style.Theme_AppCompat_DayNight_DialogWhenLarge;
+			global::Syncfusion.XForms.Android.ComboBox.Resource.Style.Theme_AppCompat_DayNight_Dialog_Alert = global::NutritionApp.Droid.Resource.Style.Theme_AppCompat_DayNight_Dialog_Alert;
+			global::Syncfusion.XForms.Android.ComboBox.Resource.Style.Theme_AppCompat_DayNight_Dialog_MinWidth = global::NutritionApp.Droid.Resource.Style.Theme_AppCompat_DayNight_Dialog_MinWidth;
+			global::Syncfusion.XForms.Android.ComboBox.Resource.Style.Theme_AppCompat_DayNight_NoActionBar = global::NutritionApp.Droid.Resource.Style.Theme_AppCompat_DayNight_NoActionBar;
+			global::Syncfusion.XForms.Android.ComboBox.Resource.Style.Theme_AppCompat_Dialog = global::NutritionApp.Droid.Resource.Style.Theme_AppCompat_Dialog;
+			global::Syncfusion.XForms.Android.ComboBox.Resource.Style.Theme_AppCompat_DialogWhenLarge = global::NutritionApp.Droid.Resource.Style.Theme_AppCompat_DialogWhenLarge;
+			global::Syncfusion.XForms.Android.ComboBox.Resource.Style.Theme_AppCompat_Dialog_Alert = global::NutritionApp.Droid.Resource.Style.Theme_AppCompat_Dialog_Alert;
+			global::Syncfusion.XForms.Android.ComboBox.Resource.Style.Theme_AppCompat_Dialog_MinWidth = global::NutritionApp.Droid.Resource.Style.Theme_AppCompat_Dialog_MinWidth;
+			global::Syncfusion.XForms.Android.ComboBox.Resource.Style.Theme_AppCompat_Empty = global::NutritionApp.Droid.Resource.Style.Theme_AppCompat_Empty;
+			global::Syncfusion.XForms.Android.ComboBox.Resource.Style.Theme_AppCompat_Light = global::NutritionApp.Droid.Resource.Style.Theme_AppCompat_Light;
+			global::Syncfusion.XForms.Android.ComboBox.Resource.Style.Theme_AppCompat_Light_DarkActionBar = global::NutritionApp.Droid.Resource.Style.Theme_AppCompat_Light_DarkActionBar;
+			global::Syncfusion.XForms.Android.ComboBox.Resource.Style.Theme_AppCompat_Light_Dialog = global::NutritionApp.Droid.Resource.Style.Theme_AppCompat_Light_Dialog;
+			global::Syncfusion.XForms.Android.ComboBox.Resource.Style.Theme_AppCompat_Light_DialogWhenLarge = global::NutritionApp.Droid.Resource.Style.Theme_AppCompat_Light_DialogWhenLarge;
+			global::Syncfusion.XForms.Android.ComboBox.Resource.Style.Theme_AppCompat_Light_Dialog_Alert = global::NutritionApp.Droid.Resource.Style.Theme_AppCompat_Light_Dialog_Alert;
+			global::Syncfusion.XForms.Android.ComboBox.Resource.Style.Theme_AppCompat_Light_Dialog_MinWidth = global::NutritionApp.Droid.Resource.Style.Theme_AppCompat_Light_Dialog_MinWidth;
+			global::Syncfusion.XForms.Android.ComboBox.Resource.Style.Theme_AppCompat_Light_NoActionBar = global::NutritionApp.Droid.Resource.Style.Theme_AppCompat_Light_NoActionBar;
+			global::Syncfusion.XForms.Android.ComboBox.Resource.Style.Theme_AppCompat_NoActionBar = global::NutritionApp.Droid.Resource.Style.Theme_AppCompat_NoActionBar;
+			global::Syncfusion.XForms.Android.ComboBox.Resource.Style.Theme_Design = global::NutritionApp.Droid.Resource.Style.Theme_Design;
+			global::Syncfusion.XForms.Android.ComboBox.Resource.Style.Theme_Design_BottomSheetDialog = global::NutritionApp.Droid.Resource.Style.Theme_Design_BottomSheetDialog;
+			global::Syncfusion.XForms.Android.ComboBox.Resource.Style.Theme_Design_Light = global::NutritionApp.Droid.Resource.Style.Theme_Design_Light;
+			global::Syncfusion.XForms.Android.ComboBox.Resource.Style.Theme_Design_Light_BottomSheetDialog = global::NutritionApp.Droid.Resource.Style.Theme_Design_Light_BottomSheetDialog;
+			global::Syncfusion.XForms.Android.ComboBox.Resource.Style.Theme_Design_Light_NoActionBar = global::NutritionApp.Droid.Resource.Style.Theme_Design_Light_NoActionBar;
+			global::Syncfusion.XForms.Android.ComboBox.Resource.Style.Theme_Design_NoActionBar = global::NutritionApp.Droid.Resource.Style.Theme_Design_NoActionBar;
+			global::Syncfusion.XForms.Android.ComboBox.Resource.Style.Theme_MaterialComponents = global::NutritionApp.Droid.Resource.Style.Theme_MaterialComponents;
+			global::Syncfusion.XForms.Android.ComboBox.Resource.Style.Theme_MaterialComponents_BottomSheetDialog = global::NutritionApp.Droid.Resource.Style.Theme_MaterialComponents_BottomSheetDialog;
+			global::Syncfusion.XForms.Android.ComboBox.Resource.Style.Theme_MaterialComponents_Bridge = global::NutritionApp.Droid.Resource.Style.Theme_MaterialComponents_Bridge;
+			global::Syncfusion.XForms.Android.ComboBox.Resource.Style.Theme_MaterialComponents_CompactMenu = global::NutritionApp.Droid.Resource.Style.Theme_MaterialComponents_CompactMenu;
+			global::Syncfusion.XForms.Android.ComboBox.Resource.Style.Theme_MaterialComponents_DayNight = global::NutritionApp.Droid.Resource.Style.Theme_MaterialComponents_DayNight;
+			global::Syncfusion.XForms.Android.ComboBox.Resource.Style.Theme_MaterialComponents_DayNight_BottomSheetDialog = global::NutritionApp.Droid.Resource.Style.Theme_MaterialComponents_DayNight_BottomSheetDialog;
+			global::Syncfusion.XForms.Android.ComboBox.Resource.Style.Theme_MaterialComponents_DayNight_Bridge = global::NutritionApp.Droid.Resource.Style.Theme_MaterialComponents_DayNight_Bridge;
+			global::Syncfusion.XForms.Android.ComboBox.Resource.Style.Theme_MaterialComponents_DayNight_DarkActionBar = global::NutritionApp.Droid.Resource.Style.Theme_MaterialComponents_DayNight_DarkActionBar;
+			global::Syncfusion.XForms.Android.ComboBox.Resource.Style.Theme_MaterialComponents_DayNight_DarkActionBar_Bridge = global::NutritionApp.Droid.Resource.Style.Theme_MaterialComponents_DayNight_DarkActionBar_Bridge;
+			global::Syncfusion.XForms.Android.ComboBox.Resource.Style.Theme_MaterialComponents_DayNight_Dialog = global::NutritionApp.Droid.Resource.Style.Theme_MaterialComponents_DayNight_Dialog;
+			global::Syncfusion.XForms.Android.ComboBox.Resource.Style.Theme_MaterialComponents_DayNight_DialogWhenLarge = global::NutritionApp.Droid.Resource.Style.Theme_MaterialComponents_DayNight_DialogWhenLarge;
+			global::Syncfusion.XForms.Android.ComboBox.Resource.Style.Theme_MaterialComponents_DayNight_Dialog_Alert = global::NutritionApp.Droid.Resource.Style.Theme_MaterialComponents_DayNight_Dialog_Alert;
+			global::Syncfusion.XForms.Android.ComboBox.Resource.Style.Theme_MaterialComponents_DayNight_Dialog_Alert_Bridge = global::NutritionApp.Droid.Resource.Style.Theme_MaterialComponents_DayNight_Dialog_Alert_Bridge;
+			global::Syncfusion.XForms.Android.ComboBox.Resource.Style.Theme_MaterialComponents_DayNight_Dialog_Bridge = global::NutritionApp.Droid.Resource.Style.Theme_MaterialComponents_DayNight_Dialog_Bridge;
+			global::Syncfusion.XForms.Android.ComboBox.Resource.Style.Theme_MaterialComponents_DayNight_Dialog_FixedSize = global::NutritionApp.Droid.Resource.Style.Theme_MaterialComponents_DayNight_Dialog_FixedSize;
+			global::Syncfusion.XForms.Android.ComboBox.Resource.Style.Theme_MaterialComponents_DayNight_Dialog_FixedSize_Bridge = global::NutritionApp.Droid.Resource.Style.Theme_MaterialComponents_DayNight_Dialog_FixedSize_Bridge;
+			global::Syncfusion.XForms.Android.ComboBox.Resource.Style.Theme_MaterialComponents_DayNight_Dialog_MinWidth = global::NutritionApp.Droid.Resource.Style.Theme_MaterialComponents_DayNight_Dialog_MinWidth;
+			global::Syncfusion.XForms.Android.ComboBox.Resource.Style.Theme_MaterialComponents_DayNight_Dialog_MinWidth_Bridge = global::NutritionApp.Droid.Resource.Style.Theme_MaterialComponents_DayNight_Dialog_MinWidth_Bridge;
+			global::Syncfusion.XForms.Android.ComboBox.Resource.Style.Theme_MaterialComponents_DayNight_NoActionBar = global::NutritionApp.Droid.Resource.Style.Theme_MaterialComponents_DayNight_NoActionBar;
+			global::Syncfusion.XForms.Android.ComboBox.Resource.Style.Theme_MaterialComponents_DayNight_NoActionBar_Bridge = global::NutritionApp.Droid.Resource.Style.Theme_MaterialComponents_DayNight_NoActionBar_Bridge;
+			global::Syncfusion.XForms.Android.ComboBox.Resource.Style.Theme_MaterialComponents_Dialog = global::NutritionApp.Droid.Resource.Style.Theme_MaterialComponents_Dialog;
+			global::Syncfusion.XForms.Android.ComboBox.Resource.Style.Theme_MaterialComponents_DialogWhenLarge = global::NutritionApp.Droid.Resource.Style.Theme_MaterialComponents_DialogWhenLarge;
+			global::Syncfusion.XForms.Android.ComboBox.Resource.Style.Theme_MaterialComponents_Dialog_Alert = global::NutritionApp.Droid.Resource.Style.Theme_MaterialComponents_Dialog_Alert;
+			global::Syncfusion.XForms.Android.ComboBox.Resource.Style.Theme_MaterialComponents_Dialog_Alert_Bridge = global::NutritionApp.Droid.Resource.Style.Theme_MaterialComponents_Dialog_Alert_Bridge;
+			global::Syncfusion.XForms.Android.ComboBox.Resource.Style.Theme_MaterialComponents_Dialog_Bridge = global::NutritionApp.Droid.Resource.Style.Theme_MaterialComponents_Dialog_Bridge;
+			global::Syncfusion.XForms.Android.ComboBox.Resource.Style.Theme_MaterialComponents_Dialog_FixedSize = global::NutritionApp.Droid.Resource.Style.Theme_MaterialComponents_Dialog_FixedSize;
+			global::Syncfusion.XForms.Android.ComboBox.Resource.Style.Theme_MaterialComponents_Dialog_FixedSize_Bridge = global::NutritionApp.Droid.Resource.Style.Theme_MaterialComponents_Dialog_FixedSize_Bridge;
+			global::Syncfusion.XForms.Android.ComboBox.Resource.Style.Theme_MaterialComponents_Dialog_MinWidth = global::NutritionApp.Droid.Resource.Style.Theme_MaterialComponents_Dialog_MinWidth;
+			global::Syncfusion.XForms.Android.ComboBox.Resource.Style.Theme_MaterialComponents_Dialog_MinWidth_Bridge = global::NutritionApp.Droid.Resource.Style.Theme_MaterialComponents_Dialog_MinWidth_Bridge;
+			global::Syncfusion.XForms.Android.ComboBox.Resource.Style.Theme_MaterialComponents_Light = global::NutritionApp.Droid.Resource.Style.Theme_MaterialComponents_Light;
+			global::Syncfusion.XForms.Android.ComboBox.Resource.Style.Theme_MaterialComponents_Light_BarSize = global::NutritionApp.Droid.Resource.Style.Theme_MaterialComponents_Light_BarSize;
+			global::Syncfusion.XForms.Android.ComboBox.Resource.Style.Theme_MaterialComponents_Light_BottomSheetDialog = global::NutritionApp.Droid.Resource.Style.Theme_MaterialComponents_Light_BottomSheetDialog;
+			global::Syncfusion.XForms.Android.ComboBox.Resource.Style.Theme_MaterialComponents_Light_Bridge = global::NutritionApp.Droid.Resource.Style.Theme_MaterialComponents_Light_Bridge;
+			global::Syncfusion.XForms.Android.ComboBox.Resource.Style.Theme_MaterialComponents_Light_DarkActionBar = global::NutritionApp.Droid.Resource.Style.Theme_MaterialComponents_Light_DarkActionBar;
+			global::Syncfusion.XForms.Android.ComboBox.Resource.Style.Theme_MaterialComponents_Light_DarkActionBar_Bridge = global::NutritionApp.Droid.Resource.Style.Theme_MaterialComponents_Light_DarkActionBar_Bridge;
+			global::Syncfusion.XForms.Android.ComboBox.Resource.Style.Theme_MaterialComponents_Light_Dialog = global::NutritionApp.Droid.Resource.Style.Theme_MaterialComponents_Light_Dialog;
+			global::Syncfusion.XForms.Android.ComboBox.Resource.Style.Theme_MaterialComponents_Light_DialogWhenLarge = global::NutritionApp.Droid.Resource.Style.Theme_MaterialComponents_Light_DialogWhenLarge;
+			global::Syncfusion.XForms.Android.ComboBox.Resource.Style.Theme_MaterialComponents_Light_Dialog_Alert = global::NutritionApp.Droid.Resource.Style.Theme_MaterialComponents_Light_Dialog_Alert;
+			global::Syncfusion.XForms.Android.ComboBox.Resource.Style.Theme_MaterialComponents_Light_Dialog_Alert_Bridge = global::NutritionApp.Droid.Resource.Style.Theme_MaterialComponents_Light_Dialog_Alert_Bridge;
+			global::Syncfusion.XForms.Android.ComboBox.Resource.Style.Theme_MaterialComponents_Light_Dialog_Bridge = global::NutritionApp.Droid.Resource.Style.Theme_MaterialComponents_Light_Dialog_Bridge;
+			global::Syncfusion.XForms.Android.ComboBox.Resource.Style.Theme_MaterialComponents_Light_Dialog_FixedSize = global::NutritionApp.Droid.Resource.Style.Theme_MaterialComponents_Light_Dialog_FixedSize;
+			global::Syncfusion.XForms.Android.ComboBox.Resource.Style.Theme_MaterialComponents_Light_Dialog_FixedSize_Bridge = global::NutritionApp.Droid.Resource.Style.Theme_MaterialComponents_Light_Dialog_FixedSize_Bridge;
+			global::Syncfusion.XForms.Android.ComboBox.Resource.Style.Theme_MaterialComponents_Light_Dialog_MinWidth = global::NutritionApp.Droid.Resource.Style.Theme_MaterialComponents_Light_Dialog_MinWidth;
+			global::Syncfusion.XForms.Android.ComboBox.Resource.Style.Theme_MaterialComponents_Light_Dialog_MinWidth_Bridge = global::NutritionApp.Droid.Resource.Style.Theme_MaterialComponents_Light_Dialog_MinWidth_Bridge;
+			global::Syncfusion.XForms.Android.ComboBox.Resource.Style.Theme_MaterialComponents_Light_LargeTouch = global::NutritionApp.Droid.Resource.Style.Theme_MaterialComponents_Light_LargeTouch;
+			global::Syncfusion.XForms.Android.ComboBox.Resource.Style.Theme_MaterialComponents_Light_NoActionBar = global::NutritionApp.Droid.Resource.Style.Theme_MaterialComponents_Light_NoActionBar;
+			global::Syncfusion.XForms.Android.ComboBox.Resource.Style.Theme_MaterialComponents_Light_NoActionBar_Bridge = global::NutritionApp.Droid.Resource.Style.Theme_MaterialComponents_Light_NoActionBar_Bridge;
+			global::Syncfusion.XForms.Android.ComboBox.Resource.Style.Theme_MaterialComponents_NoActionBar = global::NutritionApp.Droid.Resource.Style.Theme_MaterialComponents_NoActionBar;
+			global::Syncfusion.XForms.Android.ComboBox.Resource.Style.Theme_MaterialComponents_NoActionBar_Bridge = global::NutritionApp.Droid.Resource.Style.Theme_MaterialComponents_NoActionBar_Bridge;
+			global::Syncfusion.XForms.Android.ComboBox.Resource.Style.Widget_AppCompat_ActionBar = global::NutritionApp.Droid.Resource.Style.Widget_AppCompat_ActionBar;
+			global::Syncfusion.XForms.Android.ComboBox.Resource.Style.Widget_AppCompat_ActionBar_Solid = global::NutritionApp.Droid.Resource.Style.Widget_AppCompat_ActionBar_Solid;
+			global::Syncfusion.XForms.Android.ComboBox.Resource.Style.Widget_AppCompat_ActionBar_TabBar = global::NutritionApp.Droid.Resource.Style.Widget_AppCompat_ActionBar_TabBar;
+			global::Syncfusion.XForms.Android.ComboBox.Resource.Style.Widget_AppCompat_ActionBar_TabText = global::NutritionApp.Droid.Resource.Style.Widget_AppCompat_ActionBar_TabText;
+			global::Syncfusion.XForms.Android.ComboBox.Resource.Style.Widget_AppCompat_ActionBar_TabView = global::NutritionApp.Droid.Resource.Style.Widget_AppCompat_ActionBar_TabView;
+			global::Syncfusion.XForms.Android.ComboBox.Resource.Style.Widget_AppCompat_ActionButton = global::NutritionApp.Droid.Resource.Style.Widget_AppCompat_ActionButton;
+			global::Syncfusion.XForms.Android.ComboBox.Resource.Style.Widget_AppCompat_ActionButton_CloseMode = global::NutritionApp.Droid.Resource.Style.Widget_AppCompat_ActionButton_CloseMode;
+			global::Syncfusion.XForms.Android.ComboBox.Resource.Style.Widget_AppCompat_ActionButton_Overflow = global::NutritionApp.Droid.Resource.Style.Widget_AppCompat_ActionButton_Overflow;
+			global::Syncfusion.XForms.Android.ComboBox.Resource.Style.Widget_AppCompat_ActionMode = global::NutritionApp.Droid.Resource.Style.Widget_AppCompat_ActionMode;
+			global::Syncfusion.XForms.Android.ComboBox.Resource.Style.Widget_AppCompat_ActivityChooserView = global::NutritionApp.Droid.Resource.Style.Widget_AppCompat_ActivityChooserView;
+			global::Syncfusion.XForms.Android.ComboBox.Resource.Style.Widget_AppCompat_AutoCompleteTextView = global::NutritionApp.Droid.Resource.Style.Widget_AppCompat_AutoCompleteTextView;
+			global::Syncfusion.XForms.Android.ComboBox.Resource.Style.Widget_AppCompat_Button = global::NutritionApp.Droid.Resource.Style.Widget_AppCompat_Button;
+			global::Syncfusion.XForms.Android.ComboBox.Resource.Style.Widget_AppCompat_ButtonBar = global::NutritionApp.Droid.Resource.Style.Widget_AppCompat_ButtonBar;
+			global::Syncfusion.XForms.Android.ComboBox.Resource.Style.Widget_AppCompat_ButtonBar_AlertDialog = global::NutritionApp.Droid.Resource.Style.Widget_AppCompat_ButtonBar_AlertDialog;
+			global::Syncfusion.XForms.Android.ComboBox.Resource.Style.Widget_AppCompat_Button_Borderless = global::NutritionApp.Droid.Resource.Style.Widget_AppCompat_Button_Borderless;
+			global::Syncfusion.XForms.Android.ComboBox.Resource.Style.Widget_AppCompat_Button_Borderless_Colored = global::NutritionApp.Droid.Resource.Style.Widget_AppCompat_Button_Borderless_Colored;
+			global::Syncfusion.XForms.Android.ComboBox.Resource.Style.Widget_AppCompat_Button_ButtonBar_AlertDialog = global::NutritionApp.Droid.Resource.Style.Widget_AppCompat_Button_ButtonBar_AlertDialog;
+			global::Syncfusion.XForms.Android.ComboBox.Resource.Style.Widget_AppCompat_Button_Colored = global::NutritionApp.Droid.Resource.Style.Widget_AppCompat_Button_Colored;
+			global::Syncfusion.XForms.Android.ComboBox.Resource.Style.Widget_AppCompat_Button_Small = global::NutritionApp.Droid.Resource.Style.Widget_AppCompat_Button_Small;
+			global::Syncfusion.XForms.Android.ComboBox.Resource.Style.Widget_AppCompat_CompoundButton_CheckBox = global::NutritionApp.Droid.Resource.Style.Widget_AppCompat_CompoundButton_CheckBox;
+			global::Syncfusion.XForms.Android.ComboBox.Resource.Style.Widget_AppCompat_CompoundButton_RadioButton = global::NutritionApp.Droid.Resource.Style.Widget_AppCompat_CompoundButton_RadioButton;
+			global::Syncfusion.XForms.Android.ComboBox.Resource.Style.Widget_AppCompat_CompoundButton_Switch = global::NutritionApp.Droid.Resource.Style.Widget_AppCompat_CompoundButton_Switch;
+			global::Syncfusion.XForms.Android.ComboBox.Resource.Style.Widget_AppCompat_DrawerArrowToggle = global::NutritionApp.Droid.Resource.Style.Widget_AppCompat_DrawerArrowToggle;
+			global::Syncfusion.XForms.Android.ComboBox.Resource.Style.Widget_AppCompat_DropDownItem_Spinner = global::NutritionApp.Droid.Resource.Style.Widget_AppCompat_DropDownItem_Spinner;
+			global::Syncfusion.XForms.Android.ComboBox.Resource.Style.Widget_AppCompat_EditText = global::NutritionApp.Droid.Resource.Style.Widget_AppCompat_EditText;
+			global::Syncfusion.XForms.Android.ComboBox.Resource.Style.Widget_AppCompat_ImageButton = global::NutritionApp.Droid.Resource.Style.Widget_AppCompat_ImageButton;
+			global::Syncfusion.XForms.Android.ComboBox.Resource.Style.Widget_AppCompat_Light_ActionBar = global::NutritionApp.Droid.Resource.Style.Widget_AppCompat_Light_ActionBar;
+			global::Syncfusion.XForms.Android.ComboBox.Resource.Style.Widget_AppCompat_Light_ActionBar_Solid = global::NutritionApp.Droid.Resource.Style.Widget_AppCompat_Light_ActionBar_Solid;
+			global::Syncfusion.XForms.Android.ComboBox.Resource.Style.Widget_AppCompat_Light_ActionBar_Solid_Inverse = global::NutritionApp.Droid.Resource.Style.Widget_AppCompat_Light_ActionBar_Solid_Inverse;
+			global::Syncfusion.XForms.Android.ComboBox.Resource.Style.Widget_AppCompat_Light_ActionBar_TabBar = global::NutritionApp.Droid.Resource.Style.Widget_AppCompat_Light_ActionBar_TabBar;
+			global::Syncfusion.XForms.Android.ComboBox.Resource.Style.Widget_AppCompat_Light_ActionBar_TabBar_Inverse = global::NutritionApp.Droid.Resource.Style.Widget_AppCompat_Light_ActionBar_TabBar_Inverse;
+			global::Syncfusion.XForms.Android.ComboBox.Resource.Style.Widget_AppCompat_Light_ActionBar_TabText = global::NutritionApp.Droid.Resource.Style.Widget_AppCompat_Light_ActionBar_TabText;
+			global::Syncfusion.XForms.Android.ComboBox.Resource.Style.Widget_AppCompat_Light_ActionBar_TabText_Inverse = global::NutritionApp.Droid.Resource.Style.Widget_AppCompat_Light_ActionBar_TabText_Inverse;
+			global::Syncfusion.XForms.Android.ComboBox.Resource.Style.Widget_AppCompat_Light_ActionBar_TabView = global::NutritionApp.Droid.Resource.Style.Widget_AppCompat_Light_ActionBar_TabView;
+			global::Syncfusion.XForms.Android.ComboBox.Resource.Style.Widget_AppCompat_Light_ActionBar_TabView_Inverse = global::NutritionApp.Droid.Resource.Style.Widget_AppCompat_Light_ActionBar_TabView_Inverse;
+			global::Syncfusion.XForms.Android.ComboBox.Resource.Style.Widget_AppCompat_Light_ActionButton = global::NutritionApp.Droid.Resource.Style.Widget_AppCompat_Light_ActionButton;
+			global::Syncfusion.XForms.Android.ComboBox.Resource.Style.Widget_AppCompat_Light_ActionButton_CloseMode = global::NutritionApp.Droid.Resource.Style.Widget_AppCompat_Light_ActionButton_CloseMode;
+			global::Syncfusion.XForms.Android.ComboBox.Resource.Style.Widget_AppCompat_Light_ActionButton_Overflow = global::NutritionApp.Droid.Resource.Style.Widget_AppCompat_Light_ActionButton_Overflow;
+			global::Syncfusion.XForms.Android.ComboBox.Resource.Style.Widget_AppCompat_Light_ActionMode_Inverse = global::NutritionApp.Droid.Resource.Style.Widget_AppCompat_Light_ActionMode_Inverse;
+			global::Syncfusion.XForms.Android.ComboBox.Resource.Style.Widget_AppCompat_Light_ActivityChooserView = global::NutritionApp.Droid.Resource.Style.Widget_AppCompat_Light_ActivityChooserView;
+			global::Syncfusion.XForms.Android.ComboBox.Resource.Style.Widget_AppCompat_Light_AutoCompleteTextView = global::NutritionApp.Droid.Resource.Style.Widget_AppCompat_Light_AutoCompleteTextView;
+			global::Syncfusion.XForms.Android.ComboBox.Resource.Style.Widget_AppCompat_Light_DropDownItem_Spinner = global::NutritionApp.Droid.Resource.Style.Widget_AppCompat_Light_DropDownItem_Spinner;
+			global::Syncfusion.XForms.Android.ComboBox.Resource.Style.Widget_AppCompat_Light_ListPopupWindow = global::NutritionApp.Droid.Resource.Style.Widget_AppCompat_Light_ListPopupWindow;
+			global::Syncfusion.XForms.Android.ComboBox.Resource.Style.Widget_AppCompat_Light_ListView_DropDown = global::NutritionApp.Droid.Resource.Style.Widget_AppCompat_Light_ListView_DropDown;
+			global::Syncfusion.XForms.Android.ComboBox.Resource.Style.Widget_AppCompat_Light_PopupMenu = global::NutritionApp.Droid.Resource.Style.Widget_AppCompat_Light_PopupMenu;
+			global::Syncfusion.XForms.Android.ComboBox.Resource.Style.Widget_AppCompat_Light_PopupMenu_Overflow = global::NutritionApp.Droid.Resource.Style.Widget_AppCompat_Light_PopupMenu_Overflow;
+			global::Syncfusion.XForms.Android.ComboBox.Resource.Style.Widget_AppCompat_Light_SearchView = global::NutritionApp.Droid.Resource.Style.Widget_AppCompat_Light_SearchView;
+			global::Syncfusion.XForms.Android.ComboBox.Resource.Style.Widget_AppCompat_Light_Spinner_DropDown_ActionBar = global::NutritionApp.Droid.Resource.Style.Widget_AppCompat_Light_Spinner_DropDown_ActionBar;
+			global::Syncfusion.XForms.Android.ComboBox.Resource.Style.Widget_AppCompat_ListMenuView = global::NutritionApp.Droid.Resource.Style.Widget_AppCompat_ListMenuView;
+			global::Syncfusion.XForms.Android.ComboBox.Resource.Style.Widget_AppCompat_ListPopupWindow = global::NutritionApp.Droid.Resource.Style.Widget_AppCompat_ListPopupWindow;
+			global::Syncfusion.XForms.Android.ComboBox.Resource.Style.Widget_AppCompat_ListView = global::NutritionApp.Droid.Resource.Style.Widget_AppCompat_ListView;
+			global::Syncfusion.XForms.Android.ComboBox.Resource.Style.Widget_AppCompat_ListView_DropDown = global::NutritionApp.Droid.Resource.Style.Widget_AppCompat_ListView_DropDown;
+			global::Syncfusion.XForms.Android.ComboBox.Resource.Style.Widget_AppCompat_ListView_Menu = global::NutritionApp.Droid.Resource.Style.Widget_AppCompat_ListView_Menu;
+			global::Syncfusion.XForms.Android.ComboBox.Resource.Style.Widget_AppCompat_PopupMenu = global::NutritionApp.Droid.Resource.Style.Widget_AppCompat_PopupMenu;
+			global::Syncfusion.XForms.Android.ComboBox.Resource.Style.Widget_AppCompat_PopupMenu_Overflow = global::NutritionApp.Droid.Resource.Style.Widget_AppCompat_PopupMenu_Overflow;
+			global::Syncfusion.XForms.Android.ComboBox.Resource.Style.Widget_AppCompat_PopupWindow = global::NutritionApp.Droid.Resource.Style.Widget_AppCompat_PopupWindow;
+			global::Syncfusion.XForms.Android.ComboBox.Resource.Style.Widget_AppCompat_ProgressBar = global::NutritionApp.Droid.Resource.Style.Widget_AppCompat_ProgressBar;
+			global::Syncfusion.XForms.Android.ComboBox.Resource.Style.Widget_AppCompat_ProgressBar_Horizontal = global::NutritionApp.Droid.Resource.Style.Widget_AppCompat_ProgressBar_Horizontal;
+			global::Syncfusion.XForms.Android.ComboBox.Resource.Style.Widget_AppCompat_RatingBar = global::NutritionApp.Droid.Resource.Style.Widget_AppCompat_RatingBar;
+			global::Syncfusion.XForms.Android.ComboBox.Resource.Style.Widget_AppCompat_RatingBar_Indicator = global::NutritionApp.Droid.Resource.Style.Widget_AppCompat_RatingBar_Indicator;
+			global::Syncfusion.XForms.Android.ComboBox.Resource.Style.Widget_AppCompat_RatingBar_Small = global::NutritionApp.Droid.Resource.Style.Widget_AppCompat_RatingBar_Small;
+			global::Syncfusion.XForms.Android.ComboBox.Resource.Style.Widget_AppCompat_SearchView = global::NutritionApp.Droid.Resource.Style.Widget_AppCompat_SearchView;
+			global::Syncfusion.XForms.Android.ComboBox.Resource.Style.Widget_AppCompat_SearchView_ActionBar = global::NutritionApp.Droid.Resource.Style.Widget_AppCompat_SearchView_ActionBar;
+			global::Syncfusion.XForms.Android.ComboBox.Resource.Style.Widget_AppCompat_SeekBar = global::NutritionApp.Droid.Resource.Style.Widget_AppCompat_SeekBar;
+			global::Syncfusion.XForms.Android.ComboBox.Resource.Style.Widget_AppCompat_SeekBar_Discrete = global::NutritionApp.Droid.Resource.Style.Widget_AppCompat_SeekBar_Discrete;
+			global::Syncfusion.XForms.Android.ComboBox.Resource.Style.Widget_AppCompat_Spinner = global::NutritionApp.Droid.Resource.Style.Widget_AppCompat_Spinner;
+			global::Syncfusion.XForms.Android.ComboBox.Resource.Style.Widget_AppCompat_Spinner_DropDown = global::NutritionApp.Droid.Resource.Style.Widget_AppCompat_Spinner_DropDown;
+			global::Syncfusion.XForms.Android.ComboBox.Resource.Style.Widget_AppCompat_Spinner_DropDown_ActionBar = global::NutritionApp.Droid.Resource.Style.Widget_AppCompat_Spinner_DropDown_ActionBar;
+			global::Syncfusion.XForms.Android.ComboBox.Resource.Style.Widget_AppCompat_Spinner_Underlined = global::NutritionApp.Droid.Resource.Style.Widget_AppCompat_Spinner_Underlined;
+			global::Syncfusion.XForms.Android.ComboBox.Resource.Style.Widget_AppCompat_TextView = global::NutritionApp.Droid.Resource.Style.Widget_AppCompat_TextView;
+			global::Syncfusion.XForms.Android.ComboBox.Resource.Style.Widget_AppCompat_TextView_SpinnerItem = global::NutritionApp.Droid.Resource.Style.Widget_AppCompat_TextView_SpinnerItem;
+			global::Syncfusion.XForms.Android.ComboBox.Resource.Style.Widget_AppCompat_Toolbar = global::NutritionApp.Droid.Resource.Style.Widget_AppCompat_Toolbar;
+			global::Syncfusion.XForms.Android.ComboBox.Resource.Style.Widget_AppCompat_Toolbar_Button_Navigation = global::NutritionApp.Droid.Resource.Style.Widget_AppCompat_Toolbar_Button_Navigation;
+			global::Syncfusion.XForms.Android.ComboBox.Resource.Style.Widget_Compat_NotificationActionContainer = global::NutritionApp.Droid.Resource.Style.Widget_Compat_NotificationActionContainer;
+			global::Syncfusion.XForms.Android.ComboBox.Resource.Style.Widget_Compat_NotificationActionText = global::NutritionApp.Droid.Resource.Style.Widget_Compat_NotificationActionText;
+			global::Syncfusion.XForms.Android.ComboBox.Resource.Style.Widget_Design_AppBarLayout = global::NutritionApp.Droid.Resource.Style.Widget_Design_AppBarLayout;
+			global::Syncfusion.XForms.Android.ComboBox.Resource.Style.Widget_Design_BottomNavigationView = global::NutritionApp.Droid.Resource.Style.Widget_Design_BottomNavigationView;
+			global::Syncfusion.XForms.Android.ComboBox.Resource.Style.Widget_Design_BottomSheet_Modal = global::NutritionApp.Droid.Resource.Style.Widget_Design_BottomSheet_Modal;
+			global::Syncfusion.XForms.Android.ComboBox.Resource.Style.Widget_Design_CollapsingToolbar = global::NutritionApp.Droid.Resource.Style.Widget_Design_CollapsingToolbar;
+			global::Syncfusion.XForms.Android.ComboBox.Resource.Style.Widget_Design_FloatingActionButton = global::NutritionApp.Droid.Resource.Style.Widget_Design_FloatingActionButton;
+			global::Syncfusion.XForms.Android.ComboBox.Resource.Style.Widget_Design_NavigationView = global::NutritionApp.Droid.Resource.Style.Widget_Design_NavigationView;
+			global::Syncfusion.XForms.Android.ComboBox.Resource.Style.Widget_Design_ScrimInsetsFrameLayout = global::NutritionApp.Droid.Resource.Style.Widget_Design_ScrimInsetsFrameLayout;
+			global::Syncfusion.XForms.Android.ComboBox.Resource.Style.Widget_Design_Snackbar = global::NutritionApp.Droid.Resource.Style.Widget_Design_Snackbar;
+			global::Syncfusion.XForms.Android.ComboBox.Resource.Style.Widget_Design_TabLayout = global::NutritionApp.Droid.Resource.Style.Widget_Design_TabLayout;
+			global::Syncfusion.XForms.Android.ComboBox.Resource.Style.Widget_Design_TextInputEditText = global::NutritionApp.Droid.Resource.Style.Widget_Design_TextInputEditText;
+			global::Syncfusion.XForms.Android.ComboBox.Resource.Style.Widget_Design_TextInputLayout = global::NutritionApp.Droid.Resource.Style.Widget_Design_TextInputLayout;
+			global::Syncfusion.XForms.Android.ComboBox.Resource.Style.Widget_MaterialComponents_ActionBar_Primary = global::NutritionApp.Droid.Resource.Style.Widget_MaterialComponents_ActionBar_Primary;
+			global::Syncfusion.XForms.Android.ComboBox.Resource.Style.Widget_MaterialComponents_ActionBar_PrimarySurface = global::NutritionApp.Droid.Resource.Style.Widget_MaterialComponents_ActionBar_PrimarySurface;
+			global::Syncfusion.XForms.Android.ComboBox.Resource.Style.Widget_MaterialComponents_ActionBar_Solid = global::NutritionApp.Droid.Resource.Style.Widget_MaterialComponents_ActionBar_Solid;
+			global::Syncfusion.XForms.Android.ComboBox.Resource.Style.Widget_MaterialComponents_ActionBar_Surface = global::NutritionApp.Droid.Resource.Style.Widget_MaterialComponents_ActionBar_Surface;
+			global::Syncfusion.XForms.Android.ComboBox.Resource.Style.Widget_MaterialComponents_AppBarLayout_Primary = global::NutritionApp.Droid.Resource.Style.Widget_MaterialComponents_AppBarLayout_Primary;
+			global::Syncfusion.XForms.Android.ComboBox.Resource.Style.Widget_MaterialComponents_AppBarLayout_PrimarySurface = global::NutritionApp.Droid.Resource.Style.Widget_MaterialComponents_AppBarLayout_PrimarySurface;
+			global::Syncfusion.XForms.Android.ComboBox.Resource.Style.Widget_MaterialComponents_AppBarLayout_Surface = global::NutritionApp.Droid.Resource.Style.Widget_MaterialComponents_AppBarLayout_Surface;
+			global::Syncfusion.XForms.Android.ComboBox.Resource.Style.Widget_MaterialComponents_AutoCompleteTextView_FilledBox = global::NutritionApp.Droid.Resource.Style.Widget_MaterialComponents_AutoCompleteTextView_FilledBox;
+			global::Syncfusion.XForms.Android.ComboBox.Resource.Style.Widget_MaterialComponents_AutoCompleteTextView_FilledBox_Dense = global::NutritionApp.Droid.Resource.Style.Widget_MaterialComponents_AutoCompleteTextView_FilledBox_Dense;
+			global::Syncfusion.XForms.Android.ComboBox.Resource.Style.Widget_MaterialComponents_AutoCompleteTextView_OutlinedBox = global::NutritionApp.Droid.Resource.Style.Widget_MaterialComponents_AutoCompleteTextView_OutlinedBox;
+			global::Syncfusion.XForms.Android.ComboBox.Resource.Style.Widget_MaterialComponents_AutoCompleteTextView_OutlinedBox_Dense = global::NutritionApp.Droid.Resource.Style.Widget_MaterialComponents_AutoCompleteTextView_OutlinedBox_Dense;
+			global::Syncfusion.XForms.Android.ComboBox.Resource.Style.Widget_MaterialComponents_Badge = global::NutritionApp.Droid.Resource.Style.Widget_MaterialComponents_Badge;
+			global::Syncfusion.XForms.Android.ComboBox.Resource.Style.Widget_MaterialComponents_BottomAppBar = global::NutritionApp.Droid.Resource.Style.Widget_MaterialComponents_BottomAppBar;
+			global::Syncfusion.XForms.Android.ComboBox.Resource.Style.Widget_MaterialComponents_BottomAppBar_Colored = global::NutritionApp.Droid.Resource.Style.Widget_MaterialComponents_BottomAppBar_Colored;
+			global::Syncfusion.XForms.Android.ComboBox.Resource.Style.Widget_MaterialComponents_BottomAppBar_PrimarySurface = global::NutritionApp.Droid.Resource.Style.Widget_MaterialComponents_BottomAppBar_PrimarySurface;
+			global::Syncfusion.XForms.Android.ComboBox.Resource.Style.Widget_MaterialComponents_BottomNavigationView = global::NutritionApp.Droid.Resource.Style.Widget_MaterialComponents_BottomNavigationView;
+			global::Syncfusion.XForms.Android.ComboBox.Resource.Style.Widget_MaterialComponents_BottomNavigationView_Colored = global::NutritionApp.Droid.Resource.Style.Widget_MaterialComponents_BottomNavigationView_Colored;
+			global::Syncfusion.XForms.Android.ComboBox.Resource.Style.Widget_MaterialComponents_BottomNavigationView_PrimarySurface = global::NutritionApp.Droid.Resource.Style.Widget_MaterialComponents_BottomNavigationView_PrimarySurface;
+			global::Syncfusion.XForms.Android.ComboBox.Resource.Style.Widget_MaterialComponents_BottomSheet = global::NutritionApp.Droid.Resource.Style.Widget_MaterialComponents_BottomSheet;
+			global::Syncfusion.XForms.Android.ComboBox.Resource.Style.Widget_MaterialComponents_BottomSheet_Modal = global::NutritionApp.Droid.Resource.Style.Widget_MaterialComponents_BottomSheet_Modal;
+			global::Syncfusion.XForms.Android.ComboBox.Resource.Style.Widget_MaterialComponents_Button = global::NutritionApp.Droid.Resource.Style.Widget_MaterialComponents_Button;
+			global::Syncfusion.XForms.Android.ComboBox.Resource.Style.Widget_MaterialComponents_Button_Icon = global::NutritionApp.Droid.Resource.Style.Widget_MaterialComponents_Button_Icon;
+			global::Syncfusion.XForms.Android.ComboBox.Resource.Style.Widget_MaterialComponents_Button_OutlinedButton = global::NutritionApp.Droid.Resource.Style.Widget_MaterialComponents_Button_OutlinedButton;
+			global::Syncfusion.XForms.Android.ComboBox.Resource.Style.Widget_MaterialComponents_Button_OutlinedButton_Icon = global::NutritionApp.Droid.Resource.Style.Widget_MaterialComponents_Button_OutlinedButton_Icon;
+			global::Syncfusion.XForms.Android.ComboBox.Resource.Style.Widget_MaterialComponents_Button_TextButton = global::NutritionApp.Droid.Resource.Style.Widget_MaterialComponents_Button_TextButton;
+			global::Syncfusion.XForms.Android.ComboBox.Resource.Style.Widget_MaterialComponents_Button_TextButton_Dialog = global::NutritionApp.Droid.Resource.Style.Widget_MaterialComponents_Button_TextButton_Dialog;
+			global::Syncfusion.XForms.Android.ComboBox.Resource.Style.Widget_MaterialComponents_Button_TextButton_Dialog_Flush = global::NutritionApp.Droid.Resource.Style.Widget_MaterialComponents_Button_TextButton_Dialog_Flush;
+			global::Syncfusion.XForms.Android.ComboBox.Resource.Style.Widget_MaterialComponents_Button_TextButton_Dialog_Icon = global::NutritionApp.Droid.Resource.Style.Widget_MaterialComponents_Button_TextButton_Dialog_Icon;
+			global::Syncfusion.XForms.Android.ComboBox.Resource.Style.Widget_MaterialComponents_Button_TextButton_Icon = global::NutritionApp.Droid.Resource.Style.Widget_MaterialComponents_Button_TextButton_Icon;
+			global::Syncfusion.XForms.Android.ComboBox.Resource.Style.Widget_MaterialComponents_Button_TextButton_Snackbar = global::NutritionApp.Droid.Resource.Style.Widget_MaterialComponents_Button_TextButton_Snackbar;
+			global::Syncfusion.XForms.Android.ComboBox.Resource.Style.Widget_MaterialComponents_Button_UnelevatedButton = global::NutritionApp.Droid.Resource.Style.Widget_MaterialComponents_Button_UnelevatedButton;
+			global::Syncfusion.XForms.Android.ComboBox.Resource.Style.Widget_MaterialComponents_Button_UnelevatedButton_Icon = global::NutritionApp.Droid.Resource.Style.Widget_MaterialComponents_Button_UnelevatedButton_Icon;
+			global::Syncfusion.XForms.Android.ComboBox.Resource.Style.Widget_MaterialComponents_CardView = global::NutritionApp.Droid.Resource.Style.Widget_MaterialComponents_CardView;
+			global::Syncfusion.XForms.Android.ComboBox.Resource.Style.Widget_MaterialComponents_CheckedTextView = global::NutritionApp.Droid.Resource.Style.Widget_MaterialComponents_CheckedTextView;
+			global::Syncfusion.XForms.Android.ComboBox.Resource.Style.Widget_MaterialComponents_ChipGroup = global::NutritionApp.Droid.Resource.Style.Widget_MaterialComponents_ChipGroup;
+			global::Syncfusion.XForms.Android.ComboBox.Resource.Style.Widget_MaterialComponents_Chip_Action = global::NutritionApp.Droid.Resource.Style.Widget_MaterialComponents_Chip_Action;
+			global::Syncfusion.XForms.Android.ComboBox.Resource.Style.Widget_MaterialComponents_Chip_Choice = global::NutritionApp.Droid.Resource.Style.Widget_MaterialComponents_Chip_Choice;
+			global::Syncfusion.XForms.Android.ComboBox.Resource.Style.Widget_MaterialComponents_Chip_Entry = global::NutritionApp.Droid.Resource.Style.Widget_MaterialComponents_Chip_Entry;
+			global::Syncfusion.XForms.Android.ComboBox.Resource.Style.Widget_MaterialComponents_Chip_Filter = global::NutritionApp.Droid.Resource.Style.Widget_MaterialComponents_Chip_Filter;
+			global::Syncfusion.XForms.Android.ComboBox.Resource.Style.Widget_MaterialComponents_CompoundButton_CheckBox = global::NutritionApp.Droid.Resource.Style.Widget_MaterialComponents_CompoundButton_CheckBox;
+			global::Syncfusion.XForms.Android.ComboBox.Resource.Style.Widget_MaterialComponents_CompoundButton_RadioButton = global::NutritionApp.Droid.Resource.Style.Widget_MaterialComponents_CompoundButton_RadioButton;
+			global::Syncfusion.XForms.Android.ComboBox.Resource.Style.Widget_MaterialComponents_CompoundButton_Switch = global::NutritionApp.Droid.Resource.Style.Widget_MaterialComponents_CompoundButton_Switch;
+			global::Syncfusion.XForms.Android.ComboBox.Resource.Style.Widget_MaterialComponents_ExtendedFloatingActionButton = global::NutritionApp.Droid.Resource.Style.Widget_MaterialComponents_ExtendedFloatingActionButton;
+			global::Syncfusion.XForms.Android.ComboBox.Resource.Style.Widget_MaterialComponents_ExtendedFloatingActionButton_Icon = global::NutritionApp.Droid.Resource.Style.Widget_MaterialComponents_ExtendedFloatingActionButton_Icon;
+			global::Syncfusion.XForms.Android.ComboBox.Resource.Style.Widget_MaterialComponents_FloatingActionButton = global::NutritionApp.Droid.Resource.Style.Widget_MaterialComponents_FloatingActionButton;
+			global::Syncfusion.XForms.Android.ComboBox.Resource.Style.Widget_MaterialComponents_Light_ActionBar_Solid = global::NutritionApp.Droid.Resource.Style.Widget_MaterialComponents_Light_ActionBar_Solid;
+			global::Syncfusion.XForms.Android.ComboBox.Resource.Style.Widget_MaterialComponents_MaterialButtonToggleGroup = global::NutritionApp.Droid.Resource.Style.Widget_MaterialComponents_MaterialButtonToggleGroup;
+			global::Syncfusion.XForms.Android.ComboBox.Resource.Style.Widget_MaterialComponents_MaterialCalendar = global::NutritionApp.Droid.Resource.Style.Widget_MaterialComponents_MaterialCalendar;
+			global::Syncfusion.XForms.Android.ComboBox.Resource.Style.Widget_MaterialComponents_MaterialCalendar_Day = global::NutritionApp.Droid.Resource.Style.Widget_MaterialComponents_MaterialCalendar_Day;
+			global::Syncfusion.XForms.Android.ComboBox.Resource.Style.Widget_MaterialComponents_MaterialCalendar_DayTextView = global::NutritionApp.Droid.Resource.Style.Widget_MaterialComponents_MaterialCalendar_DayTextView;
+			global::Syncfusion.XForms.Android.ComboBox.Resource.Style.Widget_MaterialComponents_MaterialCalendar_Day_Invalid = global::NutritionApp.Droid.Resource.Style.Widget_MaterialComponents_MaterialCalendar_Day_Invalid;
+			global::Syncfusion.XForms.Android.ComboBox.Resource.Style.Widget_MaterialComponents_MaterialCalendar_Day_Selected = global::NutritionApp.Droid.Resource.Style.Widget_MaterialComponents_MaterialCalendar_Day_Selected;
+			global::Syncfusion.XForms.Android.ComboBox.Resource.Style.Widget_MaterialComponents_MaterialCalendar_Day_Today = global::NutritionApp.Droid.Resource.Style.Widget_MaterialComponents_MaterialCalendar_Day_Today;
+			global::Syncfusion.XForms.Android.ComboBox.Resource.Style.Widget_MaterialComponents_MaterialCalendar_Fullscreen = global::NutritionApp.Droid.Resource.Style.Widget_MaterialComponents_MaterialCalendar_Fullscreen;
+			global::Syncfusion.XForms.Android.ComboBox.Resource.Style.Widget_MaterialComponents_MaterialCalendar_HeaderConfirmButton = global::NutritionApp.Droid.Resource.Style.Widget_MaterialComponents_MaterialCalendar_HeaderConfirmButton;
+			global::Syncfusion.XForms.Android.ComboBox.Resource.Style.Widget_MaterialComponents_MaterialCalendar_HeaderDivider = global::NutritionApp.Droid.Resource.Style.Widget_MaterialComponents_MaterialCalendar_HeaderDivider;
+			global::Syncfusion.XForms.Android.ComboBox.Resource.Style.Widget_MaterialComponents_MaterialCalendar_HeaderLayout = global::NutritionApp.Droid.Resource.Style.Widget_MaterialComponents_MaterialCalendar_HeaderLayout;
+			global::Syncfusion.XForms.Android.ComboBox.Resource.Style.Widget_MaterialComponents_MaterialCalendar_HeaderSelection = global::NutritionApp.Droid.Resource.Style.Widget_MaterialComponents_MaterialCalendar_HeaderSelection;
+			global::Syncfusion.XForms.Android.ComboBox.Resource.Style.Widget_MaterialComponents_MaterialCalendar_HeaderSelection_Fullscreen = global::NutritionApp.Droid.Resource.Style.Widget_MaterialComponents_MaterialCalendar_HeaderSelection_Fullscreen;
+			global::Syncfusion.XForms.Android.ComboBox.Resource.Style.Widget_MaterialComponents_MaterialCalendar_HeaderTitle = global::NutritionApp.Droid.Resource.Style.Widget_MaterialComponents_MaterialCalendar_HeaderTitle;
+			global::Syncfusion.XForms.Android.ComboBox.Resource.Style.Widget_MaterialComponents_MaterialCalendar_HeaderToggleButton = global::NutritionApp.Droid.Resource.Style.Widget_MaterialComponents_MaterialCalendar_HeaderToggleButton;
+			global::Syncfusion.XForms.Android.ComboBox.Resource.Style.Widget_MaterialComponents_MaterialCalendar_Item = global::NutritionApp.Droid.Resource.Style.Widget_MaterialComponents_MaterialCalendar_Item;
+			global::Syncfusion.XForms.Android.ComboBox.Resource.Style.Widget_MaterialComponents_MaterialCalendar_Year = global::NutritionApp.Droid.Resource.Style.Widget_MaterialComponents_MaterialCalendar_Year;
+			global::Syncfusion.XForms.Android.ComboBox.Resource.Style.Widget_MaterialComponents_MaterialCalendar_Year_Selected = global::NutritionApp.Droid.Resource.Style.Widget_MaterialComponents_MaterialCalendar_Year_Selected;
+			global::Syncfusion.XForms.Android.ComboBox.Resource.Style.Widget_MaterialComponents_MaterialCalendar_Year_Today = global::NutritionApp.Droid.Resource.Style.Widget_MaterialComponents_MaterialCalendar_Year_Today;
+			global::Syncfusion.XForms.Android.ComboBox.Resource.Style.Widget_MaterialComponents_NavigationView = global::NutritionApp.Droid.Resource.Style.Widget_MaterialComponents_NavigationView;
+			global::Syncfusion.XForms.Android.ComboBox.Resource.Style.Widget_MaterialComponents_PopupMenu = global::NutritionApp.Droid.Resource.Style.Widget_MaterialComponents_PopupMenu;
+			global::Syncfusion.XForms.Android.ComboBox.Resource.Style.Widget_MaterialComponents_PopupMenu_ContextMenu = global::NutritionApp.Droid.Resource.Style.Widget_MaterialComponents_PopupMenu_ContextMenu;
+			global::Syncfusion.XForms.Android.ComboBox.Resource.Style.Widget_MaterialComponents_PopupMenu_ListPopupWindow = global::NutritionApp.Droid.Resource.Style.Widget_MaterialComponents_PopupMenu_ListPopupWindow;
+			global::Syncfusion.XForms.Android.ComboBox.Resource.Style.Widget_MaterialComponents_PopupMenu_Overflow = global::NutritionApp.Droid.Resource.Style.Widget_MaterialComponents_PopupMenu_Overflow;
+			global::Syncfusion.XForms.Android.ComboBox.Resource.Style.Widget_MaterialComponents_ShapeableImageView = global::NutritionApp.Droid.Resource.Style.Widget_MaterialComponents_ShapeableImageView;
+			global::Syncfusion.XForms.Android.ComboBox.Resource.Style.Widget_MaterialComponents_Slider = global::NutritionApp.Droid.Resource.Style.Widget_MaterialComponents_Slider;
+			global::Syncfusion.XForms.Android.ComboBox.Resource.Style.Widget_MaterialComponents_Snackbar = global::NutritionApp.Droid.Resource.Style.Widget_MaterialComponents_Snackbar;
+			global::Syncfusion.XForms.Android.ComboBox.Resource.Style.Widget_MaterialComponents_Snackbar_FullWidth = global::NutritionApp.Droid.Resource.Style.Widget_MaterialComponents_Snackbar_FullWidth;
+			global::Syncfusion.XForms.Android.ComboBox.Resource.Style.Widget_MaterialComponents_Snackbar_TextView = global::NutritionApp.Droid.Resource.Style.Widget_MaterialComponents_Snackbar_TextView;
+			global::Syncfusion.XForms.Android.ComboBox.Resource.Style.Widget_MaterialComponents_TabLayout = global::NutritionApp.Droid.Resource.Style.Widget_MaterialComponents_TabLayout;
+			global::Syncfusion.XForms.Android.ComboBox.Resource.Style.Widget_MaterialComponents_TabLayout_Colored = global::NutritionApp.Droid.Resource.Style.Widget_MaterialComponents_TabLayout_Colored;
+			global::Syncfusion.XForms.Android.ComboBox.Resource.Style.Widget_MaterialComponents_TabLayout_PrimarySurface = global::NutritionApp.Droid.Resource.Style.Widget_MaterialComponents_TabLayout_PrimarySurface;
+			global::Syncfusion.XForms.Android.ComboBox.Resource.Style.Widget_MaterialComponents_TextInputEditText_FilledBox = global::NutritionApp.Droid.Resource.Style.Widget_MaterialComponents_TextInputEditText_FilledBox;
+			global::Syncfusion.XForms.Android.ComboBox.Resource.Style.Widget_MaterialComponents_TextInputEditText_FilledBox_Dense = global::NutritionApp.Droid.Resource.Style.Widget_MaterialComponents_TextInputEditText_FilledBox_Dense;
+			global::Syncfusion.XForms.Android.ComboBox.Resource.Style.Widget_MaterialComponents_TextInputEditText_OutlinedBox = global::NutritionApp.Droid.Resource.Style.Widget_MaterialComponents_TextInputEditText_OutlinedBox;
+			global::Syncfusion.XForms.Android.ComboBox.Resource.Style.Widget_MaterialComponents_TextInputEditText_OutlinedBox_Dense = global::NutritionApp.Droid.Resource.Style.Widget_MaterialComponents_TextInputEditText_OutlinedBox_Dense;
+			global::Syncfusion.XForms.Android.ComboBox.Resource.Style.Widget_MaterialComponents_TextInputLayout_FilledBox = global::NutritionApp.Droid.Resource.Style.Widget_MaterialComponents_TextInputLayout_FilledBox;
+			global::Syncfusion.XForms.Android.ComboBox.Resource.Style.Widget_MaterialComponents_TextInputLayout_FilledBox_Dense = global::NutritionApp.Droid.Resource.Style.Widget_MaterialComponents_TextInputLayout_FilledBox_Dense;
+			global::Syncfusion.XForms.Android.ComboBox.Resource.Style.Widget_MaterialComponents_TextInputLayout_FilledBox_Dense_ExposedDropdownMenu = global::NutritionApp.Droid.Resource.Style.Widget_MaterialComponents_TextInputLayout_FilledBox_Dense_ExposedDropdownMenu;
+			global::Syncfusion.XForms.Android.ComboBox.Resource.Style.Widget_MaterialComponents_TextInputLayout_FilledBox_ExposedDropdownMenu = global::NutritionApp.Droid.Resource.Style.Widget_MaterialComponents_TextInputLayout_FilledBox_ExposedDropdownMenu;
+			global::Syncfusion.XForms.Android.ComboBox.Resource.Style.Widget_MaterialComponents_TextInputLayout_OutlinedBox = global::NutritionApp.Droid.Resource.Style.Widget_MaterialComponents_TextInputLayout_OutlinedBox;
+			global::Syncfusion.XForms.Android.ComboBox.Resource.Style.Widget_MaterialComponents_TextInputLayout_OutlinedBox_Dense = global::NutritionApp.Droid.Resource.Style.Widget_MaterialComponents_TextInputLayout_OutlinedBox_Dense;
+			global::Syncfusion.XForms.Android.ComboBox.Resource.Style.Widget_MaterialComponents_TextInputLayout_OutlinedBox_Dense_ExposedDropdownMenu = global::NutritionApp.Droid.Resource.Style.Widget_MaterialComponents_TextInputLayout_OutlinedBox_Dense_ExposedDropdownMenu;
+			global::Syncfusion.XForms.Android.ComboBox.Resource.Style.Widget_MaterialComponents_TextInputLayout_OutlinedBox_ExposedDropdownMenu = global::NutritionApp.Droid.Resource.Style.Widget_MaterialComponents_TextInputLayout_OutlinedBox_ExposedDropdownMenu;
+			global::Syncfusion.XForms.Android.ComboBox.Resource.Style.Widget_MaterialComponents_TextView = global::NutritionApp.Droid.Resource.Style.Widget_MaterialComponents_TextView;
+			global::Syncfusion.XForms.Android.ComboBox.Resource.Style.Widget_MaterialComponents_Toolbar = global::NutritionApp.Droid.Resource.Style.Widget_MaterialComponents_Toolbar;
+			global::Syncfusion.XForms.Android.ComboBox.Resource.Style.Widget_MaterialComponents_Toolbar_Primary = global::NutritionApp.Droid.Resource.Style.Widget_MaterialComponents_Toolbar_Primary;
+			global::Syncfusion.XForms.Android.ComboBox.Resource.Style.Widget_MaterialComponents_Toolbar_PrimarySurface = global::NutritionApp.Droid.Resource.Style.Widget_MaterialComponents_Toolbar_PrimarySurface;
+			global::Syncfusion.XForms.Android.ComboBox.Resource.Style.Widget_MaterialComponents_Toolbar_Surface = global::NutritionApp.Droid.Resource.Style.Widget_MaterialComponents_Toolbar_Surface;
+			global::Syncfusion.XForms.Android.ComboBox.Resource.Style.Widget_MaterialComponents_Tooltip = global::NutritionApp.Droid.Resource.Style.Widget_MaterialComponents_Tooltip;
+			global::Syncfusion.XForms.Android.ComboBox.Resource.Style.Widget_Support_CoordinatorLayout = global::NutritionApp.Droid.Resource.Style.Widget_Support_CoordinatorLayout;
+			global::Syncfusion.XForms.Android.ComboBox.Resource.Styleable.ActionBar = global::NutritionApp.Droid.Resource.Styleable.ActionBar;
+			global::Syncfusion.XForms.Android.ComboBox.Resource.Styleable.ActionBarLayout = global::NutritionApp.Droid.Resource.Styleable.ActionBarLayout;
+			global::Syncfusion.XForms.Android.ComboBox.Resource.Styleable.ActionBarLayout_android_layout_gravity = global::NutritionApp.Droid.Resource.Styleable.ActionBarLayout_android_layout_gravity;
+			global::Syncfusion.XForms.Android.ComboBox.Resource.Styleable.ActionBar_background = global::NutritionApp.Droid.Resource.Styleable.ActionBar_background;
+			global::Syncfusion.XForms.Android.ComboBox.Resource.Styleable.ActionBar_backgroundSplit = global::NutritionApp.Droid.Resource.Styleable.ActionBar_backgroundSplit;
+			global::Syncfusion.XForms.Android.ComboBox.Resource.Styleable.ActionBar_backgroundStacked = global::NutritionApp.Droid.Resource.Styleable.ActionBar_backgroundStacked;
+			global::Syncfusion.XForms.Android.ComboBox.Resource.Styleable.ActionBar_contentInsetEnd = global::NutritionApp.Droid.Resource.Styleable.ActionBar_contentInsetEnd;
+			global::Syncfusion.XForms.Android.ComboBox.Resource.Styleable.ActionBar_contentInsetEndWithActions = global::NutritionApp.Droid.Resource.Styleable.ActionBar_contentInsetEndWithActions;
+			global::Syncfusion.XForms.Android.ComboBox.Resource.Styleable.ActionBar_contentInsetLeft = global::NutritionApp.Droid.Resource.Styleable.ActionBar_contentInsetLeft;
+			global::Syncfusion.XForms.Android.ComboBox.Resource.Styleable.ActionBar_contentInsetRight = global::NutritionApp.Droid.Resource.Styleable.ActionBar_contentInsetRight;
+			global::Syncfusion.XForms.Android.ComboBox.Resource.Styleable.ActionBar_contentInsetStart = global::NutritionApp.Droid.Resource.Styleable.ActionBar_contentInsetStart;
+			global::Syncfusion.XForms.Android.ComboBox.Resource.Styleable.ActionBar_contentInsetStartWithNavigation = global::NutritionApp.Droid.Resource.Styleable.ActionBar_contentInsetStartWithNavigation;
+			global::Syncfusion.XForms.Android.ComboBox.Resource.Styleable.ActionBar_customNavigationLayout = global::NutritionApp.Droid.Resource.Styleable.ActionBar_customNavigationLayout;
+			global::Syncfusion.XForms.Android.ComboBox.Resource.Styleable.ActionBar_displayOptions = global::NutritionApp.Droid.Resource.Styleable.ActionBar_displayOptions;
+			global::Syncfusion.XForms.Android.ComboBox.Resource.Styleable.ActionBar_divider = global::NutritionApp.Droid.Resource.Styleable.ActionBar_divider;
+			global::Syncfusion.XForms.Android.ComboBox.Resource.Styleable.ActionBar_elevation = global::NutritionApp.Droid.Resource.Styleable.ActionBar_elevation;
+			global::Syncfusion.XForms.Android.ComboBox.Resource.Styleable.ActionBar_height = global::NutritionApp.Droid.Resource.Styleable.ActionBar_height;
+			global::Syncfusion.XForms.Android.ComboBox.Resource.Styleable.ActionBar_hideOnContentScroll = global::NutritionApp.Droid.Resource.Styleable.ActionBar_hideOnContentScroll;
+			global::Syncfusion.XForms.Android.ComboBox.Resource.Styleable.ActionBar_homeAsUpIndicator = global::NutritionApp.Droid.Resource.Styleable.ActionBar_homeAsUpIndicator;
+			global::Syncfusion.XForms.Android.ComboBox.Resource.Styleable.ActionBar_homeLayout = global::NutritionApp.Droid.Resource.Styleable.ActionBar_homeLayout;
+			global::Syncfusion.XForms.Android.ComboBox.Resource.Styleable.ActionBar_icon = global::NutritionApp.Droid.Resource.Styleable.ActionBar_icon;
+			global::Syncfusion.XForms.Android.ComboBox.Resource.Styleable.ActionBar_indeterminateProgressStyle = global::NutritionApp.Droid.Resource.Styleable.ActionBar_indeterminateProgressStyle;
+			global::Syncfusion.XForms.Android.ComboBox.Resource.Styleable.ActionBar_itemPadding = global::NutritionApp.Droid.Resource.Styleable.ActionBar_itemPadding;
+			global::Syncfusion.XForms.Android.ComboBox.Resource.Styleable.ActionBar_logo = global::NutritionApp.Droid.Resource.Styleable.ActionBar_logo;
+			global::Syncfusion.XForms.Android.ComboBox.Resource.Styleable.ActionBar_navigationMode = global::NutritionApp.Droid.Resource.Styleable.ActionBar_navigationMode;
+			global::Syncfusion.XForms.Android.ComboBox.Resource.Styleable.ActionBar_popupTheme = global::NutritionApp.Droid.Resource.Styleable.ActionBar_popupTheme;
+			global::Syncfusion.XForms.Android.ComboBox.Resource.Styleable.ActionBar_progressBarPadding = global::NutritionApp.Droid.Resource.Styleable.ActionBar_progressBarPadding;
+			global::Syncfusion.XForms.Android.ComboBox.Resource.Styleable.ActionBar_progressBarStyle = global::NutritionApp.Droid.Resource.Styleable.ActionBar_progressBarStyle;
+			global::Syncfusion.XForms.Android.ComboBox.Resource.Styleable.ActionBar_subtitle = global::NutritionApp.Droid.Resource.Styleable.ActionBar_subtitle;
+			global::Syncfusion.XForms.Android.ComboBox.Resource.Styleable.ActionBar_subtitleTextStyle = global::NutritionApp.Droid.Resource.Styleable.ActionBar_subtitleTextStyle;
+			global::Syncfusion.XForms.Android.ComboBox.Resource.Styleable.ActionBar_title = global::NutritionApp.Droid.Resource.Styleable.ActionBar_title;
+			global::Syncfusion.XForms.Android.ComboBox.Resource.Styleable.ActionBar_titleTextStyle = global::NutritionApp.Droid.Resource.Styleable.ActionBar_titleTextStyle;
+			global::Syncfusion.XForms.Android.ComboBox.Resource.Styleable.ActionMenuItemView = global::NutritionApp.Droid.Resource.Styleable.ActionMenuItemView;
+			global::Syncfusion.XForms.Android.ComboBox.Resource.Styleable.ActionMenuItemView_android_minWidth = global::NutritionApp.Droid.Resource.Styleable.ActionMenuItemView_android_minWidth;
+			global::Syncfusion.XForms.Android.ComboBox.Resource.Styleable.ActionMenuView = global::NutritionApp.Droid.Resource.Styleable.ActionMenuView;
+			global::Syncfusion.XForms.Android.ComboBox.Resource.Styleable.ActionMode = global::NutritionApp.Droid.Resource.Styleable.ActionMode;
+			global::Syncfusion.XForms.Android.ComboBox.Resource.Styleable.ActionMode_background = global::NutritionApp.Droid.Resource.Styleable.ActionMode_background;
+			global::Syncfusion.XForms.Android.ComboBox.Resource.Styleable.ActionMode_backgroundSplit = global::NutritionApp.Droid.Resource.Styleable.ActionMode_backgroundSplit;
+			global::Syncfusion.XForms.Android.ComboBox.Resource.Styleable.ActionMode_closeItemLayout = global::NutritionApp.Droid.Resource.Styleable.ActionMode_closeItemLayout;
+			global::Syncfusion.XForms.Android.ComboBox.Resource.Styleable.ActionMode_height = global::NutritionApp.Droid.Resource.Styleable.ActionMode_height;
+			global::Syncfusion.XForms.Android.ComboBox.Resource.Styleable.ActionMode_subtitleTextStyle = global::NutritionApp.Droid.Resource.Styleable.ActionMode_subtitleTextStyle;
+			global::Syncfusion.XForms.Android.ComboBox.Resource.Styleable.ActionMode_titleTextStyle = global::NutritionApp.Droid.Resource.Styleable.ActionMode_titleTextStyle;
+			global::Syncfusion.XForms.Android.ComboBox.Resource.Styleable.ActivityChooserView = global::NutritionApp.Droid.Resource.Styleable.ActivityChooserView;
+			global::Syncfusion.XForms.Android.ComboBox.Resource.Styleable.ActivityChooserView_expandActivityOverflowButtonDrawable = global::NutritionApp.Droid.Resource.Styleable.ActivityChooserView_expandActivityOverflowButtonDrawable;
+			global::Syncfusion.XForms.Android.ComboBox.Resource.Styleable.ActivityChooserView_initialActivityCount = global::NutritionApp.Droid.Resource.Styleable.ActivityChooserView_initialActivityCount;
+			global::Syncfusion.XForms.Android.ComboBox.Resource.Styleable.AlertDialog = global::NutritionApp.Droid.Resource.Styleable.AlertDialog;
+			global::Syncfusion.XForms.Android.ComboBox.Resource.Styleable.AlertDialog_android_layout = global::NutritionApp.Droid.Resource.Styleable.AlertDialog_android_layout;
+			global::Syncfusion.XForms.Android.ComboBox.Resource.Styleable.AlertDialog_buttonIconDimen = global::NutritionApp.Droid.Resource.Styleable.AlertDialog_buttonIconDimen;
+			global::Syncfusion.XForms.Android.ComboBox.Resource.Styleable.AlertDialog_buttonPanelSideLayout = global::NutritionApp.Droid.Resource.Styleable.AlertDialog_buttonPanelSideLayout;
+			global::Syncfusion.XForms.Android.ComboBox.Resource.Styleable.AlertDialog_listItemLayout = global::NutritionApp.Droid.Resource.Styleable.AlertDialog_listItemLayout;
+			global::Syncfusion.XForms.Android.ComboBox.Resource.Styleable.AlertDialog_listLayout = global::NutritionApp.Droid.Resource.Styleable.AlertDialog_listLayout;
+			global::Syncfusion.XForms.Android.ComboBox.Resource.Styleable.AlertDialog_multiChoiceItemLayout = global::NutritionApp.Droid.Resource.Styleable.AlertDialog_multiChoiceItemLayout;
+			global::Syncfusion.XForms.Android.ComboBox.Resource.Styleable.AlertDialog_showTitle = global::NutritionApp.Droid.Resource.Styleable.AlertDialog_showTitle;
+			global::Syncfusion.XForms.Android.ComboBox.Resource.Styleable.AlertDialog_singleChoiceItemLayout = global::NutritionApp.Droid.Resource.Styleable.AlertDialog_singleChoiceItemLayout;
+			global::Syncfusion.XForms.Android.ComboBox.Resource.Styleable.AnimatedStateListDrawableCompat = global::NutritionApp.Droid.Resource.Styleable.AnimatedStateListDrawableCompat;
+			global::Syncfusion.XForms.Android.ComboBox.Resource.Styleable.AnimatedStateListDrawableCompat_android_constantSize = global::NutritionApp.Droid.Resource.Styleable.AnimatedStateListDrawableCompat_android_constantSize;
+			global::Syncfusion.XForms.Android.ComboBox.Resource.Styleable.AnimatedStateListDrawableCompat_android_dither = global::NutritionApp.Droid.Resource.Styleable.AnimatedStateListDrawableCompat_android_dither;
+			global::Syncfusion.XForms.Android.ComboBox.Resource.Styleable.AnimatedStateListDrawableCompat_android_enterFadeDuration = global::NutritionApp.Droid.Resource.Styleable.AnimatedStateListDrawableCompat_android_enterFadeDuration;
+			global::Syncfusion.XForms.Android.ComboBox.Resource.Styleable.AnimatedStateListDrawableCompat_android_exitFadeDuration = global::NutritionApp.Droid.Resource.Styleable.AnimatedStateListDrawableCompat_android_exitFadeDuration;
+			global::Syncfusion.XForms.Android.ComboBox.Resource.Styleable.AnimatedStateListDrawableCompat_android_variablePadding = global::NutritionApp.Droid.Resource.Styleable.AnimatedStateListDrawableCompat_android_variablePadding;
+			global::Syncfusion.XForms.Android.ComboBox.Resource.Styleable.AnimatedStateListDrawableCompat_android_visible = global::NutritionApp.Droid.Resource.Styleable.AnimatedStateListDrawableCompat_android_visible;
+			global::Syncfusion.XForms.Android.ComboBox.Resource.Styleable.AnimatedStateListDrawableItem = global::NutritionApp.Droid.Resource.Styleable.AnimatedStateListDrawableItem;
+			global::Syncfusion.XForms.Android.ComboBox.Resource.Styleable.AnimatedStateListDrawableItem_android_drawable = global::NutritionApp.Droid.Resource.Styleable.AnimatedStateListDrawableItem_android_drawable;
+			global::Syncfusion.XForms.Android.ComboBox.Resource.Styleable.AnimatedStateListDrawableItem_android_id = global::NutritionApp.Droid.Resource.Styleable.AnimatedStateListDrawableItem_android_id;
+			global::Syncfusion.XForms.Android.ComboBox.Resource.Styleable.AnimatedStateListDrawableTransition = global::NutritionApp.Droid.Resource.Styleable.AnimatedStateListDrawableTransition;
+			global::Syncfusion.XForms.Android.ComboBox.Resource.Styleable.AnimatedStateListDrawableTransition_android_drawable = global::NutritionApp.Droid.Resource.Styleable.AnimatedStateListDrawableTransition_android_drawable;
+			global::Syncfusion.XForms.Android.ComboBox.Resource.Styleable.AnimatedStateListDrawableTransition_android_fromId = global::NutritionApp.Droid.Resource.Styleable.AnimatedStateListDrawableTransition_android_fromId;
+			global::Syncfusion.XForms.Android.ComboBox.Resource.Styleable.AnimatedStateListDrawableTransition_android_reversible = global::NutritionApp.Droid.Resource.Styleable.AnimatedStateListDrawableTransition_android_reversible;
+			global::Syncfusion.XForms.Android.ComboBox.Resource.Styleable.AnimatedStateListDrawableTransition_android_toId = global::NutritionApp.Droid.Resource.Styleable.AnimatedStateListDrawableTransition_android_toId;
+			global::Syncfusion.XForms.Android.ComboBox.Resource.Styleable.AppBarLayout = global::NutritionApp.Droid.Resource.Styleable.AppBarLayout;
+			global::Syncfusion.XForms.Android.ComboBox.Resource.Styleable.AppBarLayoutStates = global::NutritionApp.Droid.Resource.Styleable.AppBarLayoutStates;
+			global::Syncfusion.XForms.Android.ComboBox.Resource.Styleable.AppBarLayoutStates_state_collapsed = global::NutritionApp.Droid.Resource.Styleable.AppBarLayoutStates_state_collapsed;
+			global::Syncfusion.XForms.Android.ComboBox.Resource.Styleable.AppBarLayoutStates_state_collapsible = global::NutritionApp.Droid.Resource.Styleable.AppBarLayoutStates_state_collapsible;
+			global::Syncfusion.XForms.Android.ComboBox.Resource.Styleable.AppBarLayoutStates_state_liftable = global::NutritionApp.Droid.Resource.Styleable.AppBarLayoutStates_state_liftable;
+			global::Syncfusion.XForms.Android.ComboBox.Resource.Styleable.AppBarLayoutStates_state_lifted = global::NutritionApp.Droid.Resource.Styleable.AppBarLayoutStates_state_lifted;
+			global::Syncfusion.XForms.Android.ComboBox.Resource.Styleable.AppBarLayout_android_background = global::NutritionApp.Droid.Resource.Styleable.AppBarLayout_android_background;
+			global::Syncfusion.XForms.Android.ComboBox.Resource.Styleable.AppBarLayout_android_keyboardNavigationCluster = global::NutritionApp.Droid.Resource.Styleable.AppBarLayout_android_keyboardNavigationCluster;
+			global::Syncfusion.XForms.Android.ComboBox.Resource.Styleable.AppBarLayout_android_touchscreenBlocksFocus = global::NutritionApp.Droid.Resource.Styleable.AppBarLayout_android_touchscreenBlocksFocus;
+			global::Syncfusion.XForms.Android.ComboBox.Resource.Styleable.AppBarLayout_elevation = global::NutritionApp.Droid.Resource.Styleable.AppBarLayout_elevation;
+			global::Syncfusion.XForms.Android.ComboBox.Resource.Styleable.AppBarLayout_expanded = global::NutritionApp.Droid.Resource.Styleable.AppBarLayout_expanded;
+			global::Syncfusion.XForms.Android.ComboBox.Resource.Styleable.AppBarLayout_Layout = global::NutritionApp.Droid.Resource.Styleable.AppBarLayout_Layout;
+			global::Syncfusion.XForms.Android.ComboBox.Resource.Styleable.AppBarLayout_Layout_layout_scrollFlags = global::NutritionApp.Droid.Resource.Styleable.AppBarLayout_Layout_layout_scrollFlags;
+			global::Syncfusion.XForms.Android.ComboBox.Resource.Styleable.AppBarLayout_Layout_layout_scrollInterpolator = global::NutritionApp.Droid.Resource.Styleable.AppBarLayout_Layout_layout_scrollInterpolator;
+			global::Syncfusion.XForms.Android.ComboBox.Resource.Styleable.AppBarLayout_liftOnScroll = global::NutritionApp.Droid.Resource.Styleable.AppBarLayout_liftOnScroll;
+			global::Syncfusion.XForms.Android.ComboBox.Resource.Styleable.AppBarLayout_liftOnScrollTargetViewId = global::NutritionApp.Droid.Resource.Styleable.AppBarLayout_liftOnScrollTargetViewId;
+			global::Syncfusion.XForms.Android.ComboBox.Resource.Styleable.AppBarLayout_statusBarForeground = global::NutritionApp.Droid.Resource.Styleable.AppBarLayout_statusBarForeground;
+			global::Syncfusion.XForms.Android.ComboBox.Resource.Styleable.AppCompatImageView = global::NutritionApp.Droid.Resource.Styleable.AppCompatImageView;
+			global::Syncfusion.XForms.Android.ComboBox.Resource.Styleable.AppCompatImageView_android_src = global::NutritionApp.Droid.Resource.Styleable.AppCompatImageView_android_src;
+			global::Syncfusion.XForms.Android.ComboBox.Resource.Styleable.AppCompatImageView_srcCompat = global::NutritionApp.Droid.Resource.Styleable.AppCompatImageView_srcCompat;
+			global::Syncfusion.XForms.Android.ComboBox.Resource.Styleable.AppCompatImageView_tint = global::NutritionApp.Droid.Resource.Styleable.AppCompatImageView_tint;
+			global::Syncfusion.XForms.Android.ComboBox.Resource.Styleable.AppCompatImageView_tintMode = global::NutritionApp.Droid.Resource.Styleable.AppCompatImageView_tintMode;
+			global::Syncfusion.XForms.Android.ComboBox.Resource.Styleable.AppCompatSeekBar = global::NutritionApp.Droid.Resource.Styleable.AppCompatSeekBar;
+			global::Syncfusion.XForms.Android.ComboBox.Resource.Styleable.AppCompatSeekBar_android_thumb = global::NutritionApp.Droid.Resource.Styleable.AppCompatSeekBar_android_thumb;
+			global::Syncfusion.XForms.Android.ComboBox.Resource.Styleable.AppCompatSeekBar_tickMark = global::NutritionApp.Droid.Resource.Styleable.AppCompatSeekBar_tickMark;
+			global::Syncfusion.XForms.Android.ComboBox.Resource.Styleable.AppCompatSeekBar_tickMarkTint = global::NutritionApp.Droid.Resource.Styleable.AppCompatSeekBar_tickMarkTint;
+			global::Syncfusion.XForms.Android.ComboBox.Resource.Styleable.AppCompatSeekBar_tickMarkTintMode = global::NutritionApp.Droid.Resource.Styleable.AppCompatSeekBar_tickMarkTintMode;
+			global::Syncfusion.XForms.Android.ComboBox.Resource.Styleable.AppCompatTextHelper = global::NutritionApp.Droid.Resource.Styleable.AppCompatTextHelper;
+			global::Syncfusion.XForms.Android.ComboBox.Resource.Styleable.AppCompatTextHelper_android_drawableBottom = global::NutritionApp.Droid.Resource.Styleable.AppCompatTextHelper_android_drawableBottom;
+			global::Syncfusion.XForms.Android.ComboBox.Resource.Styleable.AppCompatTextHelper_android_drawableEnd = global::NutritionApp.Droid.Resource.Styleable.AppCompatTextHelper_android_drawableEnd;
+			global::Syncfusion.XForms.Android.ComboBox.Resource.Styleable.AppCompatTextHelper_android_drawableLeft = global::NutritionApp.Droid.Resource.Styleable.AppCompatTextHelper_android_drawableLeft;
+			global::Syncfusion.XForms.Android.ComboBox.Resource.Styleable.AppCompatTextHelper_android_drawableRight = global::NutritionApp.Droid.Resource.Styleable.AppCompatTextHelper_android_drawableRight;
+			global::Syncfusion.XForms.Android.ComboBox.Resource.Styleable.AppCompatTextHelper_android_drawableStart = global::NutritionApp.Droid.Resource.Styleable.AppCompatTextHelper_android_drawableStart;
+			global::Syncfusion.XForms.Android.ComboBox.Resource.Styleable.AppCompatTextHelper_android_drawableTop = global::NutritionApp.Droid.Resource.Styleable.AppCompatTextHelper_android_drawableTop;
+			global::Syncfusion.XForms.Android.ComboBox.Resource.Styleable.AppCompatTextHelper_android_textAppearance = global::NutritionApp.Droid.Resource.Styleable.AppCompatTextHelper_android_textAppearance;
+			global::Syncfusion.XForms.Android.ComboBox.Resource.Styleable.AppCompatTextView = global::NutritionApp.Droid.Resource.Styleable.AppCompatTextView;
+			global::Syncfusion.XForms.Android.ComboBox.Resource.Styleable.AppCompatTextView_android_textAppearance = global::NutritionApp.Droid.Resource.Styleable.AppCompatTextView_android_textAppearance;
+			global::Syncfusion.XForms.Android.ComboBox.Resource.Styleable.AppCompatTextView_autoSizeMaxTextSize = global::NutritionApp.Droid.Resource.Styleable.AppCompatTextView_autoSizeMaxTextSize;
+			global::Syncfusion.XForms.Android.ComboBox.Resource.Styleable.AppCompatTextView_autoSizeMinTextSize = global::NutritionApp.Droid.Resource.Styleable.AppCompatTextView_autoSizeMinTextSize;
+			global::Syncfusion.XForms.Android.ComboBox.Resource.Styleable.AppCompatTextView_autoSizePresetSizes = global::NutritionApp.Droid.Resource.Styleable.AppCompatTextView_autoSizePresetSizes;
+			global::Syncfusion.XForms.Android.ComboBox.Resource.Styleable.AppCompatTextView_autoSizeStepGranularity = global::NutritionApp.Droid.Resource.Styleable.AppCompatTextView_autoSizeStepGranularity;
+			global::Syncfusion.XForms.Android.ComboBox.Resource.Styleable.AppCompatTextView_autoSizeTextType = global::NutritionApp.Droid.Resource.Styleable.AppCompatTextView_autoSizeTextType;
+			global::Syncfusion.XForms.Android.ComboBox.Resource.Styleable.AppCompatTextView_drawableBottomCompat = global::NutritionApp.Droid.Resource.Styleable.AppCompatTextView_drawableBottomCompat;
+			global::Syncfusion.XForms.Android.ComboBox.Resource.Styleable.AppCompatTextView_drawableEndCompat = global::NutritionApp.Droid.Resource.Styleable.AppCompatTextView_drawableEndCompat;
+			global::Syncfusion.XForms.Android.ComboBox.Resource.Styleable.AppCompatTextView_drawableLeftCompat = global::NutritionApp.Droid.Resource.Styleable.AppCompatTextView_drawableLeftCompat;
+			global::Syncfusion.XForms.Android.ComboBox.Resource.Styleable.AppCompatTextView_drawableRightCompat = global::NutritionApp.Droid.Resource.Styleable.AppCompatTextView_drawableRightCompat;
+			global::Syncfusion.XForms.Android.ComboBox.Resource.Styleable.AppCompatTextView_drawableStartCompat = global::NutritionApp.Droid.Resource.Styleable.AppCompatTextView_drawableStartCompat;
+			global::Syncfusion.XForms.Android.ComboBox.Resource.Styleable.AppCompatTextView_drawableTint = global::NutritionApp.Droid.Resource.Styleable.AppCompatTextView_drawableTint;
+			global::Syncfusion.XForms.Android.ComboBox.Resource.Styleable.AppCompatTextView_drawableTintMode = global::NutritionApp.Droid.Resource.Styleable.AppCompatTextView_drawableTintMode;
+			global::Syncfusion.XForms.Android.ComboBox.Resource.Styleable.AppCompatTextView_drawableTopCompat = global::NutritionApp.Droid.Resource.Styleable.AppCompatTextView_drawableTopCompat;
+			global::Syncfusion.XForms.Android.ComboBox.Resource.Styleable.AppCompatTextView_firstBaselineToTopHeight = global::NutritionApp.Droid.Resource.Styleable.AppCompatTextView_firstBaselineToTopHeight;
+			global::Syncfusion.XForms.Android.ComboBox.Resource.Styleable.AppCompatTextView_fontFamily = global::NutritionApp.Droid.Resource.Styleable.AppCompatTextView_fontFamily;
+			global::Syncfusion.XForms.Android.ComboBox.Resource.Styleable.AppCompatTextView_fontVariationSettings = global::NutritionApp.Droid.Resource.Styleable.AppCompatTextView_fontVariationSettings;
+			global::Syncfusion.XForms.Android.ComboBox.Resource.Styleable.AppCompatTextView_lastBaselineToBottomHeight = global::NutritionApp.Droid.Resource.Styleable.AppCompatTextView_lastBaselineToBottomHeight;
+			global::Syncfusion.XForms.Android.ComboBox.Resource.Styleable.AppCompatTextView_lineHeight = global::NutritionApp.Droid.Resource.Styleable.AppCompatTextView_lineHeight;
+			global::Syncfusion.XForms.Android.ComboBox.Resource.Styleable.AppCompatTextView_textAllCaps = global::NutritionApp.Droid.Resource.Styleable.AppCompatTextView_textAllCaps;
+			global::Syncfusion.XForms.Android.ComboBox.Resource.Styleable.AppCompatTextView_textLocale = global::NutritionApp.Droid.Resource.Styleable.AppCompatTextView_textLocale;
+			global::Syncfusion.XForms.Android.ComboBox.Resource.Styleable.AppCompatTheme = global::NutritionApp.Droid.Resource.Styleable.AppCompatTheme;
+			global::Syncfusion.XForms.Android.ComboBox.Resource.Styleable.AppCompatTheme_actionBarDivider = global::NutritionApp.Droid.Resource.Styleable.AppCompatTheme_actionBarDivider;
+			global::Syncfusion.XForms.Android.ComboBox.Resource.Styleable.AppCompatTheme_actionBarItemBackground = global::NutritionApp.Droid.Resource.Styleable.AppCompatTheme_actionBarItemBackground;
+			global::Syncfusion.XForms.Android.ComboBox.Resource.Styleable.AppCompatTheme_actionBarPopupTheme = global::NutritionApp.Droid.Resource.Styleable.AppCompatTheme_actionBarPopupTheme;
+			global::Syncfusion.XForms.Android.ComboBox.Resource.Styleable.AppCompatTheme_actionBarSize = global::NutritionApp.Droid.Resource.Styleable.AppCompatTheme_actionBarSize;
+			global::Syncfusion.XForms.Android.ComboBox.Resource.Styleable.AppCompatTheme_actionBarSplitStyle = global::NutritionApp.Droid.Resource.Styleable.AppCompatTheme_actionBarSplitStyle;
+			global::Syncfusion.XForms.Android.ComboBox.Resource.Styleable.AppCompatTheme_actionBarStyle = global::NutritionApp.Droid.Resource.Styleable.AppCompatTheme_actionBarStyle;
+			global::Syncfusion.XForms.Android.ComboBox.Resource.Styleable.AppCompatTheme_actionBarTabBarStyle = global::NutritionApp.Droid.Resource.Styleable.AppCompatTheme_actionBarTabBarStyle;
+			global::Syncfusion.XForms.Android.ComboBox.Resource.Styleable.AppCompatTheme_actionBarTabStyle = global::NutritionApp.Droid.Resource.Styleable.AppCompatTheme_actionBarTabStyle;
+			global::Syncfusion.XForms.Android.ComboBox.Resource.Styleable.AppCompatTheme_actionBarTabTextStyle = global::NutritionApp.Droid.Resource.Styleable.AppCompatTheme_actionBarTabTextStyle;
+			global::Syncfusion.XForms.Android.ComboBox.Resource.Styleable.AppCompatTheme_actionBarTheme = global::NutritionApp.Droid.Resource.Styleable.AppCompatTheme_actionBarTheme;
+			global::Syncfusion.XForms.Android.ComboBox.Resource.Styleable.AppCompatTheme_actionBarWidgetTheme = global::NutritionApp.Droid.Resource.Styleable.AppCompatTheme_actionBarWidgetTheme;
+			global::Syncfusion.XForms.Android.ComboBox.Resource.Styleable.AppCompatTheme_actionButtonStyle = global::NutritionApp.Droid.Resource.Styleable.AppCompatTheme_actionButtonStyle;
+			global::Syncfusion.XForms.Android.ComboBox.Resource.Styleable.AppCompatTheme_actionDropDownStyle = global::NutritionApp.Droid.Resource.Styleable.AppCompatTheme_actionDropDownStyle;
+			global::Syncfusion.XForms.Android.ComboBox.Resource.Styleable.AppCompatTheme_actionMenuTextAppearance = global::NutritionApp.Droid.Resource.Styleable.AppCompatTheme_actionMenuTextAppearance;
+			global::Syncfusion.XForms.Android.ComboBox.Resource.Styleable.AppCompatTheme_actionMenuTextColor = global::NutritionApp.Droid.Resource.Styleable.AppCompatTheme_actionMenuTextColor;
+			global::Syncfusion.XForms.Android.ComboBox.Resource.Styleable.AppCompatTheme_actionModeBackground = global::NutritionApp.Droid.Resource.Styleable.AppCompatTheme_actionModeBackground;
+			global::Syncfusion.XForms.Android.ComboBox.Resource.Styleable.AppCompatTheme_actionModeCloseButtonStyle = global::NutritionApp.Droid.Resource.Styleable.AppCompatTheme_actionModeCloseButtonStyle;
+			global::Syncfusion.XForms.Android.ComboBox.Resource.Styleable.AppCompatTheme_actionModeCloseDrawable = global::NutritionApp.Droid.Resource.Styleable.AppCompatTheme_actionModeCloseDrawable;
+			global::Syncfusion.XForms.Android.ComboBox.Resource.Styleable.AppCompatTheme_actionModeCopyDrawable = global::NutritionApp.Droid.Resource.Styleable.AppCompatTheme_actionModeCopyDrawable;
+			global::Syncfusion.XForms.Android.ComboBox.Resource.Styleable.AppCompatTheme_actionModeCutDrawable = global::NutritionApp.Droid.Resource.Styleable.AppCompatTheme_actionModeCutDrawable;
+			global::Syncfusion.XForms.Android.ComboBox.Resource.Styleable.AppCompatTheme_actionModeFindDrawable = global::NutritionApp.Droid.Resource.Styleable.AppCompatTheme_actionModeFindDrawable;
+			global::Syncfusion.XForms.Android.ComboBox.Resource.Styleable.AppCompatTheme_actionModePasteDrawable = global::NutritionApp.Droid.Resource.Styleable.AppCompatTheme_actionModePasteDrawable;
+			global::Syncfusion.XForms.Android.ComboBox.Resource.Styleable.AppCompatTheme_actionModePopupWindowStyle = global::NutritionApp.Droid.Resource.Styleable.AppCompatTheme_actionModePopupWindowStyle;
+			global::Syncfusion.XForms.Android.ComboBox.Resource.Styleable.AppCompatTheme_actionModeSelectAllDrawable = global::NutritionApp.Droid.Resource.Styleable.AppCompatTheme_actionModeSelectAllDrawable;
+			global::Syncfusion.XForms.Android.ComboBox.Resource.Styleable.AppCompatTheme_actionModeShareDrawable = global::NutritionApp.Droid.Resource.Styleable.AppCompatTheme_actionModeShareDrawable;
+			global::Syncfusion.XForms.Android.ComboBox.Resource.Styleable.AppCompatTheme_actionModeSplitBackground = global::NutritionApp.Droid.Resource.Styleable.AppCompatTheme_actionModeSplitBackground;
+			global::Syncfusion.XForms.Android.ComboBox.Resource.Styleable.AppCompatTheme_actionModeStyle = global::NutritionApp.Droid.Resource.Styleable.AppCompatTheme_actionModeStyle;
+			global::Syncfusion.XForms.Android.ComboBox.Resource.Styleable.AppCompatTheme_actionModeWebSearchDrawable = global::NutritionApp.Droid.Resource.Styleable.AppCompatTheme_actionModeWebSearchDrawable;
+			global::Syncfusion.XForms.Android.ComboBox.Resource.Styleable.AppCompatTheme_actionOverflowButtonStyle = global::NutritionApp.Droid.Resource.Styleable.AppCompatTheme_actionOverflowButtonStyle;
+			global::Syncfusion.XForms.Android.ComboBox.Resource.Styleable.AppCompatTheme_actionOverflowMenuStyle = global::NutritionApp.Droid.Resource.Styleable.AppCompatTheme_actionOverflowMenuStyle;
+			global::Syncfusion.XForms.Android.ComboBox.Resource.Styleable.AppCompatTheme_activityChooserViewStyle = global::NutritionApp.Droid.Resource.Styleable.AppCompatTheme_activityChooserViewStyle;
+			global::Syncfusion.XForms.Android.ComboBox.Resource.Styleable.AppCompatTheme_alertDialogButtonGroupStyle = global::NutritionApp.Droid.Resource.Styleable.AppCompatTheme_alertDialogButtonGroupStyle;
+			global::Syncfusion.XForms.Android.ComboBox.Resource.Styleable.AppCompatTheme_alertDialogCenterButtons = global::NutritionApp.Droid.Resource.Styleable.AppCompatTheme_alertDialogCenterButtons;
+			global::Syncfusion.XForms.Android.ComboBox.Resource.Styleable.AppCompatTheme_alertDialogStyle = global::NutritionApp.Droid.Resource.Styleable.AppCompatTheme_alertDialogStyle;
+			global::Syncfusion.XForms.Android.ComboBox.Resource.Styleable.AppCompatTheme_alertDialogTheme = global::NutritionApp.Droid.Resource.Styleable.AppCompatTheme_alertDialogTheme;
+			global::Syncfusion.XForms.Android.ComboBox.Resource.Styleable.AppCompatTheme_android_windowAnimationStyle = global::NutritionApp.Droid.Resource.Styleable.AppCompatTheme_android_windowAnimationStyle;
+			global::Syncfusion.XForms.Android.ComboBox.Resource.Styleable.AppCompatTheme_android_windowIsFloating = global::NutritionApp.Droid.Resource.Styleable.AppCompatTheme_android_windowIsFloating;
+			global::Syncfusion.XForms.Android.ComboBox.Resource.Styleable.AppCompatTheme_autoCompleteTextViewStyle = global::NutritionApp.Droid.Resource.Styleable.AppCompatTheme_autoCompleteTextViewStyle;
+			global::Syncfusion.XForms.Android.ComboBox.Resource.Styleable.AppCompatTheme_borderlessButtonStyle = global::NutritionApp.Droid.Resource.Styleable.AppCompatTheme_borderlessButtonStyle;
+			global::Syncfusion.XForms.Android.ComboBox.Resource.Styleable.AppCompatTheme_buttonBarButtonStyle = global::NutritionApp.Droid.Resource.Styleable.AppCompatTheme_buttonBarButtonStyle;
+			global::Syncfusion.XForms.Android.ComboBox.Resource.Styleable.AppCompatTheme_buttonBarNegativeButtonStyle = global::NutritionApp.Droid.Resource.Styleable.AppCompatTheme_buttonBarNegativeButtonStyle;
+			global::Syncfusion.XForms.Android.ComboBox.Resource.Styleable.AppCompatTheme_buttonBarNeutralButtonStyle = global::NutritionApp.Droid.Resource.Styleable.AppCompatTheme_buttonBarNeutralButtonStyle;
+			global::Syncfusion.XForms.Android.ComboBox.Resource.Styleable.AppCompatTheme_buttonBarPositiveButtonStyle = global::NutritionApp.Droid.Resource.Styleable.AppCompatTheme_buttonBarPositiveButtonStyle;
+			global::Syncfusion.XForms.Android.ComboBox.Resource.Styleable.AppCompatTheme_buttonBarStyle = global::NutritionApp.Droid.Resource.Styleable.AppCompatTheme_buttonBarStyle;
+			global::Syncfusion.XForms.Android.ComboBox.Resource.Styleable.AppCompatTheme_buttonStyle = global::NutritionApp.Droid.Resource.Styleable.AppCompatTheme_buttonStyle;
+			global::Syncfusion.XForms.Android.ComboBox.Resource.Styleable.AppCompatTheme_buttonStyleSmall = global::NutritionApp.Droid.Resource.Styleable.AppCompatTheme_buttonStyleSmall;
+			global::Syncfusion.XForms.Android.ComboBox.Resource.Styleable.AppCompatTheme_checkboxStyle = global::NutritionApp.Droid.Resource.Styleable.AppCompatTheme_checkboxStyle;
+			global::Syncfusion.XForms.Android.ComboBox.Resource.Styleable.AppCompatTheme_checkedTextViewStyle = global::NutritionApp.Droid.Resource.Styleable.AppCompatTheme_checkedTextViewStyle;
+			global::Syncfusion.XForms.Android.ComboBox.Resource.Styleable.AppCompatTheme_colorAccent = global::NutritionApp.Droid.Resource.Styleable.AppCompatTheme_colorAccent;
+			global::Syncfusion.XForms.Android.ComboBox.Resource.Styleable.AppCompatTheme_colorBackgroundFloating = global::NutritionApp.Droid.Resource.Styleable.AppCompatTheme_colorBackgroundFloating;
+			global::Syncfusion.XForms.Android.ComboBox.Resource.Styleable.AppCompatTheme_colorButtonNormal = global::NutritionApp.Droid.Resource.Styleable.AppCompatTheme_colorButtonNormal;
+			global::Syncfusion.XForms.Android.ComboBox.Resource.Styleable.AppCompatTheme_colorControlActivated = global::NutritionApp.Droid.Resource.Styleable.AppCompatTheme_colorControlActivated;
+			global::Syncfusion.XForms.Android.ComboBox.Resource.Styleable.AppCompatTheme_colorControlHighlight = global::NutritionApp.Droid.Resource.Styleable.AppCompatTheme_colorControlHighlight;
+			global::Syncfusion.XForms.Android.ComboBox.Resource.Styleable.AppCompatTheme_colorControlNormal = global::NutritionApp.Droid.Resource.Styleable.AppCompatTheme_colorControlNormal;
+			global::Syncfusion.XForms.Android.ComboBox.Resource.Styleable.AppCompatTheme_colorError = global::NutritionApp.Droid.Resource.Styleable.AppCompatTheme_colorError;
+			global::Syncfusion.XForms.Android.ComboBox.Resource.Styleable.AppCompatTheme_colorPrimary = global::NutritionApp.Droid.Resource.Styleable.AppCompatTheme_colorPrimary;
+			global::Syncfusion.XForms.Android.ComboBox.Resource.Styleable.AppCompatTheme_colorPrimaryDark = global::NutritionApp.Droid.Resource.Styleable.AppCompatTheme_colorPrimaryDark;
+			global::Syncfusion.XForms.Android.ComboBox.Resource.Styleable.AppCompatTheme_colorSwitchThumbNormal = global::NutritionApp.Droid.Resource.Styleable.AppCompatTheme_colorSwitchThumbNormal;
+			global::Syncfusion.XForms.Android.ComboBox.Resource.Styleable.AppCompatTheme_controlBackground = global::NutritionApp.Droid.Resource.Styleable.AppCompatTheme_controlBackground;
+			global::Syncfusion.XForms.Android.ComboBox.Resource.Styleable.AppCompatTheme_dialogCornerRadius = global::NutritionApp.Droid.Resource.Styleable.AppCompatTheme_dialogCornerRadius;
+			global::Syncfusion.XForms.Android.ComboBox.Resource.Styleable.AppCompatTheme_dialogPreferredPadding = global::NutritionApp.Droid.Resource.Styleable.AppCompatTheme_dialogPreferredPadding;
+			global::Syncfusion.XForms.Android.ComboBox.Resource.Styleable.AppCompatTheme_dialogTheme = global::NutritionApp.Droid.Resource.Styleable.AppCompatTheme_dialogTheme;
+			global::Syncfusion.XForms.Android.ComboBox.Resource.Styleable.AppCompatTheme_dividerHorizontal = global::NutritionApp.Droid.Resource.Styleable.AppCompatTheme_dividerHorizontal;
+			global::Syncfusion.XForms.Android.ComboBox.Resource.Styleable.AppCompatTheme_dividerVertical = global::NutritionApp.Droid.Resource.Styleable.AppCompatTheme_dividerVertical;
+			global::Syncfusion.XForms.Android.ComboBox.Resource.Styleable.AppCompatTheme_dropdownListPreferredItemHeight = global::NutritionApp.Droid.Resource.Styleable.AppCompatTheme_dropdownListPreferredItemHeight;
+			global::Syncfusion.XForms.Android.ComboBox.Resource.Styleable.AppCompatTheme_dropDownListViewStyle = global::NutritionApp.Droid.Resource.Styleable.AppCompatTheme_dropDownListViewStyle;
+			global::Syncfusion.XForms.Android.ComboBox.Resource.Styleable.AppCompatTheme_editTextBackground = global::NutritionApp.Droid.Resource.Styleable.AppCompatTheme_editTextBackground;
+			global::Syncfusion.XForms.Android.ComboBox.Resource.Styleable.AppCompatTheme_editTextColor = global::NutritionApp.Droid.Resource.Styleable.AppCompatTheme_editTextColor;
+			global::Syncfusion.XForms.Android.ComboBox.Resource.Styleable.AppCompatTheme_editTextStyle = global::NutritionApp.Droid.Resource.Styleable.AppCompatTheme_editTextStyle;
+			global::Syncfusion.XForms.Android.ComboBox.Resource.Styleable.AppCompatTheme_homeAsUpIndicator = global::NutritionApp.Droid.Resource.Styleable.AppCompatTheme_homeAsUpIndicator;
+			global::Syncfusion.XForms.Android.ComboBox.Resource.Styleable.AppCompatTheme_imageButtonStyle = global::NutritionApp.Droid.Resource.Styleable.AppCompatTheme_imageButtonStyle;
+			global::Syncfusion.XForms.Android.ComboBox.Resource.Styleable.AppCompatTheme_listChoiceBackgroundIndicator = global::NutritionApp.Droid.Resource.Styleable.AppCompatTheme_listChoiceBackgroundIndicator;
+			global::Syncfusion.XForms.Android.ComboBox.Resource.Styleable.AppCompatTheme_listChoiceIndicatorMultipleAnimated = global::NutritionApp.Droid.Resource.Styleable.AppCompatTheme_listChoiceIndicatorMultipleAnimated;
+			global::Syncfusion.XForms.Android.ComboBox.Resource.Styleable.AppCompatTheme_listChoiceIndicatorSingleAnimated = global::NutritionApp.Droid.Resource.Styleable.AppCompatTheme_listChoiceIndicatorSingleAnimated;
+			global::Syncfusion.XForms.Android.ComboBox.Resource.Styleable.AppCompatTheme_listDividerAlertDialog = global::NutritionApp.Droid.Resource.Styleable.AppCompatTheme_listDividerAlertDialog;
+			global::Syncfusion.XForms.Android.ComboBox.Resource.Styleable.AppCompatTheme_listMenuViewStyle = global::NutritionApp.Droid.Resource.Styleable.AppCompatTheme_listMenuViewStyle;
+			global::Syncfusion.XForms.Android.ComboBox.Resource.Styleable.AppCompatTheme_listPopupWindowStyle = global::NutritionApp.Droid.Resource.Styleable.AppCompatTheme_listPopupWindowStyle;
+			global::Syncfusion.XForms.Android.ComboBox.Resource.Styleable.AppCompatTheme_listPreferredItemHeight = global::NutritionApp.Droid.Resource.Styleable.AppCompatTheme_listPreferredItemHeight;
+			global::Syncfusion.XForms.Android.ComboBox.Resource.Styleable.AppCompatTheme_listPreferredItemHeightLarge = global::NutritionApp.Droid.Resource.Styleable.AppCompatTheme_listPreferredItemHeightLarge;
+			global::Syncfusion.XForms.Android.ComboBox.Resource.Styleable.AppCompatTheme_listPreferredItemHeightSmall = global::NutritionApp.Droid.Resource.Styleable.AppCompatTheme_listPreferredItemHeightSmall;
+			global::Syncfusion.XForms.Android.ComboBox.Resource.Styleable.AppCompatTheme_listPreferredItemPaddingEnd = global::NutritionApp.Droid.Resource.Styleable.AppCompatTheme_listPreferredItemPaddingEnd;
+			global::Syncfusion.XForms.Android.ComboBox.Resource.Styleable.AppCompatTheme_listPreferredItemPaddingLeft = global::NutritionApp.Droid.Resource.Styleable.AppCompatTheme_listPreferredItemPaddingLeft;
+			global::Syncfusion.XForms.Android.ComboBox.Resource.Styleable.AppCompatTheme_listPreferredItemPaddingRight = global::NutritionApp.Droid.Resource.Styleable.AppCompatTheme_listPreferredItemPaddingRight;
+			global::Syncfusion.XForms.Android.ComboBox.Resource.Styleable.AppCompatTheme_listPreferredItemPaddingStart = global::NutritionApp.Droid.Resource.Styleable.AppCompatTheme_listPreferredItemPaddingStart;
+			global::Syncfusion.XForms.Android.ComboBox.Resource.Styleable.AppCompatTheme_panelBackground = global::NutritionApp.Droid.Resource.Styleable.AppCompatTheme_panelBackground;
+			global::Syncfusion.XForms.Android.ComboBox.Resource.Styleable.AppCompatTheme_panelMenuListTheme = global::NutritionApp.Droid.Resource.Styleable.AppCompatTheme_panelMenuListTheme;
+			global::Syncfusion.XForms.Android.ComboBox.Resource.Styleable.AppCompatTheme_panelMenuListWidth = global::NutritionApp.Droid.Resource.Styleable.AppCompatTheme_panelMenuListWidth;
+			global::Syncfusion.XForms.Android.ComboBox.Resource.Styleable.AppCompatTheme_popupMenuStyle = global::NutritionApp.Droid.Resource.Styleable.AppCompatTheme_popupMenuStyle;
+			global::Syncfusion.XForms.Android.ComboBox.Resource.Styleable.AppCompatTheme_popupWindowStyle = global::NutritionApp.Droid.Resource.Styleable.AppCompatTheme_popupWindowStyle;
+			global::Syncfusion.XForms.Android.ComboBox.Resource.Styleable.AppCompatTheme_radioButtonStyle = global::NutritionApp.Droid.Resource.Styleable.AppCompatTheme_radioButtonStyle;
+			global::Syncfusion.XForms.Android.ComboBox.Resource.Styleable.AppCompatTheme_ratingBarStyle = global::NutritionApp.Droid.Resource.Styleable.AppCompatTheme_ratingBarStyle;
+			global::Syncfusion.XForms.Android.ComboBox.Resource.Styleable.AppCompatTheme_ratingBarStyleIndicator = global::NutritionApp.Droid.Resource.Styleable.AppCompatTheme_ratingBarStyleIndicator;
+			global::Syncfusion.XForms.Android.ComboBox.Resource.Styleable.AppCompatTheme_ratingBarStyleSmall = global::NutritionApp.Droid.Resource.Styleable.AppCompatTheme_ratingBarStyleSmall;
+			global::Syncfusion.XForms.Android.ComboBox.Resource.Styleable.AppCompatTheme_searchViewStyle = global::NutritionApp.Droid.Resource.Styleable.AppCompatTheme_searchViewStyle;
+			global::Syncfusion.XForms.Android.ComboBox.Resource.Styleable.AppCompatTheme_seekBarStyle = global::NutritionApp.Droid.Resource.Styleable.AppCompatTheme_seekBarStyle;
+			global::Syncfusion.XForms.Android.ComboBox.Resource.Styleable.AppCompatTheme_selectableItemBackground = global::NutritionApp.Droid.Resource.Styleable.AppCompatTheme_selectableItemBackground;
+			global::Syncfusion.XForms.Android.ComboBox.Resource.Styleable.AppCompatTheme_selectableItemBackgroundBorderless = global::NutritionApp.Droid.Resource.Styleable.AppCompatTheme_selectableItemBackgroundBorderless;
+			global::Syncfusion.XForms.Android.ComboBox.Resource.Styleable.AppCompatTheme_spinnerDropDownItemStyle = global::NutritionApp.Droid.Resource.Styleable.AppCompatTheme_spinnerDropDownItemStyle;
+			global::Syncfusion.XForms.Android.ComboBox.Resource.Styleable.AppCompatTheme_spinnerStyle = global::NutritionApp.Droid.Resource.Styleable.AppCompatTheme_spinnerStyle;
+			global::Syncfusion.XForms.Android.ComboBox.Resource.Styleable.AppCompatTheme_switchStyle = global::NutritionApp.Droid.Resource.Styleable.AppCompatTheme_switchStyle;
+			global::Syncfusion.XForms.Android.ComboBox.Resource.Styleable.AppCompatTheme_textAppearanceLargePopupMenu = global::NutritionApp.Droid.Resource.Styleable.AppCompatTheme_textAppearanceLargePopupMenu;
+			global::Syncfusion.XForms.Android.ComboBox.Resource.Styleable.AppCompatTheme_textAppearanceListItem = global::NutritionApp.Droid.Resource.Styleable.AppCompatTheme_textAppearanceListItem;
+			global::Syncfusion.XForms.Android.ComboBox.Resource.Styleable.AppCompatTheme_textAppearanceListItemSecondary = global::NutritionApp.Droid.Resource.Styleable.AppCompatTheme_textAppearanceListItemSecondary;
+			global::Syncfusion.XForms.Android.ComboBox.Resource.Styleable.AppCompatTheme_textAppearanceListItemSmall = global::NutritionApp.Droid.Resource.Styleable.AppCompatTheme_textAppearanceListItemSmall;
+			global::Syncfusion.XForms.Android.ComboBox.Resource.Styleable.AppCompatTheme_textAppearancePopupMenuHeader = global::NutritionApp.Droid.Resource.Styleable.AppCompatTheme_textAppearancePopupMenuHeader;
+			global::Syncfusion.XForms.Android.ComboBox.Resource.Styleable.AppCompatTheme_textAppearanceSearchResultSubtitle = global::NutritionApp.Droid.Resource.Styleable.AppCompatTheme_textAppearanceSearchResultSubtitle;
+			global::Syncfusion.XForms.Android.ComboBox.Resource.Styleable.AppCompatTheme_textAppearanceSearchResultTitle = global::NutritionApp.Droid.Resource.Styleable.AppCompatTheme_textAppearanceSearchResultTitle;
+			global::Syncfusion.XForms.Android.ComboBox.Resource.Styleable.AppCompatTheme_textAppearanceSmallPopupMenu = global::NutritionApp.Droid.Resource.Styleable.AppCompatTheme_textAppearanceSmallPopupMenu;
+			global::Syncfusion.XForms.Android.ComboBox.Resource.Styleable.AppCompatTheme_textColorAlertDialogListItem = global::NutritionApp.Droid.Resource.Styleable.AppCompatTheme_textColorAlertDialogListItem;
+			global::Syncfusion.XForms.Android.ComboBox.Resource.Styleable.AppCompatTheme_textColorSearchUrl = global::NutritionApp.Droid.Resource.Styleable.AppCompatTheme_textColorSearchUrl;
+			global::Syncfusion.XForms.Android.ComboBox.Resource.Styleable.AppCompatTheme_toolbarNavigationButtonStyle = global::NutritionApp.Droid.Resource.Styleable.AppCompatTheme_toolbarNavigationButtonStyle;
+			global::Syncfusion.XForms.Android.ComboBox.Resource.Styleable.AppCompatTheme_toolbarStyle = global::NutritionApp.Droid.Resource.Styleable.AppCompatTheme_toolbarStyle;
+			global::Syncfusion.XForms.Android.ComboBox.Resource.Styleable.AppCompatTheme_tooltipForegroundColor = global::NutritionApp.Droid.Resource.Styleable.AppCompatTheme_tooltipForegroundColor;
+			global::Syncfusion.XForms.Android.ComboBox.Resource.Styleable.AppCompatTheme_tooltipFrameBackground = global::NutritionApp.Droid.Resource.Styleable.AppCompatTheme_tooltipFrameBackground;
+			global::Syncfusion.XForms.Android.ComboBox.Resource.Styleable.AppCompatTheme_viewInflaterClass = global::NutritionApp.Droid.Resource.Styleable.AppCompatTheme_viewInflaterClass;
+			global::Syncfusion.XForms.Android.ComboBox.Resource.Styleable.AppCompatTheme_windowActionBar = global::NutritionApp.Droid.Resource.Styleable.AppCompatTheme_windowActionBar;
+			global::Syncfusion.XForms.Android.ComboBox.Resource.Styleable.AppCompatTheme_windowActionBarOverlay = global::NutritionApp.Droid.Resource.Styleable.AppCompatTheme_windowActionBarOverlay;
+			global::Syncfusion.XForms.Android.ComboBox.Resource.Styleable.AppCompatTheme_windowActionModeOverlay = global::NutritionApp.Droid.Resource.Styleable.AppCompatTheme_windowActionModeOverlay;
+			global::Syncfusion.XForms.Android.ComboBox.Resource.Styleable.AppCompatTheme_windowFixedHeightMajor = global::NutritionApp.Droid.Resource.Styleable.AppCompatTheme_windowFixedHeightMajor;
+			global::Syncfusion.XForms.Android.ComboBox.Resource.Styleable.AppCompatTheme_windowFixedHeightMinor = global::NutritionApp.Droid.Resource.Styleable.AppCompatTheme_windowFixedHeightMinor;
+			global::Syncfusion.XForms.Android.ComboBox.Resource.Styleable.AppCompatTheme_windowFixedWidthMajor = global::NutritionApp.Droid.Resource.Styleable.AppCompatTheme_windowFixedWidthMajor;
+			global::Syncfusion.XForms.Android.ComboBox.Resource.Styleable.AppCompatTheme_windowFixedWidthMinor = global::NutritionApp.Droid.Resource.Styleable.AppCompatTheme_windowFixedWidthMinor;
+			global::Syncfusion.XForms.Android.ComboBox.Resource.Styleable.AppCompatTheme_windowMinWidthMajor = global::NutritionApp.Droid.Resource.Styleable.AppCompatTheme_windowMinWidthMajor;
+			global::Syncfusion.XForms.Android.ComboBox.Resource.Styleable.AppCompatTheme_windowMinWidthMinor = global::NutritionApp.Droid.Resource.Styleable.AppCompatTheme_windowMinWidthMinor;
+			global::Syncfusion.XForms.Android.ComboBox.Resource.Styleable.AppCompatTheme_windowNoTitle = global::NutritionApp.Droid.Resource.Styleable.AppCompatTheme_windowNoTitle;
+			global::Syncfusion.XForms.Android.ComboBox.Resource.Styleable.Badge = global::NutritionApp.Droid.Resource.Styleable.Badge;
+			global::Syncfusion.XForms.Android.ComboBox.Resource.Styleable.Badge_backgroundColor = global::NutritionApp.Droid.Resource.Styleable.Badge_backgroundColor;
+			global::Syncfusion.XForms.Android.ComboBox.Resource.Styleable.Badge_badgeGravity = global::NutritionApp.Droid.Resource.Styleable.Badge_badgeGravity;
+			global::Syncfusion.XForms.Android.ComboBox.Resource.Styleable.Badge_badgeTextColor = global::NutritionApp.Droid.Resource.Styleable.Badge_badgeTextColor;
+			global::Syncfusion.XForms.Android.ComboBox.Resource.Styleable.Badge_horizontalOffset = global::NutritionApp.Droid.Resource.Styleable.Badge_horizontalOffset;
+			global::Syncfusion.XForms.Android.ComboBox.Resource.Styleable.Badge_maxCharacterCount = global::NutritionApp.Droid.Resource.Styleable.Badge_maxCharacterCount;
+			global::Syncfusion.XForms.Android.ComboBox.Resource.Styleable.Badge_number = global::NutritionApp.Droid.Resource.Styleable.Badge_number;
+			global::Syncfusion.XForms.Android.ComboBox.Resource.Styleable.Badge_verticalOffset = global::NutritionApp.Droid.Resource.Styleable.Badge_verticalOffset;
+			global::Syncfusion.XForms.Android.ComboBox.Resource.Styleable.BottomAppBar = global::NutritionApp.Droid.Resource.Styleable.BottomAppBar;
+			global::Syncfusion.XForms.Android.ComboBox.Resource.Styleable.BottomAppBar_backgroundTint = global::NutritionApp.Droid.Resource.Styleable.BottomAppBar_backgroundTint;
+			global::Syncfusion.XForms.Android.ComboBox.Resource.Styleable.BottomAppBar_elevation = global::NutritionApp.Droid.Resource.Styleable.BottomAppBar_elevation;
+			global::Syncfusion.XForms.Android.ComboBox.Resource.Styleable.BottomAppBar_fabAlignmentMode = global::NutritionApp.Droid.Resource.Styleable.BottomAppBar_fabAlignmentMode;
+			global::Syncfusion.XForms.Android.ComboBox.Resource.Styleable.BottomAppBar_fabAnimationMode = global::NutritionApp.Droid.Resource.Styleable.BottomAppBar_fabAnimationMode;
+			global::Syncfusion.XForms.Android.ComboBox.Resource.Styleable.BottomAppBar_fabCradleMargin = global::NutritionApp.Droid.Resource.Styleable.BottomAppBar_fabCradleMargin;
+			global::Syncfusion.XForms.Android.ComboBox.Resource.Styleable.BottomAppBar_fabCradleRoundedCornerRadius = global::NutritionApp.Droid.Resource.Styleable.BottomAppBar_fabCradleRoundedCornerRadius;
+			global::Syncfusion.XForms.Android.ComboBox.Resource.Styleable.BottomAppBar_fabCradleVerticalOffset = global::NutritionApp.Droid.Resource.Styleable.BottomAppBar_fabCradleVerticalOffset;
+			global::Syncfusion.XForms.Android.ComboBox.Resource.Styleable.BottomAppBar_hideOnScroll = global::NutritionApp.Droid.Resource.Styleable.BottomAppBar_hideOnScroll;
+			global::Syncfusion.XForms.Android.ComboBox.Resource.Styleable.BottomAppBar_paddingBottomSystemWindowInsets = global::NutritionApp.Droid.Resource.Styleable.BottomAppBar_paddingBottomSystemWindowInsets;
+			global::Syncfusion.XForms.Android.ComboBox.Resource.Styleable.BottomAppBar_paddingLeftSystemWindowInsets = global::NutritionApp.Droid.Resource.Styleable.BottomAppBar_paddingLeftSystemWindowInsets;
+			global::Syncfusion.XForms.Android.ComboBox.Resource.Styleable.BottomAppBar_paddingRightSystemWindowInsets = global::NutritionApp.Droid.Resource.Styleable.BottomAppBar_paddingRightSystemWindowInsets;
+			global::Syncfusion.XForms.Android.ComboBox.Resource.Styleable.BottomNavigationView = global::NutritionApp.Droid.Resource.Styleable.BottomNavigationView;
+			global::Syncfusion.XForms.Android.ComboBox.Resource.Styleable.BottomNavigationView_itemHorizontalTranslationEnabled = global::NutritionApp.Droid.Resource.Styleable.BottomNavigationView_itemHorizontalTranslationEnabled;
+			global::Syncfusion.XForms.Android.ComboBox.Resource.Styleable.BottomSheetBehavior_Layout = global::NutritionApp.Droid.Resource.Styleable.BottomSheetBehavior_Layout;
+			global::Syncfusion.XForms.Android.ComboBox.Resource.Styleable.BottomSheetBehavior_Layout_android_elevation = global::NutritionApp.Droid.Resource.Styleable.BottomSheetBehavior_Layout_android_elevation;
+			global::Syncfusion.XForms.Android.ComboBox.Resource.Styleable.BottomSheetBehavior_Layout_backgroundTint = global::NutritionApp.Droid.Resource.Styleable.BottomSheetBehavior_Layout_backgroundTint;
+			global::Syncfusion.XForms.Android.ComboBox.Resource.Styleable.BottomSheetBehavior_Layout_behavior_draggable = global::NutritionApp.Droid.Resource.Styleable.BottomSheetBehavior_Layout_behavior_draggable;
+			global::Syncfusion.XForms.Android.ComboBox.Resource.Styleable.BottomSheetBehavior_Layout_behavior_expandedOffset = global::NutritionApp.Droid.Resource.Styleable.BottomSheetBehavior_Layout_behavior_expandedOffset;
+			global::Syncfusion.XForms.Android.ComboBox.Resource.Styleable.BottomSheetBehavior_Layout_behavior_fitToContents = global::NutritionApp.Droid.Resource.Styleable.BottomSheetBehavior_Layout_behavior_fitToContents;
+			global::Syncfusion.XForms.Android.ComboBox.Resource.Styleable.BottomSheetBehavior_Layout_behavior_halfExpandedRatio = global::NutritionApp.Droid.Resource.Styleable.BottomSheetBehavior_Layout_behavior_halfExpandedRatio;
+			global::Syncfusion.XForms.Android.ComboBox.Resource.Styleable.BottomSheetBehavior_Layout_behavior_hideable = global::NutritionApp.Droid.Resource.Styleable.BottomSheetBehavior_Layout_behavior_hideable;
+			global::Syncfusion.XForms.Android.ComboBox.Resource.Styleable.BottomSheetBehavior_Layout_behavior_peekHeight = global::NutritionApp.Droid.Resource.Styleable.BottomSheetBehavior_Layout_behavior_peekHeight;
+			global::Syncfusion.XForms.Android.ComboBox.Resource.Styleable.BottomSheetBehavior_Layout_behavior_saveFlags = global::NutritionApp.Droid.Resource.Styleable.BottomSheetBehavior_Layout_behavior_saveFlags;
+			global::Syncfusion.XForms.Android.ComboBox.Resource.Styleable.BottomSheetBehavior_Layout_behavior_skipCollapsed = global::NutritionApp.Droid.Resource.Styleable.BottomSheetBehavior_Layout_behavior_skipCollapsed;
+			global::Syncfusion.XForms.Android.ComboBox.Resource.Styleable.BottomSheetBehavior_Layout_gestureInsetBottomIgnored = global::NutritionApp.Droid.Resource.Styleable.BottomSheetBehavior_Layout_gestureInsetBottomIgnored;
+			global::Syncfusion.XForms.Android.ComboBox.Resource.Styleable.BottomSheetBehavior_Layout_shapeAppearance = global::NutritionApp.Droid.Resource.Styleable.BottomSheetBehavior_Layout_shapeAppearance;
+			global::Syncfusion.XForms.Android.ComboBox.Resource.Styleable.BottomSheetBehavior_Layout_shapeAppearanceOverlay = global::NutritionApp.Droid.Resource.Styleable.BottomSheetBehavior_Layout_shapeAppearanceOverlay;
+			global::Syncfusion.XForms.Android.ComboBox.Resource.Styleable.ButtonBarLayout = global::NutritionApp.Droid.Resource.Styleable.ButtonBarLayout;
+			global::Syncfusion.XForms.Android.ComboBox.Resource.Styleable.ButtonBarLayout_allowStacking = global::NutritionApp.Droid.Resource.Styleable.ButtonBarLayout_allowStacking;
+			global::Syncfusion.XForms.Android.ComboBox.Resource.Styleable.CardView = global::NutritionApp.Droid.Resource.Styleable.CardView;
+			global::Syncfusion.XForms.Android.ComboBox.Resource.Styleable.CardView_android_minHeight = global::NutritionApp.Droid.Resource.Styleable.CardView_android_minHeight;
+			global::Syncfusion.XForms.Android.ComboBox.Resource.Styleable.CardView_android_minWidth = global::NutritionApp.Droid.Resource.Styleable.CardView_android_minWidth;
+			global::Syncfusion.XForms.Android.ComboBox.Resource.Styleable.CardView_cardBackgroundColor = global::NutritionApp.Droid.Resource.Styleable.CardView_cardBackgroundColor;
+			global::Syncfusion.XForms.Android.ComboBox.Resource.Styleable.CardView_cardCornerRadius = global::NutritionApp.Droid.Resource.Styleable.CardView_cardCornerRadius;
+			global::Syncfusion.XForms.Android.ComboBox.Resource.Styleable.CardView_cardElevation = global::NutritionApp.Droid.Resource.Styleable.CardView_cardElevation;
+			global::Syncfusion.XForms.Android.ComboBox.Resource.Styleable.CardView_cardMaxElevation = global::NutritionApp.Droid.Resource.Styleable.CardView_cardMaxElevation;
+			global::Syncfusion.XForms.Android.ComboBox.Resource.Styleable.CardView_cardPreventCornerOverlap = global::NutritionApp.Droid.Resource.Styleable.CardView_cardPreventCornerOverlap;
+			global::Syncfusion.XForms.Android.ComboBox.Resource.Styleable.CardView_cardUseCompatPadding = global::NutritionApp.Droid.Resource.Styleable.CardView_cardUseCompatPadding;
+			global::Syncfusion.XForms.Android.ComboBox.Resource.Styleable.CardView_contentPadding = global::NutritionApp.Droid.Resource.Styleable.CardView_contentPadding;
+			global::Syncfusion.XForms.Android.ComboBox.Resource.Styleable.CardView_contentPaddingBottom = global::NutritionApp.Droid.Resource.Styleable.CardView_contentPaddingBottom;
+			global::Syncfusion.XForms.Android.ComboBox.Resource.Styleable.CardView_contentPaddingLeft = global::NutritionApp.Droid.Resource.Styleable.CardView_contentPaddingLeft;
+			global::Syncfusion.XForms.Android.ComboBox.Resource.Styleable.CardView_contentPaddingRight = global::NutritionApp.Droid.Resource.Styleable.CardView_contentPaddingRight;
+			global::Syncfusion.XForms.Android.ComboBox.Resource.Styleable.CardView_contentPaddingTop = global::NutritionApp.Droid.Resource.Styleable.CardView_contentPaddingTop;
+			global::Syncfusion.XForms.Android.ComboBox.Resource.Styleable.Chip = global::NutritionApp.Droid.Resource.Styleable.Chip;
+			global::Syncfusion.XForms.Android.ComboBox.Resource.Styleable.ChipGroup = global::NutritionApp.Droid.Resource.Styleable.ChipGroup;
+			global::Syncfusion.XForms.Android.ComboBox.Resource.Styleable.ChipGroup_checkedChip = global::NutritionApp.Droid.Resource.Styleable.ChipGroup_checkedChip;
+			global::Syncfusion.XForms.Android.ComboBox.Resource.Styleable.ChipGroup_chipSpacing = global::NutritionApp.Droid.Resource.Styleable.ChipGroup_chipSpacing;
+			global::Syncfusion.XForms.Android.ComboBox.Resource.Styleable.ChipGroup_chipSpacingHorizontal = global::NutritionApp.Droid.Resource.Styleable.ChipGroup_chipSpacingHorizontal;
+			global::Syncfusion.XForms.Android.ComboBox.Resource.Styleable.ChipGroup_chipSpacingVertical = global::NutritionApp.Droid.Resource.Styleable.ChipGroup_chipSpacingVertical;
+			global::Syncfusion.XForms.Android.ComboBox.Resource.Styleable.ChipGroup_selectionRequired = global::NutritionApp.Droid.Resource.Styleable.ChipGroup_selectionRequired;
+			global::Syncfusion.XForms.Android.ComboBox.Resource.Styleable.ChipGroup_singleLine = global::NutritionApp.Droid.Resource.Styleable.ChipGroup_singleLine;
+			global::Syncfusion.XForms.Android.ComboBox.Resource.Styleable.ChipGroup_singleSelection = global::NutritionApp.Droid.Resource.Styleable.ChipGroup_singleSelection;
+			global::Syncfusion.XForms.Android.ComboBox.Resource.Styleable.Chip_android_checkable = global::NutritionApp.Droid.Resource.Styleable.Chip_android_checkable;
+			global::Syncfusion.XForms.Android.ComboBox.Resource.Styleable.Chip_android_ellipsize = global::NutritionApp.Droid.Resource.Styleable.Chip_android_ellipsize;
+			global::Syncfusion.XForms.Android.ComboBox.Resource.Styleable.Chip_android_maxWidth = global::NutritionApp.Droid.Resource.Styleable.Chip_android_maxWidth;
+			global::Syncfusion.XForms.Android.ComboBox.Resource.Styleable.Chip_android_text = global::NutritionApp.Droid.Resource.Styleable.Chip_android_text;
+			global::Syncfusion.XForms.Android.ComboBox.Resource.Styleable.Chip_android_textAppearance = global::NutritionApp.Droid.Resource.Styleable.Chip_android_textAppearance;
+			global::Syncfusion.XForms.Android.ComboBox.Resource.Styleable.Chip_android_textColor = global::NutritionApp.Droid.Resource.Styleable.Chip_android_textColor;
+			global::Syncfusion.XForms.Android.ComboBox.Resource.Styleable.Chip_checkedIcon = global::NutritionApp.Droid.Resource.Styleable.Chip_checkedIcon;
+			global::Syncfusion.XForms.Android.ComboBox.Resource.Styleable.Chip_checkedIconEnabled = global::NutritionApp.Droid.Resource.Styleable.Chip_checkedIconEnabled;
+			global::Syncfusion.XForms.Android.ComboBox.Resource.Styleable.Chip_checkedIconTint = global::NutritionApp.Droid.Resource.Styleable.Chip_checkedIconTint;
+			global::Syncfusion.XForms.Android.ComboBox.Resource.Styleable.Chip_checkedIconVisible = global::NutritionApp.Droid.Resource.Styleable.Chip_checkedIconVisible;
+			global::Syncfusion.XForms.Android.ComboBox.Resource.Styleable.Chip_chipBackgroundColor = global::NutritionApp.Droid.Resource.Styleable.Chip_chipBackgroundColor;
+			global::Syncfusion.XForms.Android.ComboBox.Resource.Styleable.Chip_chipCornerRadius = global::NutritionApp.Droid.Resource.Styleable.Chip_chipCornerRadius;
+			global::Syncfusion.XForms.Android.ComboBox.Resource.Styleable.Chip_chipEndPadding = global::NutritionApp.Droid.Resource.Styleable.Chip_chipEndPadding;
+			global::Syncfusion.XForms.Android.ComboBox.Resource.Styleable.Chip_chipIcon = global::NutritionApp.Droid.Resource.Styleable.Chip_chipIcon;
+			global::Syncfusion.XForms.Android.ComboBox.Resource.Styleable.Chip_chipIconEnabled = global::NutritionApp.Droid.Resource.Styleable.Chip_chipIconEnabled;
+			global::Syncfusion.XForms.Android.ComboBox.Resource.Styleable.Chip_chipIconSize = global::NutritionApp.Droid.Resource.Styleable.Chip_chipIconSize;
+			global::Syncfusion.XForms.Android.ComboBox.Resource.Styleable.Chip_chipIconTint = global::NutritionApp.Droid.Resource.Styleable.Chip_chipIconTint;
+			global::Syncfusion.XForms.Android.ComboBox.Resource.Styleable.Chip_chipIconVisible = global::NutritionApp.Droid.Resource.Styleable.Chip_chipIconVisible;
+			global::Syncfusion.XForms.Android.ComboBox.Resource.Styleable.Chip_chipMinHeight = global::NutritionApp.Droid.Resource.Styleable.Chip_chipMinHeight;
+			global::Syncfusion.XForms.Android.ComboBox.Resource.Styleable.Chip_chipMinTouchTargetSize = global::NutritionApp.Droid.Resource.Styleable.Chip_chipMinTouchTargetSize;
+			global::Syncfusion.XForms.Android.ComboBox.Resource.Styleable.Chip_chipStartPadding = global::NutritionApp.Droid.Resource.Styleable.Chip_chipStartPadding;
+			global::Syncfusion.XForms.Android.ComboBox.Resource.Styleable.Chip_chipStrokeColor = global::NutritionApp.Droid.Resource.Styleable.Chip_chipStrokeColor;
+			global::Syncfusion.XForms.Android.ComboBox.Resource.Styleable.Chip_chipStrokeWidth = global::NutritionApp.Droid.Resource.Styleable.Chip_chipStrokeWidth;
+			global::Syncfusion.XForms.Android.ComboBox.Resource.Styleable.Chip_chipSurfaceColor = global::NutritionApp.Droid.Resource.Styleable.Chip_chipSurfaceColor;
+			global::Syncfusion.XForms.Android.ComboBox.Resource.Styleable.Chip_closeIcon = global::NutritionApp.Droid.Resource.Styleable.Chip_closeIcon;
+			global::Syncfusion.XForms.Android.ComboBox.Resource.Styleable.Chip_closeIconEnabled = global::NutritionApp.Droid.Resource.Styleable.Chip_closeIconEnabled;
+			global::Syncfusion.XForms.Android.ComboBox.Resource.Styleable.Chip_closeIconEndPadding = global::NutritionApp.Droid.Resource.Styleable.Chip_closeIconEndPadding;
+			global::Syncfusion.XForms.Android.ComboBox.Resource.Styleable.Chip_closeIconSize = global::NutritionApp.Droid.Resource.Styleable.Chip_closeIconSize;
+			global::Syncfusion.XForms.Android.ComboBox.Resource.Styleable.Chip_closeIconStartPadding = global::NutritionApp.Droid.Resource.Styleable.Chip_closeIconStartPadding;
+			global::Syncfusion.XForms.Android.ComboBox.Resource.Styleable.Chip_closeIconTint = global::NutritionApp.Droid.Resource.Styleable.Chip_closeIconTint;
+			global::Syncfusion.XForms.Android.ComboBox.Resource.Styleable.Chip_closeIconVisible = global::NutritionApp.Droid.Resource.Styleable.Chip_closeIconVisible;
+			global::Syncfusion.XForms.Android.ComboBox.Resource.Styleable.Chip_ensureMinTouchTargetSize = global::NutritionApp.Droid.Resource.Styleable.Chip_ensureMinTouchTargetSize;
+			global::Syncfusion.XForms.Android.ComboBox.Resource.Styleable.Chip_hideMotionSpec = global::NutritionApp.Droid.Resource.Styleable.Chip_hideMotionSpec;
+			global::Syncfusion.XForms.Android.ComboBox.Resource.Styleable.Chip_iconEndPadding = global::NutritionApp.Droid.Resource.Styleable.Chip_iconEndPadding;
+			global::Syncfusion.XForms.Android.ComboBox.Resource.Styleable.Chip_iconStartPadding = global::NutritionApp.Droid.Resource.Styleable.Chip_iconStartPadding;
+			global::Syncfusion.XForms.Android.ComboBox.Resource.Styleable.Chip_rippleColor = global::NutritionApp.Droid.Resource.Styleable.Chip_rippleColor;
+			global::Syncfusion.XForms.Android.ComboBox.Resource.Styleable.Chip_shapeAppearance = global::NutritionApp.Droid.Resource.Styleable.Chip_shapeAppearance;
+			global::Syncfusion.XForms.Android.ComboBox.Resource.Styleable.Chip_shapeAppearanceOverlay = global::NutritionApp.Droid.Resource.Styleable.Chip_shapeAppearanceOverlay;
+			global::Syncfusion.XForms.Android.ComboBox.Resource.Styleable.Chip_showMotionSpec = global::NutritionApp.Droid.Resource.Styleable.Chip_showMotionSpec;
+			global::Syncfusion.XForms.Android.ComboBox.Resource.Styleable.Chip_textEndPadding = global::NutritionApp.Droid.Resource.Styleable.Chip_textEndPadding;
+			global::Syncfusion.XForms.Android.ComboBox.Resource.Styleable.Chip_textStartPadding = global::NutritionApp.Droid.Resource.Styleable.Chip_textStartPadding;
+			global::Syncfusion.XForms.Android.ComboBox.Resource.Styleable.CollapsingToolbarLayout = global::NutritionApp.Droid.Resource.Styleable.CollapsingToolbarLayout;
+			global::Syncfusion.XForms.Android.ComboBox.Resource.Styleable.CollapsingToolbarLayout_collapsedTitleGravity = global::NutritionApp.Droid.Resource.Styleable.CollapsingToolbarLayout_collapsedTitleGravity;
+			global::Syncfusion.XForms.Android.ComboBox.Resource.Styleable.CollapsingToolbarLayout_collapsedTitleTextAppearance = global::NutritionApp.Droid.Resource.Styleable.CollapsingToolbarLayout_collapsedTitleTextAppearance;
+			global::Syncfusion.XForms.Android.ComboBox.Resource.Styleable.CollapsingToolbarLayout_contentScrim = global::NutritionApp.Droid.Resource.Styleable.CollapsingToolbarLayout_contentScrim;
+			global::Syncfusion.XForms.Android.ComboBox.Resource.Styleable.CollapsingToolbarLayout_expandedTitleGravity = global::NutritionApp.Droid.Resource.Styleable.CollapsingToolbarLayout_expandedTitleGravity;
+			global::Syncfusion.XForms.Android.ComboBox.Resource.Styleable.CollapsingToolbarLayout_expandedTitleMargin = global::NutritionApp.Droid.Resource.Styleable.CollapsingToolbarLayout_expandedTitleMargin;
+			global::Syncfusion.XForms.Android.ComboBox.Resource.Styleable.CollapsingToolbarLayout_expandedTitleMarginBottom = global::NutritionApp.Droid.Resource.Styleable.CollapsingToolbarLayout_expandedTitleMarginBottom;
+			global::Syncfusion.XForms.Android.ComboBox.Resource.Styleable.CollapsingToolbarLayout_expandedTitleMarginEnd = global::NutritionApp.Droid.Resource.Styleable.CollapsingToolbarLayout_expandedTitleMarginEnd;
+			global::Syncfusion.XForms.Android.ComboBox.Resource.Styleable.CollapsingToolbarLayout_expandedTitleMarginStart = global::NutritionApp.Droid.Resource.Styleable.CollapsingToolbarLayout_expandedTitleMarginStart;
+			global::Syncfusion.XForms.Android.ComboBox.Resource.Styleable.CollapsingToolbarLayout_expandedTitleMarginTop = global::NutritionApp.Droid.Resource.Styleable.CollapsingToolbarLayout_expandedTitleMarginTop;
+			global::Syncfusion.XForms.Android.ComboBox.Resource.Styleable.CollapsingToolbarLayout_expandedTitleTextAppearance = global::NutritionApp.Droid.Resource.Styleable.CollapsingToolbarLayout_expandedTitleTextAppearance;
+			global::Syncfusion.XForms.Android.ComboBox.Resource.Styleable.CollapsingToolbarLayout_Layout = global::NutritionApp.Droid.Resource.Styleable.CollapsingToolbarLayout_Layout;
+			global::Syncfusion.XForms.Android.ComboBox.Resource.Styleable.CollapsingToolbarLayout_Layout_layout_collapseMode = global::NutritionApp.Droid.Resource.Styleable.CollapsingToolbarLayout_Layout_layout_collapseMode;
+			global::Syncfusion.XForms.Android.ComboBox.Resource.Styleable.CollapsingToolbarLayout_Layout_layout_collapseParallaxMultiplier = global::NutritionApp.Droid.Resource.Styleable.CollapsingToolbarLayout_Layout_layout_collapseParallaxMultiplier;
+			global::Syncfusion.XForms.Android.ComboBox.Resource.Styleable.CollapsingToolbarLayout_maxLines = global::NutritionApp.Droid.Resource.Styleable.CollapsingToolbarLayout_maxLines;
+			global::Syncfusion.XForms.Android.ComboBox.Resource.Styleable.CollapsingToolbarLayout_scrimAnimationDuration = global::NutritionApp.Droid.Resource.Styleable.CollapsingToolbarLayout_scrimAnimationDuration;
+			global::Syncfusion.XForms.Android.ComboBox.Resource.Styleable.CollapsingToolbarLayout_scrimVisibleHeightTrigger = global::NutritionApp.Droid.Resource.Styleable.CollapsingToolbarLayout_scrimVisibleHeightTrigger;
+			global::Syncfusion.XForms.Android.ComboBox.Resource.Styleable.CollapsingToolbarLayout_statusBarScrim = global::NutritionApp.Droid.Resource.Styleable.CollapsingToolbarLayout_statusBarScrim;
+			global::Syncfusion.XForms.Android.ComboBox.Resource.Styleable.CollapsingToolbarLayout_title = global::NutritionApp.Droid.Resource.Styleable.CollapsingToolbarLayout_title;
+			global::Syncfusion.XForms.Android.ComboBox.Resource.Styleable.CollapsingToolbarLayout_titleEnabled = global::NutritionApp.Droid.Resource.Styleable.CollapsingToolbarLayout_titleEnabled;
+			global::Syncfusion.XForms.Android.ComboBox.Resource.Styleable.CollapsingToolbarLayout_toolbarId = global::NutritionApp.Droid.Resource.Styleable.CollapsingToolbarLayout_toolbarId;
+			global::Syncfusion.XForms.Android.ComboBox.Resource.Styleable.ColorStateListItem = global::NutritionApp.Droid.Resource.Styleable.ColorStateListItem;
+			global::Syncfusion.XForms.Android.ComboBox.Resource.Styleable.ColorStateListItem_alpha = global::NutritionApp.Droid.Resource.Styleable.ColorStateListItem_alpha;
+			global::Syncfusion.XForms.Android.ComboBox.Resource.Styleable.ColorStateListItem_android_alpha = global::NutritionApp.Droid.Resource.Styleable.ColorStateListItem_android_alpha;
+			global::Syncfusion.XForms.Android.ComboBox.Resource.Styleable.ColorStateListItem_android_color = global::NutritionApp.Droid.Resource.Styleable.ColorStateListItem_android_color;
+			global::Syncfusion.XForms.Android.ComboBox.Resource.Styleable.CompoundButton = global::NutritionApp.Droid.Resource.Styleable.CompoundButton;
+			global::Syncfusion.XForms.Android.ComboBox.Resource.Styleable.CompoundButton_android_button = global::NutritionApp.Droid.Resource.Styleable.CompoundButton_android_button;
+			global::Syncfusion.XForms.Android.ComboBox.Resource.Styleable.CompoundButton_buttonCompat = global::NutritionApp.Droid.Resource.Styleable.CompoundButton_buttonCompat;
+			global::Syncfusion.XForms.Android.ComboBox.Resource.Styleable.CompoundButton_buttonTint = global::NutritionApp.Droid.Resource.Styleable.CompoundButton_buttonTint;
+			global::Syncfusion.XForms.Android.ComboBox.Resource.Styleable.CompoundButton_buttonTintMode = global::NutritionApp.Droid.Resource.Styleable.CompoundButton_buttonTintMode;
+			global::Syncfusion.XForms.Android.ComboBox.Resource.Styleable.CoordinatorLayout = global::NutritionApp.Droid.Resource.Styleable.CoordinatorLayout;
+			global::Syncfusion.XForms.Android.ComboBox.Resource.Styleable.CoordinatorLayout_keylines = global::NutritionApp.Droid.Resource.Styleable.CoordinatorLayout_keylines;
+			global::Syncfusion.XForms.Android.ComboBox.Resource.Styleable.CoordinatorLayout_Layout = global::NutritionApp.Droid.Resource.Styleable.CoordinatorLayout_Layout;
+			global::Syncfusion.XForms.Android.ComboBox.Resource.Styleable.CoordinatorLayout_Layout_android_layout_gravity = global::NutritionApp.Droid.Resource.Styleable.CoordinatorLayout_Layout_android_layout_gravity;
+			global::Syncfusion.XForms.Android.ComboBox.Resource.Styleable.CoordinatorLayout_Layout_layout_anchor = global::NutritionApp.Droid.Resource.Styleable.CoordinatorLayout_Layout_layout_anchor;
+			global::Syncfusion.XForms.Android.ComboBox.Resource.Styleable.CoordinatorLayout_Layout_layout_anchorGravity = global::NutritionApp.Droid.Resource.Styleable.CoordinatorLayout_Layout_layout_anchorGravity;
+			global::Syncfusion.XForms.Android.ComboBox.Resource.Styleable.CoordinatorLayout_Layout_layout_behavior = global::NutritionApp.Droid.Resource.Styleable.CoordinatorLayout_Layout_layout_behavior;
+			global::Syncfusion.XForms.Android.ComboBox.Resource.Styleable.CoordinatorLayout_Layout_layout_dodgeInsetEdges = global::NutritionApp.Droid.Resource.Styleable.CoordinatorLayout_Layout_layout_dodgeInsetEdges;
+			global::Syncfusion.XForms.Android.ComboBox.Resource.Styleable.CoordinatorLayout_Layout_layout_insetEdge = global::NutritionApp.Droid.Resource.Styleable.CoordinatorLayout_Layout_layout_insetEdge;
+			global::Syncfusion.XForms.Android.ComboBox.Resource.Styleable.CoordinatorLayout_Layout_layout_keyline = global::NutritionApp.Droid.Resource.Styleable.CoordinatorLayout_Layout_layout_keyline;
+			global::Syncfusion.XForms.Android.ComboBox.Resource.Styleable.CoordinatorLayout_statusBarBackground = global::NutritionApp.Droid.Resource.Styleable.CoordinatorLayout_statusBarBackground;
+			global::Syncfusion.XForms.Android.ComboBox.Resource.Styleable.DrawerArrowToggle = global::NutritionApp.Droid.Resource.Styleable.DrawerArrowToggle;
+			global::Syncfusion.XForms.Android.ComboBox.Resource.Styleable.DrawerArrowToggle_arrowHeadLength = global::NutritionApp.Droid.Resource.Styleable.DrawerArrowToggle_arrowHeadLength;
+			global::Syncfusion.XForms.Android.ComboBox.Resource.Styleable.DrawerArrowToggle_arrowShaftLength = global::NutritionApp.Droid.Resource.Styleable.DrawerArrowToggle_arrowShaftLength;
+			global::Syncfusion.XForms.Android.ComboBox.Resource.Styleable.DrawerArrowToggle_barLength = global::NutritionApp.Droid.Resource.Styleable.DrawerArrowToggle_barLength;
+			global::Syncfusion.XForms.Android.ComboBox.Resource.Styleable.DrawerArrowToggle_color = global::NutritionApp.Droid.Resource.Styleable.DrawerArrowToggle_color;
+			global::Syncfusion.XForms.Android.ComboBox.Resource.Styleable.DrawerArrowToggle_drawableSize = global::NutritionApp.Droid.Resource.Styleable.DrawerArrowToggle_drawableSize;
+			global::Syncfusion.XForms.Android.ComboBox.Resource.Styleable.DrawerArrowToggle_gapBetweenBars = global::NutritionApp.Droid.Resource.Styleable.DrawerArrowToggle_gapBetweenBars;
+			global::Syncfusion.XForms.Android.ComboBox.Resource.Styleable.DrawerArrowToggle_spinBars = global::NutritionApp.Droid.Resource.Styleable.DrawerArrowToggle_spinBars;
+			global::Syncfusion.XForms.Android.ComboBox.Resource.Styleable.DrawerArrowToggle_thickness = global::NutritionApp.Droid.Resource.Styleable.DrawerArrowToggle_thickness;
+			global::Syncfusion.XForms.Android.ComboBox.Resource.Styleable.DrawerLayout = global::NutritionApp.Droid.Resource.Styleable.DrawerLayout;
+			global::Syncfusion.XForms.Android.ComboBox.Resource.Styleable.DrawerLayout_elevation = global::NutritionApp.Droid.Resource.Styleable.DrawerLayout_elevation;
+			global::Syncfusion.XForms.Android.ComboBox.Resource.Styleable.ExtendedFloatingActionButton = global::NutritionApp.Droid.Resource.Styleable.ExtendedFloatingActionButton;
+			global::Syncfusion.XForms.Android.ComboBox.Resource.Styleable.ExtendedFloatingActionButton_Behavior_Layout = global::NutritionApp.Droid.Resource.Styleable.ExtendedFloatingActionButton_Behavior_Layout;
+			global::Syncfusion.XForms.Android.ComboBox.Resource.Styleable.ExtendedFloatingActionButton_Behavior_Layout_behavior_autoHide = global::NutritionApp.Droid.Resource.Styleable.ExtendedFloatingActionButton_Behavior_Layout_behavior_autoHide;
+			global::Syncfusion.XForms.Android.ComboBox.Resource.Styleable.ExtendedFloatingActionButton_Behavior_Layout_behavior_autoShrink = global::NutritionApp.Droid.Resource.Styleable.ExtendedFloatingActionButton_Behavior_Layout_behavior_autoShrink;
+			global::Syncfusion.XForms.Android.ComboBox.Resource.Styleable.ExtendedFloatingActionButton_elevation = global::NutritionApp.Droid.Resource.Styleable.ExtendedFloatingActionButton_elevation;
+			global::Syncfusion.XForms.Android.ComboBox.Resource.Styleable.ExtendedFloatingActionButton_extendMotionSpec = global::NutritionApp.Droid.Resource.Styleable.ExtendedFloatingActionButton_extendMotionSpec;
+			global::Syncfusion.XForms.Android.ComboBox.Resource.Styleable.ExtendedFloatingActionButton_hideMotionSpec = global::NutritionApp.Droid.Resource.Styleable.ExtendedFloatingActionButton_hideMotionSpec;
+			global::Syncfusion.XForms.Android.ComboBox.Resource.Styleable.ExtendedFloatingActionButton_showMotionSpec = global::NutritionApp.Droid.Resource.Styleable.ExtendedFloatingActionButton_showMotionSpec;
+			global::Syncfusion.XForms.Android.ComboBox.Resource.Styleable.ExtendedFloatingActionButton_shrinkMotionSpec = global::NutritionApp.Droid.Resource.Styleable.ExtendedFloatingActionButton_shrinkMotionSpec;
+			global::Syncfusion.XForms.Android.ComboBox.Resource.Styleable.FloatingActionButton = global::NutritionApp.Droid.Resource.Styleable.FloatingActionButton;
+			global::Syncfusion.XForms.Android.ComboBox.Resource.Styleable.FloatingActionButton_android_enabled = global::NutritionApp.Droid.Resource.Styleable.FloatingActionButton_android_enabled;
+			global::Syncfusion.XForms.Android.ComboBox.Resource.Styleable.FloatingActionButton_backgroundTint = global::NutritionApp.Droid.Resource.Styleable.FloatingActionButton_backgroundTint;
+			global::Syncfusion.XForms.Android.ComboBox.Resource.Styleable.FloatingActionButton_backgroundTintMode = global::NutritionApp.Droid.Resource.Styleable.FloatingActionButton_backgroundTintMode;
+			global::Syncfusion.XForms.Android.ComboBox.Resource.Styleable.FloatingActionButton_Behavior_Layout = global::NutritionApp.Droid.Resource.Styleable.FloatingActionButton_Behavior_Layout;
+			global::Syncfusion.XForms.Android.ComboBox.Resource.Styleable.FloatingActionButton_Behavior_Layout_behavior_autoHide = global::NutritionApp.Droid.Resource.Styleable.FloatingActionButton_Behavior_Layout_behavior_autoHide;
+			global::Syncfusion.XForms.Android.ComboBox.Resource.Styleable.FloatingActionButton_borderWidth = global::NutritionApp.Droid.Resource.Styleable.FloatingActionButton_borderWidth;
+			global::Syncfusion.XForms.Android.ComboBox.Resource.Styleable.FloatingActionButton_elevation = global::NutritionApp.Droid.Resource.Styleable.FloatingActionButton_elevation;
+			global::Syncfusion.XForms.Android.ComboBox.Resource.Styleable.FloatingActionButton_ensureMinTouchTargetSize = global::NutritionApp.Droid.Resource.Styleable.FloatingActionButton_ensureMinTouchTargetSize;
+			global::Syncfusion.XForms.Android.ComboBox.Resource.Styleable.FloatingActionButton_fabCustomSize = global::NutritionApp.Droid.Resource.Styleable.FloatingActionButton_fabCustomSize;
+			global::Syncfusion.XForms.Android.ComboBox.Resource.Styleable.FloatingActionButton_fabSize = global::NutritionApp.Droid.Resource.Styleable.FloatingActionButton_fabSize;
+			global::Syncfusion.XForms.Android.ComboBox.Resource.Styleable.FloatingActionButton_hideMotionSpec = global::NutritionApp.Droid.Resource.Styleable.FloatingActionButton_hideMotionSpec;
+			global::Syncfusion.XForms.Android.ComboBox.Resource.Styleable.FloatingActionButton_hoveredFocusedTranslationZ = global::NutritionApp.Droid.Resource.Styleable.FloatingActionButton_hoveredFocusedTranslationZ;
+			global::Syncfusion.XForms.Android.ComboBox.Resource.Styleable.FloatingActionButton_maxImageSize = global::NutritionApp.Droid.Resource.Styleable.FloatingActionButton_maxImageSize;
+			global::Syncfusion.XForms.Android.ComboBox.Resource.Styleable.FloatingActionButton_pressedTranslationZ = global::NutritionApp.Droid.Resource.Styleable.FloatingActionButton_pressedTranslationZ;
+			global::Syncfusion.XForms.Android.ComboBox.Resource.Styleable.FloatingActionButton_rippleColor = global::NutritionApp.Droid.Resource.Styleable.FloatingActionButton_rippleColor;
+			global::Syncfusion.XForms.Android.ComboBox.Resource.Styleable.FloatingActionButton_shapeAppearance = global::NutritionApp.Droid.Resource.Styleable.FloatingActionButton_shapeAppearance;
+			global::Syncfusion.XForms.Android.ComboBox.Resource.Styleable.FloatingActionButton_shapeAppearanceOverlay = global::NutritionApp.Droid.Resource.Styleable.FloatingActionButton_shapeAppearanceOverlay;
+			global::Syncfusion.XForms.Android.ComboBox.Resource.Styleable.FloatingActionButton_showMotionSpec = global::NutritionApp.Droid.Resource.Styleable.FloatingActionButton_showMotionSpec;
+			global::Syncfusion.XForms.Android.ComboBox.Resource.Styleable.FloatingActionButton_useCompatPadding = global::NutritionApp.Droid.Resource.Styleable.FloatingActionButton_useCompatPadding;
+			global::Syncfusion.XForms.Android.ComboBox.Resource.Styleable.FlowLayout = global::NutritionApp.Droid.Resource.Styleable.FlowLayout;
+			global::Syncfusion.XForms.Android.ComboBox.Resource.Styleable.FlowLayout_itemSpacing = global::NutritionApp.Droid.Resource.Styleable.FlowLayout_itemSpacing;
+			global::Syncfusion.XForms.Android.ComboBox.Resource.Styleable.FlowLayout_lineSpacing = global::NutritionApp.Droid.Resource.Styleable.FlowLayout_lineSpacing;
+			global::Syncfusion.XForms.Android.ComboBox.Resource.Styleable.FontFamily = global::NutritionApp.Droid.Resource.Styleable.FontFamily;
+			global::Syncfusion.XForms.Android.ComboBox.Resource.Styleable.FontFamilyFont = global::NutritionApp.Droid.Resource.Styleable.FontFamilyFont;
+			global::Syncfusion.XForms.Android.ComboBox.Resource.Styleable.FontFamilyFont_android_font = global::NutritionApp.Droid.Resource.Styleable.FontFamilyFont_android_font;
+			global::Syncfusion.XForms.Android.ComboBox.Resource.Styleable.FontFamilyFont_android_fontStyle = global::NutritionApp.Droid.Resource.Styleable.FontFamilyFont_android_fontStyle;
+			global::Syncfusion.XForms.Android.ComboBox.Resource.Styleable.FontFamilyFont_android_fontVariationSettings = global::NutritionApp.Droid.Resource.Styleable.FontFamilyFont_android_fontVariationSettings;
+			global::Syncfusion.XForms.Android.ComboBox.Resource.Styleable.FontFamilyFont_android_fontWeight = global::NutritionApp.Droid.Resource.Styleable.FontFamilyFont_android_fontWeight;
+			global::Syncfusion.XForms.Android.ComboBox.Resource.Styleable.FontFamilyFont_android_ttcIndex = global::NutritionApp.Droid.Resource.Styleable.FontFamilyFont_android_ttcIndex;
+			global::Syncfusion.XForms.Android.ComboBox.Resource.Styleable.FontFamilyFont_font = global::NutritionApp.Droid.Resource.Styleable.FontFamilyFont_font;
+			global::Syncfusion.XForms.Android.ComboBox.Resource.Styleable.FontFamilyFont_fontStyle = global::NutritionApp.Droid.Resource.Styleable.FontFamilyFont_fontStyle;
+			global::Syncfusion.XForms.Android.ComboBox.Resource.Styleable.FontFamilyFont_fontVariationSettings = global::NutritionApp.Droid.Resource.Styleable.FontFamilyFont_fontVariationSettings;
+			global::Syncfusion.XForms.Android.ComboBox.Resource.Styleable.FontFamilyFont_fontWeight = global::NutritionApp.Droid.Resource.Styleable.FontFamilyFont_fontWeight;
+			global::Syncfusion.XForms.Android.ComboBox.Resource.Styleable.FontFamilyFont_ttcIndex = global::NutritionApp.Droid.Resource.Styleable.FontFamilyFont_ttcIndex;
+			global::Syncfusion.XForms.Android.ComboBox.Resource.Styleable.FontFamily_fontProviderAuthority = global::NutritionApp.Droid.Resource.Styleable.FontFamily_fontProviderAuthority;
+			global::Syncfusion.XForms.Android.ComboBox.Resource.Styleable.FontFamily_fontProviderCerts = global::NutritionApp.Droid.Resource.Styleable.FontFamily_fontProviderCerts;
+			global::Syncfusion.XForms.Android.ComboBox.Resource.Styleable.FontFamily_fontProviderFetchStrategy = global::NutritionApp.Droid.Resource.Styleable.FontFamily_fontProviderFetchStrategy;
+			global::Syncfusion.XForms.Android.ComboBox.Resource.Styleable.FontFamily_fontProviderFetchTimeout = global::NutritionApp.Droid.Resource.Styleable.FontFamily_fontProviderFetchTimeout;
+			global::Syncfusion.XForms.Android.ComboBox.Resource.Styleable.FontFamily_fontProviderPackage = global::NutritionApp.Droid.Resource.Styleable.FontFamily_fontProviderPackage;
+			global::Syncfusion.XForms.Android.ComboBox.Resource.Styleable.FontFamily_fontProviderQuery = global::NutritionApp.Droid.Resource.Styleable.FontFamily_fontProviderQuery;
+			global::Syncfusion.XForms.Android.ComboBox.Resource.Styleable.ForegroundLinearLayout = global::NutritionApp.Droid.Resource.Styleable.ForegroundLinearLayout;
+			global::Syncfusion.XForms.Android.ComboBox.Resource.Styleable.ForegroundLinearLayout_android_foreground = global::NutritionApp.Droid.Resource.Styleable.ForegroundLinearLayout_android_foreground;
+			global::Syncfusion.XForms.Android.ComboBox.Resource.Styleable.ForegroundLinearLayout_android_foregroundGravity = global::NutritionApp.Droid.Resource.Styleable.ForegroundLinearLayout_android_foregroundGravity;
+			global::Syncfusion.XForms.Android.ComboBox.Resource.Styleable.ForegroundLinearLayout_foregroundInsidePadding = global::NutritionApp.Droid.Resource.Styleable.ForegroundLinearLayout_foregroundInsidePadding;
+			global::Syncfusion.XForms.Android.ComboBox.Resource.Styleable.Fragment = global::NutritionApp.Droid.Resource.Styleable.Fragment;
+			global::Syncfusion.XForms.Android.ComboBox.Resource.Styleable.FragmentContainerView = global::NutritionApp.Droid.Resource.Styleable.FragmentContainerView;
+			global::Syncfusion.XForms.Android.ComboBox.Resource.Styleable.FragmentContainerView_android_name = global::NutritionApp.Droid.Resource.Styleable.FragmentContainerView_android_name;
+			global::Syncfusion.XForms.Android.ComboBox.Resource.Styleable.FragmentContainerView_android_tag = global::NutritionApp.Droid.Resource.Styleable.FragmentContainerView_android_tag;
+			global::Syncfusion.XForms.Android.ComboBox.Resource.Styleable.Fragment_android_id = global::NutritionApp.Droid.Resource.Styleable.Fragment_android_id;
+			global::Syncfusion.XForms.Android.ComboBox.Resource.Styleable.Fragment_android_name = global::NutritionApp.Droid.Resource.Styleable.Fragment_android_name;
+			global::Syncfusion.XForms.Android.ComboBox.Resource.Styleable.Fragment_android_tag = global::NutritionApp.Droid.Resource.Styleable.Fragment_android_tag;
+			global::Syncfusion.XForms.Android.ComboBox.Resource.Styleable.GradientColor = global::NutritionApp.Droid.Resource.Styleable.GradientColor;
+			global::Syncfusion.XForms.Android.ComboBox.Resource.Styleable.GradientColorItem = global::NutritionApp.Droid.Resource.Styleable.GradientColorItem;
+			global::Syncfusion.XForms.Android.ComboBox.Resource.Styleable.GradientColorItem_android_color = global::NutritionApp.Droid.Resource.Styleable.GradientColorItem_android_color;
+			global::Syncfusion.XForms.Android.ComboBox.Resource.Styleable.GradientColorItem_android_offset = global::NutritionApp.Droid.Resource.Styleable.GradientColorItem_android_offset;
+			global::Syncfusion.XForms.Android.ComboBox.Resource.Styleable.GradientColor_android_centerColor = global::NutritionApp.Droid.Resource.Styleable.GradientColor_android_centerColor;
+			global::Syncfusion.XForms.Android.ComboBox.Resource.Styleable.GradientColor_android_centerX = global::NutritionApp.Droid.Resource.Styleable.GradientColor_android_centerX;
+			global::Syncfusion.XForms.Android.ComboBox.Resource.Styleable.GradientColor_android_centerY = global::NutritionApp.Droid.Resource.Styleable.GradientColor_android_centerY;
+			global::Syncfusion.XForms.Android.ComboBox.Resource.Styleable.GradientColor_android_endColor = global::NutritionApp.Droid.Resource.Styleable.GradientColor_android_endColor;
+			global::Syncfusion.XForms.Android.ComboBox.Resource.Styleable.GradientColor_android_endX = global::NutritionApp.Droid.Resource.Styleable.GradientColor_android_endX;
+			global::Syncfusion.XForms.Android.ComboBox.Resource.Styleable.GradientColor_android_endY = global::NutritionApp.Droid.Resource.Styleable.GradientColor_android_endY;
+			global::Syncfusion.XForms.Android.ComboBox.Resource.Styleable.GradientColor_android_gradientRadius = global::NutritionApp.Droid.Resource.Styleable.GradientColor_android_gradientRadius;
+			global::Syncfusion.XForms.Android.ComboBox.Resource.Styleable.GradientColor_android_startColor = global::NutritionApp.Droid.Resource.Styleable.GradientColor_android_startColor;
+			global::Syncfusion.XForms.Android.ComboBox.Resource.Styleable.GradientColor_android_startX = global::NutritionApp.Droid.Resource.Styleable.GradientColor_android_startX;
+			global::Syncfusion.XForms.Android.ComboBox.Resource.Styleable.GradientColor_android_startY = global::NutritionApp.Droid.Resource.Styleable.GradientColor_android_startY;
+			global::Syncfusion.XForms.Android.ComboBox.Resource.Styleable.GradientColor_android_tileMode = global::NutritionApp.Droid.Resource.Styleable.GradientColor_android_tileMode;
+			global::Syncfusion.XForms.Android.ComboBox.Resource.Styleable.GradientColor_android_type = global::NutritionApp.Droid.Resource.Styleable.GradientColor_android_type;
+			global::Syncfusion.XForms.Android.ComboBox.Resource.Styleable.Insets = global::NutritionApp.Droid.Resource.Styleable.Insets;
+			global::Syncfusion.XForms.Android.ComboBox.Resource.Styleable.Insets_paddingBottomSystemWindowInsets = global::NutritionApp.Droid.Resource.Styleable.Insets_paddingBottomSystemWindowInsets;
+			global::Syncfusion.XForms.Android.ComboBox.Resource.Styleable.Insets_paddingLeftSystemWindowInsets = global::NutritionApp.Droid.Resource.Styleable.Insets_paddingLeftSystemWindowInsets;
+			global::Syncfusion.XForms.Android.ComboBox.Resource.Styleable.Insets_paddingRightSystemWindowInsets = global::NutritionApp.Droid.Resource.Styleable.Insets_paddingRightSystemWindowInsets;
+			global::Syncfusion.XForms.Android.ComboBox.Resource.Styleable.ItemsViewRendererTheme = global::NutritionApp.Droid.Resource.Styleable.ItemsViewRendererTheme;
+			global::Syncfusion.XForms.Android.ComboBox.Resource.Styleable.ItemsViewRendererTheme_collectionViewStyle = global::NutritionApp.Droid.Resource.Styleable.ItemsViewRendererTheme_collectionViewStyle;
+			global::Syncfusion.XForms.Android.ComboBox.Resource.Styleable.LinearLayoutCompat = global::NutritionApp.Droid.Resource.Styleable.LinearLayoutCompat;
+			global::Syncfusion.XForms.Android.ComboBox.Resource.Styleable.LinearLayoutCompat_android_baselineAligned = global::NutritionApp.Droid.Resource.Styleable.LinearLayoutCompat_android_baselineAligned;
+			global::Syncfusion.XForms.Android.ComboBox.Resource.Styleable.LinearLayoutCompat_android_baselineAlignedChildIndex = global::NutritionApp.Droid.Resource.Styleable.LinearLayoutCompat_android_baselineAlignedChildIndex;
+			global::Syncfusion.XForms.Android.ComboBox.Resource.Styleable.LinearLayoutCompat_android_gravity = global::NutritionApp.Droid.Resource.Styleable.LinearLayoutCompat_android_gravity;
+			global::Syncfusion.XForms.Android.ComboBox.Resource.Styleable.LinearLayoutCompat_android_orientation = global::NutritionApp.Droid.Resource.Styleable.LinearLayoutCompat_android_orientation;
+			global::Syncfusion.XForms.Android.ComboBox.Resource.Styleable.LinearLayoutCompat_android_weightSum = global::NutritionApp.Droid.Resource.Styleable.LinearLayoutCompat_android_weightSum;
+			global::Syncfusion.XForms.Android.ComboBox.Resource.Styleable.LinearLayoutCompat_divider = global::NutritionApp.Droid.Resource.Styleable.LinearLayoutCompat_divider;
+			global::Syncfusion.XForms.Android.ComboBox.Resource.Styleable.LinearLayoutCompat_dividerPadding = global::NutritionApp.Droid.Resource.Styleable.LinearLayoutCompat_dividerPadding;
+			global::Syncfusion.XForms.Android.ComboBox.Resource.Styleable.LinearLayoutCompat_Layout = global::NutritionApp.Droid.Resource.Styleable.LinearLayoutCompat_Layout;
+			global::Syncfusion.XForms.Android.ComboBox.Resource.Styleable.LinearLayoutCompat_Layout_android_layout_gravity = global::NutritionApp.Droid.Resource.Styleable.LinearLayoutCompat_Layout_android_layout_gravity;
+			global::Syncfusion.XForms.Android.ComboBox.Resource.Styleable.LinearLayoutCompat_Layout_android_layout_height = global::NutritionApp.Droid.Resource.Styleable.LinearLayoutCompat_Layout_android_layout_height;
+			global::Syncfusion.XForms.Android.ComboBox.Resource.Styleable.LinearLayoutCompat_Layout_android_layout_weight = global::NutritionApp.Droid.Resource.Styleable.LinearLayoutCompat_Layout_android_layout_weight;
+			global::Syncfusion.XForms.Android.ComboBox.Resource.Styleable.LinearLayoutCompat_Layout_android_layout_width = global::NutritionApp.Droid.Resource.Styleable.LinearLayoutCompat_Layout_android_layout_width;
+			global::Syncfusion.XForms.Android.ComboBox.Resource.Styleable.LinearLayoutCompat_measureWithLargestChild = global::NutritionApp.Droid.Resource.Styleable.LinearLayoutCompat_measureWithLargestChild;
+			global::Syncfusion.XForms.Android.ComboBox.Resource.Styleable.LinearLayoutCompat_showDividers = global::NutritionApp.Droid.Resource.Styleable.LinearLayoutCompat_showDividers;
+			global::Syncfusion.XForms.Android.ComboBox.Resource.Styleable.ListPopupWindow = global::NutritionApp.Droid.Resource.Styleable.ListPopupWindow;
+			global::Syncfusion.XForms.Android.ComboBox.Resource.Styleable.ListPopupWindow_android_dropDownHorizontalOffset = global::NutritionApp.Droid.Resource.Styleable.ListPopupWindow_android_dropDownHorizontalOffset;
+			global::Syncfusion.XForms.Android.ComboBox.Resource.Styleable.ListPopupWindow_android_dropDownVerticalOffset = global::NutritionApp.Droid.Resource.Styleable.ListPopupWindow_android_dropDownVerticalOffset;
+			global::Syncfusion.XForms.Android.ComboBox.Resource.Styleable.MaterialAlertDialog = global::NutritionApp.Droid.Resource.Styleable.MaterialAlertDialog;
+			global::Syncfusion.XForms.Android.ComboBox.Resource.Styleable.MaterialAlertDialogTheme = global::NutritionApp.Droid.Resource.Styleable.MaterialAlertDialogTheme;
+			global::Syncfusion.XForms.Android.ComboBox.Resource.Styleable.MaterialAlertDialogTheme_materialAlertDialogBodyTextStyle = global::NutritionApp.Droid.Resource.Styleable.MaterialAlertDialogTheme_materialAlertDialogBodyTextStyle;
+			global::Syncfusion.XForms.Android.ComboBox.Resource.Styleable.MaterialAlertDialogTheme_materialAlertDialogTheme = global::NutritionApp.Droid.Resource.Styleable.MaterialAlertDialogTheme_materialAlertDialogTheme;
+			global::Syncfusion.XForms.Android.ComboBox.Resource.Styleable.MaterialAlertDialogTheme_materialAlertDialogTitleIconStyle = global::NutritionApp.Droid.Resource.Styleable.MaterialAlertDialogTheme_materialAlertDialogTitleIconStyle;
+			global::Syncfusion.XForms.Android.ComboBox.Resource.Styleable.MaterialAlertDialogTheme_materialAlertDialogTitlePanelStyle = global::NutritionApp.Droid.Resource.Styleable.MaterialAlertDialogTheme_materialAlertDialogTitlePanelStyle;
+			global::Syncfusion.XForms.Android.ComboBox.Resource.Styleable.MaterialAlertDialogTheme_materialAlertDialogTitleTextStyle = global::NutritionApp.Droid.Resource.Styleable.MaterialAlertDialogTheme_materialAlertDialogTitleTextStyle;
+			global::Syncfusion.XForms.Android.ComboBox.Resource.Styleable.MaterialAlertDialog_backgroundInsetBottom = global::NutritionApp.Droid.Resource.Styleable.MaterialAlertDialog_backgroundInsetBottom;
+			global::Syncfusion.XForms.Android.ComboBox.Resource.Styleable.MaterialAlertDialog_backgroundInsetEnd = global::NutritionApp.Droid.Resource.Styleable.MaterialAlertDialog_backgroundInsetEnd;
+			global::Syncfusion.XForms.Android.ComboBox.Resource.Styleable.MaterialAlertDialog_backgroundInsetStart = global::NutritionApp.Droid.Resource.Styleable.MaterialAlertDialog_backgroundInsetStart;
+			global::Syncfusion.XForms.Android.ComboBox.Resource.Styleable.MaterialAlertDialog_backgroundInsetTop = global::NutritionApp.Droid.Resource.Styleable.MaterialAlertDialog_backgroundInsetTop;
+			global::Syncfusion.XForms.Android.ComboBox.Resource.Styleable.MaterialAutoCompleteTextView = global::NutritionApp.Droid.Resource.Styleable.MaterialAutoCompleteTextView;
+			global::Syncfusion.XForms.Android.ComboBox.Resource.Styleable.MaterialAutoCompleteTextView_android_inputType = global::NutritionApp.Droid.Resource.Styleable.MaterialAutoCompleteTextView_android_inputType;
+			global::Syncfusion.XForms.Android.ComboBox.Resource.Styleable.MaterialButton = global::NutritionApp.Droid.Resource.Styleable.MaterialButton;
+			global::Syncfusion.XForms.Android.ComboBox.Resource.Styleable.MaterialButtonToggleGroup = global::NutritionApp.Droid.Resource.Styleable.MaterialButtonToggleGroup;
+			global::Syncfusion.XForms.Android.ComboBox.Resource.Styleable.MaterialButtonToggleGroup_checkedButton = global::NutritionApp.Droid.Resource.Styleable.MaterialButtonToggleGroup_checkedButton;
+			global::Syncfusion.XForms.Android.ComboBox.Resource.Styleable.MaterialButtonToggleGroup_selectionRequired = global::NutritionApp.Droid.Resource.Styleable.MaterialButtonToggleGroup_selectionRequired;
+			global::Syncfusion.XForms.Android.ComboBox.Resource.Styleable.MaterialButtonToggleGroup_singleSelection = global::NutritionApp.Droid.Resource.Styleable.MaterialButtonToggleGroup_singleSelection;
+			global::Syncfusion.XForms.Android.ComboBox.Resource.Styleable.MaterialButton_android_background = global::NutritionApp.Droid.Resource.Styleable.MaterialButton_android_background;
+			global::Syncfusion.XForms.Android.ComboBox.Resource.Styleable.MaterialButton_android_checkable = global::NutritionApp.Droid.Resource.Styleable.MaterialButton_android_checkable;
+			global::Syncfusion.XForms.Android.ComboBox.Resource.Styleable.MaterialButton_android_insetBottom = global::NutritionApp.Droid.Resource.Styleable.MaterialButton_android_insetBottom;
+			global::Syncfusion.XForms.Android.ComboBox.Resource.Styleable.MaterialButton_android_insetLeft = global::NutritionApp.Droid.Resource.Styleable.MaterialButton_android_insetLeft;
+			global::Syncfusion.XForms.Android.ComboBox.Resource.Styleable.MaterialButton_android_insetRight = global::NutritionApp.Droid.Resource.Styleable.MaterialButton_android_insetRight;
+			global::Syncfusion.XForms.Android.ComboBox.Resource.Styleable.MaterialButton_android_insetTop = global::NutritionApp.Droid.Resource.Styleable.MaterialButton_android_insetTop;
+			global::Syncfusion.XForms.Android.ComboBox.Resource.Styleable.MaterialButton_backgroundTint = global::NutritionApp.Droid.Resource.Styleable.MaterialButton_backgroundTint;
+			global::Syncfusion.XForms.Android.ComboBox.Resource.Styleable.MaterialButton_backgroundTintMode = global::NutritionApp.Droid.Resource.Styleable.MaterialButton_backgroundTintMode;
+			global::Syncfusion.XForms.Android.ComboBox.Resource.Styleable.MaterialButton_cornerRadius = global::NutritionApp.Droid.Resource.Styleable.MaterialButton_cornerRadius;
+			global::Syncfusion.XForms.Android.ComboBox.Resource.Styleable.MaterialButton_elevation = global::NutritionApp.Droid.Resource.Styleable.MaterialButton_elevation;
+			global::Syncfusion.XForms.Android.ComboBox.Resource.Styleable.MaterialButton_icon = global::NutritionApp.Droid.Resource.Styleable.MaterialButton_icon;
+			global::Syncfusion.XForms.Android.ComboBox.Resource.Styleable.MaterialButton_iconGravity = global::NutritionApp.Droid.Resource.Styleable.MaterialButton_iconGravity;
+			global::Syncfusion.XForms.Android.ComboBox.Resource.Styleable.MaterialButton_iconPadding = global::NutritionApp.Droid.Resource.Styleable.MaterialButton_iconPadding;
+			global::Syncfusion.XForms.Android.ComboBox.Resource.Styleable.MaterialButton_iconSize = global::NutritionApp.Droid.Resource.Styleable.MaterialButton_iconSize;
+			global::Syncfusion.XForms.Android.ComboBox.Resource.Styleable.MaterialButton_iconTint = global::NutritionApp.Droid.Resource.Styleable.MaterialButton_iconTint;
+			global::Syncfusion.XForms.Android.ComboBox.Resource.Styleable.MaterialButton_iconTintMode = global::NutritionApp.Droid.Resource.Styleable.MaterialButton_iconTintMode;
+			global::Syncfusion.XForms.Android.ComboBox.Resource.Styleable.MaterialButton_rippleColor = global::NutritionApp.Droid.Resource.Styleable.MaterialButton_rippleColor;
+			global::Syncfusion.XForms.Android.ComboBox.Resource.Styleable.MaterialButton_shapeAppearance = global::NutritionApp.Droid.Resource.Styleable.MaterialButton_shapeAppearance;
+			global::Syncfusion.XForms.Android.ComboBox.Resource.Styleable.MaterialButton_shapeAppearanceOverlay = global::NutritionApp.Droid.Resource.Styleable.MaterialButton_shapeAppearanceOverlay;
+			global::Syncfusion.XForms.Android.ComboBox.Resource.Styleable.MaterialButton_strokeColor = global::NutritionApp.Droid.Resource.Styleable.MaterialButton_strokeColor;
+			global::Syncfusion.XForms.Android.ComboBox.Resource.Styleable.MaterialButton_strokeWidth = global::NutritionApp.Droid.Resource.Styleable.MaterialButton_strokeWidth;
+			global::Syncfusion.XForms.Android.ComboBox.Resource.Styleable.MaterialCalendar = global::NutritionApp.Droid.Resource.Styleable.MaterialCalendar;
+			global::Syncfusion.XForms.Android.ComboBox.Resource.Styleable.MaterialCalendarItem = global::NutritionApp.Droid.Resource.Styleable.MaterialCalendarItem;
+			global::Syncfusion.XForms.Android.ComboBox.Resource.Styleable.MaterialCalendarItem_android_insetBottom = global::NutritionApp.Droid.Resource.Styleable.MaterialCalendarItem_android_insetBottom;
+			global::Syncfusion.XForms.Android.ComboBox.Resource.Styleable.MaterialCalendarItem_android_insetLeft = global::NutritionApp.Droid.Resource.Styleable.MaterialCalendarItem_android_insetLeft;
+			global::Syncfusion.XForms.Android.ComboBox.Resource.Styleable.MaterialCalendarItem_android_insetRight = global::NutritionApp.Droid.Resource.Styleable.MaterialCalendarItem_android_insetRight;
+			global::Syncfusion.XForms.Android.ComboBox.Resource.Styleable.MaterialCalendarItem_android_insetTop = global::NutritionApp.Droid.Resource.Styleable.MaterialCalendarItem_android_insetTop;
+			global::Syncfusion.XForms.Android.ComboBox.Resource.Styleable.MaterialCalendarItem_itemFillColor = global::NutritionApp.Droid.Resource.Styleable.MaterialCalendarItem_itemFillColor;
+			global::Syncfusion.XForms.Android.ComboBox.Resource.Styleable.MaterialCalendarItem_itemShapeAppearance = global::NutritionApp.Droid.Resource.Styleable.MaterialCalendarItem_itemShapeAppearance;
+			global::Syncfusion.XForms.Android.ComboBox.Resource.Styleable.MaterialCalendarItem_itemShapeAppearanceOverlay = global::NutritionApp.Droid.Resource.Styleable.MaterialCalendarItem_itemShapeAppearanceOverlay;
+			global::Syncfusion.XForms.Android.ComboBox.Resource.Styleable.MaterialCalendarItem_itemStrokeColor = global::NutritionApp.Droid.Resource.Styleable.MaterialCalendarItem_itemStrokeColor;
+			global::Syncfusion.XForms.Android.ComboBox.Resource.Styleable.MaterialCalendarItem_itemStrokeWidth = global::NutritionApp.Droid.Resource.Styleable.MaterialCalendarItem_itemStrokeWidth;
+			global::Syncfusion.XForms.Android.ComboBox.Resource.Styleable.MaterialCalendarItem_itemTextColor = global::NutritionApp.Droid.Resource.Styleable.MaterialCalendarItem_itemTextColor;
+			global::Syncfusion.XForms.Android.ComboBox.Resource.Styleable.MaterialCalendar_android_windowFullscreen = global::NutritionApp.Droid.Resource.Styleable.MaterialCalendar_android_windowFullscreen;
+			global::Syncfusion.XForms.Android.ComboBox.Resource.Styleable.MaterialCalendar_dayInvalidStyle = global::NutritionApp.Droid.Resource.Styleable.MaterialCalendar_dayInvalidStyle;
+			global::Syncfusion.XForms.Android.ComboBox.Resource.Styleable.MaterialCalendar_daySelectedStyle = global::NutritionApp.Droid.Resource.Styleable.MaterialCalendar_daySelectedStyle;
+			global::Syncfusion.XForms.Android.ComboBox.Resource.Styleable.MaterialCalendar_dayStyle = global::NutritionApp.Droid.Resource.Styleable.MaterialCalendar_dayStyle;
+			global::Syncfusion.XForms.Android.ComboBox.Resource.Styleable.MaterialCalendar_dayTodayStyle = global::NutritionApp.Droid.Resource.Styleable.MaterialCalendar_dayTodayStyle;
+			global::Syncfusion.XForms.Android.ComboBox.Resource.Styleable.MaterialCalendar_rangeFillColor = global::NutritionApp.Droid.Resource.Styleable.MaterialCalendar_rangeFillColor;
+			global::Syncfusion.XForms.Android.ComboBox.Resource.Styleable.MaterialCalendar_yearSelectedStyle = global::NutritionApp.Droid.Resource.Styleable.MaterialCalendar_yearSelectedStyle;
+			global::Syncfusion.XForms.Android.ComboBox.Resource.Styleable.MaterialCalendar_yearStyle = global::NutritionApp.Droid.Resource.Styleable.MaterialCalendar_yearStyle;
+			global::Syncfusion.XForms.Android.ComboBox.Resource.Styleable.MaterialCalendar_yearTodayStyle = global::NutritionApp.Droid.Resource.Styleable.MaterialCalendar_yearTodayStyle;
+			global::Syncfusion.XForms.Android.ComboBox.Resource.Styleable.MaterialCardView = global::NutritionApp.Droid.Resource.Styleable.MaterialCardView;
+			global::Syncfusion.XForms.Android.ComboBox.Resource.Styleable.MaterialCardView_android_checkable = global::NutritionApp.Droid.Resource.Styleable.MaterialCardView_android_checkable;
+			global::Syncfusion.XForms.Android.ComboBox.Resource.Styleable.MaterialCardView_cardForegroundColor = global::NutritionApp.Droid.Resource.Styleable.MaterialCardView_cardForegroundColor;
+			global::Syncfusion.XForms.Android.ComboBox.Resource.Styleable.MaterialCardView_checkedIcon = global::NutritionApp.Droid.Resource.Styleable.MaterialCardView_checkedIcon;
+			global::Syncfusion.XForms.Android.ComboBox.Resource.Styleable.MaterialCardView_checkedIconTint = global::NutritionApp.Droid.Resource.Styleable.MaterialCardView_checkedIconTint;
+			global::Syncfusion.XForms.Android.ComboBox.Resource.Styleable.MaterialCardView_rippleColor = global::NutritionApp.Droid.Resource.Styleable.MaterialCardView_rippleColor;
+			global::Syncfusion.XForms.Android.ComboBox.Resource.Styleable.MaterialCardView_shapeAppearance = global::NutritionApp.Droid.Resource.Styleable.MaterialCardView_shapeAppearance;
+			global::Syncfusion.XForms.Android.ComboBox.Resource.Styleable.MaterialCardView_shapeAppearanceOverlay = global::NutritionApp.Droid.Resource.Styleable.MaterialCardView_shapeAppearanceOverlay;
+			global::Syncfusion.XForms.Android.ComboBox.Resource.Styleable.MaterialCardView_state_dragged = global::NutritionApp.Droid.Resource.Styleable.MaterialCardView_state_dragged;
+			global::Syncfusion.XForms.Android.ComboBox.Resource.Styleable.MaterialCardView_strokeColor = global::NutritionApp.Droid.Resource.Styleable.MaterialCardView_strokeColor;
+			global::Syncfusion.XForms.Android.ComboBox.Resource.Styleable.MaterialCardView_strokeWidth = global::NutritionApp.Droid.Resource.Styleable.MaterialCardView_strokeWidth;
+			global::Syncfusion.XForms.Android.ComboBox.Resource.Styleable.MaterialCheckBox = global::NutritionApp.Droid.Resource.Styleable.MaterialCheckBox;
+			global::Syncfusion.XForms.Android.ComboBox.Resource.Styleable.MaterialCheckBox_buttonTint = global::NutritionApp.Droid.Resource.Styleable.MaterialCheckBox_buttonTint;
+			global::Syncfusion.XForms.Android.ComboBox.Resource.Styleable.MaterialCheckBox_useMaterialThemeColors = global::NutritionApp.Droid.Resource.Styleable.MaterialCheckBox_useMaterialThemeColors;
+			global::Syncfusion.XForms.Android.ComboBox.Resource.Styleable.MaterialRadioButton = global::NutritionApp.Droid.Resource.Styleable.MaterialRadioButton;
+			global::Syncfusion.XForms.Android.ComboBox.Resource.Styleable.MaterialRadioButton_buttonTint = global::NutritionApp.Droid.Resource.Styleable.MaterialRadioButton_buttonTint;
+			global::Syncfusion.XForms.Android.ComboBox.Resource.Styleable.MaterialRadioButton_useMaterialThemeColors = global::NutritionApp.Droid.Resource.Styleable.MaterialRadioButton_useMaterialThemeColors;
+			global::Syncfusion.XForms.Android.ComboBox.Resource.Styleable.MaterialShape = global::NutritionApp.Droid.Resource.Styleable.MaterialShape;
+			global::Syncfusion.XForms.Android.ComboBox.Resource.Styleable.MaterialShape_shapeAppearance = global::NutritionApp.Droid.Resource.Styleable.MaterialShape_shapeAppearance;
+			global::Syncfusion.XForms.Android.ComboBox.Resource.Styleable.MaterialShape_shapeAppearanceOverlay = global::NutritionApp.Droid.Resource.Styleable.MaterialShape_shapeAppearanceOverlay;
+			global::Syncfusion.XForms.Android.ComboBox.Resource.Styleable.MaterialTextAppearance = global::NutritionApp.Droid.Resource.Styleable.MaterialTextAppearance;
+			global::Syncfusion.XForms.Android.ComboBox.Resource.Styleable.MaterialTextAppearance_android_lineHeight = global::NutritionApp.Droid.Resource.Styleable.MaterialTextAppearance_android_lineHeight;
+			global::Syncfusion.XForms.Android.ComboBox.Resource.Styleable.MaterialTextAppearance_lineHeight = global::NutritionApp.Droid.Resource.Styleable.MaterialTextAppearance_lineHeight;
+			global::Syncfusion.XForms.Android.ComboBox.Resource.Styleable.MaterialTextView = global::NutritionApp.Droid.Resource.Styleable.MaterialTextView;
+			global::Syncfusion.XForms.Android.ComboBox.Resource.Styleable.MaterialTextView_android_lineHeight = global::NutritionApp.Droid.Resource.Styleable.MaterialTextView_android_lineHeight;
+			global::Syncfusion.XForms.Android.ComboBox.Resource.Styleable.MaterialTextView_android_textAppearance = global::NutritionApp.Droid.Resource.Styleable.MaterialTextView_android_textAppearance;
+			global::Syncfusion.XForms.Android.ComboBox.Resource.Styleable.MaterialTextView_lineHeight = global::NutritionApp.Droid.Resource.Styleable.MaterialTextView_lineHeight;
+			global::Syncfusion.XForms.Android.ComboBox.Resource.Styleable.MenuGroup = global::NutritionApp.Droid.Resource.Styleable.MenuGroup;
+			global::Syncfusion.XForms.Android.ComboBox.Resource.Styleable.MenuGroup_android_checkableBehavior = global::NutritionApp.Droid.Resource.Styleable.MenuGroup_android_checkableBehavior;
+			global::Syncfusion.XForms.Android.ComboBox.Resource.Styleable.MenuGroup_android_enabled = global::NutritionApp.Droid.Resource.Styleable.MenuGroup_android_enabled;
+			global::Syncfusion.XForms.Android.ComboBox.Resource.Styleable.MenuGroup_android_id = global::NutritionApp.Droid.Resource.Styleable.MenuGroup_android_id;
+			global::Syncfusion.XForms.Android.ComboBox.Resource.Styleable.MenuGroup_android_menuCategory = global::NutritionApp.Droid.Resource.Styleable.MenuGroup_android_menuCategory;
+			global::Syncfusion.XForms.Android.ComboBox.Resource.Styleable.MenuGroup_android_orderInCategory = global::NutritionApp.Droid.Resource.Styleable.MenuGroup_android_orderInCategory;
+			global::Syncfusion.XForms.Android.ComboBox.Resource.Styleable.MenuGroup_android_visible = global::NutritionApp.Droid.Resource.Styleable.MenuGroup_android_visible;
+			global::Syncfusion.XForms.Android.ComboBox.Resource.Styleable.MenuItem = global::NutritionApp.Droid.Resource.Styleable.MenuItem;
+			global::Syncfusion.XForms.Android.ComboBox.Resource.Styleable.MenuItem_actionLayout = global::NutritionApp.Droid.Resource.Styleable.MenuItem_actionLayout;
+			global::Syncfusion.XForms.Android.ComboBox.Resource.Styleable.MenuItem_actionProviderClass = global::NutritionApp.Droid.Resource.Styleable.MenuItem_actionProviderClass;
+			global::Syncfusion.XForms.Android.ComboBox.Resource.Styleable.MenuItem_actionViewClass = global::NutritionApp.Droid.Resource.Styleable.MenuItem_actionViewClass;
+			global::Syncfusion.XForms.Android.ComboBox.Resource.Styleable.MenuItem_alphabeticModifiers = global::NutritionApp.Droid.Resource.Styleable.MenuItem_alphabeticModifiers;
+			global::Syncfusion.XForms.Android.ComboBox.Resource.Styleable.MenuItem_android_alphabeticShortcut = global::NutritionApp.Droid.Resource.Styleable.MenuItem_android_alphabeticShortcut;
+			global::Syncfusion.XForms.Android.ComboBox.Resource.Styleable.MenuItem_android_checkable = global::NutritionApp.Droid.Resource.Styleable.MenuItem_android_checkable;
+			global::Syncfusion.XForms.Android.ComboBox.Resource.Styleable.MenuItem_android_checked = global::NutritionApp.Droid.Resource.Styleable.MenuItem_android_checked;
+			global::Syncfusion.XForms.Android.ComboBox.Resource.Styleable.MenuItem_android_enabled = global::NutritionApp.Droid.Resource.Styleable.MenuItem_android_enabled;
+			global::Syncfusion.XForms.Android.ComboBox.Resource.Styleable.MenuItem_android_icon = global::NutritionApp.Droid.Resource.Styleable.MenuItem_android_icon;
+			global::Syncfusion.XForms.Android.ComboBox.Resource.Styleable.MenuItem_android_id = global::NutritionApp.Droid.Resource.Styleable.MenuItem_android_id;
+			global::Syncfusion.XForms.Android.ComboBox.Resource.Styleable.MenuItem_android_menuCategory = global::NutritionApp.Droid.Resource.Styleable.MenuItem_android_menuCategory;
+			global::Syncfusion.XForms.Android.ComboBox.Resource.Styleable.MenuItem_android_numericShortcut = global::NutritionApp.Droid.Resource.Styleable.MenuItem_android_numericShortcut;
+			global::Syncfusion.XForms.Android.ComboBox.Resource.Styleable.MenuItem_android_onClick = global::NutritionApp.Droid.Resource.Styleable.MenuItem_android_onClick;
+			global::Syncfusion.XForms.Android.ComboBox.Resource.Styleable.MenuItem_android_orderInCategory = global::NutritionApp.Droid.Resource.Styleable.MenuItem_android_orderInCategory;
+			global::Syncfusion.XForms.Android.ComboBox.Resource.Styleable.MenuItem_android_title = global::NutritionApp.Droid.Resource.Styleable.MenuItem_android_title;
+			global::Syncfusion.XForms.Android.ComboBox.Resource.Styleable.MenuItem_android_titleCondensed = global::NutritionApp.Droid.Resource.Styleable.MenuItem_android_titleCondensed;
+			global::Syncfusion.XForms.Android.ComboBox.Resource.Styleable.MenuItem_android_visible = global::NutritionApp.Droid.Resource.Styleable.MenuItem_android_visible;
+			global::Syncfusion.XForms.Android.ComboBox.Resource.Styleable.MenuItem_contentDescription = global::NutritionApp.Droid.Resource.Styleable.MenuItem_contentDescription;
+			global::Syncfusion.XForms.Android.ComboBox.Resource.Styleable.MenuItem_iconTint = global::NutritionApp.Droid.Resource.Styleable.MenuItem_iconTint;
+			global::Syncfusion.XForms.Android.ComboBox.Resource.Styleable.MenuItem_iconTintMode = global::NutritionApp.Droid.Resource.Styleable.MenuItem_iconTintMode;
+			global::Syncfusion.XForms.Android.ComboBox.Resource.Styleable.MenuItem_numericModifiers = global::NutritionApp.Droid.Resource.Styleable.MenuItem_numericModifiers;
+			global::Syncfusion.XForms.Android.ComboBox.Resource.Styleable.MenuItem_showAsAction = global::NutritionApp.Droid.Resource.Styleable.MenuItem_showAsAction;
+			global::Syncfusion.XForms.Android.ComboBox.Resource.Styleable.MenuItem_tooltipText = global::NutritionApp.Droid.Resource.Styleable.MenuItem_tooltipText;
+			global::Syncfusion.XForms.Android.ComboBox.Resource.Styleable.MenuView = global::NutritionApp.Droid.Resource.Styleable.MenuView;
+			global::Syncfusion.XForms.Android.ComboBox.Resource.Styleable.MenuView_android_headerBackground = global::NutritionApp.Droid.Resource.Styleable.MenuView_android_headerBackground;
+			global::Syncfusion.XForms.Android.ComboBox.Resource.Styleable.MenuView_android_horizontalDivider = global::NutritionApp.Droid.Resource.Styleable.MenuView_android_horizontalDivider;
+			global::Syncfusion.XForms.Android.ComboBox.Resource.Styleable.MenuView_android_itemBackground = global::NutritionApp.Droid.Resource.Styleable.MenuView_android_itemBackground;
+			global::Syncfusion.XForms.Android.ComboBox.Resource.Styleable.MenuView_android_itemIconDisabledAlpha = global::NutritionApp.Droid.Resource.Styleable.MenuView_android_itemIconDisabledAlpha;
+			global::Syncfusion.XForms.Android.ComboBox.Resource.Styleable.MenuView_android_itemTextAppearance = global::NutritionApp.Droid.Resource.Styleable.MenuView_android_itemTextAppearance;
+			global::Syncfusion.XForms.Android.ComboBox.Resource.Styleable.MenuView_android_verticalDivider = global::NutritionApp.Droid.Resource.Styleable.MenuView_android_verticalDivider;
+			global::Syncfusion.XForms.Android.ComboBox.Resource.Styleable.MenuView_android_windowAnimationStyle = global::NutritionApp.Droid.Resource.Styleable.MenuView_android_windowAnimationStyle;
+			global::Syncfusion.XForms.Android.ComboBox.Resource.Styleable.MenuView_preserveIconSpacing = global::NutritionApp.Droid.Resource.Styleable.MenuView_preserveIconSpacing;
+			global::Syncfusion.XForms.Android.ComboBox.Resource.Styleable.MenuView_subMenuArrow = global::NutritionApp.Droid.Resource.Styleable.MenuView_subMenuArrow;
+			global::Syncfusion.XForms.Android.ComboBox.Resource.Styleable.NavigationView = global::NutritionApp.Droid.Resource.Styleable.NavigationView;
+			global::Syncfusion.XForms.Android.ComboBox.Resource.Styleable.NavigationView_android_background = global::NutritionApp.Droid.Resource.Styleable.NavigationView_android_background;
+			global::Syncfusion.XForms.Android.ComboBox.Resource.Styleable.NavigationView_android_fitsSystemWindows = global::NutritionApp.Droid.Resource.Styleable.NavigationView_android_fitsSystemWindows;
+			global::Syncfusion.XForms.Android.ComboBox.Resource.Styleable.NavigationView_android_maxWidth = global::NutritionApp.Droid.Resource.Styleable.NavigationView_android_maxWidth;
+			global::Syncfusion.XForms.Android.ComboBox.Resource.Styleable.NavigationView_elevation = global::NutritionApp.Droid.Resource.Styleable.NavigationView_elevation;
+			global::Syncfusion.XForms.Android.ComboBox.Resource.Styleable.NavigationView_headerLayout = global::NutritionApp.Droid.Resource.Styleable.NavigationView_headerLayout;
+			global::Syncfusion.XForms.Android.ComboBox.Resource.Styleable.NavigationView_itemBackground = global::NutritionApp.Droid.Resource.Styleable.NavigationView_itemBackground;
+			global::Syncfusion.XForms.Android.ComboBox.Resource.Styleable.NavigationView_itemHorizontalPadding = global::NutritionApp.Droid.Resource.Styleable.NavigationView_itemHorizontalPadding;
+			global::Syncfusion.XForms.Android.ComboBox.Resource.Styleable.NavigationView_itemIconPadding = global::NutritionApp.Droid.Resource.Styleable.NavigationView_itemIconPadding;
+			global::Syncfusion.XForms.Android.ComboBox.Resource.Styleable.NavigationView_itemIconSize = global::NutritionApp.Droid.Resource.Styleable.NavigationView_itemIconSize;
+			global::Syncfusion.XForms.Android.ComboBox.Resource.Styleable.NavigationView_itemIconTint = global::NutritionApp.Droid.Resource.Styleable.NavigationView_itemIconTint;
+			global::Syncfusion.XForms.Android.ComboBox.Resource.Styleable.NavigationView_itemMaxLines = global::NutritionApp.Droid.Resource.Styleable.NavigationView_itemMaxLines;
+			global::Syncfusion.XForms.Android.ComboBox.Resource.Styleable.NavigationView_itemShapeAppearance = global::NutritionApp.Droid.Resource.Styleable.NavigationView_itemShapeAppearance;
+			global::Syncfusion.XForms.Android.ComboBox.Resource.Styleable.NavigationView_itemShapeAppearanceOverlay = global::NutritionApp.Droid.Resource.Styleable.NavigationView_itemShapeAppearanceOverlay;
+			global::Syncfusion.XForms.Android.ComboBox.Resource.Styleable.NavigationView_itemShapeFillColor = global::NutritionApp.Droid.Resource.Styleable.NavigationView_itemShapeFillColor;
+			global::Syncfusion.XForms.Android.ComboBox.Resource.Styleable.NavigationView_itemShapeInsetBottom = global::NutritionApp.Droid.Resource.Styleable.NavigationView_itemShapeInsetBottom;
+			global::Syncfusion.XForms.Android.ComboBox.Resource.Styleable.NavigationView_itemShapeInsetEnd = global::NutritionApp.Droid.Resource.Styleable.NavigationView_itemShapeInsetEnd;
+			global::Syncfusion.XForms.Android.ComboBox.Resource.Styleable.NavigationView_itemShapeInsetStart = global::NutritionApp.Droid.Resource.Styleable.NavigationView_itemShapeInsetStart;
+			global::Syncfusion.XForms.Android.ComboBox.Resource.Styleable.NavigationView_itemShapeInsetTop = global::NutritionApp.Droid.Resource.Styleable.NavigationView_itemShapeInsetTop;
+			global::Syncfusion.XForms.Android.ComboBox.Resource.Styleable.NavigationView_itemTextAppearance = global::NutritionApp.Droid.Resource.Styleable.NavigationView_itemTextAppearance;
+			global::Syncfusion.XForms.Android.ComboBox.Resource.Styleable.NavigationView_itemTextColor = global::NutritionApp.Droid.Resource.Styleable.NavigationView_itemTextColor;
+			global::Syncfusion.XForms.Android.ComboBox.Resource.Styleable.NavigationView_menu = global::NutritionApp.Droid.Resource.Styleable.NavigationView_menu;
+			global::Syncfusion.XForms.Android.ComboBox.Resource.Styleable.PopupWindow = global::NutritionApp.Droid.Resource.Styleable.PopupWindow;
+			global::Syncfusion.XForms.Android.ComboBox.Resource.Styleable.PopupWindowBackgroundState = global::NutritionApp.Droid.Resource.Styleable.PopupWindowBackgroundState;
+			global::Syncfusion.XForms.Android.ComboBox.Resource.Styleable.PopupWindowBackgroundState_state_above_anchor = global::NutritionApp.Droid.Resource.Styleable.PopupWindowBackgroundState_state_above_anchor;
+			global::Syncfusion.XForms.Android.ComboBox.Resource.Styleable.PopupWindow_android_popupAnimationStyle = global::NutritionApp.Droid.Resource.Styleable.PopupWindow_android_popupAnimationStyle;
+			global::Syncfusion.XForms.Android.ComboBox.Resource.Styleable.PopupWindow_android_popupBackground = global::NutritionApp.Droid.Resource.Styleable.PopupWindow_android_popupBackground;
+			global::Syncfusion.XForms.Android.ComboBox.Resource.Styleable.PopupWindow_overlapAnchor = global::NutritionApp.Droid.Resource.Styleable.PopupWindow_overlapAnchor;
+			global::Syncfusion.XForms.Android.ComboBox.Resource.Styleable.RangeSlider = global::NutritionApp.Droid.Resource.Styleable.RangeSlider;
+			global::Syncfusion.XForms.Android.ComboBox.Resource.Styleable.RangeSlider_values = global::NutritionApp.Droid.Resource.Styleable.RangeSlider_values;
+			global::Syncfusion.XForms.Android.ComboBox.Resource.Styleable.RecycleListView = global::NutritionApp.Droid.Resource.Styleable.RecycleListView;
+			global::Syncfusion.XForms.Android.ComboBox.Resource.Styleable.RecycleListView_paddingBottomNoButtons = global::NutritionApp.Droid.Resource.Styleable.RecycleListView_paddingBottomNoButtons;
+			global::Syncfusion.XForms.Android.ComboBox.Resource.Styleable.RecycleListView_paddingTopNoTitle = global::NutritionApp.Droid.Resource.Styleable.RecycleListView_paddingTopNoTitle;
+			global::Syncfusion.XForms.Android.ComboBox.Resource.Styleable.RecyclerView = global::NutritionApp.Droid.Resource.Styleable.RecyclerView;
+			global::Syncfusion.XForms.Android.ComboBox.Resource.Styleable.RecyclerView_android_clipToPadding = global::NutritionApp.Droid.Resource.Styleable.RecyclerView_android_clipToPadding;
+			global::Syncfusion.XForms.Android.ComboBox.Resource.Styleable.RecyclerView_android_descendantFocusability = global::NutritionApp.Droid.Resource.Styleable.RecyclerView_android_descendantFocusability;
+			global::Syncfusion.XForms.Android.ComboBox.Resource.Styleable.RecyclerView_android_orientation = global::NutritionApp.Droid.Resource.Styleable.RecyclerView_android_orientation;
+			global::Syncfusion.XForms.Android.ComboBox.Resource.Styleable.RecyclerView_fastScrollEnabled = global::NutritionApp.Droid.Resource.Styleable.RecyclerView_fastScrollEnabled;
+			global::Syncfusion.XForms.Android.ComboBox.Resource.Styleable.RecyclerView_fastScrollHorizontalThumbDrawable = global::NutritionApp.Droid.Resource.Styleable.RecyclerView_fastScrollHorizontalThumbDrawable;
+			global::Syncfusion.XForms.Android.ComboBox.Resource.Styleable.RecyclerView_fastScrollHorizontalTrackDrawable = global::NutritionApp.Droid.Resource.Styleable.RecyclerView_fastScrollHorizontalTrackDrawable;
+			global::Syncfusion.XForms.Android.ComboBox.Resource.Styleable.RecyclerView_fastScrollVerticalThumbDrawable = global::NutritionApp.Droid.Resource.Styleable.RecyclerView_fastScrollVerticalThumbDrawable;
+			global::Syncfusion.XForms.Android.ComboBox.Resource.Styleable.RecyclerView_fastScrollVerticalTrackDrawable = global::NutritionApp.Droid.Resource.Styleable.RecyclerView_fastScrollVerticalTrackDrawable;
+			global::Syncfusion.XForms.Android.ComboBox.Resource.Styleable.RecyclerView_layoutManager = global::NutritionApp.Droid.Resource.Styleable.RecyclerView_layoutManager;
+			global::Syncfusion.XForms.Android.ComboBox.Resource.Styleable.RecyclerView_reverseLayout = global::NutritionApp.Droid.Resource.Styleable.RecyclerView_reverseLayout;
+			global::Syncfusion.XForms.Android.ComboBox.Resource.Styleable.RecyclerView_spanCount = global::NutritionApp.Droid.Resource.Styleable.RecyclerView_spanCount;
+			global::Syncfusion.XForms.Android.ComboBox.Resource.Styleable.RecyclerView_stackFromEnd = global::NutritionApp.Droid.Resource.Styleable.RecyclerView_stackFromEnd;
+			global::Syncfusion.XForms.Android.ComboBox.Resource.Styleable.ScrimInsetsFrameLayout = global::NutritionApp.Droid.Resource.Styleable.ScrimInsetsFrameLayout;
+			global::Syncfusion.XForms.Android.ComboBox.Resource.Styleable.ScrimInsetsFrameLayout_insetForeground = global::NutritionApp.Droid.Resource.Styleable.ScrimInsetsFrameLayout_insetForeground;
+			global::Syncfusion.XForms.Android.ComboBox.Resource.Styleable.ScrollingViewBehavior_Layout = global::NutritionApp.Droid.Resource.Styleable.ScrollingViewBehavior_Layout;
+			global::Syncfusion.XForms.Android.ComboBox.Resource.Styleable.ScrollingViewBehavior_Layout_behavior_overlapTop = global::NutritionApp.Droid.Resource.Styleable.ScrollingViewBehavior_Layout_behavior_overlapTop;
+			global::Syncfusion.XForms.Android.ComboBox.Resource.Styleable.ScrollViewRendererTheme = global::NutritionApp.Droid.Resource.Styleable.ScrollViewRendererTheme;
+			global::Syncfusion.XForms.Android.ComboBox.Resource.Styleable.ScrollViewRendererTheme_scrollViewStyle = global::NutritionApp.Droid.Resource.Styleable.ScrollViewRendererTheme_scrollViewStyle;
+			global::Syncfusion.XForms.Android.ComboBox.Resource.Styleable.SearchView = global::NutritionApp.Droid.Resource.Styleable.SearchView;
+			global::Syncfusion.XForms.Android.ComboBox.Resource.Styleable.SearchView_android_focusable = global::NutritionApp.Droid.Resource.Styleable.SearchView_android_focusable;
+			global::Syncfusion.XForms.Android.ComboBox.Resource.Styleable.SearchView_android_imeOptions = global::NutritionApp.Droid.Resource.Styleable.SearchView_android_imeOptions;
+			global::Syncfusion.XForms.Android.ComboBox.Resource.Styleable.SearchView_android_inputType = global::NutritionApp.Droid.Resource.Styleable.SearchView_android_inputType;
+			global::Syncfusion.XForms.Android.ComboBox.Resource.Styleable.SearchView_android_maxWidth = global::NutritionApp.Droid.Resource.Styleable.SearchView_android_maxWidth;
+			global::Syncfusion.XForms.Android.ComboBox.Resource.Styleable.SearchView_closeIcon = global::NutritionApp.Droid.Resource.Styleable.SearchView_closeIcon;
+			global::Syncfusion.XForms.Android.ComboBox.Resource.Styleable.SearchView_commitIcon = global::NutritionApp.Droid.Resource.Styleable.SearchView_commitIcon;
+			global::Syncfusion.XForms.Android.ComboBox.Resource.Styleable.SearchView_defaultQueryHint = global::NutritionApp.Droid.Resource.Styleable.SearchView_defaultQueryHint;
+			global::Syncfusion.XForms.Android.ComboBox.Resource.Styleable.SearchView_goIcon = global::NutritionApp.Droid.Resource.Styleable.SearchView_goIcon;
+			global::Syncfusion.XForms.Android.ComboBox.Resource.Styleable.SearchView_iconifiedByDefault = global::NutritionApp.Droid.Resource.Styleable.SearchView_iconifiedByDefault;
+			global::Syncfusion.XForms.Android.ComboBox.Resource.Styleable.SearchView_layout = global::NutritionApp.Droid.Resource.Styleable.SearchView_layout;
+			global::Syncfusion.XForms.Android.ComboBox.Resource.Styleable.SearchView_queryBackground = global::NutritionApp.Droid.Resource.Styleable.SearchView_queryBackground;
+			global::Syncfusion.XForms.Android.ComboBox.Resource.Styleable.SearchView_queryHint = global::NutritionApp.Droid.Resource.Styleable.SearchView_queryHint;
+			global::Syncfusion.XForms.Android.ComboBox.Resource.Styleable.SearchView_searchHintIcon = global::NutritionApp.Droid.Resource.Styleable.SearchView_searchHintIcon;
+			global::Syncfusion.XForms.Android.ComboBox.Resource.Styleable.SearchView_searchIcon = global::NutritionApp.Droid.Resource.Styleable.SearchView_searchIcon;
+			global::Syncfusion.XForms.Android.ComboBox.Resource.Styleable.SearchView_submitBackground = global::NutritionApp.Droid.Resource.Styleable.SearchView_submitBackground;
+			global::Syncfusion.XForms.Android.ComboBox.Resource.Styleable.SearchView_suggestionRowLayout = global::NutritionApp.Droid.Resource.Styleable.SearchView_suggestionRowLayout;
+			global::Syncfusion.XForms.Android.ComboBox.Resource.Styleable.SearchView_voiceIcon = global::NutritionApp.Droid.Resource.Styleable.SearchView_voiceIcon;
+			global::Syncfusion.XForms.Android.ComboBox.Resource.Styleable.ShapeableImageView = global::NutritionApp.Droid.Resource.Styleable.ShapeableImageView;
+			global::Syncfusion.XForms.Android.ComboBox.Resource.Styleable.ShapeableImageView_shapeAppearance = global::NutritionApp.Droid.Resource.Styleable.ShapeableImageView_shapeAppearance;
+			global::Syncfusion.XForms.Android.ComboBox.Resource.Styleable.ShapeableImageView_shapeAppearanceOverlay = global::NutritionApp.Droid.Resource.Styleable.ShapeableImageView_shapeAppearanceOverlay;
+			global::Syncfusion.XForms.Android.ComboBox.Resource.Styleable.ShapeableImageView_strokeColor = global::NutritionApp.Droid.Resource.Styleable.ShapeableImageView_strokeColor;
+			global::Syncfusion.XForms.Android.ComboBox.Resource.Styleable.ShapeableImageView_strokeWidth = global::NutritionApp.Droid.Resource.Styleable.ShapeableImageView_strokeWidth;
+			global::Syncfusion.XForms.Android.ComboBox.Resource.Styleable.ShapeAppearance = global::NutritionApp.Droid.Resource.Styleable.ShapeAppearance;
+			global::Syncfusion.XForms.Android.ComboBox.Resource.Styleable.ShapeAppearance_cornerFamily = global::NutritionApp.Droid.Resource.Styleable.ShapeAppearance_cornerFamily;
+			global::Syncfusion.XForms.Android.ComboBox.Resource.Styleable.ShapeAppearance_cornerFamilyBottomLeft = global::NutritionApp.Droid.Resource.Styleable.ShapeAppearance_cornerFamilyBottomLeft;
+			global::Syncfusion.XForms.Android.ComboBox.Resource.Styleable.ShapeAppearance_cornerFamilyBottomRight = global::NutritionApp.Droid.Resource.Styleable.ShapeAppearance_cornerFamilyBottomRight;
+			global::Syncfusion.XForms.Android.ComboBox.Resource.Styleable.ShapeAppearance_cornerFamilyTopLeft = global::NutritionApp.Droid.Resource.Styleable.ShapeAppearance_cornerFamilyTopLeft;
+			global::Syncfusion.XForms.Android.ComboBox.Resource.Styleable.ShapeAppearance_cornerFamilyTopRight = global::NutritionApp.Droid.Resource.Styleable.ShapeAppearance_cornerFamilyTopRight;
+			global::Syncfusion.XForms.Android.ComboBox.Resource.Styleable.ShapeAppearance_cornerSize = global::NutritionApp.Droid.Resource.Styleable.ShapeAppearance_cornerSize;
+			global::Syncfusion.XForms.Android.ComboBox.Resource.Styleable.ShapeAppearance_cornerSizeBottomLeft = global::NutritionApp.Droid.Resource.Styleable.ShapeAppearance_cornerSizeBottomLeft;
+			global::Syncfusion.XForms.Android.ComboBox.Resource.Styleable.ShapeAppearance_cornerSizeBottomRight = global::NutritionApp.Droid.Resource.Styleable.ShapeAppearance_cornerSizeBottomRight;
+			global::Syncfusion.XForms.Android.ComboBox.Resource.Styleable.ShapeAppearance_cornerSizeTopLeft = global::NutritionApp.Droid.Resource.Styleable.ShapeAppearance_cornerSizeTopLeft;
+			global::Syncfusion.XForms.Android.ComboBox.Resource.Styleable.ShapeAppearance_cornerSizeTopRight = global::NutritionApp.Droid.Resource.Styleable.ShapeAppearance_cornerSizeTopRight;
+			global::Syncfusion.XForms.Android.ComboBox.Resource.Styleable.Slider = global::NutritionApp.Droid.Resource.Styleable.Slider;
+			global::Syncfusion.XForms.Android.ComboBox.Resource.Styleable.Slider_android_enabled = global::NutritionApp.Droid.Resource.Styleable.Slider_android_enabled;
+			global::Syncfusion.XForms.Android.ComboBox.Resource.Styleable.Slider_android_stepSize = global::NutritionApp.Droid.Resource.Styleable.Slider_android_stepSize;
+			global::Syncfusion.XForms.Android.ComboBox.Resource.Styleable.Slider_android_value = global::NutritionApp.Droid.Resource.Styleable.Slider_android_value;
+			global::Syncfusion.XForms.Android.ComboBox.Resource.Styleable.Slider_android_valueFrom = global::NutritionApp.Droid.Resource.Styleable.Slider_android_valueFrom;
+			global::Syncfusion.XForms.Android.ComboBox.Resource.Styleable.Slider_android_valueTo = global::NutritionApp.Droid.Resource.Styleable.Slider_android_valueTo;
+			global::Syncfusion.XForms.Android.ComboBox.Resource.Styleable.Slider_haloColor = global::NutritionApp.Droid.Resource.Styleable.Slider_haloColor;
+			global::Syncfusion.XForms.Android.ComboBox.Resource.Styleable.Slider_haloRadius = global::NutritionApp.Droid.Resource.Styleable.Slider_haloRadius;
+			global::Syncfusion.XForms.Android.ComboBox.Resource.Styleable.Slider_labelBehavior = global::NutritionApp.Droid.Resource.Styleable.Slider_labelBehavior;
+			global::Syncfusion.XForms.Android.ComboBox.Resource.Styleable.Slider_labelStyle = global::NutritionApp.Droid.Resource.Styleable.Slider_labelStyle;
+			global::Syncfusion.XForms.Android.ComboBox.Resource.Styleable.Slider_thumbColor = global::NutritionApp.Droid.Resource.Styleable.Slider_thumbColor;
+			global::Syncfusion.XForms.Android.ComboBox.Resource.Styleable.Slider_thumbElevation = global::NutritionApp.Droid.Resource.Styleable.Slider_thumbElevation;
+			global::Syncfusion.XForms.Android.ComboBox.Resource.Styleable.Slider_thumbRadius = global::NutritionApp.Droid.Resource.Styleable.Slider_thumbRadius;
+			global::Syncfusion.XForms.Android.ComboBox.Resource.Styleable.Slider_tickColor = global::NutritionApp.Droid.Resource.Styleable.Slider_tickColor;
+			global::Syncfusion.XForms.Android.ComboBox.Resource.Styleable.Slider_tickColorActive = global::NutritionApp.Droid.Resource.Styleable.Slider_tickColorActive;
+			global::Syncfusion.XForms.Android.ComboBox.Resource.Styleable.Slider_tickColorInactive = global::NutritionApp.Droid.Resource.Styleable.Slider_tickColorInactive;
+			global::Syncfusion.XForms.Android.ComboBox.Resource.Styleable.Slider_trackColor = global::NutritionApp.Droid.Resource.Styleable.Slider_trackColor;
+			global::Syncfusion.XForms.Android.ComboBox.Resource.Styleable.Slider_trackColorActive = global::NutritionApp.Droid.Resource.Styleable.Slider_trackColorActive;
+			global::Syncfusion.XForms.Android.ComboBox.Resource.Styleable.Slider_trackColorInactive = global::NutritionApp.Droid.Resource.Styleable.Slider_trackColorInactive;
+			global::Syncfusion.XForms.Android.ComboBox.Resource.Styleable.Slider_trackHeight = global::NutritionApp.Droid.Resource.Styleable.Slider_trackHeight;
+			global::Syncfusion.XForms.Android.ComboBox.Resource.Styleable.Snackbar = global::NutritionApp.Droid.Resource.Styleable.Snackbar;
+			global::Syncfusion.XForms.Android.ComboBox.Resource.Styleable.SnackbarLayout = global::NutritionApp.Droid.Resource.Styleable.SnackbarLayout;
+			global::Syncfusion.XForms.Android.ComboBox.Resource.Styleable.SnackbarLayout_actionTextColorAlpha = global::NutritionApp.Droid.Resource.Styleable.SnackbarLayout_actionTextColorAlpha;
+			global::Syncfusion.XForms.Android.ComboBox.Resource.Styleable.SnackbarLayout_android_maxWidth = global::NutritionApp.Droid.Resource.Styleable.SnackbarLayout_android_maxWidth;
+			global::Syncfusion.XForms.Android.ComboBox.Resource.Styleable.SnackbarLayout_animationMode = global::NutritionApp.Droid.Resource.Styleable.SnackbarLayout_animationMode;
+			global::Syncfusion.XForms.Android.ComboBox.Resource.Styleable.SnackbarLayout_backgroundOverlayColorAlpha = global::NutritionApp.Droid.Resource.Styleable.SnackbarLayout_backgroundOverlayColorAlpha;
+			global::Syncfusion.XForms.Android.ComboBox.Resource.Styleable.SnackbarLayout_backgroundTint = global::NutritionApp.Droid.Resource.Styleable.SnackbarLayout_backgroundTint;
+			global::Syncfusion.XForms.Android.ComboBox.Resource.Styleable.SnackbarLayout_backgroundTintMode = global::NutritionApp.Droid.Resource.Styleable.SnackbarLayout_backgroundTintMode;
+			global::Syncfusion.XForms.Android.ComboBox.Resource.Styleable.SnackbarLayout_elevation = global::NutritionApp.Droid.Resource.Styleable.SnackbarLayout_elevation;
+			global::Syncfusion.XForms.Android.ComboBox.Resource.Styleable.SnackbarLayout_maxActionInlineWidth = global::NutritionApp.Droid.Resource.Styleable.SnackbarLayout_maxActionInlineWidth;
+			global::Syncfusion.XForms.Android.ComboBox.Resource.Styleable.Snackbar_snackbarButtonStyle = global::NutritionApp.Droid.Resource.Styleable.Snackbar_snackbarButtonStyle;
+			global::Syncfusion.XForms.Android.ComboBox.Resource.Styleable.Snackbar_snackbarStyle = global::NutritionApp.Droid.Resource.Styleable.Snackbar_snackbarStyle;
+			global::Syncfusion.XForms.Android.ComboBox.Resource.Styleable.Snackbar_snackbarTextViewStyle = global::NutritionApp.Droid.Resource.Styleable.Snackbar_snackbarTextViewStyle;
+			global::Syncfusion.XForms.Android.ComboBox.Resource.Styleable.Spinner = global::NutritionApp.Droid.Resource.Styleable.Spinner;
+			global::Syncfusion.XForms.Android.ComboBox.Resource.Styleable.Spinner_android_dropDownWidth = global::NutritionApp.Droid.Resource.Styleable.Spinner_android_dropDownWidth;
+			global::Syncfusion.XForms.Android.ComboBox.Resource.Styleable.Spinner_android_entries = global::NutritionApp.Droid.Resource.Styleable.Spinner_android_entries;
+			global::Syncfusion.XForms.Android.ComboBox.Resource.Styleable.Spinner_android_popupBackground = global::NutritionApp.Droid.Resource.Styleable.Spinner_android_popupBackground;
+			global::Syncfusion.XForms.Android.ComboBox.Resource.Styleable.Spinner_android_prompt = global::NutritionApp.Droid.Resource.Styleable.Spinner_android_prompt;
+			global::Syncfusion.XForms.Android.ComboBox.Resource.Styleable.Spinner_popupTheme = global::NutritionApp.Droid.Resource.Styleable.Spinner_popupTheme;
+			global::Syncfusion.XForms.Android.ComboBox.Resource.Styleable.StateListDrawable = global::NutritionApp.Droid.Resource.Styleable.StateListDrawable;
+			global::Syncfusion.XForms.Android.ComboBox.Resource.Styleable.StateListDrawableItem = global::NutritionApp.Droid.Resource.Styleable.StateListDrawableItem;
+			global::Syncfusion.XForms.Android.ComboBox.Resource.Styleable.StateListDrawableItem_android_drawable = global::NutritionApp.Droid.Resource.Styleable.StateListDrawableItem_android_drawable;
+			global::Syncfusion.XForms.Android.ComboBox.Resource.Styleable.StateListDrawable_android_constantSize = global::NutritionApp.Droid.Resource.Styleable.StateListDrawable_android_constantSize;
+			global::Syncfusion.XForms.Android.ComboBox.Resource.Styleable.StateListDrawable_android_dither = global::NutritionApp.Droid.Resource.Styleable.StateListDrawable_android_dither;
+			global::Syncfusion.XForms.Android.ComboBox.Resource.Styleable.StateListDrawable_android_enterFadeDuration = global::NutritionApp.Droid.Resource.Styleable.StateListDrawable_android_enterFadeDuration;
+			global::Syncfusion.XForms.Android.ComboBox.Resource.Styleable.StateListDrawable_android_exitFadeDuration = global::NutritionApp.Droid.Resource.Styleable.StateListDrawable_android_exitFadeDuration;
+			global::Syncfusion.XForms.Android.ComboBox.Resource.Styleable.StateListDrawable_android_variablePadding = global::NutritionApp.Droid.Resource.Styleable.StateListDrawable_android_variablePadding;
+			global::Syncfusion.XForms.Android.ComboBox.Resource.Styleable.StateListDrawable_android_visible = global::NutritionApp.Droid.Resource.Styleable.StateListDrawable_android_visible;
+			global::Syncfusion.XForms.Android.ComboBox.Resource.Styleable.SwipeRefreshLayout = global::NutritionApp.Droid.Resource.Styleable.SwipeRefreshLayout;
+			global::Syncfusion.XForms.Android.ComboBox.Resource.Styleable.SwipeRefreshLayout_swipeRefreshLayoutProgressSpinnerBackgroundColor = global::NutritionApp.Droid.Resource.Styleable.SwipeRefreshLayout_swipeRefreshLayoutProgressSpinnerBackgroundColor;
+			global::Syncfusion.XForms.Android.ComboBox.Resource.Styleable.SwitchCompat = global::NutritionApp.Droid.Resource.Styleable.SwitchCompat;
+			global::Syncfusion.XForms.Android.ComboBox.Resource.Styleable.SwitchCompat_android_textOff = global::NutritionApp.Droid.Resource.Styleable.SwitchCompat_android_textOff;
+			global::Syncfusion.XForms.Android.ComboBox.Resource.Styleable.SwitchCompat_android_textOn = global::NutritionApp.Droid.Resource.Styleable.SwitchCompat_android_textOn;
+			global::Syncfusion.XForms.Android.ComboBox.Resource.Styleable.SwitchCompat_android_thumb = global::NutritionApp.Droid.Resource.Styleable.SwitchCompat_android_thumb;
+			global::Syncfusion.XForms.Android.ComboBox.Resource.Styleable.SwitchCompat_showText = global::NutritionApp.Droid.Resource.Styleable.SwitchCompat_showText;
+			global::Syncfusion.XForms.Android.ComboBox.Resource.Styleable.SwitchCompat_splitTrack = global::NutritionApp.Droid.Resource.Styleable.SwitchCompat_splitTrack;
+			global::Syncfusion.XForms.Android.ComboBox.Resource.Styleable.SwitchCompat_switchMinWidth = global::NutritionApp.Droid.Resource.Styleable.SwitchCompat_switchMinWidth;
+			global::Syncfusion.XForms.Android.ComboBox.Resource.Styleable.SwitchCompat_switchPadding = global::NutritionApp.Droid.Resource.Styleable.SwitchCompat_switchPadding;
+			global::Syncfusion.XForms.Android.ComboBox.Resource.Styleable.SwitchCompat_switchTextAppearance = global::NutritionApp.Droid.Resource.Styleable.SwitchCompat_switchTextAppearance;
+			global::Syncfusion.XForms.Android.ComboBox.Resource.Styleable.SwitchCompat_thumbTextPadding = global::NutritionApp.Droid.Resource.Styleable.SwitchCompat_thumbTextPadding;
+			global::Syncfusion.XForms.Android.ComboBox.Resource.Styleable.SwitchCompat_thumbTint = global::NutritionApp.Droid.Resource.Styleable.SwitchCompat_thumbTint;
+			global::Syncfusion.XForms.Android.ComboBox.Resource.Styleable.SwitchCompat_thumbTintMode = global::NutritionApp.Droid.Resource.Styleable.SwitchCompat_thumbTintMode;
+			global::Syncfusion.XForms.Android.ComboBox.Resource.Styleable.SwitchCompat_track = global::NutritionApp.Droid.Resource.Styleable.SwitchCompat_track;
+			global::Syncfusion.XForms.Android.ComboBox.Resource.Styleable.SwitchCompat_trackTint = global::NutritionApp.Droid.Resource.Styleable.SwitchCompat_trackTint;
+			global::Syncfusion.XForms.Android.ComboBox.Resource.Styleable.SwitchCompat_trackTintMode = global::NutritionApp.Droid.Resource.Styleable.SwitchCompat_trackTintMode;
+			global::Syncfusion.XForms.Android.ComboBox.Resource.Styleable.SwitchMaterial = global::NutritionApp.Droid.Resource.Styleable.SwitchMaterial;
+			global::Syncfusion.XForms.Android.ComboBox.Resource.Styleable.SwitchMaterial_useMaterialThemeColors = global::NutritionApp.Droid.Resource.Styleable.SwitchMaterial_useMaterialThemeColors;
+			global::Syncfusion.XForms.Android.ComboBox.Resource.Styleable.TabItem = global::NutritionApp.Droid.Resource.Styleable.TabItem;
+			global::Syncfusion.XForms.Android.ComboBox.Resource.Styleable.TabItem_android_icon = global::NutritionApp.Droid.Resource.Styleable.TabItem_android_icon;
+			global::Syncfusion.XForms.Android.ComboBox.Resource.Styleable.TabItem_android_layout = global::NutritionApp.Droid.Resource.Styleable.TabItem_android_layout;
+			global::Syncfusion.XForms.Android.ComboBox.Resource.Styleable.TabItem_android_text = global::NutritionApp.Droid.Resource.Styleable.TabItem_android_text;
+			global::Syncfusion.XForms.Android.ComboBox.Resource.Styleable.TabLayout = global::NutritionApp.Droid.Resource.Styleable.TabLayout;
+			global::Syncfusion.XForms.Android.ComboBox.Resource.Styleable.TabLayout_tabBackground = global::NutritionApp.Droid.Resource.Styleable.TabLayout_tabBackground;
+			global::Syncfusion.XForms.Android.ComboBox.Resource.Styleable.TabLayout_tabContentStart = global::NutritionApp.Droid.Resource.Styleable.TabLayout_tabContentStart;
+			global::Syncfusion.XForms.Android.ComboBox.Resource.Styleable.TabLayout_tabGravity = global::NutritionApp.Droid.Resource.Styleable.TabLayout_tabGravity;
+			global::Syncfusion.XForms.Android.ComboBox.Resource.Styleable.TabLayout_tabIconTint = global::NutritionApp.Droid.Resource.Styleable.TabLayout_tabIconTint;
+			global::Syncfusion.XForms.Android.ComboBox.Resource.Styleable.TabLayout_tabIconTintMode = global::NutritionApp.Droid.Resource.Styleable.TabLayout_tabIconTintMode;
+			global::Syncfusion.XForms.Android.ComboBox.Resource.Styleable.TabLayout_tabIndicator = global::NutritionApp.Droid.Resource.Styleable.TabLayout_tabIndicator;
+			global::Syncfusion.XForms.Android.ComboBox.Resource.Styleable.TabLayout_tabIndicatorAnimationDuration = global::NutritionApp.Droid.Resource.Styleable.TabLayout_tabIndicatorAnimationDuration;
+			global::Syncfusion.XForms.Android.ComboBox.Resource.Styleable.TabLayout_tabIndicatorColor = global::NutritionApp.Droid.Resource.Styleable.TabLayout_tabIndicatorColor;
+			global::Syncfusion.XForms.Android.ComboBox.Resource.Styleable.TabLayout_tabIndicatorFullWidth = global::NutritionApp.Droid.Resource.Styleable.TabLayout_tabIndicatorFullWidth;
+			global::Syncfusion.XForms.Android.ComboBox.Resource.Styleable.TabLayout_tabIndicatorGravity = global::NutritionApp.Droid.Resource.Styleable.TabLayout_tabIndicatorGravity;
+			global::Syncfusion.XForms.Android.ComboBox.Resource.Styleable.TabLayout_tabIndicatorHeight = global::NutritionApp.Droid.Resource.Styleable.TabLayout_tabIndicatorHeight;
+			global::Syncfusion.XForms.Android.ComboBox.Resource.Styleable.TabLayout_tabInlineLabel = global::NutritionApp.Droid.Resource.Styleable.TabLayout_tabInlineLabel;
+			global::Syncfusion.XForms.Android.ComboBox.Resource.Styleable.TabLayout_tabMaxWidth = global::NutritionApp.Droid.Resource.Styleable.TabLayout_tabMaxWidth;
+			global::Syncfusion.XForms.Android.ComboBox.Resource.Styleable.TabLayout_tabMinWidth = global::NutritionApp.Droid.Resource.Styleable.TabLayout_tabMinWidth;
+			global::Syncfusion.XForms.Android.ComboBox.Resource.Styleable.TabLayout_tabMode = global::NutritionApp.Droid.Resource.Styleable.TabLayout_tabMode;
+			global::Syncfusion.XForms.Android.ComboBox.Resource.Styleable.TabLayout_tabPadding = global::NutritionApp.Droid.Resource.Styleable.TabLayout_tabPadding;
+			global::Syncfusion.XForms.Android.ComboBox.Resource.Styleable.TabLayout_tabPaddingBottom = global::NutritionApp.Droid.Resource.Styleable.TabLayout_tabPaddingBottom;
+			global::Syncfusion.XForms.Android.ComboBox.Resource.Styleable.TabLayout_tabPaddingEnd = global::NutritionApp.Droid.Resource.Styleable.TabLayout_tabPaddingEnd;
+			global::Syncfusion.XForms.Android.ComboBox.Resource.Styleable.TabLayout_tabPaddingStart = global::NutritionApp.Droid.Resource.Styleable.TabLayout_tabPaddingStart;
+			global::Syncfusion.XForms.Android.ComboBox.Resource.Styleable.TabLayout_tabPaddingTop = global::NutritionApp.Droid.Resource.Styleable.TabLayout_tabPaddingTop;
+			global::Syncfusion.XForms.Android.ComboBox.Resource.Styleable.TabLayout_tabRippleColor = global::NutritionApp.Droid.Resource.Styleable.TabLayout_tabRippleColor;
+			global::Syncfusion.XForms.Android.ComboBox.Resource.Styleable.TabLayout_tabSelectedTextColor = global::NutritionApp.Droid.Resource.Styleable.TabLayout_tabSelectedTextColor;
+			global::Syncfusion.XForms.Android.ComboBox.Resource.Styleable.TabLayout_tabTextAppearance = global::NutritionApp.Droid.Resource.Styleable.TabLayout_tabTextAppearance;
+			global::Syncfusion.XForms.Android.ComboBox.Resource.Styleable.TabLayout_tabTextColor = global::NutritionApp.Droid.Resource.Styleable.TabLayout_tabTextColor;
+			global::Syncfusion.XForms.Android.ComboBox.Resource.Styleable.TabLayout_tabUnboundedRipple = global::NutritionApp.Droid.Resource.Styleable.TabLayout_tabUnboundedRipple;
+			global::Syncfusion.XForms.Android.ComboBox.Resource.Styleable.TextAppearance = global::NutritionApp.Droid.Resource.Styleable.TextAppearance;
+			global::Syncfusion.XForms.Android.ComboBox.Resource.Styleable.TextAppearance_android_fontFamily = global::NutritionApp.Droid.Resource.Styleable.TextAppearance_android_fontFamily;
+			global::Syncfusion.XForms.Android.ComboBox.Resource.Styleable.TextAppearance_android_shadowColor = global::NutritionApp.Droid.Resource.Styleable.TextAppearance_android_shadowColor;
+			global::Syncfusion.XForms.Android.ComboBox.Resource.Styleable.TextAppearance_android_shadowDx = global::NutritionApp.Droid.Resource.Styleable.TextAppearance_android_shadowDx;
+			global::Syncfusion.XForms.Android.ComboBox.Resource.Styleable.TextAppearance_android_shadowDy = global::NutritionApp.Droid.Resource.Styleable.TextAppearance_android_shadowDy;
+			global::Syncfusion.XForms.Android.ComboBox.Resource.Styleable.TextAppearance_android_shadowRadius = global::NutritionApp.Droid.Resource.Styleable.TextAppearance_android_shadowRadius;
+			global::Syncfusion.XForms.Android.ComboBox.Resource.Styleable.TextAppearance_android_textColor = global::NutritionApp.Droid.Resource.Styleable.TextAppearance_android_textColor;
+			global::Syncfusion.XForms.Android.ComboBox.Resource.Styleable.TextAppearance_android_textColorHint = global::NutritionApp.Droid.Resource.Styleable.TextAppearance_android_textColorHint;
+			global::Syncfusion.XForms.Android.ComboBox.Resource.Styleable.TextAppearance_android_textColorLink = global::NutritionApp.Droid.Resource.Styleable.TextAppearance_android_textColorLink;
+			global::Syncfusion.XForms.Android.ComboBox.Resource.Styleable.TextAppearance_android_textFontWeight = global::NutritionApp.Droid.Resource.Styleable.TextAppearance_android_textFontWeight;
+			global::Syncfusion.XForms.Android.ComboBox.Resource.Styleable.TextAppearance_android_textSize = global::NutritionApp.Droid.Resource.Styleable.TextAppearance_android_textSize;
+			global::Syncfusion.XForms.Android.ComboBox.Resource.Styleable.TextAppearance_android_textStyle = global::NutritionApp.Droid.Resource.Styleable.TextAppearance_android_textStyle;
+			global::Syncfusion.XForms.Android.ComboBox.Resource.Styleable.TextAppearance_android_typeface = global::NutritionApp.Droid.Resource.Styleable.TextAppearance_android_typeface;
+			global::Syncfusion.XForms.Android.ComboBox.Resource.Styleable.TextAppearance_fontFamily = global::NutritionApp.Droid.Resource.Styleable.TextAppearance_fontFamily;
+			global::Syncfusion.XForms.Android.ComboBox.Resource.Styleable.TextAppearance_fontVariationSettings = global::NutritionApp.Droid.Resource.Styleable.TextAppearance_fontVariationSettings;
+			global::Syncfusion.XForms.Android.ComboBox.Resource.Styleable.TextAppearance_textAllCaps = global::NutritionApp.Droid.Resource.Styleable.TextAppearance_textAllCaps;
+			global::Syncfusion.XForms.Android.ComboBox.Resource.Styleable.TextAppearance_textLocale = global::NutritionApp.Droid.Resource.Styleable.TextAppearance_textLocale;
+			global::Syncfusion.XForms.Android.ComboBox.Resource.Styleable.TextInputEditText = global::NutritionApp.Droid.Resource.Styleable.TextInputEditText;
+			global::Syncfusion.XForms.Android.ComboBox.Resource.Styleable.TextInputEditText_textInputLayoutFocusedRectEnabled = global::NutritionApp.Droid.Resource.Styleable.TextInputEditText_textInputLayoutFocusedRectEnabled;
+			global::Syncfusion.XForms.Android.ComboBox.Resource.Styleable.TextInputLayout = global::NutritionApp.Droid.Resource.Styleable.TextInputLayout;
+			global::Syncfusion.XForms.Android.ComboBox.Resource.Styleable.TextInputLayout_android_enabled = global::NutritionApp.Droid.Resource.Styleable.TextInputLayout_android_enabled;
+			global::Syncfusion.XForms.Android.ComboBox.Resource.Styleable.TextInputLayout_android_hint = global::NutritionApp.Droid.Resource.Styleable.TextInputLayout_android_hint;
+			global::Syncfusion.XForms.Android.ComboBox.Resource.Styleable.TextInputLayout_android_textColorHint = global::NutritionApp.Droid.Resource.Styleable.TextInputLayout_android_textColorHint;
+			global::Syncfusion.XForms.Android.ComboBox.Resource.Styleable.TextInputLayout_boxBackgroundColor = global::NutritionApp.Droid.Resource.Styleable.TextInputLayout_boxBackgroundColor;
+			global::Syncfusion.XForms.Android.ComboBox.Resource.Styleable.TextInputLayout_boxBackgroundMode = global::NutritionApp.Droid.Resource.Styleable.TextInputLayout_boxBackgroundMode;
+			global::Syncfusion.XForms.Android.ComboBox.Resource.Styleable.TextInputLayout_boxCollapsedPaddingTop = global::NutritionApp.Droid.Resource.Styleable.TextInputLayout_boxCollapsedPaddingTop;
+			global::Syncfusion.XForms.Android.ComboBox.Resource.Styleable.TextInputLayout_boxCornerRadiusBottomEnd = global::NutritionApp.Droid.Resource.Styleable.TextInputLayout_boxCornerRadiusBottomEnd;
+			global::Syncfusion.XForms.Android.ComboBox.Resource.Styleable.TextInputLayout_boxCornerRadiusBottomStart = global::NutritionApp.Droid.Resource.Styleable.TextInputLayout_boxCornerRadiusBottomStart;
+			global::Syncfusion.XForms.Android.ComboBox.Resource.Styleable.TextInputLayout_boxCornerRadiusTopEnd = global::NutritionApp.Droid.Resource.Styleable.TextInputLayout_boxCornerRadiusTopEnd;
+			global::Syncfusion.XForms.Android.ComboBox.Resource.Styleable.TextInputLayout_boxCornerRadiusTopStart = global::NutritionApp.Droid.Resource.Styleable.TextInputLayout_boxCornerRadiusTopStart;
+			global::Syncfusion.XForms.Android.ComboBox.Resource.Styleable.TextInputLayout_boxStrokeColor = global::NutritionApp.Droid.Resource.Styleable.TextInputLayout_boxStrokeColor;
+			global::Syncfusion.XForms.Android.ComboBox.Resource.Styleable.TextInputLayout_boxStrokeErrorColor = global::NutritionApp.Droid.Resource.Styleable.TextInputLayout_boxStrokeErrorColor;
+			global::Syncfusion.XForms.Android.ComboBox.Resource.Styleable.TextInputLayout_boxStrokeWidth = global::NutritionApp.Droid.Resource.Styleable.TextInputLayout_boxStrokeWidth;
+			global::Syncfusion.XForms.Android.ComboBox.Resource.Styleable.TextInputLayout_boxStrokeWidthFocused = global::NutritionApp.Droid.Resource.Styleable.TextInputLayout_boxStrokeWidthFocused;
+			global::Syncfusion.XForms.Android.ComboBox.Resource.Styleable.TextInputLayout_counterEnabled = global::NutritionApp.Droid.Resource.Styleable.TextInputLayout_counterEnabled;
+			global::Syncfusion.XForms.Android.ComboBox.Resource.Styleable.TextInputLayout_counterMaxLength = global::NutritionApp.Droid.Resource.Styleable.TextInputLayout_counterMaxLength;
+			global::Syncfusion.XForms.Android.ComboBox.Resource.Styleable.TextInputLayout_counterOverflowTextAppearance = global::NutritionApp.Droid.Resource.Styleable.TextInputLayout_counterOverflowTextAppearance;
+			global::Syncfusion.XForms.Android.ComboBox.Resource.Styleable.TextInputLayout_counterOverflowTextColor = global::NutritionApp.Droid.Resource.Styleable.TextInputLayout_counterOverflowTextColor;
+			global::Syncfusion.XForms.Android.ComboBox.Resource.Styleable.TextInputLayout_counterTextAppearance = global::NutritionApp.Droid.Resource.Styleable.TextInputLayout_counterTextAppearance;
+			global::Syncfusion.XForms.Android.ComboBox.Resource.Styleable.TextInputLayout_counterTextColor = global::NutritionApp.Droid.Resource.Styleable.TextInputLayout_counterTextColor;
+			global::Syncfusion.XForms.Android.ComboBox.Resource.Styleable.TextInputLayout_endIconCheckable = global::NutritionApp.Droid.Resource.Styleable.TextInputLayout_endIconCheckable;
+			global::Syncfusion.XForms.Android.ComboBox.Resource.Styleable.TextInputLayout_endIconContentDescription = global::NutritionApp.Droid.Resource.Styleable.TextInputLayout_endIconContentDescription;
+			global::Syncfusion.XForms.Android.ComboBox.Resource.Styleable.TextInputLayout_endIconDrawable = global::NutritionApp.Droid.Resource.Styleable.TextInputLayout_endIconDrawable;
+			global::Syncfusion.XForms.Android.ComboBox.Resource.Styleable.TextInputLayout_endIconMode = global::NutritionApp.Droid.Resource.Styleable.TextInputLayout_endIconMode;
+			global::Syncfusion.XForms.Android.ComboBox.Resource.Styleable.TextInputLayout_endIconTint = global::NutritionApp.Droid.Resource.Styleable.TextInputLayout_endIconTint;
+			global::Syncfusion.XForms.Android.ComboBox.Resource.Styleable.TextInputLayout_endIconTintMode = global::NutritionApp.Droid.Resource.Styleable.TextInputLayout_endIconTintMode;
+			global::Syncfusion.XForms.Android.ComboBox.Resource.Styleable.TextInputLayout_errorContentDescription = global::NutritionApp.Droid.Resource.Styleable.TextInputLayout_errorContentDescription;
+			global::Syncfusion.XForms.Android.ComboBox.Resource.Styleable.TextInputLayout_errorEnabled = global::NutritionApp.Droid.Resource.Styleable.TextInputLayout_errorEnabled;
+			global::Syncfusion.XForms.Android.ComboBox.Resource.Styleable.TextInputLayout_errorIconDrawable = global::NutritionApp.Droid.Resource.Styleable.TextInputLayout_errorIconDrawable;
+			global::Syncfusion.XForms.Android.ComboBox.Resource.Styleable.TextInputLayout_errorIconTint = global::NutritionApp.Droid.Resource.Styleable.TextInputLayout_errorIconTint;
+			global::Syncfusion.XForms.Android.ComboBox.Resource.Styleable.TextInputLayout_errorIconTintMode = global::NutritionApp.Droid.Resource.Styleable.TextInputLayout_errorIconTintMode;
+			global::Syncfusion.XForms.Android.ComboBox.Resource.Styleable.TextInputLayout_errorTextAppearance = global::NutritionApp.Droid.Resource.Styleable.TextInputLayout_errorTextAppearance;
+			global::Syncfusion.XForms.Android.ComboBox.Resource.Styleable.TextInputLayout_errorTextColor = global::NutritionApp.Droid.Resource.Styleable.TextInputLayout_errorTextColor;
+			global::Syncfusion.XForms.Android.ComboBox.Resource.Styleable.TextInputLayout_helperText = global::NutritionApp.Droid.Resource.Styleable.TextInputLayout_helperText;
+			global::Syncfusion.XForms.Android.ComboBox.Resource.Styleable.TextInputLayout_helperTextEnabled = global::NutritionApp.Droid.Resource.Styleable.TextInputLayout_helperTextEnabled;
+			global::Syncfusion.XForms.Android.ComboBox.Resource.Styleable.TextInputLayout_helperTextTextAppearance = global::NutritionApp.Droid.Resource.Styleable.TextInputLayout_helperTextTextAppearance;
+			global::Syncfusion.XForms.Android.ComboBox.Resource.Styleable.TextInputLayout_helperTextTextColor = global::NutritionApp.Droid.Resource.Styleable.TextInputLayout_helperTextTextColor;
+			global::Syncfusion.XForms.Android.ComboBox.Resource.Styleable.TextInputLayout_hintAnimationEnabled = global::NutritionApp.Droid.Resource.Styleable.TextInputLayout_hintAnimationEnabled;
+			global::Syncfusion.XForms.Android.ComboBox.Resource.Styleable.TextInputLayout_hintEnabled = global::NutritionApp.Droid.Resource.Styleable.TextInputLayout_hintEnabled;
+			global::Syncfusion.XForms.Android.ComboBox.Resource.Styleable.TextInputLayout_hintTextAppearance = global::NutritionApp.Droid.Resource.Styleable.TextInputLayout_hintTextAppearance;
+			global::Syncfusion.XForms.Android.ComboBox.Resource.Styleable.TextInputLayout_hintTextColor = global::NutritionApp.Droid.Resource.Styleable.TextInputLayout_hintTextColor;
+			global::Syncfusion.XForms.Android.ComboBox.Resource.Styleable.TextInputLayout_passwordToggleContentDescription = global::NutritionApp.Droid.Resource.Styleable.TextInputLayout_passwordToggleContentDescription;
+			global::Syncfusion.XForms.Android.ComboBox.Resource.Styleable.TextInputLayout_passwordToggleDrawable = global::NutritionApp.Droid.Resource.Styleable.TextInputLayout_passwordToggleDrawable;
+			global::Syncfusion.XForms.Android.ComboBox.Resource.Styleable.TextInputLayout_passwordToggleEnabled = global::NutritionApp.Droid.Resource.Styleable.TextInputLayout_passwordToggleEnabled;
+			global::Syncfusion.XForms.Android.ComboBox.Resource.Styleable.TextInputLayout_passwordToggleTint = global::NutritionApp.Droid.Resource.Styleable.TextInputLayout_passwordToggleTint;
+			global::Syncfusion.XForms.Android.ComboBox.Resource.Styleable.TextInputLayout_passwordToggleTintMode = global::NutritionApp.Droid.Resource.Styleable.TextInputLayout_passwordToggleTintMode;
+			global::Syncfusion.XForms.Android.ComboBox.Resource.Styleable.TextInputLayout_placeholderText = global::NutritionApp.Droid.Resource.Styleable.TextInputLayout_placeholderText;
+			global::Syncfusion.XForms.Android.ComboBox.Resource.Styleable.TextInputLayout_placeholderTextAppearance = global::NutritionApp.Droid.Resource.Styleable.TextInputLayout_placeholderTextAppearance;
+			global::Syncfusion.XForms.Android.ComboBox.Resource.Styleable.TextInputLayout_placeholderTextColor = global::NutritionApp.Droid.Resource.Styleable.TextInputLayout_placeholderTextColor;
+			global::Syncfusion.XForms.Android.ComboBox.Resource.Styleable.TextInputLayout_prefixText = global::NutritionApp.Droid.Resource.Styleable.TextInputLayout_prefixText;
+			global::Syncfusion.XForms.Android.ComboBox.Resource.Styleable.TextInputLayout_prefixTextAppearance = global::NutritionApp.Droid.Resource.Styleable.TextInputLayout_prefixTextAppearance;
+			global::Syncfusion.XForms.Android.ComboBox.Resource.Styleable.TextInputLayout_prefixTextColor = global::NutritionApp.Droid.Resource.Styleable.TextInputLayout_prefixTextColor;
+			global::Syncfusion.XForms.Android.ComboBox.Resource.Styleable.TextInputLayout_shapeAppearance = global::NutritionApp.Droid.Resource.Styleable.TextInputLayout_shapeAppearance;
+			global::Syncfusion.XForms.Android.ComboBox.Resource.Styleable.TextInputLayout_shapeAppearanceOverlay = global::NutritionApp.Droid.Resource.Styleable.TextInputLayout_shapeAppearanceOverlay;
+			global::Syncfusion.XForms.Android.ComboBox.Resource.Styleable.TextInputLayout_startIconCheckable = global::NutritionApp.Droid.Resource.Styleable.TextInputLayout_startIconCheckable;
+			global::Syncfusion.XForms.Android.ComboBox.Resource.Styleable.TextInputLayout_startIconContentDescription = global::NutritionApp.Droid.Resource.Styleable.TextInputLayout_startIconContentDescription;
+			global::Syncfusion.XForms.Android.ComboBox.Resource.Styleable.TextInputLayout_startIconDrawable = global::NutritionApp.Droid.Resource.Styleable.TextInputLayout_startIconDrawable;
+			global::Syncfusion.XForms.Android.ComboBox.Resource.Styleable.TextInputLayout_startIconTint = global::NutritionApp.Droid.Resource.Styleable.TextInputLayout_startIconTint;
+			global::Syncfusion.XForms.Android.ComboBox.Resource.Styleable.TextInputLayout_startIconTintMode = global::NutritionApp.Droid.Resource.Styleable.TextInputLayout_startIconTintMode;
+			global::Syncfusion.XForms.Android.ComboBox.Resource.Styleable.TextInputLayout_suffixText = global::NutritionApp.Droid.Resource.Styleable.TextInputLayout_suffixText;
+			global::Syncfusion.XForms.Android.ComboBox.Resource.Styleable.TextInputLayout_suffixTextAppearance = global::NutritionApp.Droid.Resource.Styleable.TextInputLayout_suffixTextAppearance;
+			global::Syncfusion.XForms.Android.ComboBox.Resource.Styleable.TextInputLayout_suffixTextColor = global::NutritionApp.Droid.Resource.Styleable.TextInputLayout_suffixTextColor;
+			global::Syncfusion.XForms.Android.ComboBox.Resource.Styleable.ThemeEnforcement = global::NutritionApp.Droid.Resource.Styleable.ThemeEnforcement;
+			global::Syncfusion.XForms.Android.ComboBox.Resource.Styleable.ThemeEnforcement_android_textAppearance = global::NutritionApp.Droid.Resource.Styleable.ThemeEnforcement_android_textAppearance;
+			global::Syncfusion.XForms.Android.ComboBox.Resource.Styleable.ThemeEnforcement_enforceMaterialTheme = global::NutritionApp.Droid.Resource.Styleable.ThemeEnforcement_enforceMaterialTheme;
+			global::Syncfusion.XForms.Android.ComboBox.Resource.Styleable.ThemeEnforcement_enforceTextAppearance = global::NutritionApp.Droid.Resource.Styleable.ThemeEnforcement_enforceTextAppearance;
+			global::Syncfusion.XForms.Android.ComboBox.Resource.Styleable.Toolbar = global::NutritionApp.Droid.Resource.Styleable.Toolbar;
+			global::Syncfusion.XForms.Android.ComboBox.Resource.Styleable.Toolbar_android_gravity = global::NutritionApp.Droid.Resource.Styleable.Toolbar_android_gravity;
+			global::Syncfusion.XForms.Android.ComboBox.Resource.Styleable.Toolbar_android_minHeight = global::NutritionApp.Droid.Resource.Styleable.Toolbar_android_minHeight;
+			global::Syncfusion.XForms.Android.ComboBox.Resource.Styleable.Toolbar_buttonGravity = global::NutritionApp.Droid.Resource.Styleable.Toolbar_buttonGravity;
+			global::Syncfusion.XForms.Android.ComboBox.Resource.Styleable.Toolbar_collapseContentDescription = global::NutritionApp.Droid.Resource.Styleable.Toolbar_collapseContentDescription;
+			global::Syncfusion.XForms.Android.ComboBox.Resource.Styleable.Toolbar_collapseIcon = global::NutritionApp.Droid.Resource.Styleable.Toolbar_collapseIcon;
+			global::Syncfusion.XForms.Android.ComboBox.Resource.Styleable.Toolbar_contentInsetEnd = global::NutritionApp.Droid.Resource.Styleable.Toolbar_contentInsetEnd;
+			global::Syncfusion.XForms.Android.ComboBox.Resource.Styleable.Toolbar_contentInsetEndWithActions = global::NutritionApp.Droid.Resource.Styleable.Toolbar_contentInsetEndWithActions;
+			global::Syncfusion.XForms.Android.ComboBox.Resource.Styleable.Toolbar_contentInsetLeft = global::NutritionApp.Droid.Resource.Styleable.Toolbar_contentInsetLeft;
+			global::Syncfusion.XForms.Android.ComboBox.Resource.Styleable.Toolbar_contentInsetRight = global::NutritionApp.Droid.Resource.Styleable.Toolbar_contentInsetRight;
+			global::Syncfusion.XForms.Android.ComboBox.Resource.Styleable.Toolbar_contentInsetStart = global::NutritionApp.Droid.Resource.Styleable.Toolbar_contentInsetStart;
+			global::Syncfusion.XForms.Android.ComboBox.Resource.Styleable.Toolbar_contentInsetStartWithNavigation = global::NutritionApp.Droid.Resource.Styleable.Toolbar_contentInsetStartWithNavigation;
+			global::Syncfusion.XForms.Android.ComboBox.Resource.Styleable.Toolbar_logo = global::NutritionApp.Droid.Resource.Styleable.Toolbar_logo;
+			global::Syncfusion.XForms.Android.ComboBox.Resource.Styleable.Toolbar_logoDescription = global::NutritionApp.Droid.Resource.Styleable.Toolbar_logoDescription;
+			global::Syncfusion.XForms.Android.ComboBox.Resource.Styleable.Toolbar_maxButtonHeight = global::NutritionApp.Droid.Resource.Styleable.Toolbar_maxButtonHeight;
+			global::Syncfusion.XForms.Android.ComboBox.Resource.Styleable.Toolbar_menu = global::NutritionApp.Droid.Resource.Styleable.Toolbar_menu;
+			global::Syncfusion.XForms.Android.ComboBox.Resource.Styleable.Toolbar_navigationContentDescription = global::NutritionApp.Droid.Resource.Styleable.Toolbar_navigationContentDescription;
+			global::Syncfusion.XForms.Android.ComboBox.Resource.Styleable.Toolbar_navigationIcon = global::NutritionApp.Droid.Resource.Styleable.Toolbar_navigationIcon;
+			global::Syncfusion.XForms.Android.ComboBox.Resource.Styleable.Toolbar_popupTheme = global::NutritionApp.Droid.Resource.Styleable.Toolbar_popupTheme;
+			global::Syncfusion.XForms.Android.ComboBox.Resource.Styleable.Toolbar_subtitle = global::NutritionApp.Droid.Resource.Styleable.Toolbar_subtitle;
+			global::Syncfusion.XForms.Android.ComboBox.Resource.Styleable.Toolbar_subtitleTextAppearance = global::NutritionApp.Droid.Resource.Styleable.Toolbar_subtitleTextAppearance;
+			global::Syncfusion.XForms.Android.ComboBox.Resource.Styleable.Toolbar_subtitleTextColor = global::NutritionApp.Droid.Resource.Styleable.Toolbar_subtitleTextColor;
+			global::Syncfusion.XForms.Android.ComboBox.Resource.Styleable.Toolbar_title = global::NutritionApp.Droid.Resource.Styleable.Toolbar_title;
+			global::Syncfusion.XForms.Android.ComboBox.Resource.Styleable.Toolbar_titleMargin = global::NutritionApp.Droid.Resource.Styleable.Toolbar_titleMargin;
+			global::Syncfusion.XForms.Android.ComboBox.Resource.Styleable.Toolbar_titleMarginBottom = global::NutritionApp.Droid.Resource.Styleable.Toolbar_titleMarginBottom;
+			global::Syncfusion.XForms.Android.ComboBox.Resource.Styleable.Toolbar_titleMarginEnd = global::NutritionApp.Droid.Resource.Styleable.Toolbar_titleMarginEnd;
+			global::Syncfusion.XForms.Android.ComboBox.Resource.Styleable.Toolbar_titleMargins = global::NutritionApp.Droid.Resource.Styleable.Toolbar_titleMargins;
+			global::Syncfusion.XForms.Android.ComboBox.Resource.Styleable.Toolbar_titleMarginStart = global::NutritionApp.Droid.Resource.Styleable.Toolbar_titleMarginStart;
+			global::Syncfusion.XForms.Android.ComboBox.Resource.Styleable.Toolbar_titleMarginTop = global::NutritionApp.Droid.Resource.Styleable.Toolbar_titleMarginTop;
+			global::Syncfusion.XForms.Android.ComboBox.Resource.Styleable.Toolbar_titleTextAppearance = global::NutritionApp.Droid.Resource.Styleable.Toolbar_titleTextAppearance;
+			global::Syncfusion.XForms.Android.ComboBox.Resource.Styleable.Toolbar_titleTextColor = global::NutritionApp.Droid.Resource.Styleable.Toolbar_titleTextColor;
+			global::Syncfusion.XForms.Android.ComboBox.Resource.Styleable.Tooltip = global::NutritionApp.Droid.Resource.Styleable.Tooltip;
+			global::Syncfusion.XForms.Android.ComboBox.Resource.Styleable.Tooltip_android_layout_margin = global::NutritionApp.Droid.Resource.Styleable.Tooltip_android_layout_margin;
+			global::Syncfusion.XForms.Android.ComboBox.Resource.Styleable.Tooltip_android_minHeight = global::NutritionApp.Droid.Resource.Styleable.Tooltip_android_minHeight;
+			global::Syncfusion.XForms.Android.ComboBox.Resource.Styleable.Tooltip_android_minWidth = global::NutritionApp.Droid.Resource.Styleable.Tooltip_android_minWidth;
+			global::Syncfusion.XForms.Android.ComboBox.Resource.Styleable.Tooltip_android_padding = global::NutritionApp.Droid.Resource.Styleable.Tooltip_android_padding;
+			global::Syncfusion.XForms.Android.ComboBox.Resource.Styleable.Tooltip_android_text = global::NutritionApp.Droid.Resource.Styleable.Tooltip_android_text;
+			global::Syncfusion.XForms.Android.ComboBox.Resource.Styleable.Tooltip_android_textAppearance = global::NutritionApp.Droid.Resource.Styleable.Tooltip_android_textAppearance;
+			global::Syncfusion.XForms.Android.ComboBox.Resource.Styleable.Tooltip_backgroundTint = global::NutritionApp.Droid.Resource.Styleable.Tooltip_backgroundTint;
+			global::Syncfusion.XForms.Android.ComboBox.Resource.Styleable.View = global::NutritionApp.Droid.Resource.Styleable.View;
+			global::Syncfusion.XForms.Android.ComboBox.Resource.Styleable.ViewBackgroundHelper = global::NutritionApp.Droid.Resource.Styleable.ViewBackgroundHelper;
+			global::Syncfusion.XForms.Android.ComboBox.Resource.Styleable.ViewBackgroundHelper_android_background = global::NutritionApp.Droid.Resource.Styleable.ViewBackgroundHelper_android_background;
+			global::Syncfusion.XForms.Android.ComboBox.Resource.Styleable.ViewBackgroundHelper_backgroundTint = global::NutritionApp.Droid.Resource.Styleable.ViewBackgroundHelper_backgroundTint;
+			global::Syncfusion.XForms.Android.ComboBox.Resource.Styleable.ViewBackgroundHelper_backgroundTintMode = global::NutritionApp.Droid.Resource.Styleable.ViewBackgroundHelper_backgroundTintMode;
+			global::Syncfusion.XForms.Android.ComboBox.Resource.Styleable.ViewPager2 = global::NutritionApp.Droid.Resource.Styleable.ViewPager2;
+			global::Syncfusion.XForms.Android.ComboBox.Resource.Styleable.ViewPager2_android_orientation = global::NutritionApp.Droid.Resource.Styleable.ViewPager2_android_orientation;
+			global::Syncfusion.XForms.Android.ComboBox.Resource.Styleable.ViewStubCompat = global::NutritionApp.Droid.Resource.Styleable.ViewStubCompat;
+			global::Syncfusion.XForms.Android.ComboBox.Resource.Styleable.ViewStubCompat_android_id = global::NutritionApp.Droid.Resource.Styleable.ViewStubCompat_android_id;
+			global::Syncfusion.XForms.Android.ComboBox.Resource.Styleable.ViewStubCompat_android_inflatedId = global::NutritionApp.Droid.Resource.Styleable.ViewStubCompat_android_inflatedId;
+			global::Syncfusion.XForms.Android.ComboBox.Resource.Styleable.ViewStubCompat_android_layout = global::NutritionApp.Droid.Resource.Styleable.ViewStubCompat_android_layout;
+			global::Syncfusion.XForms.Android.ComboBox.Resource.Styleable.View_android_focusable = global::NutritionApp.Droid.Resource.Styleable.View_android_focusable;
+			global::Syncfusion.XForms.Android.ComboBox.Resource.Styleable.View_android_theme = global::NutritionApp.Droid.Resource.Styleable.View_android_theme;
+			global::Syncfusion.XForms.Android.ComboBox.Resource.Styleable.View_paddingEnd = global::NutritionApp.Droid.Resource.Styleable.View_paddingEnd;
+			global::Syncfusion.XForms.Android.ComboBox.Resource.Styleable.View_paddingStart = global::NutritionApp.Droid.Resource.Styleable.View_paddingStart;
+			global::Syncfusion.XForms.Android.ComboBox.Resource.Styleable.View_theme = global::NutritionApp.Droid.Resource.Styleable.View_theme;
+			global::Syncfusion.XForms.Android.ComboBox.Resource.Xml.image_share_filepaths = global::NutritionApp.Droid.Resource.Xml.image_share_filepaths;
+			global::Syncfusion.XForms.Android.ComboBox.Resource.Xml.standalone_badge = global::NutritionApp.Droid.Resource.Xml.standalone_badge;
+			global::Syncfusion.XForms.Android.ComboBox.Resource.Xml.standalone_badge_gravity_bottom_end = global::NutritionApp.Droid.Resource.Xml.standalone_badge_gravity_bottom_end;
+			global::Syncfusion.XForms.Android.ComboBox.Resource.Xml.standalone_badge_gravity_bottom_start = global::NutritionApp.Droid.Resource.Xml.standalone_badge_gravity_bottom_start;
+			global::Syncfusion.XForms.Android.ComboBox.Resource.Xml.standalone_badge_gravity_top_start = global::NutritionApp.Droid.Resource.Xml.standalone_badge_gravity_top_start;
+			global::Syncfusion.XForms.Android.ComboBox.Resource.Xml.standalone_badge_offset = global::NutritionApp.Droid.Resource.Xml.standalone_badge_offset;
 			global::Syncfusion.ListView.XForms.Android.Resource.String.ApplicationName = global::NutritionApp.Droid.Resource.String.ApplicationName;
 			global::Syncfusion.ListView.XForms.Android.Resource.String.Hello = global::NutritionApp.Droid.Resource.String.Hello;
 			global::Syncfusion.ListView.XForms.Android.Resource.String.Load_More = global::NutritionApp.Droid.Resource.String.Load_More;
@@ -22242,181 +25885,184 @@ namespace NutritionApp.Droid
 			public const int design_snackbar_background = 2131165317;
 			
 			// aapt resource value: 0x7F070086
-			public const int edit = 2131165318;
+			public const int dropdownbuttonimage = 2131165318;
 			
 			// aapt resource value: 0x7F070087
-			public const int expand = 2131165319;
+			public const int edit = 2131165319;
 			
 			// aapt resource value: 0x7F070088
-			public const int food = 2131165320;
+			public const int expand = 2131165320;
 			
 			// aapt resource value: 0x7F070089
-			public const int fruit = 2131165321;
+			public const int food = 2131165321;
 			
 			// aapt resource value: 0x7F07008A
-			public const int home = 2131165322;
+			public const int fruit = 2131165322;
 			
 			// aapt resource value: 0x7F07008B
-			public const int ic_arrow_down_24dp = 2131165323;
+			public const int home = 2131165323;
 			
 			// aapt resource value: 0x7F07008C
-			public const int ic_clock_black_24dp = 2131165324;
+			public const int ic_arrow_down_24dp = 2131165324;
 			
 			// aapt resource value: 0x7F07008D
-			public const int ic_keyboard_black_24dp = 2131165325;
+			public const int ic_clock_black_24dp = 2131165325;
 			
 			// aapt resource value: 0x7F07008E
-			public const int ic_mtrl_checked_circle = 2131165326;
+			public const int ic_keyboard_black_24dp = 2131165326;
 			
 			// aapt resource value: 0x7F07008F
-			public const int ic_mtrl_chip_checked_black = 2131165327;
+			public const int ic_mtrl_checked_circle = 2131165327;
 			
 			// aapt resource value: 0x7F070090
-			public const int ic_mtrl_chip_checked_circle = 2131165328;
+			public const int ic_mtrl_chip_checked_black = 2131165328;
 			
 			// aapt resource value: 0x7F070091
-			public const int ic_mtrl_chip_close_circle = 2131165329;
+			public const int ic_mtrl_chip_checked_circle = 2131165329;
 			
 			// aapt resource value: 0x7F070092
-			public const int ingredient = 2131165330;
-			
-			// aapt resource value: 0x7F070094
-			public const int inputlayout_togglecollapseicon = 2131165332;
-			
-			// aapt resource value: 0x7F070095
-			public const int inputlayout_togglevisibleicon = 2131165333;
+			public const int ic_mtrl_chip_close_circle = 2131165330;
 			
 			// aapt resource value: 0x7F070093
-			public const int input_layout_drop_down_icon = 2131165331;
+			public const int ingredient = 2131165331;
+			
+			// aapt resource value: 0x7F070095
+			public const int inputlayout_togglecollapseicon = 2131165333;
 			
 			// aapt resource value: 0x7F070096
-			public const int material_cursor_drawable = 2131165334;
+			public const int inputlayout_togglevisibleicon = 2131165334;
+			
+			// aapt resource value: 0x7F070094
+			public const int input_layout_drop_down_icon = 2131165332;
 			
 			// aapt resource value: 0x7F070097
-			public const int material_ic_calendar_black_24dp = 2131165335;
+			public const int material_cursor_drawable = 2131165335;
 			
 			// aapt resource value: 0x7F070098
-			public const int material_ic_clear_black_24dp = 2131165336;
+			public const int material_ic_calendar_black_24dp = 2131165336;
 			
 			// aapt resource value: 0x7F070099
-			public const int material_ic_edit_black_24dp = 2131165337;
+			public const int material_ic_clear_black_24dp = 2131165337;
 			
 			// aapt resource value: 0x7F07009A
-			public const int material_ic_keyboard_arrow_left_black_24dp = 2131165338;
+			public const int material_ic_edit_black_24dp = 2131165338;
 			
 			// aapt resource value: 0x7F07009B
-			public const int material_ic_keyboard_arrow_next_black_24dp = 2131165339;
+			public const int material_ic_keyboard_arrow_left_black_24dp = 2131165339;
 			
 			// aapt resource value: 0x7F07009C
-			public const int material_ic_keyboard_arrow_previous_black_24dp = 2131165340;
+			public const int material_ic_keyboard_arrow_next_black_24dp = 2131165340;
 			
 			// aapt resource value: 0x7F07009D
-			public const int material_ic_keyboard_arrow_right_black_24dp = 2131165341;
+			public const int material_ic_keyboard_arrow_previous_black_24dp = 2131165341;
 			
 			// aapt resource value: 0x7F07009E
-			public const int material_ic_menu_arrow_down_black_24dp = 2131165342;
+			public const int material_ic_keyboard_arrow_right_black_24dp = 2131165342;
 			
 			// aapt resource value: 0x7F07009F
-			public const int material_ic_menu_arrow_up_black_24dp = 2131165343;
+			public const int material_ic_menu_arrow_down_black_24dp = 2131165343;
 			
 			// aapt resource value: 0x7F0700A0
-			public const int meal = 2131165344;
+			public const int material_ic_menu_arrow_up_black_24dp = 2131165344;
 			
 			// aapt resource value: 0x7F0700A1
-			public const int mtrl_dialog_background = 2131165345;
+			public const int meal = 2131165345;
 			
 			// aapt resource value: 0x7F0700A2
-			public const int mtrl_dropdown_arrow = 2131165346;
+			public const int mtrl_dialog_background = 2131165346;
 			
 			// aapt resource value: 0x7F0700A3
-			public const int mtrl_ic_arrow_drop_down = 2131165347;
+			public const int mtrl_dropdown_arrow = 2131165347;
 			
 			// aapt resource value: 0x7F0700A4
-			public const int mtrl_ic_arrow_drop_up = 2131165348;
+			public const int mtrl_ic_arrow_drop_down = 2131165348;
 			
 			// aapt resource value: 0x7F0700A5
-			public const int mtrl_ic_cancel = 2131165349;
+			public const int mtrl_ic_arrow_drop_up = 2131165349;
 			
 			// aapt resource value: 0x7F0700A6
-			public const int mtrl_ic_error = 2131165350;
+			public const int mtrl_ic_cancel = 2131165350;
 			
 			// aapt resource value: 0x7F0700A7
-			public const int mtrl_navigation_bar_item_background = 2131165351;
+			public const int mtrl_ic_error = 2131165351;
 			
 			// aapt resource value: 0x7F0700A8
-			public const int mtrl_popupmenu_background = 2131165352;
+			public const int mtrl_navigation_bar_item_background = 2131165352;
 			
 			// aapt resource value: 0x7F0700A9
-			public const int mtrl_popupmenu_background_dark = 2131165353;
+			public const int mtrl_popupmenu_background = 2131165353;
 			
 			// aapt resource value: 0x7F0700AA
-			public const int mtrl_tabs_default_indicator = 2131165354;
+			public const int mtrl_popupmenu_background_dark = 2131165354;
 			
 			// aapt resource value: 0x7F0700AB
-			public const int navigation_empty_icon = 2131165355;
+			public const int mtrl_tabs_default_indicator = 2131165355;
 			
 			// aapt resource value: 0x7F0700AC
-			public const int notification_action_background = 2131165356;
+			public const int navigation_empty_icon = 2131165356;
 			
 			// aapt resource value: 0x7F0700AD
-			public const int notification_bg = 2131165357;
+			public const int notification_action_background = 2131165357;
 			
 			// aapt resource value: 0x7F0700AE
-			public const int notification_bg_low = 2131165358;
+			public const int notification_bg = 2131165358;
 			
 			// aapt resource value: 0x7F0700AF
-			public const int notification_bg_low_normal = 2131165359;
+			public const int notification_bg_low = 2131165359;
 			
 			// aapt resource value: 0x7F0700B0
-			public const int notification_bg_low_pressed = 2131165360;
+			public const int notification_bg_low_normal = 2131165360;
 			
 			// aapt resource value: 0x7F0700B1
-			public const int notification_bg_normal = 2131165361;
+			public const int notification_bg_low_pressed = 2131165361;
 			
 			// aapt resource value: 0x7F0700B2
-			public const int notification_bg_normal_pressed = 2131165362;
+			public const int notification_bg_normal = 2131165362;
 			
 			// aapt resource value: 0x7F0700B3
-			public const int notification_icon_background = 2131165363;
+			public const int notification_bg_normal_pressed = 2131165363;
 			
 			// aapt resource value: 0x7F0700B4
-			public const int notification_template_icon_bg = 2131165364;
+			public const int notification_icon_background = 2131165364;
 			
 			// aapt resource value: 0x7F0700B5
-			public const int notification_template_icon_low_bg = 2131165365;
+			public const int notification_template_icon_bg = 2131165365;
 			
 			// aapt resource value: 0x7F0700B6
-			public const int notification_tile_bg = 2131165366;
+			public const int notification_template_icon_low_bg = 2131165366;
 			
 			// aapt resource value: 0x7F0700B7
-			public const int notify_panel_notification_icon_bg = 2131165367;
+			public const int notification_tile_bg = 2131165367;
 			
 			// aapt resource value: 0x7F0700B8
-			public const int preference_list_divider_material = 2131165368;
+			public const int notify_panel_notification_icon_bg = 2131165368;
 			
 			// aapt resource value: 0x7F0700B9
-			public const int profile = 2131165369;
+			public const int preference_list_divider_material = 2131165369;
 			
 			// aapt resource value: 0x7F0700BA
-			public const int profiles = 2131165370;
+			public const int profile = 2131165370;
 			
 			// aapt resource value: 0x7F0700BB
-			public const int settings = 2131165371;
+			public const int profiles = 2131165371;
 			
 			// aapt resource value: 0x7F0700BC
-			public const int targetKjs = 2131165372;
+			public const int settings = 2131165372;
 			
 			// aapt resource value: 0x7F0700BD
-			public const int test_custom_background = 2131165373;
+			public const int targetKjs = 2131165373;
 			
 			// aapt resource value: 0x7F0700BE
-			public const int tooltip_frame_dark = 2131165374;
+			public const int test_custom_background = 2131165374;
 			
 			// aapt resource value: 0x7F0700BF
-			public const int tooltip_frame_light = 2131165375;
+			public const int tooltip_frame_dark = 2131165375;
 			
 			// aapt resource value: 0x7F0700C0
-			public const int xamarin_logo = 2131165376;
+			public const int tooltip_frame_light = 2131165376;
+			
+			// aapt resource value: 0x7F0700C1
+			public const int xamarin_logo = 2131165377;
 			
 			static Drawable()
 			{
@@ -22431,257 +26077,257 @@ namespace NutritionApp.Droid
 		public partial class Id
 		{
 			
-			// aapt resource value: 0x7F08000E
-			public const int accelerate = 2131230734;
-			
 			// aapt resource value: 0x7F08000F
-			public const int accessibility_action_clickable_span = 2131230735;
+			public const int accelerate = 2131230735;
 			
 			// aapt resource value: 0x7F080010
-			public const int accessibility_custom_action_0 = 2131230736;
+			public const int accessibility_action_clickable_span = 2131230736;
 			
 			// aapt resource value: 0x7F080011
-			public const int accessibility_custom_action_1 = 2131230737;
+			public const int accessibility_custom_action_0 = 2131230737;
 			
 			// aapt resource value: 0x7F080012
-			public const int accessibility_custom_action_10 = 2131230738;
+			public const int accessibility_custom_action_1 = 2131230738;
 			
 			// aapt resource value: 0x7F080013
-			public const int accessibility_custom_action_11 = 2131230739;
+			public const int accessibility_custom_action_10 = 2131230739;
 			
 			// aapt resource value: 0x7F080014
-			public const int accessibility_custom_action_12 = 2131230740;
+			public const int accessibility_custom_action_11 = 2131230740;
 			
 			// aapt resource value: 0x7F080015
-			public const int accessibility_custom_action_13 = 2131230741;
+			public const int accessibility_custom_action_12 = 2131230741;
 			
 			// aapt resource value: 0x7F080016
-			public const int accessibility_custom_action_14 = 2131230742;
+			public const int accessibility_custom_action_13 = 2131230742;
 			
 			// aapt resource value: 0x7F080017
-			public const int accessibility_custom_action_15 = 2131230743;
+			public const int accessibility_custom_action_14 = 2131230743;
 			
 			// aapt resource value: 0x7F080018
-			public const int accessibility_custom_action_16 = 2131230744;
+			public const int accessibility_custom_action_15 = 2131230744;
 			
 			// aapt resource value: 0x7F080019
-			public const int accessibility_custom_action_17 = 2131230745;
+			public const int accessibility_custom_action_16 = 2131230745;
 			
 			// aapt resource value: 0x7F08001A
-			public const int accessibility_custom_action_18 = 2131230746;
+			public const int accessibility_custom_action_17 = 2131230746;
 			
 			// aapt resource value: 0x7F08001B
-			public const int accessibility_custom_action_19 = 2131230747;
+			public const int accessibility_custom_action_18 = 2131230747;
 			
 			// aapt resource value: 0x7F08001C
-			public const int accessibility_custom_action_2 = 2131230748;
+			public const int accessibility_custom_action_19 = 2131230748;
 			
 			// aapt resource value: 0x7F08001D
-			public const int accessibility_custom_action_20 = 2131230749;
+			public const int accessibility_custom_action_2 = 2131230749;
 			
 			// aapt resource value: 0x7F08001E
-			public const int accessibility_custom_action_21 = 2131230750;
+			public const int accessibility_custom_action_20 = 2131230750;
 			
 			// aapt resource value: 0x7F08001F
-			public const int accessibility_custom_action_22 = 2131230751;
+			public const int accessibility_custom_action_21 = 2131230751;
 			
 			// aapt resource value: 0x7F080020
-			public const int accessibility_custom_action_23 = 2131230752;
+			public const int accessibility_custom_action_22 = 2131230752;
 			
 			// aapt resource value: 0x7F080021
-			public const int accessibility_custom_action_24 = 2131230753;
+			public const int accessibility_custom_action_23 = 2131230753;
 			
 			// aapt resource value: 0x7F080022
-			public const int accessibility_custom_action_25 = 2131230754;
+			public const int accessibility_custom_action_24 = 2131230754;
 			
 			// aapt resource value: 0x7F080023
-			public const int accessibility_custom_action_26 = 2131230755;
+			public const int accessibility_custom_action_25 = 2131230755;
 			
 			// aapt resource value: 0x7F080024
-			public const int accessibility_custom_action_27 = 2131230756;
+			public const int accessibility_custom_action_26 = 2131230756;
 			
 			// aapt resource value: 0x7F080025
-			public const int accessibility_custom_action_28 = 2131230757;
+			public const int accessibility_custom_action_27 = 2131230757;
 			
 			// aapt resource value: 0x7F080026
-			public const int accessibility_custom_action_29 = 2131230758;
+			public const int accessibility_custom_action_28 = 2131230758;
 			
 			// aapt resource value: 0x7F080027
-			public const int accessibility_custom_action_3 = 2131230759;
+			public const int accessibility_custom_action_29 = 2131230759;
 			
 			// aapt resource value: 0x7F080028
-			public const int accessibility_custom_action_30 = 2131230760;
+			public const int accessibility_custom_action_3 = 2131230760;
 			
 			// aapt resource value: 0x7F080029
-			public const int accessibility_custom_action_31 = 2131230761;
+			public const int accessibility_custom_action_30 = 2131230761;
 			
 			// aapt resource value: 0x7F08002A
-			public const int accessibility_custom_action_4 = 2131230762;
+			public const int accessibility_custom_action_31 = 2131230762;
 			
 			// aapt resource value: 0x7F08002B
-			public const int accessibility_custom_action_5 = 2131230763;
+			public const int accessibility_custom_action_4 = 2131230763;
 			
 			// aapt resource value: 0x7F08002C
-			public const int accessibility_custom_action_6 = 2131230764;
+			public const int accessibility_custom_action_5 = 2131230764;
 			
 			// aapt resource value: 0x7F08002D
-			public const int accessibility_custom_action_7 = 2131230765;
+			public const int accessibility_custom_action_6 = 2131230765;
 			
 			// aapt resource value: 0x7F08002E
-			public const int accessibility_custom_action_8 = 2131230766;
+			public const int accessibility_custom_action_7 = 2131230766;
 			
 			// aapt resource value: 0x7F08002F
-			public const int accessibility_custom_action_9 = 2131230767;
+			public const int accessibility_custom_action_8 = 2131230767;
 			
 			// aapt resource value: 0x7F080030
-			public const int action0 = 2131230768;
+			public const int accessibility_custom_action_9 = 2131230768;
 			
 			// aapt resource value: 0x7F080031
-			public const int actionDown = 2131230769;
+			public const int action0 = 2131230769;
 			
 			// aapt resource value: 0x7F080032
-			public const int actionDownUp = 2131230770;
-			
-			// aapt resource value: 0x7F080045
-			public const int actions = 2131230789;
+			public const int actionDown = 2131230770;
 			
 			// aapt resource value: 0x7F080033
-			public const int actionUp = 2131230771;
-			
-			// aapt resource value: 0x7F080034
-			public const int action_bar = 2131230772;
-			
-			// aapt resource value: 0x7F080035
-			public const int action_bar_activity_content = 2131230773;
-			
-			// aapt resource value: 0x7F080036
-			public const int action_bar_container = 2131230774;
-			
-			// aapt resource value: 0x7F080037
-			public const int action_bar_root = 2131230775;
-			
-			// aapt resource value: 0x7F080038
-			public const int action_bar_spinner = 2131230776;
-			
-			// aapt resource value: 0x7F080039
-			public const int action_bar_subtitle = 2131230777;
-			
-			// aapt resource value: 0x7F08003A
-			public const int action_bar_title = 2131230778;
-			
-			// aapt resource value: 0x7F08003B
-			public const int action_container = 2131230779;
-			
-			// aapt resource value: 0x7F08003C
-			public const int action_context_bar = 2131230780;
-			
-			// aapt resource value: 0x7F08003D
-			public const int action_divider = 2131230781;
-			
-			// aapt resource value: 0x7F08003E
-			public const int action_image = 2131230782;
-			
-			// aapt resource value: 0x7F08003F
-			public const int action_menu_divider = 2131230783;
-			
-			// aapt resource value: 0x7F080040
-			public const int action_menu_presenter = 2131230784;
-			
-			// aapt resource value: 0x7F080041
-			public const int action_mode_bar = 2131230785;
-			
-			// aapt resource value: 0x7F080042
-			public const int action_mode_bar_stub = 2131230786;
-			
-			// aapt resource value: 0x7F080043
-			public const int action_mode_close_button = 2131230787;
-			
-			// aapt resource value: 0x7F080044
-			public const int action_text = 2131230788;
+			public const int actionDownUp = 2131230771;
 			
 			// aapt resource value: 0x7F080046
-			public const int activity_chooser_view_content = 2131230790;
+			public const int actions = 2131230790;
+			
+			// aapt resource value: 0x7F080034
+			public const int actionUp = 2131230772;
+			
+			// aapt resource value: 0x7F080035
+			public const int action_bar = 2131230773;
+			
+			// aapt resource value: 0x7F080036
+			public const int action_bar_activity_content = 2131230774;
+			
+			// aapt resource value: 0x7F080037
+			public const int action_bar_container = 2131230775;
+			
+			// aapt resource value: 0x7F080038
+			public const int action_bar_root = 2131230776;
+			
+			// aapt resource value: 0x7F080039
+			public const int action_bar_spinner = 2131230777;
+			
+			// aapt resource value: 0x7F08003A
+			public const int action_bar_subtitle = 2131230778;
+			
+			// aapt resource value: 0x7F08003B
+			public const int action_bar_title = 2131230779;
+			
+			// aapt resource value: 0x7F08003C
+			public const int action_container = 2131230780;
+			
+			// aapt resource value: 0x7F08003D
+			public const int action_context_bar = 2131230781;
+			
+			// aapt resource value: 0x7F08003E
+			public const int action_divider = 2131230782;
+			
+			// aapt resource value: 0x7F08003F
+			public const int action_image = 2131230783;
+			
+			// aapt resource value: 0x7F080040
+			public const int action_menu_divider = 2131230784;
+			
+			// aapt resource value: 0x7F080041
+			public const int action_menu_presenter = 2131230785;
+			
+			// aapt resource value: 0x7F080042
+			public const int action_mode_bar = 2131230786;
+			
+			// aapt resource value: 0x7F080043
+			public const int action_mode_bar_stub = 2131230787;
+			
+			// aapt resource value: 0x7F080044
+			public const int action_mode_close_button = 2131230788;
+			
+			// aapt resource value: 0x7F080045
+			public const int action_text = 2131230789;
 			
 			// aapt resource value: 0x7F080047
-			public const int add = 2131230791;
+			public const int activity_chooser_view_content = 2131230791;
 			
 			// aapt resource value: 0x7F080048
-			public const int alertTitle = 2131230792;
+			public const int add = 2131230792;
 			
 			// aapt resource value: 0x7F080049
-			public const int aligned = 2131230793;
+			public const int alertTitle = 2131230793;
 			
 			// aapt resource value: 0x7F08004A
-			public const int all = 2131230794;
+			public const int aligned = 2131230794;
 			
 			// aapt resource value: 0x7F08004B
-			public const int allStates = 2131230795;
+			public const int all = 2131230795;
+			
+			// aapt resource value: 0x7F08004C
+			public const int allStates = 2131230796;
 			
 			// aapt resource value: 0x7F080000
 			public const int ALT = 2131230720;
 			
-			// aapt resource value: 0x7F08004C
-			public const int always = 2131230796;
-			
 			// aapt resource value: 0x7F08004D
-			public const int animateToEnd = 2131230797;
+			public const int always = 2131230797;
 			
 			// aapt resource value: 0x7F08004E
-			public const int animateToStart = 2131230798;
-			
-			// aapt resource value: 0x7F080050
-			public const int anticipate = 2131230800;
+			public const int animateToEnd = 2131230798;
 			
 			// aapt resource value: 0x7F08004F
-			public const int antiClockwise = 2131230799;
+			public const int animateToStart = 2131230799;
 			
 			// aapt resource value: 0x7F080051
-			public const int arc = 2131230801;
+			public const int anticipate = 2131230801;
+			
+			// aapt resource value: 0x7F080050
+			public const int antiClockwise = 2131230800;
 			
 			// aapt resource value: 0x7F080052
-			public const int asConfigured = 2131230802;
+			public const int arc = 2131230802;
 			
 			// aapt resource value: 0x7F080053
-			public const int async = 2131230803;
+			public const int asConfigured = 2131230803;
 			
 			// aapt resource value: 0x7F080054
-			public const int auto = 2131230804;
+			public const int async = 2131230804;
 			
 			// aapt resource value: 0x7F080055
-			public const int autoComplete = 2131230805;
+			public const int auto = 2131230805;
 			
 			// aapt resource value: 0x7F080056
-			public const int autoCompleteToEnd = 2131230806;
+			public const int autoComplete = 2131230806;
 			
 			// aapt resource value: 0x7F080057
-			public const int autoCompleteToStart = 2131230807;
+			public const int autoCompleteToEnd = 2131230807;
 			
 			// aapt resource value: 0x7F080058
-			public const int barrier = 2131230808;
+			public const int autoCompleteToStart = 2131230808;
 			
 			// aapt resource value: 0x7F080059
-			public const int baseline = 2131230809;
-			
-			// aapt resource value: 0x7F08005B
-			public const int beginning = 2131230811;
+			public const int barrier = 2131230809;
 			
 			// aapt resource value: 0x7F08005A
-			public const int beginOnFirstDraw = 2131230810;
+			public const int baseline = 2131230810;
 			
 			// aapt resource value: 0x7F08005C
-			public const int bestChoice = 2131230812;
+			public const int beginning = 2131230812;
+			
+			// aapt resource value: 0x7F08005B
+			public const int beginOnFirstDraw = 2131230811;
 			
 			// aapt resource value: 0x7F08005D
-			public const int blocking = 2131230813;
+			public const int bestChoice = 2131230813;
 			
 			// aapt resource value: 0x7F08005E
-			public const int bottom = 2131230814;
+			public const int blocking = 2131230814;
 			
 			// aapt resource value: 0x7F08005F
-			public const int bottomtab_navarea = 2131230815;
+			public const int bottom = 2131230815;
 			
 			// aapt resource value: 0x7F080060
-			public const int bottomtab_tabbar = 2131230816;
+			public const int bottomtab_navarea = 2131230816;
+			
+			// aapt resource value: 0x7F080061
+			public const int bottomtab_tabbar = 2131230817;
 			
 			// aapt resource value: 0x7F080001
 			public const int BOTTOM_END = 2131230721;
@@ -22689,1235 +26335,1238 @@ namespace NutritionApp.Droid
 			// aapt resource value: 0x7F080002
 			public const int BOTTOM_START = 2131230722;
 			
-			// aapt resource value: 0x7F080061
-			public const int bounce = 2131230817;
-			
 			// aapt resource value: 0x7F080062
-			public const int bounceBoth = 2131230818;
+			public const int bounce = 2131230818;
 			
 			// aapt resource value: 0x7F080063
-			public const int bounceEnd = 2131230819;
+			public const int bounceBoth = 2131230819;
 			
 			// aapt resource value: 0x7F080064
-			public const int bounceStart = 2131230820;
+			public const int bounceEnd = 2131230820;
 			
 			// aapt resource value: 0x7F080065
-			public const int browser_actions_header_text = 2131230821;
-			
-			// aapt resource value: 0x7F080068
-			public const int browser_actions_menu_items = 2131230824;
+			public const int bounceStart = 2131230821;
 			
 			// aapt resource value: 0x7F080066
-			public const int browser_actions_menu_item_icon = 2131230822;
-			
-			// aapt resource value: 0x7F080067
-			public const int browser_actions_menu_item_text = 2131230823;
+			public const int browser_actions_header_text = 2131230822;
 			
 			// aapt resource value: 0x7F080069
-			public const int browser_actions_menu_view = 2131230825;
+			public const int browser_actions_menu_items = 2131230825;
+			
+			// aapt resource value: 0x7F080067
+			public const int browser_actions_menu_item_icon = 2131230823;
+			
+			// aapt resource value: 0x7F080068
+			public const int browser_actions_menu_item_text = 2131230824;
 			
 			// aapt resource value: 0x7F08006A
-			public const int buttonPanel = 2131230826;
+			public const int browser_actions_menu_view = 2131230826;
 			
 			// aapt resource value: 0x7F08006B
-			public const int cache_measures = 2131230827;
+			public const int buttonPanel = 2131230827;
 			
 			// aapt resource value: 0x7F08006C
-			public const int cameratexture = 2131230828;
+			public const int cache_measures = 2131230828;
 			
 			// aapt resource value: 0x7F08006D
-			public const int cancel_action = 2131230829;
+			public const int cameratexture = 2131230829;
 			
 			// aapt resource value: 0x7F08006E
-			public const int cancel_button = 2131230830;
+			public const int cancel_action = 2131230830;
 			
 			// aapt resource value: 0x7F08006F
-			public const int carryVelocity = 2131230831;
+			public const int cancel_button = 2131230831;
 			
 			// aapt resource value: 0x7F080070
-			public const int center = 2131230832;
+			public const int carryVelocity = 2131230832;
 			
 			// aapt resource value: 0x7F080071
-			public const int center_horizontal = 2131230833;
+			public const int center = 2131230833;
 			
 			// aapt resource value: 0x7F080072
-			public const int center_vertical = 2131230834;
+			public const int center_horizontal = 2131230834;
 			
 			// aapt resource value: 0x7F080073
-			public const int chain = 2131230835;
+			public const int center_vertical = 2131230835;
 			
 			// aapt resource value: 0x7F080074
-			public const int chains = 2131230836;
+			public const int chain = 2131230836;
 			
 			// aapt resource value: 0x7F080075
-			public const int checkbox = 2131230837;
+			public const int chains = 2131230837;
 			
 			// aapt resource value: 0x7F080076
-			public const int @checked = 2131230838;
+			public const int checkbox = 2131230838;
 			
 			// aapt resource value: 0x7F080077
-			public const int chip = 2131230839;
+			public const int @checked = 2131230839;
 			
 			// aapt resource value: 0x7F080078
-			public const int chip1 = 2131230840;
+			public const int chip = 2131230840;
 			
 			// aapt resource value: 0x7F080079
-			public const int chip2 = 2131230841;
+			public const int chip1 = 2131230841;
 			
 			// aapt resource value: 0x7F08007A
-			public const int chip3 = 2131230842;
+			public const int chip2 = 2131230842;
 			
 			// aapt resource value: 0x7F08007B
-			public const int chip_group = 2131230843;
+			public const int chip3 = 2131230843;
 			
 			// aapt resource value: 0x7F08007C
-			public const int chronometer = 2131230844;
+			public const int chip_group = 2131230844;
 			
 			// aapt resource value: 0x7F08007D
-			public const int circle_center = 2131230845;
+			public const int chronometer = 2131230845;
 			
 			// aapt resource value: 0x7F08007E
-			public const int clear_text = 2131230846;
+			public const int circle_center = 2131230846;
 			
 			// aapt resource value: 0x7F08007F
-			public const int clip_horizontal = 2131230847;
+			public const int clear_text = 2131230847;
 			
 			// aapt resource value: 0x7F080080
-			public const int clip_vertical = 2131230848;
+			public const int clip_horizontal = 2131230848;
 			
 			// aapt resource value: 0x7F080081
-			public const int clockwise = 2131230849;
+			public const int clip_vertical = 2131230849;
 			
 			// aapt resource value: 0x7F080082
-			public const int closest = 2131230850;
+			public const int clockwise = 2131230850;
 			
 			// aapt resource value: 0x7F080083
-			public const int collapseActionView = 2131230851;
+			public const int closest = 2131230851;
 			
 			// aapt resource value: 0x7F080084
-			public const int confirm_button = 2131230852;
+			public const int collapseActionView = 2131230852;
 			
 			// aapt resource value: 0x7F080085
-			public const int constraint = 2131230853;
+			public const int confirm_button = 2131230853;
 			
 			// aapt resource value: 0x7F080086
-			public const int container = 2131230854;
+			public const int constraint = 2131230854;
 			
 			// aapt resource value: 0x7F080087
-			public const int content = 2131230855;
+			public const int container = 2131230855;
 			
 			// aapt resource value: 0x7F080088
-			public const int contentPanel = 2131230856;
+			public const int content = 2131230856;
 			
 			// aapt resource value: 0x7F080089
-			public const int contiguous = 2131230857;
+			public const int contentPanel = 2131230857;
 			
 			// aapt resource value: 0x7F08008A
-			public const int continuousVelocity = 2131230858;
+			public const int contiguous = 2131230858;
 			
 			// aapt resource value: 0x7F08008B
-			public const int coordinator = 2131230859;
+			public const int continuousVelocity = 2131230859;
 			
 			// aapt resource value: 0x7F08008C
-			public const int cos = 2131230860;
+			public const int coordinator = 2131230860;
 			
 			// aapt resource value: 0x7F08008D
-			public const int counterclockwise = 2131230861;
+			public const int cos = 2131230861;
+			
+			// aapt resource value: 0x7F08008E
+			public const int counterclockwise = 2131230862;
 			
 			// aapt resource value: 0x7F080003
 			public const int CTRL = 2131230723;
 			
-			// aapt resource value: 0x7F08008E
-			public const int currentState = 2131230862;
-			
 			// aapt resource value: 0x7F08008F
-			public const int custom = 2131230863;
+			public const int currentState = 2131230863;
 			
 			// aapt resource value: 0x7F080090
-			public const int customPanel = 2131230864;
+			public const int custom = 2131230864;
 			
 			// aapt resource value: 0x7F080091
-			public const int cut = 2131230865;
+			public const int customPanel = 2131230865;
 			
 			// aapt resource value: 0x7F080092
-			public const int date_picker_actions = 2131230866;
+			public const int cut = 2131230866;
 			
 			// aapt resource value: 0x7F080093
-			public const int decelerate = 2131230867;
+			public const int date_picker_actions = 2131230867;
 			
 			// aapt resource value: 0x7F080094
-			public const int decelerateAndComplete = 2131230868;
+			public const int decelerate = 2131230868;
 			
 			// aapt resource value: 0x7F080095
-			public const int decor_content_parent = 2131230869;
+			public const int decelerateAndComplete = 2131230869;
 			
 			// aapt resource value: 0x7F080096
-			public const int default_activity_button = 2131230870;
+			public const int decor_content_parent = 2131230870;
 			
 			// aapt resource value: 0x7F080097
-			public const int deltaRelative = 2131230871;
+			public const int default_activity_button = 2131230871;
 			
 			// aapt resource value: 0x7F080098
-			public const int dependency_ordering = 2131230872;
+			public const int deltaRelative = 2131230872;
 			
 			// aapt resource value: 0x7F080099
-			public const int design_bottom_sheet = 2131230873;
+			public const int dependency_ordering = 2131230873;
 			
 			// aapt resource value: 0x7F08009A
-			public const int design_menu_item_action_area = 2131230874;
+			public const int design_bottom_sheet = 2131230874;
 			
 			// aapt resource value: 0x7F08009B
-			public const int design_menu_item_action_area_stub = 2131230875;
+			public const int design_menu_item_action_area = 2131230875;
 			
 			// aapt resource value: 0x7F08009C
-			public const int design_menu_item_text = 2131230876;
+			public const int design_menu_item_action_area_stub = 2131230876;
 			
 			// aapt resource value: 0x7F08009D
-			public const int design_navigation_view = 2131230877;
+			public const int design_menu_item_text = 2131230877;
 			
 			// aapt resource value: 0x7F08009E
-			public const int dialog_button = 2131230878;
+			public const int design_navigation_view = 2131230878;
 			
 			// aapt resource value: 0x7F08009F
-			public const int dimensions = 2131230879;
+			public const int dialog_button = 2131230879;
 			
 			// aapt resource value: 0x7F0800A0
-			public const int direct = 2131230880;
+			public const int dimensions = 2131230880;
 			
 			// aapt resource value: 0x7F0800A1
-			public const int disableHome = 2131230881;
+			public const int direct = 2131230881;
 			
 			// aapt resource value: 0x7F0800A2
-			public const int disableIntraAutoTransition = 2131230882;
+			public const int disableHome = 2131230882;
 			
 			// aapt resource value: 0x7F0800A3
-			public const int disablePostScroll = 2131230883;
+			public const int disableIntraAutoTransition = 2131230883;
 			
 			// aapt resource value: 0x7F0800A4
-			public const int disableScroll = 2131230884;
+			public const int disablePostScroll = 2131230884;
 			
 			// aapt resource value: 0x7F0800A5
-			public const int disjoint = 2131230885;
+			public const int disableScroll = 2131230885;
 			
 			// aapt resource value: 0x7F0800A6
-			public const int dragAnticlockwise = 2131230886;
+			public const int disjoint = 2131230886;
 			
 			// aapt resource value: 0x7F0800A7
-			public const int dragClockwise = 2131230887;
+			public const int dragAnticlockwise = 2131230887;
 			
 			// aapt resource value: 0x7F0800A8
-			public const int dragDown = 2131230888;
+			public const int dragClockwise = 2131230888;
 			
 			// aapt resource value: 0x7F0800A9
-			public const int dragEnd = 2131230889;
+			public const int dragDown = 2131230889;
 			
 			// aapt resource value: 0x7F0800AA
-			public const int dragLeft = 2131230890;
+			public const int dragEnd = 2131230890;
 			
 			// aapt resource value: 0x7F0800AB
-			public const int dragRight = 2131230891;
+			public const int dragLeft = 2131230891;
 			
 			// aapt resource value: 0x7F0800AC
-			public const int dragStart = 2131230892;
+			public const int dragRight = 2131230892;
 			
 			// aapt resource value: 0x7F0800AD
-			public const int dragUp = 2131230893;
+			public const int dragStart = 2131230893;
 			
 			// aapt resource value: 0x7F0800AE
-			public const int dropdown_menu = 2131230894;
+			public const int dragUp = 2131230894;
 			
 			// aapt resource value: 0x7F0800AF
-			public const int easeIn = 2131230895;
+			public const int dropdown_menu = 2131230895;
 			
 			// aapt resource value: 0x7F0800B0
-			public const int easeInOut = 2131230896;
+			public const int easeIn = 2131230896;
 			
 			// aapt resource value: 0x7F0800B1
-			public const int easeOut = 2131230897;
+			public const int easeInOut = 2131230897;
 			
 			// aapt resource value: 0x7F0800B2
-			public const int east = 2131230898;
+			public const int easeOut = 2131230898;
 			
 			// aapt resource value: 0x7F0800B3
-			public const int edit_query = 2131230899;
+			public const int east = 2131230899;
 			
 			// aapt resource value: 0x7F0800B4
-			public const int elastic = 2131230900;
+			public const int edit_query = 2131230900;
 			
 			// aapt resource value: 0x7F0800B5
-			public const int end = 2131230901;
+			public const int elastic = 2131230901;
 			
 			// aapt resource value: 0x7F0800B6
-			public const int endToStart = 2131230902;
+			public const int end = 2131230902;
 			
 			// aapt resource value: 0x7F0800B7
-			public const int end_padder = 2131230903;
+			public const int endToStart = 2131230903;
 			
 			// aapt resource value: 0x7F0800B8
-			public const int enterAlways = 2131230904;
+			public const int end_padder = 2131230904;
 			
 			// aapt resource value: 0x7F0800B9
-			public const int enterAlwaysCollapsed = 2131230905;
+			public const int enterAlways = 2131230905;
 			
 			// aapt resource value: 0x7F0800BA
-			public const int exitUntilCollapsed = 2131230906;
-			
-			// aapt resource value: 0x7F0800BC
-			public const int expanded_menu = 2131230908;
+			public const int enterAlwaysCollapsed = 2131230906;
 			
 			// aapt resource value: 0x7F0800BB
-			public const int expand_activities_button = 2131230907;
+			public const int exitUntilCollapsed = 2131230907;
 			
 			// aapt resource value: 0x7F0800BD
-			public const int fade = 2131230909;
+			public const int expanded_menu = 2131230909;
+			
+			// aapt resource value: 0x7F0800BC
+			public const int expand_activities_button = 2131230908;
 			
 			// aapt resource value: 0x7F0800BE
-			public const int fill = 2131230910;
-			
-			// aapt resource value: 0x7F0800C1
-			public const int filled = 2131230913;
+			public const int fade = 2131230910;
 			
 			// aapt resource value: 0x7F0800BF
-			public const int fill_horizontal = 2131230911;
-			
-			// aapt resource value: 0x7F0800C0
-			public const int fill_vertical = 2131230912;
+			public const int fill = 2131230911;
 			
 			// aapt resource value: 0x7F0800C2
-			public const int fitToContents = 2131230914;
+			public const int filled = 2131230914;
+			
+			// aapt resource value: 0x7F0800C0
+			public const int fill_horizontal = 2131230912;
+			
+			// aapt resource value: 0x7F0800C1
+			public const int fill_vertical = 2131230913;
 			
 			// aapt resource value: 0x7F0800C3
-			public const int @fixed = 2131230915;
+			public const int fitToContents = 2131230915;
 			
 			// aapt resource value: 0x7F0800C4
-			public const int flip = 2131230916;
+			public const int @fixed = 2131230916;
 			
 			// aapt resource value: 0x7F0800C5
-			public const int floating = 2131230917;
+			public const int flip = 2131230917;
 			
 			// aapt resource value: 0x7F0800C6
-			public const int flyoutcontent_appbar = 2131230918;
+			public const int floating = 2131230918;
 			
 			// aapt resource value: 0x7F0800C7
-			public const int forever = 2131230919;
+			public const int flyoutcontent_appbar = 2131230919;
 			
 			// aapt resource value: 0x7F0800C8
-			public const int fragment_container_view_tag = 2131230920;
+			public const int forever = 2131230920;
 			
 			// aapt resource value: 0x7F0800C9
-			public const int frost = 2131230921;
+			public const int fragment_container_view_tag = 2131230921;
+			
+			// aapt resource value: 0x7F0800CA
+			public const int frost = 2131230922;
 			
 			// aapt resource value: 0x7F080004
 			public const int FUNCTION = 2131230724;
 			
-			// aapt resource value: 0x7F0800CA
-			public const int ghost_view = 2131230922;
-			
 			// aapt resource value: 0x7F0800CB
-			public const int ghost_view_holder = 2131230923;
+			public const int ghost_view = 2131230923;
 			
 			// aapt resource value: 0x7F0800CC
-			public const int gone = 2131230924;
+			public const int ghost_view_holder = 2131230924;
 			
 			// aapt resource value: 0x7F0800CD
-			public const int graph = 2131230925;
+			public const int gone = 2131230925;
 			
 			// aapt resource value: 0x7F0800CE
-			public const int graph_wrap = 2131230926;
-			
-			// aapt resource value: 0x7F0800D0
-			public const int grouping = 2131230928;
-			
-			// aapt resource value: 0x7F0800D1
-			public const int groups = 2131230929;
+			public const int graph = 2131230926;
 			
 			// aapt resource value: 0x7F0800CF
-			public const int group_divider = 2131230927;
+			public const int graph_wrap = 2131230927;
+			
+			// aapt resource value: 0x7F0800D1
+			public const int grouping = 2131230929;
 			
 			// aapt resource value: 0x7F0800D2
-			public const int guideline = 2131230930;
+			public const int groups = 2131230930;
+			
+			// aapt resource value: 0x7F0800D0
+			public const int group_divider = 2131230928;
 			
 			// aapt resource value: 0x7F0800D3
-			public const int header_title = 2131230931;
+			public const int guideline = 2131230931;
 			
 			// aapt resource value: 0x7F0800D4
-			public const int hideable = 2131230932;
+			public const int header_title = 2131230932;
 			
 			// aapt resource value: 0x7F0800D5
-			public const int home = 2131230933;
+			public const int hideable = 2131230933;
 			
 			// aapt resource value: 0x7F0800D6
-			public const int homeAsUp = 2131230934;
+			public const int home = 2131230934;
 			
 			// aapt resource value: 0x7F0800D7
-			public const int honorRequest = 2131230935;
+			public const int homeAsUp = 2131230935;
 			
 			// aapt resource value: 0x7F0800D8
-			public const int horizontal_only = 2131230936;
+			public const int honorRequest = 2131230936;
 			
 			// aapt resource value: 0x7F0800D9
-			public const int icon = 2131230937;
+			public const int horizontal_only = 2131230937;
 			
 			// aapt resource value: 0x7F0800DA
-			public const int icon_frame = 2131230938;
+			public const int icon = 2131230938;
 			
 			// aapt resource value: 0x7F0800DB
-			public const int icon_group = 2131230939;
+			public const int icon_frame = 2131230939;
 			
 			// aapt resource value: 0x7F0800DC
-			public const int ifRoom = 2131230940;
+			public const int icon_group = 2131230940;
 			
 			// aapt resource value: 0x7F0800DD
-			public const int ignore = 2131230941;
+			public const int ifRoom = 2131230941;
 			
 			// aapt resource value: 0x7F0800DE
-			public const int ignoreRequest = 2131230942;
+			public const int ignore = 2131230942;
 			
 			// aapt resource value: 0x7F0800DF
-			public const int image = 2131230943;
+			public const int ignoreRequest = 2131230943;
 			
 			// aapt resource value: 0x7F0800E0
-			public const int immediateStop = 2131230944;
+			public const int image = 2131230944;
 			
 			// aapt resource value: 0x7F0800E1
-			public const int included = 2131230945;
+			public const int immediateStop = 2131230945;
 			
 			// aapt resource value: 0x7F0800E2
-			public const int info = 2131230946;
+			public const int included = 2131230946;
 			
 			// aapt resource value: 0x7F0800E3
-			public const int invisible = 2131230947;
+			public const int info = 2131230947;
 			
 			// aapt resource value: 0x7F0800E4
-			public const int inward = 2131230948;
+			public const int invisible = 2131230948;
 			
 			// aapt resource value: 0x7F0800E5
-			public const int italic = 2131230949;
+			public const int inward = 2131230949;
 			
 			// aapt resource value: 0x7F0800E6
-			public const int item_touch_helper_previous_elevation = 2131230950;
-			
-			// aapt resource value: 0x7F0800E7
-			public const int jumpToEnd = 2131230951;
-			
-			// aapt resource value: 0x7F0800E8
-			public const int jumpToStart = 2131230952;
-			
-			// aapt resource value: 0x7F0800E9
-			public const int labeled = 2131230953;
-			
-			// aapt resource value: 0x7F0800EA
-			public const int layout = 2131230954;
-			
-			// aapt resource value: 0x7F0800EB
-			public const int left = 2131230955;
-			
-			// aapt resource value: 0x7F0800EC
-			public const int leftToRight = 2131230956;
-			
-			// aapt resource value: 0x7F0800ED
-			public const int legacy = 2131230957;
-			
-			// aapt resource value: 0x7F0800EE
-			public const int line1 = 2131230958;
-			
-			// aapt resource value: 0x7F0800EF
-			public const int line3 = 2131230959;
-			
-			// aapt resource value: 0x7F0800F0
-			public const int linear = 2131230960;
-			
-			// aapt resource value: 0x7F0800F1
-			public const int listMode = 2131230961;
-			
-			// aapt resource value: 0x7F0800F2
-			public const int list_item = 2131230962;
-			
-			// aapt resource value: 0x7F0800F3
-			public const int main_appbar = 2131230963;
-			
-			// aapt resource value: 0x7F0800F4
-			public const int main_tablayout = 2131230964;
-			
-			// aapt resource value: 0x7F0800F5
-			public const int main_toolbar = 2131230965;
-			
-			// aapt resource value: 0x7F0800F6
-			public const int main_viewpager = 2131230966;
-			
-			// aapt resource value: 0x7F0800F7
-			public const int masked = 2131230967;
-			
-			// aapt resource value: 0x7F0800F8
-			public const int match_constraint = 2131230968;
-			
-			// aapt resource value: 0x7F0800F9
-			public const int match_parent = 2131230969;
-			
-			// aapt resource value: 0x7F0800FA
-			public const int material_clock_display = 2131230970;
-			
-			// aapt resource value: 0x7F0800FB
-			public const int material_clock_face = 2131230971;
-			
-			// aapt resource value: 0x7F0800FC
-			public const int material_clock_hand = 2131230972;
-			
-			// aapt resource value: 0x7F0800FD
-			public const int material_clock_period_am_button = 2131230973;
-			
-			// aapt resource value: 0x7F0800FE
-			public const int material_clock_period_pm_button = 2131230974;
-			
-			// aapt resource value: 0x7F0800FF
-			public const int material_clock_period_toggle = 2131230975;
-			
-			// aapt resource value: 0x7F080100
-			public const int material_hour_text_input = 2131230976;
-			
-			// aapt resource value: 0x7F080101
-			public const int material_hour_tv = 2131230977;
-			
-			// aapt resource value: 0x7F080102
-			public const int material_label = 2131230978;
-			
-			// aapt resource value: 0x7F080103
-			public const int material_minute_text_input = 2131230979;
-			
-			// aapt resource value: 0x7F080104
-			public const int material_minute_tv = 2131230980;
-			
-			// aapt resource value: 0x7F080105
-			public const int material_textinput_timepicker = 2131230981;
-			
-			// aapt resource value: 0x7F080106
-			public const int material_timepicker_cancel_button = 2131230982;
-			
-			// aapt resource value: 0x7F080107
-			public const int material_timepicker_container = 2131230983;
-			
-			// aapt resource value: 0x7F080108
-			public const int material_timepicker_edit_text = 2131230984;
-			
-			// aapt resource value: 0x7F080109
-			public const int material_timepicker_mode_button = 2131230985;
-			
-			// aapt resource value: 0x7F08010A
-			public const int material_timepicker_ok_button = 2131230986;
-			
-			// aapt resource value: 0x7F08010B
-			public const int material_timepicker_view = 2131230987;
-			
-			// aapt resource value: 0x7F08010C
-			public const int material_value_index = 2131230988;
-			
-			// aapt resource value: 0x7F08010D
-			public const int media_actions = 2131230989;
-			
-			// aapt resource value: 0x7F08010E
-			public const int media_controller_compat_view_tag = 2131230990;
-			
-			// aapt resource value: 0x7F08010F
-			public const int message = 2131230991;
+			public const int italic = 2131230950;
 			
 			// aapt resource value: 0x7F080005
-			public const int META = 2131230725;
+			public const int Itemname = 2131230725;
+			
+			// aapt resource value: 0x7F0800E7
+			public const int item_touch_helper_previous_elevation = 2131230951;
+			
+			// aapt resource value: 0x7F0800E8
+			public const int jumpToEnd = 2131230952;
+			
+			// aapt resource value: 0x7F0800E9
+			public const int jumpToStart = 2131230953;
+			
+			// aapt resource value: 0x7F0800EA
+			public const int labeled = 2131230954;
+			
+			// aapt resource value: 0x7F0800EB
+			public const int layout = 2131230955;
+			
+			// aapt resource value: 0x7F0800EC
+			public const int left = 2131230956;
+			
+			// aapt resource value: 0x7F0800ED
+			public const int leftToRight = 2131230957;
+			
+			// aapt resource value: 0x7F0800EE
+			public const int legacy = 2131230958;
+			
+			// aapt resource value: 0x7F0800EF
+			public const int line1 = 2131230959;
+			
+			// aapt resource value: 0x7F0800F0
+			public const int line3 = 2131230960;
+			
+			// aapt resource value: 0x7F0800F1
+			public const int linear = 2131230961;
+			
+			// aapt resource value: 0x7F0800F2
+			public const int listMode = 2131230962;
+			
+			// aapt resource value: 0x7F0800F3
+			public const int list_item = 2131230963;
+			
+			// aapt resource value: 0x7F0800F4
+			public const int main_appbar = 2131230964;
+			
+			// aapt resource value: 0x7F0800F5
+			public const int main_tablayout = 2131230965;
+			
+			// aapt resource value: 0x7F0800F6
+			public const int main_toolbar = 2131230966;
+			
+			// aapt resource value: 0x7F0800F7
+			public const int main_viewpager = 2131230967;
+			
+			// aapt resource value: 0x7F0800F8
+			public const int masked = 2131230968;
+			
+			// aapt resource value: 0x7F0800F9
+			public const int match_constraint = 2131230969;
+			
+			// aapt resource value: 0x7F0800FA
+			public const int match_parent = 2131230970;
+			
+			// aapt resource value: 0x7F0800FB
+			public const int material_clock_display = 2131230971;
+			
+			// aapt resource value: 0x7F0800FC
+			public const int material_clock_face = 2131230972;
+			
+			// aapt resource value: 0x7F0800FD
+			public const int material_clock_hand = 2131230973;
+			
+			// aapt resource value: 0x7F0800FE
+			public const int material_clock_period_am_button = 2131230974;
+			
+			// aapt resource value: 0x7F0800FF
+			public const int material_clock_period_pm_button = 2131230975;
+			
+			// aapt resource value: 0x7F080100
+			public const int material_clock_period_toggle = 2131230976;
+			
+			// aapt resource value: 0x7F080101
+			public const int material_hour_text_input = 2131230977;
+			
+			// aapt resource value: 0x7F080102
+			public const int material_hour_tv = 2131230978;
+			
+			// aapt resource value: 0x7F080103
+			public const int material_label = 2131230979;
+			
+			// aapt resource value: 0x7F080104
+			public const int material_minute_text_input = 2131230980;
+			
+			// aapt resource value: 0x7F080105
+			public const int material_minute_tv = 2131230981;
+			
+			// aapt resource value: 0x7F080106
+			public const int material_textinput_timepicker = 2131230982;
+			
+			// aapt resource value: 0x7F080107
+			public const int material_timepicker_cancel_button = 2131230983;
+			
+			// aapt resource value: 0x7F080108
+			public const int material_timepicker_container = 2131230984;
+			
+			// aapt resource value: 0x7F080109
+			public const int material_timepicker_edit_text = 2131230985;
+			
+			// aapt resource value: 0x7F08010A
+			public const int material_timepicker_mode_button = 2131230986;
+			
+			// aapt resource value: 0x7F08010B
+			public const int material_timepicker_ok_button = 2131230987;
+			
+			// aapt resource value: 0x7F08010C
+			public const int material_timepicker_view = 2131230988;
+			
+			// aapt resource value: 0x7F08010D
+			public const int material_value_index = 2131230989;
+			
+			// aapt resource value: 0x7F08010E
+			public const int media_actions = 2131230990;
+			
+			// aapt resource value: 0x7F08010F
+			public const int media_controller_compat_view_tag = 2131230991;
 			
 			// aapt resource value: 0x7F080110
-			public const int middle = 2131230992;
-			
-			// aapt resource value: 0x7F080111
-			public const int mini = 2131230993;
-			
-			// aapt resource value: 0x7F080112
-			public const int month_grid = 2131230994;
-			
-			// aapt resource value: 0x7F080113
-			public const int month_navigation_bar = 2131230995;
-			
-			// aapt resource value: 0x7F080114
-			public const int month_navigation_fragment_toggle = 2131230996;
-			
-			// aapt resource value: 0x7F080115
-			public const int month_navigation_next = 2131230997;
-			
-			// aapt resource value: 0x7F080116
-			public const int month_navigation_previous = 2131230998;
-			
-			// aapt resource value: 0x7F080117
-			public const int month_title = 2131230999;
-			
-			// aapt resource value: 0x7F080118
-			public const int motion_base = 2131231000;
-			
-			// aapt resource value: 0x7F080119
-			public const int mtrl_anchor_parent = 2131231001;
-			
-			// aapt resource value: 0x7F08011B
-			public const int mtrl_calendar_days_of_week = 2131231003;
-			
-			// aapt resource value: 0x7F08011A
-			public const int mtrl_calendar_day_selector_frame = 2131231002;
-			
-			// aapt resource value: 0x7F08011C
-			public const int mtrl_calendar_frame = 2131231004;
-			
-			// aapt resource value: 0x7F08011D
-			public const int mtrl_calendar_main_pane = 2131231005;
-			
-			// aapt resource value: 0x7F08011E
-			public const int mtrl_calendar_months = 2131231006;
-			
-			// aapt resource value: 0x7F08011F
-			public const int mtrl_calendar_selection_frame = 2131231007;
-			
-			// aapt resource value: 0x7F080120
-			public const int mtrl_calendar_text_input_frame = 2131231008;
-			
-			// aapt resource value: 0x7F080121
-			public const int mtrl_calendar_year_selector_frame = 2131231009;
-			
-			// aapt resource value: 0x7F080122
-			public const int mtrl_card_checked_layer_id = 2131231010;
-			
-			// aapt resource value: 0x7F080123
-			public const int mtrl_child_content_container = 2131231011;
-			
-			// aapt resource value: 0x7F080124
-			public const int mtrl_internal_children_alpha_tag = 2131231012;
-			
-			// aapt resource value: 0x7F080125
-			public const int mtrl_motion_snapshot_view = 2131231013;
-			
-			// aapt resource value: 0x7F080126
-			public const int mtrl_picker_fullscreen = 2131231014;
-			
-			// aapt resource value: 0x7F080127
-			public const int mtrl_picker_header = 2131231015;
-			
-			// aapt resource value: 0x7F080128
-			public const int mtrl_picker_header_selection_text = 2131231016;
-			
-			// aapt resource value: 0x7F080129
-			public const int mtrl_picker_header_title_and_selection = 2131231017;
-			
-			// aapt resource value: 0x7F08012A
-			public const int mtrl_picker_header_toggle = 2131231018;
-			
-			// aapt resource value: 0x7F08012B
-			public const int mtrl_picker_text_input_date = 2131231019;
-			
-			// aapt resource value: 0x7F08012C
-			public const int mtrl_picker_text_input_range_end = 2131231020;
-			
-			// aapt resource value: 0x7F08012D
-			public const int mtrl_picker_text_input_range_start = 2131231021;
-			
-			// aapt resource value: 0x7F08012E
-			public const int mtrl_picker_title_text = 2131231022;
-			
-			// aapt resource value: 0x7F08012F
-			public const int mtrl_view_tag_bottom_padding = 2131231023;
-			
-			// aapt resource value: 0x7F080130
-			public const int multiply = 2131231024;
-			
-			// aapt resource value: 0x7F080132
-			public const int navigation_bar_item_icon_view = 2131231026;
-			
-			// aapt resource value: 0x7F080133
-			public const int navigation_bar_item_labels_group = 2131231027;
-			
-			// aapt resource value: 0x7F080134
-			public const int navigation_bar_item_large_label_view = 2131231028;
-			
-			// aapt resource value: 0x7F080135
-			public const int navigation_bar_item_small_label_view = 2131231029;
-			
-			// aapt resource value: 0x7F080136
-			public const int navigation_header_container = 2131231030;
-			
-			// aapt resource value: 0x7F080131
-			public const int nav_controller_view_tag = 2131231025;
-			
-			// aapt resource value: 0x7F080137
-			public const int never = 2131231031;
-			
-			// aapt resource value: 0x7F080138
-			public const int neverCompleteToEnd = 2131231032;
-			
-			// aapt resource value: 0x7F080139
-			public const int neverCompleteToStart = 2131231033;
-			
-			// aapt resource value: 0x7F08013C
-			public const int none = 2131231036;
-			
-			// aapt resource value: 0x7F08013D
-			public const int normal = 2131231037;
-			
-			// aapt resource value: 0x7F08013E
-			public const int north = 2131231038;
-			
-			// aapt resource value: 0x7F08013A
-			public const int noScroll = 2131231034;
-			
-			// aapt resource value: 0x7F08013B
-			public const int noState = 2131231035;
-			
-			// aapt resource value: 0x7F08013F
-			public const int notification_background = 2131231039;
-			
-			// aapt resource value: 0x7F080140
-			public const int notification_main_column = 2131231040;
-			
-			// aapt resource value: 0x7F080141
-			public const int notification_main_column_container = 2131231041;
+			public const int message = 2131230992;
 			
 			// aapt resource value: 0x7F080006
-			public const int NO_DEBUG = 2131230726;
+			public const int META = 2131230726;
+			
+			// aapt resource value: 0x7F080111
+			public const int middle = 2131230993;
+			
+			// aapt resource value: 0x7F080112
+			public const int mini = 2131230994;
+			
+			// aapt resource value: 0x7F080113
+			public const int month_grid = 2131230995;
+			
+			// aapt resource value: 0x7F080114
+			public const int month_navigation_bar = 2131230996;
+			
+			// aapt resource value: 0x7F080115
+			public const int month_navigation_fragment_toggle = 2131230997;
+			
+			// aapt resource value: 0x7F080116
+			public const int month_navigation_next = 2131230998;
+			
+			// aapt resource value: 0x7F080117
+			public const int month_navigation_previous = 2131230999;
+			
+			// aapt resource value: 0x7F080118
+			public const int month_title = 2131231000;
+			
+			// aapt resource value: 0x7F080119
+			public const int motion_base = 2131231001;
+			
+			// aapt resource value: 0x7F08011A
+			public const int mtrl_anchor_parent = 2131231002;
+			
+			// aapt resource value: 0x7F08011C
+			public const int mtrl_calendar_days_of_week = 2131231004;
+			
+			// aapt resource value: 0x7F08011B
+			public const int mtrl_calendar_day_selector_frame = 2131231003;
+			
+			// aapt resource value: 0x7F08011D
+			public const int mtrl_calendar_frame = 2131231005;
+			
+			// aapt resource value: 0x7F08011E
+			public const int mtrl_calendar_main_pane = 2131231006;
+			
+			// aapt resource value: 0x7F08011F
+			public const int mtrl_calendar_months = 2131231007;
+			
+			// aapt resource value: 0x7F080120
+			public const int mtrl_calendar_selection_frame = 2131231008;
+			
+			// aapt resource value: 0x7F080121
+			public const int mtrl_calendar_text_input_frame = 2131231009;
+			
+			// aapt resource value: 0x7F080122
+			public const int mtrl_calendar_year_selector_frame = 2131231010;
+			
+			// aapt resource value: 0x7F080123
+			public const int mtrl_card_checked_layer_id = 2131231011;
+			
+			// aapt resource value: 0x7F080124
+			public const int mtrl_child_content_container = 2131231012;
+			
+			// aapt resource value: 0x7F080125
+			public const int mtrl_internal_children_alpha_tag = 2131231013;
+			
+			// aapt resource value: 0x7F080126
+			public const int mtrl_motion_snapshot_view = 2131231014;
+			
+			// aapt resource value: 0x7F080127
+			public const int mtrl_picker_fullscreen = 2131231015;
+			
+			// aapt resource value: 0x7F080128
+			public const int mtrl_picker_header = 2131231016;
+			
+			// aapt resource value: 0x7F080129
+			public const int mtrl_picker_header_selection_text = 2131231017;
+			
+			// aapt resource value: 0x7F08012A
+			public const int mtrl_picker_header_title_and_selection = 2131231018;
+			
+			// aapt resource value: 0x7F08012B
+			public const int mtrl_picker_header_toggle = 2131231019;
+			
+			// aapt resource value: 0x7F08012C
+			public const int mtrl_picker_text_input_date = 2131231020;
+			
+			// aapt resource value: 0x7F08012D
+			public const int mtrl_picker_text_input_range_end = 2131231021;
+			
+			// aapt resource value: 0x7F08012E
+			public const int mtrl_picker_text_input_range_start = 2131231022;
+			
+			// aapt resource value: 0x7F08012F
+			public const int mtrl_picker_title_text = 2131231023;
+			
+			// aapt resource value: 0x7F080130
+			public const int mtrl_view_tag_bottom_padding = 2131231024;
+			
+			// aapt resource value: 0x7F080131
+			public const int multiply = 2131231025;
+			
+			// aapt resource value: 0x7F080133
+			public const int navigation_bar_item_icon_view = 2131231027;
+			
+			// aapt resource value: 0x7F080134
+			public const int navigation_bar_item_labels_group = 2131231028;
+			
+			// aapt resource value: 0x7F080135
+			public const int navigation_bar_item_large_label_view = 2131231029;
+			
+			// aapt resource value: 0x7F080136
+			public const int navigation_bar_item_small_label_view = 2131231030;
+			
+			// aapt resource value: 0x7F080137
+			public const int navigation_header_container = 2131231031;
+			
+			// aapt resource value: 0x7F080132
+			public const int nav_controller_view_tag = 2131231026;
+			
+			// aapt resource value: 0x7F080138
+			public const int never = 2131231032;
+			
+			// aapt resource value: 0x7F080139
+			public const int neverCompleteToEnd = 2131231033;
+			
+			// aapt resource value: 0x7F08013A
+			public const int neverCompleteToStart = 2131231034;
+			
+			// aapt resource value: 0x7F08013D
+			public const int none = 2131231037;
+			
+			// aapt resource value: 0x7F08013E
+			public const int normal = 2131231038;
+			
+			// aapt resource value: 0x7F08013F
+			public const int north = 2131231039;
+			
+			// aapt resource value: 0x7F08013B
+			public const int noScroll = 2131231035;
+			
+			// aapt resource value: 0x7F08013C
+			public const int noState = 2131231036;
+			
+			// aapt resource value: 0x7F080140
+			public const int notification_background = 2131231040;
+			
+			// aapt resource value: 0x7F080141
+			public const int notification_main_column = 2131231041;
 			
 			// aapt resource value: 0x7F080142
-			public const int off = 2131231042;
-			
-			// aapt resource value: 0x7F080143
-			public const int on = 2131231043;
-			
-			// aapt resource value: 0x7F080144
-			public const int outline = 2131231044;
-			
-			// aapt resource value: 0x7F080145
-			public const int outward = 2131231045;
-			
-			// aapt resource value: 0x7F080146
-			public const int overshoot = 2131231046;
-			
-			// aapt resource value: 0x7F080147
-			public const int packed = 2131231047;
-			
-			// aapt resource value: 0x7F080148
-			public const int parallax = 2131231048;
-			
-			// aapt resource value: 0x7F080149
-			public const int parent = 2131231049;
-			
-			// aapt resource value: 0x7F08014A
-			public const int parentPanel = 2131231050;
-			
-			// aapt resource value: 0x7F08014B
-			public const int parentRelative = 2131231051;
-			
-			// aapt resource value: 0x7F08014C
-			public const int parent_matrix = 2131231052;
-			
-			// aapt resource value: 0x7F08014D
-			public const int password_toggle = 2131231053;
-			
-			// aapt resource value: 0x7F08014E
-			public const int path = 2131231054;
-			
-			// aapt resource value: 0x7F08014F
-			public const int pathRelative = 2131231055;
-			
-			// aapt resource value: 0x7F080150
-			public const int peekHeight = 2131231056;
-			
-			// aapt resource value: 0x7F080151
-			public const int percent = 2131231057;
-			
-			// aapt resource value: 0x7F080152
-			public const int pin = 2131231058;
-			
-			// aapt resource value: 0x7F080153
-			public const int position = 2131231059;
-			
-			// aapt resource value: 0x7F080154
-			public const int postLayout = 2131231060;
-			
-			// aapt resource value: 0x7F080155
-			public const int progress_circular = 2131231061;
-			
-			// aapt resource value: 0x7F080156
-			public const int progress_horizontal = 2131231062;
-			
-			// aapt resource value: 0x7F080157
-			public const int radio = 2131231063;
-			
-			// aapt resource value: 0x7F080158
-			public const int ratio = 2131231064;
-			
-			// aapt resource value: 0x7F080159
-			public const int rectangles = 2131231065;
-			
-			// aapt resource value: 0x7F08015A
-			public const int recycler_view = 2131231066;
-			
-			// aapt resource value: 0x7F08015B
-			public const int reverseSawtooth = 2131231067;
-			
-			// aapt resource value: 0x7F08015C
-			public const int right = 2131231068;
-			
-			// aapt resource value: 0x7F08015D
-			public const int rightToLeft = 2131231069;
-			
-			// aapt resource value: 0x7F08015E
-			public const int right_icon = 2131231070;
-			
-			// aapt resource value: 0x7F08015F
-			public const int right_side = 2131231071;
-			
-			// aapt resource value: 0x7F080160
-			public const int rounded = 2131231072;
-			
-			// aapt resource value: 0x7F080161
-			public const int row_index_key = 2131231073;
-			
-			// aapt resource value: 0x7F080162
-			public const int save_non_transition_alpha = 2131231074;
-			
-			// aapt resource value: 0x7F080163
-			public const int save_overlay_view = 2131231075;
-			
-			// aapt resource value: 0x7F080164
-			public const int sawtooth = 2131231076;
-			
-			// aapt resource value: 0x7F080165
-			public const int scale = 2131231077;
-			
-			// aapt resource value: 0x7F080166
-			public const int screen = 2131231078;
-			
-			// aapt resource value: 0x7F080167
-			public const int scroll = 2131231079;
-			
-			// aapt resource value: 0x7F08016B
-			public const int scrollable = 2131231083;
-			
-			// aapt resource value: 0x7F080168
-			public const int scrollIndicatorDown = 2131231080;
-			
-			// aapt resource value: 0x7F080169
-			public const int scrollIndicatorUp = 2131231081;
-			
-			// aapt resource value: 0x7F08016A
-			public const int scrollView = 2131231082;
-			
-			// aapt resource value: 0x7F08016C
-			public const int search_badge = 2131231084;
-			
-			// aapt resource value: 0x7F08016D
-			public const int search_bar = 2131231085;
-			
-			// aapt resource value: 0x7F08016E
-			public const int search_button = 2131231086;
-			
-			// aapt resource value: 0x7F08016F
-			public const int search_close_btn = 2131231087;
-			
-			// aapt resource value: 0x7F080170
-			public const int search_edit_frame = 2131231088;
-			
-			// aapt resource value: 0x7F080171
-			public const int search_go_btn = 2131231089;
-			
-			// aapt resource value: 0x7F080172
-			public const int search_mag_icon = 2131231090;
-			
-			// aapt resource value: 0x7F080173
-			public const int search_plate = 2131231091;
-			
-			// aapt resource value: 0x7F080174
-			public const int search_src_text = 2131231092;
-			
-			// aapt resource value: 0x7F080175
-			public const int search_voice_btn = 2131231093;
-			
-			// aapt resource value: 0x7F080176
-			public const int seekbar = 2131231094;
-			
-			// aapt resource value: 0x7F080177
-			public const int seekbar_value = 2131231095;
-			
-			// aapt resource value: 0x7F080179
-			public const int selected = 2131231097;
-			
-			// aapt resource value: 0x7F08017A
-			public const int selection_type = 2131231098;
-			
-			// aapt resource value: 0x7F080178
-			public const int select_dialog_listview = 2131231096;
-			
-			// aapt resource value: 0x7F08017B
-			public const int sharedValueSet = 2131231099;
-			
-			// aapt resource value: 0x7F08017C
-			public const int sharedValueUnset = 2131231100;
-			
-			// aapt resource value: 0x7F08017D
-			public const int shellcontent_appbar = 2131231101;
-			
-			// aapt resource value: 0x7F08017E
-			public const int shellcontent_toolbar = 2131231102;
+			public const int notification_main_column_container = 2131231042;
 			
 			// aapt resource value: 0x7F080007
-			public const int SHIFT = 2131230727;
+			public const int NO_DEBUG = 2131230727;
+			
+			// aapt resource value: 0x7F080143
+			public const int off = 2131231043;
+			
+			// aapt resource value: 0x7F080144
+			public const int on = 2131231044;
+			
+			// aapt resource value: 0x7F080145
+			public const int outline = 2131231045;
+			
+			// aapt resource value: 0x7F080146
+			public const int outward = 2131231046;
+			
+			// aapt resource value: 0x7F080147
+			public const int overshoot = 2131231047;
+			
+			// aapt resource value: 0x7F080148
+			public const int packed = 2131231048;
+			
+			// aapt resource value: 0x7F080149
+			public const int parallax = 2131231049;
+			
+			// aapt resource value: 0x7F08014A
+			public const int parent = 2131231050;
+			
+			// aapt resource value: 0x7F08014B
+			public const int parentPanel = 2131231051;
+			
+			// aapt resource value: 0x7F08014C
+			public const int parentRelative = 2131231052;
+			
+			// aapt resource value: 0x7F08014D
+			public const int parent_matrix = 2131231053;
+			
+			// aapt resource value: 0x7F08014E
+			public const int password_toggle = 2131231054;
+			
+			// aapt resource value: 0x7F08014F
+			public const int path = 2131231055;
+			
+			// aapt resource value: 0x7F080150
+			public const int pathRelative = 2131231056;
+			
+			// aapt resource value: 0x7F080151
+			public const int peekHeight = 2131231057;
+			
+			// aapt resource value: 0x7F080152
+			public const int percent = 2131231058;
+			
+			// aapt resource value: 0x7F080153
+			public const int pin = 2131231059;
+			
+			// aapt resource value: 0x7F080154
+			public const int position = 2131231060;
+			
+			// aapt resource value: 0x7F080155
+			public const int postLayout = 2131231061;
+			
+			// aapt resource value: 0x7F080156
+			public const int progress_circular = 2131231062;
+			
+			// aapt resource value: 0x7F080157
+			public const int progress_horizontal = 2131231063;
+			
+			// aapt resource value: 0x7F080158
+			public const int radio = 2131231064;
+			
+			// aapt resource value: 0x7F080159
+			public const int ratio = 2131231065;
+			
+			// aapt resource value: 0x7F08015A
+			public const int rectangles = 2131231066;
+			
+			// aapt resource value: 0x7F08015B
+			public const int recycler_view = 2131231067;
+			
+			// aapt resource value: 0x7F08015C
+			public const int reverseSawtooth = 2131231068;
+			
+			// aapt resource value: 0x7F08015D
+			public const int right = 2131231069;
+			
+			// aapt resource value: 0x7F08015E
+			public const int rightToLeft = 2131231070;
+			
+			// aapt resource value: 0x7F08015F
+			public const int right_icon = 2131231071;
+			
+			// aapt resource value: 0x7F080160
+			public const int right_side = 2131231072;
+			
+			// aapt resource value: 0x7F080161
+			public const int rounded = 2131231073;
+			
+			// aapt resource value: 0x7F080162
+			public const int row_index_key = 2131231074;
+			
+			// aapt resource value: 0x7F080163
+			public const int save_non_transition_alpha = 2131231075;
+			
+			// aapt resource value: 0x7F080164
+			public const int save_overlay_view = 2131231076;
+			
+			// aapt resource value: 0x7F080165
+			public const int sawtooth = 2131231077;
+			
+			// aapt resource value: 0x7F080166
+			public const int scale = 2131231078;
+			
+			// aapt resource value: 0x7F080167
+			public const int screen = 2131231079;
+			
+			// aapt resource value: 0x7F080168
+			public const int scroll = 2131231080;
+			
+			// aapt resource value: 0x7F08016C
+			public const int scrollable = 2131231084;
+			
+			// aapt resource value: 0x7F080169
+			public const int scrollIndicatorDown = 2131231081;
+			
+			// aapt resource value: 0x7F08016A
+			public const int scrollIndicatorUp = 2131231082;
+			
+			// aapt resource value: 0x7F08016B
+			public const int scrollView = 2131231083;
+			
+			// aapt resource value: 0x7F08016D
+			public const int search_badge = 2131231085;
+			
+			// aapt resource value: 0x7F08016E
+			public const int search_bar = 2131231086;
+			
+			// aapt resource value: 0x7F08016F
+			public const int search_button = 2131231087;
+			
+			// aapt resource value: 0x7F080170
+			public const int search_close_btn = 2131231088;
+			
+			// aapt resource value: 0x7F080171
+			public const int search_edit_frame = 2131231089;
+			
+			// aapt resource value: 0x7F080172
+			public const int search_go_btn = 2131231090;
+			
+			// aapt resource value: 0x7F080173
+			public const int search_mag_icon = 2131231091;
+			
+			// aapt resource value: 0x7F080174
+			public const int search_plate = 2131231092;
+			
+			// aapt resource value: 0x7F080175
+			public const int search_src_text = 2131231093;
+			
+			// aapt resource value: 0x7F080176
+			public const int search_voice_btn = 2131231094;
+			
+			// aapt resource value: 0x7F080177
+			public const int seekbar = 2131231095;
+			
+			// aapt resource value: 0x7F080178
+			public const int seekbar_value = 2131231096;
+			
+			// aapt resource value: 0x7F08017A
+			public const int selected = 2131231098;
+			
+			// aapt resource value: 0x7F08017B
+			public const int selection_type = 2131231099;
+			
+			// aapt resource value: 0x7F080179
+			public const int select_dialog_listview = 2131231097;
+			
+			// aapt resource value: 0x7F08017C
+			public const int sharedValueSet = 2131231100;
+			
+			// aapt resource value: 0x7F08017D
+			public const int sharedValueUnset = 2131231101;
+			
+			// aapt resource value: 0x7F08017E
+			public const int shellcontent_appbar = 2131231102;
 			
 			// aapt resource value: 0x7F08017F
-			public const int shortcut = 2131231103;
-			
-			// aapt resource value: 0x7F080180
-			public const int showCustom = 2131231104;
-			
-			// aapt resource value: 0x7F080181
-			public const int showHome = 2131231105;
-			
-			// aapt resource value: 0x7F080182
-			public const int showTitle = 2131231106;
+			public const int shellcontent_toolbar = 2131231103;
 			
 			// aapt resource value: 0x7F080008
-			public const int SHOW_ALL = 2131230728;
+			public const int SHIFT = 2131230728;
 			
-			// aapt resource value: 0x7F080009
-			public const int SHOW_PATH = 2131230729;
+			// aapt resource value: 0x7F080180
+			public const int shortcut = 2131231104;
 			
-			// aapt resource value: 0x7F08000A
-			public const int SHOW_PROGRESS = 2131230730;
+			// aapt resource value: 0x7F080181
+			public const int showCustom = 2131231105;
+			
+			// aapt resource value: 0x7F080182
+			public const int showHome = 2131231106;
 			
 			// aapt resource value: 0x7F080183
-			public const int sin = 2131231107;
+			public const int showTitle = 2131231107;
 			
-			// aapt resource value: 0x7F080184
-			public const int skipCollapsed = 2131231108;
+			// aapt resource value: 0x7F080009
+			public const int SHOW_ALL = 2131230729;
 			
-			// aapt resource value: 0x7F080185
-			public const int skipped = 2131231109;
-			
-			// aapt resource value: 0x7F080186
-			public const int slide = 2131231110;
-			
-			// aapt resource value: 0x7F080187
-			public const int sliding_tabs = 2131231111;
-			
-			// aapt resource value: 0x7F080188
-			public const int snackbar_action = 2131231112;
-			
-			// aapt resource value: 0x7F080189
-			public const int snackbar_text = 2131231113;
-			
-			// aapt resource value: 0x7F08018A
-			public const int snap = 2131231114;
-			
-			// aapt resource value: 0x7F08018B
-			public const int snapMargins = 2131231115;
-			
-			// aapt resource value: 0x7F08018C
-			public const int south = 2131231116;
-			
-			// aapt resource value: 0x7F08018D
-			public const int spacer = 2131231117;
-			
-			// aapt resource value: 0x7F08018E
-			public const int special_effects_controller_view_tag = 2131231118;
-			
-			// aapt resource value: 0x7F08018F
-			public const int spinner = 2131231119;
-			
-			// aapt resource value: 0x7F080190
-			public const int spline = 2131231120;
-			
-			// aapt resource value: 0x7F080191
-			public const int split_action_bar = 2131231121;
-			
-			// aapt resource value: 0x7F080192
-			public const int spread = 2131231122;
-			
-			// aapt resource value: 0x7F080193
-			public const int spread_inside = 2131231123;
-			
-			// aapt resource value: 0x7F080194
-			public const int spring = 2131231124;
-			
-			// aapt resource value: 0x7F080195
-			public const int square = 2131231125;
-			
-			// aapt resource value: 0x7F080196
-			public const int src_atop = 2131231126;
-			
-			// aapt resource value: 0x7F080197
-			public const int src_in = 2131231127;
-			
-			// aapt resource value: 0x7F080198
-			public const int src_over = 2131231128;
-			
-			// aapt resource value: 0x7F080199
-			public const int standard = 2131231129;
-			
-			// aapt resource value: 0x7F08019A
-			public const int start = 2131231130;
-			
-			// aapt resource value: 0x7F08019B
-			public const int startHorizontal = 2131231131;
-			
-			// aapt resource value: 0x7F08019C
-			public const int startToEnd = 2131231132;
-			
-			// aapt resource value: 0x7F08019D
-			public const int startVertical = 2131231133;
-			
-			// aapt resource value: 0x7F08019E
-			public const int staticLayout = 2131231134;
-			
-			// aapt resource value: 0x7F08019F
-			public const int staticPostLayout = 2131231135;
-			
-			// aapt resource value: 0x7F0801A0
-			public const int status_bar_latest_event_content = 2131231136;
-			
-			// aapt resource value: 0x7F0801A1
-			public const int stop = 2131231137;
-			
-			// aapt resource value: 0x7F0801A2
-			public const int stretch = 2131231138;
-			
-			// aapt resource value: 0x7F0801A3
-			public const int submenuarrow = 2131231139;
-			
-			// aapt resource value: 0x7F0801A4
-			public const int submit_area = 2131231140;
-			
-			// aapt resource value: 0x7F0801A5
-			public const int supportScrollUp = 2131231141;
-			
-			// aapt resource value: 0x7F0801A6
-			public const int switchWidget = 2131231142;
+			// aapt resource value: 0x7F08000A
+			public const int SHOW_PATH = 2131230730;
 			
 			// aapt resource value: 0x7F08000B
-			public const int SYM = 2131230731;
+			public const int SHOW_PROGRESS = 2131230731;
+			
+			// aapt resource value: 0x7F080184
+			public const int sin = 2131231108;
+			
+			// aapt resource value: 0x7F080185
+			public const int skipCollapsed = 2131231109;
+			
+			// aapt resource value: 0x7F080186
+			public const int skipped = 2131231110;
+			
+			// aapt resource value: 0x7F080187
+			public const int slide = 2131231111;
+			
+			// aapt resource value: 0x7F080188
+			public const int sliding_tabs = 2131231112;
+			
+			// aapt resource value: 0x7F080189
+			public const int snackbar_action = 2131231113;
+			
+			// aapt resource value: 0x7F08018A
+			public const int snackbar_text = 2131231114;
+			
+			// aapt resource value: 0x7F08018B
+			public const int snap = 2131231115;
+			
+			// aapt resource value: 0x7F08018C
+			public const int snapMargins = 2131231116;
+			
+			// aapt resource value: 0x7F08018D
+			public const int south = 2131231117;
+			
+			// aapt resource value: 0x7F08018E
+			public const int spacer = 2131231118;
+			
+			// aapt resource value: 0x7F08018F
+			public const int special_effects_controller_view_tag = 2131231119;
+			
+			// aapt resource value: 0x7F080190
+			public const int spinner = 2131231120;
+			
+			// aapt resource value: 0x7F080191
+			public const int spline = 2131231121;
+			
+			// aapt resource value: 0x7F080192
+			public const int split_action_bar = 2131231122;
+			
+			// aapt resource value: 0x7F080193
+			public const int spread = 2131231123;
+			
+			// aapt resource value: 0x7F080194
+			public const int spread_inside = 2131231124;
+			
+			// aapt resource value: 0x7F080195
+			public const int spring = 2131231125;
+			
+			// aapt resource value: 0x7F080196
+			public const int square = 2131231126;
+			
+			// aapt resource value: 0x7F080197
+			public const int src_atop = 2131231127;
+			
+			// aapt resource value: 0x7F080198
+			public const int src_in = 2131231128;
+			
+			// aapt resource value: 0x7F080199
+			public const int src_over = 2131231129;
+			
+			// aapt resource value: 0x7F08019A
+			public const int standard = 2131231130;
+			
+			// aapt resource value: 0x7F08019B
+			public const int start = 2131231131;
+			
+			// aapt resource value: 0x7F08019C
+			public const int startHorizontal = 2131231132;
+			
+			// aapt resource value: 0x7F08019D
+			public const int startToEnd = 2131231133;
+			
+			// aapt resource value: 0x7F08019E
+			public const int startVertical = 2131231134;
+			
+			// aapt resource value: 0x7F08019F
+			public const int staticLayout = 2131231135;
+			
+			// aapt resource value: 0x7F0801A0
+			public const int staticPostLayout = 2131231136;
+			
+			// aapt resource value: 0x7F0801A1
+			public const int status_bar_latest_event_content = 2131231137;
+			
+			// aapt resource value: 0x7F0801A2
+			public const int stop = 2131231138;
+			
+			// aapt resource value: 0x7F0801A3
+			public const int stretch = 2131231139;
+			
+			// aapt resource value: 0x7F0801A4
+			public const int submenuarrow = 2131231140;
+			
+			// aapt resource value: 0x7F0801A5
+			public const int submit_area = 2131231141;
+			
+			// aapt resource value: 0x7F0801A6
+			public const int supportScrollUp = 2131231142;
 			
 			// aapt resource value: 0x7F0801A7
-			public const int tabMode = 2131231143;
-			
-			// aapt resource value: 0x7F0801A8
-			public const int tag_accessibility_actions = 2131231144;
-			
-			// aapt resource value: 0x7F0801A9
-			public const int tag_accessibility_clickable_spans = 2131231145;
-			
-			// aapt resource value: 0x7F0801AA
-			public const int tag_accessibility_heading = 2131231146;
-			
-			// aapt resource value: 0x7F0801AB
-			public const int tag_accessibility_pane_title = 2131231147;
-			
-			// aapt resource value: 0x7F0801AC
-			public const int tag_on_apply_window_listener = 2131231148;
-			
-			// aapt resource value: 0x7F0801AD
-			public const int tag_on_receive_content_listener = 2131231149;
-			
-			// aapt resource value: 0x7F0801AE
-			public const int tag_on_receive_content_mime_types = 2131231150;
-			
-			// aapt resource value: 0x7F0801AF
-			public const int tag_screen_reader_focusable = 2131231151;
-			
-			// aapt resource value: 0x7F0801B0
-			public const int tag_state_description = 2131231152;
-			
-			// aapt resource value: 0x7F0801B1
-			public const int tag_transition_group = 2131231153;
-			
-			// aapt resource value: 0x7F0801B2
-			public const int tag_unhandled_key_event_manager = 2131231154;
-			
-			// aapt resource value: 0x7F0801B3
-			public const int tag_unhandled_key_listeners = 2131231155;
-			
-			// aapt resource value: 0x7F0801B4
-			public const int tag_window_insets_animation_callback = 2131231156;
-			
-			// aapt resource value: 0x7F0801B5
-			public const int test_checkbox_android_button_tint = 2131231157;
-			
-			// aapt resource value: 0x7F0801B6
-			public const int test_checkbox_app_button_tint = 2131231158;
-			
-			// aapt resource value: 0x7F0801B7
-			public const int test_radiobutton_android_button_tint = 2131231159;
-			
-			// aapt resource value: 0x7F0801B8
-			public const int test_radiobutton_app_button_tint = 2131231160;
-			
-			// aapt resource value: 0x7F0801B9
-			public const int text = 2131231161;
-			
-			// aapt resource value: 0x7F0801BA
-			public const int text2 = 2131231162;
-			
-			// aapt resource value: 0x7F0801BB
-			public const int textEnd = 2131231163;
-			
-			// aapt resource value: 0x7F0801C3
-			public const int textinput_counter = 2131231171;
-			
-			// aapt resource value: 0x7F0801C4
-			public const int textinput_error = 2131231172;
-			
-			// aapt resource value: 0x7F0801C5
-			public const int textinput_helper_text = 2131231173;
-			
-			// aapt resource value: 0x7F0801C6
-			public const int textinput_placeholder = 2131231174;
-			
-			// aapt resource value: 0x7F0801C7
-			public const int textinput_prefix_text = 2131231175;
-			
-			// aapt resource value: 0x7F0801C8
-			public const int textinput_suffix_text = 2131231176;
-			
-			// aapt resource value: 0x7F0801BC
-			public const int textSpacerNoButtons = 2131231164;
-			
-			// aapt resource value: 0x7F0801BD
-			public const int textSpacerNoTitle = 2131231165;
-			
-			// aapt resource value: 0x7F0801BE
-			public const int textStart = 2131231166;
-			
-			// aapt resource value: 0x7F0801BF
-			public const int textTop = 2131231167;
-			
-			// aapt resource value: 0x7F0801C0
-			public const int text_input_end_icon = 2131231168;
-			
-			// aapt resource value: 0x7F0801C1
-			public const int text_input_error_icon = 2131231169;
-			
-			// aapt resource value: 0x7F0801C2
-			public const int text_input_start_icon = 2131231170;
-			
-			// aapt resource value: 0x7F0801C9
-			public const int time = 2131231177;
-			
-			// aapt resource value: 0x7F0801CA
-			public const int title = 2131231178;
-			
-			// aapt resource value: 0x7F0801CB
-			public const int titleDividerNoCustom = 2131231179;
-			
-			// aapt resource value: 0x7F0801CC
-			public const int title_template = 2131231180;
-			
-			// aapt resource value: 0x7F0801CD
-			public const int toggle = 2131231181;
-			
-			// aapt resource value: 0x7F0801CE
-			public const int toolbar = 2131231182;
-			
-			// aapt resource value: 0x7F0801CF
-			public const int top = 2131231183;
-			
-			// aapt resource value: 0x7F0801D0
-			public const int topPanel = 2131231184;
+			public const int switchWidget = 2131231143;
 			
 			// aapt resource value: 0x7F08000C
-			public const int TOP_END = 2131230732;
+			public const int SYM = 2131230732;
 			
-			// aapt resource value: 0x7F08000D
-			public const int TOP_START = 2131230733;
+			// aapt resource value: 0x7F0801A8
+			public const int tabMode = 2131231144;
+			
+			// aapt resource value: 0x7F0801A9
+			public const int tag_accessibility_actions = 2131231145;
+			
+			// aapt resource value: 0x7F0801AA
+			public const int tag_accessibility_clickable_spans = 2131231146;
+			
+			// aapt resource value: 0x7F0801AB
+			public const int tag_accessibility_heading = 2131231147;
+			
+			// aapt resource value: 0x7F0801AC
+			public const int tag_accessibility_pane_title = 2131231148;
+			
+			// aapt resource value: 0x7F0801AD
+			public const int tag_on_apply_window_listener = 2131231149;
+			
+			// aapt resource value: 0x7F0801AE
+			public const int tag_on_receive_content_listener = 2131231150;
+			
+			// aapt resource value: 0x7F0801AF
+			public const int tag_on_receive_content_mime_types = 2131231151;
+			
+			// aapt resource value: 0x7F0801B0
+			public const int tag_screen_reader_focusable = 2131231152;
+			
+			// aapt resource value: 0x7F0801B1
+			public const int tag_state_description = 2131231153;
+			
+			// aapt resource value: 0x7F0801B2
+			public const int tag_transition_group = 2131231154;
+			
+			// aapt resource value: 0x7F0801B3
+			public const int tag_unhandled_key_event_manager = 2131231155;
+			
+			// aapt resource value: 0x7F0801B4
+			public const int tag_unhandled_key_listeners = 2131231156;
+			
+			// aapt resource value: 0x7F0801B5
+			public const int tag_window_insets_animation_callback = 2131231157;
+			
+			// aapt resource value: 0x7F0801B6
+			public const int test_checkbox_android_button_tint = 2131231158;
+			
+			// aapt resource value: 0x7F0801B7
+			public const int test_checkbox_app_button_tint = 2131231159;
+			
+			// aapt resource value: 0x7F0801B8
+			public const int test_radiobutton_android_button_tint = 2131231160;
+			
+			// aapt resource value: 0x7F0801B9
+			public const int test_radiobutton_app_button_tint = 2131231161;
+			
+			// aapt resource value: 0x7F0801BA
+			public const int text = 2131231162;
+			
+			// aapt resource value: 0x7F0801BB
+			public const int text2 = 2131231163;
+			
+			// aapt resource value: 0x7F0801BC
+			public const int textEnd = 2131231164;
+			
+			// aapt resource value: 0x7F0801C4
+			public const int textinput_counter = 2131231172;
+			
+			// aapt resource value: 0x7F0801C5
+			public const int textinput_error = 2131231173;
+			
+			// aapt resource value: 0x7F0801C6
+			public const int textinput_helper_text = 2131231174;
+			
+			// aapt resource value: 0x7F0801C7
+			public const int textinput_placeholder = 2131231175;
+			
+			// aapt resource value: 0x7F0801C8
+			public const int textinput_prefix_text = 2131231176;
+			
+			// aapt resource value: 0x7F0801C9
+			public const int textinput_suffix_text = 2131231177;
+			
+			// aapt resource value: 0x7F0801BD
+			public const int textSpacerNoButtons = 2131231165;
+			
+			// aapt resource value: 0x7F0801BE
+			public const int textSpacerNoTitle = 2131231166;
+			
+			// aapt resource value: 0x7F0801BF
+			public const int textStart = 2131231167;
+			
+			// aapt resource value: 0x7F0801C0
+			public const int textTop = 2131231168;
+			
+			// aapt resource value: 0x7F0801C1
+			public const int text_input_end_icon = 2131231169;
+			
+			// aapt resource value: 0x7F0801C2
+			public const int text_input_error_icon = 2131231170;
+			
+			// aapt resource value: 0x7F0801C3
+			public const int text_input_start_icon = 2131231171;
+			
+			// aapt resource value: 0x7F0801CA
+			public const int time = 2131231178;
+			
+			// aapt resource value: 0x7F0801CB
+			public const int title = 2131231179;
+			
+			// aapt resource value: 0x7F0801CC
+			public const int titleDividerNoCustom = 2131231180;
+			
+			// aapt resource value: 0x7F0801CD
+			public const int title_template = 2131231181;
+			
+			// aapt resource value: 0x7F0801CE
+			public const int toggle = 2131231182;
+			
+			// aapt resource value: 0x7F0801CF
+			public const int toolbar = 2131231183;
+			
+			// aapt resource value: 0x7F0801D0
+			public const int top = 2131231184;
 			
 			// aapt resource value: 0x7F0801D1
-			public const int touch_outside = 2131231185;
+			public const int topPanel = 2131231185;
+			
+			// aapt resource value: 0x7F08000D
+			public const int TOP_END = 2131230733;
+			
+			// aapt resource value: 0x7F08000E
+			public const int TOP_START = 2131230734;
 			
 			// aapt resource value: 0x7F0801D2
-			public const int transitionToEnd = 2131231186;
+			public const int touch_outside = 2131231186;
 			
 			// aapt resource value: 0x7F0801D3
-			public const int transitionToStart = 2131231187;
+			public const int transitionToEnd = 2131231187;
 			
 			// aapt resource value: 0x7F0801D4
-			public const int transition_current_scene = 2131231188;
+			public const int transitionToStart = 2131231188;
 			
 			// aapt resource value: 0x7F0801D5
-			public const int transition_layout_save = 2131231189;
+			public const int transition_current_scene = 2131231189;
 			
 			// aapt resource value: 0x7F0801D6
-			public const int transition_position = 2131231190;
+			public const int transition_layout_save = 2131231190;
 			
 			// aapt resource value: 0x7F0801D7
-			public const int transition_scene_layoutid_cache = 2131231191;
+			public const int transition_position = 2131231191;
 			
 			// aapt resource value: 0x7F0801D8
-			public const int transition_transform = 2131231192;
+			public const int transition_scene_layoutid_cache = 2131231192;
 			
 			// aapt resource value: 0x7F0801D9
-			public const int triangle = 2131231193;
+			public const int transition_transform = 2131231193;
 			
 			// aapt resource value: 0x7F0801DA
-			public const int @unchecked = 2131231194;
+			public const int triangle = 2131231194;
 			
 			// aapt resource value: 0x7F0801DB
-			public const int uniform = 2131231195;
+			public const int @unchecked = 2131231195;
 			
 			// aapt resource value: 0x7F0801DC
-			public const int unlabeled = 2131231196;
+			public const int uniform = 2131231196;
 			
 			// aapt resource value: 0x7F0801DD
-			public const int up = 2131231197;
+			public const int unlabeled = 2131231197;
 			
 			// aapt resource value: 0x7F0801DE
-			public const int useLogo = 2131231198;
+			public const int up = 2131231198;
 			
 			// aapt resource value: 0x7F0801DF
-			public const int vertical_only = 2131231199;
+			public const int useLogo = 2131231199;
 			
 			// aapt resource value: 0x7F0801E0
-			public const int view_offset_helper = 2131231200;
+			public const int vertical_only = 2131231200;
 			
 			// aapt resource value: 0x7F0801E1
-			public const int view_transition = 2131231201;
+			public const int view_offset_helper = 2131231201;
 			
 			// aapt resource value: 0x7F0801E2
-			public const int view_tree_lifecycle_owner = 2131231202;
+			public const int view_transition = 2131231202;
 			
 			// aapt resource value: 0x7F0801E3
-			public const int view_tree_saved_state_registry_owner = 2131231203;
+			public const int view_tree_lifecycle_owner = 2131231203;
 			
 			// aapt resource value: 0x7F0801E4
-			public const int view_tree_view_model_store_owner = 2131231204;
+			public const int view_tree_saved_state_registry_owner = 2131231204;
 			
 			// aapt resource value: 0x7F0801E5
-			public const int visible = 2131231205;
+			public const int view_tree_view_model_store_owner = 2131231205;
 			
 			// aapt resource value: 0x7F0801E6
-			public const int visible_removing_fragment_view_tag = 2131231206;
+			public const int visible = 2131231206;
 			
 			// aapt resource value: 0x7F0801E7
-			public const int west = 2131231207;
-			
-			// aapt resource value: 0x7F0801E9
-			public const int withinBounds = 2131231209;
+			public const int visible_removing_fragment_view_tag = 2131231207;
 			
 			// aapt resource value: 0x7F0801E8
-			public const int withText = 2131231208;
+			public const int west = 2131231208;
 			
 			// aapt resource value: 0x7F0801EA
-			public const int wrap = 2131231210;
+			public const int withinBounds = 2131231210;
+			
+			// aapt resource value: 0x7F0801E9
+			public const int withText = 2131231209;
 			
 			// aapt resource value: 0x7F0801EB
-			public const int wrap_content = 2131231211;
+			public const int wrap = 2131231211;
 			
 			// aapt resource value: 0x7F0801EC
-			public const int wrap_content_constrained = 2131231212;
+			public const int wrap_content = 2131231212;
 			
 			// aapt resource value: 0x7F0801ED
-			public const int x_left = 2131231213;
+			public const int wrap_content_constrained = 2131231213;
 			
 			// aapt resource value: 0x7F0801EE
-			public const int x_right = 2131231214;
+			public const int x_left = 2131231214;
 			
 			// aapt resource value: 0x7F0801EF
-			public const int zero_corner_chip = 2131231215;
+			public const int x_right = 2131231215;
+			
+			// aapt resource value: 0x7F0801F0
+			public const int zero_corner_chip = 2131231216;
 			
 			static Id()
 			{
@@ -24174,359 +27823,368 @@ namespace NutritionApp.Droid
 			// aapt resource value: 0x7F0B001F
 			public const int CameraFragment = 2131427359;
 			
+			// aapt resource value: 0x7F0B0021
+			public const int CustomizedImageView = 2131427361;
+			
+			// aapt resource value: 0x7F0B0022
+			public const int CustomizedView = 2131427362;
+			
 			// aapt resource value: 0x7F0B0020
 			public const int custom_dialog = 2131427360;
 			
-			// aapt resource value: 0x7F0B0021
-			public const int design_bottom_navigation_item = 2131427361;
-			
-			// aapt resource value: 0x7F0B0022
-			public const int design_bottom_sheet_dialog = 2131427362;
-			
 			// aapt resource value: 0x7F0B0023
-			public const int design_layout_snackbar = 2131427363;
+			public const int design_bottom_navigation_item = 2131427363;
 			
 			// aapt resource value: 0x7F0B0024
-			public const int design_layout_snackbar_include = 2131427364;
+			public const int design_bottom_sheet_dialog = 2131427364;
 			
 			// aapt resource value: 0x7F0B0025
-			public const int design_layout_tab_icon = 2131427365;
+			public const int design_layout_snackbar = 2131427365;
 			
 			// aapt resource value: 0x7F0B0026
-			public const int design_layout_tab_text = 2131427366;
+			public const int design_layout_snackbar_include = 2131427366;
 			
 			// aapt resource value: 0x7F0B0027
-			public const int design_menu_item_action_area = 2131427367;
+			public const int design_layout_tab_icon = 2131427367;
 			
 			// aapt resource value: 0x7F0B0028
-			public const int design_navigation_item = 2131427368;
+			public const int design_layout_tab_text = 2131427368;
 			
 			// aapt resource value: 0x7F0B0029
-			public const int design_navigation_item_header = 2131427369;
+			public const int design_menu_item_action_area = 2131427369;
 			
 			// aapt resource value: 0x7F0B002A
-			public const int design_navigation_item_separator = 2131427370;
+			public const int design_navigation_item = 2131427370;
 			
 			// aapt resource value: 0x7F0B002B
-			public const int design_navigation_item_subheader = 2131427371;
+			public const int design_navigation_item_header = 2131427371;
 			
 			// aapt resource value: 0x7F0B002C
-			public const int design_navigation_menu = 2131427372;
+			public const int design_navigation_item_separator = 2131427372;
 			
 			// aapt resource value: 0x7F0B002D
-			public const int design_navigation_menu_item = 2131427373;
+			public const int design_navigation_item_subheader = 2131427373;
 			
 			// aapt resource value: 0x7F0B002E
-			public const int design_text_input_end_icon = 2131427374;
+			public const int design_navigation_menu = 2131427374;
 			
 			// aapt resource value: 0x7F0B002F
-			public const int design_text_input_start_icon = 2131427375;
+			public const int design_navigation_menu_item = 2131427375;
 			
 			// aapt resource value: 0x7F0B0030
-			public const int expand_button = 2131427376;
+			public const int design_text_input_end_icon = 2131427376;
 			
 			// aapt resource value: 0x7F0B0031
-			public const int FallbackTabbarDoNotUse = 2131427377;
+			public const int design_text_input_start_icon = 2131427377;
 			
 			// aapt resource value: 0x7F0B0032
-			public const int FallbackToolbarDoNotUse = 2131427378;
+			public const int expand_button = 2131427378;
 			
 			// aapt resource value: 0x7F0B0033
-			public const int FlyoutContent = 2131427379;
+			public const int FallbackTabbarDoNotUse = 2131427379;
 			
 			// aapt resource value: 0x7F0B0034
-			public const int image_frame = 2131427380;
+			public const int FallbackToolbarDoNotUse = 2131427380;
 			
 			// aapt resource value: 0x7F0B0035
-			public const int material_chip_input_combo = 2131427381;
-			
-			// aapt resource value: 0x7F0B003A
-			public const int material_clockface_textview = 2131427386;
-			
-			// aapt resource value: 0x7F0B003B
-			public const int material_clockface_view = 2131427387;
+			public const int FlyoutContent = 2131427381;
 			
 			// aapt resource value: 0x7F0B0036
-			public const int material_clock_display = 2131427382;
+			public const int image_frame = 2131427382;
 			
 			// aapt resource value: 0x7F0B0037
-			public const int material_clock_display_divider = 2131427383;
-			
-			// aapt resource value: 0x7F0B0038
-			public const int material_clock_period_toggle = 2131427384;
-			
-			// aapt resource value: 0x7F0B0039
-			public const int material_clock_period_toggle_land = 2131427385;
+			public const int material_chip_input_combo = 2131427383;
 			
 			// aapt resource value: 0x7F0B003C
-			public const int material_radial_view_group = 2131427388;
+			public const int material_clockface_textview = 2131427388;
 			
 			// aapt resource value: 0x7F0B003D
-			public const int material_textinput_timepicker = 2131427389;
+			public const int material_clockface_view = 2131427389;
 			
-			// aapt resource value: 0x7F0B0040
-			public const int material_timepicker = 2131427392;
+			// aapt resource value: 0x7F0B0038
+			public const int material_clock_display = 2131427384;
 			
-			// aapt resource value: 0x7F0B0041
-			public const int material_timepicker_dialog = 2131427393;
+			// aapt resource value: 0x7F0B0039
+			public const int material_clock_display_divider = 2131427385;
 			
-			// aapt resource value: 0x7F0B0042
-			public const int material_timepicker_textinput_display = 2131427394;
+			// aapt resource value: 0x7F0B003A
+			public const int material_clock_period_toggle = 2131427386;
+			
+			// aapt resource value: 0x7F0B003B
+			public const int material_clock_period_toggle_land = 2131427387;
 			
 			// aapt resource value: 0x7F0B003E
-			public const int material_time_chip = 2131427390;
+			public const int material_radial_view_group = 2131427390;
 			
 			// aapt resource value: 0x7F0B003F
-			public const int material_time_input = 2131427391;
+			public const int material_textinput_timepicker = 2131427391;
+			
+			// aapt resource value: 0x7F0B0042
+			public const int material_timepicker = 2131427394;
 			
 			// aapt resource value: 0x7F0B0043
-			public const int mtrl_alert_dialog = 2131427395;
+			public const int material_timepicker_dialog = 2131427395;
 			
 			// aapt resource value: 0x7F0B0044
-			public const int mtrl_alert_dialog_actions = 2131427396;
+			public const int material_timepicker_textinput_display = 2131427396;
+			
+			// aapt resource value: 0x7F0B0040
+			public const int material_time_chip = 2131427392;
+			
+			// aapt resource value: 0x7F0B0041
+			public const int material_time_input = 2131427393;
 			
 			// aapt resource value: 0x7F0B0045
-			public const int mtrl_alert_dialog_title = 2131427397;
+			public const int mtrl_alert_dialog = 2131427397;
 			
 			// aapt resource value: 0x7F0B0046
-			public const int mtrl_alert_select_dialog_item = 2131427398;
+			public const int mtrl_alert_dialog_actions = 2131427398;
 			
 			// aapt resource value: 0x7F0B0047
-			public const int mtrl_alert_select_dialog_multichoice = 2131427399;
+			public const int mtrl_alert_dialog_title = 2131427399;
 			
 			// aapt resource value: 0x7F0B0048
-			public const int mtrl_alert_select_dialog_singlechoice = 2131427400;
+			public const int mtrl_alert_select_dialog_item = 2131427400;
 			
 			// aapt resource value: 0x7F0B0049
-			public const int mtrl_calendar_day = 2131427401;
-			
-			// aapt resource value: 0x7F0B004B
-			public const int mtrl_calendar_days_of_week = 2131427403;
+			public const int mtrl_alert_select_dialog_multichoice = 2131427401;
 			
 			// aapt resource value: 0x7F0B004A
-			public const int mtrl_calendar_day_of_week = 2131427402;
+			public const int mtrl_alert_select_dialog_singlechoice = 2131427402;
 			
-			// aapt resource value: 0x7F0B004C
-			public const int mtrl_calendar_horizontal = 2131427404;
+			// aapt resource value: 0x7F0B004B
+			public const int mtrl_calendar_day = 2131427403;
 			
 			// aapt resource value: 0x7F0B004D
-			public const int mtrl_calendar_month = 2131427405;
+			public const int mtrl_calendar_days_of_week = 2131427405;
 			
-			// aapt resource value: 0x7F0B0050
-			public const int mtrl_calendar_months = 2131427408;
+			// aapt resource value: 0x7F0B004C
+			public const int mtrl_calendar_day_of_week = 2131427404;
 			
 			// aapt resource value: 0x7F0B004E
-			public const int mtrl_calendar_month_labeled = 2131427406;
+			public const int mtrl_calendar_horizontal = 2131427406;
 			
 			// aapt resource value: 0x7F0B004F
-			public const int mtrl_calendar_month_navigation = 2131427407;
-			
-			// aapt resource value: 0x7F0B0051
-			public const int mtrl_calendar_vertical = 2131427409;
+			public const int mtrl_calendar_month = 2131427407;
 			
 			// aapt resource value: 0x7F0B0052
-			public const int mtrl_calendar_year = 2131427410;
+			public const int mtrl_calendar_months = 2131427410;
+			
+			// aapt resource value: 0x7F0B0050
+			public const int mtrl_calendar_month_labeled = 2131427408;
+			
+			// aapt resource value: 0x7F0B0051
+			public const int mtrl_calendar_month_navigation = 2131427409;
 			
 			// aapt resource value: 0x7F0B0053
-			public const int mtrl_layout_snackbar = 2131427411;
+			public const int mtrl_calendar_vertical = 2131427411;
 			
 			// aapt resource value: 0x7F0B0054
-			public const int mtrl_layout_snackbar_include = 2131427412;
+			public const int mtrl_calendar_year = 2131427412;
 			
 			// aapt resource value: 0x7F0B0055
-			public const int mtrl_navigation_rail_item = 2131427413;
+			public const int mtrl_layout_snackbar = 2131427413;
 			
 			// aapt resource value: 0x7F0B0056
-			public const int mtrl_picker_actions = 2131427414;
+			public const int mtrl_layout_snackbar_include = 2131427414;
 			
 			// aapt resource value: 0x7F0B0057
-			public const int mtrl_picker_dialog = 2131427415;
+			public const int mtrl_navigation_rail_item = 2131427415;
 			
 			// aapt resource value: 0x7F0B0058
-			public const int mtrl_picker_fullscreen = 2131427416;
+			public const int mtrl_picker_actions = 2131427416;
 			
 			// aapt resource value: 0x7F0B0059
-			public const int mtrl_picker_header_dialog = 2131427417;
+			public const int mtrl_picker_dialog = 2131427417;
 			
 			// aapt resource value: 0x7F0B005A
-			public const int mtrl_picker_header_fullscreen = 2131427418;
+			public const int mtrl_picker_fullscreen = 2131427418;
 			
 			// aapt resource value: 0x7F0B005B
-			public const int mtrl_picker_header_selection_text = 2131427419;
+			public const int mtrl_picker_header_dialog = 2131427419;
 			
 			// aapt resource value: 0x7F0B005C
-			public const int mtrl_picker_header_title_text = 2131427420;
+			public const int mtrl_picker_header_fullscreen = 2131427420;
 			
 			// aapt resource value: 0x7F0B005D
-			public const int mtrl_picker_header_toggle = 2131427421;
+			public const int mtrl_picker_header_selection_text = 2131427421;
 			
 			// aapt resource value: 0x7F0B005E
-			public const int mtrl_picker_text_input_date = 2131427422;
+			public const int mtrl_picker_header_title_text = 2131427422;
 			
 			// aapt resource value: 0x7F0B005F
-			public const int mtrl_picker_text_input_date_range = 2131427423;
+			public const int mtrl_picker_header_toggle = 2131427423;
 			
 			// aapt resource value: 0x7F0B0060
-			public const int notification_action = 2131427424;
+			public const int mtrl_picker_text_input_date = 2131427424;
 			
 			// aapt resource value: 0x7F0B0061
-			public const int notification_action_tombstone = 2131427425;
+			public const int mtrl_picker_text_input_date_range = 2131427425;
 			
 			// aapt resource value: 0x7F0B0062
-			public const int notification_media_action = 2131427426;
+			public const int notification_action = 2131427426;
 			
 			// aapt resource value: 0x7F0B0063
-			public const int notification_media_cancel_action = 2131427427;
+			public const int notification_action_tombstone = 2131427427;
 			
 			// aapt resource value: 0x7F0B0064
-			public const int notification_template_big_media = 2131427428;
+			public const int notification_media_action = 2131427428;
 			
 			// aapt resource value: 0x7F0B0065
-			public const int notification_template_big_media_custom = 2131427429;
+			public const int notification_media_cancel_action = 2131427429;
 			
 			// aapt resource value: 0x7F0B0066
-			public const int notification_template_big_media_narrow = 2131427430;
+			public const int notification_template_big_media = 2131427430;
 			
 			// aapt resource value: 0x7F0B0067
-			public const int notification_template_big_media_narrow_custom = 2131427431;
+			public const int notification_template_big_media_custom = 2131427431;
 			
 			// aapt resource value: 0x7F0B0068
-			public const int notification_template_custom_big = 2131427432;
+			public const int notification_template_big_media_narrow = 2131427432;
 			
 			// aapt resource value: 0x7F0B0069
-			public const int notification_template_icon_group = 2131427433;
+			public const int notification_template_big_media_narrow_custom = 2131427433;
 			
 			// aapt resource value: 0x7F0B006A
-			public const int notification_template_lines_media = 2131427434;
+			public const int notification_template_custom_big = 2131427434;
 			
 			// aapt resource value: 0x7F0B006B
-			public const int notification_template_media = 2131427435;
+			public const int notification_template_icon_group = 2131427435;
 			
 			// aapt resource value: 0x7F0B006C
-			public const int notification_template_media_custom = 2131427436;
+			public const int notification_template_lines_media = 2131427436;
 			
 			// aapt resource value: 0x7F0B006D
-			public const int notification_template_part_chronometer = 2131427437;
+			public const int notification_template_media = 2131427437;
 			
 			// aapt resource value: 0x7F0B006E
-			public const int notification_template_part_time = 2131427438;
+			public const int notification_template_media_custom = 2131427438;
 			
 			// aapt resource value: 0x7F0B006F
-			public const int preference = 2131427439;
+			public const int notification_template_part_chronometer = 2131427439;
 			
 			// aapt resource value: 0x7F0B0070
-			public const int preference_category = 2131427440;
+			public const int notification_template_part_time = 2131427440;
 			
 			// aapt resource value: 0x7F0B0071
-			public const int preference_category_material = 2131427441;
+			public const int preference = 2131427441;
 			
 			// aapt resource value: 0x7F0B0072
-			public const int preference_dialog_edittext = 2131427442;
+			public const int preference_category = 2131427442;
 			
 			// aapt resource value: 0x7F0B0073
-			public const int preference_dropdown = 2131427443;
+			public const int preference_category_material = 2131427443;
 			
 			// aapt resource value: 0x7F0B0074
-			public const int preference_dropdown_material = 2131427444;
+			public const int preference_dialog_edittext = 2131427444;
 			
 			// aapt resource value: 0x7F0B0075
-			public const int preference_information = 2131427445;
+			public const int preference_dropdown = 2131427445;
 			
 			// aapt resource value: 0x7F0B0076
-			public const int preference_information_material = 2131427446;
+			public const int preference_dropdown_material = 2131427446;
 			
 			// aapt resource value: 0x7F0B0077
-			public const int preference_list_fragment = 2131427447;
+			public const int preference_information = 2131427447;
 			
 			// aapt resource value: 0x7F0B0078
-			public const int preference_material = 2131427448;
+			public const int preference_information_material = 2131427448;
 			
 			// aapt resource value: 0x7F0B0079
-			public const int preference_recyclerview = 2131427449;
+			public const int preference_list_fragment = 2131427449;
 			
 			// aapt resource value: 0x7F0B007A
-			public const int preference_widget_checkbox = 2131427450;
+			public const int preference_material = 2131427450;
 			
 			// aapt resource value: 0x7F0B007B
-			public const int preference_widget_seekbar = 2131427451;
+			public const int preference_recyclerview = 2131427451;
 			
 			// aapt resource value: 0x7F0B007C
-			public const int preference_widget_seekbar_material = 2131427452;
+			public const int preference_widget_checkbox = 2131427452;
 			
 			// aapt resource value: 0x7F0B007D
-			public const int preference_widget_switch = 2131427453;
+			public const int preference_widget_seekbar = 2131427453;
 			
 			// aapt resource value: 0x7F0B007E
-			public const int preference_widget_switch_compat = 2131427454;
+			public const int preference_widget_seekbar_material = 2131427454;
 			
 			// aapt resource value: 0x7F0B007F
-			public const int RootLayout = 2131427455;
+			public const int preference_widget_switch = 2131427455;
 			
 			// aapt resource value: 0x7F0B0080
-			public const int select_dialog_item_material = 2131427456;
+			public const int preference_widget_switch_compat = 2131427456;
 			
 			// aapt resource value: 0x7F0B0081
-			public const int select_dialog_multichoice_material = 2131427457;
+			public const int RootLayout = 2131427457;
 			
 			// aapt resource value: 0x7F0B0082
-			public const int select_dialog_singlechoice_material = 2131427458;
+			public const int select_dialog_item_material = 2131427458;
 			
 			// aapt resource value: 0x7F0B0083
-			public const int ShellContent = 2131427459;
+			public const int select_dialog_multichoice_material = 2131427459;
 			
 			// aapt resource value: 0x7F0B0084
-			public const int support_simple_spinner_dropdown_item = 2131427460;
+			public const int select_dialog_singlechoice_material = 2131427460;
 			
 			// aapt resource value: 0x7F0B0085
-			public const int Tabbar = 2131427461;
+			public const int sfcomboBox_layout = 2131427461;
 			
 			// aapt resource value: 0x7F0B0086
-			public const int test_action_chip = 2131427462;
+			public const int ShellContent = 2131427462;
 			
 			// aapt resource value: 0x7F0B0087
-			public const int test_chip_zero_corner_radius = 2131427463;
+			public const int support_simple_spinner_dropdown_item = 2131427463;
 			
 			// aapt resource value: 0x7F0B0088
-			public const int test_design_checkbox = 2131427464;
+			public const int Tabbar = 2131427464;
 			
 			// aapt resource value: 0x7F0B0089
-			public const int test_design_radiobutton = 2131427465;
+			public const int test_action_chip = 2131427465;
 			
 			// aapt resource value: 0x7F0B008A
-			public const int test_navigation_bar_item_layout = 2131427466;
+			public const int test_chip_zero_corner_radius = 2131427466;
 			
 			// aapt resource value: 0x7F0B008B
-			public const int test_reflow_chipgroup = 2131427467;
+			public const int test_design_checkbox = 2131427467;
 			
 			// aapt resource value: 0x7F0B008C
-			public const int test_toolbar = 2131427468;
+			public const int test_design_radiobutton = 2131427468;
 			
 			// aapt resource value: 0x7F0B008D
-			public const int test_toolbar_custom_background = 2131427469;
+			public const int test_navigation_bar_item_layout = 2131427469;
 			
 			// aapt resource value: 0x7F0B008E
-			public const int test_toolbar_elevation = 2131427470;
+			public const int test_reflow_chipgroup = 2131427470;
 			
 			// aapt resource value: 0x7F0B008F
-			public const int test_toolbar_surface = 2131427471;
-			
-			// aapt resource value: 0x7F0B0094
-			public const int text_view_without_line_height = 2131427476;
+			public const int test_toolbar = 2131427471;
 			
 			// aapt resource value: 0x7F0B0090
-			public const int text_view_with_line_height_from_appearance = 2131427472;
+			public const int test_toolbar_custom_background = 2131427472;
 			
 			// aapt resource value: 0x7F0B0091
-			public const int text_view_with_line_height_from_layout = 2131427473;
+			public const int test_toolbar_elevation = 2131427473;
 			
 			// aapt resource value: 0x7F0B0092
-			public const int text_view_with_line_height_from_style = 2131427474;
+			public const int test_toolbar_surface = 2131427474;
+			
+			// aapt resource value: 0x7F0B0097
+			public const int text_view_without_line_height = 2131427479;
 			
 			// aapt resource value: 0x7F0B0093
-			public const int text_view_with_theme_line_height = 2131427475;
+			public const int text_view_with_line_height_from_appearance = 2131427475;
+			
+			// aapt resource value: 0x7F0B0094
+			public const int text_view_with_line_height_from_layout = 2131427476;
 			
 			// aapt resource value: 0x7F0B0095
-			public const int Toolbar = 2131427477;
+			public const int text_view_with_line_height_from_style = 2131427477;
+			
+			// aapt resource value: 0x7F0B0096
+			public const int text_view_with_theme_line_height = 2131427478;
+			
+			// aapt resource value: 0x7F0B0098
+			public const int Toolbar = 2131427480;
 			
 			static Layout()
 			{

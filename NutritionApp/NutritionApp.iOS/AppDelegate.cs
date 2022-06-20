@@ -24,6 +24,7 @@ namespace NutritionApp.iOS
         {
             global::Xamarin.Forms.Forms.Init();
             Syncfusion.XForms.iOS.Expander.SfExpanderRenderer.Init();
+            Syncfusion.XForms.iOS.ComboBox.SfComboBoxRenderer.Init();
             SfListViewRenderer.Init();
             LoadApplication(new App());
 

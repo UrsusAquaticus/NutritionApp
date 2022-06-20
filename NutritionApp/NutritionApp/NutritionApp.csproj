@@ -11,6 +11,7 @@
     <PackageReference Include="SQLiteNetExtensions.Async" Version="2.1.0" />
     <PackageReference Include="Syncfusion.Xamarin.Core" Version="20.1.0.60" />
     <PackageReference Include="Syncfusion.Xamarin.Expander" Version="20.1.0.60" />
+    <PackageReference Include="Syncfusion.Xamarin.SfComboBox" Version="20.1.0.60" />
     <PackageReference Include="Syncfusion.Xamarin.SfListView" Version="20.1.0.60" />
     <PackageReference Include="Xamarin.CommunityToolkit" Version="2.0.2" />
     <PackageReference Include="Xamarin.Forms" Version="5.0.0.2478" />  
