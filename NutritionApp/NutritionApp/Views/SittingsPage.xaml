@@ -12,7 +12,7 @@
 
     <!-- has add new sitting button on toolbar -->
     <ContentPage.ToolbarItems>
-        <ToolbarItem Icon="edit.png" Command="{Binding EditProfileCommand}"/>
+        <ToolbarItem Icon="edit.png" Command="{Binding EditProfileCommand}" CommandParameter="{Binding Profile}"/>
         <ToolbarItem Icon="add.png" Command="{Binding AddSittingCommand}"/>
     </ContentPage.ToolbarItems>
 
