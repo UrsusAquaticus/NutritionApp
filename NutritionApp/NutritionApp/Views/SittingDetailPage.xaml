@@ -1,6 +1,7 @@
 ﻿<?xml version="1.0" encoding="utf-8" ?>
 <ContentPage xmlns="http://xamarin.com/schemas/2014/forms"
              xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+             xmlns:combobox="clr-namespace:Syncfusion.XForms.ComboBox;assembly=Syncfusion.SfComboBox.XForms"
              x:Class="NutritionApp.Views.SittingDetailPage"
              Title="Sitting Details">
     <StackLayout>
@@ -13,6 +14,22 @@
                 </ViewCell>
                 <ViewCell>
                     <TimePicker Time="{Binding Path=Sitting.Time}" />
+                </ViewCell>
+                <ViewCell>
+                    <StackLayout>
+                        <!--<combobox:SfComboBox x:Name="combo"
+                                             DataSource="{Binding Meals}" DisplayMemberPath="Name">
+
+
+                        </combobox:SfComboBox>-->
+
+                        <Picker x:Name="mealIngredientPicker"
+                                Title="Select Meal..."
+                                ItemsSource="{Binding Meals}"
+                                ItemDisplayBinding="{Binding Name}"
+                                SelectedItem="onMealIngredientSelected"
+                        />
+                    </StackLayout>
                 </ViewCell>
             </TableSection>
 

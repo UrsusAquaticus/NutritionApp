@@ -52,6 +52,7 @@ namespace NutritionApp.ViewModels
 
         /// <summary>
         /// Load Ingredient collection on load
+        /// unsure what else needed
         /// </summary>
         /// <returns></returns>
         private async Task LoadData()

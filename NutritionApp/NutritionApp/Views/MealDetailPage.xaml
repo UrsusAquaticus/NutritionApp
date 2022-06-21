@@ -19,18 +19,23 @@
                 <ViewCell>
                     <StackLayout Orientation="Horizontal">
                         <Label Text="Ingredient: " Padding="15,10,10,0" />
-                        <!--<combobox:SfComboBox x:Name="combo"
-                                             DataSource="{Binding Ingredient}" DisplayMemberPath="Name">
+                        <!-- both should work the same -->
+                        
+                        <!-- syncfusion -->
+                        <!-- bind to Ingredients list and display the name property -->
+                        <combobox:SfComboBox x:Name="combo"
+                                             DataSource="{Binding Ingredients}" DisplayMemberPath="Name">
 
                             
-                        </combobox:SfComboBox>-->
+                        </combobox:SfComboBox>
 
-                        <Picker x:Name="mealIngredientPicker"
+                        <!-- xamarin picker -->
+                        <!--<Picker x:Name="mealIngredientPicker"
                                 Title="Select Ingredient..."
                                 ItemsSource="{Binding Ingredients}"
                                 ItemDisplayBinding="{Binding Name}"
                                 SelectedItem="onMealIngredientSelected"
-                        />
+                        />-->
 
 
                     </StackLayout>

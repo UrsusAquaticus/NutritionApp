@@ -13,11 +13,13 @@ namespace NutritionApp.ViewModels
     {
         private readonly IDataStore<Sitting> sittingStore;
         private readonly IDataStore<Meal> mealStore;
+        private bool isDataLoaded;
 
         private readonly IPageService pageService;
         public Sitting Sitting { get; private set; }
         public ICommand SaveCommand { get; private set; }
         public ICommand RandomMealCommand { get; private set; }
+        public ICommand LoadDataCommand { get; private set; }
         public SittingDetailPageViewModel(Sitting sitting, IPageService pageService)
         {
             Sitting = sitting;
@@ -28,7 +30,39 @@ namespace NutritionApp.ViewModels
 
             SaveCommand = new Command(async () => await Save());
             RandomMealCommand = new Command(async () => await RandomMeal());
+            LoadDataCommand = new Command(async () => await LoadData());
         }
+
+        // load meals collection for use in combobox?
+        private ObservableCollection<Meal> meals = new ObservableCollection<Meal>();
+        public ObservableCollection<Meal> Meals
+        {
+            get
+            {
+                return meals;
+            }
+            set
+            {
+                SetValue(ref meals, value);
+            }
+        }
+
+        /// <summary>
+        /// Load Meal collection on load
+        /// unsure what else needed
+        /// </summary>
+        /// <returns></returns>
+        private async Task LoadData()
+        {
+            if (isDataLoaded)
+                return;
+            isDataLoaded = true;
+            var meals = await mealStore.GetAsync();
+            foreach (var meal in meals)
+                Meals.Add(meal);
+        }
+
+
 
         private async Task RandomMeal()
         {
