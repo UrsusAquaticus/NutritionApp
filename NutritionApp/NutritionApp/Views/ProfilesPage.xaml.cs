@@ -20,7 +20,8 @@ namespace NutritionApp.Views
         public ProfilesPage()
         {
             var pageService = new PageService();
-            ViewModel = new ProfilesPageViewModel(pageService);
+            var profileStore = App.Database.ProfileStore;
+            ViewModel = new ProfilesPageViewModel(profileStore, pageService);
             InitializeComponent();
         }
         protected override void OnAppearing()
