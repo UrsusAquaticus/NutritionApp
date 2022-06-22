@@ -6,9 +6,9 @@ using Xamarin.Forms;
 
 namespace NutritionApp.Views
 {
-    public partial class SittingDetailPage : ContentPage
+    public partial class SittingDetailsViewPage : ContentPage
     {
-        public SittingDetailPage(Sitting sitting)
+        public SittingDetailsViewPage(Sitting sitting)
         {
             InitializeComponent();
             var pageService = new PageService();
@@ -21,6 +21,12 @@ namespace NutritionApp.Views
         {
             get { return BindingContext as SittingDetailPageViewModel; }
             set { BindingContext = value; }
+        }
+
+        protected override void OnAppearing()
+        {
+            ViewModel.LoadDataCommand.Execute(null);
+            base.OnAppearing();
         }
     }
 }

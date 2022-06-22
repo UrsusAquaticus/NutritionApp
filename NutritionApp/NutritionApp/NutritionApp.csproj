@@ -20,6 +20,9 @@
   </ItemGroup>
 
   <ItemGroup>
+    <Compile Update="Views\SittingMealsPage.xaml.cs">
+      <DependentUpon>SittingMealsPage.xaml</DependentUpon>
+    </Compile>
     <Compile Update="Views\SittingDetailPage.xaml.cs">
       <DependentUpon>SittingDetailPage.xaml</DependentUpon>
     </Compile>

@@ -34,23 +34,22 @@
         <ListView.ItemTemplate>
             <DataTemplate>
                 <ViewCell>
-                        <Grid Padding="10">
-                            <StackLayout Orientation="Horizontal">
-                                <Image Source="profile.png" StyleClass="iconTint" />
-                                <Label Padding="0,2.5,0,0" Text="{Binding Name}"/>
+                    <Grid Padding="10">
+                        <StackLayout Orientation="Horizontal">
+                            <Image Source="profile.png"/>
+                            <Label Padding="0,2.5,0,0" Text="{Binding Name}"/>
                                 
-                            </StackLayout>
-                            <StackLayout Orientation="Horizontal" HorizontalOptions="EndAndExpand">
-                                <ImageButton
-                                    Source="delete.png"
-                                    HorizontalOptions="End"
-                                    VerticalOptions="EndAndExpand"
-                                    BackgroundColor="white"
-                                    Command="{Binding Source={RelativeSource AncestorType={x:Type local:ProfilesPageViewModel}}, Path=DeleteProfileCommand}"
-                                    CommandParameter="{Binding}"
-                                />
-                            </StackLayout>
-                        </Grid>
+                        </StackLayout>
+                        <StackLayout Orientation="Horizontal" HorizontalOptions="EndAndExpand">
+                            <ImageButton Source="delete.png"
+                                         HorizontalOptions="End"
+                                         VerticalOptions="EndAndExpand"
+                                         BackgroundColor="white"
+                                         Command="{Binding Source={RelativeSource AncestorType={x:Type local:ProfilesPageViewModel}}, Path=DeleteProfileCommand}"
+                                         CommandParameter="{Binding}"
+                            />
+                        </StackLayout>
+                    </Grid>
                 </ViewCell>
             </DataTemplate>
         </ListView.ItemTemplate>

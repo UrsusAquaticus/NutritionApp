@@ -22,5 +22,11 @@ namespace NutritionApp.Views
             get { return BindingContext as MealDetailPageViewModel; }
             set { BindingContext = value; }
         }
+
+        protected override void OnAppearing()
+        {
+            ViewModel.LoadDataCommand.Execute(null);
+            base.OnAppearing();
+        }
     }
 }

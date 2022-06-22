@@ -26038,31 +26038,34 @@ namespace NutritionApp.Droid
 			public const int notify_panel_notification_icon_bg = 2131165368;
 			
 			// aapt resource value: 0x7F0700B9
-			public const int preference_list_divider_material = 2131165369;
+			public const int pedit = 2131165369;
 			
 			// aapt resource value: 0x7F0700BA
-			public const int profile = 2131165370;
+			public const int preference_list_divider_material = 2131165370;
 			
 			// aapt resource value: 0x7F0700BB
-			public const int profiles = 2131165371;
+			public const int profile = 2131165371;
 			
 			// aapt resource value: 0x7F0700BC
-			public const int settings = 2131165372;
+			public const int profiles = 2131165372;
 			
 			// aapt resource value: 0x7F0700BD
-			public const int targetKjs = 2131165373;
+			public const int settings = 2131165373;
 			
 			// aapt resource value: 0x7F0700BE
-			public const int test_custom_background = 2131165374;
+			public const int targetKjs = 2131165374;
 			
 			// aapt resource value: 0x7F0700BF
-			public const int tooltip_frame_dark = 2131165375;
+			public const int test_custom_background = 2131165375;
 			
 			// aapt resource value: 0x7F0700C0
-			public const int tooltip_frame_light = 2131165376;
+			public const int tooltip_frame_dark = 2131165376;
 			
 			// aapt resource value: 0x7F0700C1
-			public const int xamarin_logo = 2131165377;
+			public const int tooltip_frame_light = 2131165377;
+			
+			// aapt resource value: 0x7F0700C2
+			public const int xamarin_logo = 2131165378;
 			
 			static Drawable()
 			{

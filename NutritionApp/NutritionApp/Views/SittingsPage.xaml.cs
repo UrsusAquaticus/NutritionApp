@@ -27,9 +27,5 @@ namespace NutritionApp.Views
             set { BindingContext = value; }
         }
 
-        private void ExpanderTapped(object sender, System.EventArgs e)
-        {
-
-        }
     }
 }

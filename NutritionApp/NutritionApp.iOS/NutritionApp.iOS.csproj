@@ -203,4 +203,7 @@
   <ItemGroup>
     <BundleResource Include="Resources\expand.png" />
   </ItemGroup>
+  <ItemGroup>
+    <BundleResource Include="Resources\pedit.png" />
+  </ItemGroup>
 </Project>

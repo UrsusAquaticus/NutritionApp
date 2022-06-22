@@ -15,6 +15,7 @@ namespace NutritionApp.Models
 
         //Private
         private ObservableCollection<Sitting> sittings;
+        private ObservableCollection<Goal> goals;
         private string name;
         private DateTime dOB;
         private string gender;
@@ -37,6 +38,22 @@ namespace NutritionApp.Models
             }
             set => SetValue(ref sittings, value);
         }
+
+        //Public
+        [OneToMany(CascadeOperations = CascadeOperation.All)]
+        public ObservableCollection<Goal> Goals
+        {
+            get
+            {
+                if (goals == null)
+                {
+                    goals = new ObservableCollection<Goal>();
+                }
+                return goals;
+            }
+            set => SetValue(ref goals, value);
+        }
+
         public string Name { get => name; set => SetValue(ref name, value); }
         public DateTime DOB { get => dOB; set => SetValue(ref dOB, value); }
         public string Gender { get => gender; set => SetValue(ref gender, value); }
@@ -44,5 +61,18 @@ namespace NutritionApp.Models
         public float Height { get => height; set => SetValue(ref height, value); }
         public float Activity { get => activity; set => SetValue(ref activity, value); }
         public bool Pregnant { get => pregnant; set => SetValue(ref pregnant, value); }
+
+        public Goal CurrentGoal
+        {
+            get
+            {
+                if (Goals.Count == 0)
+                {
+                    Goals.Add(new Goal());
+                }
+                return Goals[Goals.Count - 1];
+            }
+        }
+
     }
 }

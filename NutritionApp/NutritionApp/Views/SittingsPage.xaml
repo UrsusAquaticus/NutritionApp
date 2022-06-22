@@ -19,25 +19,55 @@
 
     <StackLayout x:Name="container">
 
-        <StackLayout Orientation="Horizontal" HeightRequest="50" BindableLayout.ItemsSource="{Binding Path=Goal}">
-            <Image Source="targetKjs.png" Margin="10,5,-10,0" />
+        <StackLayout Orientation="Horizontal" HeightRequest="50">
+            <Image Source="targetKjs.png" Margin="5,5,-10,0" />
 
             <TableView>
                 <TableSection>
-                    <EntryCell Label="Daily Target Kjs:" Text="{Binding Path=Goal.DailyKj}" Height="30" />
+                    <EntryCell Label="Daily Target Kjs:" Text="{Binding Path=Profile.CurrentGoal.DailyKj}" Height="30" />
                 </TableSection>
             </TableView>
 
         </StackLayout>
 
+        <ListView x:Name="sittingList"
+                  ItemsSource="{Binding Path=Profile.Sittings}"
+                  SelectedItem="{Binding SelectedSitting, Mode=TwoWay}"
+                  ItemSelected="OnSittingSelected">
+            <ListView.ItemTemplate>
+                <DataTemplate>
+                    <ViewCell>
+                        <Grid Padding="12,0,0,0">
+                            <StackLayout Orientation="Horizontal">
+                                <Image Source="calendar.png"/>
+                                <Label Padding="0,2.5,0,0" Text="{Binding Path=Date, StringFormat='{0:MMMM dd, yyyy}'}"/>
+                            </StackLayout>
+
+                            <!-- move into SittingsDetailsViewPage -->
+                            <!--<StackLayout Orientation="Horizontal" HorizontalOptions="EndAndExpand">
+                                <ImageButton Source="pedit.png"
+                                             HorizontalOptions="End"
+                                             VerticalOptions="EndAndExpand"
+                                             Command="{Binding Source={RelativeSource AncestorType={x:Type local:SittingsPageViewModel}}, Path=SelectSittingCommand}"
+                                             CommandParameter="{Binding}"/>
+                            </StackLayout>-->
+                        </Grid>
+                    </ViewCell>
+                </DataTemplate>
+                
+            </ListView.ItemTemplate>
+
+        </ListView>
+
         <!-- expander docs https://help.syncfusion.com/xamarin/expander/getting-started -->
         <!-- listview docs https://help.syncfusion.com/xamarin/listview/getting-started -->
-        <listview:SfListView x:Name="expanderListView"
+        <!--<listview:SfListView x:Name="expanderListView"
                              ItemsSource="{Binding Path=Profile.Sittings}"
                              Padding="15,10,0,0"
                              AutoFitMode="DynamicHeight"
                              >
             <listview:SfListView.ItemTemplate>
+                
                 <DataTemplate>
 
                     <expander:SfExpander x:Name="mainExpander"
@@ -51,28 +81,7 @@
                             </Grid>
                         </expander:SfExpander.Header>
 
-                        <expander:SfExpander.Content>
-
-                            <Grid>
-                                <listview:SfListView x:Name="subExpander"
-                                                 ItemsSource="{Binding Path=Sitting.SittingMeals}"
-                                                 Padding="10"
-                                                 AutoFitMode="DynamicHeight">
-                                    <listview:SfListView.ItemTemplate>
-
-                                        <DataTemplate>
-                                            <Grid>
-                                                <Label Text="{Binding Path=Meal}" IsVisible="true"/>
-
-                                            </Grid>
-                                        </DataTemplate>
-                                                                              
-                                    
-                                    </listview:SfListView.ItemTemplate>
-                                </listview:SfListView>
-                            </Grid>
-                            
-                        </expander:SfExpander.Content>
+                        
 
                     </expander:SfExpander>
                     
@@ -81,7 +90,7 @@
                 
             </listview:SfListView.ItemTemplate>
             
-        </listview:SfListView>
+        </listview:SfListView>-->
         
 
     </StackLayout>
