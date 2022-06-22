@@ -29,7 +29,6 @@ namespace NutritionApp.ViewModels
             }
             set
             {
-                profiles = value;
                 SetValue(ref profiles, value);
             }
         }
@@ -59,15 +58,15 @@ namespace NutritionApp.ViewModels
             DeleteProfileCommand = new Command<Profile>(async c => await DeleteProfile(c));
             FilterProfileCommand = new Command<string>(async c => await FilterProfile(c));
 
-            MessagingCenter.Subscribe<ProfileDetailPageViewModel, Profile>(this, Events.ProfileAdded, OnProfileAdded);
-            MessagingCenter.Subscribe<ProfileDetailPageViewModel, Profile>(this, Events.ProfileUpdated, OnProfileUpdated);
+            MessagingCenter.Subscribe<object, Profile>(this, Events.ProfileAdded, OnProfileAdded);
+            MessagingCenter.Subscribe<object, Profile>(this, Events.ProfileUpdated, OnProfileUpdated);
         }
 
-        private void OnProfileAdded(ProfileDetailPageViewModel source, Profile profile)
+        private void OnProfileAdded(object source, Profile profile)
         {
             Profiles.Add(profile);
         }
-        private void OnProfileUpdated(ProfileDetailPageViewModel source, Profile profile)
+        private void OnProfileUpdated(object source, Profile profile)
         {
             var profileInList = Profiles.Single(c => c.Id == profile.Id);
             profileInList = profile;
