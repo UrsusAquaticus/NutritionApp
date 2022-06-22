@@ -32,7 +32,7 @@ namespace NutritionApp.Views
 
         void OnSittingMealSelected(object sender, SelectedItemChangedEventArgs e)
         {
-            ViewModel.
+            
         }
 
     }
