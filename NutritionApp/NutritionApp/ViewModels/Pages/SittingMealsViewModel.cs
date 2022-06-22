@@ -27,11 +27,6 @@ namespace NutritionApp.ViewModels
                 SittingMeals.Add(sittingMeal);
         }
 
-        public SittingMealsViewModel(PageService pageService)
-        {
-            this.pageService = pageService;
-        }
-
         private ObservableCollection<SittingMeal> sittingMeals = new ObservableCollection<SittingMeal>();
         public ObservableCollection<SittingMeal> SittingMeals
         {

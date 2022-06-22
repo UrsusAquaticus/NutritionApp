@@ -12,12 +12,14 @@ namespace NutritionApp.Persistence
     public abstract class SQLiteDataStoreBase<T> : IDataStore<T> where T : new()
     {
         protected SQLiteAsyncConnection connection;
+        protected bool isEmpty;
 
         public SQLiteDataStoreBase(ISQLiteDb db)
         {
             connection = db.GetConnection();
             connection.CreateTableAsync<T>();
             //connection.DeleteAllAsync<T>();
+            //connection.Table<T>().CountAsync();
         }
 
         //Create

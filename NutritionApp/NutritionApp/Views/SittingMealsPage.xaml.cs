@@ -20,7 +20,7 @@ namespace NutritionApp.Views
         public SittingMealsPage(Sitting sitting)
         {
             var pageService = new PageService();
-            ViewModel = new SittingMealsViewModel(pageService);
+            ViewModel = new SittingMealsViewModel(sitting, pageService);
             InitializeComponent();
         }
 
