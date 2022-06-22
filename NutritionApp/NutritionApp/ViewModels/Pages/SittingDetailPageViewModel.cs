@@ -18,6 +18,7 @@ namespace NutritionApp.ViewModels
         private bool isDataLoaded;
         public Sitting Sitting { get; private set; }
 
+        public ICommand AddMealCommand { get; private set; }
         public ICommand LoadDataCommand { get; private set; }
         public ICommand SaveCommand { get; private set; }
         public ICommand RandomMealCommand { get; private set; }
@@ -44,6 +45,7 @@ namespace NutritionApp.ViewModels
             sittingStore = App.Database.SittingStore;
             mealStore = App.Database.MealStore;
 
+            AddMealCommand = new Command<SittingMeal>(async (sm) => await AddMeal(sm));
             LoadDataCommand = new Command(async () => await LoadData());
             SaveCommand = new Command(async () => await Save());
             RandomMealCommand = new Command(async () => await RandomMeal());
@@ -63,6 +65,16 @@ namespace NutritionApp.ViewModels
             var meals = await mealStore.GetAsync();
             foreach (var meal in meals)
                 Meals.Add(meal);
+        }
+
+        private async Task AddMeal(SittingMeal sittingMeal)
+        {
+            if (sittingMeal == null)
+            {
+                await pageService.DisplayAlert("Error", "Please enter a meal", "OK");
+                return;
+            }
+            Sitting.AddMeal(new Tuple<Meal, float>(sittingMeal.Meal, sittingMeal.NumberOfServings));
         }
 
 

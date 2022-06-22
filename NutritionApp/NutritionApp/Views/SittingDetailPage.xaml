@@ -2,10 +2,15 @@
 <ContentPage xmlns="http://xamarin.com/schemas/2014/forms"
              xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
              x:Class="NutritionApp.Views.SittingDetailPage"
+             xmlns:help="clr-namespace:NutritionApp.Helpers"
              xmlns:local="clr-namespace:NutritionApp.ViewModels"  
              xmlns:model="clr-namespace:NutritionApp.Models"  
              Title="Sitting Details">
-
+    <ContentPage.Resources>
+        <ResourceDictionary>
+            <help:SittingMealConverter x:Key="SittingMealConverter" />
+        </ResourceDictionary>
+    </ContentPage.Resources>
     <StackLayout Padding="16,8,16,0">
 
         <StackLayout Orientation="Horizontal" HorizontalOptions="CenterAndExpand">
@@ -32,7 +37,15 @@
                            Keyboard="Numeric"
                            Text="{Binding Path=Meal.ServingSizeGrams}"
                            HorizontalOptions="FillAndExpand"/>
-                    <Button Text="Add Meal" Command="{Binding RandomMealCommand}" >
+                    <Button Text="Add Meal" Command="{Binding AddMealCommand}" >
+                        <Button.CommandParameter>
+                            <MultiBinding Converter="{StaticResource SittingMealConverter}">
+                                <MultiBinding.Bindings>
+                                    <Binding Path="SelectedItem" Source="{x:Reference sittingMealPicker}"/>
+                                    <Binding Path="Text" Source="{x:Reference servingSizeGramsText}"/>
+                                </MultiBinding.Bindings>
+                            </MultiBinding>
+                        </Button.CommandParameter>
                     </Button>
                 </StackLayout>
             </StackLayout>
