@@ -59,7 +59,7 @@ namespace NutritionApp.ViewModels
 
         private async Task AddSitting()
         {
-            await pageService.PushAsync(new SittingDetailsViewPage(
+            await pageService.PushAsync(new SittingDetailPage(
                 new Sitting
                 {
                     ProfileId = Profile.Id,

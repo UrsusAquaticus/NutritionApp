@@ -18,6 +18,7 @@ namespace NutritionApp.ViewModels
         private bool isDataLoaded;
         public Meal Meal { get; private set; }
         
+        public ICommand AddIngredientCommand { get; private set; }
         public ICommand LoadDataCommand { get; private set; }
         public ICommand SaveCommand { get; private set; }
         public ICommand RandomIngredientCommand { get; private set; }
@@ -45,6 +46,7 @@ namespace NutritionApp.ViewModels
             mealStore = App.Database.MealStore;
             ingredientStore = App.Database.IngredientStore;
 
+            AddIngredientCommand = new Command<MealIngredient>(async (mi) => await AddIngredient(mi));
             LoadDataCommand = new Command(async () => await LoadData());
             SaveCommand = new Command(async () => await Save());
             RandomIngredientCommand = new Command(async () => await RandomIngredient());
@@ -71,6 +73,15 @@ namespace NutritionApp.ViewModels
             var rndNumber = new Random().Next(0, ingredients.Count);
             var ingredient = ingredients[rndNumber];
             Meal.AddIngredient(new Tuple<Ingredient, float>(ingredient, (float)rndNumber));
+        }
+        private async Task AddIngredient(MealIngredient mealIngredient)
+        {
+            if(mealIngredient == null)
+            {
+                await pageService.DisplayAlert("Error", "Please enter an ingredient", "OK");
+                return;
+            }
+            Meal.AddIngredient(new Tuple<Ingredient, float>(mealIngredient.Ingredient, mealIngredient.NumberOfServings));
         }
 
         private async Task Save()

@@ -13,27 +13,16 @@ namespace NutritionApp.ViewModels
     {
         private readonly IDataStore<Sitting> sittingStore;
         private readonly IDataStore<Meal> mealStore;
-        private bool isDataLoaded;
 
         private readonly IPageService pageService;
+        private bool isDataLoaded;
         public Sitting Sitting { get; private set; }
+
+        public ICommand LoadDataCommand { get; private set; }
         public ICommand SaveCommand { get; private set; }
         public ICommand RandomMealCommand { get; private set; }
-        public ICommand LoadDataCommand { get; private set; }
-        public SittingDetailPageViewModel(Sitting sitting, IPageService pageService)
-        {
-            Sitting = sitting;
-            this.pageService = pageService;
 
-            sittingStore = App.Database.SittingStore;
-            mealStore = App.Database.MealStore;
-
-            SaveCommand = new Command(async () => await Save());
-            RandomMealCommand = new Command(async () => await RandomMeal());
-            LoadDataCommand = new Command(async () => await LoadData());
-        }
-
-        // load meals collection for use in combobox?
+        // load meals collection for use in picker
         private ObservableCollection<Meal> meals = new ObservableCollection<Meal>();
         public ObservableCollection<Meal> Meals
         {
@@ -46,6 +35,20 @@ namespace NutritionApp.ViewModels
                 SetValue(ref meals, value);
             }
         }
+
+        public SittingDetailPageViewModel(Sitting sitting, IPageService pageService)
+        {
+            Sitting = sitting;
+            this.pageService = pageService;
+
+            sittingStore = App.Database.SittingStore;
+            mealStore = App.Database.MealStore;
+
+            LoadDataCommand = new Command(async () => await LoadData());
+            SaveCommand = new Command(async () => await Save());
+            RandomMealCommand = new Command(async () => await RandomMeal());
+        }
+
 
         /// <summary>
         /// Load Meal collection on load

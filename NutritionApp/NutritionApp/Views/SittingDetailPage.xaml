@@ -1,67 +1,111 @@
 ﻿<?xml version="1.0" encoding="utf-8" ?>
 <ContentPage xmlns="http://xamarin.com/schemas/2014/forms"
              xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
-             xmlns:combobox="clr-namespace:Syncfusion.XForms.ComboBox;assembly=Syncfusion.SfComboBox.XForms"
-             x:Class="NutritionApp.Views.SittingDetailsViewPage"
+             x:Class="NutritionApp.Views.SittingDetailPage"
+             xmlns:local="clr-namespace:NutritionApp.ViewModels"  
+             xmlns:model="clr-namespace:NutritionApp.Models"  
              Title="Sitting Details">
-    <StackLayout>
 
-        <TableView Intent="Form" Margin="16,0">
+    <StackLayout Padding="16,8,16,0">
 
-            <TableSection>
-                <ViewCell>
-                    <DatePicker Date="{Binding Path=Sitting.Date}" />
-                </ViewCell>
-                <ViewCell>
-                    <TimePicker Time="{Binding Path=Sitting.Time}" />
-                </ViewCell>
-                <ViewCell>
-                    <StackLayout>
-                        <!--<combobox:SfComboBox x:Name="combo"
-                                             DataSource="{Binding Meals}" DisplayMemberPath="Name">
+        <StackLayout Orientation="Horizontal" HorizontalOptions="CenterAndExpand">
+            <DatePicker Date="{Binding Path=Sitting.Date}" Format="dddd, dd MMMM yyyy" />
+        </StackLayout>
 
+        <Frame HasShadow="True">
+            <StackLayout Orientation="Vertical">
+                <StackLayout Orientation="Horizontal">
+                    <Label Text="Meal" TextColor="Black" VerticalTextAlignment="Center"/>
+                    <Picker x:Name="sittingMealPicker"
+                            Title="Select Meal..."
+                            ItemsSource="{Binding Meals}"
+                            ItemDisplayBinding="{Binding Name}"
+                            SelectedItem="onSittingMealSelected"
+                            FontSize="Medium"
+                            HorizontalOptions="FillAndExpand"/>
+                    <Label TextColor="Black" VerticalTextAlignment="Center" Text="Time" HorizontalOptions="End"/>
+                    <TimePicker Time="{Binding Path=Sitting.Time}" HorizontalOptions="End" />
+                </StackLayout>
+                <StackLayout Orientation="Horizontal">
+                    <Label Text="Number of Servings" TextColor="Black" VerticalTextAlignment="Center"/>
+                    <Entry x:Name="servingSizeGramsText" FontSize="Medium"
+                           Keyboard="Numeric"
+                           Text="{Binding Path=Meal.ServingSizeGrams}"
+                           HorizontalOptions="FillAndExpand"/>
+                    <Button Text="Add Meal" Command="{Binding RandomMealCommand}" >
+                    </Button>
+                </StackLayout>
+            </StackLayout>
+        </Frame>
 
-                        </combobox:SfComboBox>-->
+        <Frame HasShadow="True" Padding="0">
+            <StackLayout Orientation="Vertical">
+                <Grid Padding="16,8,16,0">
+                    <Grid.RowDefinitions>
+                        <RowDefinition Height="auto"/>
+                    </Grid.RowDefinitions>
+                    <Label Text="Servings" Grid.Column="0"
+                                           TextColor="Black"
+                                           VerticalTextAlignment="Center"/>
+                    <Label Text="Kj / Serving" 
+                           Grid.Column="1"
+                                           TextColor="Black"
+                                           HorizontalOptions="CenterAndExpand"
+                                           VerticalTextAlignment="Center"/>
+                    <Label Text="Ingredient" Grid.Column="2"
+                                           TextColor="Black"
+                                           HorizontalOptions="End"
+                                           VerticalTextAlignment="Center"/>
+                </Grid>
+                <ListView x:Name="addMealIngredientList"
+                        ItemsSource="{Binding Path=Sitting.SittingMeals}">
+                    <ListView.ItemTemplate>
+                        <DataTemplate>
+                            <ViewCell>
+                                <Grid Padding="16,0,16,8">
+                                    <Grid.RowDefinitions>
+                                        <RowDefinition Height="auto"/>
+                                    </Grid.RowDefinitions>
+                                    <Label Text="{Binding Path=NumberOfServings}"
+                                           Grid.Column="0"
+                                           VerticalTextAlignment="Center"/>
+                                    <Label Text="{Binding Path=Meal.Kj}" 
+                                           Grid.Column="1"
+                                           HorizontalOptions="CenterAndExpand"
+                                           VerticalTextAlignment="Center"/>
+                                    <Label Text="{Binding Path=Meal.Name}"
+                                           Grid.Column="2"
+                                           HorizontalOptions="End"
+                                           VerticalTextAlignment="Center"/>
+                                </Grid>
+                            </ViewCell>
+                        </DataTemplate>
+                    </ListView.ItemTemplate>
 
-                        <Picker x:Name="mealIngredientPicker"
-                                Title="Select Meal..."
-                                ItemsSource="{Binding Meals}"
-                                ItemDisplayBinding="{Binding Name}"
-                                SelectedItem="onMealIngredientSelected"
-                        />
-                    </StackLayout>
-                </ViewCell>
-            </TableSection>
-
-            <TableSection>
-                <ViewCell>
-                    <Button Text="Add Meal" Command="{Binding RandomMealCommand}" />
-                </ViewCell>
-                <ViewCell>
-                    <Button Text="Save" Command="{Binding SaveCommand}" />
-                </ViewCell>
-            </TableSection>
-
-        </TableView>
+                </ListView>
+            </StackLayout>
+        </Frame>
+        <Button Text="Save" Command="{Binding SaveCommand}" Margin="0,16,0,16" Padding="0"/>
+    </StackLayout>
+    <!--<StackLayout Margin="10">
         
+        <Button Text="Save" Command="{Binding SaveCommand}" />
         <ListView x:Name="mealList"
                   ItemsSource="{Binding Path=Sitting.SittingMeals}"
-                  HeightRequest="550">
+                  FlexLayout.Grow="1">
 
             <ListView.ItemTemplate>
                 <DataTemplate>
                     <ViewCell>
-                        <Grid>
-                            <StackLayout Orientation="Horizontal" Padding="15,10,10,0">
-                                <Label Grid.Column="1" Text="{Binding Path=Name}"/>
-                                <Label Grid.Column="2" Text="{Binding Path=NumberOfServings}"/>
-                            </StackLayout>
-                        </Grid>
-                    </ViewCell>
+                        <StackLayout Orientation="Horizontal" Padding="15,10,10,0">
+                            <Label Grid.Column="1" Text="{Binding Path=Meal.Name}"/>
+                            <Label Grid.Column="2" Text="{Binding Path=NumberOfServings}"/>
+                        </StackLayout>
+                    </ViewCell>                    
                 </DataTemplate>
             </ListView.ItemTemplate>
 
         </ListView>
         
-    </StackLayout>
+    </StackLayout>-->
 </ContentPage>

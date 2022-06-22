@@ -6,14 +6,14 @@ using Xamarin.Forms;
 
 namespace NutritionApp.Views
 {
-    public partial class SittingDetailsViewPage : ContentPage
+    public partial class SittingDetailPage : ContentPage
     {
-        public SittingDetailsViewPage(Sitting sitting)
+        public SittingDetailPage(Sitting sitting)
         {
             InitializeComponent();
             var pageService = new PageService();
             Title = (sitting.Id == 0) ? "New Sitting" : "Edit Sitting";
-            BindingContext = new SittingDetailPageViewModel(sitting ?? new Sitting(), pageService);
+            ViewModel = new SittingDetailPageViewModel(sitting ?? new Sitting(), pageService);
         }
 
         // set ViewModel

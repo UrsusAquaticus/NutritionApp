@@ -33,16 +33,16 @@
             <ListView x:Name="mealList"
                       ItemsSource="{Binding Meals}"
                       SelectedItem="{Binding SelectedMeal, Mode=TwoWay}"
-                      ItemSelected="OnMealSelected">
+                      ItemSelected="OnMealSelected"
+                      Margin="16,0,16,0">
                 
                 <ListView.ItemTemplate>
                     <DataTemplate>
                         <ViewCell>
-                            <Grid Padding="10">
+                            <Grid>
                                 <StackLayout Orientation="Horizontal">
-                                    <Label Text="{Binding Name}"/>
-                                </StackLayout>
-                                <StackLayout Orientation="Horizontal" HorizontalOptions="EndAndExpand">
+                                    <Label Text="{Binding Name}" VerticalTextAlignment="Center"/>
+                                    <Label Text="{Binding Kj}" VerticalTextAlignment="Center" HorizontalOptions="EndAndExpand" Margin="0,0,16,0"/>
                                     <ImageButton
                                         Source="delete.png"
                                         HorizontalOptions="End"
@@ -50,6 +50,7 @@
                                         BackgroundColor="white"
                                         Command="{Binding Source={RelativeSource AncestorType={x:Type local:MealsPageViewModel}}, Path=DeleteMealCommand}"
                                         CommandParameter="{Binding}"
+                                        Padding="8"
                                     />
                                 </StackLayout>
                             </Grid>

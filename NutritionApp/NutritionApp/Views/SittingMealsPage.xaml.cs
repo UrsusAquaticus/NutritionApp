@@ -24,16 +24,15 @@ namespace NutritionApp.Views
             InitializeComponent();
         }
 
+        void OnSittingMealSelected(object sender, SelectedItemChangedEventArgs e)
+        {
+            ViewModel.SelectSittingMealCommand.Execute(e.SelectedItem);
+        }
+
         public SittingMealsViewModel ViewModel
         {
             get { return BindingContext as SittingMealsViewModel; }
             set { BindingContext = value; }
         }
-
-        void OnSittingMealSelected(object sender, SelectedItemChangedEventArgs e)
-        {
-            
-        }
-
     }
 }

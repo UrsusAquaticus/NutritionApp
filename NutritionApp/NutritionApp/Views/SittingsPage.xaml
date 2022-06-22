@@ -33,24 +33,25 @@
         <ListView x:Name="sittingList"
                   ItemsSource="{Binding Path=Profile.Sittings}"
                   SelectedItem="{Binding SelectedSitting, Mode=TwoWay}"
-                  ItemSelected="OnSittingSelected">
+                  ItemSelected="OnSittingSelected"
+                      Margin="16,0,16,0">
             <ListView.ItemTemplate>
                 <DataTemplate>
                     <ViewCell>
-                        <Grid Padding="12,0,0,0">
+                        <Grid>
                             <StackLayout Orientation="Horizontal">
-                                <Image Source="calendar.png"/>
-                                <Label Padding="0,10,0,0" Text="{Binding Path=Date, StringFormat='{0:MMMM dd, yyyy}'}"/>
+                                <Label Text="{Binding Path=Date, StringFormat='{0:dddd dd MMMM yyyy}'}" VerticalTextAlignment="Center"/>
+                                <Label Text="{Binding Kj}" VerticalTextAlignment="Center" HorizontalOptions="EndAndExpand" Margin="0,0,16,0"/>
+                                <ImageButton
+                                        Source="delete.png"
+                                        HorizontalOptions="End"
+                                        VerticalOptions="EndAndExpand"
+                                        BackgroundColor="white"
+                                        Command="{Binding Source={RelativeSource AncestorType={x:Type local:MealsPageViewModel}}, Path=DeleteMealCommand}"
+                                        CommandParameter="{Binding}"
+                                        Padding="8"
+                                    />
                             </StackLayout>
-
-                            <!-- move into SittingsDetailsViewPage -->
-                            <!--<StackLayout Orientation="Horizontal" HorizontalOptions="EndAndExpand">
-                                <ImageButton Source="pedit.png"
-                                             HorizontalOptions="End"
-                                             VerticalOptions="EndAndExpand"
-                                             Command="{Binding Source={RelativeSource AncestorType={x:Type local:SittingsPageViewModel}}, Path=SelectSittingCommand}"
-                                             CommandParameter="{Binding}"/>
-                            </StackLayout>-->
                         </Grid>
                     </ViewCell>
                 </DataTemplate>

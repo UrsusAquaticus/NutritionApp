@@ -19,6 +19,7 @@ namespace NutritionApp.Models
         private ObservableCollection<SittingMeal> sittingMeals;
         private DateTime date;
         private TimeSpan time;
+        private float kj;
 
         //Public
         [OneToMany(CascadeOperations = CascadeOperation.All)]
@@ -32,7 +33,7 @@ namespace NutritionApp.Models
                 }
                 return sittingMeals;
             }
-            set => SetValue(ref sittingMeals, value);
+            set { SetValue(ref sittingMeals, value); TotalKj(); }
         }
         public DateTime Date { get => date; set => SetValue(ref date, value); }
         public TimeSpan Time { get => time; set => SetValue(ref time, value); }
@@ -45,6 +46,18 @@ namespace NutritionApp.Models
                 NumberOfServings = meal.Item2
             };
             SittingMeals.Add(sittingMeal);
+        }
+        public float Kj { get => kj; }
+
+        private void TotalKj()
+        {
+            if (SittingMeals == null) return;
+            float total = 0f;
+            foreach (var sittingMeal in SittingMeals)
+            {
+                total += sittingMeal.Kj;
+            }
+            SetValue(ref kj, total);
         }
     }
 

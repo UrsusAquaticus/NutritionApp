@@ -2,57 +2,108 @@
 <ContentPage xmlns="http://xamarin.com/schemas/2014/forms"
              xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
              x:Class="NutritionApp.Views.MealDetailPage"
+             xmlns:help="clr-namespace:NutritionApp.Helpers"
              xmlns:local="clr-namespace:NutritionApp.ViewModels"  
              xmlns:model="clr-namespace:NutritionApp.Models"  
              xmlns:combobox="clr-namespace:Syncfusion.XForms.ComboBox;assembly=Syncfusion.SfComboBox.XForms"
              xmlns:ListCollection="clr-namespace:System.Collections.Generic;assembly=netstandard"
              Title="Meal Details">
-    <StackLayout>
+    <ContentPage.Resources>
+        <ResourceDictionary>
+            <help:MealIngredientConverter x:Key="MealIngredientConverter" />
+        </ResourceDictionary>
+    </ContentPage.Resources>
+    <StackLayout Padding="16,8,16,0">
         
-        <TableView Intent="Form" Margin="16,0">
-            
-            <TableSection>
-                <EntryCell Label="Name" Text="{Binding Path=Meal.Name}" />
-            </TableSection>
+        <StackLayout Orientation="Horizontal">
+            <Label Text="Meal Name" VerticalTextAlignment="Center"
+                                           TextColor="Black" FontSize="Header"/>
+            <Entry Text="{Binding Path=Meal.Name}" 
+                   HorizontalOptions="FillAndExpand"
+                   FontSize="Medium"/>
+        </StackLayout>
 
-            <TableSection>
-                <ViewCell>
+        <Frame HasShadow="True">
+            <StackLayout Orientation="Vertical">
+                <StackLayout Orientation="Horizontal">
+                    <Label Text="Ingredient" 
+                                           TextColor="Black" VerticalTextAlignment="Center"/>
                     <Picker x:Name="mealIngredientPicker"
-                                Title="Select Ingredient..."
-                                ItemsSource="{Binding Ingredients}"
-                                ItemDisplayBinding="{Binding Name}"
-                                SelectedItem="onMealIngredientSelected"
-                        />
+                            Title="Select Ingredient..."
+                            ItemsSource="{Binding Ingredients}"
+                            ItemDisplayBinding="{Binding Name}"
+                            SelectedItem="onMealIngredientSelected"
+                            FontSize="Medium"
+                            HorizontalOptions="FillAndExpand"/>
+                </StackLayout>
+                <StackLayout Orientation="Horizontal">
+                    <Label Text="Number of Servings"
+                                           TextColor="Black" VerticalTextAlignment="Center"/>
+                    <Entry x:Name="servingSizeGramsText" FontSize="Medium"
+                           Keyboard="Numeric"
+                           Text="{Binding Path=Meal.ServingSizeGrams}"
+                           HorizontalOptions="FillAndExpand"/>
+                    <Button Text="Add Ingredient" Command="{Binding AddIngredientCommand}" >
+                        <Button.CommandParameter>
+                            <MultiBinding Converter="{StaticResource MealIngredientConverter}">
+                                <MultiBinding.Bindings>
+                                    <Binding Path="SelectedItem" Source="{x:Reference mealIngredientPicker}"/>
+                                    <Binding Path="Text" Source="{x:Reference servingSizeGramsText}"/>
+                                </MultiBinding.Bindings>
+                            </MultiBinding>
+                        </Button.CommandParameter>
+                    </Button>
+                </StackLayout>
+            </StackLayout>
+        </Frame>
 
-                </ViewCell>
-                <EntryCell Label="Serving Size (g)" Text="{Binding Path=Meal.ServingSizeGrams}"></EntryCell>
-                <ViewCell>
-                    <Button Text="Add Random Ingredient" Command="{Binding RandomIngredientCommand}" />
-                </ViewCell>
-            </TableSection>
+        <Frame HasShadow="True" Padding="0">
+            <StackLayout Orientation="Vertical">
+                <Grid Padding="16,8,16,0">
+                    <Grid.RowDefinitions>
+                        <RowDefinition Height="auto"/>
+                    </Grid.RowDefinitions>
+                    <Label Text="Servings" Grid.Column="0"
+                                           TextColor="Black"
+                                           VerticalTextAlignment="Center"/>
+                    <Label Text="Kj / Serving" 
+                           Grid.Column="1"
+                                           TextColor="Black"
+                                           HorizontalOptions="CenterAndExpand"
+                                           VerticalTextAlignment="Center"/>
+                    <Label Text="Ingredient" Grid.Column="2"
+                                           TextColor="Black"
+                                           HorizontalOptions="End"
+                                           VerticalTextAlignment="Center"/>
+                </Grid>
+                <ListView x:Name="addMealIngredientList"
+                        ItemsSource="{Binding Path=Meal.MealIngredients}">
+                    <ListView.ItemTemplate>
+                        <DataTemplate>
+                            <ViewCell>
+                                <Grid Padding="16,0,16,8">
+                                    <Grid.RowDefinitions>
+                                        <RowDefinition Height="auto"/>
+                                    </Grid.RowDefinitions>
+                                    <Label Text="{Binding Path=NumberOfServings}"
+                                           Grid.Column="0"
+                                           VerticalTextAlignment="Center"/>
+                                    <Label Text="{Binding Path=Ingredient.Kj}" 
+                                           Grid.Column="1"
+                                           HorizontalOptions="CenterAndExpand"
+                                           VerticalTextAlignment="Center"/>
+                                    <Label Text="{Binding Path=Ingredient.Name}"
+                                           Grid.Column="2"
+                                           HorizontalOptions="End"
+                                           VerticalTextAlignment="Center"/>
+                                </Grid>
+                            </ViewCell>
+                        </DataTemplate>
+                    </ListView.ItemTemplate>
 
-            <TableSection>
-                <ViewCell>
-                    <Button Text="Save" Command="{Binding SaveCommand}" />
-                </ViewCell>
-            </TableSection>
-
-        </TableView>
-
-        <ListView
-            x:Name="addMealIngredientList"
-            ItemsSource="{Binding Path=Meal.MealIngredients}"
-            HeightRequest="350">
-
-            <ListView.ItemTemplate>
-                <DataTemplate>
-                    <ViewCell>
-                        <Label Padding="15,10,10,0" Text="{Binding Path=Ingredient.Name}" TextColor="Black"></Label>
-                    </ViewCell>
-                </DataTemplate>
-            </ListView.ItemTemplate>
-
-        </ListView>
-
+                </ListView>
+            </StackLayout>
+        </Frame>
+        <Button Text="Save" Command="{Binding SaveCommand}" Margin="0,16,0,16" Padding="0"/>
     </StackLayout>
 </ContentPage>
