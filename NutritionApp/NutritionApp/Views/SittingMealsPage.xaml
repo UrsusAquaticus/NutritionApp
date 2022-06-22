@@ -7,14 +7,25 @@
              xmlns:model="clr-namespace:NutritionApp.Models"         
              Title="Sitting Meals">
 
-    <StackLayout>
+    <StackLayout Padding="10">
+
+        <Label Text="{Binding Path=Sitting.Date, StringFormat='{0:MMMM dd, yyyy}'}"
+               FontSize="20"
+               HorizontalOptions="Center"/>
         <ListView x:Name="sittingMealList"
                   ItemsSource="{Binding SittingMeals}"
-                  SelectedItem="{Binding SelectedSittingMeal, Mode=TwoWay}">
+                  SelectedItem="{Binding SelectedSittingMeal, Mode=TwoWay}"
+                  ItemSelected="OnSittingMealSelected">
             <ListView.ItemTemplate>
                 <DataTemplate>
                     <ViewCell>
-                        <Label Text="{Binding Path=Meal.Name}" />
+                        <Grid Padding="10">
+                            <StackLayout Orientation="Horizontal" HorizontalOptions="Start">
+                                <Label Text="{Binding Path=Meal.Name}" />
+                            </StackLayout>
+
+                        </Grid>
+                        
                     </ViewCell>
                 </DataTemplate>
             </ListView.ItemTemplate>

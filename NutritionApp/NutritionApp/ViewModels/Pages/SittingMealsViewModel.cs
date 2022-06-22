@@ -17,11 +17,15 @@ namespace NutritionApp.ViewModels
         private bool isDataLoaded;
         public Sitting Sitting { get; private set; }
         
+        // public ICommand SelectSittingMealCommand { get; private set; }
+
         public SittingMealsViewModel(Sitting sitting, IPageService pageService)
         {
             Sitting = sitting;
             this.pageService = pageService;
             sittingMealStore = App.Database.SittingMealStore;
+
+            // SelectSittingMealCommand = new Command(async () => await SelectSittingMeal());
 
             foreach (var sittingMeal in sitting.SittingMeals)
                 SittingMeals.Add(sittingMeal);
@@ -39,6 +43,7 @@ namespace NutritionApp.ViewModels
                 SetValue(ref sittingMeals, value);
             }
         }
+
 
     }
 }

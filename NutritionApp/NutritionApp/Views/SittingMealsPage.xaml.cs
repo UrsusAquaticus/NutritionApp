@@ -30,7 +30,10 @@ namespace NutritionApp.Views
             set { BindingContext = value; }
         }
 
-
+        void OnSittingMealSelected(object sender, SelectedItemChangedEventArgs e)
+        {
+            
+        }
 
     }
 }
