@@ -14,8 +14,8 @@ namespace NutritionApp.ViewModels
     {
         //https://medium.com/swlh/xamarin-forms-mvvm-how-to-work-with-sqlite-db-c-xaml-26fcae303edd
         //Look here for how to implement the custom interface 'IPageService'
-        private readonly IDataStore<Ingredient> ingredientStore;
-        private readonly IPageService pageService;
+        private readonly IDataStore<Ingredient> _ingredientStore;
+        private readonly IPageService _pageService;
         private bool _isDataLoaded;
 
         private ObservableCollection<Ingredient> ingredients = new ObservableCollection<Ingredient>();
@@ -44,11 +44,10 @@ namespace NutritionApp.ViewModels
         public ICommand DeleteIngredientCommand { get; private set; }
         public ICommand FilterIngredientCommand { get; private set; }
 
-        public IngredientsPageViewModel(IPageService pageService)
+        public IngredientsPageViewModel(IDataStore<Ingredient> ingredientStore, IPageService pageService)
         {
-            this.pageService = pageService;
-
-            ingredientStore = App.Database.IngredientStore;
+            _pageService = pageService;
+            _ingredientStore = ingredientStore;
 
             LoadDataCommand = new Command(async () => await LoadData());
             AddIngredientCommand = new Command(async () => await AddIngredient());
@@ -56,34 +55,34 @@ namespace NutritionApp.ViewModels
             DeleteIngredientCommand = new Command<Ingredient>(async c => await DeleteIngredient(c));
             FilterIngredientCommand = new Command<string>(async c => await FilterIngredient(c));
 
-            MessagingCenter.Subscribe<IngredientDetailPageViewModel, Ingredient>(this, Events.IngredientAdded, OnIngredientAdded);
-            MessagingCenter.Subscribe<IngredientDetailPageViewModel, Ingredient>(this, Events.IngredientUpdated, OnIngredientUpdated);
+            MessagingCenter.Subscribe<object, Ingredient>(this, Events.IngredientAdded, OnIngredientAdded);
+            MessagingCenter.Subscribe<object, Ingredient>(this, Events.IngredientUpdated, OnIngredientUpdated);
         }
 
-        private void OnIngredientAdded(IngredientDetailPageViewModel source, Ingredient ingredient)
+        private void OnIngredientAdded(object source, Ingredient ingredient)
         {
             Ingredients.Add(ingredient);
         }
-        private void OnIngredientUpdated(IngredientDetailPageViewModel source, Ingredient ingredient)
+        private void OnIngredientUpdated(object source, Ingredient ingredient)
         {
             var ingredientInList = Ingredients.Single(c => c.Id == ingredient.Id);
             ingredientInList = ingredient;
 
         }
 
-        private async Task LoadData()
+        public async Task LoadData()
         {
             if (_isDataLoaded)
                 return;
             _isDataLoaded = true;
-            var ingredients = await ingredientStore.GetAsync();
+            var ingredients = await _ingredientStore.GetAsync();
             foreach (var ingredient in ingredients)
                 Ingredients.Add(ingredient);
         }
 
         private async Task AddIngredient()
         {
-            await pageService.PushAsync(new IngredientDetailPage(new Ingredient()));
+            await _pageService.PushAsync(new IngredientDetailPage(new Ingredient()));
         }
 
         private async Task SelectIngredient(Ingredient ingredient)
@@ -91,15 +90,15 @@ namespace NutritionApp.ViewModels
             if (ingredient == null)
                 return;
             SelectedIngredient = null;
-            await pageService.PushAsync(new IngredientDetailPage(ingredient));
+            await _pageService.PushAsync(new IngredientDetailPage(ingredient));
         }
 
         private async Task DeleteIngredient(Ingredient ingredient)
         {
-            if (await pageService.DisplayAlert("Warning", $"Are you sure you want to delete {ingredient.Name}?", "Yes", "No"))
+            if (await _pageService.DisplayAlert("Warning", $"Are you sure you want to delete {ingredient.Name}?", "Yes", "No"))
             {
                 Ingredients.Remove(ingredient);
-                await ingredientStore.DeleteAsync(ingredient);
+                await _ingredientStore.DeleteAsync(ingredient);
             }
         }
 
@@ -108,7 +107,7 @@ namespace NutritionApp.ViewModels
         {
             // check if queryString is null, if not put to lower, if null return empty string
             var normalizedQuery = queryString?.ToLower() ?? "";
-            var _ingredients = await ingredientStore.GetAsync();
+            var _ingredients = await _ingredientStore.GetAsync();
             if (!string.IsNullOrEmpty(normalizedQuery))
             {
                 _ingredients = _ingredients.Where(p => p.Name.ToLowerInvariant().Contains(normalizedQuery));
