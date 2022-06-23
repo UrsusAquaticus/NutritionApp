@@ -38,7 +38,7 @@ namespace NutritionApp.Models
         }
         public string Name { get => name; set => SetValue(ref name, value);  }
         public float ServingSizeGrams { get => servingSizeGrams; set {  SetValue(ref servingSizeGrams, value); TotalKj(); } }
-        public float Kj { get => kj; }
+        public float Kj { get => kj; private set => SetValue(ref kj, value); }
 
         public void AddIngredient(Tuple<Ingredient, float> ingredient)
         {
@@ -58,7 +58,7 @@ namespace NutritionApp.Models
             {
                 total += mealIngredient.Kj;
             }
-            SetValue(ref kj, total);
+            Kj = total;
         }
     }
 

@@ -9,9 +9,12 @@ namespace NutritionApp.Helpers
 {
     public class MealIngredientConverter : IMultiValueConverter
     {
+        //These are used in MultiBinding so that multiple parameters can be passed into a command
         public object Convert(object[] values, Type targetType, object parameter, CultureInfo culture)
         {
-            if(values[0]!=null && values[1]!=null && values.Length == 2)
+            //Values[0] should be an Ingredient
+            //Values[1] should be a float
+            if (values[0]!=null && values[1]!=null && values.Length == 2)
             {
                 var str = values[1].ToString();
                 if (str.Length == 0) return null;
@@ -23,6 +26,7 @@ namespace NutritionApp.Helpers
             return null;
         }
 
+        //Not used
         public object[] ConvertBack(object value, Type[] targetTypes, object parameter, CultureInfo culture)
         {
             throw new NotImplementedException();

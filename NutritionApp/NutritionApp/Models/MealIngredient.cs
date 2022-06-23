@@ -28,13 +28,14 @@ namespace NutritionApp.Models
         [ManyToOne(CascadeOperations = CascadeOperation.All)]
         public Ingredient Ingredient { get => ingredient; set { SetValue(ref ingredient, value); TotalKj(); } }
         public float NumberOfServings { get => numberOfServings; set { SetValue(ref numberOfServings, value); TotalKj(); } }
-        public float Kj { get => kj; }
+        public float Kj { get => kj; private set => SetValue(ref kj, value); }
 
         private void TotalKj()
         {
             if (Ingredient == null) return;
-            var n = Ingredient.Kj / Ingredient.ServingSizeGrams * NumberOfServings;
-            SetValue(ref kj, n);
+            //var n = Ingredient.Kj / Ingredient.ServingSizeGrams * NumberOfServings;
+            var n = Ingredient.Kj * NumberOfServings;
+            Kj = n;
         }
     }
 }

@@ -55,15 +55,15 @@ namespace NutritionApp.ViewModels
             DeleteIngredientCommand = new Command<Ingredient>(async c => await DeleteIngredient(c));
             FilterIngredientCommand = new Command<string>(async c => await FilterIngredient(c));
 
-            MessagingCenter.Subscribe<object, Ingredient>(this, Events.IngredientAdded, OnIngredientAdded);
-            MessagingCenter.Subscribe<object, Ingredient>(this, Events.IngredientUpdated, OnIngredientUpdated);
+            MessagingCenter.Subscribe<IngredientDetailPageViewModel, Ingredient>(this, Events.IngredientAdded, OnIngredientAdded);
+            MessagingCenter.Subscribe<IngredientDetailPageViewModel, Ingredient>(this, Events.IngredientUpdated, OnIngredientUpdated);
         }
 
-        private void OnIngredientAdded(object source, Ingredient ingredient)
+        private void OnIngredientAdded(IngredientDetailPageViewModel source, Ingredient ingredient)
         {
             Ingredients.Add(ingredient);
         }
-        private void OnIngredientUpdated(object source, Ingredient ingredient)
+        private void OnIngredientUpdated(IngredientDetailPageViewModel source, Ingredient ingredient)
         {
             var ingredientInList = Ingredients.Single(c => c.Id == ingredient.Id);
             ingredientInList = ingredient;

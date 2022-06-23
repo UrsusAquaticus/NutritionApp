@@ -66,12 +66,17 @@
                     <Label Text="Servings" Grid.Column="0"
                                            TextColor="Black"
                                            VerticalTextAlignment="Center"/>
-                    <Label Text="Kj / Serving" 
-                           Grid.Column="1"
+                    <Label Text="Ingredient" Grid.Column="1"
                                            TextColor="Black"
                                            HorizontalOptions="CenterAndExpand"
                                            VerticalTextAlignment="Center"/>
-                    <Label Text="Ingredient" Grid.Column="2"
+                    <Label Text="Kj / Serving" 
+                           Grid.Column="2"
+                                           TextColor="Black"
+                                           HorizontalOptions="CenterAndExpand"
+                                           VerticalTextAlignment="Center"/>
+                    <Label Text="Serving (g)" 
+                           Grid.Column="3"
                                            TextColor="Black"
                                            HorizontalOptions="End"
                                            VerticalTextAlignment="Center"/>
@@ -88,12 +93,16 @@
                                     <Label Text="{Binding Path=NumberOfServings}"
                                            Grid.Column="0"
                                            VerticalTextAlignment="Center"/>
-                                    <Label Text="{Binding Path=Ingredient.Kj}" 
+                                    <Label Text="{Binding Path=Ingredient.Name}"
                                            Grid.Column="1"
                                            HorizontalOptions="CenterAndExpand"
                                            VerticalTextAlignment="Center"/>
-                                    <Label Text="{Binding Path=Ingredient.Name}"
+                                    <Label Text="{Binding Path=Ingredient.Kj}" 
                                            Grid.Column="2"
+                                           HorizontalOptions="CenterAndExpand"
+                                           VerticalTextAlignment="Center"/>
+                                    <Label Text="{Binding Path=Ingredient.ServingSizeGrams}" 
+                                           Grid.Column="3"
                                            HorizontalOptions="End"
                                            VerticalTextAlignment="Center"/>
                                 </Grid>
