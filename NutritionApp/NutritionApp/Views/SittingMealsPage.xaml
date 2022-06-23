@@ -1,0 +1,63 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<ContentPage xmlns="http://xamarin.com/schemas/2014/forms"
+             xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+             xmlns:behaviors="clr-namespace:Xamarin.Forms.BehaviorsPack;assembly=Xamarin.Forms.BehaviorsPack"
+             x:Class="NutritionApp.Views.SittingMealsPage"
+             xmlns:local="clr-namespace:NutritionApp.ViewModels"  
+             xmlns:model="clr-namespace:NutritionApp.Models"         
+             Title="Sitting Meals">
+
+    <StackLayout Padding="10">
+
+        <Label Text="{Binding Path=Sitting.Date, StringFormat='{0:dddd, dd MMMM yyyy}'}"
+               FontSize="20"
+               HorizontalOptions="Center"/>
+        <Grid Padding="16,8,16,0">
+            <Grid.RowDefinitions>
+                <RowDefinition Height="auto"/>
+            </Grid.RowDefinitions>
+            <Label Text="Servings" Grid.Column="0"
+                                           TextColor="Black"
+                                           VerticalTextAlignment="Center"/>
+            <Label Text="Kj / Serving" 
+                           Grid.Column="1"
+                                           TextColor="Black"
+                                           HorizontalOptions="CenterAndExpand"
+                                           VerticalTextAlignment="Center"/>
+            <Label Text="Meal" Grid.Column="2"
+                                           TextColor="Black"
+                                           HorizontalOptions="End"
+                                           VerticalTextAlignment="Center"/>
+        </Grid>
+        <ListView x:Name="sittingMealList"
+                  ItemsSource="{Binding SittingMeals}"
+                  SelectedItem="{Binding SelectedSittingMeal, Mode=TwoWay}"
+                  ItemSelected="OnSittingMealSelected">
+            <ListView.ItemTemplate>
+                <DataTemplate>
+                    <ViewCell>
+                        <Grid Padding="16,0,16,8">
+                            <Grid.RowDefinitions>
+                                <RowDefinition Height="auto"/>
+                            </Grid.RowDefinitions>
+                            <Label Text="{Binding Path=NumberOfServings}"
+                                           Grid.Column="0"
+                                           VerticalTextAlignment="Center"/>
+                            <Label Text="{Binding Path=Meal.Kj}" 
+                                           Grid.Column="1"
+                                           HorizontalOptions="CenterAndExpand"
+                                           VerticalTextAlignment="Center"/>
+                            <Label Text="{Binding Path=Meal.Name}"
+                                           Grid.Column="2"
+                                           HorizontalOptions="End"
+                                           VerticalTextAlignment="Center"/>
+                        </Grid>
+                    </ViewCell>
+                </DataTemplate>
+            </ListView.ItemTemplate>      
+        
+    
+        </ListView>
+    </StackLayout>
+   
+</ContentPage>

@@ -18,7 +18,8 @@ namespace NutritionApp.Views
         public IngredientsPage()
         {
             var pageService = new PageService();
-            ViewModel = new IngredientsPageViewModel(pageService);
+            var ingredientStore = App.Database.IngredientStore;
+            ViewModel = new IngredientsPageViewModel(ingredientStore, pageService);
             InitializeComponent();     
         }
 

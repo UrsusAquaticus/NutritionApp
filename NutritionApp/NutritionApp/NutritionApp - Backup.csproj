@@ -1,0 +1,57 @@
+<Project Sdk="Microsoft.NET.Sdk">
+
+  <PropertyGroup>
+    <TargetFramework>netstandard2.0</TargetFramework>
+    <ProduceReferenceAssembly>true</ProduceReferenceAssembly>
+  </PropertyGroup>
+
+  <ItemGroup>
+    <PackageReference Include="sqlite-net-pcl" Version="1.8.116" />
+    <PackageReference Include="SQLiteNetExtensions" Version="2.1.0" />
+    <PackageReference Include="SQLiteNetExtensions.Async" Version="2.1.0" />
+    <PackageReference Include="Syncfusion.Xamarin.Core" Version="20.1.0.60" />
+    <PackageReference Include="Syncfusion.Xamarin.Expander" Version="20.1.0.60" />
+    <PackageReference Include="Xamarin.Forms" Version="5.0.0.2478" />  
+    <PackageReference Include="Xamarin.Essentials" Version="1.6.1" />  
+    <PackageReference Include="Xamarin.Forms.BehaviorsPack" Version="3.0.0" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <Compile Update="Views\SittingDetailPage.xaml.cs">
+      <DependentUpon>SittingDetailPage.xaml</DependentUpon>
+    </Compile>
+    <Compile Update="Views\MealDetailPage.xaml.cs">
+      <DependentUpon>MealDetailPage.xaml</DependentUpon>
+    </Compile>
+    <Compile Update="Views\IngredientsPage.xaml.cs">
+      <DependentUpon>IngredientsPage.xaml</DependentUpon>
+    </Compile>
+    <Compile Update="Views\MealsPage.xaml.cs">
+      <DependentUpon>MealsPage.xaml</DependentUpon>
+    </Compile>
+    <Compile Update="Views\IndexPage.xaml.cs">
+      <DependentUpon>IndexPage.xaml</DependentUpon>
+    </Compile>
+    <Compile Update="Views\IngredientDetailPage.xaml.cs">
+      <DependentUpon>IngredientDetailPage.xaml</DependentUpon>
+    </Compile>
+    <Compile Update="Views\SittingsPage.xaml.cs">
+      <DependentUpon>SittingsPage.xaml</DependentUpon>
+    </Compile>
+    <Compile Update="Views\ProfileDetailPage.xaml.cs">
+      <DependentUpon>ProfileDetailPage.xaml</DependentUpon>
+    </Compile>
+    <Compile Update="Views\ProfilesPage.xaml.cs">
+      <DependentUpon>ProfilesPage.xaml</DependentUpon>
+    </Compile>
+  </ItemGroup>
+
+  <ItemGroup>
+    <EmbeddedResource Update="Views\MealsPage.xaml">
+      <Generator>MSBuild:UpdateDesignTimeXaml</Generator>
+    </EmbeddedResource>
+    <EmbeddedResource Update="Views\SettingsPage.xaml">
+      <Generator>MSBuild:UpdateDesignTimeXaml</Generator>
+    </EmbeddedResource>
+  </ItemGroup>
+</Project>

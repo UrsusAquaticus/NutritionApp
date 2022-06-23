@@ -26,5 +26,6 @@ namespace NutritionApp.Views
             get { return BindingContext as SittingsPageViewModel; }
             set { BindingContext = value; }
         }
+
     }
 }

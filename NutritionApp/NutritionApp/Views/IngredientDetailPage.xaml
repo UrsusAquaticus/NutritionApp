@@ -5,19 +5,18 @@
              Title="Ingredient Details">
 
     <TableView Intent="Form" Margin="16,0">
-        <TableRoot>
-            <TableSection Title="Ingredient">
-                <EntryCell Label="Name" Text="{Binding Path=Ingredient.Name}" />
-                <EntryCell Label="Serving Size (g)" Text="{Binding Path=Ingredient.ServingSizeGrams}" />
-                <EntryCell Label="Kj" Text="{Binding Path=Ingredient.Kj}" />
 
-            </TableSection>
-            <TableSection>
-                <ViewCell>
-                    <Button Text="Save" Command="{Binding SaveCommand}" />
-                </ViewCell>
-            </TableSection>
-        </TableRoot>
+        <TableSection>
+            <EntryCell Label="Name" Text="{Binding Path=Ingredient.Name}" />
+            <EntryCell Label="Serving Size (g)" Text="{Binding Path=Ingredient.ServingSizeGrams}" />
+            <EntryCell Label="Kj" Text="{Binding Path=Ingredient.Kj}" />
+        </TableSection>
+        
+        <TableSection>
+            <ViewCell>
+                <Button Text="Save" Command="{Binding SaveCommand}" />
+            </ViewCell>
+        </TableSection>
     </TableView>
 
 </ContentPage>

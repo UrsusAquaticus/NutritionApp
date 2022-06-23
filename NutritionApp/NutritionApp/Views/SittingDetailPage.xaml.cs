@@ -13,7 +13,7 @@ namespace NutritionApp.Views
             InitializeComponent();
             var pageService = new PageService();
             Title = (sitting.Id == 0) ? "New Sitting" : "Edit Sitting";
-            BindingContext = new SittingDetailPageViewModel(sitting ?? new Sitting(), pageService);
+            ViewModel = new SittingDetailPageViewModel(sitting ?? new Sitting(), pageService);
         }
 
         // set ViewModel
@@ -21,6 +21,12 @@ namespace NutritionApp.Views
         {
             get { return BindingContext as SittingDetailPageViewModel; }
             set { BindingContext = value; }
+        }
+
+        protected override void OnAppearing()
+        {
+            ViewModel.LoadDataCommand.Execute(null);
+            base.OnAppearing();
         }
     }
 }

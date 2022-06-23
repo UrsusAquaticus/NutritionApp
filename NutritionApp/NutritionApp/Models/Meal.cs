@@ -16,6 +16,7 @@ namespace NutritionApp.Models
         private ObservableCollection<MealIngredient> mealIngredients;
         private string name;
         private float servingSizeGrams;
+        private float kj;
 
         //Public
         [OneToMany(CascadeOperations = CascadeOperation.All)]
@@ -29,10 +30,15 @@ namespace NutritionApp.Models
                 }
                 return mealIngredients;
             }
-            set => SetValue(ref mealIngredients, value);
+            set
+            {
+                SetValue(ref mealIngredients, value);
+                TotalKj();
+            }
         }
-        public string Name { get => name; set => SetValue(ref name, value); }
-        public float ServingSizeGrams { get => servingSizeGrams; set => SetValue(ref servingSizeGrams, value); }
+        public string Name { get => name; set => SetValue(ref name, value);  }
+        public float ServingSizeGrams { get => servingSizeGrams; set {  SetValue(ref servingSizeGrams, value); TotalKj(); } }
+        public float Kj { get => kj; private set => SetValue(ref kj, value); }
 
         public void AddIngredient(Tuple<Ingredient, float> ingredient)
         {
@@ -42,6 +48,17 @@ namespace NutritionApp.Models
                 NumberOfServings = ingredient.Item2
             };
             MealIngredients.Add(mealIngredient);
+        }
+
+        private void TotalKj()
+        {
+            if (MealIngredients == null) return;
+            float total = 0f;
+            foreach(var mealIngredient in MealIngredients)
+            {
+                total += mealIngredient.Kj;
+            }
+            Kj = total;
         }
     }
 

@@ -9,7 +9,7 @@
 
     <!-- has add new profile button on toolbar -->
     <ContentPage.ToolbarItems>
-        <ToolbarItem Text="+" Command="{Binding AddMealCommand}"/>
+        <ToolbarItem Icon="add.png" Command="{Binding AddMealCommand}"/>
     </ContentPage.ToolbarItems>
 
     <ContentPage.Content>
@@ -33,11 +33,28 @@
             <ListView x:Name="mealList"
                       ItemsSource="{Binding Meals}"
                       SelectedItem="{Binding SelectedMeal, Mode=TwoWay}"
-                      ItemSelected="OnMealSelected">
+                      ItemSelected="OnMealSelected"
+                      Margin="16,0,16,0">
                 
                 <ListView.ItemTemplate>
                     <DataTemplate>
-                        <TextCell Text="{Binding Name}" TextColor="Black" />
+                        <ViewCell>
+                            <Grid>
+                                <StackLayout Orientation="Horizontal">
+                                    <Label Text="{Binding Name}" VerticalTextAlignment="Center"/>
+                                    <Label Text="{Binding Kj}" VerticalTextAlignment="Center" HorizontalOptions="EndAndExpand" Margin="0,0,16,0"/>
+                                    <ImageButton
+                                        Source="delete.png"
+                                        HorizontalOptions="End"
+                                        VerticalOptions="EndAndExpand"
+                                        BackgroundColor="white"
+                                        Command="{Binding Source={RelativeSource AncestorType={x:Type local:MealsPageViewModel}}, Path=DeleteMealCommand}"
+                                        CommandParameter="{Binding}"
+                                        Padding="8"
+                                    />
+                                </StackLayout>
+                            </Grid>
+                        </ViewCell>
                     </DataTemplate>
                 </ListView.ItemTemplate>
 

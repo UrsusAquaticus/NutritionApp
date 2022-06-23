@@ -1,6 +1,7 @@
 ﻿using NutritionApp.Models;
 using NutritionApp.Persistence;
 using NutritionApp.Views;
+using System.Collections.Generic;
 using System.Collections.ObjectModel;
 using System.Linq;
 using System.Threading.Tasks;
@@ -32,6 +33,7 @@ namespace NutritionApp.ViewModels
                 SetValue(ref meals, value);
             }
         }
+
 
         public Meal SelectedMeal
         {
@@ -100,7 +102,7 @@ namespace NutritionApp.ViewModels
             if (await pageService.DisplayAlert("Warning", $"Are you sure you want to delete {meal.Name}?", "Yes", "No"))
             {
                 Meals.Remove(meal);
-                await mealStore.DeleteAsync(meal.Id);
+                await mealStore.DeleteAsync(meal);
             }
         }
 

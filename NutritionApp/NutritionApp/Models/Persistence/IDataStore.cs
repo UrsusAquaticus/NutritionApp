@@ -5,6 +5,7 @@ using System.Threading.Tasks;
 
 namespace NutritionApp.Persistence
 {
+    //Created a generic interface to simplify the implementation of common CRUD functionality
     public interface IDataStore<T>
     {
         //Create
@@ -19,7 +20,10 @@ namespace NutritionApp.Persistence
         Task<int> UpdateAsync(T obj);
         Task UpdateWithChildrenAsync(T obj);
         //Delete
-        Task<int> DeleteAsync(int id);
+        Task<int> DeleteAsync(T id);
+
+        //Populate with default data
+        Task<int> Default();
 
     }
 }

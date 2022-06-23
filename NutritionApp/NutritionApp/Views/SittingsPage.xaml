@@ -2,17 +2,103 @@
 <ContentPage xmlns="http://xamarin.com/schemas/2014/forms"
              xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
              xmlns:behaviors="clr-namespace:Xamarin.Forms.BehaviorsPack;assembly=Xamarin.Forms.BehaviorsPack"
-             x:Class="NutritionApp.Views.SittingsPage"
+             xmlns:xct="http://xamarin.com/schemas/2020/toolkit"
+             xmlns:expander="clr-namespace:Syncfusion.XForms.Expander;assembly=Syncfusion.Expander.XForms"
+             xmlns:listview="clr-namespace:Syncfusion.ListView.XForms;assembly=Syncfusion.SfListView.XForms"
+             xmlns:local="clr-namespace:NutritionApp.ViewModels"  
+             xmlns:model="clr-namespace:NutritionApp.Models"  
+             x:Class="NutritionApp.Views.SittingsPage"  
              Title="{Binding Title}">
 
     <!-- has add new sitting button on toolbar -->
-        <ContentPage.ToolbarItems>
-            <ToolbarItem Text="+" Command="{Binding AddSittingCommand}"/>
-        </ContentPage.ToolbarItems>
+    <ContentPage.ToolbarItems>
+        <ToolbarItem Icon="edit.png" Command="{Binding EditProfileCommand}" CommandParameter="{Binding Profile}"/>
+        <ToolbarItem Icon="add.png" Command="{Binding AddSittingCommand}"/>
+    </ContentPage.ToolbarItems>
 
-    <StackLayout>
 
-        <!-- list view of sittings -->
+    <StackLayout x:Name="container">
+
+        <StackLayout Orientation="Horizontal" HeightRequest="50">
+            <Image Source="targetKjs.png" Margin="5,5,-10,0" />
+
+            <TableView>
+                <TableSection>
+                    <EntryCell Label="Daily Target Kjs:" Text="{Binding Path=Profile.CurrentGoal.DailyKj}" Height="30" />
+                </TableSection>
+            </TableView>
+
+        </StackLayout>
+
+        <ListView x:Name="sittingList"
+                  ItemsSource="{Binding Path=Profile.Sittings}"
+                  SelectedItem="{Binding SelectedSitting, Mode=TwoWay}"
+                  ItemSelected="OnSittingSelected"
+                      Margin="16,0,16,0">
+            <ListView.ItemTemplate>
+                <DataTemplate>
+                    <ViewCell>
+                        <Grid>
+                            <StackLayout Orientation="Horizontal">
+                                <Label Text="{Binding Path=Date, StringFormat='{0:dddd dd MMMM yyyy}'}" VerticalTextAlignment="Center"/>
+                                <Label Text="{Binding Kj}" VerticalTextAlignment="Center" HorizontalOptions="EndAndExpand" Margin="0,0,16,0"/>
+                                <ImageButton
+                                        Source="delete.png"
+                                        HorizontalOptions="End"
+                                        VerticalOptions="EndAndExpand"
+                                        BackgroundColor="white"
+                                        Command="{Binding Source={RelativeSource AncestorType={x:Type local:MealsPageViewModel}}, Path=DeleteMealCommand}"
+                                        CommandParameter="{Binding}"
+                                        Padding="8"
+                                    />
+                            </StackLayout>
+                        </Grid>
+                    </ViewCell>
+                </DataTemplate>
+                
+            </ListView.ItemTemplate>
+
+        </ListView>
+
+        <!-- expander docs https://help.syncfusion.com/xamarin/expander/getting-started -->
+        <!-- listview docs https://help.syncfusion.com/xamarin/listview/getting-started -->
+        <!--<listview:SfListView x:Name="expanderListView"
+                             ItemsSource="{Binding Path=Profile.Sittings}"
+                             Padding="15,10,0,0"
+                             AutoFitMode="DynamicHeight"
+                             >
+            <listview:SfListView.ItemTemplate>
+                
+                <DataTemplate>
+
+                    <expander:SfExpander x:Name="mainExpander"
+                                         DynamicSizeMode="Content"
+                                         HeaderBackgroundColor="white"
+                                         IsExpanded="False"
+                                         >
+                        <expander:SfExpander.Header>
+                            <Grid>
+                                <Label Text="{Binding Path=Date, StringFormat='{0:MMMM dd, yyyy}'}" Padding="10"/>
+                            </Grid>
+                        </expander:SfExpander.Header>
+
+                        
+
+                    </expander:SfExpander>
+                    
+                    
+                </DataTemplate>
+                
+            </listview:SfListView.ItemTemplate>
+            
+        </listview:SfListView>-->
+        
+
+    </StackLayout>
+
+    <!--<StackLayout>
+
+        --><!-- list view of sittings --><!--
         <ListView x:Name="sittingsList"
               ItemsSource="{Binding Path=Profile.Sittings}"
               SelectedItem="{Binding SelectedSitting, Mode=TwoWay}"
@@ -20,16 +106,31 @@
             <ListView.ItemTemplate>
                 <DataTemplate>
                     <ViewCell>
-                        <Grid>
-                            <Label Grid.Column="1" Text="{Binding Path=Date}"/>
-                            <Label Grid.Column="2" Text="{Binding Path=Time}"/>
+                        <Grid Padding="10">
+                            <StackLayout Orientation="Horizontal">
+                                <Image Source="calendar.svg" />
+                                <Label Padding="0,2.5,0,0" Grid.Column="1" Text="{Binding Path=Date, StringFormat='{0:MMMM dd, yyyy}'}"/>
+                            </StackLayout>
+
+                            <StackLayout Orientation="Horizontal" HorizontalOptions="EndAndExpand">
+                                <ImageButton
+                                Source="delete.png"
+                                HorizontalOptions="End"
+                                VerticalOptions="EndAndExpand"
+                                BackgroundColor="white"
+                                Command="{Binding DeleteSittingCommand}"
+                                />
+                            </StackLayout>
                         </Grid>
                     </ViewCell>
                 </DataTemplate>
             </ListView.ItemTemplate>
-
         </ListView>
 
-    </StackLayout>
+        <pv:PancakeView>
+            
+        </pv:PancakeView>
+
+    </StackLayout>-->
 
 </ContentPage>

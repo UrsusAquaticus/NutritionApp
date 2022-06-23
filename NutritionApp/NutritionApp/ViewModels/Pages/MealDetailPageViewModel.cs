@@ -15,9 +15,29 @@ namespace NutritionApp.ViewModels
         private readonly IDataStore<Ingredient> ingredientStore;
 
         private readonly IPageService pageService;
+        private bool isDataLoaded;
         public Meal Meal { get; private set; }
+        
+        public ICommand AddIngredientCommand { get; private set; }
+        public ICommand LoadDataCommand { get; private set; }
         public ICommand SaveCommand { get; private set; }
         public ICommand RandomIngredientCommand { get; private set; }
+
+        private ObservableCollection<Ingredient> ingredients = new ObservableCollection<Ingredient>();
+        public ObservableCollection<Ingredient> Ingredients
+        {
+            get
+            {
+                return ingredients;
+            }
+            set
+            {
+                SetValue(ref ingredients, value);
+            }
+        }
+
+
+
         public MealDetailPageViewModel(Meal meal, IPageService pageService)
         {
             Meal = meal;
@@ -26,8 +46,25 @@ namespace NutritionApp.ViewModels
             mealStore = App.Database.MealStore;
             ingredientStore = App.Database.IngredientStore;
 
+            AddIngredientCommand = new Command<MealIngredient>(async (mi) => await AddIngredient(mi));
+            LoadDataCommand = new Command(async () => await LoadData());
             SaveCommand = new Command(async () => await Save());
             RandomIngredientCommand = new Command(async () => await RandomIngredient());
+        }
+
+        /// <summary>
+        /// Load Ingredient collection on load
+        /// unsure what else needed
+        /// </summary>
+        /// <returns></returns>
+        private async Task LoadData()
+        {
+            if (isDataLoaded)
+                return;
+            isDataLoaded = true;
+            var ingredients = await ingredientStore.GetAsync();
+            foreach (var ingredient in ingredients)
+                Ingredients.Add(ingredient);
         }
 
         private async Task RandomIngredient()
@@ -36,6 +73,15 @@ namespace NutritionApp.ViewModels
             var rndNumber = new Random().Next(0, ingredients.Count);
             var ingredient = ingredients[rndNumber];
             Meal.AddIngredient(new Tuple<Ingredient, float>(ingredient, (float)rndNumber));
+        }
+        private async Task AddIngredient(MealIngredient mealIngredient)
+        {
+            if(mealIngredient == null)
+            {
+                await pageService.DisplayAlert("Error", "Please enter an ingredient", "OK");
+                return;
+            }
+            Meal.AddIngredient(new Tuple<Ingredient, float>(mealIngredient.Ingredient, mealIngredient.NumberOfServings));
         }
 
         private async Task Save()

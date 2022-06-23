@@ -9,6 +9,7 @@ using SQLiteNetExtensionsAsync.Extensions;
 
 namespace NutritionApp.Persistence
 {
+    //Abstract class to simplify and standardise implementation of accessing SQLite
     public abstract class SQLiteDataStoreBase<T> : IDataStore<T> where T : new()
     {
         protected SQLiteAsyncConnection connection;
@@ -18,6 +19,9 @@ namespace NutritionApp.Persistence
             connection = db.GetConnection();
             connection.CreateTableAsync<T>();
             //connection.DeleteAllAsync<T>();
+
+            //Fire and forget
+            _ = Default();
         }
 
         //Create
@@ -59,9 +63,16 @@ namespace NutritionApp.Persistence
         }
 
         //Delete
-        public virtual async Task<int> DeleteAsync(int id)
+        public virtual async Task<int> DeleteAsync(T obj)
         {
-            return await connection.DeleteAsync(id);
+            return await connection.DeleteAsync(obj);
+        }
+
+        public virtual async Task<int> Default()
+        {
+            var count = await connection.Table<T>().CountAsync();
+            Console.WriteLine(typeof(T).ToString() + ": " + count + " Records");
+            return count;
         }
     }
 }
